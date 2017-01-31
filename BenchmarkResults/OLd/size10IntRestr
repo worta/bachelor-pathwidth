@@ -1,0 +1,9 @@
+Report:Tue Dec 27 17:44:26 2016
+Tested:RandomSize10 
+Name                     Generation Time          Solve Time               Pathwidth                
+RandomSize10/graph5      0.12630152               16.1                     4.00000000               
+RandomSize10/graph2      0.08323478               13.9                     6.00000000               
+RandomSize10/graph1      0.08094024               12.5                     6.00000000               
+RandomSize10/graph4      0.06653690               104.7                    6.00000000               
+RandomSize10/graph3      0.07144331               2.2                      5.00000000               
+RandomSize10/graph6      0.10188889               124.3                    5.00000000               

@@ -1,0 +1,10 @@
+Ganzzahl lineare Programme, oder auch Integer Linear Programs (kurz: ILPs), bieten ein 
+mächtiges Werkzeug zum Lösen von Problemen. Ein großer Vorteil in dieser Lösungsweise liegt
+in der deskriptiven Natur, d.h. es wird nicht wie bei einem prozeduralen Programm der 
+Lösungsweg angegeben, sondern nur das Problem beschrieben, während ein externes Programm, ein
+sogenantner Solver, die Lösung dessen auf einer dem Nutzer nicht 
+notwendigerweise bekannten Art vollführt. Einerseits macht es dies deutlich einfacher über
+das Problem selbst nachzudenken, auf der anderen Seite sorgt so Verbesserungen des Solvers
+auch für verbesserte Laufzeiten des eigenen Problems. 
+ 
+

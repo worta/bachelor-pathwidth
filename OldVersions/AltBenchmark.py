@@ -33,6 +33,7 @@ print('')
 
 
 resultFile=input("Enter the name of the file the report will be saved in :")
+scriptName=input("Enter script name:")
 #flags=input("Optional: Enter additional flags for glpsol:")
 processes=[]
 for index in testList:
@@ -44,7 +45,7 @@ for index in testList:
         print('Generating ILP for',graph)
         folderPath=testFolder+fileList[index]+'/'
         timer=time.time()
-        subprocess.run(['python',"AlternativeGenerateLP.py",graph,graph[:-5]+'lp'],stdout=subprocess.PIPE)
+        subprocess.run(['python',scriptName+".py",graph,graph[:-5]+'lp'],stdout=subprocess.PIPE)
         generationTime=time.time()-timer
         print('Generated ILP:',count,'/',len(graphList),'\n','Took',generationTime)
         processes.append((fileList[index]+'/'+ os.path.basename(graph)[:-6],generationTime,subprocess.run(['glpsol','--lp',graph[:-5]+'lp'],stdout=subprocess.PIPE,universal_newlines=True)))
