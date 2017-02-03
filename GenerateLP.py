@@ -8,8 +8,7 @@ def printMatrix(matrix):
 def generateCombinations(numOfElements,choose):
     return itertools.combinations(range(numOfElements),choose)
 
-# Vormals dachte ich bei der Begrenzung der Pfadlänge an sehr große Zahlen,
-# im Endeffekt ist sie jedoch bei optimaler Lage nie über Treeszie n.
+
 # Bei jedem (sinnvollen) Schritt von Tasche zu Tasche wird die Anzahl der
 # einsetzbaren Variablen um eine verringert. Daher ist die minimale Pfadlänge
 # die man für eine optimale Lösung benötigt auf die Baumgröße beschränkt.
@@ -91,6 +90,20 @@ with open(outputF, 'w') as ilpFile:
             binaryVars.append('overlap2Check{0}_{1}'.format(xi,xj))
             binaryVars.append('overlap_{0}_{1}'.format(xi,xj))
 
+
+
+    ilpFile.write('\Limit occurence of single connected nodes:\n')
+    #Hier könnte daran gedacht werden, warum nicht bei jedem Knoten auf die Anzahl der Edges limitieren,
+    #aber das ist nicht ügltig bei kreisförmigen Graphen
+    for i in range(graphSize):
+        edgeCount=0
+        for k in range(graphSize):
+            if (graph[i][k]==1):
+               edgeCount+=1
+        if edgeCount==1:
+            ilpFile.write('X{0}e - X{0}s <= {1}\n'.format(i,0))
+
+
     #Make condition for finding whether a two comb exists
     #TODO: Add the logic to the loop above to save time
     ilpFile.write('\\Mark whether two comb exists\n')
@@ -135,6 +148,8 @@ with open(outputF, 'w') as ilpFile:
             #ilpFile.write('Overlap{0} - {1} >= 0\n'.format(i,varName))
         binaryVars.append('Overlap{0}'.format(i))
     ilpFile.write('\n')
+
+
 
     ilpFile.write('Bounds \n')
     for i in range(graphSize):

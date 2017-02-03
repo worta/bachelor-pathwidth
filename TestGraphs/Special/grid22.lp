@@ -1,5 +1,5 @@
 Minimize 
-obj: Overlap4+Overlap3+Overlap2+Overlap1
+obj: Overlap4 + Overlap3 + Overlap2
 \Overlap(i) is a binary variable denoting the existence of the overlap of i intervals 
  
 Subject To 
@@ -28,42 +28,26 @@ x2x3_N2: X3s - X2e <= 0
 Overlap23: overlap_2_3 = 1 
 
 \Im Folgenden werden die Überlappungen der nicht notwendigerweise auftretenden Paare geprüft 
-\Noch werden die bereits oben geprüften Paare nicht ausgelassen 
 
 \2er Überschneidungen:
-\Check overlap between 0 and 1 
-X0X1(1): X0s - X1e + 4overlap1Check0_1 >= 1 
-X1X0(2): X1s - X0e + 4overlap2Check0_1 >= 1 
-O_0_1: -2overlap_0_1 + overlap1Check0_1 + overlap2Check0_1 <=1
-
-\Check overlap between 0 and 2 
-X0X2(1): X0s - X2e + 4overlap1Check0_2 >= 1 
-X2X0(2): X2s - X0e + 4overlap2Check0_2 >= 1 
-O_0_2: -2overlap_0_2 + overlap1Check0_2 + overlap2Check0_2 <=1
-
 \Check overlap between 0 and 3 
-X0X3(1): X0s - X3e + 4overlap1Check0_3 >= 1 
-X3X0(2): X3s - X0e + 4overlap2Check0_3 >= 1 
-O_0_3: -2overlap_0_3 + overlap1Check0_3 + overlap2Check0_3 <=1
+X0X3_1: X0s - X3e + 4 overlap1Check0_3 >= 1 
+X3X0_2: X3s - X0e + 4 overlap2Check0_3 >= 1 
+O_0_3: -2 overlap_0_3 + overlap1Check0_3 + overlap2Check0_3 <= 1
 
 \Check overlap between 1 and 2 
-X1X2(1): X1s - X2e + 4overlap1Check1_2 >= 1 
-X2X1(2): X2s - X1e + 4overlap2Check1_2 >= 1 
-O_1_2: -2overlap_1_2 + overlap1Check1_2 + overlap2Check1_2 <=1
+X1X2_1: X1s - X2e + 4 overlap1Check1_2 >= 1 
+X2X1_2: X2s - X1e + 4 overlap2Check1_2 >= 1 
+O_1_2: -2 overlap_1_2 + overlap1Check1_2 + overlap2Check1_2 <= 1
 
-\Check overlap between 1 and 3 
-X1X3(1): X1s - X3e + 4overlap1Check1_3 >= 1 
-X3X1(2): X3s - X1e + 4overlap2Check1_3 >= 1 
-O_1_3: -2overlap_1_3 + overlap1Check1_3 + overlap2Check1_3 <=1
-
-\Check overlap between 2 and 3 
-X2X3(1): X2s - X3e + 4overlap1Check2_3 >= 1 
-X3X2(2): X3s - X2e + 4overlap2Check2_3 >= 1 
-O_2_3: -2overlap_2_3 + overlap1Check2_3 + overlap2Check2_3 <=1
-
+\Limit occurence of single connected nodes:
 \Mark whether two comb exists
-Overlap2: -6Overlap2+ overlap_0_1+ overlap_0_2+ overlap_0_3+ overlap_1_2+ overlap_1_3+ overlap_2_3 <= 0 
- 
+Overlap2 - overlap_0_1 >= 0 
+Overlap2 - overlap_0_2 >= 0 
+Overlap2 - overlap_0_3 >= 0 
+Overlap2 - overlap_1_2 >= 0 
+Overlap2 - overlap_1_3 >= 0 
+Overlap2 - overlap_2_3 >= 0 
 \Check wether higher number of overlapping intervals exist 
 
 
@@ -76,13 +60,11 @@ X0X2X3: -overlap_0_2_3 + overlap_0_2 + overlap_0_3 + overlap_2_3 <= 2
 
 X1X2X3: -overlap_1_2_3 + overlap_1_2 + overlap_1_3 + overlap_2_3 <= 2
 
-Overlap3: -4Overlap3  + overlap_0_1_2+ overlap_0_1_3+ overlap_0_2_3+ overlap_1_2_3 <=0
+Overlap3: -4 Overlap3   + overlap_0_1_2 + overlap_0_1_3 + overlap_0_2_3 + overlap_1_2_3 <= 0
 \Length 4
 X0X1X2X3: -overlap_0_1_2_3 + overlap_0_1_2 + overlap_0_1_3 + overlap_0_2_3 + overlap_1_2_3 <= 3
 
-Overlap4: -1Overlap4  + overlap_0_1_2_3 <=0
-Overlap1: Overlap1 = 1
-
+Overlap4: -1 Overlap4   + overlap_0_1_2_3 <= 0
 Bounds 
 0 <= X0s <= 4 
 0 <= X0e <= 4 
@@ -104,26 +86,13 @@ X3s
 X3e 
 
 Binary 
-Overlap1 
 Overlap2 
-overlap1Check0_1 
-overlap2Check0_1 
-overlap_0_1 
-overlap1Check0_2 
-overlap2Check0_2 
-overlap_0_2 
 overlap1Check0_3 
 overlap2Check0_3 
 overlap_0_3 
 overlap1Check1_2 
 overlap2Check1_2 
 overlap_1_2 
-overlap1Check1_3 
-overlap2Check1_3 
-overlap_1_3 
-overlap1Check2_3 
-overlap2Check2_3 
-overlap_2_3 
 overlap_0_1_2 
 overlap_0_1_3 
 overlap_0_2_3 

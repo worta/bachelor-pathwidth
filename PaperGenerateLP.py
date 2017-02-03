@@ -22,9 +22,9 @@ with open(outputF, 'w') as ilpFile:
         beginningCond=''
         endCond=''
         for k in range(1,n+1):
-            gridNodeVar='x_{0}({1})'.format(i,k)
-            beginningVar='b_{0}({1})'.format(i,k)
-            endVar='e_{0}({1})'.format(i,k)
+            gridNodeVar='x_{0}({1})'.format(k,i)
+            beginningVar='b_{0}({1})'.format(k,i)
+            endVar='e_{0}({1})'.format(k,i)
             binaryVars.append(gridNodeVar) #see Paper (1)
             binaryVars.append(beginningVar) #Paper(2), limits will be added in the bounds section
             binaryVars.append(endVar) #Paper(3)
@@ -57,14 +57,15 @@ with open(outputF, 'w') as ilpFile:
             ilpFile.write(condE)
 
     #Conditions for paper (10) and (11)
-    for i in range(1,n+1):
+    for (xi,xj) in necessaryPairs: #=for every edge of the graph
         testSum=''
-        for (xi,xj) in necessaryPairs: #=for every edge of the graph
+        for i in range(1,n+1):
             gridEdgeVar='x_{0}({1}_{2})'.format(i,xi+1,xj+1)
             binaryVars.append(gridEdgeVar) # see Paper (10)
             testSum=testSum + ' + ' + gridEdgeVar
         testSum=testSum.lstrip(' +')
         testSum=testSum+' >= 1\n'
+        ilpFile.write("\Check all nodes with edges overlap\n") # hier ist der Fehler
         ilpFile.write(testSum) # see Paper (11)
 
     for i in range(1,n+1):
@@ -77,7 +78,6 @@ with open(outputF, 'w') as ilpFile:
             sumStr+=' + x_{0}({1})'.format(i,k)
         sumStr=sumStr.lstrip('+ ')
         sumStr+=' - p <= 1\n'
-
         ilpFile.write(sumStr)
     generalVars.append('p')
     ilpFile.write('Bounds \n')

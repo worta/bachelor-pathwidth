@@ -1,9 +1,34 @@
-Report:Sun Jan 15 20:15:42 2017
-Tested:RandomSize10 
+Report Gurobi:Fri Feb  3 12:59:44 2017
+Tested:RandomSize8 RandomSize10 
 Name                     Generation Time          Solve Time               Pathwidth                
-RandomSize10/graph5      0.08450222               20.8                     3.00000000               
-RandomSize10/graph2      0.08118462               7.0                      5.00000000               
-RandomSize10/graph1      0.06908416               3.8                      5.00000000               
-RandomSize10/graph4      0.07609319               49.3                     5.00000000               
-RandomSize10/graph3      0.06678009               0.8                      4.00000000               
-RandomSize10/graph6      0.06847047               137.8                    4.00000000               
+RandomSize8/graph25      0.05416488               0.12                     4.00000000               
+RandomSize8/graph5       0.03790330               0.13                     4.00000000               
+RandomSize8/graph2       0.03933477               0.02                     5.00000000               
+RandomSize8/graph7       0.04305624               0.06                     2.00000000               
+RandomSize8/graph12      0.04272055               0.08                     4.00000000               
+RandomSize8/graph10      0.04485797               0.07                     3.00000000               
+RandomSize8/graph24      0.04493093               0.06                     2.00000000               
+RandomSize8/graph1       0.04093694               0.10                     4.00000000               
+RandomSize8/graph17      0.04199790               0.11                     3.00000000               
+RandomSize8/graph14      0.03784036               0.13                     4.00000000               
+RandomSize8/graph4       0.04812765               0.11                     3.00000000               
+RandomSize8/graph23      0.03936243               0.09                     3.00000000               
+RandomSize8/graph3       0.03926277               0.10                     4.00000000               
+RandomSize8/graph11      0.03989434               0.09                     3.00000000               
+RandomSize8/graph13      0.03996443               0.10                     4.00000000               
+RandomSize8/graph18      0.03907489               0.11                     4.00000000               
+RandomSize8/graph21      0.06241583               0.09                     3.00000000               
+RandomSize8/graph15      0.03981733               0.12                     4.00000000               
+RandomSize8/graph9       0.04305672               0.07                     3.00000000               
+RandomSize8/graph19      0.04692268               0.09                     4.00000000               
+RandomSize8/graph16      0.04394602               0.10                     3.00000000               
+RandomSize8/graph20      0.04186868               0.22                     4.00000000               
+RandomSize8/graph6       0.04139900               0.08                     3.00000000               
+RandomSize8/graph22      0.03969693               0.12                     5.00000000               
+RandomSize8/graph8       0.04005432               0.14                     4.00000000               
+RandomSize10/graph5      0.04365205               0.14                     3.00000000               
+RandomSize10/graph2      0.04069876               0.33                     5.00000000               
+RandomSize10/graph1      0.03923201               0.27                     5.00000000               
+RandomSize10/graph4      0.05172777               0.59                     5.00000000               
+RandomSize10/graph3      0.04131293               0.15                     4.00000000               
+RandomSize10/graph6      0.05188250               0.32                     4.00000000               
