@@ -299,56 +299,23 @@ X7e - 8 countCheck6_X7e <= 5
 -2 count6_X7 + countCheck6_X7s  + countCheck6_X7e  <= 1
 
 count6_X0 + count6_X1 + count6_X2 + count6_X3 + count6_X4 + count6_X5 + count6_X6 + count6_X7 - pathWidth <= 1
-X0s + 8 countCheck7_X0s >= 8
-X0e - 8 countCheck7_X0e <= 6
--2 count7_X0 + countCheck7_X0s  + countCheck7_X0e  <= 1
-
-X1s + 8 countCheck7_X1s >= 8
-X1e - 8 countCheck7_X1e <= 6
--2 count7_X1 + countCheck7_X1s  + countCheck7_X1e  <= 1
-
-X2s + 8 countCheck7_X2s >= 8
-X2e - 8 countCheck7_X2e <= 6
--2 count7_X2 + countCheck7_X2s  + countCheck7_X2e  <= 1
-
-X3s + 8 countCheck7_X3s >= 8
-X3e - 8 countCheck7_X3e <= 6
--2 count7_X3 + countCheck7_X3s  + countCheck7_X3e  <= 1
-
-X4s + 8 countCheck7_X4s >= 8
-X4e - 8 countCheck7_X4e <= 6
--2 count7_X4 + countCheck7_X4s  + countCheck7_X4e  <= 1
-
-X5s + 8 countCheck7_X5s >= 8
-X5e - 8 countCheck7_X5e <= 6
--2 count7_X5 + countCheck7_X5s  + countCheck7_X5e  <= 1
-
-X6s + 8 countCheck7_X6s >= 8
-X6e - 8 countCheck7_X6e <= 6
--2 count7_X6 + countCheck7_X6s  + countCheck7_X6e  <= 1
-
-X7s + 8 countCheck7_X7s >= 8
-X7e - 8 countCheck7_X7e <= 6
--2 count7_X7 + countCheck7_X7s  + countCheck7_X7e  <= 1
-
-count7_X0 + count7_X1 + count7_X2 + count7_X3 + count7_X4 + count7_X5 + count7_X6 + count7_X7 - pathWidth <= 1
 Bounds 
-0 <= X0s <= 7 
-0 <= X0e <= 7 
-0 <= X1s <= 7 
-0 <= X1e <= 7 
-0 <= X2s <= 7 
-0 <= X2e <= 7 
-0 <= X3s <= 7 
-0 <= X3e <= 7 
-0 <= X4s <= 7 
-0 <= X4e <= 7 
-0 <= X5s <= 7 
-0 <= X5e <= 7 
-0 <= X6s <= 7 
-0 <= X6e <= 7 
-0 <= X7s <= 7 
-0 <= X7e <= 7 
+0 <= X0s <= 6 
+0 <= X0e <= 6 
+0 <= X1s <= 6 
+0 <= X1e <= 6 
+0 <= X2s <= 6 
+0 <= X2e <= 6 
+0 <= X3s <= 6 
+0 <= X3e <= 6 
+0 <= X4s <= 6 
+0 <= X4e <= 6 
+0 <= X5s <= 6 
+0 <= X5e <= 6 
+0 <= X6s <= 6 
+0 <= X6e <= 6 
+0 <= X7s <= 6 
+0 <= X7e <= 6 
 
 General 
 X0s 
@@ -367,7 +334,6 @@ X6s
 X6e 
 X7s 
 X7e 
-pathWidth 
 pathWidth 
 pathWidth 
 pathWidth 
@@ -545,29 +511,5 @@ count6_X6
 countCheck6_X7s 
 countCheck6_X7e 
 count6_X7 
-countCheck7_X0s 
-countCheck7_X0e 
-count7_X0 
-countCheck7_X1s 
-countCheck7_X1e 
-count7_X1 
-countCheck7_X2s 
-countCheck7_X2e 
-count7_X2 
-countCheck7_X3s 
-countCheck7_X3e 
-count7_X3 
-countCheck7_X4s 
-countCheck7_X4e 
-count7_X4 
-countCheck7_X5s 
-countCheck7_X5e 
-count7_X5 
-countCheck7_X6s 
-countCheck7_X6e 
-count7_X6 
-countCheck7_X7s 
-countCheck7_X7e 
-count7_X7 
 
 End

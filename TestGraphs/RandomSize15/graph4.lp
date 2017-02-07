@@ -258,7 +258,7 @@ X14s + 15 countCheck0_X14s >= 1
 X14e - 15 countCheck0_X14e <= -1
 -2 count0_X14 + countCheck0_X14s  + countCheck0_X14e  <= 1
 
-count0_X0 + count0_X1 + count0_X2 + count0_X3 + count0_X4 + count0_X5 + count0_X6 + count0_X7 + count0_X8 + count0_X9 + count0_X10 + count0_X11 + count0_X12 + count0_X13 + count0_X14 - pathWidth <= 0
+count0_X0 + count0_X1 + count0_X2 + count0_X3 + count0_X4 + count0_X5 + count0_X6 + count0_X7 + count0_X8 + count0_X9 + count0_X10 + count0_X11 + count0_X12 + count0_X13 + count0_X14 - pathWidth <= 1
 X0s + 15 countCheck1_X0s >= 2
 X0e - 15 countCheck1_X0e <= 0
 -2 count1_X0 + countCheck1_X0s  + countCheck1_X0e  <= 1
@@ -319,7 +319,7 @@ X14s + 15 countCheck1_X14s >= 2
 X14e - 15 countCheck1_X14e <= 0
 -2 count1_X14 + countCheck1_X14s  + countCheck1_X14e  <= 1
 
-count1_X0 + count1_X1 + count1_X2 + count1_X3 + count1_X4 + count1_X5 + count1_X6 + count1_X7 + count1_X8 + count1_X9 + count1_X10 + count1_X11 + count1_X12 + count1_X13 + count1_X14 - pathWidth <= 0
+count1_X0 + count1_X1 + count1_X2 + count1_X3 + count1_X4 + count1_X5 + count1_X6 + count1_X7 + count1_X8 + count1_X9 + count1_X10 + count1_X11 + count1_X12 + count1_X13 + count1_X14 - pathWidth <= 1
 X0s + 15 countCheck2_X0s >= 3
 X0e - 15 countCheck2_X0e <= 1
 -2 count2_X0 + countCheck2_X0s  + countCheck2_X0e  <= 1
@@ -380,7 +380,7 @@ X14s + 15 countCheck2_X14s >= 3
 X14e - 15 countCheck2_X14e <= 1
 -2 count2_X14 + countCheck2_X14s  + countCheck2_X14e  <= 1
 
-count2_X0 + count2_X1 + count2_X2 + count2_X3 + count2_X4 + count2_X5 + count2_X6 + count2_X7 + count2_X8 + count2_X9 + count2_X10 + count2_X11 + count2_X12 + count2_X13 + count2_X14 - pathWidth <= 0
+count2_X0 + count2_X1 + count2_X2 + count2_X3 + count2_X4 + count2_X5 + count2_X6 + count2_X7 + count2_X8 + count2_X9 + count2_X10 + count2_X11 + count2_X12 + count2_X13 + count2_X14 - pathWidth <= 1
 X0s + 15 countCheck3_X0s >= 4
 X0e - 15 countCheck3_X0e <= 2
 -2 count3_X0 + countCheck3_X0s  + countCheck3_X0e  <= 1
@@ -441,7 +441,7 @@ X14s + 15 countCheck3_X14s >= 4
 X14e - 15 countCheck3_X14e <= 2
 -2 count3_X14 + countCheck3_X14s  + countCheck3_X14e  <= 1
 
-count3_X0 + count3_X1 + count3_X2 + count3_X3 + count3_X4 + count3_X5 + count3_X6 + count3_X7 + count3_X8 + count3_X9 + count3_X10 + count3_X11 + count3_X12 + count3_X13 + count3_X14 - pathWidth <= 0
+count3_X0 + count3_X1 + count3_X2 + count3_X3 + count3_X4 + count3_X5 + count3_X6 + count3_X7 + count3_X8 + count3_X9 + count3_X10 + count3_X11 + count3_X12 + count3_X13 + count3_X14 - pathWidth <= 1
 X0s + 15 countCheck4_X0s >= 5
 X0e - 15 countCheck4_X0e <= 3
 -2 count4_X0 + countCheck4_X0s  + countCheck4_X0e  <= 1
@@ -502,7 +502,7 @@ X14s + 15 countCheck4_X14s >= 5
 X14e - 15 countCheck4_X14e <= 3
 -2 count4_X14 + countCheck4_X14s  + countCheck4_X14e  <= 1
 
-count4_X0 + count4_X1 + count4_X2 + count4_X3 + count4_X4 + count4_X5 + count4_X6 + count4_X7 + count4_X8 + count4_X9 + count4_X10 + count4_X11 + count4_X12 + count4_X13 + count4_X14 - pathWidth <= 0
+count4_X0 + count4_X1 + count4_X2 + count4_X3 + count4_X4 + count4_X5 + count4_X6 + count4_X7 + count4_X8 + count4_X9 + count4_X10 + count4_X11 + count4_X12 + count4_X13 + count4_X14 - pathWidth <= 1
 X0s + 15 countCheck5_X0s >= 6
 X0e - 15 countCheck5_X0e <= 4
 -2 count5_X0 + countCheck5_X0s  + countCheck5_X0e  <= 1
@@ -563,7 +563,7 @@ X14s + 15 countCheck5_X14s >= 6
 X14e - 15 countCheck5_X14e <= 4
 -2 count5_X14 + countCheck5_X14s  + countCheck5_X14e  <= 1
 
-count5_X0 + count5_X1 + count5_X2 + count5_X3 + count5_X4 + count5_X5 + count5_X6 + count5_X7 + count5_X8 + count5_X9 + count5_X10 + count5_X11 + count5_X12 + count5_X13 + count5_X14 - pathWidth <= 0
+count5_X0 + count5_X1 + count5_X2 + count5_X3 + count5_X4 + count5_X5 + count5_X6 + count5_X7 + count5_X8 + count5_X9 + count5_X10 + count5_X11 + count5_X12 + count5_X13 + count5_X14 - pathWidth <= 1
 X0s + 15 countCheck6_X0s >= 7
 X0e - 15 countCheck6_X0e <= 5
 -2 count6_X0 + countCheck6_X0s  + countCheck6_X0e  <= 1
@@ -624,7 +624,7 @@ X14s + 15 countCheck6_X14s >= 7
 X14e - 15 countCheck6_X14e <= 5
 -2 count6_X14 + countCheck6_X14s  + countCheck6_X14e  <= 1
 
-count6_X0 + count6_X1 + count6_X2 + count6_X3 + count6_X4 + count6_X5 + count6_X6 + count6_X7 + count6_X8 + count6_X9 + count6_X10 + count6_X11 + count6_X12 + count6_X13 + count6_X14 - pathWidth <= 0
+count6_X0 + count6_X1 + count6_X2 + count6_X3 + count6_X4 + count6_X5 + count6_X6 + count6_X7 + count6_X8 + count6_X9 + count6_X10 + count6_X11 + count6_X12 + count6_X13 + count6_X14 - pathWidth <= 1
 X0s + 15 countCheck7_X0s >= 8
 X0e - 15 countCheck7_X0e <= 6
 -2 count7_X0 + countCheck7_X0s  + countCheck7_X0e  <= 1
@@ -685,7 +685,7 @@ X14s + 15 countCheck7_X14s >= 8
 X14e - 15 countCheck7_X14e <= 6
 -2 count7_X14 + countCheck7_X14s  + countCheck7_X14e  <= 1
 
-count7_X0 + count7_X1 + count7_X2 + count7_X3 + count7_X4 + count7_X5 + count7_X6 + count7_X7 + count7_X8 + count7_X9 + count7_X10 + count7_X11 + count7_X12 + count7_X13 + count7_X14 - pathWidth <= 0
+count7_X0 + count7_X1 + count7_X2 + count7_X3 + count7_X4 + count7_X5 + count7_X6 + count7_X7 + count7_X8 + count7_X9 + count7_X10 + count7_X11 + count7_X12 + count7_X13 + count7_X14 - pathWidth <= 1
 X0s + 15 countCheck8_X0s >= 9
 X0e - 15 countCheck8_X0e <= 7
 -2 count8_X0 + countCheck8_X0s  + countCheck8_X0e  <= 1
@@ -746,7 +746,7 @@ X14s + 15 countCheck8_X14s >= 9
 X14e - 15 countCheck8_X14e <= 7
 -2 count8_X14 + countCheck8_X14s  + countCheck8_X14e  <= 1
 
-count8_X0 + count8_X1 + count8_X2 + count8_X3 + count8_X4 + count8_X5 + count8_X6 + count8_X7 + count8_X8 + count8_X9 + count8_X10 + count8_X11 + count8_X12 + count8_X13 + count8_X14 - pathWidth <= 0
+count8_X0 + count8_X1 + count8_X2 + count8_X3 + count8_X4 + count8_X5 + count8_X6 + count8_X7 + count8_X8 + count8_X9 + count8_X10 + count8_X11 + count8_X12 + count8_X13 + count8_X14 - pathWidth <= 1
 X0s + 15 countCheck9_X0s >= 10
 X0e - 15 countCheck9_X0e <= 8
 -2 count9_X0 + countCheck9_X0s  + countCheck9_X0e  <= 1
@@ -807,7 +807,7 @@ X14s + 15 countCheck9_X14s >= 10
 X14e - 15 countCheck9_X14e <= 8
 -2 count9_X14 + countCheck9_X14s  + countCheck9_X14e  <= 1
 
-count9_X0 + count9_X1 + count9_X2 + count9_X3 + count9_X4 + count9_X5 + count9_X6 + count9_X7 + count9_X8 + count9_X9 + count9_X10 + count9_X11 + count9_X12 + count9_X13 + count9_X14 - pathWidth <= 0
+count9_X0 + count9_X1 + count9_X2 + count9_X3 + count9_X4 + count9_X5 + count9_X6 + count9_X7 + count9_X8 + count9_X9 + count9_X10 + count9_X11 + count9_X12 + count9_X13 + count9_X14 - pathWidth <= 1
 X0s + 15 countCheck10_X0s >= 11
 X0e - 15 countCheck10_X0e <= 9
 -2 count10_X0 + countCheck10_X0s  + countCheck10_X0e  <= 1
@@ -868,7 +868,7 @@ X14s + 15 countCheck10_X14s >= 11
 X14e - 15 countCheck10_X14e <= 9
 -2 count10_X14 + countCheck10_X14s  + countCheck10_X14e  <= 1
 
-count10_X0 + count10_X1 + count10_X2 + count10_X3 + count10_X4 + count10_X5 + count10_X6 + count10_X7 + count10_X8 + count10_X9 + count10_X10 + count10_X11 + count10_X12 + count10_X13 + count10_X14 - pathWidth <= 0
+count10_X0 + count10_X1 + count10_X2 + count10_X3 + count10_X4 + count10_X5 + count10_X6 + count10_X7 + count10_X8 + count10_X9 + count10_X10 + count10_X11 + count10_X12 + count10_X13 + count10_X14 - pathWidth <= 1
 X0s + 15 countCheck11_X0s >= 12
 X0e - 15 countCheck11_X0e <= 10
 -2 count11_X0 + countCheck11_X0s  + countCheck11_X0e  <= 1
@@ -929,7 +929,7 @@ X14s + 15 countCheck11_X14s >= 12
 X14e - 15 countCheck11_X14e <= 10
 -2 count11_X14 + countCheck11_X14s  + countCheck11_X14e  <= 1
 
-count11_X0 + count11_X1 + count11_X2 + count11_X3 + count11_X4 + count11_X5 + count11_X6 + count11_X7 + count11_X8 + count11_X9 + count11_X10 + count11_X11 + count11_X12 + count11_X13 + count11_X14 - pathWidth <= 0
+count11_X0 + count11_X1 + count11_X2 + count11_X3 + count11_X4 + count11_X5 + count11_X6 + count11_X7 + count11_X8 + count11_X9 + count11_X10 + count11_X11 + count11_X12 + count11_X13 + count11_X14 - pathWidth <= 1
 X0s + 15 countCheck12_X0s >= 13
 X0e - 15 countCheck12_X0e <= 11
 -2 count12_X0 + countCheck12_X0s  + countCheck12_X0e  <= 1
@@ -990,7 +990,7 @@ X14s + 15 countCheck12_X14s >= 13
 X14e - 15 countCheck12_X14e <= 11
 -2 count12_X14 + countCheck12_X14s  + countCheck12_X14e  <= 1
 
-count12_X0 + count12_X1 + count12_X2 + count12_X3 + count12_X4 + count12_X5 + count12_X6 + count12_X7 + count12_X8 + count12_X9 + count12_X10 + count12_X11 + count12_X12 + count12_X13 + count12_X14 - pathWidth <= 0
+count12_X0 + count12_X1 + count12_X2 + count12_X3 + count12_X4 + count12_X5 + count12_X6 + count12_X7 + count12_X8 + count12_X9 + count12_X10 + count12_X11 + count12_X12 + count12_X13 + count12_X14 - pathWidth <= 1
 X0s + 15 countCheck13_X0s >= 14
 X0e - 15 countCheck13_X0e <= 12
 -2 count13_X0 + countCheck13_X0s  + countCheck13_X0e  <= 1
@@ -1051,38 +1051,38 @@ X14s + 15 countCheck13_X14s >= 14
 X14e - 15 countCheck13_X14e <= 12
 -2 count13_X14 + countCheck13_X14s  + countCheck13_X14e  <= 1
 
-count13_X0 + count13_X1 + count13_X2 + count13_X3 + count13_X4 + count13_X5 + count13_X6 + count13_X7 + count13_X8 + count13_X9 + count13_X10 + count13_X11 + count13_X12 + count13_X13 + count13_X14 - pathWidth <= 0
+count13_X0 + count13_X1 + count13_X2 + count13_X3 + count13_X4 + count13_X5 + count13_X6 + count13_X7 + count13_X8 + count13_X9 + count13_X10 + count13_X11 + count13_X12 + count13_X13 + count13_X14 - pathWidth <= 1
 Bounds 
-0 <= X0s <= 14 
-0 <= X0e <= 14 
-0 <= X1s <= 14 
-0 <= X1e <= 14 
-0 <= X2s <= 14 
-0 <= X2e <= 14 
-0 <= X3s <= 14 
-0 <= X3e <= 14 
-0 <= X4s <= 14 
-0 <= X4e <= 14 
-0 <= X5s <= 14 
-0 <= X5e <= 14 
-0 <= X6s <= 14 
-0 <= X6e <= 14 
-0 <= X7s <= 14 
-0 <= X7e <= 14 
-0 <= X8s <= 14 
-0 <= X8e <= 14 
-0 <= X9s <= 14 
-0 <= X9e <= 14 
-0 <= X10s <= 14 
-0 <= X10e <= 14 
-0 <= X11s <= 14 
-0 <= X11e <= 14 
-0 <= X12s <= 14 
-0 <= X12e <= 14 
-0 <= X13s <= 14 
-0 <= X13e <= 14 
-0 <= X14s <= 14 
-0 <= X14e <= 14 
+0 <= X0s <= 13 
+0 <= X0e <= 13 
+0 <= X1s <= 13 
+0 <= X1e <= 13 
+0 <= X2s <= 13 
+0 <= X2e <= 13 
+0 <= X3s <= 13 
+0 <= X3e <= 13 
+0 <= X4s <= 13 
+0 <= X4e <= 13 
+0 <= X5s <= 13 
+0 <= X5e <= 13 
+0 <= X6s <= 13 
+0 <= X6e <= 13 
+0 <= X7s <= 13 
+0 <= X7e <= 13 
+0 <= X8s <= 13 
+0 <= X8e <= 13 
+0 <= X9s <= 13 
+0 <= X9e <= 13 
+0 <= X10s <= 13 
+0 <= X10e <= 13 
+0 <= X11s <= 13 
+0 <= X11e <= 13 
+0 <= X12s <= 13 
+0 <= X12e <= 13 
+0 <= X13s <= 13 
+0 <= X13e <= 13 
+0 <= X14s <= 13 
+0 <= X14e <= 13 
 
 General 
 X0s 

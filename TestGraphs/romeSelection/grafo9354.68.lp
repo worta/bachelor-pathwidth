@@ -1,0 +1,32642 @@
+Minimize 
+obj: pathWidth
+Subject To 
+\Interval conditions,i.e. the end comes after the start 
+X0se: X0s - X0e <= 0 
+X1se: X1s - X1e <= 0 
+X2se: X2s - X2e <= 0 
+X3se: X3s - X3e <= 0 
+X4se: X4s - X4e <= 0 
+X5se: X5s - X5e <= 0 
+X6se: X6s - X6e <= 0 
+X7se: X7s - X7e <= 0 
+X8se: X8s - X8e <= 0 
+X9se: X9s - X9e <= 0 
+X10se: X10s - X10e <= 0 
+X11se: X11s - X11e <= 0 
+X12se: X12s - X12e <= 0 
+X13se: X13s - X13e <= 0 
+X14se: X14s - X14e <= 0 
+X15se: X15s - X15e <= 0 
+X16se: X16s - X16e <= 0 
+X17se: X17s - X17e <= 0 
+X18se: X18s - X18e <= 0 
+X19se: X19s - X19e <= 0 
+X20se: X20s - X20e <= 0 
+X21se: X21s - X21e <= 0 
+X22se: X22s - X22e <= 0 
+X23se: X23s - X23e <= 0 
+X24se: X24s - X24e <= 0 
+X25se: X25s - X25e <= 0 
+X26se: X26s - X26e <= 0 
+X27se: X27s - X27e <= 0 
+X28se: X28s - X28e <= 0 
+X29se: X29s - X29e <= 0 
+X30se: X30s - X30e <= 0 
+X31se: X31s - X31e <= 0 
+X32se: X32s - X32e <= 0 
+X33se: X33s - X33e <= 0 
+X34se: X34s - X34e <= 0 
+X35se: X35s - X35e <= 0 
+X36se: X36s - X36e <= 0 
+X37se: X37s - X37e <= 0 
+X38se: X38s - X38e <= 0 
+X39se: X39s - X39e <= 0 
+X40se: X40s - X40e <= 0 
+X41se: X41s - X41e <= 0 
+X42se: X42s - X42e <= 0 
+X43se: X43s - X43e <= 0 
+X44se: X44s - X44e <= 0 
+X45se: X45s - X45e <= 0 
+X46se: X46s - X46e <= 0 
+X47se: X47s - X47e <= 0 
+X48se: X48s - X48e <= 0 
+X49se: X49s - X49e <= 0 
+X50se: X50s - X50e <= 0 
+X51se: X51s - X51e <= 0 
+X52se: X52s - X52e <= 0 
+X53se: X53s - X53e <= 0 
+X54se: X54s - X54e <= 0 
+X55se: X55s - X55e <= 0 
+X56se: X56s - X56e <= 0 
+X57se: X57s - X57e <= 0 
+X58se: X58s - X58e <= 0 
+X59se: X59s - X59e <= 0 
+X60se: X60s - X60e <= 0 
+X61se: X61s - X61e <= 0 
+X62se: X62s - X62e <= 0 
+X63se: X63s - X63e <= 0 
+X64se: X64s - X64e <= 0 
+X65se: X65s - X65e <= 0 
+X66se: X66s - X66e <= 0 
+X67se: X67s - X67e <= 0 
+
+\Hier werden die notwendigen Überschneidungen geprüft, z.B. A und B müssen mind-
+\estens einmal zusammen auftreten da sie durch eine Kante verbunden sind
+x0x7_N1: X0s - X7e <= 0 
+x0x7_N2: X7s - X0e <= 0 
+
+x1x16_N1: X1s - X16e <= 0 
+x1x16_N2: X16s - X1e <= 0 
+
+x1x18_N1: X1s - X18e <= 0 
+x1x18_N2: X18s - X1e <= 0 
+
+x1x29_N1: X1s - X29e <= 0 
+x1x29_N2: X29s - X1e <= 0 
+
+x1x30_N1: X1s - X30e <= 0 
+x1x30_N2: X30s - X1e <= 0 
+
+x1x31_N1: X1s - X31e <= 0 
+x1x31_N2: X31s - X1e <= 0 
+
+x1x21_N1: X1s - X21e <= 0 
+x1x21_N2: X21s - X1e <= 0 
+
+x1x39_N1: X1s - X39e <= 0 
+x1x39_N2: X39s - X1e <= 0 
+
+x1x38_N1: X1s - X38e <= 0 
+x1x38_N2: X38s - X1e <= 0 
+
+x2x16_N1: X2s - X16e <= 0 
+x2x16_N2: X16s - X2e <= 0 
+
+x2x17_N1: X2s - X17e <= 0 
+x2x17_N2: X17s - X2e <= 0 
+
+x2x31_N1: X2s - X31e <= 0 
+x2x31_N2: X31s - X2e <= 0 
+
+x2x47_N1: X2s - X47e <= 0 
+x2x47_N2: X47s - X2e <= 0 
+
+x3x38_N1: X3s - X38e <= 0 
+x3x38_N2: X38s - X3e <= 0 
+
+x3x42_N1: X3s - X42e <= 0 
+x3x42_N2: X42s - X3e <= 0 
+
+x3x51_N1: X3s - X51e <= 0 
+x3x51_N2: X51s - X3e <= 0 
+
+x3x62_N1: X3s - X62e <= 0 
+x3x62_N2: X62s - X3e <= 0 
+
+x4x45_N1: X4s - X45e <= 0 
+x4x45_N2: X45s - X4e <= 0 
+
+x5x23_N1: X5s - X23e <= 0 
+x5x23_N2: X23s - X5e <= 0 
+
+x5x41_N1: X5s - X41e <= 0 
+x5x41_N2: X41s - X5e <= 0 
+
+x5x38_N1: X5s - X38e <= 0 
+x5x38_N2: X38s - X5e <= 0 
+
+x5x37_N1: X5s - X37e <= 0 
+x5x37_N2: X37s - X5e <= 0 
+
+x6x24_N1: X6s - X24e <= 0 
+x6x24_N2: X24s - X6e <= 0 
+
+x6x27_N1: X6s - X27e <= 0 
+x6x27_N2: X27s - X6e <= 0 
+
+x6x33_N1: X6s - X33e <= 0 
+x6x33_N2: X33s - X6e <= 0 
+
+x7x25_N1: X7s - X25e <= 0 
+x7x25_N2: X25s - X7e <= 0 
+
+x7x26_N1: X7s - X26e <= 0 
+x7x26_N2: X26s - X7e <= 0 
+
+x7x27_N1: X7s - X27e <= 0 
+x7x27_N2: X27s - X7e <= 0 
+
+x8x27_N1: X8s - X27e <= 0 
+x8x27_N2: X27s - X8e <= 0 
+
+x8x32_N1: X8s - X32e <= 0 
+x8x32_N2: X32s - X8e <= 0 
+
+x9x18_N1: X9s - X18e <= 0 
+x9x18_N2: X18s - X9e <= 0 
+
+x9x56_N1: X9s - X56e <= 0 
+x9x56_N2: X56s - X9e <= 0 
+
+x10x34_N1: X10s - X34e <= 0 
+x10x34_N2: X34s - X10e <= 0 
+
+x11x27_N1: X11s - X27e <= 0 
+x11x27_N2: X27s - X11e <= 0 
+
+x11x29_N1: X11s - X29e <= 0 
+x11x29_N2: X29s - X11e <= 0 
+
+x11x35_N1: X11s - X35e <= 0 
+x11x35_N2: X35s - X11e <= 0 
+
+x11x20_N1: X11s - X20e <= 0 
+x11x20_N2: X20s - X11e <= 0 
+
+x12x21_N1: X12s - X21e <= 0 
+x12x21_N2: X21s - X12e <= 0 
+
+x12x29_N1: X12s - X29e <= 0 
+x12x29_N2: X29s - X12e <= 0 
+
+x13x60_N1: X13s - X60e <= 0 
+x13x60_N2: X60s - X13e <= 0 
+
+x13x66_N1: X13s - X66e <= 0 
+x13x66_N2: X66s - X13e <= 0 
+
+x14x58_N1: X14s - X58e <= 0 
+x14x58_N2: X58s - X14e <= 0 
+
+x14x61_N1: X14s - X61e <= 0 
+x14x61_N2: X61s - X14e <= 0 
+
+x15x39_N1: X15s - X39e <= 0 
+x15x39_N2: X39s - X15e <= 0 
+
+x15x43_N1: X15s - X43e <= 0 
+x15x43_N2: X43s - X15e <= 0 
+
+x17x28_N1: X17s - X28e <= 0 
+x17x28_N2: X28s - X17e <= 0 
+
+x17x42_N1: X17s - X42e <= 0 
+x17x42_N2: X42s - X17e <= 0 
+
+x18x51_N1: X18s - X51e <= 0 
+x18x51_N2: X51s - X18e <= 0 
+
+x18x54_N1: X18s - X54e <= 0 
+x18x54_N2: X54s - X18e <= 0 
+
+x19x56_N1: X19s - X56e <= 0 
+x19x56_N2: X56s - X19e <= 0 
+
+x20x36_N1: X20s - X36e <= 0 
+x20x36_N2: X36s - X20e <= 0 
+
+x20x61_N1: X20s - X61e <= 0 
+x20x61_N2: X61s - X20e <= 0 
+
+x20x62_N1: X20s - X62e <= 0 
+x20x62_N2: X62s - X20e <= 0 
+
+x21x47_N1: X21s - X47e <= 0 
+x21x47_N2: X47s - X21e <= 0 
+
+x21x55_N1: X21s - X55e <= 0 
+x21x55_N2: X55s - X21e <= 0 
+
+x22x31_N1: X22s - X31e <= 0 
+x22x31_N2: X31s - X22e <= 0 
+
+x22x64_N1: X22s - X64e <= 0 
+x22x64_N2: X64s - X22e <= 0 
+
+x23x49_N1: X23s - X49e <= 0 
+x23x49_N2: X49s - X23e <= 0 
+
+x23x63_N1: X23s - X63e <= 0 
+x23x63_N2: X63s - X23e <= 0 
+
+x24x44_N1: X24s - X44e <= 0 
+x24x44_N2: X44s - X24e <= 0 
+
+x24x53_N1: X24s - X53e <= 0 
+x24x53_N2: X53s - X24e <= 0 
+
+x25x67_N1: X25s - X67e <= 0 
+x25x67_N2: X67s - X25e <= 0 
+
+x26x57_N1: X26s - X57e <= 0 
+x26x57_N2: X57s - X26e <= 0 
+
+x27x34_N1: X27s - X34e <= 0 
+x27x34_N2: X34s - X27e <= 0 
+
+x27x38_N1: X27s - X38e <= 0 
+x27x38_N2: X38s - X27e <= 0 
+
+x28x59_N1: X28s - X59e <= 0 
+x28x59_N2: X59s - X28e <= 0 
+
+x28x63_N1: X28s - X63e <= 0 
+x28x63_N2: X63s - X28e <= 0 
+
+x31x37_N1: X31s - X37e <= 0 
+x31x37_N2: X37s - X31e <= 0 
+
+x32x50_N1: X32s - X50e <= 0 
+x32x50_N2: X50s - X32e <= 0 
+
+x33x40_N1: X33s - X40e <= 0 
+x33x40_N2: X40s - X33e <= 0 
+
+x33x46_N1: X33s - X46e <= 0 
+x33x46_N2: X46s - X33e <= 0 
+
+x33x44_N1: X33s - X44e <= 0 
+x33x44_N2: X44s - X33e <= 0 
+
+x33x52_N1: X33s - X52e <= 0 
+x33x52_N2: X52s - X33e <= 0 
+
+x33x36_N1: X33s - X36e <= 0 
+x33x36_N2: X36s - X33e <= 0 
+
+x33x53_N1: X33s - X53e <= 0 
+x33x53_N2: X53s - X33e <= 0 
+
+x35x45_N1: X35s - X45e <= 0 
+x35x45_N2: X45s - X35e <= 0 
+
+x37x44_N1: X37s - X44e <= 0 
+x37x44_N2: X44s - X37e <= 0 
+
+x37x60_N1: X37s - X60e <= 0 
+x37x60_N2: X60s - X37e <= 0 
+
+x39x47_N1: X39s - X47e <= 0 
+x39x47_N2: X47s - X39e <= 0 
+
+x39x58_N1: X39s - X58e <= 0 
+x39x58_N2: X58s - X39e <= 0 
+
+x40x48_N1: X40s - X48e <= 0 
+x40x48_N2: X48s - X40e <= 0 
+
+x42x61_N1: X42s - X61e <= 0 
+x42x61_N2: X61s - X42e <= 0 
+
+x43x65_N1: X43s - X65e <= 0 
+x43x65_N2: X65s - X43e <= 0 
+
+x44x45_N1: X44s - X45e <= 0 
+x44x45_N2: X45s - X44e <= 0 
+
+x48x64_N1: X48s - X64e <= 0 
+x48x64_N2: X64s - X48e <= 0 
+
+x50x52_N1: X50s - X52e <= 0 
+x50x52_N2: X52s - X50e <= 0 
+
+x55x66_N1: X55s - X66e <= 0 
+x55x66_N2: X66s - X55e <= 0 
+
+\Limit occurence of single connected nodes:
+X0s + 68 countCheck0_X0s >= 1
+X0e - 68 countCheck0_X0e <= -1
+-2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1
+
+X1s + 68 countCheck0_X1s >= 1
+X1e - 68 countCheck0_X1e <= -1
+-2 count0_X1 + countCheck0_X1s  + countCheck0_X1e  <= 1
+
+X2s + 68 countCheck0_X2s >= 1
+X2e - 68 countCheck0_X2e <= -1
+-2 count0_X2 + countCheck0_X2s  + countCheck0_X2e  <= 1
+
+X3s + 68 countCheck0_X3s >= 1
+X3e - 68 countCheck0_X3e <= -1
+-2 count0_X3 + countCheck0_X3s  + countCheck0_X3e  <= 1
+
+X4s + 68 countCheck0_X4s >= 1
+X4e - 68 countCheck0_X4e <= -1
+-2 count0_X4 + countCheck0_X4s  + countCheck0_X4e  <= 1
+
+X5s + 68 countCheck0_X5s >= 1
+X5e - 68 countCheck0_X5e <= -1
+-2 count0_X5 + countCheck0_X5s  + countCheck0_X5e  <= 1
+
+X6s + 68 countCheck0_X6s >= 1
+X6e - 68 countCheck0_X6e <= -1
+-2 count0_X6 + countCheck0_X6s  + countCheck0_X6e  <= 1
+
+X7s + 68 countCheck0_X7s >= 1
+X7e - 68 countCheck0_X7e <= -1
+-2 count0_X7 + countCheck0_X7s  + countCheck0_X7e  <= 1
+
+X8s + 68 countCheck0_X8s >= 1
+X8e - 68 countCheck0_X8e <= -1
+-2 count0_X8 + countCheck0_X8s  + countCheck0_X8e  <= 1
+
+X9s + 68 countCheck0_X9s >= 1
+X9e - 68 countCheck0_X9e <= -1
+-2 count0_X9 + countCheck0_X9s  + countCheck0_X9e  <= 1
+
+X10s + 68 countCheck0_X10s >= 1
+X10e - 68 countCheck0_X10e <= -1
+-2 count0_X10 + countCheck0_X10s  + countCheck0_X10e  <= 1
+
+X11s + 68 countCheck0_X11s >= 1
+X11e - 68 countCheck0_X11e <= -1
+-2 count0_X11 + countCheck0_X11s  + countCheck0_X11e  <= 1
+
+X12s + 68 countCheck0_X12s >= 1
+X12e - 68 countCheck0_X12e <= -1
+-2 count0_X12 + countCheck0_X12s  + countCheck0_X12e  <= 1
+
+X13s + 68 countCheck0_X13s >= 1
+X13e - 68 countCheck0_X13e <= -1
+-2 count0_X13 + countCheck0_X13s  + countCheck0_X13e  <= 1
+
+X14s + 68 countCheck0_X14s >= 1
+X14e - 68 countCheck0_X14e <= -1
+-2 count0_X14 + countCheck0_X14s  + countCheck0_X14e  <= 1
+
+X15s + 68 countCheck0_X15s >= 1
+X15e - 68 countCheck0_X15e <= -1
+-2 count0_X15 + countCheck0_X15s  + countCheck0_X15e  <= 1
+
+X16s + 68 countCheck0_X16s >= 1
+X16e - 68 countCheck0_X16e <= -1
+-2 count0_X16 + countCheck0_X16s  + countCheck0_X16e  <= 1
+
+X17s + 68 countCheck0_X17s >= 1
+X17e - 68 countCheck0_X17e <= -1
+-2 count0_X17 + countCheck0_X17s  + countCheck0_X17e  <= 1
+
+X18s + 68 countCheck0_X18s >= 1
+X18e - 68 countCheck0_X18e <= -1
+-2 count0_X18 + countCheck0_X18s  + countCheck0_X18e  <= 1
+
+X19s + 68 countCheck0_X19s >= 1
+X19e - 68 countCheck0_X19e <= -1
+-2 count0_X19 + countCheck0_X19s  + countCheck0_X19e  <= 1
+
+X20s + 68 countCheck0_X20s >= 1
+X20e - 68 countCheck0_X20e <= -1
+-2 count0_X20 + countCheck0_X20s  + countCheck0_X20e  <= 1
+
+X21s + 68 countCheck0_X21s >= 1
+X21e - 68 countCheck0_X21e <= -1
+-2 count0_X21 + countCheck0_X21s  + countCheck0_X21e  <= 1
+
+X22s + 68 countCheck0_X22s >= 1
+X22e - 68 countCheck0_X22e <= -1
+-2 count0_X22 + countCheck0_X22s  + countCheck0_X22e  <= 1
+
+X23s + 68 countCheck0_X23s >= 1
+X23e - 68 countCheck0_X23e <= -1
+-2 count0_X23 + countCheck0_X23s  + countCheck0_X23e  <= 1
+
+X24s + 68 countCheck0_X24s >= 1
+X24e - 68 countCheck0_X24e <= -1
+-2 count0_X24 + countCheck0_X24s  + countCheck0_X24e  <= 1
+
+X25s + 68 countCheck0_X25s >= 1
+X25e - 68 countCheck0_X25e <= -1
+-2 count0_X25 + countCheck0_X25s  + countCheck0_X25e  <= 1
+
+X26s + 68 countCheck0_X26s >= 1
+X26e - 68 countCheck0_X26e <= -1
+-2 count0_X26 + countCheck0_X26s  + countCheck0_X26e  <= 1
+
+X27s + 68 countCheck0_X27s >= 1
+X27e - 68 countCheck0_X27e <= -1
+-2 count0_X27 + countCheck0_X27s  + countCheck0_X27e  <= 1
+
+X28s + 68 countCheck0_X28s >= 1
+X28e - 68 countCheck0_X28e <= -1
+-2 count0_X28 + countCheck0_X28s  + countCheck0_X28e  <= 1
+
+X29s + 68 countCheck0_X29s >= 1
+X29e - 68 countCheck0_X29e <= -1
+-2 count0_X29 + countCheck0_X29s  + countCheck0_X29e  <= 1
+
+X30s + 68 countCheck0_X30s >= 1
+X30e - 68 countCheck0_X30e <= -1
+-2 count0_X30 + countCheck0_X30s  + countCheck0_X30e  <= 1
+
+X31s + 68 countCheck0_X31s >= 1
+X31e - 68 countCheck0_X31e <= -1
+-2 count0_X31 + countCheck0_X31s  + countCheck0_X31e  <= 1
+
+X32s + 68 countCheck0_X32s >= 1
+X32e - 68 countCheck0_X32e <= -1
+-2 count0_X32 + countCheck0_X32s  + countCheck0_X32e  <= 1
+
+X33s + 68 countCheck0_X33s >= 1
+X33e - 68 countCheck0_X33e <= -1
+-2 count0_X33 + countCheck0_X33s  + countCheck0_X33e  <= 1
+
+X34s + 68 countCheck0_X34s >= 1
+X34e - 68 countCheck0_X34e <= -1
+-2 count0_X34 + countCheck0_X34s  + countCheck0_X34e  <= 1
+
+X35s + 68 countCheck0_X35s >= 1
+X35e - 68 countCheck0_X35e <= -1
+-2 count0_X35 + countCheck0_X35s  + countCheck0_X35e  <= 1
+
+X36s + 68 countCheck0_X36s >= 1
+X36e - 68 countCheck0_X36e <= -1
+-2 count0_X36 + countCheck0_X36s  + countCheck0_X36e  <= 1
+
+X37s + 68 countCheck0_X37s >= 1
+X37e - 68 countCheck0_X37e <= -1
+-2 count0_X37 + countCheck0_X37s  + countCheck0_X37e  <= 1
+
+X38s + 68 countCheck0_X38s >= 1
+X38e - 68 countCheck0_X38e <= -1
+-2 count0_X38 + countCheck0_X38s  + countCheck0_X38e  <= 1
+
+X39s + 68 countCheck0_X39s >= 1
+X39e - 68 countCheck0_X39e <= -1
+-2 count0_X39 + countCheck0_X39s  + countCheck0_X39e  <= 1
+
+X40s + 68 countCheck0_X40s >= 1
+X40e - 68 countCheck0_X40e <= -1
+-2 count0_X40 + countCheck0_X40s  + countCheck0_X40e  <= 1
+
+X41s + 68 countCheck0_X41s >= 1
+X41e - 68 countCheck0_X41e <= -1
+-2 count0_X41 + countCheck0_X41s  + countCheck0_X41e  <= 1
+
+X42s + 68 countCheck0_X42s >= 1
+X42e - 68 countCheck0_X42e <= -1
+-2 count0_X42 + countCheck0_X42s  + countCheck0_X42e  <= 1
+
+X43s + 68 countCheck0_X43s >= 1
+X43e - 68 countCheck0_X43e <= -1
+-2 count0_X43 + countCheck0_X43s  + countCheck0_X43e  <= 1
+
+X44s + 68 countCheck0_X44s >= 1
+X44e - 68 countCheck0_X44e <= -1
+-2 count0_X44 + countCheck0_X44s  + countCheck0_X44e  <= 1
+
+X45s + 68 countCheck0_X45s >= 1
+X45e - 68 countCheck0_X45e <= -1
+-2 count0_X45 + countCheck0_X45s  + countCheck0_X45e  <= 1
+
+X46s + 68 countCheck0_X46s >= 1
+X46e - 68 countCheck0_X46e <= -1
+-2 count0_X46 + countCheck0_X46s  + countCheck0_X46e  <= 1
+
+X47s + 68 countCheck0_X47s >= 1
+X47e - 68 countCheck0_X47e <= -1
+-2 count0_X47 + countCheck0_X47s  + countCheck0_X47e  <= 1
+
+X48s + 68 countCheck0_X48s >= 1
+X48e - 68 countCheck0_X48e <= -1
+-2 count0_X48 + countCheck0_X48s  + countCheck0_X48e  <= 1
+
+X49s + 68 countCheck0_X49s >= 1
+X49e - 68 countCheck0_X49e <= -1
+-2 count0_X49 + countCheck0_X49s  + countCheck0_X49e  <= 1
+
+X50s + 68 countCheck0_X50s >= 1
+X50e - 68 countCheck0_X50e <= -1
+-2 count0_X50 + countCheck0_X50s  + countCheck0_X50e  <= 1
+
+X51s + 68 countCheck0_X51s >= 1
+X51e - 68 countCheck0_X51e <= -1
+-2 count0_X51 + countCheck0_X51s  + countCheck0_X51e  <= 1
+
+X52s + 68 countCheck0_X52s >= 1
+X52e - 68 countCheck0_X52e <= -1
+-2 count0_X52 + countCheck0_X52s  + countCheck0_X52e  <= 1
+
+X53s + 68 countCheck0_X53s >= 1
+X53e - 68 countCheck0_X53e <= -1
+-2 count0_X53 + countCheck0_X53s  + countCheck0_X53e  <= 1
+
+X54s + 68 countCheck0_X54s >= 1
+X54e - 68 countCheck0_X54e <= -1
+-2 count0_X54 + countCheck0_X54s  + countCheck0_X54e  <= 1
+
+X55s + 68 countCheck0_X55s >= 1
+X55e - 68 countCheck0_X55e <= -1
+-2 count0_X55 + countCheck0_X55s  + countCheck0_X55e  <= 1
+
+X56s + 68 countCheck0_X56s >= 1
+X56e - 68 countCheck0_X56e <= -1
+-2 count0_X56 + countCheck0_X56s  + countCheck0_X56e  <= 1
+
+X57s + 68 countCheck0_X57s >= 1
+X57e - 68 countCheck0_X57e <= -1
+-2 count0_X57 + countCheck0_X57s  + countCheck0_X57e  <= 1
+
+X58s + 68 countCheck0_X58s >= 1
+X58e - 68 countCheck0_X58e <= -1
+-2 count0_X58 + countCheck0_X58s  + countCheck0_X58e  <= 1
+
+X59s + 68 countCheck0_X59s >= 1
+X59e - 68 countCheck0_X59e <= -1
+-2 count0_X59 + countCheck0_X59s  + countCheck0_X59e  <= 1
+
+X60s + 68 countCheck0_X60s >= 1
+X60e - 68 countCheck0_X60e <= -1
+-2 count0_X60 + countCheck0_X60s  + countCheck0_X60e  <= 1
+
+X61s + 68 countCheck0_X61s >= 1
+X61e - 68 countCheck0_X61e <= -1
+-2 count0_X61 + countCheck0_X61s  + countCheck0_X61e  <= 1
+
+X62s + 68 countCheck0_X62s >= 1
+X62e - 68 countCheck0_X62e <= -1
+-2 count0_X62 + countCheck0_X62s  + countCheck0_X62e  <= 1
+
+X63s + 68 countCheck0_X63s >= 1
+X63e - 68 countCheck0_X63e <= -1
+-2 count0_X63 + countCheck0_X63s  + countCheck0_X63e  <= 1
+
+X64s + 68 countCheck0_X64s >= 1
+X64e - 68 countCheck0_X64e <= -1
+-2 count0_X64 + countCheck0_X64s  + countCheck0_X64e  <= 1
+
+X65s + 68 countCheck0_X65s >= 1
+X65e - 68 countCheck0_X65e <= -1
+-2 count0_X65 + countCheck0_X65s  + countCheck0_X65e  <= 1
+
+X66s + 68 countCheck0_X66s >= 1
+X66e - 68 countCheck0_X66e <= -1
+-2 count0_X66 + countCheck0_X66s  + countCheck0_X66e  <= 1
+
+X67s + 68 countCheck0_X67s >= 1
+X67e - 68 countCheck0_X67e <= -1
+-2 count0_X67 + countCheck0_X67s  + countCheck0_X67e  <= 1
+
+count0_X0 + count0_X1 + count0_X2 + count0_X3 + count0_X4 + count0_X5 + count0_X6 + count0_X7 + count0_X8 + count0_X9 + count0_X10 + count0_X11 + count0_X12 + count0_X13 + count0_X14 + count0_X15 + count0_X16 + count0_X17 + count0_X18 + count0_X19 + count0_X20 + count0_X21 + count0_X22 + count0_X23 + count0_X24 + count0_X25 + count0_X26 + count0_X27 + count0_X28 + count0_X29 + count0_X30 + count0_X31 + count0_X32 + count0_X33 + count0_X34 + count0_X35 + count0_X36 + count0_X37 + count0_X38 + count0_X39 + count0_X40 + count0_X41 + count0_X42 + count0_X43 + count0_X44 + count0_X45 + count0_X46 + count0_X47 + count0_X48 + count0_X49 + count0_X50 + count0_X51 + count0_X52 + count0_X53 + count0_X54 + count0_X55 + count0_X56 + count0_X57 + count0_X58 + count0_X59 + count0_X60 + count0_X61 + count0_X62 + count0_X63 + count0_X64 + count0_X65 + count0_X66 + count0_X67 - pathWidth <= 1
+X0s + 68 countCheck1_X0s >= 2
+X0e - 68 countCheck1_X0e <= 0
+-2 count1_X0 + countCheck1_X0s  + countCheck1_X0e  <= 1
+
+X1s + 68 countCheck1_X1s >= 2
+X1e - 68 countCheck1_X1e <= 0
+-2 count1_X1 + countCheck1_X1s  + countCheck1_X1e  <= 1
+
+X2s + 68 countCheck1_X2s >= 2
+X2e - 68 countCheck1_X2e <= 0
+-2 count1_X2 + countCheck1_X2s  + countCheck1_X2e  <= 1
+
+X3s + 68 countCheck1_X3s >= 2
+X3e - 68 countCheck1_X3e <= 0
+-2 count1_X3 + countCheck1_X3s  + countCheck1_X3e  <= 1
+
+X4s + 68 countCheck1_X4s >= 2
+X4e - 68 countCheck1_X4e <= 0
+-2 count1_X4 + countCheck1_X4s  + countCheck1_X4e  <= 1
+
+X5s + 68 countCheck1_X5s >= 2
+X5e - 68 countCheck1_X5e <= 0
+-2 count1_X5 + countCheck1_X5s  + countCheck1_X5e  <= 1
+
+X6s + 68 countCheck1_X6s >= 2
+X6e - 68 countCheck1_X6e <= 0
+-2 count1_X6 + countCheck1_X6s  + countCheck1_X6e  <= 1
+
+X7s + 68 countCheck1_X7s >= 2
+X7e - 68 countCheck1_X7e <= 0
+-2 count1_X7 + countCheck1_X7s  + countCheck1_X7e  <= 1
+
+X8s + 68 countCheck1_X8s >= 2
+X8e - 68 countCheck1_X8e <= 0
+-2 count1_X8 + countCheck1_X8s  + countCheck1_X8e  <= 1
+
+X9s + 68 countCheck1_X9s >= 2
+X9e - 68 countCheck1_X9e <= 0
+-2 count1_X9 + countCheck1_X9s  + countCheck1_X9e  <= 1
+
+X10s + 68 countCheck1_X10s >= 2
+X10e - 68 countCheck1_X10e <= 0
+-2 count1_X10 + countCheck1_X10s  + countCheck1_X10e  <= 1
+
+X11s + 68 countCheck1_X11s >= 2
+X11e - 68 countCheck1_X11e <= 0
+-2 count1_X11 + countCheck1_X11s  + countCheck1_X11e  <= 1
+
+X12s + 68 countCheck1_X12s >= 2
+X12e - 68 countCheck1_X12e <= 0
+-2 count1_X12 + countCheck1_X12s  + countCheck1_X12e  <= 1
+
+X13s + 68 countCheck1_X13s >= 2
+X13e - 68 countCheck1_X13e <= 0
+-2 count1_X13 + countCheck1_X13s  + countCheck1_X13e  <= 1
+
+X14s + 68 countCheck1_X14s >= 2
+X14e - 68 countCheck1_X14e <= 0
+-2 count1_X14 + countCheck1_X14s  + countCheck1_X14e  <= 1
+
+X15s + 68 countCheck1_X15s >= 2
+X15e - 68 countCheck1_X15e <= 0
+-2 count1_X15 + countCheck1_X15s  + countCheck1_X15e  <= 1
+
+X16s + 68 countCheck1_X16s >= 2
+X16e - 68 countCheck1_X16e <= 0
+-2 count1_X16 + countCheck1_X16s  + countCheck1_X16e  <= 1
+
+X17s + 68 countCheck1_X17s >= 2
+X17e - 68 countCheck1_X17e <= 0
+-2 count1_X17 + countCheck1_X17s  + countCheck1_X17e  <= 1
+
+X18s + 68 countCheck1_X18s >= 2
+X18e - 68 countCheck1_X18e <= 0
+-2 count1_X18 + countCheck1_X18s  + countCheck1_X18e  <= 1
+
+X19s + 68 countCheck1_X19s >= 2
+X19e - 68 countCheck1_X19e <= 0
+-2 count1_X19 + countCheck1_X19s  + countCheck1_X19e  <= 1
+
+X20s + 68 countCheck1_X20s >= 2
+X20e - 68 countCheck1_X20e <= 0
+-2 count1_X20 + countCheck1_X20s  + countCheck1_X20e  <= 1
+
+X21s + 68 countCheck1_X21s >= 2
+X21e - 68 countCheck1_X21e <= 0
+-2 count1_X21 + countCheck1_X21s  + countCheck1_X21e  <= 1
+
+X22s + 68 countCheck1_X22s >= 2
+X22e - 68 countCheck1_X22e <= 0
+-2 count1_X22 + countCheck1_X22s  + countCheck1_X22e  <= 1
+
+X23s + 68 countCheck1_X23s >= 2
+X23e - 68 countCheck1_X23e <= 0
+-2 count1_X23 + countCheck1_X23s  + countCheck1_X23e  <= 1
+
+X24s + 68 countCheck1_X24s >= 2
+X24e - 68 countCheck1_X24e <= 0
+-2 count1_X24 + countCheck1_X24s  + countCheck1_X24e  <= 1
+
+X25s + 68 countCheck1_X25s >= 2
+X25e - 68 countCheck1_X25e <= 0
+-2 count1_X25 + countCheck1_X25s  + countCheck1_X25e  <= 1
+
+X26s + 68 countCheck1_X26s >= 2
+X26e - 68 countCheck1_X26e <= 0
+-2 count1_X26 + countCheck1_X26s  + countCheck1_X26e  <= 1
+
+X27s + 68 countCheck1_X27s >= 2
+X27e - 68 countCheck1_X27e <= 0
+-2 count1_X27 + countCheck1_X27s  + countCheck1_X27e  <= 1
+
+X28s + 68 countCheck1_X28s >= 2
+X28e - 68 countCheck1_X28e <= 0
+-2 count1_X28 + countCheck1_X28s  + countCheck1_X28e  <= 1
+
+X29s + 68 countCheck1_X29s >= 2
+X29e - 68 countCheck1_X29e <= 0
+-2 count1_X29 + countCheck1_X29s  + countCheck1_X29e  <= 1
+
+X30s + 68 countCheck1_X30s >= 2
+X30e - 68 countCheck1_X30e <= 0
+-2 count1_X30 + countCheck1_X30s  + countCheck1_X30e  <= 1
+
+X31s + 68 countCheck1_X31s >= 2
+X31e - 68 countCheck1_X31e <= 0
+-2 count1_X31 + countCheck1_X31s  + countCheck1_X31e  <= 1
+
+X32s + 68 countCheck1_X32s >= 2
+X32e - 68 countCheck1_X32e <= 0
+-2 count1_X32 + countCheck1_X32s  + countCheck1_X32e  <= 1
+
+X33s + 68 countCheck1_X33s >= 2
+X33e - 68 countCheck1_X33e <= 0
+-2 count1_X33 + countCheck1_X33s  + countCheck1_X33e  <= 1
+
+X34s + 68 countCheck1_X34s >= 2
+X34e - 68 countCheck1_X34e <= 0
+-2 count1_X34 + countCheck1_X34s  + countCheck1_X34e  <= 1
+
+X35s + 68 countCheck1_X35s >= 2
+X35e - 68 countCheck1_X35e <= 0
+-2 count1_X35 + countCheck1_X35s  + countCheck1_X35e  <= 1
+
+X36s + 68 countCheck1_X36s >= 2
+X36e - 68 countCheck1_X36e <= 0
+-2 count1_X36 + countCheck1_X36s  + countCheck1_X36e  <= 1
+
+X37s + 68 countCheck1_X37s >= 2
+X37e - 68 countCheck1_X37e <= 0
+-2 count1_X37 + countCheck1_X37s  + countCheck1_X37e  <= 1
+
+X38s + 68 countCheck1_X38s >= 2
+X38e - 68 countCheck1_X38e <= 0
+-2 count1_X38 + countCheck1_X38s  + countCheck1_X38e  <= 1
+
+X39s + 68 countCheck1_X39s >= 2
+X39e - 68 countCheck1_X39e <= 0
+-2 count1_X39 + countCheck1_X39s  + countCheck1_X39e  <= 1
+
+X40s + 68 countCheck1_X40s >= 2
+X40e - 68 countCheck1_X40e <= 0
+-2 count1_X40 + countCheck1_X40s  + countCheck1_X40e  <= 1
+
+X41s + 68 countCheck1_X41s >= 2
+X41e - 68 countCheck1_X41e <= 0
+-2 count1_X41 + countCheck1_X41s  + countCheck1_X41e  <= 1
+
+X42s + 68 countCheck1_X42s >= 2
+X42e - 68 countCheck1_X42e <= 0
+-2 count1_X42 + countCheck1_X42s  + countCheck1_X42e  <= 1
+
+X43s + 68 countCheck1_X43s >= 2
+X43e - 68 countCheck1_X43e <= 0
+-2 count1_X43 + countCheck1_X43s  + countCheck1_X43e  <= 1
+
+X44s + 68 countCheck1_X44s >= 2
+X44e - 68 countCheck1_X44e <= 0
+-2 count1_X44 + countCheck1_X44s  + countCheck1_X44e  <= 1
+
+X45s + 68 countCheck1_X45s >= 2
+X45e - 68 countCheck1_X45e <= 0
+-2 count1_X45 + countCheck1_X45s  + countCheck1_X45e  <= 1
+
+X46s + 68 countCheck1_X46s >= 2
+X46e - 68 countCheck1_X46e <= 0
+-2 count1_X46 + countCheck1_X46s  + countCheck1_X46e  <= 1
+
+X47s + 68 countCheck1_X47s >= 2
+X47e - 68 countCheck1_X47e <= 0
+-2 count1_X47 + countCheck1_X47s  + countCheck1_X47e  <= 1
+
+X48s + 68 countCheck1_X48s >= 2
+X48e - 68 countCheck1_X48e <= 0
+-2 count1_X48 + countCheck1_X48s  + countCheck1_X48e  <= 1
+
+X49s + 68 countCheck1_X49s >= 2
+X49e - 68 countCheck1_X49e <= 0
+-2 count1_X49 + countCheck1_X49s  + countCheck1_X49e  <= 1
+
+X50s + 68 countCheck1_X50s >= 2
+X50e - 68 countCheck1_X50e <= 0
+-2 count1_X50 + countCheck1_X50s  + countCheck1_X50e  <= 1
+
+X51s + 68 countCheck1_X51s >= 2
+X51e - 68 countCheck1_X51e <= 0
+-2 count1_X51 + countCheck1_X51s  + countCheck1_X51e  <= 1
+
+X52s + 68 countCheck1_X52s >= 2
+X52e - 68 countCheck1_X52e <= 0
+-2 count1_X52 + countCheck1_X52s  + countCheck1_X52e  <= 1
+
+X53s + 68 countCheck1_X53s >= 2
+X53e - 68 countCheck1_X53e <= 0
+-2 count1_X53 + countCheck1_X53s  + countCheck1_X53e  <= 1
+
+X54s + 68 countCheck1_X54s >= 2
+X54e - 68 countCheck1_X54e <= 0
+-2 count1_X54 + countCheck1_X54s  + countCheck1_X54e  <= 1
+
+X55s + 68 countCheck1_X55s >= 2
+X55e - 68 countCheck1_X55e <= 0
+-2 count1_X55 + countCheck1_X55s  + countCheck1_X55e  <= 1
+
+X56s + 68 countCheck1_X56s >= 2
+X56e - 68 countCheck1_X56e <= 0
+-2 count1_X56 + countCheck1_X56s  + countCheck1_X56e  <= 1
+
+X57s + 68 countCheck1_X57s >= 2
+X57e - 68 countCheck1_X57e <= 0
+-2 count1_X57 + countCheck1_X57s  + countCheck1_X57e  <= 1
+
+X58s + 68 countCheck1_X58s >= 2
+X58e - 68 countCheck1_X58e <= 0
+-2 count1_X58 + countCheck1_X58s  + countCheck1_X58e  <= 1
+
+X59s + 68 countCheck1_X59s >= 2
+X59e - 68 countCheck1_X59e <= 0
+-2 count1_X59 + countCheck1_X59s  + countCheck1_X59e  <= 1
+
+X60s + 68 countCheck1_X60s >= 2
+X60e - 68 countCheck1_X60e <= 0
+-2 count1_X60 + countCheck1_X60s  + countCheck1_X60e  <= 1
+
+X61s + 68 countCheck1_X61s >= 2
+X61e - 68 countCheck1_X61e <= 0
+-2 count1_X61 + countCheck1_X61s  + countCheck1_X61e  <= 1
+
+X62s + 68 countCheck1_X62s >= 2
+X62e - 68 countCheck1_X62e <= 0
+-2 count1_X62 + countCheck1_X62s  + countCheck1_X62e  <= 1
+
+X63s + 68 countCheck1_X63s >= 2
+X63e - 68 countCheck1_X63e <= 0
+-2 count1_X63 + countCheck1_X63s  + countCheck1_X63e  <= 1
+
+X64s + 68 countCheck1_X64s >= 2
+X64e - 68 countCheck1_X64e <= 0
+-2 count1_X64 + countCheck1_X64s  + countCheck1_X64e  <= 1
+
+X65s + 68 countCheck1_X65s >= 2
+X65e - 68 countCheck1_X65e <= 0
+-2 count1_X65 + countCheck1_X65s  + countCheck1_X65e  <= 1
+
+X66s + 68 countCheck1_X66s >= 2
+X66e - 68 countCheck1_X66e <= 0
+-2 count1_X66 + countCheck1_X66s  + countCheck1_X66e  <= 1
+
+X67s + 68 countCheck1_X67s >= 2
+X67e - 68 countCheck1_X67e <= 0
+-2 count1_X67 + countCheck1_X67s  + countCheck1_X67e  <= 1
+
+count1_X0 + count1_X1 + count1_X2 + count1_X3 + count1_X4 + count1_X5 + count1_X6 + count1_X7 + count1_X8 + count1_X9 + count1_X10 + count1_X11 + count1_X12 + count1_X13 + count1_X14 + count1_X15 + count1_X16 + count1_X17 + count1_X18 + count1_X19 + count1_X20 + count1_X21 + count1_X22 + count1_X23 + count1_X24 + count1_X25 + count1_X26 + count1_X27 + count1_X28 + count1_X29 + count1_X30 + count1_X31 + count1_X32 + count1_X33 + count1_X34 + count1_X35 + count1_X36 + count1_X37 + count1_X38 + count1_X39 + count1_X40 + count1_X41 + count1_X42 + count1_X43 + count1_X44 + count1_X45 + count1_X46 + count1_X47 + count1_X48 + count1_X49 + count1_X50 + count1_X51 + count1_X52 + count1_X53 + count1_X54 + count1_X55 + count1_X56 + count1_X57 + count1_X58 + count1_X59 + count1_X60 + count1_X61 + count1_X62 + count1_X63 + count1_X64 + count1_X65 + count1_X66 + count1_X67 - pathWidth <= 1
+X0s + 68 countCheck2_X0s >= 3
+X0e - 68 countCheck2_X0e <= 1
+-2 count2_X0 + countCheck2_X0s  + countCheck2_X0e  <= 1
+
+X1s + 68 countCheck2_X1s >= 3
+X1e - 68 countCheck2_X1e <= 1
+-2 count2_X1 + countCheck2_X1s  + countCheck2_X1e  <= 1
+
+X2s + 68 countCheck2_X2s >= 3
+X2e - 68 countCheck2_X2e <= 1
+-2 count2_X2 + countCheck2_X2s  + countCheck2_X2e  <= 1
+
+X3s + 68 countCheck2_X3s >= 3
+X3e - 68 countCheck2_X3e <= 1
+-2 count2_X3 + countCheck2_X3s  + countCheck2_X3e  <= 1
+
+X4s + 68 countCheck2_X4s >= 3
+X4e - 68 countCheck2_X4e <= 1
+-2 count2_X4 + countCheck2_X4s  + countCheck2_X4e  <= 1
+
+X5s + 68 countCheck2_X5s >= 3
+X5e - 68 countCheck2_X5e <= 1
+-2 count2_X5 + countCheck2_X5s  + countCheck2_X5e  <= 1
+
+X6s + 68 countCheck2_X6s >= 3
+X6e - 68 countCheck2_X6e <= 1
+-2 count2_X6 + countCheck2_X6s  + countCheck2_X6e  <= 1
+
+X7s + 68 countCheck2_X7s >= 3
+X7e - 68 countCheck2_X7e <= 1
+-2 count2_X7 + countCheck2_X7s  + countCheck2_X7e  <= 1
+
+X8s + 68 countCheck2_X8s >= 3
+X8e - 68 countCheck2_X8e <= 1
+-2 count2_X8 + countCheck2_X8s  + countCheck2_X8e  <= 1
+
+X9s + 68 countCheck2_X9s >= 3
+X9e - 68 countCheck2_X9e <= 1
+-2 count2_X9 + countCheck2_X9s  + countCheck2_X9e  <= 1
+
+X10s + 68 countCheck2_X10s >= 3
+X10e - 68 countCheck2_X10e <= 1
+-2 count2_X10 + countCheck2_X10s  + countCheck2_X10e  <= 1
+
+X11s + 68 countCheck2_X11s >= 3
+X11e - 68 countCheck2_X11e <= 1
+-2 count2_X11 + countCheck2_X11s  + countCheck2_X11e  <= 1
+
+X12s + 68 countCheck2_X12s >= 3
+X12e - 68 countCheck2_X12e <= 1
+-2 count2_X12 + countCheck2_X12s  + countCheck2_X12e  <= 1
+
+X13s + 68 countCheck2_X13s >= 3
+X13e - 68 countCheck2_X13e <= 1
+-2 count2_X13 + countCheck2_X13s  + countCheck2_X13e  <= 1
+
+X14s + 68 countCheck2_X14s >= 3
+X14e - 68 countCheck2_X14e <= 1
+-2 count2_X14 + countCheck2_X14s  + countCheck2_X14e  <= 1
+
+X15s + 68 countCheck2_X15s >= 3
+X15e - 68 countCheck2_X15e <= 1
+-2 count2_X15 + countCheck2_X15s  + countCheck2_X15e  <= 1
+
+X16s + 68 countCheck2_X16s >= 3
+X16e - 68 countCheck2_X16e <= 1
+-2 count2_X16 + countCheck2_X16s  + countCheck2_X16e  <= 1
+
+X17s + 68 countCheck2_X17s >= 3
+X17e - 68 countCheck2_X17e <= 1
+-2 count2_X17 + countCheck2_X17s  + countCheck2_X17e  <= 1
+
+X18s + 68 countCheck2_X18s >= 3
+X18e - 68 countCheck2_X18e <= 1
+-2 count2_X18 + countCheck2_X18s  + countCheck2_X18e  <= 1
+
+X19s + 68 countCheck2_X19s >= 3
+X19e - 68 countCheck2_X19e <= 1
+-2 count2_X19 + countCheck2_X19s  + countCheck2_X19e  <= 1
+
+X20s + 68 countCheck2_X20s >= 3
+X20e - 68 countCheck2_X20e <= 1
+-2 count2_X20 + countCheck2_X20s  + countCheck2_X20e  <= 1
+
+X21s + 68 countCheck2_X21s >= 3
+X21e - 68 countCheck2_X21e <= 1
+-2 count2_X21 + countCheck2_X21s  + countCheck2_X21e  <= 1
+
+X22s + 68 countCheck2_X22s >= 3
+X22e - 68 countCheck2_X22e <= 1
+-2 count2_X22 + countCheck2_X22s  + countCheck2_X22e  <= 1
+
+X23s + 68 countCheck2_X23s >= 3
+X23e - 68 countCheck2_X23e <= 1
+-2 count2_X23 + countCheck2_X23s  + countCheck2_X23e  <= 1
+
+X24s + 68 countCheck2_X24s >= 3
+X24e - 68 countCheck2_X24e <= 1
+-2 count2_X24 + countCheck2_X24s  + countCheck2_X24e  <= 1
+
+X25s + 68 countCheck2_X25s >= 3
+X25e - 68 countCheck2_X25e <= 1
+-2 count2_X25 + countCheck2_X25s  + countCheck2_X25e  <= 1
+
+X26s + 68 countCheck2_X26s >= 3
+X26e - 68 countCheck2_X26e <= 1
+-2 count2_X26 + countCheck2_X26s  + countCheck2_X26e  <= 1
+
+X27s + 68 countCheck2_X27s >= 3
+X27e - 68 countCheck2_X27e <= 1
+-2 count2_X27 + countCheck2_X27s  + countCheck2_X27e  <= 1
+
+X28s + 68 countCheck2_X28s >= 3
+X28e - 68 countCheck2_X28e <= 1
+-2 count2_X28 + countCheck2_X28s  + countCheck2_X28e  <= 1
+
+X29s + 68 countCheck2_X29s >= 3
+X29e - 68 countCheck2_X29e <= 1
+-2 count2_X29 + countCheck2_X29s  + countCheck2_X29e  <= 1
+
+X30s + 68 countCheck2_X30s >= 3
+X30e - 68 countCheck2_X30e <= 1
+-2 count2_X30 + countCheck2_X30s  + countCheck2_X30e  <= 1
+
+X31s + 68 countCheck2_X31s >= 3
+X31e - 68 countCheck2_X31e <= 1
+-2 count2_X31 + countCheck2_X31s  + countCheck2_X31e  <= 1
+
+X32s + 68 countCheck2_X32s >= 3
+X32e - 68 countCheck2_X32e <= 1
+-2 count2_X32 + countCheck2_X32s  + countCheck2_X32e  <= 1
+
+X33s + 68 countCheck2_X33s >= 3
+X33e - 68 countCheck2_X33e <= 1
+-2 count2_X33 + countCheck2_X33s  + countCheck2_X33e  <= 1
+
+X34s + 68 countCheck2_X34s >= 3
+X34e - 68 countCheck2_X34e <= 1
+-2 count2_X34 + countCheck2_X34s  + countCheck2_X34e  <= 1
+
+X35s + 68 countCheck2_X35s >= 3
+X35e - 68 countCheck2_X35e <= 1
+-2 count2_X35 + countCheck2_X35s  + countCheck2_X35e  <= 1
+
+X36s + 68 countCheck2_X36s >= 3
+X36e - 68 countCheck2_X36e <= 1
+-2 count2_X36 + countCheck2_X36s  + countCheck2_X36e  <= 1
+
+X37s + 68 countCheck2_X37s >= 3
+X37e - 68 countCheck2_X37e <= 1
+-2 count2_X37 + countCheck2_X37s  + countCheck2_X37e  <= 1
+
+X38s + 68 countCheck2_X38s >= 3
+X38e - 68 countCheck2_X38e <= 1
+-2 count2_X38 + countCheck2_X38s  + countCheck2_X38e  <= 1
+
+X39s + 68 countCheck2_X39s >= 3
+X39e - 68 countCheck2_X39e <= 1
+-2 count2_X39 + countCheck2_X39s  + countCheck2_X39e  <= 1
+
+X40s + 68 countCheck2_X40s >= 3
+X40e - 68 countCheck2_X40e <= 1
+-2 count2_X40 + countCheck2_X40s  + countCheck2_X40e  <= 1
+
+X41s + 68 countCheck2_X41s >= 3
+X41e - 68 countCheck2_X41e <= 1
+-2 count2_X41 + countCheck2_X41s  + countCheck2_X41e  <= 1
+
+X42s + 68 countCheck2_X42s >= 3
+X42e - 68 countCheck2_X42e <= 1
+-2 count2_X42 + countCheck2_X42s  + countCheck2_X42e  <= 1
+
+X43s + 68 countCheck2_X43s >= 3
+X43e - 68 countCheck2_X43e <= 1
+-2 count2_X43 + countCheck2_X43s  + countCheck2_X43e  <= 1
+
+X44s + 68 countCheck2_X44s >= 3
+X44e - 68 countCheck2_X44e <= 1
+-2 count2_X44 + countCheck2_X44s  + countCheck2_X44e  <= 1
+
+X45s + 68 countCheck2_X45s >= 3
+X45e - 68 countCheck2_X45e <= 1
+-2 count2_X45 + countCheck2_X45s  + countCheck2_X45e  <= 1
+
+X46s + 68 countCheck2_X46s >= 3
+X46e - 68 countCheck2_X46e <= 1
+-2 count2_X46 + countCheck2_X46s  + countCheck2_X46e  <= 1
+
+X47s + 68 countCheck2_X47s >= 3
+X47e - 68 countCheck2_X47e <= 1
+-2 count2_X47 + countCheck2_X47s  + countCheck2_X47e  <= 1
+
+X48s + 68 countCheck2_X48s >= 3
+X48e - 68 countCheck2_X48e <= 1
+-2 count2_X48 + countCheck2_X48s  + countCheck2_X48e  <= 1
+
+X49s + 68 countCheck2_X49s >= 3
+X49e - 68 countCheck2_X49e <= 1
+-2 count2_X49 + countCheck2_X49s  + countCheck2_X49e  <= 1
+
+X50s + 68 countCheck2_X50s >= 3
+X50e - 68 countCheck2_X50e <= 1
+-2 count2_X50 + countCheck2_X50s  + countCheck2_X50e  <= 1
+
+X51s + 68 countCheck2_X51s >= 3
+X51e - 68 countCheck2_X51e <= 1
+-2 count2_X51 + countCheck2_X51s  + countCheck2_X51e  <= 1
+
+X52s + 68 countCheck2_X52s >= 3
+X52e - 68 countCheck2_X52e <= 1
+-2 count2_X52 + countCheck2_X52s  + countCheck2_X52e  <= 1
+
+X53s + 68 countCheck2_X53s >= 3
+X53e - 68 countCheck2_X53e <= 1
+-2 count2_X53 + countCheck2_X53s  + countCheck2_X53e  <= 1
+
+X54s + 68 countCheck2_X54s >= 3
+X54e - 68 countCheck2_X54e <= 1
+-2 count2_X54 + countCheck2_X54s  + countCheck2_X54e  <= 1
+
+X55s + 68 countCheck2_X55s >= 3
+X55e - 68 countCheck2_X55e <= 1
+-2 count2_X55 + countCheck2_X55s  + countCheck2_X55e  <= 1
+
+X56s + 68 countCheck2_X56s >= 3
+X56e - 68 countCheck2_X56e <= 1
+-2 count2_X56 + countCheck2_X56s  + countCheck2_X56e  <= 1
+
+X57s + 68 countCheck2_X57s >= 3
+X57e - 68 countCheck2_X57e <= 1
+-2 count2_X57 + countCheck2_X57s  + countCheck2_X57e  <= 1
+
+X58s + 68 countCheck2_X58s >= 3
+X58e - 68 countCheck2_X58e <= 1
+-2 count2_X58 + countCheck2_X58s  + countCheck2_X58e  <= 1
+
+X59s + 68 countCheck2_X59s >= 3
+X59e - 68 countCheck2_X59e <= 1
+-2 count2_X59 + countCheck2_X59s  + countCheck2_X59e  <= 1
+
+X60s + 68 countCheck2_X60s >= 3
+X60e - 68 countCheck2_X60e <= 1
+-2 count2_X60 + countCheck2_X60s  + countCheck2_X60e  <= 1
+
+X61s + 68 countCheck2_X61s >= 3
+X61e - 68 countCheck2_X61e <= 1
+-2 count2_X61 + countCheck2_X61s  + countCheck2_X61e  <= 1
+
+X62s + 68 countCheck2_X62s >= 3
+X62e - 68 countCheck2_X62e <= 1
+-2 count2_X62 + countCheck2_X62s  + countCheck2_X62e  <= 1
+
+X63s + 68 countCheck2_X63s >= 3
+X63e - 68 countCheck2_X63e <= 1
+-2 count2_X63 + countCheck2_X63s  + countCheck2_X63e  <= 1
+
+X64s + 68 countCheck2_X64s >= 3
+X64e - 68 countCheck2_X64e <= 1
+-2 count2_X64 + countCheck2_X64s  + countCheck2_X64e  <= 1
+
+X65s + 68 countCheck2_X65s >= 3
+X65e - 68 countCheck2_X65e <= 1
+-2 count2_X65 + countCheck2_X65s  + countCheck2_X65e  <= 1
+
+X66s + 68 countCheck2_X66s >= 3
+X66e - 68 countCheck2_X66e <= 1
+-2 count2_X66 + countCheck2_X66s  + countCheck2_X66e  <= 1
+
+X67s + 68 countCheck2_X67s >= 3
+X67e - 68 countCheck2_X67e <= 1
+-2 count2_X67 + countCheck2_X67s  + countCheck2_X67e  <= 1
+
+count2_X0 + count2_X1 + count2_X2 + count2_X3 + count2_X4 + count2_X5 + count2_X6 + count2_X7 + count2_X8 + count2_X9 + count2_X10 + count2_X11 + count2_X12 + count2_X13 + count2_X14 + count2_X15 + count2_X16 + count2_X17 + count2_X18 + count2_X19 + count2_X20 + count2_X21 + count2_X22 + count2_X23 + count2_X24 + count2_X25 + count2_X26 + count2_X27 + count2_X28 + count2_X29 + count2_X30 + count2_X31 + count2_X32 + count2_X33 + count2_X34 + count2_X35 + count2_X36 + count2_X37 + count2_X38 + count2_X39 + count2_X40 + count2_X41 + count2_X42 + count2_X43 + count2_X44 + count2_X45 + count2_X46 + count2_X47 + count2_X48 + count2_X49 + count2_X50 + count2_X51 + count2_X52 + count2_X53 + count2_X54 + count2_X55 + count2_X56 + count2_X57 + count2_X58 + count2_X59 + count2_X60 + count2_X61 + count2_X62 + count2_X63 + count2_X64 + count2_X65 + count2_X66 + count2_X67 - pathWidth <= 1
+X0s + 68 countCheck3_X0s >= 4
+X0e - 68 countCheck3_X0e <= 2
+-2 count3_X0 + countCheck3_X0s  + countCheck3_X0e  <= 1
+
+X1s + 68 countCheck3_X1s >= 4
+X1e - 68 countCheck3_X1e <= 2
+-2 count3_X1 + countCheck3_X1s  + countCheck3_X1e  <= 1
+
+X2s + 68 countCheck3_X2s >= 4
+X2e - 68 countCheck3_X2e <= 2
+-2 count3_X2 + countCheck3_X2s  + countCheck3_X2e  <= 1
+
+X3s + 68 countCheck3_X3s >= 4
+X3e - 68 countCheck3_X3e <= 2
+-2 count3_X3 + countCheck3_X3s  + countCheck3_X3e  <= 1
+
+X4s + 68 countCheck3_X4s >= 4
+X4e - 68 countCheck3_X4e <= 2
+-2 count3_X4 + countCheck3_X4s  + countCheck3_X4e  <= 1
+
+X5s + 68 countCheck3_X5s >= 4
+X5e - 68 countCheck3_X5e <= 2
+-2 count3_X5 + countCheck3_X5s  + countCheck3_X5e  <= 1
+
+X6s + 68 countCheck3_X6s >= 4
+X6e - 68 countCheck3_X6e <= 2
+-2 count3_X6 + countCheck3_X6s  + countCheck3_X6e  <= 1
+
+X7s + 68 countCheck3_X7s >= 4
+X7e - 68 countCheck3_X7e <= 2
+-2 count3_X7 + countCheck3_X7s  + countCheck3_X7e  <= 1
+
+X8s + 68 countCheck3_X8s >= 4
+X8e - 68 countCheck3_X8e <= 2
+-2 count3_X8 + countCheck3_X8s  + countCheck3_X8e  <= 1
+
+X9s + 68 countCheck3_X9s >= 4
+X9e - 68 countCheck3_X9e <= 2
+-2 count3_X9 + countCheck3_X9s  + countCheck3_X9e  <= 1
+
+X10s + 68 countCheck3_X10s >= 4
+X10e - 68 countCheck3_X10e <= 2
+-2 count3_X10 + countCheck3_X10s  + countCheck3_X10e  <= 1
+
+X11s + 68 countCheck3_X11s >= 4
+X11e - 68 countCheck3_X11e <= 2
+-2 count3_X11 + countCheck3_X11s  + countCheck3_X11e  <= 1
+
+X12s + 68 countCheck3_X12s >= 4
+X12e - 68 countCheck3_X12e <= 2
+-2 count3_X12 + countCheck3_X12s  + countCheck3_X12e  <= 1
+
+X13s + 68 countCheck3_X13s >= 4
+X13e - 68 countCheck3_X13e <= 2
+-2 count3_X13 + countCheck3_X13s  + countCheck3_X13e  <= 1
+
+X14s + 68 countCheck3_X14s >= 4
+X14e - 68 countCheck3_X14e <= 2
+-2 count3_X14 + countCheck3_X14s  + countCheck3_X14e  <= 1
+
+X15s + 68 countCheck3_X15s >= 4
+X15e - 68 countCheck3_X15e <= 2
+-2 count3_X15 + countCheck3_X15s  + countCheck3_X15e  <= 1
+
+X16s + 68 countCheck3_X16s >= 4
+X16e - 68 countCheck3_X16e <= 2
+-2 count3_X16 + countCheck3_X16s  + countCheck3_X16e  <= 1
+
+X17s + 68 countCheck3_X17s >= 4
+X17e - 68 countCheck3_X17e <= 2
+-2 count3_X17 + countCheck3_X17s  + countCheck3_X17e  <= 1
+
+X18s + 68 countCheck3_X18s >= 4
+X18e - 68 countCheck3_X18e <= 2
+-2 count3_X18 + countCheck3_X18s  + countCheck3_X18e  <= 1
+
+X19s + 68 countCheck3_X19s >= 4
+X19e - 68 countCheck3_X19e <= 2
+-2 count3_X19 + countCheck3_X19s  + countCheck3_X19e  <= 1
+
+X20s + 68 countCheck3_X20s >= 4
+X20e - 68 countCheck3_X20e <= 2
+-2 count3_X20 + countCheck3_X20s  + countCheck3_X20e  <= 1
+
+X21s + 68 countCheck3_X21s >= 4
+X21e - 68 countCheck3_X21e <= 2
+-2 count3_X21 + countCheck3_X21s  + countCheck3_X21e  <= 1
+
+X22s + 68 countCheck3_X22s >= 4
+X22e - 68 countCheck3_X22e <= 2
+-2 count3_X22 + countCheck3_X22s  + countCheck3_X22e  <= 1
+
+X23s + 68 countCheck3_X23s >= 4
+X23e - 68 countCheck3_X23e <= 2
+-2 count3_X23 + countCheck3_X23s  + countCheck3_X23e  <= 1
+
+X24s + 68 countCheck3_X24s >= 4
+X24e - 68 countCheck3_X24e <= 2
+-2 count3_X24 + countCheck3_X24s  + countCheck3_X24e  <= 1
+
+X25s + 68 countCheck3_X25s >= 4
+X25e - 68 countCheck3_X25e <= 2
+-2 count3_X25 + countCheck3_X25s  + countCheck3_X25e  <= 1
+
+X26s + 68 countCheck3_X26s >= 4
+X26e - 68 countCheck3_X26e <= 2
+-2 count3_X26 + countCheck3_X26s  + countCheck3_X26e  <= 1
+
+X27s + 68 countCheck3_X27s >= 4
+X27e - 68 countCheck3_X27e <= 2
+-2 count3_X27 + countCheck3_X27s  + countCheck3_X27e  <= 1
+
+X28s + 68 countCheck3_X28s >= 4
+X28e - 68 countCheck3_X28e <= 2
+-2 count3_X28 + countCheck3_X28s  + countCheck3_X28e  <= 1
+
+X29s + 68 countCheck3_X29s >= 4
+X29e - 68 countCheck3_X29e <= 2
+-2 count3_X29 + countCheck3_X29s  + countCheck3_X29e  <= 1
+
+X30s + 68 countCheck3_X30s >= 4
+X30e - 68 countCheck3_X30e <= 2
+-2 count3_X30 + countCheck3_X30s  + countCheck3_X30e  <= 1
+
+X31s + 68 countCheck3_X31s >= 4
+X31e - 68 countCheck3_X31e <= 2
+-2 count3_X31 + countCheck3_X31s  + countCheck3_X31e  <= 1
+
+X32s + 68 countCheck3_X32s >= 4
+X32e - 68 countCheck3_X32e <= 2
+-2 count3_X32 + countCheck3_X32s  + countCheck3_X32e  <= 1
+
+X33s + 68 countCheck3_X33s >= 4
+X33e - 68 countCheck3_X33e <= 2
+-2 count3_X33 + countCheck3_X33s  + countCheck3_X33e  <= 1
+
+X34s + 68 countCheck3_X34s >= 4
+X34e - 68 countCheck3_X34e <= 2
+-2 count3_X34 + countCheck3_X34s  + countCheck3_X34e  <= 1
+
+X35s + 68 countCheck3_X35s >= 4
+X35e - 68 countCheck3_X35e <= 2
+-2 count3_X35 + countCheck3_X35s  + countCheck3_X35e  <= 1
+
+X36s + 68 countCheck3_X36s >= 4
+X36e - 68 countCheck3_X36e <= 2
+-2 count3_X36 + countCheck3_X36s  + countCheck3_X36e  <= 1
+
+X37s + 68 countCheck3_X37s >= 4
+X37e - 68 countCheck3_X37e <= 2
+-2 count3_X37 + countCheck3_X37s  + countCheck3_X37e  <= 1
+
+X38s + 68 countCheck3_X38s >= 4
+X38e - 68 countCheck3_X38e <= 2
+-2 count3_X38 + countCheck3_X38s  + countCheck3_X38e  <= 1
+
+X39s + 68 countCheck3_X39s >= 4
+X39e - 68 countCheck3_X39e <= 2
+-2 count3_X39 + countCheck3_X39s  + countCheck3_X39e  <= 1
+
+X40s + 68 countCheck3_X40s >= 4
+X40e - 68 countCheck3_X40e <= 2
+-2 count3_X40 + countCheck3_X40s  + countCheck3_X40e  <= 1
+
+X41s + 68 countCheck3_X41s >= 4
+X41e - 68 countCheck3_X41e <= 2
+-2 count3_X41 + countCheck3_X41s  + countCheck3_X41e  <= 1
+
+X42s + 68 countCheck3_X42s >= 4
+X42e - 68 countCheck3_X42e <= 2
+-2 count3_X42 + countCheck3_X42s  + countCheck3_X42e  <= 1
+
+X43s + 68 countCheck3_X43s >= 4
+X43e - 68 countCheck3_X43e <= 2
+-2 count3_X43 + countCheck3_X43s  + countCheck3_X43e  <= 1
+
+X44s + 68 countCheck3_X44s >= 4
+X44e - 68 countCheck3_X44e <= 2
+-2 count3_X44 + countCheck3_X44s  + countCheck3_X44e  <= 1
+
+X45s + 68 countCheck3_X45s >= 4
+X45e - 68 countCheck3_X45e <= 2
+-2 count3_X45 + countCheck3_X45s  + countCheck3_X45e  <= 1
+
+X46s + 68 countCheck3_X46s >= 4
+X46e - 68 countCheck3_X46e <= 2
+-2 count3_X46 + countCheck3_X46s  + countCheck3_X46e  <= 1
+
+X47s + 68 countCheck3_X47s >= 4
+X47e - 68 countCheck3_X47e <= 2
+-2 count3_X47 + countCheck3_X47s  + countCheck3_X47e  <= 1
+
+X48s + 68 countCheck3_X48s >= 4
+X48e - 68 countCheck3_X48e <= 2
+-2 count3_X48 + countCheck3_X48s  + countCheck3_X48e  <= 1
+
+X49s + 68 countCheck3_X49s >= 4
+X49e - 68 countCheck3_X49e <= 2
+-2 count3_X49 + countCheck3_X49s  + countCheck3_X49e  <= 1
+
+X50s + 68 countCheck3_X50s >= 4
+X50e - 68 countCheck3_X50e <= 2
+-2 count3_X50 + countCheck3_X50s  + countCheck3_X50e  <= 1
+
+X51s + 68 countCheck3_X51s >= 4
+X51e - 68 countCheck3_X51e <= 2
+-2 count3_X51 + countCheck3_X51s  + countCheck3_X51e  <= 1
+
+X52s + 68 countCheck3_X52s >= 4
+X52e - 68 countCheck3_X52e <= 2
+-2 count3_X52 + countCheck3_X52s  + countCheck3_X52e  <= 1
+
+X53s + 68 countCheck3_X53s >= 4
+X53e - 68 countCheck3_X53e <= 2
+-2 count3_X53 + countCheck3_X53s  + countCheck3_X53e  <= 1
+
+X54s + 68 countCheck3_X54s >= 4
+X54e - 68 countCheck3_X54e <= 2
+-2 count3_X54 + countCheck3_X54s  + countCheck3_X54e  <= 1
+
+X55s + 68 countCheck3_X55s >= 4
+X55e - 68 countCheck3_X55e <= 2
+-2 count3_X55 + countCheck3_X55s  + countCheck3_X55e  <= 1
+
+X56s + 68 countCheck3_X56s >= 4
+X56e - 68 countCheck3_X56e <= 2
+-2 count3_X56 + countCheck3_X56s  + countCheck3_X56e  <= 1
+
+X57s + 68 countCheck3_X57s >= 4
+X57e - 68 countCheck3_X57e <= 2
+-2 count3_X57 + countCheck3_X57s  + countCheck3_X57e  <= 1
+
+X58s + 68 countCheck3_X58s >= 4
+X58e - 68 countCheck3_X58e <= 2
+-2 count3_X58 + countCheck3_X58s  + countCheck3_X58e  <= 1
+
+X59s + 68 countCheck3_X59s >= 4
+X59e - 68 countCheck3_X59e <= 2
+-2 count3_X59 + countCheck3_X59s  + countCheck3_X59e  <= 1
+
+X60s + 68 countCheck3_X60s >= 4
+X60e - 68 countCheck3_X60e <= 2
+-2 count3_X60 + countCheck3_X60s  + countCheck3_X60e  <= 1
+
+X61s + 68 countCheck3_X61s >= 4
+X61e - 68 countCheck3_X61e <= 2
+-2 count3_X61 + countCheck3_X61s  + countCheck3_X61e  <= 1
+
+X62s + 68 countCheck3_X62s >= 4
+X62e - 68 countCheck3_X62e <= 2
+-2 count3_X62 + countCheck3_X62s  + countCheck3_X62e  <= 1
+
+X63s + 68 countCheck3_X63s >= 4
+X63e - 68 countCheck3_X63e <= 2
+-2 count3_X63 + countCheck3_X63s  + countCheck3_X63e  <= 1
+
+X64s + 68 countCheck3_X64s >= 4
+X64e - 68 countCheck3_X64e <= 2
+-2 count3_X64 + countCheck3_X64s  + countCheck3_X64e  <= 1
+
+X65s + 68 countCheck3_X65s >= 4
+X65e - 68 countCheck3_X65e <= 2
+-2 count3_X65 + countCheck3_X65s  + countCheck3_X65e  <= 1
+
+X66s + 68 countCheck3_X66s >= 4
+X66e - 68 countCheck3_X66e <= 2
+-2 count3_X66 + countCheck3_X66s  + countCheck3_X66e  <= 1
+
+X67s + 68 countCheck3_X67s >= 4
+X67e - 68 countCheck3_X67e <= 2
+-2 count3_X67 + countCheck3_X67s  + countCheck3_X67e  <= 1
+
+count3_X0 + count3_X1 + count3_X2 + count3_X3 + count3_X4 + count3_X5 + count3_X6 + count3_X7 + count3_X8 + count3_X9 + count3_X10 + count3_X11 + count3_X12 + count3_X13 + count3_X14 + count3_X15 + count3_X16 + count3_X17 + count3_X18 + count3_X19 + count3_X20 + count3_X21 + count3_X22 + count3_X23 + count3_X24 + count3_X25 + count3_X26 + count3_X27 + count3_X28 + count3_X29 + count3_X30 + count3_X31 + count3_X32 + count3_X33 + count3_X34 + count3_X35 + count3_X36 + count3_X37 + count3_X38 + count3_X39 + count3_X40 + count3_X41 + count3_X42 + count3_X43 + count3_X44 + count3_X45 + count3_X46 + count3_X47 + count3_X48 + count3_X49 + count3_X50 + count3_X51 + count3_X52 + count3_X53 + count3_X54 + count3_X55 + count3_X56 + count3_X57 + count3_X58 + count3_X59 + count3_X60 + count3_X61 + count3_X62 + count3_X63 + count3_X64 + count3_X65 + count3_X66 + count3_X67 - pathWidth <= 1
+X0s + 68 countCheck4_X0s >= 5
+X0e - 68 countCheck4_X0e <= 3
+-2 count4_X0 + countCheck4_X0s  + countCheck4_X0e  <= 1
+
+X1s + 68 countCheck4_X1s >= 5
+X1e - 68 countCheck4_X1e <= 3
+-2 count4_X1 + countCheck4_X1s  + countCheck4_X1e  <= 1
+
+X2s + 68 countCheck4_X2s >= 5
+X2e - 68 countCheck4_X2e <= 3
+-2 count4_X2 + countCheck4_X2s  + countCheck4_X2e  <= 1
+
+X3s + 68 countCheck4_X3s >= 5
+X3e - 68 countCheck4_X3e <= 3
+-2 count4_X3 + countCheck4_X3s  + countCheck4_X3e  <= 1
+
+X4s + 68 countCheck4_X4s >= 5
+X4e - 68 countCheck4_X4e <= 3
+-2 count4_X4 + countCheck4_X4s  + countCheck4_X4e  <= 1
+
+X5s + 68 countCheck4_X5s >= 5
+X5e - 68 countCheck4_X5e <= 3
+-2 count4_X5 + countCheck4_X5s  + countCheck4_X5e  <= 1
+
+X6s + 68 countCheck4_X6s >= 5
+X6e - 68 countCheck4_X6e <= 3
+-2 count4_X6 + countCheck4_X6s  + countCheck4_X6e  <= 1
+
+X7s + 68 countCheck4_X7s >= 5
+X7e - 68 countCheck4_X7e <= 3
+-2 count4_X7 + countCheck4_X7s  + countCheck4_X7e  <= 1
+
+X8s + 68 countCheck4_X8s >= 5
+X8e - 68 countCheck4_X8e <= 3
+-2 count4_X8 + countCheck4_X8s  + countCheck4_X8e  <= 1
+
+X9s + 68 countCheck4_X9s >= 5
+X9e - 68 countCheck4_X9e <= 3
+-2 count4_X9 + countCheck4_X9s  + countCheck4_X9e  <= 1
+
+X10s + 68 countCheck4_X10s >= 5
+X10e - 68 countCheck4_X10e <= 3
+-2 count4_X10 + countCheck4_X10s  + countCheck4_X10e  <= 1
+
+X11s + 68 countCheck4_X11s >= 5
+X11e - 68 countCheck4_X11e <= 3
+-2 count4_X11 + countCheck4_X11s  + countCheck4_X11e  <= 1
+
+X12s + 68 countCheck4_X12s >= 5
+X12e - 68 countCheck4_X12e <= 3
+-2 count4_X12 + countCheck4_X12s  + countCheck4_X12e  <= 1
+
+X13s + 68 countCheck4_X13s >= 5
+X13e - 68 countCheck4_X13e <= 3
+-2 count4_X13 + countCheck4_X13s  + countCheck4_X13e  <= 1
+
+X14s + 68 countCheck4_X14s >= 5
+X14e - 68 countCheck4_X14e <= 3
+-2 count4_X14 + countCheck4_X14s  + countCheck4_X14e  <= 1
+
+X15s + 68 countCheck4_X15s >= 5
+X15e - 68 countCheck4_X15e <= 3
+-2 count4_X15 + countCheck4_X15s  + countCheck4_X15e  <= 1
+
+X16s + 68 countCheck4_X16s >= 5
+X16e - 68 countCheck4_X16e <= 3
+-2 count4_X16 + countCheck4_X16s  + countCheck4_X16e  <= 1
+
+X17s + 68 countCheck4_X17s >= 5
+X17e - 68 countCheck4_X17e <= 3
+-2 count4_X17 + countCheck4_X17s  + countCheck4_X17e  <= 1
+
+X18s + 68 countCheck4_X18s >= 5
+X18e - 68 countCheck4_X18e <= 3
+-2 count4_X18 + countCheck4_X18s  + countCheck4_X18e  <= 1
+
+X19s + 68 countCheck4_X19s >= 5
+X19e - 68 countCheck4_X19e <= 3
+-2 count4_X19 + countCheck4_X19s  + countCheck4_X19e  <= 1
+
+X20s + 68 countCheck4_X20s >= 5
+X20e - 68 countCheck4_X20e <= 3
+-2 count4_X20 + countCheck4_X20s  + countCheck4_X20e  <= 1
+
+X21s + 68 countCheck4_X21s >= 5
+X21e - 68 countCheck4_X21e <= 3
+-2 count4_X21 + countCheck4_X21s  + countCheck4_X21e  <= 1
+
+X22s + 68 countCheck4_X22s >= 5
+X22e - 68 countCheck4_X22e <= 3
+-2 count4_X22 + countCheck4_X22s  + countCheck4_X22e  <= 1
+
+X23s + 68 countCheck4_X23s >= 5
+X23e - 68 countCheck4_X23e <= 3
+-2 count4_X23 + countCheck4_X23s  + countCheck4_X23e  <= 1
+
+X24s + 68 countCheck4_X24s >= 5
+X24e - 68 countCheck4_X24e <= 3
+-2 count4_X24 + countCheck4_X24s  + countCheck4_X24e  <= 1
+
+X25s + 68 countCheck4_X25s >= 5
+X25e - 68 countCheck4_X25e <= 3
+-2 count4_X25 + countCheck4_X25s  + countCheck4_X25e  <= 1
+
+X26s + 68 countCheck4_X26s >= 5
+X26e - 68 countCheck4_X26e <= 3
+-2 count4_X26 + countCheck4_X26s  + countCheck4_X26e  <= 1
+
+X27s + 68 countCheck4_X27s >= 5
+X27e - 68 countCheck4_X27e <= 3
+-2 count4_X27 + countCheck4_X27s  + countCheck4_X27e  <= 1
+
+X28s + 68 countCheck4_X28s >= 5
+X28e - 68 countCheck4_X28e <= 3
+-2 count4_X28 + countCheck4_X28s  + countCheck4_X28e  <= 1
+
+X29s + 68 countCheck4_X29s >= 5
+X29e - 68 countCheck4_X29e <= 3
+-2 count4_X29 + countCheck4_X29s  + countCheck4_X29e  <= 1
+
+X30s + 68 countCheck4_X30s >= 5
+X30e - 68 countCheck4_X30e <= 3
+-2 count4_X30 + countCheck4_X30s  + countCheck4_X30e  <= 1
+
+X31s + 68 countCheck4_X31s >= 5
+X31e - 68 countCheck4_X31e <= 3
+-2 count4_X31 + countCheck4_X31s  + countCheck4_X31e  <= 1
+
+X32s + 68 countCheck4_X32s >= 5
+X32e - 68 countCheck4_X32e <= 3
+-2 count4_X32 + countCheck4_X32s  + countCheck4_X32e  <= 1
+
+X33s + 68 countCheck4_X33s >= 5
+X33e - 68 countCheck4_X33e <= 3
+-2 count4_X33 + countCheck4_X33s  + countCheck4_X33e  <= 1
+
+X34s + 68 countCheck4_X34s >= 5
+X34e - 68 countCheck4_X34e <= 3
+-2 count4_X34 + countCheck4_X34s  + countCheck4_X34e  <= 1
+
+X35s + 68 countCheck4_X35s >= 5
+X35e - 68 countCheck4_X35e <= 3
+-2 count4_X35 + countCheck4_X35s  + countCheck4_X35e  <= 1
+
+X36s + 68 countCheck4_X36s >= 5
+X36e - 68 countCheck4_X36e <= 3
+-2 count4_X36 + countCheck4_X36s  + countCheck4_X36e  <= 1
+
+X37s + 68 countCheck4_X37s >= 5
+X37e - 68 countCheck4_X37e <= 3
+-2 count4_X37 + countCheck4_X37s  + countCheck4_X37e  <= 1
+
+X38s + 68 countCheck4_X38s >= 5
+X38e - 68 countCheck4_X38e <= 3
+-2 count4_X38 + countCheck4_X38s  + countCheck4_X38e  <= 1
+
+X39s + 68 countCheck4_X39s >= 5
+X39e - 68 countCheck4_X39e <= 3
+-2 count4_X39 + countCheck4_X39s  + countCheck4_X39e  <= 1
+
+X40s + 68 countCheck4_X40s >= 5
+X40e - 68 countCheck4_X40e <= 3
+-2 count4_X40 + countCheck4_X40s  + countCheck4_X40e  <= 1
+
+X41s + 68 countCheck4_X41s >= 5
+X41e - 68 countCheck4_X41e <= 3
+-2 count4_X41 + countCheck4_X41s  + countCheck4_X41e  <= 1
+
+X42s + 68 countCheck4_X42s >= 5
+X42e - 68 countCheck4_X42e <= 3
+-2 count4_X42 + countCheck4_X42s  + countCheck4_X42e  <= 1
+
+X43s + 68 countCheck4_X43s >= 5
+X43e - 68 countCheck4_X43e <= 3
+-2 count4_X43 + countCheck4_X43s  + countCheck4_X43e  <= 1
+
+X44s + 68 countCheck4_X44s >= 5
+X44e - 68 countCheck4_X44e <= 3
+-2 count4_X44 + countCheck4_X44s  + countCheck4_X44e  <= 1
+
+X45s + 68 countCheck4_X45s >= 5
+X45e - 68 countCheck4_X45e <= 3
+-2 count4_X45 + countCheck4_X45s  + countCheck4_X45e  <= 1
+
+X46s + 68 countCheck4_X46s >= 5
+X46e - 68 countCheck4_X46e <= 3
+-2 count4_X46 + countCheck4_X46s  + countCheck4_X46e  <= 1
+
+X47s + 68 countCheck4_X47s >= 5
+X47e - 68 countCheck4_X47e <= 3
+-2 count4_X47 + countCheck4_X47s  + countCheck4_X47e  <= 1
+
+X48s + 68 countCheck4_X48s >= 5
+X48e - 68 countCheck4_X48e <= 3
+-2 count4_X48 + countCheck4_X48s  + countCheck4_X48e  <= 1
+
+X49s + 68 countCheck4_X49s >= 5
+X49e - 68 countCheck4_X49e <= 3
+-2 count4_X49 + countCheck4_X49s  + countCheck4_X49e  <= 1
+
+X50s + 68 countCheck4_X50s >= 5
+X50e - 68 countCheck4_X50e <= 3
+-2 count4_X50 + countCheck4_X50s  + countCheck4_X50e  <= 1
+
+X51s + 68 countCheck4_X51s >= 5
+X51e - 68 countCheck4_X51e <= 3
+-2 count4_X51 + countCheck4_X51s  + countCheck4_X51e  <= 1
+
+X52s + 68 countCheck4_X52s >= 5
+X52e - 68 countCheck4_X52e <= 3
+-2 count4_X52 + countCheck4_X52s  + countCheck4_X52e  <= 1
+
+X53s + 68 countCheck4_X53s >= 5
+X53e - 68 countCheck4_X53e <= 3
+-2 count4_X53 + countCheck4_X53s  + countCheck4_X53e  <= 1
+
+X54s + 68 countCheck4_X54s >= 5
+X54e - 68 countCheck4_X54e <= 3
+-2 count4_X54 + countCheck4_X54s  + countCheck4_X54e  <= 1
+
+X55s + 68 countCheck4_X55s >= 5
+X55e - 68 countCheck4_X55e <= 3
+-2 count4_X55 + countCheck4_X55s  + countCheck4_X55e  <= 1
+
+X56s + 68 countCheck4_X56s >= 5
+X56e - 68 countCheck4_X56e <= 3
+-2 count4_X56 + countCheck4_X56s  + countCheck4_X56e  <= 1
+
+X57s + 68 countCheck4_X57s >= 5
+X57e - 68 countCheck4_X57e <= 3
+-2 count4_X57 + countCheck4_X57s  + countCheck4_X57e  <= 1
+
+X58s + 68 countCheck4_X58s >= 5
+X58e - 68 countCheck4_X58e <= 3
+-2 count4_X58 + countCheck4_X58s  + countCheck4_X58e  <= 1
+
+X59s + 68 countCheck4_X59s >= 5
+X59e - 68 countCheck4_X59e <= 3
+-2 count4_X59 + countCheck4_X59s  + countCheck4_X59e  <= 1
+
+X60s + 68 countCheck4_X60s >= 5
+X60e - 68 countCheck4_X60e <= 3
+-2 count4_X60 + countCheck4_X60s  + countCheck4_X60e  <= 1
+
+X61s + 68 countCheck4_X61s >= 5
+X61e - 68 countCheck4_X61e <= 3
+-2 count4_X61 + countCheck4_X61s  + countCheck4_X61e  <= 1
+
+X62s + 68 countCheck4_X62s >= 5
+X62e - 68 countCheck4_X62e <= 3
+-2 count4_X62 + countCheck4_X62s  + countCheck4_X62e  <= 1
+
+X63s + 68 countCheck4_X63s >= 5
+X63e - 68 countCheck4_X63e <= 3
+-2 count4_X63 + countCheck4_X63s  + countCheck4_X63e  <= 1
+
+X64s + 68 countCheck4_X64s >= 5
+X64e - 68 countCheck4_X64e <= 3
+-2 count4_X64 + countCheck4_X64s  + countCheck4_X64e  <= 1
+
+X65s + 68 countCheck4_X65s >= 5
+X65e - 68 countCheck4_X65e <= 3
+-2 count4_X65 + countCheck4_X65s  + countCheck4_X65e  <= 1
+
+X66s + 68 countCheck4_X66s >= 5
+X66e - 68 countCheck4_X66e <= 3
+-2 count4_X66 + countCheck4_X66s  + countCheck4_X66e  <= 1
+
+X67s + 68 countCheck4_X67s >= 5
+X67e - 68 countCheck4_X67e <= 3
+-2 count4_X67 + countCheck4_X67s  + countCheck4_X67e  <= 1
+
+count4_X0 + count4_X1 + count4_X2 + count4_X3 + count4_X4 + count4_X5 + count4_X6 + count4_X7 + count4_X8 + count4_X9 + count4_X10 + count4_X11 + count4_X12 + count4_X13 + count4_X14 + count4_X15 + count4_X16 + count4_X17 + count4_X18 + count4_X19 + count4_X20 + count4_X21 + count4_X22 + count4_X23 + count4_X24 + count4_X25 + count4_X26 + count4_X27 + count4_X28 + count4_X29 + count4_X30 + count4_X31 + count4_X32 + count4_X33 + count4_X34 + count4_X35 + count4_X36 + count4_X37 + count4_X38 + count4_X39 + count4_X40 + count4_X41 + count4_X42 + count4_X43 + count4_X44 + count4_X45 + count4_X46 + count4_X47 + count4_X48 + count4_X49 + count4_X50 + count4_X51 + count4_X52 + count4_X53 + count4_X54 + count4_X55 + count4_X56 + count4_X57 + count4_X58 + count4_X59 + count4_X60 + count4_X61 + count4_X62 + count4_X63 + count4_X64 + count4_X65 + count4_X66 + count4_X67 - pathWidth <= 1
+X0s + 68 countCheck5_X0s >= 6
+X0e - 68 countCheck5_X0e <= 4
+-2 count5_X0 + countCheck5_X0s  + countCheck5_X0e  <= 1
+
+X1s + 68 countCheck5_X1s >= 6
+X1e - 68 countCheck5_X1e <= 4
+-2 count5_X1 + countCheck5_X1s  + countCheck5_X1e  <= 1
+
+X2s + 68 countCheck5_X2s >= 6
+X2e - 68 countCheck5_X2e <= 4
+-2 count5_X2 + countCheck5_X2s  + countCheck5_X2e  <= 1
+
+X3s + 68 countCheck5_X3s >= 6
+X3e - 68 countCheck5_X3e <= 4
+-2 count5_X3 + countCheck5_X3s  + countCheck5_X3e  <= 1
+
+X4s + 68 countCheck5_X4s >= 6
+X4e - 68 countCheck5_X4e <= 4
+-2 count5_X4 + countCheck5_X4s  + countCheck5_X4e  <= 1
+
+X5s + 68 countCheck5_X5s >= 6
+X5e - 68 countCheck5_X5e <= 4
+-2 count5_X5 + countCheck5_X5s  + countCheck5_X5e  <= 1
+
+X6s + 68 countCheck5_X6s >= 6
+X6e - 68 countCheck5_X6e <= 4
+-2 count5_X6 + countCheck5_X6s  + countCheck5_X6e  <= 1
+
+X7s + 68 countCheck5_X7s >= 6
+X7e - 68 countCheck5_X7e <= 4
+-2 count5_X7 + countCheck5_X7s  + countCheck5_X7e  <= 1
+
+X8s + 68 countCheck5_X8s >= 6
+X8e - 68 countCheck5_X8e <= 4
+-2 count5_X8 + countCheck5_X8s  + countCheck5_X8e  <= 1
+
+X9s + 68 countCheck5_X9s >= 6
+X9e - 68 countCheck5_X9e <= 4
+-2 count5_X9 + countCheck5_X9s  + countCheck5_X9e  <= 1
+
+X10s + 68 countCheck5_X10s >= 6
+X10e - 68 countCheck5_X10e <= 4
+-2 count5_X10 + countCheck5_X10s  + countCheck5_X10e  <= 1
+
+X11s + 68 countCheck5_X11s >= 6
+X11e - 68 countCheck5_X11e <= 4
+-2 count5_X11 + countCheck5_X11s  + countCheck5_X11e  <= 1
+
+X12s + 68 countCheck5_X12s >= 6
+X12e - 68 countCheck5_X12e <= 4
+-2 count5_X12 + countCheck5_X12s  + countCheck5_X12e  <= 1
+
+X13s + 68 countCheck5_X13s >= 6
+X13e - 68 countCheck5_X13e <= 4
+-2 count5_X13 + countCheck5_X13s  + countCheck5_X13e  <= 1
+
+X14s + 68 countCheck5_X14s >= 6
+X14e - 68 countCheck5_X14e <= 4
+-2 count5_X14 + countCheck5_X14s  + countCheck5_X14e  <= 1
+
+X15s + 68 countCheck5_X15s >= 6
+X15e - 68 countCheck5_X15e <= 4
+-2 count5_X15 + countCheck5_X15s  + countCheck5_X15e  <= 1
+
+X16s + 68 countCheck5_X16s >= 6
+X16e - 68 countCheck5_X16e <= 4
+-2 count5_X16 + countCheck5_X16s  + countCheck5_X16e  <= 1
+
+X17s + 68 countCheck5_X17s >= 6
+X17e - 68 countCheck5_X17e <= 4
+-2 count5_X17 + countCheck5_X17s  + countCheck5_X17e  <= 1
+
+X18s + 68 countCheck5_X18s >= 6
+X18e - 68 countCheck5_X18e <= 4
+-2 count5_X18 + countCheck5_X18s  + countCheck5_X18e  <= 1
+
+X19s + 68 countCheck5_X19s >= 6
+X19e - 68 countCheck5_X19e <= 4
+-2 count5_X19 + countCheck5_X19s  + countCheck5_X19e  <= 1
+
+X20s + 68 countCheck5_X20s >= 6
+X20e - 68 countCheck5_X20e <= 4
+-2 count5_X20 + countCheck5_X20s  + countCheck5_X20e  <= 1
+
+X21s + 68 countCheck5_X21s >= 6
+X21e - 68 countCheck5_X21e <= 4
+-2 count5_X21 + countCheck5_X21s  + countCheck5_X21e  <= 1
+
+X22s + 68 countCheck5_X22s >= 6
+X22e - 68 countCheck5_X22e <= 4
+-2 count5_X22 + countCheck5_X22s  + countCheck5_X22e  <= 1
+
+X23s + 68 countCheck5_X23s >= 6
+X23e - 68 countCheck5_X23e <= 4
+-2 count5_X23 + countCheck5_X23s  + countCheck5_X23e  <= 1
+
+X24s + 68 countCheck5_X24s >= 6
+X24e - 68 countCheck5_X24e <= 4
+-2 count5_X24 + countCheck5_X24s  + countCheck5_X24e  <= 1
+
+X25s + 68 countCheck5_X25s >= 6
+X25e - 68 countCheck5_X25e <= 4
+-2 count5_X25 + countCheck5_X25s  + countCheck5_X25e  <= 1
+
+X26s + 68 countCheck5_X26s >= 6
+X26e - 68 countCheck5_X26e <= 4
+-2 count5_X26 + countCheck5_X26s  + countCheck5_X26e  <= 1
+
+X27s + 68 countCheck5_X27s >= 6
+X27e - 68 countCheck5_X27e <= 4
+-2 count5_X27 + countCheck5_X27s  + countCheck5_X27e  <= 1
+
+X28s + 68 countCheck5_X28s >= 6
+X28e - 68 countCheck5_X28e <= 4
+-2 count5_X28 + countCheck5_X28s  + countCheck5_X28e  <= 1
+
+X29s + 68 countCheck5_X29s >= 6
+X29e - 68 countCheck5_X29e <= 4
+-2 count5_X29 + countCheck5_X29s  + countCheck5_X29e  <= 1
+
+X30s + 68 countCheck5_X30s >= 6
+X30e - 68 countCheck5_X30e <= 4
+-2 count5_X30 + countCheck5_X30s  + countCheck5_X30e  <= 1
+
+X31s + 68 countCheck5_X31s >= 6
+X31e - 68 countCheck5_X31e <= 4
+-2 count5_X31 + countCheck5_X31s  + countCheck5_X31e  <= 1
+
+X32s + 68 countCheck5_X32s >= 6
+X32e - 68 countCheck5_X32e <= 4
+-2 count5_X32 + countCheck5_X32s  + countCheck5_X32e  <= 1
+
+X33s + 68 countCheck5_X33s >= 6
+X33e - 68 countCheck5_X33e <= 4
+-2 count5_X33 + countCheck5_X33s  + countCheck5_X33e  <= 1
+
+X34s + 68 countCheck5_X34s >= 6
+X34e - 68 countCheck5_X34e <= 4
+-2 count5_X34 + countCheck5_X34s  + countCheck5_X34e  <= 1
+
+X35s + 68 countCheck5_X35s >= 6
+X35e - 68 countCheck5_X35e <= 4
+-2 count5_X35 + countCheck5_X35s  + countCheck5_X35e  <= 1
+
+X36s + 68 countCheck5_X36s >= 6
+X36e - 68 countCheck5_X36e <= 4
+-2 count5_X36 + countCheck5_X36s  + countCheck5_X36e  <= 1
+
+X37s + 68 countCheck5_X37s >= 6
+X37e - 68 countCheck5_X37e <= 4
+-2 count5_X37 + countCheck5_X37s  + countCheck5_X37e  <= 1
+
+X38s + 68 countCheck5_X38s >= 6
+X38e - 68 countCheck5_X38e <= 4
+-2 count5_X38 + countCheck5_X38s  + countCheck5_X38e  <= 1
+
+X39s + 68 countCheck5_X39s >= 6
+X39e - 68 countCheck5_X39e <= 4
+-2 count5_X39 + countCheck5_X39s  + countCheck5_X39e  <= 1
+
+X40s + 68 countCheck5_X40s >= 6
+X40e - 68 countCheck5_X40e <= 4
+-2 count5_X40 + countCheck5_X40s  + countCheck5_X40e  <= 1
+
+X41s + 68 countCheck5_X41s >= 6
+X41e - 68 countCheck5_X41e <= 4
+-2 count5_X41 + countCheck5_X41s  + countCheck5_X41e  <= 1
+
+X42s + 68 countCheck5_X42s >= 6
+X42e - 68 countCheck5_X42e <= 4
+-2 count5_X42 + countCheck5_X42s  + countCheck5_X42e  <= 1
+
+X43s + 68 countCheck5_X43s >= 6
+X43e - 68 countCheck5_X43e <= 4
+-2 count5_X43 + countCheck5_X43s  + countCheck5_X43e  <= 1
+
+X44s + 68 countCheck5_X44s >= 6
+X44e - 68 countCheck5_X44e <= 4
+-2 count5_X44 + countCheck5_X44s  + countCheck5_X44e  <= 1
+
+X45s + 68 countCheck5_X45s >= 6
+X45e - 68 countCheck5_X45e <= 4
+-2 count5_X45 + countCheck5_X45s  + countCheck5_X45e  <= 1
+
+X46s + 68 countCheck5_X46s >= 6
+X46e - 68 countCheck5_X46e <= 4
+-2 count5_X46 + countCheck5_X46s  + countCheck5_X46e  <= 1
+
+X47s + 68 countCheck5_X47s >= 6
+X47e - 68 countCheck5_X47e <= 4
+-2 count5_X47 + countCheck5_X47s  + countCheck5_X47e  <= 1
+
+X48s + 68 countCheck5_X48s >= 6
+X48e - 68 countCheck5_X48e <= 4
+-2 count5_X48 + countCheck5_X48s  + countCheck5_X48e  <= 1
+
+X49s + 68 countCheck5_X49s >= 6
+X49e - 68 countCheck5_X49e <= 4
+-2 count5_X49 + countCheck5_X49s  + countCheck5_X49e  <= 1
+
+X50s + 68 countCheck5_X50s >= 6
+X50e - 68 countCheck5_X50e <= 4
+-2 count5_X50 + countCheck5_X50s  + countCheck5_X50e  <= 1
+
+X51s + 68 countCheck5_X51s >= 6
+X51e - 68 countCheck5_X51e <= 4
+-2 count5_X51 + countCheck5_X51s  + countCheck5_X51e  <= 1
+
+X52s + 68 countCheck5_X52s >= 6
+X52e - 68 countCheck5_X52e <= 4
+-2 count5_X52 + countCheck5_X52s  + countCheck5_X52e  <= 1
+
+X53s + 68 countCheck5_X53s >= 6
+X53e - 68 countCheck5_X53e <= 4
+-2 count5_X53 + countCheck5_X53s  + countCheck5_X53e  <= 1
+
+X54s + 68 countCheck5_X54s >= 6
+X54e - 68 countCheck5_X54e <= 4
+-2 count5_X54 + countCheck5_X54s  + countCheck5_X54e  <= 1
+
+X55s + 68 countCheck5_X55s >= 6
+X55e - 68 countCheck5_X55e <= 4
+-2 count5_X55 + countCheck5_X55s  + countCheck5_X55e  <= 1
+
+X56s + 68 countCheck5_X56s >= 6
+X56e - 68 countCheck5_X56e <= 4
+-2 count5_X56 + countCheck5_X56s  + countCheck5_X56e  <= 1
+
+X57s + 68 countCheck5_X57s >= 6
+X57e - 68 countCheck5_X57e <= 4
+-2 count5_X57 + countCheck5_X57s  + countCheck5_X57e  <= 1
+
+X58s + 68 countCheck5_X58s >= 6
+X58e - 68 countCheck5_X58e <= 4
+-2 count5_X58 + countCheck5_X58s  + countCheck5_X58e  <= 1
+
+X59s + 68 countCheck5_X59s >= 6
+X59e - 68 countCheck5_X59e <= 4
+-2 count5_X59 + countCheck5_X59s  + countCheck5_X59e  <= 1
+
+X60s + 68 countCheck5_X60s >= 6
+X60e - 68 countCheck5_X60e <= 4
+-2 count5_X60 + countCheck5_X60s  + countCheck5_X60e  <= 1
+
+X61s + 68 countCheck5_X61s >= 6
+X61e - 68 countCheck5_X61e <= 4
+-2 count5_X61 + countCheck5_X61s  + countCheck5_X61e  <= 1
+
+X62s + 68 countCheck5_X62s >= 6
+X62e - 68 countCheck5_X62e <= 4
+-2 count5_X62 + countCheck5_X62s  + countCheck5_X62e  <= 1
+
+X63s + 68 countCheck5_X63s >= 6
+X63e - 68 countCheck5_X63e <= 4
+-2 count5_X63 + countCheck5_X63s  + countCheck5_X63e  <= 1
+
+X64s + 68 countCheck5_X64s >= 6
+X64e - 68 countCheck5_X64e <= 4
+-2 count5_X64 + countCheck5_X64s  + countCheck5_X64e  <= 1
+
+X65s + 68 countCheck5_X65s >= 6
+X65e - 68 countCheck5_X65e <= 4
+-2 count5_X65 + countCheck5_X65s  + countCheck5_X65e  <= 1
+
+X66s + 68 countCheck5_X66s >= 6
+X66e - 68 countCheck5_X66e <= 4
+-2 count5_X66 + countCheck5_X66s  + countCheck5_X66e  <= 1
+
+X67s + 68 countCheck5_X67s >= 6
+X67e - 68 countCheck5_X67e <= 4
+-2 count5_X67 + countCheck5_X67s  + countCheck5_X67e  <= 1
+
+count5_X0 + count5_X1 + count5_X2 + count5_X3 + count5_X4 + count5_X5 + count5_X6 + count5_X7 + count5_X8 + count5_X9 + count5_X10 + count5_X11 + count5_X12 + count5_X13 + count5_X14 + count5_X15 + count5_X16 + count5_X17 + count5_X18 + count5_X19 + count5_X20 + count5_X21 + count5_X22 + count5_X23 + count5_X24 + count5_X25 + count5_X26 + count5_X27 + count5_X28 + count5_X29 + count5_X30 + count5_X31 + count5_X32 + count5_X33 + count5_X34 + count5_X35 + count5_X36 + count5_X37 + count5_X38 + count5_X39 + count5_X40 + count5_X41 + count5_X42 + count5_X43 + count5_X44 + count5_X45 + count5_X46 + count5_X47 + count5_X48 + count5_X49 + count5_X50 + count5_X51 + count5_X52 + count5_X53 + count5_X54 + count5_X55 + count5_X56 + count5_X57 + count5_X58 + count5_X59 + count5_X60 + count5_X61 + count5_X62 + count5_X63 + count5_X64 + count5_X65 + count5_X66 + count5_X67 - pathWidth <= 1
+X0s + 68 countCheck6_X0s >= 7
+X0e - 68 countCheck6_X0e <= 5
+-2 count6_X0 + countCheck6_X0s  + countCheck6_X0e  <= 1
+
+X1s + 68 countCheck6_X1s >= 7
+X1e - 68 countCheck6_X1e <= 5
+-2 count6_X1 + countCheck6_X1s  + countCheck6_X1e  <= 1
+
+X2s + 68 countCheck6_X2s >= 7
+X2e - 68 countCheck6_X2e <= 5
+-2 count6_X2 + countCheck6_X2s  + countCheck6_X2e  <= 1
+
+X3s + 68 countCheck6_X3s >= 7
+X3e - 68 countCheck6_X3e <= 5
+-2 count6_X3 + countCheck6_X3s  + countCheck6_X3e  <= 1
+
+X4s + 68 countCheck6_X4s >= 7
+X4e - 68 countCheck6_X4e <= 5
+-2 count6_X4 + countCheck6_X4s  + countCheck6_X4e  <= 1
+
+X5s + 68 countCheck6_X5s >= 7
+X5e - 68 countCheck6_X5e <= 5
+-2 count6_X5 + countCheck6_X5s  + countCheck6_X5e  <= 1
+
+X6s + 68 countCheck6_X6s >= 7
+X6e - 68 countCheck6_X6e <= 5
+-2 count6_X6 + countCheck6_X6s  + countCheck6_X6e  <= 1
+
+X7s + 68 countCheck6_X7s >= 7
+X7e - 68 countCheck6_X7e <= 5
+-2 count6_X7 + countCheck6_X7s  + countCheck6_X7e  <= 1
+
+X8s + 68 countCheck6_X8s >= 7
+X8e - 68 countCheck6_X8e <= 5
+-2 count6_X8 + countCheck6_X8s  + countCheck6_X8e  <= 1
+
+X9s + 68 countCheck6_X9s >= 7
+X9e - 68 countCheck6_X9e <= 5
+-2 count6_X9 + countCheck6_X9s  + countCheck6_X9e  <= 1
+
+X10s + 68 countCheck6_X10s >= 7
+X10e - 68 countCheck6_X10e <= 5
+-2 count6_X10 + countCheck6_X10s  + countCheck6_X10e  <= 1
+
+X11s + 68 countCheck6_X11s >= 7
+X11e - 68 countCheck6_X11e <= 5
+-2 count6_X11 + countCheck6_X11s  + countCheck6_X11e  <= 1
+
+X12s + 68 countCheck6_X12s >= 7
+X12e - 68 countCheck6_X12e <= 5
+-2 count6_X12 + countCheck6_X12s  + countCheck6_X12e  <= 1
+
+X13s + 68 countCheck6_X13s >= 7
+X13e - 68 countCheck6_X13e <= 5
+-2 count6_X13 + countCheck6_X13s  + countCheck6_X13e  <= 1
+
+X14s + 68 countCheck6_X14s >= 7
+X14e - 68 countCheck6_X14e <= 5
+-2 count6_X14 + countCheck6_X14s  + countCheck6_X14e  <= 1
+
+X15s + 68 countCheck6_X15s >= 7
+X15e - 68 countCheck6_X15e <= 5
+-2 count6_X15 + countCheck6_X15s  + countCheck6_X15e  <= 1
+
+X16s + 68 countCheck6_X16s >= 7
+X16e - 68 countCheck6_X16e <= 5
+-2 count6_X16 + countCheck6_X16s  + countCheck6_X16e  <= 1
+
+X17s + 68 countCheck6_X17s >= 7
+X17e - 68 countCheck6_X17e <= 5
+-2 count6_X17 + countCheck6_X17s  + countCheck6_X17e  <= 1
+
+X18s + 68 countCheck6_X18s >= 7
+X18e - 68 countCheck6_X18e <= 5
+-2 count6_X18 + countCheck6_X18s  + countCheck6_X18e  <= 1
+
+X19s + 68 countCheck6_X19s >= 7
+X19e - 68 countCheck6_X19e <= 5
+-2 count6_X19 + countCheck6_X19s  + countCheck6_X19e  <= 1
+
+X20s + 68 countCheck6_X20s >= 7
+X20e - 68 countCheck6_X20e <= 5
+-2 count6_X20 + countCheck6_X20s  + countCheck6_X20e  <= 1
+
+X21s + 68 countCheck6_X21s >= 7
+X21e - 68 countCheck6_X21e <= 5
+-2 count6_X21 + countCheck6_X21s  + countCheck6_X21e  <= 1
+
+X22s + 68 countCheck6_X22s >= 7
+X22e - 68 countCheck6_X22e <= 5
+-2 count6_X22 + countCheck6_X22s  + countCheck6_X22e  <= 1
+
+X23s + 68 countCheck6_X23s >= 7
+X23e - 68 countCheck6_X23e <= 5
+-2 count6_X23 + countCheck6_X23s  + countCheck6_X23e  <= 1
+
+X24s + 68 countCheck6_X24s >= 7
+X24e - 68 countCheck6_X24e <= 5
+-2 count6_X24 + countCheck6_X24s  + countCheck6_X24e  <= 1
+
+X25s + 68 countCheck6_X25s >= 7
+X25e - 68 countCheck6_X25e <= 5
+-2 count6_X25 + countCheck6_X25s  + countCheck6_X25e  <= 1
+
+X26s + 68 countCheck6_X26s >= 7
+X26e - 68 countCheck6_X26e <= 5
+-2 count6_X26 + countCheck6_X26s  + countCheck6_X26e  <= 1
+
+X27s + 68 countCheck6_X27s >= 7
+X27e - 68 countCheck6_X27e <= 5
+-2 count6_X27 + countCheck6_X27s  + countCheck6_X27e  <= 1
+
+X28s + 68 countCheck6_X28s >= 7
+X28e - 68 countCheck6_X28e <= 5
+-2 count6_X28 + countCheck6_X28s  + countCheck6_X28e  <= 1
+
+X29s + 68 countCheck6_X29s >= 7
+X29e - 68 countCheck6_X29e <= 5
+-2 count6_X29 + countCheck6_X29s  + countCheck6_X29e  <= 1
+
+X30s + 68 countCheck6_X30s >= 7
+X30e - 68 countCheck6_X30e <= 5
+-2 count6_X30 + countCheck6_X30s  + countCheck6_X30e  <= 1
+
+X31s + 68 countCheck6_X31s >= 7
+X31e - 68 countCheck6_X31e <= 5
+-2 count6_X31 + countCheck6_X31s  + countCheck6_X31e  <= 1
+
+X32s + 68 countCheck6_X32s >= 7
+X32e - 68 countCheck6_X32e <= 5
+-2 count6_X32 + countCheck6_X32s  + countCheck6_X32e  <= 1
+
+X33s + 68 countCheck6_X33s >= 7
+X33e - 68 countCheck6_X33e <= 5
+-2 count6_X33 + countCheck6_X33s  + countCheck6_X33e  <= 1
+
+X34s + 68 countCheck6_X34s >= 7
+X34e - 68 countCheck6_X34e <= 5
+-2 count6_X34 + countCheck6_X34s  + countCheck6_X34e  <= 1
+
+X35s + 68 countCheck6_X35s >= 7
+X35e - 68 countCheck6_X35e <= 5
+-2 count6_X35 + countCheck6_X35s  + countCheck6_X35e  <= 1
+
+X36s + 68 countCheck6_X36s >= 7
+X36e - 68 countCheck6_X36e <= 5
+-2 count6_X36 + countCheck6_X36s  + countCheck6_X36e  <= 1
+
+X37s + 68 countCheck6_X37s >= 7
+X37e - 68 countCheck6_X37e <= 5
+-2 count6_X37 + countCheck6_X37s  + countCheck6_X37e  <= 1
+
+X38s + 68 countCheck6_X38s >= 7
+X38e - 68 countCheck6_X38e <= 5
+-2 count6_X38 + countCheck6_X38s  + countCheck6_X38e  <= 1
+
+X39s + 68 countCheck6_X39s >= 7
+X39e - 68 countCheck6_X39e <= 5
+-2 count6_X39 + countCheck6_X39s  + countCheck6_X39e  <= 1
+
+X40s + 68 countCheck6_X40s >= 7
+X40e - 68 countCheck6_X40e <= 5
+-2 count6_X40 + countCheck6_X40s  + countCheck6_X40e  <= 1
+
+X41s + 68 countCheck6_X41s >= 7
+X41e - 68 countCheck6_X41e <= 5
+-2 count6_X41 + countCheck6_X41s  + countCheck6_X41e  <= 1
+
+X42s + 68 countCheck6_X42s >= 7
+X42e - 68 countCheck6_X42e <= 5
+-2 count6_X42 + countCheck6_X42s  + countCheck6_X42e  <= 1
+
+X43s + 68 countCheck6_X43s >= 7
+X43e - 68 countCheck6_X43e <= 5
+-2 count6_X43 + countCheck6_X43s  + countCheck6_X43e  <= 1
+
+X44s + 68 countCheck6_X44s >= 7
+X44e - 68 countCheck6_X44e <= 5
+-2 count6_X44 + countCheck6_X44s  + countCheck6_X44e  <= 1
+
+X45s + 68 countCheck6_X45s >= 7
+X45e - 68 countCheck6_X45e <= 5
+-2 count6_X45 + countCheck6_X45s  + countCheck6_X45e  <= 1
+
+X46s + 68 countCheck6_X46s >= 7
+X46e - 68 countCheck6_X46e <= 5
+-2 count6_X46 + countCheck6_X46s  + countCheck6_X46e  <= 1
+
+X47s + 68 countCheck6_X47s >= 7
+X47e - 68 countCheck6_X47e <= 5
+-2 count6_X47 + countCheck6_X47s  + countCheck6_X47e  <= 1
+
+X48s + 68 countCheck6_X48s >= 7
+X48e - 68 countCheck6_X48e <= 5
+-2 count6_X48 + countCheck6_X48s  + countCheck6_X48e  <= 1
+
+X49s + 68 countCheck6_X49s >= 7
+X49e - 68 countCheck6_X49e <= 5
+-2 count6_X49 + countCheck6_X49s  + countCheck6_X49e  <= 1
+
+X50s + 68 countCheck6_X50s >= 7
+X50e - 68 countCheck6_X50e <= 5
+-2 count6_X50 + countCheck6_X50s  + countCheck6_X50e  <= 1
+
+X51s + 68 countCheck6_X51s >= 7
+X51e - 68 countCheck6_X51e <= 5
+-2 count6_X51 + countCheck6_X51s  + countCheck6_X51e  <= 1
+
+X52s + 68 countCheck6_X52s >= 7
+X52e - 68 countCheck6_X52e <= 5
+-2 count6_X52 + countCheck6_X52s  + countCheck6_X52e  <= 1
+
+X53s + 68 countCheck6_X53s >= 7
+X53e - 68 countCheck6_X53e <= 5
+-2 count6_X53 + countCheck6_X53s  + countCheck6_X53e  <= 1
+
+X54s + 68 countCheck6_X54s >= 7
+X54e - 68 countCheck6_X54e <= 5
+-2 count6_X54 + countCheck6_X54s  + countCheck6_X54e  <= 1
+
+X55s + 68 countCheck6_X55s >= 7
+X55e - 68 countCheck6_X55e <= 5
+-2 count6_X55 + countCheck6_X55s  + countCheck6_X55e  <= 1
+
+X56s + 68 countCheck6_X56s >= 7
+X56e - 68 countCheck6_X56e <= 5
+-2 count6_X56 + countCheck6_X56s  + countCheck6_X56e  <= 1
+
+X57s + 68 countCheck6_X57s >= 7
+X57e - 68 countCheck6_X57e <= 5
+-2 count6_X57 + countCheck6_X57s  + countCheck6_X57e  <= 1
+
+X58s + 68 countCheck6_X58s >= 7
+X58e - 68 countCheck6_X58e <= 5
+-2 count6_X58 + countCheck6_X58s  + countCheck6_X58e  <= 1
+
+X59s + 68 countCheck6_X59s >= 7
+X59e - 68 countCheck6_X59e <= 5
+-2 count6_X59 + countCheck6_X59s  + countCheck6_X59e  <= 1
+
+X60s + 68 countCheck6_X60s >= 7
+X60e - 68 countCheck6_X60e <= 5
+-2 count6_X60 + countCheck6_X60s  + countCheck6_X60e  <= 1
+
+X61s + 68 countCheck6_X61s >= 7
+X61e - 68 countCheck6_X61e <= 5
+-2 count6_X61 + countCheck6_X61s  + countCheck6_X61e  <= 1
+
+X62s + 68 countCheck6_X62s >= 7
+X62e - 68 countCheck6_X62e <= 5
+-2 count6_X62 + countCheck6_X62s  + countCheck6_X62e  <= 1
+
+X63s + 68 countCheck6_X63s >= 7
+X63e - 68 countCheck6_X63e <= 5
+-2 count6_X63 + countCheck6_X63s  + countCheck6_X63e  <= 1
+
+X64s + 68 countCheck6_X64s >= 7
+X64e - 68 countCheck6_X64e <= 5
+-2 count6_X64 + countCheck6_X64s  + countCheck6_X64e  <= 1
+
+X65s + 68 countCheck6_X65s >= 7
+X65e - 68 countCheck6_X65e <= 5
+-2 count6_X65 + countCheck6_X65s  + countCheck6_X65e  <= 1
+
+X66s + 68 countCheck6_X66s >= 7
+X66e - 68 countCheck6_X66e <= 5
+-2 count6_X66 + countCheck6_X66s  + countCheck6_X66e  <= 1
+
+X67s + 68 countCheck6_X67s >= 7
+X67e - 68 countCheck6_X67e <= 5
+-2 count6_X67 + countCheck6_X67s  + countCheck6_X67e  <= 1
+
+count6_X0 + count6_X1 + count6_X2 + count6_X3 + count6_X4 + count6_X5 + count6_X6 + count6_X7 + count6_X8 + count6_X9 + count6_X10 + count6_X11 + count6_X12 + count6_X13 + count6_X14 + count6_X15 + count6_X16 + count6_X17 + count6_X18 + count6_X19 + count6_X20 + count6_X21 + count6_X22 + count6_X23 + count6_X24 + count6_X25 + count6_X26 + count6_X27 + count6_X28 + count6_X29 + count6_X30 + count6_X31 + count6_X32 + count6_X33 + count6_X34 + count6_X35 + count6_X36 + count6_X37 + count6_X38 + count6_X39 + count6_X40 + count6_X41 + count6_X42 + count6_X43 + count6_X44 + count6_X45 + count6_X46 + count6_X47 + count6_X48 + count6_X49 + count6_X50 + count6_X51 + count6_X52 + count6_X53 + count6_X54 + count6_X55 + count6_X56 + count6_X57 + count6_X58 + count6_X59 + count6_X60 + count6_X61 + count6_X62 + count6_X63 + count6_X64 + count6_X65 + count6_X66 + count6_X67 - pathWidth <= 1
+X0s + 68 countCheck7_X0s >= 8
+X0e - 68 countCheck7_X0e <= 6
+-2 count7_X0 + countCheck7_X0s  + countCheck7_X0e  <= 1
+
+X1s + 68 countCheck7_X1s >= 8
+X1e - 68 countCheck7_X1e <= 6
+-2 count7_X1 + countCheck7_X1s  + countCheck7_X1e  <= 1
+
+X2s + 68 countCheck7_X2s >= 8
+X2e - 68 countCheck7_X2e <= 6
+-2 count7_X2 + countCheck7_X2s  + countCheck7_X2e  <= 1
+
+X3s + 68 countCheck7_X3s >= 8
+X3e - 68 countCheck7_X3e <= 6
+-2 count7_X3 + countCheck7_X3s  + countCheck7_X3e  <= 1
+
+X4s + 68 countCheck7_X4s >= 8
+X4e - 68 countCheck7_X4e <= 6
+-2 count7_X4 + countCheck7_X4s  + countCheck7_X4e  <= 1
+
+X5s + 68 countCheck7_X5s >= 8
+X5e - 68 countCheck7_X5e <= 6
+-2 count7_X5 + countCheck7_X5s  + countCheck7_X5e  <= 1
+
+X6s + 68 countCheck7_X6s >= 8
+X6e - 68 countCheck7_X6e <= 6
+-2 count7_X6 + countCheck7_X6s  + countCheck7_X6e  <= 1
+
+X7s + 68 countCheck7_X7s >= 8
+X7e - 68 countCheck7_X7e <= 6
+-2 count7_X7 + countCheck7_X7s  + countCheck7_X7e  <= 1
+
+X8s + 68 countCheck7_X8s >= 8
+X8e - 68 countCheck7_X8e <= 6
+-2 count7_X8 + countCheck7_X8s  + countCheck7_X8e  <= 1
+
+X9s + 68 countCheck7_X9s >= 8
+X9e - 68 countCheck7_X9e <= 6
+-2 count7_X9 + countCheck7_X9s  + countCheck7_X9e  <= 1
+
+X10s + 68 countCheck7_X10s >= 8
+X10e - 68 countCheck7_X10e <= 6
+-2 count7_X10 + countCheck7_X10s  + countCheck7_X10e  <= 1
+
+X11s + 68 countCheck7_X11s >= 8
+X11e - 68 countCheck7_X11e <= 6
+-2 count7_X11 + countCheck7_X11s  + countCheck7_X11e  <= 1
+
+X12s + 68 countCheck7_X12s >= 8
+X12e - 68 countCheck7_X12e <= 6
+-2 count7_X12 + countCheck7_X12s  + countCheck7_X12e  <= 1
+
+X13s + 68 countCheck7_X13s >= 8
+X13e - 68 countCheck7_X13e <= 6
+-2 count7_X13 + countCheck7_X13s  + countCheck7_X13e  <= 1
+
+X14s + 68 countCheck7_X14s >= 8
+X14e - 68 countCheck7_X14e <= 6
+-2 count7_X14 + countCheck7_X14s  + countCheck7_X14e  <= 1
+
+X15s + 68 countCheck7_X15s >= 8
+X15e - 68 countCheck7_X15e <= 6
+-2 count7_X15 + countCheck7_X15s  + countCheck7_X15e  <= 1
+
+X16s + 68 countCheck7_X16s >= 8
+X16e - 68 countCheck7_X16e <= 6
+-2 count7_X16 + countCheck7_X16s  + countCheck7_X16e  <= 1
+
+X17s + 68 countCheck7_X17s >= 8
+X17e - 68 countCheck7_X17e <= 6
+-2 count7_X17 + countCheck7_X17s  + countCheck7_X17e  <= 1
+
+X18s + 68 countCheck7_X18s >= 8
+X18e - 68 countCheck7_X18e <= 6
+-2 count7_X18 + countCheck7_X18s  + countCheck7_X18e  <= 1
+
+X19s + 68 countCheck7_X19s >= 8
+X19e - 68 countCheck7_X19e <= 6
+-2 count7_X19 + countCheck7_X19s  + countCheck7_X19e  <= 1
+
+X20s + 68 countCheck7_X20s >= 8
+X20e - 68 countCheck7_X20e <= 6
+-2 count7_X20 + countCheck7_X20s  + countCheck7_X20e  <= 1
+
+X21s + 68 countCheck7_X21s >= 8
+X21e - 68 countCheck7_X21e <= 6
+-2 count7_X21 + countCheck7_X21s  + countCheck7_X21e  <= 1
+
+X22s + 68 countCheck7_X22s >= 8
+X22e - 68 countCheck7_X22e <= 6
+-2 count7_X22 + countCheck7_X22s  + countCheck7_X22e  <= 1
+
+X23s + 68 countCheck7_X23s >= 8
+X23e - 68 countCheck7_X23e <= 6
+-2 count7_X23 + countCheck7_X23s  + countCheck7_X23e  <= 1
+
+X24s + 68 countCheck7_X24s >= 8
+X24e - 68 countCheck7_X24e <= 6
+-2 count7_X24 + countCheck7_X24s  + countCheck7_X24e  <= 1
+
+X25s + 68 countCheck7_X25s >= 8
+X25e - 68 countCheck7_X25e <= 6
+-2 count7_X25 + countCheck7_X25s  + countCheck7_X25e  <= 1
+
+X26s + 68 countCheck7_X26s >= 8
+X26e - 68 countCheck7_X26e <= 6
+-2 count7_X26 + countCheck7_X26s  + countCheck7_X26e  <= 1
+
+X27s + 68 countCheck7_X27s >= 8
+X27e - 68 countCheck7_X27e <= 6
+-2 count7_X27 + countCheck7_X27s  + countCheck7_X27e  <= 1
+
+X28s + 68 countCheck7_X28s >= 8
+X28e - 68 countCheck7_X28e <= 6
+-2 count7_X28 + countCheck7_X28s  + countCheck7_X28e  <= 1
+
+X29s + 68 countCheck7_X29s >= 8
+X29e - 68 countCheck7_X29e <= 6
+-2 count7_X29 + countCheck7_X29s  + countCheck7_X29e  <= 1
+
+X30s + 68 countCheck7_X30s >= 8
+X30e - 68 countCheck7_X30e <= 6
+-2 count7_X30 + countCheck7_X30s  + countCheck7_X30e  <= 1
+
+X31s + 68 countCheck7_X31s >= 8
+X31e - 68 countCheck7_X31e <= 6
+-2 count7_X31 + countCheck7_X31s  + countCheck7_X31e  <= 1
+
+X32s + 68 countCheck7_X32s >= 8
+X32e - 68 countCheck7_X32e <= 6
+-2 count7_X32 + countCheck7_X32s  + countCheck7_X32e  <= 1
+
+X33s + 68 countCheck7_X33s >= 8
+X33e - 68 countCheck7_X33e <= 6
+-2 count7_X33 + countCheck7_X33s  + countCheck7_X33e  <= 1
+
+X34s + 68 countCheck7_X34s >= 8
+X34e - 68 countCheck7_X34e <= 6
+-2 count7_X34 + countCheck7_X34s  + countCheck7_X34e  <= 1
+
+X35s + 68 countCheck7_X35s >= 8
+X35e - 68 countCheck7_X35e <= 6
+-2 count7_X35 + countCheck7_X35s  + countCheck7_X35e  <= 1
+
+X36s + 68 countCheck7_X36s >= 8
+X36e - 68 countCheck7_X36e <= 6
+-2 count7_X36 + countCheck7_X36s  + countCheck7_X36e  <= 1
+
+X37s + 68 countCheck7_X37s >= 8
+X37e - 68 countCheck7_X37e <= 6
+-2 count7_X37 + countCheck7_X37s  + countCheck7_X37e  <= 1
+
+X38s + 68 countCheck7_X38s >= 8
+X38e - 68 countCheck7_X38e <= 6
+-2 count7_X38 + countCheck7_X38s  + countCheck7_X38e  <= 1
+
+X39s + 68 countCheck7_X39s >= 8
+X39e - 68 countCheck7_X39e <= 6
+-2 count7_X39 + countCheck7_X39s  + countCheck7_X39e  <= 1
+
+X40s + 68 countCheck7_X40s >= 8
+X40e - 68 countCheck7_X40e <= 6
+-2 count7_X40 + countCheck7_X40s  + countCheck7_X40e  <= 1
+
+X41s + 68 countCheck7_X41s >= 8
+X41e - 68 countCheck7_X41e <= 6
+-2 count7_X41 + countCheck7_X41s  + countCheck7_X41e  <= 1
+
+X42s + 68 countCheck7_X42s >= 8
+X42e - 68 countCheck7_X42e <= 6
+-2 count7_X42 + countCheck7_X42s  + countCheck7_X42e  <= 1
+
+X43s + 68 countCheck7_X43s >= 8
+X43e - 68 countCheck7_X43e <= 6
+-2 count7_X43 + countCheck7_X43s  + countCheck7_X43e  <= 1
+
+X44s + 68 countCheck7_X44s >= 8
+X44e - 68 countCheck7_X44e <= 6
+-2 count7_X44 + countCheck7_X44s  + countCheck7_X44e  <= 1
+
+X45s + 68 countCheck7_X45s >= 8
+X45e - 68 countCheck7_X45e <= 6
+-2 count7_X45 + countCheck7_X45s  + countCheck7_X45e  <= 1
+
+X46s + 68 countCheck7_X46s >= 8
+X46e - 68 countCheck7_X46e <= 6
+-2 count7_X46 + countCheck7_X46s  + countCheck7_X46e  <= 1
+
+X47s + 68 countCheck7_X47s >= 8
+X47e - 68 countCheck7_X47e <= 6
+-2 count7_X47 + countCheck7_X47s  + countCheck7_X47e  <= 1
+
+X48s + 68 countCheck7_X48s >= 8
+X48e - 68 countCheck7_X48e <= 6
+-2 count7_X48 + countCheck7_X48s  + countCheck7_X48e  <= 1
+
+X49s + 68 countCheck7_X49s >= 8
+X49e - 68 countCheck7_X49e <= 6
+-2 count7_X49 + countCheck7_X49s  + countCheck7_X49e  <= 1
+
+X50s + 68 countCheck7_X50s >= 8
+X50e - 68 countCheck7_X50e <= 6
+-2 count7_X50 + countCheck7_X50s  + countCheck7_X50e  <= 1
+
+X51s + 68 countCheck7_X51s >= 8
+X51e - 68 countCheck7_X51e <= 6
+-2 count7_X51 + countCheck7_X51s  + countCheck7_X51e  <= 1
+
+X52s + 68 countCheck7_X52s >= 8
+X52e - 68 countCheck7_X52e <= 6
+-2 count7_X52 + countCheck7_X52s  + countCheck7_X52e  <= 1
+
+X53s + 68 countCheck7_X53s >= 8
+X53e - 68 countCheck7_X53e <= 6
+-2 count7_X53 + countCheck7_X53s  + countCheck7_X53e  <= 1
+
+X54s + 68 countCheck7_X54s >= 8
+X54e - 68 countCheck7_X54e <= 6
+-2 count7_X54 + countCheck7_X54s  + countCheck7_X54e  <= 1
+
+X55s + 68 countCheck7_X55s >= 8
+X55e - 68 countCheck7_X55e <= 6
+-2 count7_X55 + countCheck7_X55s  + countCheck7_X55e  <= 1
+
+X56s + 68 countCheck7_X56s >= 8
+X56e - 68 countCheck7_X56e <= 6
+-2 count7_X56 + countCheck7_X56s  + countCheck7_X56e  <= 1
+
+X57s + 68 countCheck7_X57s >= 8
+X57e - 68 countCheck7_X57e <= 6
+-2 count7_X57 + countCheck7_X57s  + countCheck7_X57e  <= 1
+
+X58s + 68 countCheck7_X58s >= 8
+X58e - 68 countCheck7_X58e <= 6
+-2 count7_X58 + countCheck7_X58s  + countCheck7_X58e  <= 1
+
+X59s + 68 countCheck7_X59s >= 8
+X59e - 68 countCheck7_X59e <= 6
+-2 count7_X59 + countCheck7_X59s  + countCheck7_X59e  <= 1
+
+X60s + 68 countCheck7_X60s >= 8
+X60e - 68 countCheck7_X60e <= 6
+-2 count7_X60 + countCheck7_X60s  + countCheck7_X60e  <= 1
+
+X61s + 68 countCheck7_X61s >= 8
+X61e - 68 countCheck7_X61e <= 6
+-2 count7_X61 + countCheck7_X61s  + countCheck7_X61e  <= 1
+
+X62s + 68 countCheck7_X62s >= 8
+X62e - 68 countCheck7_X62e <= 6
+-2 count7_X62 + countCheck7_X62s  + countCheck7_X62e  <= 1
+
+X63s + 68 countCheck7_X63s >= 8
+X63e - 68 countCheck7_X63e <= 6
+-2 count7_X63 + countCheck7_X63s  + countCheck7_X63e  <= 1
+
+X64s + 68 countCheck7_X64s >= 8
+X64e - 68 countCheck7_X64e <= 6
+-2 count7_X64 + countCheck7_X64s  + countCheck7_X64e  <= 1
+
+X65s + 68 countCheck7_X65s >= 8
+X65e - 68 countCheck7_X65e <= 6
+-2 count7_X65 + countCheck7_X65s  + countCheck7_X65e  <= 1
+
+X66s + 68 countCheck7_X66s >= 8
+X66e - 68 countCheck7_X66e <= 6
+-2 count7_X66 + countCheck7_X66s  + countCheck7_X66e  <= 1
+
+X67s + 68 countCheck7_X67s >= 8
+X67e - 68 countCheck7_X67e <= 6
+-2 count7_X67 + countCheck7_X67s  + countCheck7_X67e  <= 1
+
+count7_X0 + count7_X1 + count7_X2 + count7_X3 + count7_X4 + count7_X5 + count7_X6 + count7_X7 + count7_X8 + count7_X9 + count7_X10 + count7_X11 + count7_X12 + count7_X13 + count7_X14 + count7_X15 + count7_X16 + count7_X17 + count7_X18 + count7_X19 + count7_X20 + count7_X21 + count7_X22 + count7_X23 + count7_X24 + count7_X25 + count7_X26 + count7_X27 + count7_X28 + count7_X29 + count7_X30 + count7_X31 + count7_X32 + count7_X33 + count7_X34 + count7_X35 + count7_X36 + count7_X37 + count7_X38 + count7_X39 + count7_X40 + count7_X41 + count7_X42 + count7_X43 + count7_X44 + count7_X45 + count7_X46 + count7_X47 + count7_X48 + count7_X49 + count7_X50 + count7_X51 + count7_X52 + count7_X53 + count7_X54 + count7_X55 + count7_X56 + count7_X57 + count7_X58 + count7_X59 + count7_X60 + count7_X61 + count7_X62 + count7_X63 + count7_X64 + count7_X65 + count7_X66 + count7_X67 - pathWidth <= 1
+X0s + 68 countCheck8_X0s >= 9
+X0e - 68 countCheck8_X0e <= 7
+-2 count8_X0 + countCheck8_X0s  + countCheck8_X0e  <= 1
+
+X1s + 68 countCheck8_X1s >= 9
+X1e - 68 countCheck8_X1e <= 7
+-2 count8_X1 + countCheck8_X1s  + countCheck8_X1e  <= 1
+
+X2s + 68 countCheck8_X2s >= 9
+X2e - 68 countCheck8_X2e <= 7
+-2 count8_X2 + countCheck8_X2s  + countCheck8_X2e  <= 1
+
+X3s + 68 countCheck8_X3s >= 9
+X3e - 68 countCheck8_X3e <= 7
+-2 count8_X3 + countCheck8_X3s  + countCheck8_X3e  <= 1
+
+X4s + 68 countCheck8_X4s >= 9
+X4e - 68 countCheck8_X4e <= 7
+-2 count8_X4 + countCheck8_X4s  + countCheck8_X4e  <= 1
+
+X5s + 68 countCheck8_X5s >= 9
+X5e - 68 countCheck8_X5e <= 7
+-2 count8_X5 + countCheck8_X5s  + countCheck8_X5e  <= 1
+
+X6s + 68 countCheck8_X6s >= 9
+X6e - 68 countCheck8_X6e <= 7
+-2 count8_X6 + countCheck8_X6s  + countCheck8_X6e  <= 1
+
+X7s + 68 countCheck8_X7s >= 9
+X7e - 68 countCheck8_X7e <= 7
+-2 count8_X7 + countCheck8_X7s  + countCheck8_X7e  <= 1
+
+X8s + 68 countCheck8_X8s >= 9
+X8e - 68 countCheck8_X8e <= 7
+-2 count8_X8 + countCheck8_X8s  + countCheck8_X8e  <= 1
+
+X9s + 68 countCheck8_X9s >= 9
+X9e - 68 countCheck8_X9e <= 7
+-2 count8_X9 + countCheck8_X9s  + countCheck8_X9e  <= 1
+
+X10s + 68 countCheck8_X10s >= 9
+X10e - 68 countCheck8_X10e <= 7
+-2 count8_X10 + countCheck8_X10s  + countCheck8_X10e  <= 1
+
+X11s + 68 countCheck8_X11s >= 9
+X11e - 68 countCheck8_X11e <= 7
+-2 count8_X11 + countCheck8_X11s  + countCheck8_X11e  <= 1
+
+X12s + 68 countCheck8_X12s >= 9
+X12e - 68 countCheck8_X12e <= 7
+-2 count8_X12 + countCheck8_X12s  + countCheck8_X12e  <= 1
+
+X13s + 68 countCheck8_X13s >= 9
+X13e - 68 countCheck8_X13e <= 7
+-2 count8_X13 + countCheck8_X13s  + countCheck8_X13e  <= 1
+
+X14s + 68 countCheck8_X14s >= 9
+X14e - 68 countCheck8_X14e <= 7
+-2 count8_X14 + countCheck8_X14s  + countCheck8_X14e  <= 1
+
+X15s + 68 countCheck8_X15s >= 9
+X15e - 68 countCheck8_X15e <= 7
+-2 count8_X15 + countCheck8_X15s  + countCheck8_X15e  <= 1
+
+X16s + 68 countCheck8_X16s >= 9
+X16e - 68 countCheck8_X16e <= 7
+-2 count8_X16 + countCheck8_X16s  + countCheck8_X16e  <= 1
+
+X17s + 68 countCheck8_X17s >= 9
+X17e - 68 countCheck8_X17e <= 7
+-2 count8_X17 + countCheck8_X17s  + countCheck8_X17e  <= 1
+
+X18s + 68 countCheck8_X18s >= 9
+X18e - 68 countCheck8_X18e <= 7
+-2 count8_X18 + countCheck8_X18s  + countCheck8_X18e  <= 1
+
+X19s + 68 countCheck8_X19s >= 9
+X19e - 68 countCheck8_X19e <= 7
+-2 count8_X19 + countCheck8_X19s  + countCheck8_X19e  <= 1
+
+X20s + 68 countCheck8_X20s >= 9
+X20e - 68 countCheck8_X20e <= 7
+-2 count8_X20 + countCheck8_X20s  + countCheck8_X20e  <= 1
+
+X21s + 68 countCheck8_X21s >= 9
+X21e - 68 countCheck8_X21e <= 7
+-2 count8_X21 + countCheck8_X21s  + countCheck8_X21e  <= 1
+
+X22s + 68 countCheck8_X22s >= 9
+X22e - 68 countCheck8_X22e <= 7
+-2 count8_X22 + countCheck8_X22s  + countCheck8_X22e  <= 1
+
+X23s + 68 countCheck8_X23s >= 9
+X23e - 68 countCheck8_X23e <= 7
+-2 count8_X23 + countCheck8_X23s  + countCheck8_X23e  <= 1
+
+X24s + 68 countCheck8_X24s >= 9
+X24e - 68 countCheck8_X24e <= 7
+-2 count8_X24 + countCheck8_X24s  + countCheck8_X24e  <= 1
+
+X25s + 68 countCheck8_X25s >= 9
+X25e - 68 countCheck8_X25e <= 7
+-2 count8_X25 + countCheck8_X25s  + countCheck8_X25e  <= 1
+
+X26s + 68 countCheck8_X26s >= 9
+X26e - 68 countCheck8_X26e <= 7
+-2 count8_X26 + countCheck8_X26s  + countCheck8_X26e  <= 1
+
+X27s + 68 countCheck8_X27s >= 9
+X27e - 68 countCheck8_X27e <= 7
+-2 count8_X27 + countCheck8_X27s  + countCheck8_X27e  <= 1
+
+X28s + 68 countCheck8_X28s >= 9
+X28e - 68 countCheck8_X28e <= 7
+-2 count8_X28 + countCheck8_X28s  + countCheck8_X28e  <= 1
+
+X29s + 68 countCheck8_X29s >= 9
+X29e - 68 countCheck8_X29e <= 7
+-2 count8_X29 + countCheck8_X29s  + countCheck8_X29e  <= 1
+
+X30s + 68 countCheck8_X30s >= 9
+X30e - 68 countCheck8_X30e <= 7
+-2 count8_X30 + countCheck8_X30s  + countCheck8_X30e  <= 1
+
+X31s + 68 countCheck8_X31s >= 9
+X31e - 68 countCheck8_X31e <= 7
+-2 count8_X31 + countCheck8_X31s  + countCheck8_X31e  <= 1
+
+X32s + 68 countCheck8_X32s >= 9
+X32e - 68 countCheck8_X32e <= 7
+-2 count8_X32 + countCheck8_X32s  + countCheck8_X32e  <= 1
+
+X33s + 68 countCheck8_X33s >= 9
+X33e - 68 countCheck8_X33e <= 7
+-2 count8_X33 + countCheck8_X33s  + countCheck8_X33e  <= 1
+
+X34s + 68 countCheck8_X34s >= 9
+X34e - 68 countCheck8_X34e <= 7
+-2 count8_X34 + countCheck8_X34s  + countCheck8_X34e  <= 1
+
+X35s + 68 countCheck8_X35s >= 9
+X35e - 68 countCheck8_X35e <= 7
+-2 count8_X35 + countCheck8_X35s  + countCheck8_X35e  <= 1
+
+X36s + 68 countCheck8_X36s >= 9
+X36e - 68 countCheck8_X36e <= 7
+-2 count8_X36 + countCheck8_X36s  + countCheck8_X36e  <= 1
+
+X37s + 68 countCheck8_X37s >= 9
+X37e - 68 countCheck8_X37e <= 7
+-2 count8_X37 + countCheck8_X37s  + countCheck8_X37e  <= 1
+
+X38s + 68 countCheck8_X38s >= 9
+X38e - 68 countCheck8_X38e <= 7
+-2 count8_X38 + countCheck8_X38s  + countCheck8_X38e  <= 1
+
+X39s + 68 countCheck8_X39s >= 9
+X39e - 68 countCheck8_X39e <= 7
+-2 count8_X39 + countCheck8_X39s  + countCheck8_X39e  <= 1
+
+X40s + 68 countCheck8_X40s >= 9
+X40e - 68 countCheck8_X40e <= 7
+-2 count8_X40 + countCheck8_X40s  + countCheck8_X40e  <= 1
+
+X41s + 68 countCheck8_X41s >= 9
+X41e - 68 countCheck8_X41e <= 7
+-2 count8_X41 + countCheck8_X41s  + countCheck8_X41e  <= 1
+
+X42s + 68 countCheck8_X42s >= 9
+X42e - 68 countCheck8_X42e <= 7
+-2 count8_X42 + countCheck8_X42s  + countCheck8_X42e  <= 1
+
+X43s + 68 countCheck8_X43s >= 9
+X43e - 68 countCheck8_X43e <= 7
+-2 count8_X43 + countCheck8_X43s  + countCheck8_X43e  <= 1
+
+X44s + 68 countCheck8_X44s >= 9
+X44e - 68 countCheck8_X44e <= 7
+-2 count8_X44 + countCheck8_X44s  + countCheck8_X44e  <= 1
+
+X45s + 68 countCheck8_X45s >= 9
+X45e - 68 countCheck8_X45e <= 7
+-2 count8_X45 + countCheck8_X45s  + countCheck8_X45e  <= 1
+
+X46s + 68 countCheck8_X46s >= 9
+X46e - 68 countCheck8_X46e <= 7
+-2 count8_X46 + countCheck8_X46s  + countCheck8_X46e  <= 1
+
+X47s + 68 countCheck8_X47s >= 9
+X47e - 68 countCheck8_X47e <= 7
+-2 count8_X47 + countCheck8_X47s  + countCheck8_X47e  <= 1
+
+X48s + 68 countCheck8_X48s >= 9
+X48e - 68 countCheck8_X48e <= 7
+-2 count8_X48 + countCheck8_X48s  + countCheck8_X48e  <= 1
+
+X49s + 68 countCheck8_X49s >= 9
+X49e - 68 countCheck8_X49e <= 7
+-2 count8_X49 + countCheck8_X49s  + countCheck8_X49e  <= 1
+
+X50s + 68 countCheck8_X50s >= 9
+X50e - 68 countCheck8_X50e <= 7
+-2 count8_X50 + countCheck8_X50s  + countCheck8_X50e  <= 1
+
+X51s + 68 countCheck8_X51s >= 9
+X51e - 68 countCheck8_X51e <= 7
+-2 count8_X51 + countCheck8_X51s  + countCheck8_X51e  <= 1
+
+X52s + 68 countCheck8_X52s >= 9
+X52e - 68 countCheck8_X52e <= 7
+-2 count8_X52 + countCheck8_X52s  + countCheck8_X52e  <= 1
+
+X53s + 68 countCheck8_X53s >= 9
+X53e - 68 countCheck8_X53e <= 7
+-2 count8_X53 + countCheck8_X53s  + countCheck8_X53e  <= 1
+
+X54s + 68 countCheck8_X54s >= 9
+X54e - 68 countCheck8_X54e <= 7
+-2 count8_X54 + countCheck8_X54s  + countCheck8_X54e  <= 1
+
+X55s + 68 countCheck8_X55s >= 9
+X55e - 68 countCheck8_X55e <= 7
+-2 count8_X55 + countCheck8_X55s  + countCheck8_X55e  <= 1
+
+X56s + 68 countCheck8_X56s >= 9
+X56e - 68 countCheck8_X56e <= 7
+-2 count8_X56 + countCheck8_X56s  + countCheck8_X56e  <= 1
+
+X57s + 68 countCheck8_X57s >= 9
+X57e - 68 countCheck8_X57e <= 7
+-2 count8_X57 + countCheck8_X57s  + countCheck8_X57e  <= 1
+
+X58s + 68 countCheck8_X58s >= 9
+X58e - 68 countCheck8_X58e <= 7
+-2 count8_X58 + countCheck8_X58s  + countCheck8_X58e  <= 1
+
+X59s + 68 countCheck8_X59s >= 9
+X59e - 68 countCheck8_X59e <= 7
+-2 count8_X59 + countCheck8_X59s  + countCheck8_X59e  <= 1
+
+X60s + 68 countCheck8_X60s >= 9
+X60e - 68 countCheck8_X60e <= 7
+-2 count8_X60 + countCheck8_X60s  + countCheck8_X60e  <= 1
+
+X61s + 68 countCheck8_X61s >= 9
+X61e - 68 countCheck8_X61e <= 7
+-2 count8_X61 + countCheck8_X61s  + countCheck8_X61e  <= 1
+
+X62s + 68 countCheck8_X62s >= 9
+X62e - 68 countCheck8_X62e <= 7
+-2 count8_X62 + countCheck8_X62s  + countCheck8_X62e  <= 1
+
+X63s + 68 countCheck8_X63s >= 9
+X63e - 68 countCheck8_X63e <= 7
+-2 count8_X63 + countCheck8_X63s  + countCheck8_X63e  <= 1
+
+X64s + 68 countCheck8_X64s >= 9
+X64e - 68 countCheck8_X64e <= 7
+-2 count8_X64 + countCheck8_X64s  + countCheck8_X64e  <= 1
+
+X65s + 68 countCheck8_X65s >= 9
+X65e - 68 countCheck8_X65e <= 7
+-2 count8_X65 + countCheck8_X65s  + countCheck8_X65e  <= 1
+
+X66s + 68 countCheck8_X66s >= 9
+X66e - 68 countCheck8_X66e <= 7
+-2 count8_X66 + countCheck8_X66s  + countCheck8_X66e  <= 1
+
+X67s + 68 countCheck8_X67s >= 9
+X67e - 68 countCheck8_X67e <= 7
+-2 count8_X67 + countCheck8_X67s  + countCheck8_X67e  <= 1
+
+count8_X0 + count8_X1 + count8_X2 + count8_X3 + count8_X4 + count8_X5 + count8_X6 + count8_X7 + count8_X8 + count8_X9 + count8_X10 + count8_X11 + count8_X12 + count8_X13 + count8_X14 + count8_X15 + count8_X16 + count8_X17 + count8_X18 + count8_X19 + count8_X20 + count8_X21 + count8_X22 + count8_X23 + count8_X24 + count8_X25 + count8_X26 + count8_X27 + count8_X28 + count8_X29 + count8_X30 + count8_X31 + count8_X32 + count8_X33 + count8_X34 + count8_X35 + count8_X36 + count8_X37 + count8_X38 + count8_X39 + count8_X40 + count8_X41 + count8_X42 + count8_X43 + count8_X44 + count8_X45 + count8_X46 + count8_X47 + count8_X48 + count8_X49 + count8_X50 + count8_X51 + count8_X52 + count8_X53 + count8_X54 + count8_X55 + count8_X56 + count8_X57 + count8_X58 + count8_X59 + count8_X60 + count8_X61 + count8_X62 + count8_X63 + count8_X64 + count8_X65 + count8_X66 + count8_X67 - pathWidth <= 1
+X0s + 68 countCheck9_X0s >= 10
+X0e - 68 countCheck9_X0e <= 8
+-2 count9_X0 + countCheck9_X0s  + countCheck9_X0e  <= 1
+
+X1s + 68 countCheck9_X1s >= 10
+X1e - 68 countCheck9_X1e <= 8
+-2 count9_X1 + countCheck9_X1s  + countCheck9_X1e  <= 1
+
+X2s + 68 countCheck9_X2s >= 10
+X2e - 68 countCheck9_X2e <= 8
+-2 count9_X2 + countCheck9_X2s  + countCheck9_X2e  <= 1
+
+X3s + 68 countCheck9_X3s >= 10
+X3e - 68 countCheck9_X3e <= 8
+-2 count9_X3 + countCheck9_X3s  + countCheck9_X3e  <= 1
+
+X4s + 68 countCheck9_X4s >= 10
+X4e - 68 countCheck9_X4e <= 8
+-2 count9_X4 + countCheck9_X4s  + countCheck9_X4e  <= 1
+
+X5s + 68 countCheck9_X5s >= 10
+X5e - 68 countCheck9_X5e <= 8
+-2 count9_X5 + countCheck9_X5s  + countCheck9_X5e  <= 1
+
+X6s + 68 countCheck9_X6s >= 10
+X6e - 68 countCheck9_X6e <= 8
+-2 count9_X6 + countCheck9_X6s  + countCheck9_X6e  <= 1
+
+X7s + 68 countCheck9_X7s >= 10
+X7e - 68 countCheck9_X7e <= 8
+-2 count9_X7 + countCheck9_X7s  + countCheck9_X7e  <= 1
+
+X8s + 68 countCheck9_X8s >= 10
+X8e - 68 countCheck9_X8e <= 8
+-2 count9_X8 + countCheck9_X8s  + countCheck9_X8e  <= 1
+
+X9s + 68 countCheck9_X9s >= 10
+X9e - 68 countCheck9_X9e <= 8
+-2 count9_X9 + countCheck9_X9s  + countCheck9_X9e  <= 1
+
+X10s + 68 countCheck9_X10s >= 10
+X10e - 68 countCheck9_X10e <= 8
+-2 count9_X10 + countCheck9_X10s  + countCheck9_X10e  <= 1
+
+X11s + 68 countCheck9_X11s >= 10
+X11e - 68 countCheck9_X11e <= 8
+-2 count9_X11 + countCheck9_X11s  + countCheck9_X11e  <= 1
+
+X12s + 68 countCheck9_X12s >= 10
+X12e - 68 countCheck9_X12e <= 8
+-2 count9_X12 + countCheck9_X12s  + countCheck9_X12e  <= 1
+
+X13s + 68 countCheck9_X13s >= 10
+X13e - 68 countCheck9_X13e <= 8
+-2 count9_X13 + countCheck9_X13s  + countCheck9_X13e  <= 1
+
+X14s + 68 countCheck9_X14s >= 10
+X14e - 68 countCheck9_X14e <= 8
+-2 count9_X14 + countCheck9_X14s  + countCheck9_X14e  <= 1
+
+X15s + 68 countCheck9_X15s >= 10
+X15e - 68 countCheck9_X15e <= 8
+-2 count9_X15 + countCheck9_X15s  + countCheck9_X15e  <= 1
+
+X16s + 68 countCheck9_X16s >= 10
+X16e - 68 countCheck9_X16e <= 8
+-2 count9_X16 + countCheck9_X16s  + countCheck9_X16e  <= 1
+
+X17s + 68 countCheck9_X17s >= 10
+X17e - 68 countCheck9_X17e <= 8
+-2 count9_X17 + countCheck9_X17s  + countCheck9_X17e  <= 1
+
+X18s + 68 countCheck9_X18s >= 10
+X18e - 68 countCheck9_X18e <= 8
+-2 count9_X18 + countCheck9_X18s  + countCheck9_X18e  <= 1
+
+X19s + 68 countCheck9_X19s >= 10
+X19e - 68 countCheck9_X19e <= 8
+-2 count9_X19 + countCheck9_X19s  + countCheck9_X19e  <= 1
+
+X20s + 68 countCheck9_X20s >= 10
+X20e - 68 countCheck9_X20e <= 8
+-2 count9_X20 + countCheck9_X20s  + countCheck9_X20e  <= 1
+
+X21s + 68 countCheck9_X21s >= 10
+X21e - 68 countCheck9_X21e <= 8
+-2 count9_X21 + countCheck9_X21s  + countCheck9_X21e  <= 1
+
+X22s + 68 countCheck9_X22s >= 10
+X22e - 68 countCheck9_X22e <= 8
+-2 count9_X22 + countCheck9_X22s  + countCheck9_X22e  <= 1
+
+X23s + 68 countCheck9_X23s >= 10
+X23e - 68 countCheck9_X23e <= 8
+-2 count9_X23 + countCheck9_X23s  + countCheck9_X23e  <= 1
+
+X24s + 68 countCheck9_X24s >= 10
+X24e - 68 countCheck9_X24e <= 8
+-2 count9_X24 + countCheck9_X24s  + countCheck9_X24e  <= 1
+
+X25s + 68 countCheck9_X25s >= 10
+X25e - 68 countCheck9_X25e <= 8
+-2 count9_X25 + countCheck9_X25s  + countCheck9_X25e  <= 1
+
+X26s + 68 countCheck9_X26s >= 10
+X26e - 68 countCheck9_X26e <= 8
+-2 count9_X26 + countCheck9_X26s  + countCheck9_X26e  <= 1
+
+X27s + 68 countCheck9_X27s >= 10
+X27e - 68 countCheck9_X27e <= 8
+-2 count9_X27 + countCheck9_X27s  + countCheck9_X27e  <= 1
+
+X28s + 68 countCheck9_X28s >= 10
+X28e - 68 countCheck9_X28e <= 8
+-2 count9_X28 + countCheck9_X28s  + countCheck9_X28e  <= 1
+
+X29s + 68 countCheck9_X29s >= 10
+X29e - 68 countCheck9_X29e <= 8
+-2 count9_X29 + countCheck9_X29s  + countCheck9_X29e  <= 1
+
+X30s + 68 countCheck9_X30s >= 10
+X30e - 68 countCheck9_X30e <= 8
+-2 count9_X30 + countCheck9_X30s  + countCheck9_X30e  <= 1
+
+X31s + 68 countCheck9_X31s >= 10
+X31e - 68 countCheck9_X31e <= 8
+-2 count9_X31 + countCheck9_X31s  + countCheck9_X31e  <= 1
+
+X32s + 68 countCheck9_X32s >= 10
+X32e - 68 countCheck9_X32e <= 8
+-2 count9_X32 + countCheck9_X32s  + countCheck9_X32e  <= 1
+
+X33s + 68 countCheck9_X33s >= 10
+X33e - 68 countCheck9_X33e <= 8
+-2 count9_X33 + countCheck9_X33s  + countCheck9_X33e  <= 1
+
+X34s + 68 countCheck9_X34s >= 10
+X34e - 68 countCheck9_X34e <= 8
+-2 count9_X34 + countCheck9_X34s  + countCheck9_X34e  <= 1
+
+X35s + 68 countCheck9_X35s >= 10
+X35e - 68 countCheck9_X35e <= 8
+-2 count9_X35 + countCheck9_X35s  + countCheck9_X35e  <= 1
+
+X36s + 68 countCheck9_X36s >= 10
+X36e - 68 countCheck9_X36e <= 8
+-2 count9_X36 + countCheck9_X36s  + countCheck9_X36e  <= 1
+
+X37s + 68 countCheck9_X37s >= 10
+X37e - 68 countCheck9_X37e <= 8
+-2 count9_X37 + countCheck9_X37s  + countCheck9_X37e  <= 1
+
+X38s + 68 countCheck9_X38s >= 10
+X38e - 68 countCheck9_X38e <= 8
+-2 count9_X38 + countCheck9_X38s  + countCheck9_X38e  <= 1
+
+X39s + 68 countCheck9_X39s >= 10
+X39e - 68 countCheck9_X39e <= 8
+-2 count9_X39 + countCheck9_X39s  + countCheck9_X39e  <= 1
+
+X40s + 68 countCheck9_X40s >= 10
+X40e - 68 countCheck9_X40e <= 8
+-2 count9_X40 + countCheck9_X40s  + countCheck9_X40e  <= 1
+
+X41s + 68 countCheck9_X41s >= 10
+X41e - 68 countCheck9_X41e <= 8
+-2 count9_X41 + countCheck9_X41s  + countCheck9_X41e  <= 1
+
+X42s + 68 countCheck9_X42s >= 10
+X42e - 68 countCheck9_X42e <= 8
+-2 count9_X42 + countCheck9_X42s  + countCheck9_X42e  <= 1
+
+X43s + 68 countCheck9_X43s >= 10
+X43e - 68 countCheck9_X43e <= 8
+-2 count9_X43 + countCheck9_X43s  + countCheck9_X43e  <= 1
+
+X44s + 68 countCheck9_X44s >= 10
+X44e - 68 countCheck9_X44e <= 8
+-2 count9_X44 + countCheck9_X44s  + countCheck9_X44e  <= 1
+
+X45s + 68 countCheck9_X45s >= 10
+X45e - 68 countCheck9_X45e <= 8
+-2 count9_X45 + countCheck9_X45s  + countCheck9_X45e  <= 1
+
+X46s + 68 countCheck9_X46s >= 10
+X46e - 68 countCheck9_X46e <= 8
+-2 count9_X46 + countCheck9_X46s  + countCheck9_X46e  <= 1
+
+X47s + 68 countCheck9_X47s >= 10
+X47e - 68 countCheck9_X47e <= 8
+-2 count9_X47 + countCheck9_X47s  + countCheck9_X47e  <= 1
+
+X48s + 68 countCheck9_X48s >= 10
+X48e - 68 countCheck9_X48e <= 8
+-2 count9_X48 + countCheck9_X48s  + countCheck9_X48e  <= 1
+
+X49s + 68 countCheck9_X49s >= 10
+X49e - 68 countCheck9_X49e <= 8
+-2 count9_X49 + countCheck9_X49s  + countCheck9_X49e  <= 1
+
+X50s + 68 countCheck9_X50s >= 10
+X50e - 68 countCheck9_X50e <= 8
+-2 count9_X50 + countCheck9_X50s  + countCheck9_X50e  <= 1
+
+X51s + 68 countCheck9_X51s >= 10
+X51e - 68 countCheck9_X51e <= 8
+-2 count9_X51 + countCheck9_X51s  + countCheck9_X51e  <= 1
+
+X52s + 68 countCheck9_X52s >= 10
+X52e - 68 countCheck9_X52e <= 8
+-2 count9_X52 + countCheck9_X52s  + countCheck9_X52e  <= 1
+
+X53s + 68 countCheck9_X53s >= 10
+X53e - 68 countCheck9_X53e <= 8
+-2 count9_X53 + countCheck9_X53s  + countCheck9_X53e  <= 1
+
+X54s + 68 countCheck9_X54s >= 10
+X54e - 68 countCheck9_X54e <= 8
+-2 count9_X54 + countCheck9_X54s  + countCheck9_X54e  <= 1
+
+X55s + 68 countCheck9_X55s >= 10
+X55e - 68 countCheck9_X55e <= 8
+-2 count9_X55 + countCheck9_X55s  + countCheck9_X55e  <= 1
+
+X56s + 68 countCheck9_X56s >= 10
+X56e - 68 countCheck9_X56e <= 8
+-2 count9_X56 + countCheck9_X56s  + countCheck9_X56e  <= 1
+
+X57s + 68 countCheck9_X57s >= 10
+X57e - 68 countCheck9_X57e <= 8
+-2 count9_X57 + countCheck9_X57s  + countCheck9_X57e  <= 1
+
+X58s + 68 countCheck9_X58s >= 10
+X58e - 68 countCheck9_X58e <= 8
+-2 count9_X58 + countCheck9_X58s  + countCheck9_X58e  <= 1
+
+X59s + 68 countCheck9_X59s >= 10
+X59e - 68 countCheck9_X59e <= 8
+-2 count9_X59 + countCheck9_X59s  + countCheck9_X59e  <= 1
+
+X60s + 68 countCheck9_X60s >= 10
+X60e - 68 countCheck9_X60e <= 8
+-2 count9_X60 + countCheck9_X60s  + countCheck9_X60e  <= 1
+
+X61s + 68 countCheck9_X61s >= 10
+X61e - 68 countCheck9_X61e <= 8
+-2 count9_X61 + countCheck9_X61s  + countCheck9_X61e  <= 1
+
+X62s + 68 countCheck9_X62s >= 10
+X62e - 68 countCheck9_X62e <= 8
+-2 count9_X62 + countCheck9_X62s  + countCheck9_X62e  <= 1
+
+X63s + 68 countCheck9_X63s >= 10
+X63e - 68 countCheck9_X63e <= 8
+-2 count9_X63 + countCheck9_X63s  + countCheck9_X63e  <= 1
+
+X64s + 68 countCheck9_X64s >= 10
+X64e - 68 countCheck9_X64e <= 8
+-2 count9_X64 + countCheck9_X64s  + countCheck9_X64e  <= 1
+
+X65s + 68 countCheck9_X65s >= 10
+X65e - 68 countCheck9_X65e <= 8
+-2 count9_X65 + countCheck9_X65s  + countCheck9_X65e  <= 1
+
+X66s + 68 countCheck9_X66s >= 10
+X66e - 68 countCheck9_X66e <= 8
+-2 count9_X66 + countCheck9_X66s  + countCheck9_X66e  <= 1
+
+X67s + 68 countCheck9_X67s >= 10
+X67e - 68 countCheck9_X67e <= 8
+-2 count9_X67 + countCheck9_X67s  + countCheck9_X67e  <= 1
+
+count9_X0 + count9_X1 + count9_X2 + count9_X3 + count9_X4 + count9_X5 + count9_X6 + count9_X7 + count9_X8 + count9_X9 + count9_X10 + count9_X11 + count9_X12 + count9_X13 + count9_X14 + count9_X15 + count9_X16 + count9_X17 + count9_X18 + count9_X19 + count9_X20 + count9_X21 + count9_X22 + count9_X23 + count9_X24 + count9_X25 + count9_X26 + count9_X27 + count9_X28 + count9_X29 + count9_X30 + count9_X31 + count9_X32 + count9_X33 + count9_X34 + count9_X35 + count9_X36 + count9_X37 + count9_X38 + count9_X39 + count9_X40 + count9_X41 + count9_X42 + count9_X43 + count9_X44 + count9_X45 + count9_X46 + count9_X47 + count9_X48 + count9_X49 + count9_X50 + count9_X51 + count9_X52 + count9_X53 + count9_X54 + count9_X55 + count9_X56 + count9_X57 + count9_X58 + count9_X59 + count9_X60 + count9_X61 + count9_X62 + count9_X63 + count9_X64 + count9_X65 + count9_X66 + count9_X67 - pathWidth <= 1
+X0s + 68 countCheck10_X0s >= 11
+X0e - 68 countCheck10_X0e <= 9
+-2 count10_X0 + countCheck10_X0s  + countCheck10_X0e  <= 1
+
+X1s + 68 countCheck10_X1s >= 11
+X1e - 68 countCheck10_X1e <= 9
+-2 count10_X1 + countCheck10_X1s  + countCheck10_X1e  <= 1
+
+X2s + 68 countCheck10_X2s >= 11
+X2e - 68 countCheck10_X2e <= 9
+-2 count10_X2 + countCheck10_X2s  + countCheck10_X2e  <= 1
+
+X3s + 68 countCheck10_X3s >= 11
+X3e - 68 countCheck10_X3e <= 9
+-2 count10_X3 + countCheck10_X3s  + countCheck10_X3e  <= 1
+
+X4s + 68 countCheck10_X4s >= 11
+X4e - 68 countCheck10_X4e <= 9
+-2 count10_X4 + countCheck10_X4s  + countCheck10_X4e  <= 1
+
+X5s + 68 countCheck10_X5s >= 11
+X5e - 68 countCheck10_X5e <= 9
+-2 count10_X5 + countCheck10_X5s  + countCheck10_X5e  <= 1
+
+X6s + 68 countCheck10_X6s >= 11
+X6e - 68 countCheck10_X6e <= 9
+-2 count10_X6 + countCheck10_X6s  + countCheck10_X6e  <= 1
+
+X7s + 68 countCheck10_X7s >= 11
+X7e - 68 countCheck10_X7e <= 9
+-2 count10_X7 + countCheck10_X7s  + countCheck10_X7e  <= 1
+
+X8s + 68 countCheck10_X8s >= 11
+X8e - 68 countCheck10_X8e <= 9
+-2 count10_X8 + countCheck10_X8s  + countCheck10_X8e  <= 1
+
+X9s + 68 countCheck10_X9s >= 11
+X9e - 68 countCheck10_X9e <= 9
+-2 count10_X9 + countCheck10_X9s  + countCheck10_X9e  <= 1
+
+X10s + 68 countCheck10_X10s >= 11
+X10e - 68 countCheck10_X10e <= 9
+-2 count10_X10 + countCheck10_X10s  + countCheck10_X10e  <= 1
+
+X11s + 68 countCheck10_X11s >= 11
+X11e - 68 countCheck10_X11e <= 9
+-2 count10_X11 + countCheck10_X11s  + countCheck10_X11e  <= 1
+
+X12s + 68 countCheck10_X12s >= 11
+X12e - 68 countCheck10_X12e <= 9
+-2 count10_X12 + countCheck10_X12s  + countCheck10_X12e  <= 1
+
+X13s + 68 countCheck10_X13s >= 11
+X13e - 68 countCheck10_X13e <= 9
+-2 count10_X13 + countCheck10_X13s  + countCheck10_X13e  <= 1
+
+X14s + 68 countCheck10_X14s >= 11
+X14e - 68 countCheck10_X14e <= 9
+-2 count10_X14 + countCheck10_X14s  + countCheck10_X14e  <= 1
+
+X15s + 68 countCheck10_X15s >= 11
+X15e - 68 countCheck10_X15e <= 9
+-2 count10_X15 + countCheck10_X15s  + countCheck10_X15e  <= 1
+
+X16s + 68 countCheck10_X16s >= 11
+X16e - 68 countCheck10_X16e <= 9
+-2 count10_X16 + countCheck10_X16s  + countCheck10_X16e  <= 1
+
+X17s + 68 countCheck10_X17s >= 11
+X17e - 68 countCheck10_X17e <= 9
+-2 count10_X17 + countCheck10_X17s  + countCheck10_X17e  <= 1
+
+X18s + 68 countCheck10_X18s >= 11
+X18e - 68 countCheck10_X18e <= 9
+-2 count10_X18 + countCheck10_X18s  + countCheck10_X18e  <= 1
+
+X19s + 68 countCheck10_X19s >= 11
+X19e - 68 countCheck10_X19e <= 9
+-2 count10_X19 + countCheck10_X19s  + countCheck10_X19e  <= 1
+
+X20s + 68 countCheck10_X20s >= 11
+X20e - 68 countCheck10_X20e <= 9
+-2 count10_X20 + countCheck10_X20s  + countCheck10_X20e  <= 1
+
+X21s + 68 countCheck10_X21s >= 11
+X21e - 68 countCheck10_X21e <= 9
+-2 count10_X21 + countCheck10_X21s  + countCheck10_X21e  <= 1
+
+X22s + 68 countCheck10_X22s >= 11
+X22e - 68 countCheck10_X22e <= 9
+-2 count10_X22 + countCheck10_X22s  + countCheck10_X22e  <= 1
+
+X23s + 68 countCheck10_X23s >= 11
+X23e - 68 countCheck10_X23e <= 9
+-2 count10_X23 + countCheck10_X23s  + countCheck10_X23e  <= 1
+
+X24s + 68 countCheck10_X24s >= 11
+X24e - 68 countCheck10_X24e <= 9
+-2 count10_X24 + countCheck10_X24s  + countCheck10_X24e  <= 1
+
+X25s + 68 countCheck10_X25s >= 11
+X25e - 68 countCheck10_X25e <= 9
+-2 count10_X25 + countCheck10_X25s  + countCheck10_X25e  <= 1
+
+X26s + 68 countCheck10_X26s >= 11
+X26e - 68 countCheck10_X26e <= 9
+-2 count10_X26 + countCheck10_X26s  + countCheck10_X26e  <= 1
+
+X27s + 68 countCheck10_X27s >= 11
+X27e - 68 countCheck10_X27e <= 9
+-2 count10_X27 + countCheck10_X27s  + countCheck10_X27e  <= 1
+
+X28s + 68 countCheck10_X28s >= 11
+X28e - 68 countCheck10_X28e <= 9
+-2 count10_X28 + countCheck10_X28s  + countCheck10_X28e  <= 1
+
+X29s + 68 countCheck10_X29s >= 11
+X29e - 68 countCheck10_X29e <= 9
+-2 count10_X29 + countCheck10_X29s  + countCheck10_X29e  <= 1
+
+X30s + 68 countCheck10_X30s >= 11
+X30e - 68 countCheck10_X30e <= 9
+-2 count10_X30 + countCheck10_X30s  + countCheck10_X30e  <= 1
+
+X31s + 68 countCheck10_X31s >= 11
+X31e - 68 countCheck10_X31e <= 9
+-2 count10_X31 + countCheck10_X31s  + countCheck10_X31e  <= 1
+
+X32s + 68 countCheck10_X32s >= 11
+X32e - 68 countCheck10_X32e <= 9
+-2 count10_X32 + countCheck10_X32s  + countCheck10_X32e  <= 1
+
+X33s + 68 countCheck10_X33s >= 11
+X33e - 68 countCheck10_X33e <= 9
+-2 count10_X33 + countCheck10_X33s  + countCheck10_X33e  <= 1
+
+X34s + 68 countCheck10_X34s >= 11
+X34e - 68 countCheck10_X34e <= 9
+-2 count10_X34 + countCheck10_X34s  + countCheck10_X34e  <= 1
+
+X35s + 68 countCheck10_X35s >= 11
+X35e - 68 countCheck10_X35e <= 9
+-2 count10_X35 + countCheck10_X35s  + countCheck10_X35e  <= 1
+
+X36s + 68 countCheck10_X36s >= 11
+X36e - 68 countCheck10_X36e <= 9
+-2 count10_X36 + countCheck10_X36s  + countCheck10_X36e  <= 1
+
+X37s + 68 countCheck10_X37s >= 11
+X37e - 68 countCheck10_X37e <= 9
+-2 count10_X37 + countCheck10_X37s  + countCheck10_X37e  <= 1
+
+X38s + 68 countCheck10_X38s >= 11
+X38e - 68 countCheck10_X38e <= 9
+-2 count10_X38 + countCheck10_X38s  + countCheck10_X38e  <= 1
+
+X39s + 68 countCheck10_X39s >= 11
+X39e - 68 countCheck10_X39e <= 9
+-2 count10_X39 + countCheck10_X39s  + countCheck10_X39e  <= 1
+
+X40s + 68 countCheck10_X40s >= 11
+X40e - 68 countCheck10_X40e <= 9
+-2 count10_X40 + countCheck10_X40s  + countCheck10_X40e  <= 1
+
+X41s + 68 countCheck10_X41s >= 11
+X41e - 68 countCheck10_X41e <= 9
+-2 count10_X41 + countCheck10_X41s  + countCheck10_X41e  <= 1
+
+X42s + 68 countCheck10_X42s >= 11
+X42e - 68 countCheck10_X42e <= 9
+-2 count10_X42 + countCheck10_X42s  + countCheck10_X42e  <= 1
+
+X43s + 68 countCheck10_X43s >= 11
+X43e - 68 countCheck10_X43e <= 9
+-2 count10_X43 + countCheck10_X43s  + countCheck10_X43e  <= 1
+
+X44s + 68 countCheck10_X44s >= 11
+X44e - 68 countCheck10_X44e <= 9
+-2 count10_X44 + countCheck10_X44s  + countCheck10_X44e  <= 1
+
+X45s + 68 countCheck10_X45s >= 11
+X45e - 68 countCheck10_X45e <= 9
+-2 count10_X45 + countCheck10_X45s  + countCheck10_X45e  <= 1
+
+X46s + 68 countCheck10_X46s >= 11
+X46e - 68 countCheck10_X46e <= 9
+-2 count10_X46 + countCheck10_X46s  + countCheck10_X46e  <= 1
+
+X47s + 68 countCheck10_X47s >= 11
+X47e - 68 countCheck10_X47e <= 9
+-2 count10_X47 + countCheck10_X47s  + countCheck10_X47e  <= 1
+
+X48s + 68 countCheck10_X48s >= 11
+X48e - 68 countCheck10_X48e <= 9
+-2 count10_X48 + countCheck10_X48s  + countCheck10_X48e  <= 1
+
+X49s + 68 countCheck10_X49s >= 11
+X49e - 68 countCheck10_X49e <= 9
+-2 count10_X49 + countCheck10_X49s  + countCheck10_X49e  <= 1
+
+X50s + 68 countCheck10_X50s >= 11
+X50e - 68 countCheck10_X50e <= 9
+-2 count10_X50 + countCheck10_X50s  + countCheck10_X50e  <= 1
+
+X51s + 68 countCheck10_X51s >= 11
+X51e - 68 countCheck10_X51e <= 9
+-2 count10_X51 + countCheck10_X51s  + countCheck10_X51e  <= 1
+
+X52s + 68 countCheck10_X52s >= 11
+X52e - 68 countCheck10_X52e <= 9
+-2 count10_X52 + countCheck10_X52s  + countCheck10_X52e  <= 1
+
+X53s + 68 countCheck10_X53s >= 11
+X53e - 68 countCheck10_X53e <= 9
+-2 count10_X53 + countCheck10_X53s  + countCheck10_X53e  <= 1
+
+X54s + 68 countCheck10_X54s >= 11
+X54e - 68 countCheck10_X54e <= 9
+-2 count10_X54 + countCheck10_X54s  + countCheck10_X54e  <= 1
+
+X55s + 68 countCheck10_X55s >= 11
+X55e - 68 countCheck10_X55e <= 9
+-2 count10_X55 + countCheck10_X55s  + countCheck10_X55e  <= 1
+
+X56s + 68 countCheck10_X56s >= 11
+X56e - 68 countCheck10_X56e <= 9
+-2 count10_X56 + countCheck10_X56s  + countCheck10_X56e  <= 1
+
+X57s + 68 countCheck10_X57s >= 11
+X57e - 68 countCheck10_X57e <= 9
+-2 count10_X57 + countCheck10_X57s  + countCheck10_X57e  <= 1
+
+X58s + 68 countCheck10_X58s >= 11
+X58e - 68 countCheck10_X58e <= 9
+-2 count10_X58 + countCheck10_X58s  + countCheck10_X58e  <= 1
+
+X59s + 68 countCheck10_X59s >= 11
+X59e - 68 countCheck10_X59e <= 9
+-2 count10_X59 + countCheck10_X59s  + countCheck10_X59e  <= 1
+
+X60s + 68 countCheck10_X60s >= 11
+X60e - 68 countCheck10_X60e <= 9
+-2 count10_X60 + countCheck10_X60s  + countCheck10_X60e  <= 1
+
+X61s + 68 countCheck10_X61s >= 11
+X61e - 68 countCheck10_X61e <= 9
+-2 count10_X61 + countCheck10_X61s  + countCheck10_X61e  <= 1
+
+X62s + 68 countCheck10_X62s >= 11
+X62e - 68 countCheck10_X62e <= 9
+-2 count10_X62 + countCheck10_X62s  + countCheck10_X62e  <= 1
+
+X63s + 68 countCheck10_X63s >= 11
+X63e - 68 countCheck10_X63e <= 9
+-2 count10_X63 + countCheck10_X63s  + countCheck10_X63e  <= 1
+
+X64s + 68 countCheck10_X64s >= 11
+X64e - 68 countCheck10_X64e <= 9
+-2 count10_X64 + countCheck10_X64s  + countCheck10_X64e  <= 1
+
+X65s + 68 countCheck10_X65s >= 11
+X65e - 68 countCheck10_X65e <= 9
+-2 count10_X65 + countCheck10_X65s  + countCheck10_X65e  <= 1
+
+X66s + 68 countCheck10_X66s >= 11
+X66e - 68 countCheck10_X66e <= 9
+-2 count10_X66 + countCheck10_X66s  + countCheck10_X66e  <= 1
+
+X67s + 68 countCheck10_X67s >= 11
+X67e - 68 countCheck10_X67e <= 9
+-2 count10_X67 + countCheck10_X67s  + countCheck10_X67e  <= 1
+
+count10_X0 + count10_X1 + count10_X2 + count10_X3 + count10_X4 + count10_X5 + count10_X6 + count10_X7 + count10_X8 + count10_X9 + count10_X10 + count10_X11 + count10_X12 + count10_X13 + count10_X14 + count10_X15 + count10_X16 + count10_X17 + count10_X18 + count10_X19 + count10_X20 + count10_X21 + count10_X22 + count10_X23 + count10_X24 + count10_X25 + count10_X26 + count10_X27 + count10_X28 + count10_X29 + count10_X30 + count10_X31 + count10_X32 + count10_X33 + count10_X34 + count10_X35 + count10_X36 + count10_X37 + count10_X38 + count10_X39 + count10_X40 + count10_X41 + count10_X42 + count10_X43 + count10_X44 + count10_X45 + count10_X46 + count10_X47 + count10_X48 + count10_X49 + count10_X50 + count10_X51 + count10_X52 + count10_X53 + count10_X54 + count10_X55 + count10_X56 + count10_X57 + count10_X58 + count10_X59 + count10_X60 + count10_X61 + count10_X62 + count10_X63 + count10_X64 + count10_X65 + count10_X66 + count10_X67 - pathWidth <= 1
+X0s + 68 countCheck11_X0s >= 12
+X0e - 68 countCheck11_X0e <= 10
+-2 count11_X0 + countCheck11_X0s  + countCheck11_X0e  <= 1
+
+X1s + 68 countCheck11_X1s >= 12
+X1e - 68 countCheck11_X1e <= 10
+-2 count11_X1 + countCheck11_X1s  + countCheck11_X1e  <= 1
+
+X2s + 68 countCheck11_X2s >= 12
+X2e - 68 countCheck11_X2e <= 10
+-2 count11_X2 + countCheck11_X2s  + countCheck11_X2e  <= 1
+
+X3s + 68 countCheck11_X3s >= 12
+X3e - 68 countCheck11_X3e <= 10
+-2 count11_X3 + countCheck11_X3s  + countCheck11_X3e  <= 1
+
+X4s + 68 countCheck11_X4s >= 12
+X4e - 68 countCheck11_X4e <= 10
+-2 count11_X4 + countCheck11_X4s  + countCheck11_X4e  <= 1
+
+X5s + 68 countCheck11_X5s >= 12
+X5e - 68 countCheck11_X5e <= 10
+-2 count11_X5 + countCheck11_X5s  + countCheck11_X5e  <= 1
+
+X6s + 68 countCheck11_X6s >= 12
+X6e - 68 countCheck11_X6e <= 10
+-2 count11_X6 + countCheck11_X6s  + countCheck11_X6e  <= 1
+
+X7s + 68 countCheck11_X7s >= 12
+X7e - 68 countCheck11_X7e <= 10
+-2 count11_X7 + countCheck11_X7s  + countCheck11_X7e  <= 1
+
+X8s + 68 countCheck11_X8s >= 12
+X8e - 68 countCheck11_X8e <= 10
+-2 count11_X8 + countCheck11_X8s  + countCheck11_X8e  <= 1
+
+X9s + 68 countCheck11_X9s >= 12
+X9e - 68 countCheck11_X9e <= 10
+-2 count11_X9 + countCheck11_X9s  + countCheck11_X9e  <= 1
+
+X10s + 68 countCheck11_X10s >= 12
+X10e - 68 countCheck11_X10e <= 10
+-2 count11_X10 + countCheck11_X10s  + countCheck11_X10e  <= 1
+
+X11s + 68 countCheck11_X11s >= 12
+X11e - 68 countCheck11_X11e <= 10
+-2 count11_X11 + countCheck11_X11s  + countCheck11_X11e  <= 1
+
+X12s + 68 countCheck11_X12s >= 12
+X12e - 68 countCheck11_X12e <= 10
+-2 count11_X12 + countCheck11_X12s  + countCheck11_X12e  <= 1
+
+X13s + 68 countCheck11_X13s >= 12
+X13e - 68 countCheck11_X13e <= 10
+-2 count11_X13 + countCheck11_X13s  + countCheck11_X13e  <= 1
+
+X14s + 68 countCheck11_X14s >= 12
+X14e - 68 countCheck11_X14e <= 10
+-2 count11_X14 + countCheck11_X14s  + countCheck11_X14e  <= 1
+
+X15s + 68 countCheck11_X15s >= 12
+X15e - 68 countCheck11_X15e <= 10
+-2 count11_X15 + countCheck11_X15s  + countCheck11_X15e  <= 1
+
+X16s + 68 countCheck11_X16s >= 12
+X16e - 68 countCheck11_X16e <= 10
+-2 count11_X16 + countCheck11_X16s  + countCheck11_X16e  <= 1
+
+X17s + 68 countCheck11_X17s >= 12
+X17e - 68 countCheck11_X17e <= 10
+-2 count11_X17 + countCheck11_X17s  + countCheck11_X17e  <= 1
+
+X18s + 68 countCheck11_X18s >= 12
+X18e - 68 countCheck11_X18e <= 10
+-2 count11_X18 + countCheck11_X18s  + countCheck11_X18e  <= 1
+
+X19s + 68 countCheck11_X19s >= 12
+X19e - 68 countCheck11_X19e <= 10
+-2 count11_X19 + countCheck11_X19s  + countCheck11_X19e  <= 1
+
+X20s + 68 countCheck11_X20s >= 12
+X20e - 68 countCheck11_X20e <= 10
+-2 count11_X20 + countCheck11_X20s  + countCheck11_X20e  <= 1
+
+X21s + 68 countCheck11_X21s >= 12
+X21e - 68 countCheck11_X21e <= 10
+-2 count11_X21 + countCheck11_X21s  + countCheck11_X21e  <= 1
+
+X22s + 68 countCheck11_X22s >= 12
+X22e - 68 countCheck11_X22e <= 10
+-2 count11_X22 + countCheck11_X22s  + countCheck11_X22e  <= 1
+
+X23s + 68 countCheck11_X23s >= 12
+X23e - 68 countCheck11_X23e <= 10
+-2 count11_X23 + countCheck11_X23s  + countCheck11_X23e  <= 1
+
+X24s + 68 countCheck11_X24s >= 12
+X24e - 68 countCheck11_X24e <= 10
+-2 count11_X24 + countCheck11_X24s  + countCheck11_X24e  <= 1
+
+X25s + 68 countCheck11_X25s >= 12
+X25e - 68 countCheck11_X25e <= 10
+-2 count11_X25 + countCheck11_X25s  + countCheck11_X25e  <= 1
+
+X26s + 68 countCheck11_X26s >= 12
+X26e - 68 countCheck11_X26e <= 10
+-2 count11_X26 + countCheck11_X26s  + countCheck11_X26e  <= 1
+
+X27s + 68 countCheck11_X27s >= 12
+X27e - 68 countCheck11_X27e <= 10
+-2 count11_X27 + countCheck11_X27s  + countCheck11_X27e  <= 1
+
+X28s + 68 countCheck11_X28s >= 12
+X28e - 68 countCheck11_X28e <= 10
+-2 count11_X28 + countCheck11_X28s  + countCheck11_X28e  <= 1
+
+X29s + 68 countCheck11_X29s >= 12
+X29e - 68 countCheck11_X29e <= 10
+-2 count11_X29 + countCheck11_X29s  + countCheck11_X29e  <= 1
+
+X30s + 68 countCheck11_X30s >= 12
+X30e - 68 countCheck11_X30e <= 10
+-2 count11_X30 + countCheck11_X30s  + countCheck11_X30e  <= 1
+
+X31s + 68 countCheck11_X31s >= 12
+X31e - 68 countCheck11_X31e <= 10
+-2 count11_X31 + countCheck11_X31s  + countCheck11_X31e  <= 1
+
+X32s + 68 countCheck11_X32s >= 12
+X32e - 68 countCheck11_X32e <= 10
+-2 count11_X32 + countCheck11_X32s  + countCheck11_X32e  <= 1
+
+X33s + 68 countCheck11_X33s >= 12
+X33e - 68 countCheck11_X33e <= 10
+-2 count11_X33 + countCheck11_X33s  + countCheck11_X33e  <= 1
+
+X34s + 68 countCheck11_X34s >= 12
+X34e - 68 countCheck11_X34e <= 10
+-2 count11_X34 + countCheck11_X34s  + countCheck11_X34e  <= 1
+
+X35s + 68 countCheck11_X35s >= 12
+X35e - 68 countCheck11_X35e <= 10
+-2 count11_X35 + countCheck11_X35s  + countCheck11_X35e  <= 1
+
+X36s + 68 countCheck11_X36s >= 12
+X36e - 68 countCheck11_X36e <= 10
+-2 count11_X36 + countCheck11_X36s  + countCheck11_X36e  <= 1
+
+X37s + 68 countCheck11_X37s >= 12
+X37e - 68 countCheck11_X37e <= 10
+-2 count11_X37 + countCheck11_X37s  + countCheck11_X37e  <= 1
+
+X38s + 68 countCheck11_X38s >= 12
+X38e - 68 countCheck11_X38e <= 10
+-2 count11_X38 + countCheck11_X38s  + countCheck11_X38e  <= 1
+
+X39s + 68 countCheck11_X39s >= 12
+X39e - 68 countCheck11_X39e <= 10
+-2 count11_X39 + countCheck11_X39s  + countCheck11_X39e  <= 1
+
+X40s + 68 countCheck11_X40s >= 12
+X40e - 68 countCheck11_X40e <= 10
+-2 count11_X40 + countCheck11_X40s  + countCheck11_X40e  <= 1
+
+X41s + 68 countCheck11_X41s >= 12
+X41e - 68 countCheck11_X41e <= 10
+-2 count11_X41 + countCheck11_X41s  + countCheck11_X41e  <= 1
+
+X42s + 68 countCheck11_X42s >= 12
+X42e - 68 countCheck11_X42e <= 10
+-2 count11_X42 + countCheck11_X42s  + countCheck11_X42e  <= 1
+
+X43s + 68 countCheck11_X43s >= 12
+X43e - 68 countCheck11_X43e <= 10
+-2 count11_X43 + countCheck11_X43s  + countCheck11_X43e  <= 1
+
+X44s + 68 countCheck11_X44s >= 12
+X44e - 68 countCheck11_X44e <= 10
+-2 count11_X44 + countCheck11_X44s  + countCheck11_X44e  <= 1
+
+X45s + 68 countCheck11_X45s >= 12
+X45e - 68 countCheck11_X45e <= 10
+-2 count11_X45 + countCheck11_X45s  + countCheck11_X45e  <= 1
+
+X46s + 68 countCheck11_X46s >= 12
+X46e - 68 countCheck11_X46e <= 10
+-2 count11_X46 + countCheck11_X46s  + countCheck11_X46e  <= 1
+
+X47s + 68 countCheck11_X47s >= 12
+X47e - 68 countCheck11_X47e <= 10
+-2 count11_X47 + countCheck11_X47s  + countCheck11_X47e  <= 1
+
+X48s + 68 countCheck11_X48s >= 12
+X48e - 68 countCheck11_X48e <= 10
+-2 count11_X48 + countCheck11_X48s  + countCheck11_X48e  <= 1
+
+X49s + 68 countCheck11_X49s >= 12
+X49e - 68 countCheck11_X49e <= 10
+-2 count11_X49 + countCheck11_X49s  + countCheck11_X49e  <= 1
+
+X50s + 68 countCheck11_X50s >= 12
+X50e - 68 countCheck11_X50e <= 10
+-2 count11_X50 + countCheck11_X50s  + countCheck11_X50e  <= 1
+
+X51s + 68 countCheck11_X51s >= 12
+X51e - 68 countCheck11_X51e <= 10
+-2 count11_X51 + countCheck11_X51s  + countCheck11_X51e  <= 1
+
+X52s + 68 countCheck11_X52s >= 12
+X52e - 68 countCheck11_X52e <= 10
+-2 count11_X52 + countCheck11_X52s  + countCheck11_X52e  <= 1
+
+X53s + 68 countCheck11_X53s >= 12
+X53e - 68 countCheck11_X53e <= 10
+-2 count11_X53 + countCheck11_X53s  + countCheck11_X53e  <= 1
+
+X54s + 68 countCheck11_X54s >= 12
+X54e - 68 countCheck11_X54e <= 10
+-2 count11_X54 + countCheck11_X54s  + countCheck11_X54e  <= 1
+
+X55s + 68 countCheck11_X55s >= 12
+X55e - 68 countCheck11_X55e <= 10
+-2 count11_X55 + countCheck11_X55s  + countCheck11_X55e  <= 1
+
+X56s + 68 countCheck11_X56s >= 12
+X56e - 68 countCheck11_X56e <= 10
+-2 count11_X56 + countCheck11_X56s  + countCheck11_X56e  <= 1
+
+X57s + 68 countCheck11_X57s >= 12
+X57e - 68 countCheck11_X57e <= 10
+-2 count11_X57 + countCheck11_X57s  + countCheck11_X57e  <= 1
+
+X58s + 68 countCheck11_X58s >= 12
+X58e - 68 countCheck11_X58e <= 10
+-2 count11_X58 + countCheck11_X58s  + countCheck11_X58e  <= 1
+
+X59s + 68 countCheck11_X59s >= 12
+X59e - 68 countCheck11_X59e <= 10
+-2 count11_X59 + countCheck11_X59s  + countCheck11_X59e  <= 1
+
+X60s + 68 countCheck11_X60s >= 12
+X60e - 68 countCheck11_X60e <= 10
+-2 count11_X60 + countCheck11_X60s  + countCheck11_X60e  <= 1
+
+X61s + 68 countCheck11_X61s >= 12
+X61e - 68 countCheck11_X61e <= 10
+-2 count11_X61 + countCheck11_X61s  + countCheck11_X61e  <= 1
+
+X62s + 68 countCheck11_X62s >= 12
+X62e - 68 countCheck11_X62e <= 10
+-2 count11_X62 + countCheck11_X62s  + countCheck11_X62e  <= 1
+
+X63s + 68 countCheck11_X63s >= 12
+X63e - 68 countCheck11_X63e <= 10
+-2 count11_X63 + countCheck11_X63s  + countCheck11_X63e  <= 1
+
+X64s + 68 countCheck11_X64s >= 12
+X64e - 68 countCheck11_X64e <= 10
+-2 count11_X64 + countCheck11_X64s  + countCheck11_X64e  <= 1
+
+X65s + 68 countCheck11_X65s >= 12
+X65e - 68 countCheck11_X65e <= 10
+-2 count11_X65 + countCheck11_X65s  + countCheck11_X65e  <= 1
+
+X66s + 68 countCheck11_X66s >= 12
+X66e - 68 countCheck11_X66e <= 10
+-2 count11_X66 + countCheck11_X66s  + countCheck11_X66e  <= 1
+
+X67s + 68 countCheck11_X67s >= 12
+X67e - 68 countCheck11_X67e <= 10
+-2 count11_X67 + countCheck11_X67s  + countCheck11_X67e  <= 1
+
+count11_X0 + count11_X1 + count11_X2 + count11_X3 + count11_X4 + count11_X5 + count11_X6 + count11_X7 + count11_X8 + count11_X9 + count11_X10 + count11_X11 + count11_X12 + count11_X13 + count11_X14 + count11_X15 + count11_X16 + count11_X17 + count11_X18 + count11_X19 + count11_X20 + count11_X21 + count11_X22 + count11_X23 + count11_X24 + count11_X25 + count11_X26 + count11_X27 + count11_X28 + count11_X29 + count11_X30 + count11_X31 + count11_X32 + count11_X33 + count11_X34 + count11_X35 + count11_X36 + count11_X37 + count11_X38 + count11_X39 + count11_X40 + count11_X41 + count11_X42 + count11_X43 + count11_X44 + count11_X45 + count11_X46 + count11_X47 + count11_X48 + count11_X49 + count11_X50 + count11_X51 + count11_X52 + count11_X53 + count11_X54 + count11_X55 + count11_X56 + count11_X57 + count11_X58 + count11_X59 + count11_X60 + count11_X61 + count11_X62 + count11_X63 + count11_X64 + count11_X65 + count11_X66 + count11_X67 - pathWidth <= 1
+X0s + 68 countCheck12_X0s >= 13
+X0e - 68 countCheck12_X0e <= 11
+-2 count12_X0 + countCheck12_X0s  + countCheck12_X0e  <= 1
+
+X1s + 68 countCheck12_X1s >= 13
+X1e - 68 countCheck12_X1e <= 11
+-2 count12_X1 + countCheck12_X1s  + countCheck12_X1e  <= 1
+
+X2s + 68 countCheck12_X2s >= 13
+X2e - 68 countCheck12_X2e <= 11
+-2 count12_X2 + countCheck12_X2s  + countCheck12_X2e  <= 1
+
+X3s + 68 countCheck12_X3s >= 13
+X3e - 68 countCheck12_X3e <= 11
+-2 count12_X3 + countCheck12_X3s  + countCheck12_X3e  <= 1
+
+X4s + 68 countCheck12_X4s >= 13
+X4e - 68 countCheck12_X4e <= 11
+-2 count12_X4 + countCheck12_X4s  + countCheck12_X4e  <= 1
+
+X5s + 68 countCheck12_X5s >= 13
+X5e - 68 countCheck12_X5e <= 11
+-2 count12_X5 + countCheck12_X5s  + countCheck12_X5e  <= 1
+
+X6s + 68 countCheck12_X6s >= 13
+X6e - 68 countCheck12_X6e <= 11
+-2 count12_X6 + countCheck12_X6s  + countCheck12_X6e  <= 1
+
+X7s + 68 countCheck12_X7s >= 13
+X7e - 68 countCheck12_X7e <= 11
+-2 count12_X7 + countCheck12_X7s  + countCheck12_X7e  <= 1
+
+X8s + 68 countCheck12_X8s >= 13
+X8e - 68 countCheck12_X8e <= 11
+-2 count12_X8 + countCheck12_X8s  + countCheck12_X8e  <= 1
+
+X9s + 68 countCheck12_X9s >= 13
+X9e - 68 countCheck12_X9e <= 11
+-2 count12_X9 + countCheck12_X9s  + countCheck12_X9e  <= 1
+
+X10s + 68 countCheck12_X10s >= 13
+X10e - 68 countCheck12_X10e <= 11
+-2 count12_X10 + countCheck12_X10s  + countCheck12_X10e  <= 1
+
+X11s + 68 countCheck12_X11s >= 13
+X11e - 68 countCheck12_X11e <= 11
+-2 count12_X11 + countCheck12_X11s  + countCheck12_X11e  <= 1
+
+X12s + 68 countCheck12_X12s >= 13
+X12e - 68 countCheck12_X12e <= 11
+-2 count12_X12 + countCheck12_X12s  + countCheck12_X12e  <= 1
+
+X13s + 68 countCheck12_X13s >= 13
+X13e - 68 countCheck12_X13e <= 11
+-2 count12_X13 + countCheck12_X13s  + countCheck12_X13e  <= 1
+
+X14s + 68 countCheck12_X14s >= 13
+X14e - 68 countCheck12_X14e <= 11
+-2 count12_X14 + countCheck12_X14s  + countCheck12_X14e  <= 1
+
+X15s + 68 countCheck12_X15s >= 13
+X15e - 68 countCheck12_X15e <= 11
+-2 count12_X15 + countCheck12_X15s  + countCheck12_X15e  <= 1
+
+X16s + 68 countCheck12_X16s >= 13
+X16e - 68 countCheck12_X16e <= 11
+-2 count12_X16 + countCheck12_X16s  + countCheck12_X16e  <= 1
+
+X17s + 68 countCheck12_X17s >= 13
+X17e - 68 countCheck12_X17e <= 11
+-2 count12_X17 + countCheck12_X17s  + countCheck12_X17e  <= 1
+
+X18s + 68 countCheck12_X18s >= 13
+X18e - 68 countCheck12_X18e <= 11
+-2 count12_X18 + countCheck12_X18s  + countCheck12_X18e  <= 1
+
+X19s + 68 countCheck12_X19s >= 13
+X19e - 68 countCheck12_X19e <= 11
+-2 count12_X19 + countCheck12_X19s  + countCheck12_X19e  <= 1
+
+X20s + 68 countCheck12_X20s >= 13
+X20e - 68 countCheck12_X20e <= 11
+-2 count12_X20 + countCheck12_X20s  + countCheck12_X20e  <= 1
+
+X21s + 68 countCheck12_X21s >= 13
+X21e - 68 countCheck12_X21e <= 11
+-2 count12_X21 + countCheck12_X21s  + countCheck12_X21e  <= 1
+
+X22s + 68 countCheck12_X22s >= 13
+X22e - 68 countCheck12_X22e <= 11
+-2 count12_X22 + countCheck12_X22s  + countCheck12_X22e  <= 1
+
+X23s + 68 countCheck12_X23s >= 13
+X23e - 68 countCheck12_X23e <= 11
+-2 count12_X23 + countCheck12_X23s  + countCheck12_X23e  <= 1
+
+X24s + 68 countCheck12_X24s >= 13
+X24e - 68 countCheck12_X24e <= 11
+-2 count12_X24 + countCheck12_X24s  + countCheck12_X24e  <= 1
+
+X25s + 68 countCheck12_X25s >= 13
+X25e - 68 countCheck12_X25e <= 11
+-2 count12_X25 + countCheck12_X25s  + countCheck12_X25e  <= 1
+
+X26s + 68 countCheck12_X26s >= 13
+X26e - 68 countCheck12_X26e <= 11
+-2 count12_X26 + countCheck12_X26s  + countCheck12_X26e  <= 1
+
+X27s + 68 countCheck12_X27s >= 13
+X27e - 68 countCheck12_X27e <= 11
+-2 count12_X27 + countCheck12_X27s  + countCheck12_X27e  <= 1
+
+X28s + 68 countCheck12_X28s >= 13
+X28e - 68 countCheck12_X28e <= 11
+-2 count12_X28 + countCheck12_X28s  + countCheck12_X28e  <= 1
+
+X29s + 68 countCheck12_X29s >= 13
+X29e - 68 countCheck12_X29e <= 11
+-2 count12_X29 + countCheck12_X29s  + countCheck12_X29e  <= 1
+
+X30s + 68 countCheck12_X30s >= 13
+X30e - 68 countCheck12_X30e <= 11
+-2 count12_X30 + countCheck12_X30s  + countCheck12_X30e  <= 1
+
+X31s + 68 countCheck12_X31s >= 13
+X31e - 68 countCheck12_X31e <= 11
+-2 count12_X31 + countCheck12_X31s  + countCheck12_X31e  <= 1
+
+X32s + 68 countCheck12_X32s >= 13
+X32e - 68 countCheck12_X32e <= 11
+-2 count12_X32 + countCheck12_X32s  + countCheck12_X32e  <= 1
+
+X33s + 68 countCheck12_X33s >= 13
+X33e - 68 countCheck12_X33e <= 11
+-2 count12_X33 + countCheck12_X33s  + countCheck12_X33e  <= 1
+
+X34s + 68 countCheck12_X34s >= 13
+X34e - 68 countCheck12_X34e <= 11
+-2 count12_X34 + countCheck12_X34s  + countCheck12_X34e  <= 1
+
+X35s + 68 countCheck12_X35s >= 13
+X35e - 68 countCheck12_X35e <= 11
+-2 count12_X35 + countCheck12_X35s  + countCheck12_X35e  <= 1
+
+X36s + 68 countCheck12_X36s >= 13
+X36e - 68 countCheck12_X36e <= 11
+-2 count12_X36 + countCheck12_X36s  + countCheck12_X36e  <= 1
+
+X37s + 68 countCheck12_X37s >= 13
+X37e - 68 countCheck12_X37e <= 11
+-2 count12_X37 + countCheck12_X37s  + countCheck12_X37e  <= 1
+
+X38s + 68 countCheck12_X38s >= 13
+X38e - 68 countCheck12_X38e <= 11
+-2 count12_X38 + countCheck12_X38s  + countCheck12_X38e  <= 1
+
+X39s + 68 countCheck12_X39s >= 13
+X39e - 68 countCheck12_X39e <= 11
+-2 count12_X39 + countCheck12_X39s  + countCheck12_X39e  <= 1
+
+X40s + 68 countCheck12_X40s >= 13
+X40e - 68 countCheck12_X40e <= 11
+-2 count12_X40 + countCheck12_X40s  + countCheck12_X40e  <= 1
+
+X41s + 68 countCheck12_X41s >= 13
+X41e - 68 countCheck12_X41e <= 11
+-2 count12_X41 + countCheck12_X41s  + countCheck12_X41e  <= 1
+
+X42s + 68 countCheck12_X42s >= 13
+X42e - 68 countCheck12_X42e <= 11
+-2 count12_X42 + countCheck12_X42s  + countCheck12_X42e  <= 1
+
+X43s + 68 countCheck12_X43s >= 13
+X43e - 68 countCheck12_X43e <= 11
+-2 count12_X43 + countCheck12_X43s  + countCheck12_X43e  <= 1
+
+X44s + 68 countCheck12_X44s >= 13
+X44e - 68 countCheck12_X44e <= 11
+-2 count12_X44 + countCheck12_X44s  + countCheck12_X44e  <= 1
+
+X45s + 68 countCheck12_X45s >= 13
+X45e - 68 countCheck12_X45e <= 11
+-2 count12_X45 + countCheck12_X45s  + countCheck12_X45e  <= 1
+
+X46s + 68 countCheck12_X46s >= 13
+X46e - 68 countCheck12_X46e <= 11
+-2 count12_X46 + countCheck12_X46s  + countCheck12_X46e  <= 1
+
+X47s + 68 countCheck12_X47s >= 13
+X47e - 68 countCheck12_X47e <= 11
+-2 count12_X47 + countCheck12_X47s  + countCheck12_X47e  <= 1
+
+X48s + 68 countCheck12_X48s >= 13
+X48e - 68 countCheck12_X48e <= 11
+-2 count12_X48 + countCheck12_X48s  + countCheck12_X48e  <= 1
+
+X49s + 68 countCheck12_X49s >= 13
+X49e - 68 countCheck12_X49e <= 11
+-2 count12_X49 + countCheck12_X49s  + countCheck12_X49e  <= 1
+
+X50s + 68 countCheck12_X50s >= 13
+X50e - 68 countCheck12_X50e <= 11
+-2 count12_X50 + countCheck12_X50s  + countCheck12_X50e  <= 1
+
+X51s + 68 countCheck12_X51s >= 13
+X51e - 68 countCheck12_X51e <= 11
+-2 count12_X51 + countCheck12_X51s  + countCheck12_X51e  <= 1
+
+X52s + 68 countCheck12_X52s >= 13
+X52e - 68 countCheck12_X52e <= 11
+-2 count12_X52 + countCheck12_X52s  + countCheck12_X52e  <= 1
+
+X53s + 68 countCheck12_X53s >= 13
+X53e - 68 countCheck12_X53e <= 11
+-2 count12_X53 + countCheck12_X53s  + countCheck12_X53e  <= 1
+
+X54s + 68 countCheck12_X54s >= 13
+X54e - 68 countCheck12_X54e <= 11
+-2 count12_X54 + countCheck12_X54s  + countCheck12_X54e  <= 1
+
+X55s + 68 countCheck12_X55s >= 13
+X55e - 68 countCheck12_X55e <= 11
+-2 count12_X55 + countCheck12_X55s  + countCheck12_X55e  <= 1
+
+X56s + 68 countCheck12_X56s >= 13
+X56e - 68 countCheck12_X56e <= 11
+-2 count12_X56 + countCheck12_X56s  + countCheck12_X56e  <= 1
+
+X57s + 68 countCheck12_X57s >= 13
+X57e - 68 countCheck12_X57e <= 11
+-2 count12_X57 + countCheck12_X57s  + countCheck12_X57e  <= 1
+
+X58s + 68 countCheck12_X58s >= 13
+X58e - 68 countCheck12_X58e <= 11
+-2 count12_X58 + countCheck12_X58s  + countCheck12_X58e  <= 1
+
+X59s + 68 countCheck12_X59s >= 13
+X59e - 68 countCheck12_X59e <= 11
+-2 count12_X59 + countCheck12_X59s  + countCheck12_X59e  <= 1
+
+X60s + 68 countCheck12_X60s >= 13
+X60e - 68 countCheck12_X60e <= 11
+-2 count12_X60 + countCheck12_X60s  + countCheck12_X60e  <= 1
+
+X61s + 68 countCheck12_X61s >= 13
+X61e - 68 countCheck12_X61e <= 11
+-2 count12_X61 + countCheck12_X61s  + countCheck12_X61e  <= 1
+
+X62s + 68 countCheck12_X62s >= 13
+X62e - 68 countCheck12_X62e <= 11
+-2 count12_X62 + countCheck12_X62s  + countCheck12_X62e  <= 1
+
+X63s + 68 countCheck12_X63s >= 13
+X63e - 68 countCheck12_X63e <= 11
+-2 count12_X63 + countCheck12_X63s  + countCheck12_X63e  <= 1
+
+X64s + 68 countCheck12_X64s >= 13
+X64e - 68 countCheck12_X64e <= 11
+-2 count12_X64 + countCheck12_X64s  + countCheck12_X64e  <= 1
+
+X65s + 68 countCheck12_X65s >= 13
+X65e - 68 countCheck12_X65e <= 11
+-2 count12_X65 + countCheck12_X65s  + countCheck12_X65e  <= 1
+
+X66s + 68 countCheck12_X66s >= 13
+X66e - 68 countCheck12_X66e <= 11
+-2 count12_X66 + countCheck12_X66s  + countCheck12_X66e  <= 1
+
+X67s + 68 countCheck12_X67s >= 13
+X67e - 68 countCheck12_X67e <= 11
+-2 count12_X67 + countCheck12_X67s  + countCheck12_X67e  <= 1
+
+count12_X0 + count12_X1 + count12_X2 + count12_X3 + count12_X4 + count12_X5 + count12_X6 + count12_X7 + count12_X8 + count12_X9 + count12_X10 + count12_X11 + count12_X12 + count12_X13 + count12_X14 + count12_X15 + count12_X16 + count12_X17 + count12_X18 + count12_X19 + count12_X20 + count12_X21 + count12_X22 + count12_X23 + count12_X24 + count12_X25 + count12_X26 + count12_X27 + count12_X28 + count12_X29 + count12_X30 + count12_X31 + count12_X32 + count12_X33 + count12_X34 + count12_X35 + count12_X36 + count12_X37 + count12_X38 + count12_X39 + count12_X40 + count12_X41 + count12_X42 + count12_X43 + count12_X44 + count12_X45 + count12_X46 + count12_X47 + count12_X48 + count12_X49 + count12_X50 + count12_X51 + count12_X52 + count12_X53 + count12_X54 + count12_X55 + count12_X56 + count12_X57 + count12_X58 + count12_X59 + count12_X60 + count12_X61 + count12_X62 + count12_X63 + count12_X64 + count12_X65 + count12_X66 + count12_X67 - pathWidth <= 1
+X0s + 68 countCheck13_X0s >= 14
+X0e - 68 countCheck13_X0e <= 12
+-2 count13_X0 + countCheck13_X0s  + countCheck13_X0e  <= 1
+
+X1s + 68 countCheck13_X1s >= 14
+X1e - 68 countCheck13_X1e <= 12
+-2 count13_X1 + countCheck13_X1s  + countCheck13_X1e  <= 1
+
+X2s + 68 countCheck13_X2s >= 14
+X2e - 68 countCheck13_X2e <= 12
+-2 count13_X2 + countCheck13_X2s  + countCheck13_X2e  <= 1
+
+X3s + 68 countCheck13_X3s >= 14
+X3e - 68 countCheck13_X3e <= 12
+-2 count13_X3 + countCheck13_X3s  + countCheck13_X3e  <= 1
+
+X4s + 68 countCheck13_X4s >= 14
+X4e - 68 countCheck13_X4e <= 12
+-2 count13_X4 + countCheck13_X4s  + countCheck13_X4e  <= 1
+
+X5s + 68 countCheck13_X5s >= 14
+X5e - 68 countCheck13_X5e <= 12
+-2 count13_X5 + countCheck13_X5s  + countCheck13_X5e  <= 1
+
+X6s + 68 countCheck13_X6s >= 14
+X6e - 68 countCheck13_X6e <= 12
+-2 count13_X6 + countCheck13_X6s  + countCheck13_X6e  <= 1
+
+X7s + 68 countCheck13_X7s >= 14
+X7e - 68 countCheck13_X7e <= 12
+-2 count13_X7 + countCheck13_X7s  + countCheck13_X7e  <= 1
+
+X8s + 68 countCheck13_X8s >= 14
+X8e - 68 countCheck13_X8e <= 12
+-2 count13_X8 + countCheck13_X8s  + countCheck13_X8e  <= 1
+
+X9s + 68 countCheck13_X9s >= 14
+X9e - 68 countCheck13_X9e <= 12
+-2 count13_X9 + countCheck13_X9s  + countCheck13_X9e  <= 1
+
+X10s + 68 countCheck13_X10s >= 14
+X10e - 68 countCheck13_X10e <= 12
+-2 count13_X10 + countCheck13_X10s  + countCheck13_X10e  <= 1
+
+X11s + 68 countCheck13_X11s >= 14
+X11e - 68 countCheck13_X11e <= 12
+-2 count13_X11 + countCheck13_X11s  + countCheck13_X11e  <= 1
+
+X12s + 68 countCheck13_X12s >= 14
+X12e - 68 countCheck13_X12e <= 12
+-2 count13_X12 + countCheck13_X12s  + countCheck13_X12e  <= 1
+
+X13s + 68 countCheck13_X13s >= 14
+X13e - 68 countCheck13_X13e <= 12
+-2 count13_X13 + countCheck13_X13s  + countCheck13_X13e  <= 1
+
+X14s + 68 countCheck13_X14s >= 14
+X14e - 68 countCheck13_X14e <= 12
+-2 count13_X14 + countCheck13_X14s  + countCheck13_X14e  <= 1
+
+X15s + 68 countCheck13_X15s >= 14
+X15e - 68 countCheck13_X15e <= 12
+-2 count13_X15 + countCheck13_X15s  + countCheck13_X15e  <= 1
+
+X16s + 68 countCheck13_X16s >= 14
+X16e - 68 countCheck13_X16e <= 12
+-2 count13_X16 + countCheck13_X16s  + countCheck13_X16e  <= 1
+
+X17s + 68 countCheck13_X17s >= 14
+X17e - 68 countCheck13_X17e <= 12
+-2 count13_X17 + countCheck13_X17s  + countCheck13_X17e  <= 1
+
+X18s + 68 countCheck13_X18s >= 14
+X18e - 68 countCheck13_X18e <= 12
+-2 count13_X18 + countCheck13_X18s  + countCheck13_X18e  <= 1
+
+X19s + 68 countCheck13_X19s >= 14
+X19e - 68 countCheck13_X19e <= 12
+-2 count13_X19 + countCheck13_X19s  + countCheck13_X19e  <= 1
+
+X20s + 68 countCheck13_X20s >= 14
+X20e - 68 countCheck13_X20e <= 12
+-2 count13_X20 + countCheck13_X20s  + countCheck13_X20e  <= 1
+
+X21s + 68 countCheck13_X21s >= 14
+X21e - 68 countCheck13_X21e <= 12
+-2 count13_X21 + countCheck13_X21s  + countCheck13_X21e  <= 1
+
+X22s + 68 countCheck13_X22s >= 14
+X22e - 68 countCheck13_X22e <= 12
+-2 count13_X22 + countCheck13_X22s  + countCheck13_X22e  <= 1
+
+X23s + 68 countCheck13_X23s >= 14
+X23e - 68 countCheck13_X23e <= 12
+-2 count13_X23 + countCheck13_X23s  + countCheck13_X23e  <= 1
+
+X24s + 68 countCheck13_X24s >= 14
+X24e - 68 countCheck13_X24e <= 12
+-2 count13_X24 + countCheck13_X24s  + countCheck13_X24e  <= 1
+
+X25s + 68 countCheck13_X25s >= 14
+X25e - 68 countCheck13_X25e <= 12
+-2 count13_X25 + countCheck13_X25s  + countCheck13_X25e  <= 1
+
+X26s + 68 countCheck13_X26s >= 14
+X26e - 68 countCheck13_X26e <= 12
+-2 count13_X26 + countCheck13_X26s  + countCheck13_X26e  <= 1
+
+X27s + 68 countCheck13_X27s >= 14
+X27e - 68 countCheck13_X27e <= 12
+-2 count13_X27 + countCheck13_X27s  + countCheck13_X27e  <= 1
+
+X28s + 68 countCheck13_X28s >= 14
+X28e - 68 countCheck13_X28e <= 12
+-2 count13_X28 + countCheck13_X28s  + countCheck13_X28e  <= 1
+
+X29s + 68 countCheck13_X29s >= 14
+X29e - 68 countCheck13_X29e <= 12
+-2 count13_X29 + countCheck13_X29s  + countCheck13_X29e  <= 1
+
+X30s + 68 countCheck13_X30s >= 14
+X30e - 68 countCheck13_X30e <= 12
+-2 count13_X30 + countCheck13_X30s  + countCheck13_X30e  <= 1
+
+X31s + 68 countCheck13_X31s >= 14
+X31e - 68 countCheck13_X31e <= 12
+-2 count13_X31 + countCheck13_X31s  + countCheck13_X31e  <= 1
+
+X32s + 68 countCheck13_X32s >= 14
+X32e - 68 countCheck13_X32e <= 12
+-2 count13_X32 + countCheck13_X32s  + countCheck13_X32e  <= 1
+
+X33s + 68 countCheck13_X33s >= 14
+X33e - 68 countCheck13_X33e <= 12
+-2 count13_X33 + countCheck13_X33s  + countCheck13_X33e  <= 1
+
+X34s + 68 countCheck13_X34s >= 14
+X34e - 68 countCheck13_X34e <= 12
+-2 count13_X34 + countCheck13_X34s  + countCheck13_X34e  <= 1
+
+X35s + 68 countCheck13_X35s >= 14
+X35e - 68 countCheck13_X35e <= 12
+-2 count13_X35 + countCheck13_X35s  + countCheck13_X35e  <= 1
+
+X36s + 68 countCheck13_X36s >= 14
+X36e - 68 countCheck13_X36e <= 12
+-2 count13_X36 + countCheck13_X36s  + countCheck13_X36e  <= 1
+
+X37s + 68 countCheck13_X37s >= 14
+X37e - 68 countCheck13_X37e <= 12
+-2 count13_X37 + countCheck13_X37s  + countCheck13_X37e  <= 1
+
+X38s + 68 countCheck13_X38s >= 14
+X38e - 68 countCheck13_X38e <= 12
+-2 count13_X38 + countCheck13_X38s  + countCheck13_X38e  <= 1
+
+X39s + 68 countCheck13_X39s >= 14
+X39e - 68 countCheck13_X39e <= 12
+-2 count13_X39 + countCheck13_X39s  + countCheck13_X39e  <= 1
+
+X40s + 68 countCheck13_X40s >= 14
+X40e - 68 countCheck13_X40e <= 12
+-2 count13_X40 + countCheck13_X40s  + countCheck13_X40e  <= 1
+
+X41s + 68 countCheck13_X41s >= 14
+X41e - 68 countCheck13_X41e <= 12
+-2 count13_X41 + countCheck13_X41s  + countCheck13_X41e  <= 1
+
+X42s + 68 countCheck13_X42s >= 14
+X42e - 68 countCheck13_X42e <= 12
+-2 count13_X42 + countCheck13_X42s  + countCheck13_X42e  <= 1
+
+X43s + 68 countCheck13_X43s >= 14
+X43e - 68 countCheck13_X43e <= 12
+-2 count13_X43 + countCheck13_X43s  + countCheck13_X43e  <= 1
+
+X44s + 68 countCheck13_X44s >= 14
+X44e - 68 countCheck13_X44e <= 12
+-2 count13_X44 + countCheck13_X44s  + countCheck13_X44e  <= 1
+
+X45s + 68 countCheck13_X45s >= 14
+X45e - 68 countCheck13_X45e <= 12
+-2 count13_X45 + countCheck13_X45s  + countCheck13_X45e  <= 1
+
+X46s + 68 countCheck13_X46s >= 14
+X46e - 68 countCheck13_X46e <= 12
+-2 count13_X46 + countCheck13_X46s  + countCheck13_X46e  <= 1
+
+X47s + 68 countCheck13_X47s >= 14
+X47e - 68 countCheck13_X47e <= 12
+-2 count13_X47 + countCheck13_X47s  + countCheck13_X47e  <= 1
+
+X48s + 68 countCheck13_X48s >= 14
+X48e - 68 countCheck13_X48e <= 12
+-2 count13_X48 + countCheck13_X48s  + countCheck13_X48e  <= 1
+
+X49s + 68 countCheck13_X49s >= 14
+X49e - 68 countCheck13_X49e <= 12
+-2 count13_X49 + countCheck13_X49s  + countCheck13_X49e  <= 1
+
+X50s + 68 countCheck13_X50s >= 14
+X50e - 68 countCheck13_X50e <= 12
+-2 count13_X50 + countCheck13_X50s  + countCheck13_X50e  <= 1
+
+X51s + 68 countCheck13_X51s >= 14
+X51e - 68 countCheck13_X51e <= 12
+-2 count13_X51 + countCheck13_X51s  + countCheck13_X51e  <= 1
+
+X52s + 68 countCheck13_X52s >= 14
+X52e - 68 countCheck13_X52e <= 12
+-2 count13_X52 + countCheck13_X52s  + countCheck13_X52e  <= 1
+
+X53s + 68 countCheck13_X53s >= 14
+X53e - 68 countCheck13_X53e <= 12
+-2 count13_X53 + countCheck13_X53s  + countCheck13_X53e  <= 1
+
+X54s + 68 countCheck13_X54s >= 14
+X54e - 68 countCheck13_X54e <= 12
+-2 count13_X54 + countCheck13_X54s  + countCheck13_X54e  <= 1
+
+X55s + 68 countCheck13_X55s >= 14
+X55e - 68 countCheck13_X55e <= 12
+-2 count13_X55 + countCheck13_X55s  + countCheck13_X55e  <= 1
+
+X56s + 68 countCheck13_X56s >= 14
+X56e - 68 countCheck13_X56e <= 12
+-2 count13_X56 + countCheck13_X56s  + countCheck13_X56e  <= 1
+
+X57s + 68 countCheck13_X57s >= 14
+X57e - 68 countCheck13_X57e <= 12
+-2 count13_X57 + countCheck13_X57s  + countCheck13_X57e  <= 1
+
+X58s + 68 countCheck13_X58s >= 14
+X58e - 68 countCheck13_X58e <= 12
+-2 count13_X58 + countCheck13_X58s  + countCheck13_X58e  <= 1
+
+X59s + 68 countCheck13_X59s >= 14
+X59e - 68 countCheck13_X59e <= 12
+-2 count13_X59 + countCheck13_X59s  + countCheck13_X59e  <= 1
+
+X60s + 68 countCheck13_X60s >= 14
+X60e - 68 countCheck13_X60e <= 12
+-2 count13_X60 + countCheck13_X60s  + countCheck13_X60e  <= 1
+
+X61s + 68 countCheck13_X61s >= 14
+X61e - 68 countCheck13_X61e <= 12
+-2 count13_X61 + countCheck13_X61s  + countCheck13_X61e  <= 1
+
+X62s + 68 countCheck13_X62s >= 14
+X62e - 68 countCheck13_X62e <= 12
+-2 count13_X62 + countCheck13_X62s  + countCheck13_X62e  <= 1
+
+X63s + 68 countCheck13_X63s >= 14
+X63e - 68 countCheck13_X63e <= 12
+-2 count13_X63 + countCheck13_X63s  + countCheck13_X63e  <= 1
+
+X64s + 68 countCheck13_X64s >= 14
+X64e - 68 countCheck13_X64e <= 12
+-2 count13_X64 + countCheck13_X64s  + countCheck13_X64e  <= 1
+
+X65s + 68 countCheck13_X65s >= 14
+X65e - 68 countCheck13_X65e <= 12
+-2 count13_X65 + countCheck13_X65s  + countCheck13_X65e  <= 1
+
+X66s + 68 countCheck13_X66s >= 14
+X66e - 68 countCheck13_X66e <= 12
+-2 count13_X66 + countCheck13_X66s  + countCheck13_X66e  <= 1
+
+X67s + 68 countCheck13_X67s >= 14
+X67e - 68 countCheck13_X67e <= 12
+-2 count13_X67 + countCheck13_X67s  + countCheck13_X67e  <= 1
+
+count13_X0 + count13_X1 + count13_X2 + count13_X3 + count13_X4 + count13_X5 + count13_X6 + count13_X7 + count13_X8 + count13_X9 + count13_X10 + count13_X11 + count13_X12 + count13_X13 + count13_X14 + count13_X15 + count13_X16 + count13_X17 + count13_X18 + count13_X19 + count13_X20 + count13_X21 + count13_X22 + count13_X23 + count13_X24 + count13_X25 + count13_X26 + count13_X27 + count13_X28 + count13_X29 + count13_X30 + count13_X31 + count13_X32 + count13_X33 + count13_X34 + count13_X35 + count13_X36 + count13_X37 + count13_X38 + count13_X39 + count13_X40 + count13_X41 + count13_X42 + count13_X43 + count13_X44 + count13_X45 + count13_X46 + count13_X47 + count13_X48 + count13_X49 + count13_X50 + count13_X51 + count13_X52 + count13_X53 + count13_X54 + count13_X55 + count13_X56 + count13_X57 + count13_X58 + count13_X59 + count13_X60 + count13_X61 + count13_X62 + count13_X63 + count13_X64 + count13_X65 + count13_X66 + count13_X67 - pathWidth <= 1
+X0s + 68 countCheck14_X0s >= 15
+X0e - 68 countCheck14_X0e <= 13
+-2 count14_X0 + countCheck14_X0s  + countCheck14_X0e  <= 1
+
+X1s + 68 countCheck14_X1s >= 15
+X1e - 68 countCheck14_X1e <= 13
+-2 count14_X1 + countCheck14_X1s  + countCheck14_X1e  <= 1
+
+X2s + 68 countCheck14_X2s >= 15
+X2e - 68 countCheck14_X2e <= 13
+-2 count14_X2 + countCheck14_X2s  + countCheck14_X2e  <= 1
+
+X3s + 68 countCheck14_X3s >= 15
+X3e - 68 countCheck14_X3e <= 13
+-2 count14_X3 + countCheck14_X3s  + countCheck14_X3e  <= 1
+
+X4s + 68 countCheck14_X4s >= 15
+X4e - 68 countCheck14_X4e <= 13
+-2 count14_X4 + countCheck14_X4s  + countCheck14_X4e  <= 1
+
+X5s + 68 countCheck14_X5s >= 15
+X5e - 68 countCheck14_X5e <= 13
+-2 count14_X5 + countCheck14_X5s  + countCheck14_X5e  <= 1
+
+X6s + 68 countCheck14_X6s >= 15
+X6e - 68 countCheck14_X6e <= 13
+-2 count14_X6 + countCheck14_X6s  + countCheck14_X6e  <= 1
+
+X7s + 68 countCheck14_X7s >= 15
+X7e - 68 countCheck14_X7e <= 13
+-2 count14_X7 + countCheck14_X7s  + countCheck14_X7e  <= 1
+
+X8s + 68 countCheck14_X8s >= 15
+X8e - 68 countCheck14_X8e <= 13
+-2 count14_X8 + countCheck14_X8s  + countCheck14_X8e  <= 1
+
+X9s + 68 countCheck14_X9s >= 15
+X9e - 68 countCheck14_X9e <= 13
+-2 count14_X9 + countCheck14_X9s  + countCheck14_X9e  <= 1
+
+X10s + 68 countCheck14_X10s >= 15
+X10e - 68 countCheck14_X10e <= 13
+-2 count14_X10 + countCheck14_X10s  + countCheck14_X10e  <= 1
+
+X11s + 68 countCheck14_X11s >= 15
+X11e - 68 countCheck14_X11e <= 13
+-2 count14_X11 + countCheck14_X11s  + countCheck14_X11e  <= 1
+
+X12s + 68 countCheck14_X12s >= 15
+X12e - 68 countCheck14_X12e <= 13
+-2 count14_X12 + countCheck14_X12s  + countCheck14_X12e  <= 1
+
+X13s + 68 countCheck14_X13s >= 15
+X13e - 68 countCheck14_X13e <= 13
+-2 count14_X13 + countCheck14_X13s  + countCheck14_X13e  <= 1
+
+X14s + 68 countCheck14_X14s >= 15
+X14e - 68 countCheck14_X14e <= 13
+-2 count14_X14 + countCheck14_X14s  + countCheck14_X14e  <= 1
+
+X15s + 68 countCheck14_X15s >= 15
+X15e - 68 countCheck14_X15e <= 13
+-2 count14_X15 + countCheck14_X15s  + countCheck14_X15e  <= 1
+
+X16s + 68 countCheck14_X16s >= 15
+X16e - 68 countCheck14_X16e <= 13
+-2 count14_X16 + countCheck14_X16s  + countCheck14_X16e  <= 1
+
+X17s + 68 countCheck14_X17s >= 15
+X17e - 68 countCheck14_X17e <= 13
+-2 count14_X17 + countCheck14_X17s  + countCheck14_X17e  <= 1
+
+X18s + 68 countCheck14_X18s >= 15
+X18e - 68 countCheck14_X18e <= 13
+-2 count14_X18 + countCheck14_X18s  + countCheck14_X18e  <= 1
+
+X19s + 68 countCheck14_X19s >= 15
+X19e - 68 countCheck14_X19e <= 13
+-2 count14_X19 + countCheck14_X19s  + countCheck14_X19e  <= 1
+
+X20s + 68 countCheck14_X20s >= 15
+X20e - 68 countCheck14_X20e <= 13
+-2 count14_X20 + countCheck14_X20s  + countCheck14_X20e  <= 1
+
+X21s + 68 countCheck14_X21s >= 15
+X21e - 68 countCheck14_X21e <= 13
+-2 count14_X21 + countCheck14_X21s  + countCheck14_X21e  <= 1
+
+X22s + 68 countCheck14_X22s >= 15
+X22e - 68 countCheck14_X22e <= 13
+-2 count14_X22 + countCheck14_X22s  + countCheck14_X22e  <= 1
+
+X23s + 68 countCheck14_X23s >= 15
+X23e - 68 countCheck14_X23e <= 13
+-2 count14_X23 + countCheck14_X23s  + countCheck14_X23e  <= 1
+
+X24s + 68 countCheck14_X24s >= 15
+X24e - 68 countCheck14_X24e <= 13
+-2 count14_X24 + countCheck14_X24s  + countCheck14_X24e  <= 1
+
+X25s + 68 countCheck14_X25s >= 15
+X25e - 68 countCheck14_X25e <= 13
+-2 count14_X25 + countCheck14_X25s  + countCheck14_X25e  <= 1
+
+X26s + 68 countCheck14_X26s >= 15
+X26e - 68 countCheck14_X26e <= 13
+-2 count14_X26 + countCheck14_X26s  + countCheck14_X26e  <= 1
+
+X27s + 68 countCheck14_X27s >= 15
+X27e - 68 countCheck14_X27e <= 13
+-2 count14_X27 + countCheck14_X27s  + countCheck14_X27e  <= 1
+
+X28s + 68 countCheck14_X28s >= 15
+X28e - 68 countCheck14_X28e <= 13
+-2 count14_X28 + countCheck14_X28s  + countCheck14_X28e  <= 1
+
+X29s + 68 countCheck14_X29s >= 15
+X29e - 68 countCheck14_X29e <= 13
+-2 count14_X29 + countCheck14_X29s  + countCheck14_X29e  <= 1
+
+X30s + 68 countCheck14_X30s >= 15
+X30e - 68 countCheck14_X30e <= 13
+-2 count14_X30 + countCheck14_X30s  + countCheck14_X30e  <= 1
+
+X31s + 68 countCheck14_X31s >= 15
+X31e - 68 countCheck14_X31e <= 13
+-2 count14_X31 + countCheck14_X31s  + countCheck14_X31e  <= 1
+
+X32s + 68 countCheck14_X32s >= 15
+X32e - 68 countCheck14_X32e <= 13
+-2 count14_X32 + countCheck14_X32s  + countCheck14_X32e  <= 1
+
+X33s + 68 countCheck14_X33s >= 15
+X33e - 68 countCheck14_X33e <= 13
+-2 count14_X33 + countCheck14_X33s  + countCheck14_X33e  <= 1
+
+X34s + 68 countCheck14_X34s >= 15
+X34e - 68 countCheck14_X34e <= 13
+-2 count14_X34 + countCheck14_X34s  + countCheck14_X34e  <= 1
+
+X35s + 68 countCheck14_X35s >= 15
+X35e - 68 countCheck14_X35e <= 13
+-2 count14_X35 + countCheck14_X35s  + countCheck14_X35e  <= 1
+
+X36s + 68 countCheck14_X36s >= 15
+X36e - 68 countCheck14_X36e <= 13
+-2 count14_X36 + countCheck14_X36s  + countCheck14_X36e  <= 1
+
+X37s + 68 countCheck14_X37s >= 15
+X37e - 68 countCheck14_X37e <= 13
+-2 count14_X37 + countCheck14_X37s  + countCheck14_X37e  <= 1
+
+X38s + 68 countCheck14_X38s >= 15
+X38e - 68 countCheck14_X38e <= 13
+-2 count14_X38 + countCheck14_X38s  + countCheck14_X38e  <= 1
+
+X39s + 68 countCheck14_X39s >= 15
+X39e - 68 countCheck14_X39e <= 13
+-2 count14_X39 + countCheck14_X39s  + countCheck14_X39e  <= 1
+
+X40s + 68 countCheck14_X40s >= 15
+X40e - 68 countCheck14_X40e <= 13
+-2 count14_X40 + countCheck14_X40s  + countCheck14_X40e  <= 1
+
+X41s + 68 countCheck14_X41s >= 15
+X41e - 68 countCheck14_X41e <= 13
+-2 count14_X41 + countCheck14_X41s  + countCheck14_X41e  <= 1
+
+X42s + 68 countCheck14_X42s >= 15
+X42e - 68 countCheck14_X42e <= 13
+-2 count14_X42 + countCheck14_X42s  + countCheck14_X42e  <= 1
+
+X43s + 68 countCheck14_X43s >= 15
+X43e - 68 countCheck14_X43e <= 13
+-2 count14_X43 + countCheck14_X43s  + countCheck14_X43e  <= 1
+
+X44s + 68 countCheck14_X44s >= 15
+X44e - 68 countCheck14_X44e <= 13
+-2 count14_X44 + countCheck14_X44s  + countCheck14_X44e  <= 1
+
+X45s + 68 countCheck14_X45s >= 15
+X45e - 68 countCheck14_X45e <= 13
+-2 count14_X45 + countCheck14_X45s  + countCheck14_X45e  <= 1
+
+X46s + 68 countCheck14_X46s >= 15
+X46e - 68 countCheck14_X46e <= 13
+-2 count14_X46 + countCheck14_X46s  + countCheck14_X46e  <= 1
+
+X47s + 68 countCheck14_X47s >= 15
+X47e - 68 countCheck14_X47e <= 13
+-2 count14_X47 + countCheck14_X47s  + countCheck14_X47e  <= 1
+
+X48s + 68 countCheck14_X48s >= 15
+X48e - 68 countCheck14_X48e <= 13
+-2 count14_X48 + countCheck14_X48s  + countCheck14_X48e  <= 1
+
+X49s + 68 countCheck14_X49s >= 15
+X49e - 68 countCheck14_X49e <= 13
+-2 count14_X49 + countCheck14_X49s  + countCheck14_X49e  <= 1
+
+X50s + 68 countCheck14_X50s >= 15
+X50e - 68 countCheck14_X50e <= 13
+-2 count14_X50 + countCheck14_X50s  + countCheck14_X50e  <= 1
+
+X51s + 68 countCheck14_X51s >= 15
+X51e - 68 countCheck14_X51e <= 13
+-2 count14_X51 + countCheck14_X51s  + countCheck14_X51e  <= 1
+
+X52s + 68 countCheck14_X52s >= 15
+X52e - 68 countCheck14_X52e <= 13
+-2 count14_X52 + countCheck14_X52s  + countCheck14_X52e  <= 1
+
+X53s + 68 countCheck14_X53s >= 15
+X53e - 68 countCheck14_X53e <= 13
+-2 count14_X53 + countCheck14_X53s  + countCheck14_X53e  <= 1
+
+X54s + 68 countCheck14_X54s >= 15
+X54e - 68 countCheck14_X54e <= 13
+-2 count14_X54 + countCheck14_X54s  + countCheck14_X54e  <= 1
+
+X55s + 68 countCheck14_X55s >= 15
+X55e - 68 countCheck14_X55e <= 13
+-2 count14_X55 + countCheck14_X55s  + countCheck14_X55e  <= 1
+
+X56s + 68 countCheck14_X56s >= 15
+X56e - 68 countCheck14_X56e <= 13
+-2 count14_X56 + countCheck14_X56s  + countCheck14_X56e  <= 1
+
+X57s + 68 countCheck14_X57s >= 15
+X57e - 68 countCheck14_X57e <= 13
+-2 count14_X57 + countCheck14_X57s  + countCheck14_X57e  <= 1
+
+X58s + 68 countCheck14_X58s >= 15
+X58e - 68 countCheck14_X58e <= 13
+-2 count14_X58 + countCheck14_X58s  + countCheck14_X58e  <= 1
+
+X59s + 68 countCheck14_X59s >= 15
+X59e - 68 countCheck14_X59e <= 13
+-2 count14_X59 + countCheck14_X59s  + countCheck14_X59e  <= 1
+
+X60s + 68 countCheck14_X60s >= 15
+X60e - 68 countCheck14_X60e <= 13
+-2 count14_X60 + countCheck14_X60s  + countCheck14_X60e  <= 1
+
+X61s + 68 countCheck14_X61s >= 15
+X61e - 68 countCheck14_X61e <= 13
+-2 count14_X61 + countCheck14_X61s  + countCheck14_X61e  <= 1
+
+X62s + 68 countCheck14_X62s >= 15
+X62e - 68 countCheck14_X62e <= 13
+-2 count14_X62 + countCheck14_X62s  + countCheck14_X62e  <= 1
+
+X63s + 68 countCheck14_X63s >= 15
+X63e - 68 countCheck14_X63e <= 13
+-2 count14_X63 + countCheck14_X63s  + countCheck14_X63e  <= 1
+
+X64s + 68 countCheck14_X64s >= 15
+X64e - 68 countCheck14_X64e <= 13
+-2 count14_X64 + countCheck14_X64s  + countCheck14_X64e  <= 1
+
+X65s + 68 countCheck14_X65s >= 15
+X65e - 68 countCheck14_X65e <= 13
+-2 count14_X65 + countCheck14_X65s  + countCheck14_X65e  <= 1
+
+X66s + 68 countCheck14_X66s >= 15
+X66e - 68 countCheck14_X66e <= 13
+-2 count14_X66 + countCheck14_X66s  + countCheck14_X66e  <= 1
+
+X67s + 68 countCheck14_X67s >= 15
+X67e - 68 countCheck14_X67e <= 13
+-2 count14_X67 + countCheck14_X67s  + countCheck14_X67e  <= 1
+
+count14_X0 + count14_X1 + count14_X2 + count14_X3 + count14_X4 + count14_X5 + count14_X6 + count14_X7 + count14_X8 + count14_X9 + count14_X10 + count14_X11 + count14_X12 + count14_X13 + count14_X14 + count14_X15 + count14_X16 + count14_X17 + count14_X18 + count14_X19 + count14_X20 + count14_X21 + count14_X22 + count14_X23 + count14_X24 + count14_X25 + count14_X26 + count14_X27 + count14_X28 + count14_X29 + count14_X30 + count14_X31 + count14_X32 + count14_X33 + count14_X34 + count14_X35 + count14_X36 + count14_X37 + count14_X38 + count14_X39 + count14_X40 + count14_X41 + count14_X42 + count14_X43 + count14_X44 + count14_X45 + count14_X46 + count14_X47 + count14_X48 + count14_X49 + count14_X50 + count14_X51 + count14_X52 + count14_X53 + count14_X54 + count14_X55 + count14_X56 + count14_X57 + count14_X58 + count14_X59 + count14_X60 + count14_X61 + count14_X62 + count14_X63 + count14_X64 + count14_X65 + count14_X66 + count14_X67 - pathWidth <= 1
+X0s + 68 countCheck15_X0s >= 16
+X0e - 68 countCheck15_X0e <= 14
+-2 count15_X0 + countCheck15_X0s  + countCheck15_X0e  <= 1
+
+X1s + 68 countCheck15_X1s >= 16
+X1e - 68 countCheck15_X1e <= 14
+-2 count15_X1 + countCheck15_X1s  + countCheck15_X1e  <= 1
+
+X2s + 68 countCheck15_X2s >= 16
+X2e - 68 countCheck15_X2e <= 14
+-2 count15_X2 + countCheck15_X2s  + countCheck15_X2e  <= 1
+
+X3s + 68 countCheck15_X3s >= 16
+X3e - 68 countCheck15_X3e <= 14
+-2 count15_X3 + countCheck15_X3s  + countCheck15_X3e  <= 1
+
+X4s + 68 countCheck15_X4s >= 16
+X4e - 68 countCheck15_X4e <= 14
+-2 count15_X4 + countCheck15_X4s  + countCheck15_X4e  <= 1
+
+X5s + 68 countCheck15_X5s >= 16
+X5e - 68 countCheck15_X5e <= 14
+-2 count15_X5 + countCheck15_X5s  + countCheck15_X5e  <= 1
+
+X6s + 68 countCheck15_X6s >= 16
+X6e - 68 countCheck15_X6e <= 14
+-2 count15_X6 + countCheck15_X6s  + countCheck15_X6e  <= 1
+
+X7s + 68 countCheck15_X7s >= 16
+X7e - 68 countCheck15_X7e <= 14
+-2 count15_X7 + countCheck15_X7s  + countCheck15_X7e  <= 1
+
+X8s + 68 countCheck15_X8s >= 16
+X8e - 68 countCheck15_X8e <= 14
+-2 count15_X8 + countCheck15_X8s  + countCheck15_X8e  <= 1
+
+X9s + 68 countCheck15_X9s >= 16
+X9e - 68 countCheck15_X9e <= 14
+-2 count15_X9 + countCheck15_X9s  + countCheck15_X9e  <= 1
+
+X10s + 68 countCheck15_X10s >= 16
+X10e - 68 countCheck15_X10e <= 14
+-2 count15_X10 + countCheck15_X10s  + countCheck15_X10e  <= 1
+
+X11s + 68 countCheck15_X11s >= 16
+X11e - 68 countCheck15_X11e <= 14
+-2 count15_X11 + countCheck15_X11s  + countCheck15_X11e  <= 1
+
+X12s + 68 countCheck15_X12s >= 16
+X12e - 68 countCheck15_X12e <= 14
+-2 count15_X12 + countCheck15_X12s  + countCheck15_X12e  <= 1
+
+X13s + 68 countCheck15_X13s >= 16
+X13e - 68 countCheck15_X13e <= 14
+-2 count15_X13 + countCheck15_X13s  + countCheck15_X13e  <= 1
+
+X14s + 68 countCheck15_X14s >= 16
+X14e - 68 countCheck15_X14e <= 14
+-2 count15_X14 + countCheck15_X14s  + countCheck15_X14e  <= 1
+
+X15s + 68 countCheck15_X15s >= 16
+X15e - 68 countCheck15_X15e <= 14
+-2 count15_X15 + countCheck15_X15s  + countCheck15_X15e  <= 1
+
+X16s + 68 countCheck15_X16s >= 16
+X16e - 68 countCheck15_X16e <= 14
+-2 count15_X16 + countCheck15_X16s  + countCheck15_X16e  <= 1
+
+X17s + 68 countCheck15_X17s >= 16
+X17e - 68 countCheck15_X17e <= 14
+-2 count15_X17 + countCheck15_X17s  + countCheck15_X17e  <= 1
+
+X18s + 68 countCheck15_X18s >= 16
+X18e - 68 countCheck15_X18e <= 14
+-2 count15_X18 + countCheck15_X18s  + countCheck15_X18e  <= 1
+
+X19s + 68 countCheck15_X19s >= 16
+X19e - 68 countCheck15_X19e <= 14
+-2 count15_X19 + countCheck15_X19s  + countCheck15_X19e  <= 1
+
+X20s + 68 countCheck15_X20s >= 16
+X20e - 68 countCheck15_X20e <= 14
+-2 count15_X20 + countCheck15_X20s  + countCheck15_X20e  <= 1
+
+X21s + 68 countCheck15_X21s >= 16
+X21e - 68 countCheck15_X21e <= 14
+-2 count15_X21 + countCheck15_X21s  + countCheck15_X21e  <= 1
+
+X22s + 68 countCheck15_X22s >= 16
+X22e - 68 countCheck15_X22e <= 14
+-2 count15_X22 + countCheck15_X22s  + countCheck15_X22e  <= 1
+
+X23s + 68 countCheck15_X23s >= 16
+X23e - 68 countCheck15_X23e <= 14
+-2 count15_X23 + countCheck15_X23s  + countCheck15_X23e  <= 1
+
+X24s + 68 countCheck15_X24s >= 16
+X24e - 68 countCheck15_X24e <= 14
+-2 count15_X24 + countCheck15_X24s  + countCheck15_X24e  <= 1
+
+X25s + 68 countCheck15_X25s >= 16
+X25e - 68 countCheck15_X25e <= 14
+-2 count15_X25 + countCheck15_X25s  + countCheck15_X25e  <= 1
+
+X26s + 68 countCheck15_X26s >= 16
+X26e - 68 countCheck15_X26e <= 14
+-2 count15_X26 + countCheck15_X26s  + countCheck15_X26e  <= 1
+
+X27s + 68 countCheck15_X27s >= 16
+X27e - 68 countCheck15_X27e <= 14
+-2 count15_X27 + countCheck15_X27s  + countCheck15_X27e  <= 1
+
+X28s + 68 countCheck15_X28s >= 16
+X28e - 68 countCheck15_X28e <= 14
+-2 count15_X28 + countCheck15_X28s  + countCheck15_X28e  <= 1
+
+X29s + 68 countCheck15_X29s >= 16
+X29e - 68 countCheck15_X29e <= 14
+-2 count15_X29 + countCheck15_X29s  + countCheck15_X29e  <= 1
+
+X30s + 68 countCheck15_X30s >= 16
+X30e - 68 countCheck15_X30e <= 14
+-2 count15_X30 + countCheck15_X30s  + countCheck15_X30e  <= 1
+
+X31s + 68 countCheck15_X31s >= 16
+X31e - 68 countCheck15_X31e <= 14
+-2 count15_X31 + countCheck15_X31s  + countCheck15_X31e  <= 1
+
+X32s + 68 countCheck15_X32s >= 16
+X32e - 68 countCheck15_X32e <= 14
+-2 count15_X32 + countCheck15_X32s  + countCheck15_X32e  <= 1
+
+X33s + 68 countCheck15_X33s >= 16
+X33e - 68 countCheck15_X33e <= 14
+-2 count15_X33 + countCheck15_X33s  + countCheck15_X33e  <= 1
+
+X34s + 68 countCheck15_X34s >= 16
+X34e - 68 countCheck15_X34e <= 14
+-2 count15_X34 + countCheck15_X34s  + countCheck15_X34e  <= 1
+
+X35s + 68 countCheck15_X35s >= 16
+X35e - 68 countCheck15_X35e <= 14
+-2 count15_X35 + countCheck15_X35s  + countCheck15_X35e  <= 1
+
+X36s + 68 countCheck15_X36s >= 16
+X36e - 68 countCheck15_X36e <= 14
+-2 count15_X36 + countCheck15_X36s  + countCheck15_X36e  <= 1
+
+X37s + 68 countCheck15_X37s >= 16
+X37e - 68 countCheck15_X37e <= 14
+-2 count15_X37 + countCheck15_X37s  + countCheck15_X37e  <= 1
+
+X38s + 68 countCheck15_X38s >= 16
+X38e - 68 countCheck15_X38e <= 14
+-2 count15_X38 + countCheck15_X38s  + countCheck15_X38e  <= 1
+
+X39s + 68 countCheck15_X39s >= 16
+X39e - 68 countCheck15_X39e <= 14
+-2 count15_X39 + countCheck15_X39s  + countCheck15_X39e  <= 1
+
+X40s + 68 countCheck15_X40s >= 16
+X40e - 68 countCheck15_X40e <= 14
+-2 count15_X40 + countCheck15_X40s  + countCheck15_X40e  <= 1
+
+X41s + 68 countCheck15_X41s >= 16
+X41e - 68 countCheck15_X41e <= 14
+-2 count15_X41 + countCheck15_X41s  + countCheck15_X41e  <= 1
+
+X42s + 68 countCheck15_X42s >= 16
+X42e - 68 countCheck15_X42e <= 14
+-2 count15_X42 + countCheck15_X42s  + countCheck15_X42e  <= 1
+
+X43s + 68 countCheck15_X43s >= 16
+X43e - 68 countCheck15_X43e <= 14
+-2 count15_X43 + countCheck15_X43s  + countCheck15_X43e  <= 1
+
+X44s + 68 countCheck15_X44s >= 16
+X44e - 68 countCheck15_X44e <= 14
+-2 count15_X44 + countCheck15_X44s  + countCheck15_X44e  <= 1
+
+X45s + 68 countCheck15_X45s >= 16
+X45e - 68 countCheck15_X45e <= 14
+-2 count15_X45 + countCheck15_X45s  + countCheck15_X45e  <= 1
+
+X46s + 68 countCheck15_X46s >= 16
+X46e - 68 countCheck15_X46e <= 14
+-2 count15_X46 + countCheck15_X46s  + countCheck15_X46e  <= 1
+
+X47s + 68 countCheck15_X47s >= 16
+X47e - 68 countCheck15_X47e <= 14
+-2 count15_X47 + countCheck15_X47s  + countCheck15_X47e  <= 1
+
+X48s + 68 countCheck15_X48s >= 16
+X48e - 68 countCheck15_X48e <= 14
+-2 count15_X48 + countCheck15_X48s  + countCheck15_X48e  <= 1
+
+X49s + 68 countCheck15_X49s >= 16
+X49e - 68 countCheck15_X49e <= 14
+-2 count15_X49 + countCheck15_X49s  + countCheck15_X49e  <= 1
+
+X50s + 68 countCheck15_X50s >= 16
+X50e - 68 countCheck15_X50e <= 14
+-2 count15_X50 + countCheck15_X50s  + countCheck15_X50e  <= 1
+
+X51s + 68 countCheck15_X51s >= 16
+X51e - 68 countCheck15_X51e <= 14
+-2 count15_X51 + countCheck15_X51s  + countCheck15_X51e  <= 1
+
+X52s + 68 countCheck15_X52s >= 16
+X52e - 68 countCheck15_X52e <= 14
+-2 count15_X52 + countCheck15_X52s  + countCheck15_X52e  <= 1
+
+X53s + 68 countCheck15_X53s >= 16
+X53e - 68 countCheck15_X53e <= 14
+-2 count15_X53 + countCheck15_X53s  + countCheck15_X53e  <= 1
+
+X54s + 68 countCheck15_X54s >= 16
+X54e - 68 countCheck15_X54e <= 14
+-2 count15_X54 + countCheck15_X54s  + countCheck15_X54e  <= 1
+
+X55s + 68 countCheck15_X55s >= 16
+X55e - 68 countCheck15_X55e <= 14
+-2 count15_X55 + countCheck15_X55s  + countCheck15_X55e  <= 1
+
+X56s + 68 countCheck15_X56s >= 16
+X56e - 68 countCheck15_X56e <= 14
+-2 count15_X56 + countCheck15_X56s  + countCheck15_X56e  <= 1
+
+X57s + 68 countCheck15_X57s >= 16
+X57e - 68 countCheck15_X57e <= 14
+-2 count15_X57 + countCheck15_X57s  + countCheck15_X57e  <= 1
+
+X58s + 68 countCheck15_X58s >= 16
+X58e - 68 countCheck15_X58e <= 14
+-2 count15_X58 + countCheck15_X58s  + countCheck15_X58e  <= 1
+
+X59s + 68 countCheck15_X59s >= 16
+X59e - 68 countCheck15_X59e <= 14
+-2 count15_X59 + countCheck15_X59s  + countCheck15_X59e  <= 1
+
+X60s + 68 countCheck15_X60s >= 16
+X60e - 68 countCheck15_X60e <= 14
+-2 count15_X60 + countCheck15_X60s  + countCheck15_X60e  <= 1
+
+X61s + 68 countCheck15_X61s >= 16
+X61e - 68 countCheck15_X61e <= 14
+-2 count15_X61 + countCheck15_X61s  + countCheck15_X61e  <= 1
+
+X62s + 68 countCheck15_X62s >= 16
+X62e - 68 countCheck15_X62e <= 14
+-2 count15_X62 + countCheck15_X62s  + countCheck15_X62e  <= 1
+
+X63s + 68 countCheck15_X63s >= 16
+X63e - 68 countCheck15_X63e <= 14
+-2 count15_X63 + countCheck15_X63s  + countCheck15_X63e  <= 1
+
+X64s + 68 countCheck15_X64s >= 16
+X64e - 68 countCheck15_X64e <= 14
+-2 count15_X64 + countCheck15_X64s  + countCheck15_X64e  <= 1
+
+X65s + 68 countCheck15_X65s >= 16
+X65e - 68 countCheck15_X65e <= 14
+-2 count15_X65 + countCheck15_X65s  + countCheck15_X65e  <= 1
+
+X66s + 68 countCheck15_X66s >= 16
+X66e - 68 countCheck15_X66e <= 14
+-2 count15_X66 + countCheck15_X66s  + countCheck15_X66e  <= 1
+
+X67s + 68 countCheck15_X67s >= 16
+X67e - 68 countCheck15_X67e <= 14
+-2 count15_X67 + countCheck15_X67s  + countCheck15_X67e  <= 1
+
+count15_X0 + count15_X1 + count15_X2 + count15_X3 + count15_X4 + count15_X5 + count15_X6 + count15_X7 + count15_X8 + count15_X9 + count15_X10 + count15_X11 + count15_X12 + count15_X13 + count15_X14 + count15_X15 + count15_X16 + count15_X17 + count15_X18 + count15_X19 + count15_X20 + count15_X21 + count15_X22 + count15_X23 + count15_X24 + count15_X25 + count15_X26 + count15_X27 + count15_X28 + count15_X29 + count15_X30 + count15_X31 + count15_X32 + count15_X33 + count15_X34 + count15_X35 + count15_X36 + count15_X37 + count15_X38 + count15_X39 + count15_X40 + count15_X41 + count15_X42 + count15_X43 + count15_X44 + count15_X45 + count15_X46 + count15_X47 + count15_X48 + count15_X49 + count15_X50 + count15_X51 + count15_X52 + count15_X53 + count15_X54 + count15_X55 + count15_X56 + count15_X57 + count15_X58 + count15_X59 + count15_X60 + count15_X61 + count15_X62 + count15_X63 + count15_X64 + count15_X65 + count15_X66 + count15_X67 - pathWidth <= 1
+X0s + 68 countCheck16_X0s >= 17
+X0e - 68 countCheck16_X0e <= 15
+-2 count16_X0 + countCheck16_X0s  + countCheck16_X0e  <= 1
+
+X1s + 68 countCheck16_X1s >= 17
+X1e - 68 countCheck16_X1e <= 15
+-2 count16_X1 + countCheck16_X1s  + countCheck16_X1e  <= 1
+
+X2s + 68 countCheck16_X2s >= 17
+X2e - 68 countCheck16_X2e <= 15
+-2 count16_X2 + countCheck16_X2s  + countCheck16_X2e  <= 1
+
+X3s + 68 countCheck16_X3s >= 17
+X3e - 68 countCheck16_X3e <= 15
+-2 count16_X3 + countCheck16_X3s  + countCheck16_X3e  <= 1
+
+X4s + 68 countCheck16_X4s >= 17
+X4e - 68 countCheck16_X4e <= 15
+-2 count16_X4 + countCheck16_X4s  + countCheck16_X4e  <= 1
+
+X5s + 68 countCheck16_X5s >= 17
+X5e - 68 countCheck16_X5e <= 15
+-2 count16_X5 + countCheck16_X5s  + countCheck16_X5e  <= 1
+
+X6s + 68 countCheck16_X6s >= 17
+X6e - 68 countCheck16_X6e <= 15
+-2 count16_X6 + countCheck16_X6s  + countCheck16_X6e  <= 1
+
+X7s + 68 countCheck16_X7s >= 17
+X7e - 68 countCheck16_X7e <= 15
+-2 count16_X7 + countCheck16_X7s  + countCheck16_X7e  <= 1
+
+X8s + 68 countCheck16_X8s >= 17
+X8e - 68 countCheck16_X8e <= 15
+-2 count16_X8 + countCheck16_X8s  + countCheck16_X8e  <= 1
+
+X9s + 68 countCheck16_X9s >= 17
+X9e - 68 countCheck16_X9e <= 15
+-2 count16_X9 + countCheck16_X9s  + countCheck16_X9e  <= 1
+
+X10s + 68 countCheck16_X10s >= 17
+X10e - 68 countCheck16_X10e <= 15
+-2 count16_X10 + countCheck16_X10s  + countCheck16_X10e  <= 1
+
+X11s + 68 countCheck16_X11s >= 17
+X11e - 68 countCheck16_X11e <= 15
+-2 count16_X11 + countCheck16_X11s  + countCheck16_X11e  <= 1
+
+X12s + 68 countCheck16_X12s >= 17
+X12e - 68 countCheck16_X12e <= 15
+-2 count16_X12 + countCheck16_X12s  + countCheck16_X12e  <= 1
+
+X13s + 68 countCheck16_X13s >= 17
+X13e - 68 countCheck16_X13e <= 15
+-2 count16_X13 + countCheck16_X13s  + countCheck16_X13e  <= 1
+
+X14s + 68 countCheck16_X14s >= 17
+X14e - 68 countCheck16_X14e <= 15
+-2 count16_X14 + countCheck16_X14s  + countCheck16_X14e  <= 1
+
+X15s + 68 countCheck16_X15s >= 17
+X15e - 68 countCheck16_X15e <= 15
+-2 count16_X15 + countCheck16_X15s  + countCheck16_X15e  <= 1
+
+X16s + 68 countCheck16_X16s >= 17
+X16e - 68 countCheck16_X16e <= 15
+-2 count16_X16 + countCheck16_X16s  + countCheck16_X16e  <= 1
+
+X17s + 68 countCheck16_X17s >= 17
+X17e - 68 countCheck16_X17e <= 15
+-2 count16_X17 + countCheck16_X17s  + countCheck16_X17e  <= 1
+
+X18s + 68 countCheck16_X18s >= 17
+X18e - 68 countCheck16_X18e <= 15
+-2 count16_X18 + countCheck16_X18s  + countCheck16_X18e  <= 1
+
+X19s + 68 countCheck16_X19s >= 17
+X19e - 68 countCheck16_X19e <= 15
+-2 count16_X19 + countCheck16_X19s  + countCheck16_X19e  <= 1
+
+X20s + 68 countCheck16_X20s >= 17
+X20e - 68 countCheck16_X20e <= 15
+-2 count16_X20 + countCheck16_X20s  + countCheck16_X20e  <= 1
+
+X21s + 68 countCheck16_X21s >= 17
+X21e - 68 countCheck16_X21e <= 15
+-2 count16_X21 + countCheck16_X21s  + countCheck16_X21e  <= 1
+
+X22s + 68 countCheck16_X22s >= 17
+X22e - 68 countCheck16_X22e <= 15
+-2 count16_X22 + countCheck16_X22s  + countCheck16_X22e  <= 1
+
+X23s + 68 countCheck16_X23s >= 17
+X23e - 68 countCheck16_X23e <= 15
+-2 count16_X23 + countCheck16_X23s  + countCheck16_X23e  <= 1
+
+X24s + 68 countCheck16_X24s >= 17
+X24e - 68 countCheck16_X24e <= 15
+-2 count16_X24 + countCheck16_X24s  + countCheck16_X24e  <= 1
+
+X25s + 68 countCheck16_X25s >= 17
+X25e - 68 countCheck16_X25e <= 15
+-2 count16_X25 + countCheck16_X25s  + countCheck16_X25e  <= 1
+
+X26s + 68 countCheck16_X26s >= 17
+X26e - 68 countCheck16_X26e <= 15
+-2 count16_X26 + countCheck16_X26s  + countCheck16_X26e  <= 1
+
+X27s + 68 countCheck16_X27s >= 17
+X27e - 68 countCheck16_X27e <= 15
+-2 count16_X27 + countCheck16_X27s  + countCheck16_X27e  <= 1
+
+X28s + 68 countCheck16_X28s >= 17
+X28e - 68 countCheck16_X28e <= 15
+-2 count16_X28 + countCheck16_X28s  + countCheck16_X28e  <= 1
+
+X29s + 68 countCheck16_X29s >= 17
+X29e - 68 countCheck16_X29e <= 15
+-2 count16_X29 + countCheck16_X29s  + countCheck16_X29e  <= 1
+
+X30s + 68 countCheck16_X30s >= 17
+X30e - 68 countCheck16_X30e <= 15
+-2 count16_X30 + countCheck16_X30s  + countCheck16_X30e  <= 1
+
+X31s + 68 countCheck16_X31s >= 17
+X31e - 68 countCheck16_X31e <= 15
+-2 count16_X31 + countCheck16_X31s  + countCheck16_X31e  <= 1
+
+X32s + 68 countCheck16_X32s >= 17
+X32e - 68 countCheck16_X32e <= 15
+-2 count16_X32 + countCheck16_X32s  + countCheck16_X32e  <= 1
+
+X33s + 68 countCheck16_X33s >= 17
+X33e - 68 countCheck16_X33e <= 15
+-2 count16_X33 + countCheck16_X33s  + countCheck16_X33e  <= 1
+
+X34s + 68 countCheck16_X34s >= 17
+X34e - 68 countCheck16_X34e <= 15
+-2 count16_X34 + countCheck16_X34s  + countCheck16_X34e  <= 1
+
+X35s + 68 countCheck16_X35s >= 17
+X35e - 68 countCheck16_X35e <= 15
+-2 count16_X35 + countCheck16_X35s  + countCheck16_X35e  <= 1
+
+X36s + 68 countCheck16_X36s >= 17
+X36e - 68 countCheck16_X36e <= 15
+-2 count16_X36 + countCheck16_X36s  + countCheck16_X36e  <= 1
+
+X37s + 68 countCheck16_X37s >= 17
+X37e - 68 countCheck16_X37e <= 15
+-2 count16_X37 + countCheck16_X37s  + countCheck16_X37e  <= 1
+
+X38s + 68 countCheck16_X38s >= 17
+X38e - 68 countCheck16_X38e <= 15
+-2 count16_X38 + countCheck16_X38s  + countCheck16_X38e  <= 1
+
+X39s + 68 countCheck16_X39s >= 17
+X39e - 68 countCheck16_X39e <= 15
+-2 count16_X39 + countCheck16_X39s  + countCheck16_X39e  <= 1
+
+X40s + 68 countCheck16_X40s >= 17
+X40e - 68 countCheck16_X40e <= 15
+-2 count16_X40 + countCheck16_X40s  + countCheck16_X40e  <= 1
+
+X41s + 68 countCheck16_X41s >= 17
+X41e - 68 countCheck16_X41e <= 15
+-2 count16_X41 + countCheck16_X41s  + countCheck16_X41e  <= 1
+
+X42s + 68 countCheck16_X42s >= 17
+X42e - 68 countCheck16_X42e <= 15
+-2 count16_X42 + countCheck16_X42s  + countCheck16_X42e  <= 1
+
+X43s + 68 countCheck16_X43s >= 17
+X43e - 68 countCheck16_X43e <= 15
+-2 count16_X43 + countCheck16_X43s  + countCheck16_X43e  <= 1
+
+X44s + 68 countCheck16_X44s >= 17
+X44e - 68 countCheck16_X44e <= 15
+-2 count16_X44 + countCheck16_X44s  + countCheck16_X44e  <= 1
+
+X45s + 68 countCheck16_X45s >= 17
+X45e - 68 countCheck16_X45e <= 15
+-2 count16_X45 + countCheck16_X45s  + countCheck16_X45e  <= 1
+
+X46s + 68 countCheck16_X46s >= 17
+X46e - 68 countCheck16_X46e <= 15
+-2 count16_X46 + countCheck16_X46s  + countCheck16_X46e  <= 1
+
+X47s + 68 countCheck16_X47s >= 17
+X47e - 68 countCheck16_X47e <= 15
+-2 count16_X47 + countCheck16_X47s  + countCheck16_X47e  <= 1
+
+X48s + 68 countCheck16_X48s >= 17
+X48e - 68 countCheck16_X48e <= 15
+-2 count16_X48 + countCheck16_X48s  + countCheck16_X48e  <= 1
+
+X49s + 68 countCheck16_X49s >= 17
+X49e - 68 countCheck16_X49e <= 15
+-2 count16_X49 + countCheck16_X49s  + countCheck16_X49e  <= 1
+
+X50s + 68 countCheck16_X50s >= 17
+X50e - 68 countCheck16_X50e <= 15
+-2 count16_X50 + countCheck16_X50s  + countCheck16_X50e  <= 1
+
+X51s + 68 countCheck16_X51s >= 17
+X51e - 68 countCheck16_X51e <= 15
+-2 count16_X51 + countCheck16_X51s  + countCheck16_X51e  <= 1
+
+X52s + 68 countCheck16_X52s >= 17
+X52e - 68 countCheck16_X52e <= 15
+-2 count16_X52 + countCheck16_X52s  + countCheck16_X52e  <= 1
+
+X53s + 68 countCheck16_X53s >= 17
+X53e - 68 countCheck16_X53e <= 15
+-2 count16_X53 + countCheck16_X53s  + countCheck16_X53e  <= 1
+
+X54s + 68 countCheck16_X54s >= 17
+X54e - 68 countCheck16_X54e <= 15
+-2 count16_X54 + countCheck16_X54s  + countCheck16_X54e  <= 1
+
+X55s + 68 countCheck16_X55s >= 17
+X55e - 68 countCheck16_X55e <= 15
+-2 count16_X55 + countCheck16_X55s  + countCheck16_X55e  <= 1
+
+X56s + 68 countCheck16_X56s >= 17
+X56e - 68 countCheck16_X56e <= 15
+-2 count16_X56 + countCheck16_X56s  + countCheck16_X56e  <= 1
+
+X57s + 68 countCheck16_X57s >= 17
+X57e - 68 countCheck16_X57e <= 15
+-2 count16_X57 + countCheck16_X57s  + countCheck16_X57e  <= 1
+
+X58s + 68 countCheck16_X58s >= 17
+X58e - 68 countCheck16_X58e <= 15
+-2 count16_X58 + countCheck16_X58s  + countCheck16_X58e  <= 1
+
+X59s + 68 countCheck16_X59s >= 17
+X59e - 68 countCheck16_X59e <= 15
+-2 count16_X59 + countCheck16_X59s  + countCheck16_X59e  <= 1
+
+X60s + 68 countCheck16_X60s >= 17
+X60e - 68 countCheck16_X60e <= 15
+-2 count16_X60 + countCheck16_X60s  + countCheck16_X60e  <= 1
+
+X61s + 68 countCheck16_X61s >= 17
+X61e - 68 countCheck16_X61e <= 15
+-2 count16_X61 + countCheck16_X61s  + countCheck16_X61e  <= 1
+
+X62s + 68 countCheck16_X62s >= 17
+X62e - 68 countCheck16_X62e <= 15
+-2 count16_X62 + countCheck16_X62s  + countCheck16_X62e  <= 1
+
+X63s + 68 countCheck16_X63s >= 17
+X63e - 68 countCheck16_X63e <= 15
+-2 count16_X63 + countCheck16_X63s  + countCheck16_X63e  <= 1
+
+X64s + 68 countCheck16_X64s >= 17
+X64e - 68 countCheck16_X64e <= 15
+-2 count16_X64 + countCheck16_X64s  + countCheck16_X64e  <= 1
+
+X65s + 68 countCheck16_X65s >= 17
+X65e - 68 countCheck16_X65e <= 15
+-2 count16_X65 + countCheck16_X65s  + countCheck16_X65e  <= 1
+
+X66s + 68 countCheck16_X66s >= 17
+X66e - 68 countCheck16_X66e <= 15
+-2 count16_X66 + countCheck16_X66s  + countCheck16_X66e  <= 1
+
+X67s + 68 countCheck16_X67s >= 17
+X67e - 68 countCheck16_X67e <= 15
+-2 count16_X67 + countCheck16_X67s  + countCheck16_X67e  <= 1
+
+count16_X0 + count16_X1 + count16_X2 + count16_X3 + count16_X4 + count16_X5 + count16_X6 + count16_X7 + count16_X8 + count16_X9 + count16_X10 + count16_X11 + count16_X12 + count16_X13 + count16_X14 + count16_X15 + count16_X16 + count16_X17 + count16_X18 + count16_X19 + count16_X20 + count16_X21 + count16_X22 + count16_X23 + count16_X24 + count16_X25 + count16_X26 + count16_X27 + count16_X28 + count16_X29 + count16_X30 + count16_X31 + count16_X32 + count16_X33 + count16_X34 + count16_X35 + count16_X36 + count16_X37 + count16_X38 + count16_X39 + count16_X40 + count16_X41 + count16_X42 + count16_X43 + count16_X44 + count16_X45 + count16_X46 + count16_X47 + count16_X48 + count16_X49 + count16_X50 + count16_X51 + count16_X52 + count16_X53 + count16_X54 + count16_X55 + count16_X56 + count16_X57 + count16_X58 + count16_X59 + count16_X60 + count16_X61 + count16_X62 + count16_X63 + count16_X64 + count16_X65 + count16_X66 + count16_X67 - pathWidth <= 1
+X0s + 68 countCheck17_X0s >= 18
+X0e - 68 countCheck17_X0e <= 16
+-2 count17_X0 + countCheck17_X0s  + countCheck17_X0e  <= 1
+
+X1s + 68 countCheck17_X1s >= 18
+X1e - 68 countCheck17_X1e <= 16
+-2 count17_X1 + countCheck17_X1s  + countCheck17_X1e  <= 1
+
+X2s + 68 countCheck17_X2s >= 18
+X2e - 68 countCheck17_X2e <= 16
+-2 count17_X2 + countCheck17_X2s  + countCheck17_X2e  <= 1
+
+X3s + 68 countCheck17_X3s >= 18
+X3e - 68 countCheck17_X3e <= 16
+-2 count17_X3 + countCheck17_X3s  + countCheck17_X3e  <= 1
+
+X4s + 68 countCheck17_X4s >= 18
+X4e - 68 countCheck17_X4e <= 16
+-2 count17_X4 + countCheck17_X4s  + countCheck17_X4e  <= 1
+
+X5s + 68 countCheck17_X5s >= 18
+X5e - 68 countCheck17_X5e <= 16
+-2 count17_X5 + countCheck17_X5s  + countCheck17_X5e  <= 1
+
+X6s + 68 countCheck17_X6s >= 18
+X6e - 68 countCheck17_X6e <= 16
+-2 count17_X6 + countCheck17_X6s  + countCheck17_X6e  <= 1
+
+X7s + 68 countCheck17_X7s >= 18
+X7e - 68 countCheck17_X7e <= 16
+-2 count17_X7 + countCheck17_X7s  + countCheck17_X7e  <= 1
+
+X8s + 68 countCheck17_X8s >= 18
+X8e - 68 countCheck17_X8e <= 16
+-2 count17_X8 + countCheck17_X8s  + countCheck17_X8e  <= 1
+
+X9s + 68 countCheck17_X9s >= 18
+X9e - 68 countCheck17_X9e <= 16
+-2 count17_X9 + countCheck17_X9s  + countCheck17_X9e  <= 1
+
+X10s + 68 countCheck17_X10s >= 18
+X10e - 68 countCheck17_X10e <= 16
+-2 count17_X10 + countCheck17_X10s  + countCheck17_X10e  <= 1
+
+X11s + 68 countCheck17_X11s >= 18
+X11e - 68 countCheck17_X11e <= 16
+-2 count17_X11 + countCheck17_X11s  + countCheck17_X11e  <= 1
+
+X12s + 68 countCheck17_X12s >= 18
+X12e - 68 countCheck17_X12e <= 16
+-2 count17_X12 + countCheck17_X12s  + countCheck17_X12e  <= 1
+
+X13s + 68 countCheck17_X13s >= 18
+X13e - 68 countCheck17_X13e <= 16
+-2 count17_X13 + countCheck17_X13s  + countCheck17_X13e  <= 1
+
+X14s + 68 countCheck17_X14s >= 18
+X14e - 68 countCheck17_X14e <= 16
+-2 count17_X14 + countCheck17_X14s  + countCheck17_X14e  <= 1
+
+X15s + 68 countCheck17_X15s >= 18
+X15e - 68 countCheck17_X15e <= 16
+-2 count17_X15 + countCheck17_X15s  + countCheck17_X15e  <= 1
+
+X16s + 68 countCheck17_X16s >= 18
+X16e - 68 countCheck17_X16e <= 16
+-2 count17_X16 + countCheck17_X16s  + countCheck17_X16e  <= 1
+
+X17s + 68 countCheck17_X17s >= 18
+X17e - 68 countCheck17_X17e <= 16
+-2 count17_X17 + countCheck17_X17s  + countCheck17_X17e  <= 1
+
+X18s + 68 countCheck17_X18s >= 18
+X18e - 68 countCheck17_X18e <= 16
+-2 count17_X18 + countCheck17_X18s  + countCheck17_X18e  <= 1
+
+X19s + 68 countCheck17_X19s >= 18
+X19e - 68 countCheck17_X19e <= 16
+-2 count17_X19 + countCheck17_X19s  + countCheck17_X19e  <= 1
+
+X20s + 68 countCheck17_X20s >= 18
+X20e - 68 countCheck17_X20e <= 16
+-2 count17_X20 + countCheck17_X20s  + countCheck17_X20e  <= 1
+
+X21s + 68 countCheck17_X21s >= 18
+X21e - 68 countCheck17_X21e <= 16
+-2 count17_X21 + countCheck17_X21s  + countCheck17_X21e  <= 1
+
+X22s + 68 countCheck17_X22s >= 18
+X22e - 68 countCheck17_X22e <= 16
+-2 count17_X22 + countCheck17_X22s  + countCheck17_X22e  <= 1
+
+X23s + 68 countCheck17_X23s >= 18
+X23e - 68 countCheck17_X23e <= 16
+-2 count17_X23 + countCheck17_X23s  + countCheck17_X23e  <= 1
+
+X24s + 68 countCheck17_X24s >= 18
+X24e - 68 countCheck17_X24e <= 16
+-2 count17_X24 + countCheck17_X24s  + countCheck17_X24e  <= 1
+
+X25s + 68 countCheck17_X25s >= 18
+X25e - 68 countCheck17_X25e <= 16
+-2 count17_X25 + countCheck17_X25s  + countCheck17_X25e  <= 1
+
+X26s + 68 countCheck17_X26s >= 18
+X26e - 68 countCheck17_X26e <= 16
+-2 count17_X26 + countCheck17_X26s  + countCheck17_X26e  <= 1
+
+X27s + 68 countCheck17_X27s >= 18
+X27e - 68 countCheck17_X27e <= 16
+-2 count17_X27 + countCheck17_X27s  + countCheck17_X27e  <= 1
+
+X28s + 68 countCheck17_X28s >= 18
+X28e - 68 countCheck17_X28e <= 16
+-2 count17_X28 + countCheck17_X28s  + countCheck17_X28e  <= 1
+
+X29s + 68 countCheck17_X29s >= 18
+X29e - 68 countCheck17_X29e <= 16
+-2 count17_X29 + countCheck17_X29s  + countCheck17_X29e  <= 1
+
+X30s + 68 countCheck17_X30s >= 18
+X30e - 68 countCheck17_X30e <= 16
+-2 count17_X30 + countCheck17_X30s  + countCheck17_X30e  <= 1
+
+X31s + 68 countCheck17_X31s >= 18
+X31e - 68 countCheck17_X31e <= 16
+-2 count17_X31 + countCheck17_X31s  + countCheck17_X31e  <= 1
+
+X32s + 68 countCheck17_X32s >= 18
+X32e - 68 countCheck17_X32e <= 16
+-2 count17_X32 + countCheck17_X32s  + countCheck17_X32e  <= 1
+
+X33s + 68 countCheck17_X33s >= 18
+X33e - 68 countCheck17_X33e <= 16
+-2 count17_X33 + countCheck17_X33s  + countCheck17_X33e  <= 1
+
+X34s + 68 countCheck17_X34s >= 18
+X34e - 68 countCheck17_X34e <= 16
+-2 count17_X34 + countCheck17_X34s  + countCheck17_X34e  <= 1
+
+X35s + 68 countCheck17_X35s >= 18
+X35e - 68 countCheck17_X35e <= 16
+-2 count17_X35 + countCheck17_X35s  + countCheck17_X35e  <= 1
+
+X36s + 68 countCheck17_X36s >= 18
+X36e - 68 countCheck17_X36e <= 16
+-2 count17_X36 + countCheck17_X36s  + countCheck17_X36e  <= 1
+
+X37s + 68 countCheck17_X37s >= 18
+X37e - 68 countCheck17_X37e <= 16
+-2 count17_X37 + countCheck17_X37s  + countCheck17_X37e  <= 1
+
+X38s + 68 countCheck17_X38s >= 18
+X38e - 68 countCheck17_X38e <= 16
+-2 count17_X38 + countCheck17_X38s  + countCheck17_X38e  <= 1
+
+X39s + 68 countCheck17_X39s >= 18
+X39e - 68 countCheck17_X39e <= 16
+-2 count17_X39 + countCheck17_X39s  + countCheck17_X39e  <= 1
+
+X40s + 68 countCheck17_X40s >= 18
+X40e - 68 countCheck17_X40e <= 16
+-2 count17_X40 + countCheck17_X40s  + countCheck17_X40e  <= 1
+
+X41s + 68 countCheck17_X41s >= 18
+X41e - 68 countCheck17_X41e <= 16
+-2 count17_X41 + countCheck17_X41s  + countCheck17_X41e  <= 1
+
+X42s + 68 countCheck17_X42s >= 18
+X42e - 68 countCheck17_X42e <= 16
+-2 count17_X42 + countCheck17_X42s  + countCheck17_X42e  <= 1
+
+X43s + 68 countCheck17_X43s >= 18
+X43e - 68 countCheck17_X43e <= 16
+-2 count17_X43 + countCheck17_X43s  + countCheck17_X43e  <= 1
+
+X44s + 68 countCheck17_X44s >= 18
+X44e - 68 countCheck17_X44e <= 16
+-2 count17_X44 + countCheck17_X44s  + countCheck17_X44e  <= 1
+
+X45s + 68 countCheck17_X45s >= 18
+X45e - 68 countCheck17_X45e <= 16
+-2 count17_X45 + countCheck17_X45s  + countCheck17_X45e  <= 1
+
+X46s + 68 countCheck17_X46s >= 18
+X46e - 68 countCheck17_X46e <= 16
+-2 count17_X46 + countCheck17_X46s  + countCheck17_X46e  <= 1
+
+X47s + 68 countCheck17_X47s >= 18
+X47e - 68 countCheck17_X47e <= 16
+-2 count17_X47 + countCheck17_X47s  + countCheck17_X47e  <= 1
+
+X48s + 68 countCheck17_X48s >= 18
+X48e - 68 countCheck17_X48e <= 16
+-2 count17_X48 + countCheck17_X48s  + countCheck17_X48e  <= 1
+
+X49s + 68 countCheck17_X49s >= 18
+X49e - 68 countCheck17_X49e <= 16
+-2 count17_X49 + countCheck17_X49s  + countCheck17_X49e  <= 1
+
+X50s + 68 countCheck17_X50s >= 18
+X50e - 68 countCheck17_X50e <= 16
+-2 count17_X50 + countCheck17_X50s  + countCheck17_X50e  <= 1
+
+X51s + 68 countCheck17_X51s >= 18
+X51e - 68 countCheck17_X51e <= 16
+-2 count17_X51 + countCheck17_X51s  + countCheck17_X51e  <= 1
+
+X52s + 68 countCheck17_X52s >= 18
+X52e - 68 countCheck17_X52e <= 16
+-2 count17_X52 + countCheck17_X52s  + countCheck17_X52e  <= 1
+
+X53s + 68 countCheck17_X53s >= 18
+X53e - 68 countCheck17_X53e <= 16
+-2 count17_X53 + countCheck17_X53s  + countCheck17_X53e  <= 1
+
+X54s + 68 countCheck17_X54s >= 18
+X54e - 68 countCheck17_X54e <= 16
+-2 count17_X54 + countCheck17_X54s  + countCheck17_X54e  <= 1
+
+X55s + 68 countCheck17_X55s >= 18
+X55e - 68 countCheck17_X55e <= 16
+-2 count17_X55 + countCheck17_X55s  + countCheck17_X55e  <= 1
+
+X56s + 68 countCheck17_X56s >= 18
+X56e - 68 countCheck17_X56e <= 16
+-2 count17_X56 + countCheck17_X56s  + countCheck17_X56e  <= 1
+
+X57s + 68 countCheck17_X57s >= 18
+X57e - 68 countCheck17_X57e <= 16
+-2 count17_X57 + countCheck17_X57s  + countCheck17_X57e  <= 1
+
+X58s + 68 countCheck17_X58s >= 18
+X58e - 68 countCheck17_X58e <= 16
+-2 count17_X58 + countCheck17_X58s  + countCheck17_X58e  <= 1
+
+X59s + 68 countCheck17_X59s >= 18
+X59e - 68 countCheck17_X59e <= 16
+-2 count17_X59 + countCheck17_X59s  + countCheck17_X59e  <= 1
+
+X60s + 68 countCheck17_X60s >= 18
+X60e - 68 countCheck17_X60e <= 16
+-2 count17_X60 + countCheck17_X60s  + countCheck17_X60e  <= 1
+
+X61s + 68 countCheck17_X61s >= 18
+X61e - 68 countCheck17_X61e <= 16
+-2 count17_X61 + countCheck17_X61s  + countCheck17_X61e  <= 1
+
+X62s + 68 countCheck17_X62s >= 18
+X62e - 68 countCheck17_X62e <= 16
+-2 count17_X62 + countCheck17_X62s  + countCheck17_X62e  <= 1
+
+X63s + 68 countCheck17_X63s >= 18
+X63e - 68 countCheck17_X63e <= 16
+-2 count17_X63 + countCheck17_X63s  + countCheck17_X63e  <= 1
+
+X64s + 68 countCheck17_X64s >= 18
+X64e - 68 countCheck17_X64e <= 16
+-2 count17_X64 + countCheck17_X64s  + countCheck17_X64e  <= 1
+
+X65s + 68 countCheck17_X65s >= 18
+X65e - 68 countCheck17_X65e <= 16
+-2 count17_X65 + countCheck17_X65s  + countCheck17_X65e  <= 1
+
+X66s + 68 countCheck17_X66s >= 18
+X66e - 68 countCheck17_X66e <= 16
+-2 count17_X66 + countCheck17_X66s  + countCheck17_X66e  <= 1
+
+X67s + 68 countCheck17_X67s >= 18
+X67e - 68 countCheck17_X67e <= 16
+-2 count17_X67 + countCheck17_X67s  + countCheck17_X67e  <= 1
+
+count17_X0 + count17_X1 + count17_X2 + count17_X3 + count17_X4 + count17_X5 + count17_X6 + count17_X7 + count17_X8 + count17_X9 + count17_X10 + count17_X11 + count17_X12 + count17_X13 + count17_X14 + count17_X15 + count17_X16 + count17_X17 + count17_X18 + count17_X19 + count17_X20 + count17_X21 + count17_X22 + count17_X23 + count17_X24 + count17_X25 + count17_X26 + count17_X27 + count17_X28 + count17_X29 + count17_X30 + count17_X31 + count17_X32 + count17_X33 + count17_X34 + count17_X35 + count17_X36 + count17_X37 + count17_X38 + count17_X39 + count17_X40 + count17_X41 + count17_X42 + count17_X43 + count17_X44 + count17_X45 + count17_X46 + count17_X47 + count17_X48 + count17_X49 + count17_X50 + count17_X51 + count17_X52 + count17_X53 + count17_X54 + count17_X55 + count17_X56 + count17_X57 + count17_X58 + count17_X59 + count17_X60 + count17_X61 + count17_X62 + count17_X63 + count17_X64 + count17_X65 + count17_X66 + count17_X67 - pathWidth <= 1
+X0s + 68 countCheck18_X0s >= 19
+X0e - 68 countCheck18_X0e <= 17
+-2 count18_X0 + countCheck18_X0s  + countCheck18_X0e  <= 1
+
+X1s + 68 countCheck18_X1s >= 19
+X1e - 68 countCheck18_X1e <= 17
+-2 count18_X1 + countCheck18_X1s  + countCheck18_X1e  <= 1
+
+X2s + 68 countCheck18_X2s >= 19
+X2e - 68 countCheck18_X2e <= 17
+-2 count18_X2 + countCheck18_X2s  + countCheck18_X2e  <= 1
+
+X3s + 68 countCheck18_X3s >= 19
+X3e - 68 countCheck18_X3e <= 17
+-2 count18_X3 + countCheck18_X3s  + countCheck18_X3e  <= 1
+
+X4s + 68 countCheck18_X4s >= 19
+X4e - 68 countCheck18_X4e <= 17
+-2 count18_X4 + countCheck18_X4s  + countCheck18_X4e  <= 1
+
+X5s + 68 countCheck18_X5s >= 19
+X5e - 68 countCheck18_X5e <= 17
+-2 count18_X5 + countCheck18_X5s  + countCheck18_X5e  <= 1
+
+X6s + 68 countCheck18_X6s >= 19
+X6e - 68 countCheck18_X6e <= 17
+-2 count18_X6 + countCheck18_X6s  + countCheck18_X6e  <= 1
+
+X7s + 68 countCheck18_X7s >= 19
+X7e - 68 countCheck18_X7e <= 17
+-2 count18_X7 + countCheck18_X7s  + countCheck18_X7e  <= 1
+
+X8s + 68 countCheck18_X8s >= 19
+X8e - 68 countCheck18_X8e <= 17
+-2 count18_X8 + countCheck18_X8s  + countCheck18_X8e  <= 1
+
+X9s + 68 countCheck18_X9s >= 19
+X9e - 68 countCheck18_X9e <= 17
+-2 count18_X9 + countCheck18_X9s  + countCheck18_X9e  <= 1
+
+X10s + 68 countCheck18_X10s >= 19
+X10e - 68 countCheck18_X10e <= 17
+-2 count18_X10 + countCheck18_X10s  + countCheck18_X10e  <= 1
+
+X11s + 68 countCheck18_X11s >= 19
+X11e - 68 countCheck18_X11e <= 17
+-2 count18_X11 + countCheck18_X11s  + countCheck18_X11e  <= 1
+
+X12s + 68 countCheck18_X12s >= 19
+X12e - 68 countCheck18_X12e <= 17
+-2 count18_X12 + countCheck18_X12s  + countCheck18_X12e  <= 1
+
+X13s + 68 countCheck18_X13s >= 19
+X13e - 68 countCheck18_X13e <= 17
+-2 count18_X13 + countCheck18_X13s  + countCheck18_X13e  <= 1
+
+X14s + 68 countCheck18_X14s >= 19
+X14e - 68 countCheck18_X14e <= 17
+-2 count18_X14 + countCheck18_X14s  + countCheck18_X14e  <= 1
+
+X15s + 68 countCheck18_X15s >= 19
+X15e - 68 countCheck18_X15e <= 17
+-2 count18_X15 + countCheck18_X15s  + countCheck18_X15e  <= 1
+
+X16s + 68 countCheck18_X16s >= 19
+X16e - 68 countCheck18_X16e <= 17
+-2 count18_X16 + countCheck18_X16s  + countCheck18_X16e  <= 1
+
+X17s + 68 countCheck18_X17s >= 19
+X17e - 68 countCheck18_X17e <= 17
+-2 count18_X17 + countCheck18_X17s  + countCheck18_X17e  <= 1
+
+X18s + 68 countCheck18_X18s >= 19
+X18e - 68 countCheck18_X18e <= 17
+-2 count18_X18 + countCheck18_X18s  + countCheck18_X18e  <= 1
+
+X19s + 68 countCheck18_X19s >= 19
+X19e - 68 countCheck18_X19e <= 17
+-2 count18_X19 + countCheck18_X19s  + countCheck18_X19e  <= 1
+
+X20s + 68 countCheck18_X20s >= 19
+X20e - 68 countCheck18_X20e <= 17
+-2 count18_X20 + countCheck18_X20s  + countCheck18_X20e  <= 1
+
+X21s + 68 countCheck18_X21s >= 19
+X21e - 68 countCheck18_X21e <= 17
+-2 count18_X21 + countCheck18_X21s  + countCheck18_X21e  <= 1
+
+X22s + 68 countCheck18_X22s >= 19
+X22e - 68 countCheck18_X22e <= 17
+-2 count18_X22 + countCheck18_X22s  + countCheck18_X22e  <= 1
+
+X23s + 68 countCheck18_X23s >= 19
+X23e - 68 countCheck18_X23e <= 17
+-2 count18_X23 + countCheck18_X23s  + countCheck18_X23e  <= 1
+
+X24s + 68 countCheck18_X24s >= 19
+X24e - 68 countCheck18_X24e <= 17
+-2 count18_X24 + countCheck18_X24s  + countCheck18_X24e  <= 1
+
+X25s + 68 countCheck18_X25s >= 19
+X25e - 68 countCheck18_X25e <= 17
+-2 count18_X25 + countCheck18_X25s  + countCheck18_X25e  <= 1
+
+X26s + 68 countCheck18_X26s >= 19
+X26e - 68 countCheck18_X26e <= 17
+-2 count18_X26 + countCheck18_X26s  + countCheck18_X26e  <= 1
+
+X27s + 68 countCheck18_X27s >= 19
+X27e - 68 countCheck18_X27e <= 17
+-2 count18_X27 + countCheck18_X27s  + countCheck18_X27e  <= 1
+
+X28s + 68 countCheck18_X28s >= 19
+X28e - 68 countCheck18_X28e <= 17
+-2 count18_X28 + countCheck18_X28s  + countCheck18_X28e  <= 1
+
+X29s + 68 countCheck18_X29s >= 19
+X29e - 68 countCheck18_X29e <= 17
+-2 count18_X29 + countCheck18_X29s  + countCheck18_X29e  <= 1
+
+X30s + 68 countCheck18_X30s >= 19
+X30e - 68 countCheck18_X30e <= 17
+-2 count18_X30 + countCheck18_X30s  + countCheck18_X30e  <= 1
+
+X31s + 68 countCheck18_X31s >= 19
+X31e - 68 countCheck18_X31e <= 17
+-2 count18_X31 + countCheck18_X31s  + countCheck18_X31e  <= 1
+
+X32s + 68 countCheck18_X32s >= 19
+X32e - 68 countCheck18_X32e <= 17
+-2 count18_X32 + countCheck18_X32s  + countCheck18_X32e  <= 1
+
+X33s + 68 countCheck18_X33s >= 19
+X33e - 68 countCheck18_X33e <= 17
+-2 count18_X33 + countCheck18_X33s  + countCheck18_X33e  <= 1
+
+X34s + 68 countCheck18_X34s >= 19
+X34e - 68 countCheck18_X34e <= 17
+-2 count18_X34 + countCheck18_X34s  + countCheck18_X34e  <= 1
+
+X35s + 68 countCheck18_X35s >= 19
+X35e - 68 countCheck18_X35e <= 17
+-2 count18_X35 + countCheck18_X35s  + countCheck18_X35e  <= 1
+
+X36s + 68 countCheck18_X36s >= 19
+X36e - 68 countCheck18_X36e <= 17
+-2 count18_X36 + countCheck18_X36s  + countCheck18_X36e  <= 1
+
+X37s + 68 countCheck18_X37s >= 19
+X37e - 68 countCheck18_X37e <= 17
+-2 count18_X37 + countCheck18_X37s  + countCheck18_X37e  <= 1
+
+X38s + 68 countCheck18_X38s >= 19
+X38e - 68 countCheck18_X38e <= 17
+-2 count18_X38 + countCheck18_X38s  + countCheck18_X38e  <= 1
+
+X39s + 68 countCheck18_X39s >= 19
+X39e - 68 countCheck18_X39e <= 17
+-2 count18_X39 + countCheck18_X39s  + countCheck18_X39e  <= 1
+
+X40s + 68 countCheck18_X40s >= 19
+X40e - 68 countCheck18_X40e <= 17
+-2 count18_X40 + countCheck18_X40s  + countCheck18_X40e  <= 1
+
+X41s + 68 countCheck18_X41s >= 19
+X41e - 68 countCheck18_X41e <= 17
+-2 count18_X41 + countCheck18_X41s  + countCheck18_X41e  <= 1
+
+X42s + 68 countCheck18_X42s >= 19
+X42e - 68 countCheck18_X42e <= 17
+-2 count18_X42 + countCheck18_X42s  + countCheck18_X42e  <= 1
+
+X43s + 68 countCheck18_X43s >= 19
+X43e - 68 countCheck18_X43e <= 17
+-2 count18_X43 + countCheck18_X43s  + countCheck18_X43e  <= 1
+
+X44s + 68 countCheck18_X44s >= 19
+X44e - 68 countCheck18_X44e <= 17
+-2 count18_X44 + countCheck18_X44s  + countCheck18_X44e  <= 1
+
+X45s + 68 countCheck18_X45s >= 19
+X45e - 68 countCheck18_X45e <= 17
+-2 count18_X45 + countCheck18_X45s  + countCheck18_X45e  <= 1
+
+X46s + 68 countCheck18_X46s >= 19
+X46e - 68 countCheck18_X46e <= 17
+-2 count18_X46 + countCheck18_X46s  + countCheck18_X46e  <= 1
+
+X47s + 68 countCheck18_X47s >= 19
+X47e - 68 countCheck18_X47e <= 17
+-2 count18_X47 + countCheck18_X47s  + countCheck18_X47e  <= 1
+
+X48s + 68 countCheck18_X48s >= 19
+X48e - 68 countCheck18_X48e <= 17
+-2 count18_X48 + countCheck18_X48s  + countCheck18_X48e  <= 1
+
+X49s + 68 countCheck18_X49s >= 19
+X49e - 68 countCheck18_X49e <= 17
+-2 count18_X49 + countCheck18_X49s  + countCheck18_X49e  <= 1
+
+X50s + 68 countCheck18_X50s >= 19
+X50e - 68 countCheck18_X50e <= 17
+-2 count18_X50 + countCheck18_X50s  + countCheck18_X50e  <= 1
+
+X51s + 68 countCheck18_X51s >= 19
+X51e - 68 countCheck18_X51e <= 17
+-2 count18_X51 + countCheck18_X51s  + countCheck18_X51e  <= 1
+
+X52s + 68 countCheck18_X52s >= 19
+X52e - 68 countCheck18_X52e <= 17
+-2 count18_X52 + countCheck18_X52s  + countCheck18_X52e  <= 1
+
+X53s + 68 countCheck18_X53s >= 19
+X53e - 68 countCheck18_X53e <= 17
+-2 count18_X53 + countCheck18_X53s  + countCheck18_X53e  <= 1
+
+X54s + 68 countCheck18_X54s >= 19
+X54e - 68 countCheck18_X54e <= 17
+-2 count18_X54 + countCheck18_X54s  + countCheck18_X54e  <= 1
+
+X55s + 68 countCheck18_X55s >= 19
+X55e - 68 countCheck18_X55e <= 17
+-2 count18_X55 + countCheck18_X55s  + countCheck18_X55e  <= 1
+
+X56s + 68 countCheck18_X56s >= 19
+X56e - 68 countCheck18_X56e <= 17
+-2 count18_X56 + countCheck18_X56s  + countCheck18_X56e  <= 1
+
+X57s + 68 countCheck18_X57s >= 19
+X57e - 68 countCheck18_X57e <= 17
+-2 count18_X57 + countCheck18_X57s  + countCheck18_X57e  <= 1
+
+X58s + 68 countCheck18_X58s >= 19
+X58e - 68 countCheck18_X58e <= 17
+-2 count18_X58 + countCheck18_X58s  + countCheck18_X58e  <= 1
+
+X59s + 68 countCheck18_X59s >= 19
+X59e - 68 countCheck18_X59e <= 17
+-2 count18_X59 + countCheck18_X59s  + countCheck18_X59e  <= 1
+
+X60s + 68 countCheck18_X60s >= 19
+X60e - 68 countCheck18_X60e <= 17
+-2 count18_X60 + countCheck18_X60s  + countCheck18_X60e  <= 1
+
+X61s + 68 countCheck18_X61s >= 19
+X61e - 68 countCheck18_X61e <= 17
+-2 count18_X61 + countCheck18_X61s  + countCheck18_X61e  <= 1
+
+X62s + 68 countCheck18_X62s >= 19
+X62e - 68 countCheck18_X62e <= 17
+-2 count18_X62 + countCheck18_X62s  + countCheck18_X62e  <= 1
+
+X63s + 68 countCheck18_X63s >= 19
+X63e - 68 countCheck18_X63e <= 17
+-2 count18_X63 + countCheck18_X63s  + countCheck18_X63e  <= 1
+
+X64s + 68 countCheck18_X64s >= 19
+X64e - 68 countCheck18_X64e <= 17
+-2 count18_X64 + countCheck18_X64s  + countCheck18_X64e  <= 1
+
+X65s + 68 countCheck18_X65s >= 19
+X65e - 68 countCheck18_X65e <= 17
+-2 count18_X65 + countCheck18_X65s  + countCheck18_X65e  <= 1
+
+X66s + 68 countCheck18_X66s >= 19
+X66e - 68 countCheck18_X66e <= 17
+-2 count18_X66 + countCheck18_X66s  + countCheck18_X66e  <= 1
+
+X67s + 68 countCheck18_X67s >= 19
+X67e - 68 countCheck18_X67e <= 17
+-2 count18_X67 + countCheck18_X67s  + countCheck18_X67e  <= 1
+
+count18_X0 + count18_X1 + count18_X2 + count18_X3 + count18_X4 + count18_X5 + count18_X6 + count18_X7 + count18_X8 + count18_X9 + count18_X10 + count18_X11 + count18_X12 + count18_X13 + count18_X14 + count18_X15 + count18_X16 + count18_X17 + count18_X18 + count18_X19 + count18_X20 + count18_X21 + count18_X22 + count18_X23 + count18_X24 + count18_X25 + count18_X26 + count18_X27 + count18_X28 + count18_X29 + count18_X30 + count18_X31 + count18_X32 + count18_X33 + count18_X34 + count18_X35 + count18_X36 + count18_X37 + count18_X38 + count18_X39 + count18_X40 + count18_X41 + count18_X42 + count18_X43 + count18_X44 + count18_X45 + count18_X46 + count18_X47 + count18_X48 + count18_X49 + count18_X50 + count18_X51 + count18_X52 + count18_X53 + count18_X54 + count18_X55 + count18_X56 + count18_X57 + count18_X58 + count18_X59 + count18_X60 + count18_X61 + count18_X62 + count18_X63 + count18_X64 + count18_X65 + count18_X66 + count18_X67 - pathWidth <= 1
+X0s + 68 countCheck19_X0s >= 20
+X0e - 68 countCheck19_X0e <= 18
+-2 count19_X0 + countCheck19_X0s  + countCheck19_X0e  <= 1
+
+X1s + 68 countCheck19_X1s >= 20
+X1e - 68 countCheck19_X1e <= 18
+-2 count19_X1 + countCheck19_X1s  + countCheck19_X1e  <= 1
+
+X2s + 68 countCheck19_X2s >= 20
+X2e - 68 countCheck19_X2e <= 18
+-2 count19_X2 + countCheck19_X2s  + countCheck19_X2e  <= 1
+
+X3s + 68 countCheck19_X3s >= 20
+X3e - 68 countCheck19_X3e <= 18
+-2 count19_X3 + countCheck19_X3s  + countCheck19_X3e  <= 1
+
+X4s + 68 countCheck19_X4s >= 20
+X4e - 68 countCheck19_X4e <= 18
+-2 count19_X4 + countCheck19_X4s  + countCheck19_X4e  <= 1
+
+X5s + 68 countCheck19_X5s >= 20
+X5e - 68 countCheck19_X5e <= 18
+-2 count19_X5 + countCheck19_X5s  + countCheck19_X5e  <= 1
+
+X6s + 68 countCheck19_X6s >= 20
+X6e - 68 countCheck19_X6e <= 18
+-2 count19_X6 + countCheck19_X6s  + countCheck19_X6e  <= 1
+
+X7s + 68 countCheck19_X7s >= 20
+X7e - 68 countCheck19_X7e <= 18
+-2 count19_X7 + countCheck19_X7s  + countCheck19_X7e  <= 1
+
+X8s + 68 countCheck19_X8s >= 20
+X8e - 68 countCheck19_X8e <= 18
+-2 count19_X8 + countCheck19_X8s  + countCheck19_X8e  <= 1
+
+X9s + 68 countCheck19_X9s >= 20
+X9e - 68 countCheck19_X9e <= 18
+-2 count19_X9 + countCheck19_X9s  + countCheck19_X9e  <= 1
+
+X10s + 68 countCheck19_X10s >= 20
+X10e - 68 countCheck19_X10e <= 18
+-2 count19_X10 + countCheck19_X10s  + countCheck19_X10e  <= 1
+
+X11s + 68 countCheck19_X11s >= 20
+X11e - 68 countCheck19_X11e <= 18
+-2 count19_X11 + countCheck19_X11s  + countCheck19_X11e  <= 1
+
+X12s + 68 countCheck19_X12s >= 20
+X12e - 68 countCheck19_X12e <= 18
+-2 count19_X12 + countCheck19_X12s  + countCheck19_X12e  <= 1
+
+X13s + 68 countCheck19_X13s >= 20
+X13e - 68 countCheck19_X13e <= 18
+-2 count19_X13 + countCheck19_X13s  + countCheck19_X13e  <= 1
+
+X14s + 68 countCheck19_X14s >= 20
+X14e - 68 countCheck19_X14e <= 18
+-2 count19_X14 + countCheck19_X14s  + countCheck19_X14e  <= 1
+
+X15s + 68 countCheck19_X15s >= 20
+X15e - 68 countCheck19_X15e <= 18
+-2 count19_X15 + countCheck19_X15s  + countCheck19_X15e  <= 1
+
+X16s + 68 countCheck19_X16s >= 20
+X16e - 68 countCheck19_X16e <= 18
+-2 count19_X16 + countCheck19_X16s  + countCheck19_X16e  <= 1
+
+X17s + 68 countCheck19_X17s >= 20
+X17e - 68 countCheck19_X17e <= 18
+-2 count19_X17 + countCheck19_X17s  + countCheck19_X17e  <= 1
+
+X18s + 68 countCheck19_X18s >= 20
+X18e - 68 countCheck19_X18e <= 18
+-2 count19_X18 + countCheck19_X18s  + countCheck19_X18e  <= 1
+
+X19s + 68 countCheck19_X19s >= 20
+X19e - 68 countCheck19_X19e <= 18
+-2 count19_X19 + countCheck19_X19s  + countCheck19_X19e  <= 1
+
+X20s + 68 countCheck19_X20s >= 20
+X20e - 68 countCheck19_X20e <= 18
+-2 count19_X20 + countCheck19_X20s  + countCheck19_X20e  <= 1
+
+X21s + 68 countCheck19_X21s >= 20
+X21e - 68 countCheck19_X21e <= 18
+-2 count19_X21 + countCheck19_X21s  + countCheck19_X21e  <= 1
+
+X22s + 68 countCheck19_X22s >= 20
+X22e - 68 countCheck19_X22e <= 18
+-2 count19_X22 + countCheck19_X22s  + countCheck19_X22e  <= 1
+
+X23s + 68 countCheck19_X23s >= 20
+X23e - 68 countCheck19_X23e <= 18
+-2 count19_X23 + countCheck19_X23s  + countCheck19_X23e  <= 1
+
+X24s + 68 countCheck19_X24s >= 20
+X24e - 68 countCheck19_X24e <= 18
+-2 count19_X24 + countCheck19_X24s  + countCheck19_X24e  <= 1
+
+X25s + 68 countCheck19_X25s >= 20
+X25e - 68 countCheck19_X25e <= 18
+-2 count19_X25 + countCheck19_X25s  + countCheck19_X25e  <= 1
+
+X26s + 68 countCheck19_X26s >= 20
+X26e - 68 countCheck19_X26e <= 18
+-2 count19_X26 + countCheck19_X26s  + countCheck19_X26e  <= 1
+
+X27s + 68 countCheck19_X27s >= 20
+X27e - 68 countCheck19_X27e <= 18
+-2 count19_X27 + countCheck19_X27s  + countCheck19_X27e  <= 1
+
+X28s + 68 countCheck19_X28s >= 20
+X28e - 68 countCheck19_X28e <= 18
+-2 count19_X28 + countCheck19_X28s  + countCheck19_X28e  <= 1
+
+X29s + 68 countCheck19_X29s >= 20
+X29e - 68 countCheck19_X29e <= 18
+-2 count19_X29 + countCheck19_X29s  + countCheck19_X29e  <= 1
+
+X30s + 68 countCheck19_X30s >= 20
+X30e - 68 countCheck19_X30e <= 18
+-2 count19_X30 + countCheck19_X30s  + countCheck19_X30e  <= 1
+
+X31s + 68 countCheck19_X31s >= 20
+X31e - 68 countCheck19_X31e <= 18
+-2 count19_X31 + countCheck19_X31s  + countCheck19_X31e  <= 1
+
+X32s + 68 countCheck19_X32s >= 20
+X32e - 68 countCheck19_X32e <= 18
+-2 count19_X32 + countCheck19_X32s  + countCheck19_X32e  <= 1
+
+X33s + 68 countCheck19_X33s >= 20
+X33e - 68 countCheck19_X33e <= 18
+-2 count19_X33 + countCheck19_X33s  + countCheck19_X33e  <= 1
+
+X34s + 68 countCheck19_X34s >= 20
+X34e - 68 countCheck19_X34e <= 18
+-2 count19_X34 + countCheck19_X34s  + countCheck19_X34e  <= 1
+
+X35s + 68 countCheck19_X35s >= 20
+X35e - 68 countCheck19_X35e <= 18
+-2 count19_X35 + countCheck19_X35s  + countCheck19_X35e  <= 1
+
+X36s + 68 countCheck19_X36s >= 20
+X36e - 68 countCheck19_X36e <= 18
+-2 count19_X36 + countCheck19_X36s  + countCheck19_X36e  <= 1
+
+X37s + 68 countCheck19_X37s >= 20
+X37e - 68 countCheck19_X37e <= 18
+-2 count19_X37 + countCheck19_X37s  + countCheck19_X37e  <= 1
+
+X38s + 68 countCheck19_X38s >= 20
+X38e - 68 countCheck19_X38e <= 18
+-2 count19_X38 + countCheck19_X38s  + countCheck19_X38e  <= 1
+
+X39s + 68 countCheck19_X39s >= 20
+X39e - 68 countCheck19_X39e <= 18
+-2 count19_X39 + countCheck19_X39s  + countCheck19_X39e  <= 1
+
+X40s + 68 countCheck19_X40s >= 20
+X40e - 68 countCheck19_X40e <= 18
+-2 count19_X40 + countCheck19_X40s  + countCheck19_X40e  <= 1
+
+X41s + 68 countCheck19_X41s >= 20
+X41e - 68 countCheck19_X41e <= 18
+-2 count19_X41 + countCheck19_X41s  + countCheck19_X41e  <= 1
+
+X42s + 68 countCheck19_X42s >= 20
+X42e - 68 countCheck19_X42e <= 18
+-2 count19_X42 + countCheck19_X42s  + countCheck19_X42e  <= 1
+
+X43s + 68 countCheck19_X43s >= 20
+X43e - 68 countCheck19_X43e <= 18
+-2 count19_X43 + countCheck19_X43s  + countCheck19_X43e  <= 1
+
+X44s + 68 countCheck19_X44s >= 20
+X44e - 68 countCheck19_X44e <= 18
+-2 count19_X44 + countCheck19_X44s  + countCheck19_X44e  <= 1
+
+X45s + 68 countCheck19_X45s >= 20
+X45e - 68 countCheck19_X45e <= 18
+-2 count19_X45 + countCheck19_X45s  + countCheck19_X45e  <= 1
+
+X46s + 68 countCheck19_X46s >= 20
+X46e - 68 countCheck19_X46e <= 18
+-2 count19_X46 + countCheck19_X46s  + countCheck19_X46e  <= 1
+
+X47s + 68 countCheck19_X47s >= 20
+X47e - 68 countCheck19_X47e <= 18
+-2 count19_X47 + countCheck19_X47s  + countCheck19_X47e  <= 1
+
+X48s + 68 countCheck19_X48s >= 20
+X48e - 68 countCheck19_X48e <= 18
+-2 count19_X48 + countCheck19_X48s  + countCheck19_X48e  <= 1
+
+X49s + 68 countCheck19_X49s >= 20
+X49e - 68 countCheck19_X49e <= 18
+-2 count19_X49 + countCheck19_X49s  + countCheck19_X49e  <= 1
+
+X50s + 68 countCheck19_X50s >= 20
+X50e - 68 countCheck19_X50e <= 18
+-2 count19_X50 + countCheck19_X50s  + countCheck19_X50e  <= 1
+
+X51s + 68 countCheck19_X51s >= 20
+X51e - 68 countCheck19_X51e <= 18
+-2 count19_X51 + countCheck19_X51s  + countCheck19_X51e  <= 1
+
+X52s + 68 countCheck19_X52s >= 20
+X52e - 68 countCheck19_X52e <= 18
+-2 count19_X52 + countCheck19_X52s  + countCheck19_X52e  <= 1
+
+X53s + 68 countCheck19_X53s >= 20
+X53e - 68 countCheck19_X53e <= 18
+-2 count19_X53 + countCheck19_X53s  + countCheck19_X53e  <= 1
+
+X54s + 68 countCheck19_X54s >= 20
+X54e - 68 countCheck19_X54e <= 18
+-2 count19_X54 + countCheck19_X54s  + countCheck19_X54e  <= 1
+
+X55s + 68 countCheck19_X55s >= 20
+X55e - 68 countCheck19_X55e <= 18
+-2 count19_X55 + countCheck19_X55s  + countCheck19_X55e  <= 1
+
+X56s + 68 countCheck19_X56s >= 20
+X56e - 68 countCheck19_X56e <= 18
+-2 count19_X56 + countCheck19_X56s  + countCheck19_X56e  <= 1
+
+X57s + 68 countCheck19_X57s >= 20
+X57e - 68 countCheck19_X57e <= 18
+-2 count19_X57 + countCheck19_X57s  + countCheck19_X57e  <= 1
+
+X58s + 68 countCheck19_X58s >= 20
+X58e - 68 countCheck19_X58e <= 18
+-2 count19_X58 + countCheck19_X58s  + countCheck19_X58e  <= 1
+
+X59s + 68 countCheck19_X59s >= 20
+X59e - 68 countCheck19_X59e <= 18
+-2 count19_X59 + countCheck19_X59s  + countCheck19_X59e  <= 1
+
+X60s + 68 countCheck19_X60s >= 20
+X60e - 68 countCheck19_X60e <= 18
+-2 count19_X60 + countCheck19_X60s  + countCheck19_X60e  <= 1
+
+X61s + 68 countCheck19_X61s >= 20
+X61e - 68 countCheck19_X61e <= 18
+-2 count19_X61 + countCheck19_X61s  + countCheck19_X61e  <= 1
+
+X62s + 68 countCheck19_X62s >= 20
+X62e - 68 countCheck19_X62e <= 18
+-2 count19_X62 + countCheck19_X62s  + countCheck19_X62e  <= 1
+
+X63s + 68 countCheck19_X63s >= 20
+X63e - 68 countCheck19_X63e <= 18
+-2 count19_X63 + countCheck19_X63s  + countCheck19_X63e  <= 1
+
+X64s + 68 countCheck19_X64s >= 20
+X64e - 68 countCheck19_X64e <= 18
+-2 count19_X64 + countCheck19_X64s  + countCheck19_X64e  <= 1
+
+X65s + 68 countCheck19_X65s >= 20
+X65e - 68 countCheck19_X65e <= 18
+-2 count19_X65 + countCheck19_X65s  + countCheck19_X65e  <= 1
+
+X66s + 68 countCheck19_X66s >= 20
+X66e - 68 countCheck19_X66e <= 18
+-2 count19_X66 + countCheck19_X66s  + countCheck19_X66e  <= 1
+
+X67s + 68 countCheck19_X67s >= 20
+X67e - 68 countCheck19_X67e <= 18
+-2 count19_X67 + countCheck19_X67s  + countCheck19_X67e  <= 1
+
+count19_X0 + count19_X1 + count19_X2 + count19_X3 + count19_X4 + count19_X5 + count19_X6 + count19_X7 + count19_X8 + count19_X9 + count19_X10 + count19_X11 + count19_X12 + count19_X13 + count19_X14 + count19_X15 + count19_X16 + count19_X17 + count19_X18 + count19_X19 + count19_X20 + count19_X21 + count19_X22 + count19_X23 + count19_X24 + count19_X25 + count19_X26 + count19_X27 + count19_X28 + count19_X29 + count19_X30 + count19_X31 + count19_X32 + count19_X33 + count19_X34 + count19_X35 + count19_X36 + count19_X37 + count19_X38 + count19_X39 + count19_X40 + count19_X41 + count19_X42 + count19_X43 + count19_X44 + count19_X45 + count19_X46 + count19_X47 + count19_X48 + count19_X49 + count19_X50 + count19_X51 + count19_X52 + count19_X53 + count19_X54 + count19_X55 + count19_X56 + count19_X57 + count19_X58 + count19_X59 + count19_X60 + count19_X61 + count19_X62 + count19_X63 + count19_X64 + count19_X65 + count19_X66 + count19_X67 - pathWidth <= 1
+X0s + 68 countCheck20_X0s >= 21
+X0e - 68 countCheck20_X0e <= 19
+-2 count20_X0 + countCheck20_X0s  + countCheck20_X0e  <= 1
+
+X1s + 68 countCheck20_X1s >= 21
+X1e - 68 countCheck20_X1e <= 19
+-2 count20_X1 + countCheck20_X1s  + countCheck20_X1e  <= 1
+
+X2s + 68 countCheck20_X2s >= 21
+X2e - 68 countCheck20_X2e <= 19
+-2 count20_X2 + countCheck20_X2s  + countCheck20_X2e  <= 1
+
+X3s + 68 countCheck20_X3s >= 21
+X3e - 68 countCheck20_X3e <= 19
+-2 count20_X3 + countCheck20_X3s  + countCheck20_X3e  <= 1
+
+X4s + 68 countCheck20_X4s >= 21
+X4e - 68 countCheck20_X4e <= 19
+-2 count20_X4 + countCheck20_X4s  + countCheck20_X4e  <= 1
+
+X5s + 68 countCheck20_X5s >= 21
+X5e - 68 countCheck20_X5e <= 19
+-2 count20_X5 + countCheck20_X5s  + countCheck20_X5e  <= 1
+
+X6s + 68 countCheck20_X6s >= 21
+X6e - 68 countCheck20_X6e <= 19
+-2 count20_X6 + countCheck20_X6s  + countCheck20_X6e  <= 1
+
+X7s + 68 countCheck20_X7s >= 21
+X7e - 68 countCheck20_X7e <= 19
+-2 count20_X7 + countCheck20_X7s  + countCheck20_X7e  <= 1
+
+X8s + 68 countCheck20_X8s >= 21
+X8e - 68 countCheck20_X8e <= 19
+-2 count20_X8 + countCheck20_X8s  + countCheck20_X8e  <= 1
+
+X9s + 68 countCheck20_X9s >= 21
+X9e - 68 countCheck20_X9e <= 19
+-2 count20_X9 + countCheck20_X9s  + countCheck20_X9e  <= 1
+
+X10s + 68 countCheck20_X10s >= 21
+X10e - 68 countCheck20_X10e <= 19
+-2 count20_X10 + countCheck20_X10s  + countCheck20_X10e  <= 1
+
+X11s + 68 countCheck20_X11s >= 21
+X11e - 68 countCheck20_X11e <= 19
+-2 count20_X11 + countCheck20_X11s  + countCheck20_X11e  <= 1
+
+X12s + 68 countCheck20_X12s >= 21
+X12e - 68 countCheck20_X12e <= 19
+-2 count20_X12 + countCheck20_X12s  + countCheck20_X12e  <= 1
+
+X13s + 68 countCheck20_X13s >= 21
+X13e - 68 countCheck20_X13e <= 19
+-2 count20_X13 + countCheck20_X13s  + countCheck20_X13e  <= 1
+
+X14s + 68 countCheck20_X14s >= 21
+X14e - 68 countCheck20_X14e <= 19
+-2 count20_X14 + countCheck20_X14s  + countCheck20_X14e  <= 1
+
+X15s + 68 countCheck20_X15s >= 21
+X15e - 68 countCheck20_X15e <= 19
+-2 count20_X15 + countCheck20_X15s  + countCheck20_X15e  <= 1
+
+X16s + 68 countCheck20_X16s >= 21
+X16e - 68 countCheck20_X16e <= 19
+-2 count20_X16 + countCheck20_X16s  + countCheck20_X16e  <= 1
+
+X17s + 68 countCheck20_X17s >= 21
+X17e - 68 countCheck20_X17e <= 19
+-2 count20_X17 + countCheck20_X17s  + countCheck20_X17e  <= 1
+
+X18s + 68 countCheck20_X18s >= 21
+X18e - 68 countCheck20_X18e <= 19
+-2 count20_X18 + countCheck20_X18s  + countCheck20_X18e  <= 1
+
+X19s + 68 countCheck20_X19s >= 21
+X19e - 68 countCheck20_X19e <= 19
+-2 count20_X19 + countCheck20_X19s  + countCheck20_X19e  <= 1
+
+X20s + 68 countCheck20_X20s >= 21
+X20e - 68 countCheck20_X20e <= 19
+-2 count20_X20 + countCheck20_X20s  + countCheck20_X20e  <= 1
+
+X21s + 68 countCheck20_X21s >= 21
+X21e - 68 countCheck20_X21e <= 19
+-2 count20_X21 + countCheck20_X21s  + countCheck20_X21e  <= 1
+
+X22s + 68 countCheck20_X22s >= 21
+X22e - 68 countCheck20_X22e <= 19
+-2 count20_X22 + countCheck20_X22s  + countCheck20_X22e  <= 1
+
+X23s + 68 countCheck20_X23s >= 21
+X23e - 68 countCheck20_X23e <= 19
+-2 count20_X23 + countCheck20_X23s  + countCheck20_X23e  <= 1
+
+X24s + 68 countCheck20_X24s >= 21
+X24e - 68 countCheck20_X24e <= 19
+-2 count20_X24 + countCheck20_X24s  + countCheck20_X24e  <= 1
+
+X25s + 68 countCheck20_X25s >= 21
+X25e - 68 countCheck20_X25e <= 19
+-2 count20_X25 + countCheck20_X25s  + countCheck20_X25e  <= 1
+
+X26s + 68 countCheck20_X26s >= 21
+X26e - 68 countCheck20_X26e <= 19
+-2 count20_X26 + countCheck20_X26s  + countCheck20_X26e  <= 1
+
+X27s + 68 countCheck20_X27s >= 21
+X27e - 68 countCheck20_X27e <= 19
+-2 count20_X27 + countCheck20_X27s  + countCheck20_X27e  <= 1
+
+X28s + 68 countCheck20_X28s >= 21
+X28e - 68 countCheck20_X28e <= 19
+-2 count20_X28 + countCheck20_X28s  + countCheck20_X28e  <= 1
+
+X29s + 68 countCheck20_X29s >= 21
+X29e - 68 countCheck20_X29e <= 19
+-2 count20_X29 + countCheck20_X29s  + countCheck20_X29e  <= 1
+
+X30s + 68 countCheck20_X30s >= 21
+X30e - 68 countCheck20_X30e <= 19
+-2 count20_X30 + countCheck20_X30s  + countCheck20_X30e  <= 1
+
+X31s + 68 countCheck20_X31s >= 21
+X31e - 68 countCheck20_X31e <= 19
+-2 count20_X31 + countCheck20_X31s  + countCheck20_X31e  <= 1
+
+X32s + 68 countCheck20_X32s >= 21
+X32e - 68 countCheck20_X32e <= 19
+-2 count20_X32 + countCheck20_X32s  + countCheck20_X32e  <= 1
+
+X33s + 68 countCheck20_X33s >= 21
+X33e - 68 countCheck20_X33e <= 19
+-2 count20_X33 + countCheck20_X33s  + countCheck20_X33e  <= 1
+
+X34s + 68 countCheck20_X34s >= 21
+X34e - 68 countCheck20_X34e <= 19
+-2 count20_X34 + countCheck20_X34s  + countCheck20_X34e  <= 1
+
+X35s + 68 countCheck20_X35s >= 21
+X35e - 68 countCheck20_X35e <= 19
+-2 count20_X35 + countCheck20_X35s  + countCheck20_X35e  <= 1
+
+X36s + 68 countCheck20_X36s >= 21
+X36e - 68 countCheck20_X36e <= 19
+-2 count20_X36 + countCheck20_X36s  + countCheck20_X36e  <= 1
+
+X37s + 68 countCheck20_X37s >= 21
+X37e - 68 countCheck20_X37e <= 19
+-2 count20_X37 + countCheck20_X37s  + countCheck20_X37e  <= 1
+
+X38s + 68 countCheck20_X38s >= 21
+X38e - 68 countCheck20_X38e <= 19
+-2 count20_X38 + countCheck20_X38s  + countCheck20_X38e  <= 1
+
+X39s + 68 countCheck20_X39s >= 21
+X39e - 68 countCheck20_X39e <= 19
+-2 count20_X39 + countCheck20_X39s  + countCheck20_X39e  <= 1
+
+X40s + 68 countCheck20_X40s >= 21
+X40e - 68 countCheck20_X40e <= 19
+-2 count20_X40 + countCheck20_X40s  + countCheck20_X40e  <= 1
+
+X41s + 68 countCheck20_X41s >= 21
+X41e - 68 countCheck20_X41e <= 19
+-2 count20_X41 + countCheck20_X41s  + countCheck20_X41e  <= 1
+
+X42s + 68 countCheck20_X42s >= 21
+X42e - 68 countCheck20_X42e <= 19
+-2 count20_X42 + countCheck20_X42s  + countCheck20_X42e  <= 1
+
+X43s + 68 countCheck20_X43s >= 21
+X43e - 68 countCheck20_X43e <= 19
+-2 count20_X43 + countCheck20_X43s  + countCheck20_X43e  <= 1
+
+X44s + 68 countCheck20_X44s >= 21
+X44e - 68 countCheck20_X44e <= 19
+-2 count20_X44 + countCheck20_X44s  + countCheck20_X44e  <= 1
+
+X45s + 68 countCheck20_X45s >= 21
+X45e - 68 countCheck20_X45e <= 19
+-2 count20_X45 + countCheck20_X45s  + countCheck20_X45e  <= 1
+
+X46s + 68 countCheck20_X46s >= 21
+X46e - 68 countCheck20_X46e <= 19
+-2 count20_X46 + countCheck20_X46s  + countCheck20_X46e  <= 1
+
+X47s + 68 countCheck20_X47s >= 21
+X47e - 68 countCheck20_X47e <= 19
+-2 count20_X47 + countCheck20_X47s  + countCheck20_X47e  <= 1
+
+X48s + 68 countCheck20_X48s >= 21
+X48e - 68 countCheck20_X48e <= 19
+-2 count20_X48 + countCheck20_X48s  + countCheck20_X48e  <= 1
+
+X49s + 68 countCheck20_X49s >= 21
+X49e - 68 countCheck20_X49e <= 19
+-2 count20_X49 + countCheck20_X49s  + countCheck20_X49e  <= 1
+
+X50s + 68 countCheck20_X50s >= 21
+X50e - 68 countCheck20_X50e <= 19
+-2 count20_X50 + countCheck20_X50s  + countCheck20_X50e  <= 1
+
+X51s + 68 countCheck20_X51s >= 21
+X51e - 68 countCheck20_X51e <= 19
+-2 count20_X51 + countCheck20_X51s  + countCheck20_X51e  <= 1
+
+X52s + 68 countCheck20_X52s >= 21
+X52e - 68 countCheck20_X52e <= 19
+-2 count20_X52 + countCheck20_X52s  + countCheck20_X52e  <= 1
+
+X53s + 68 countCheck20_X53s >= 21
+X53e - 68 countCheck20_X53e <= 19
+-2 count20_X53 + countCheck20_X53s  + countCheck20_X53e  <= 1
+
+X54s + 68 countCheck20_X54s >= 21
+X54e - 68 countCheck20_X54e <= 19
+-2 count20_X54 + countCheck20_X54s  + countCheck20_X54e  <= 1
+
+X55s + 68 countCheck20_X55s >= 21
+X55e - 68 countCheck20_X55e <= 19
+-2 count20_X55 + countCheck20_X55s  + countCheck20_X55e  <= 1
+
+X56s + 68 countCheck20_X56s >= 21
+X56e - 68 countCheck20_X56e <= 19
+-2 count20_X56 + countCheck20_X56s  + countCheck20_X56e  <= 1
+
+X57s + 68 countCheck20_X57s >= 21
+X57e - 68 countCheck20_X57e <= 19
+-2 count20_X57 + countCheck20_X57s  + countCheck20_X57e  <= 1
+
+X58s + 68 countCheck20_X58s >= 21
+X58e - 68 countCheck20_X58e <= 19
+-2 count20_X58 + countCheck20_X58s  + countCheck20_X58e  <= 1
+
+X59s + 68 countCheck20_X59s >= 21
+X59e - 68 countCheck20_X59e <= 19
+-2 count20_X59 + countCheck20_X59s  + countCheck20_X59e  <= 1
+
+X60s + 68 countCheck20_X60s >= 21
+X60e - 68 countCheck20_X60e <= 19
+-2 count20_X60 + countCheck20_X60s  + countCheck20_X60e  <= 1
+
+X61s + 68 countCheck20_X61s >= 21
+X61e - 68 countCheck20_X61e <= 19
+-2 count20_X61 + countCheck20_X61s  + countCheck20_X61e  <= 1
+
+X62s + 68 countCheck20_X62s >= 21
+X62e - 68 countCheck20_X62e <= 19
+-2 count20_X62 + countCheck20_X62s  + countCheck20_X62e  <= 1
+
+X63s + 68 countCheck20_X63s >= 21
+X63e - 68 countCheck20_X63e <= 19
+-2 count20_X63 + countCheck20_X63s  + countCheck20_X63e  <= 1
+
+X64s + 68 countCheck20_X64s >= 21
+X64e - 68 countCheck20_X64e <= 19
+-2 count20_X64 + countCheck20_X64s  + countCheck20_X64e  <= 1
+
+X65s + 68 countCheck20_X65s >= 21
+X65e - 68 countCheck20_X65e <= 19
+-2 count20_X65 + countCheck20_X65s  + countCheck20_X65e  <= 1
+
+X66s + 68 countCheck20_X66s >= 21
+X66e - 68 countCheck20_X66e <= 19
+-2 count20_X66 + countCheck20_X66s  + countCheck20_X66e  <= 1
+
+X67s + 68 countCheck20_X67s >= 21
+X67e - 68 countCheck20_X67e <= 19
+-2 count20_X67 + countCheck20_X67s  + countCheck20_X67e  <= 1
+
+count20_X0 + count20_X1 + count20_X2 + count20_X3 + count20_X4 + count20_X5 + count20_X6 + count20_X7 + count20_X8 + count20_X9 + count20_X10 + count20_X11 + count20_X12 + count20_X13 + count20_X14 + count20_X15 + count20_X16 + count20_X17 + count20_X18 + count20_X19 + count20_X20 + count20_X21 + count20_X22 + count20_X23 + count20_X24 + count20_X25 + count20_X26 + count20_X27 + count20_X28 + count20_X29 + count20_X30 + count20_X31 + count20_X32 + count20_X33 + count20_X34 + count20_X35 + count20_X36 + count20_X37 + count20_X38 + count20_X39 + count20_X40 + count20_X41 + count20_X42 + count20_X43 + count20_X44 + count20_X45 + count20_X46 + count20_X47 + count20_X48 + count20_X49 + count20_X50 + count20_X51 + count20_X52 + count20_X53 + count20_X54 + count20_X55 + count20_X56 + count20_X57 + count20_X58 + count20_X59 + count20_X60 + count20_X61 + count20_X62 + count20_X63 + count20_X64 + count20_X65 + count20_X66 + count20_X67 - pathWidth <= 1
+X0s + 68 countCheck21_X0s >= 22
+X0e - 68 countCheck21_X0e <= 20
+-2 count21_X0 + countCheck21_X0s  + countCheck21_X0e  <= 1
+
+X1s + 68 countCheck21_X1s >= 22
+X1e - 68 countCheck21_X1e <= 20
+-2 count21_X1 + countCheck21_X1s  + countCheck21_X1e  <= 1
+
+X2s + 68 countCheck21_X2s >= 22
+X2e - 68 countCheck21_X2e <= 20
+-2 count21_X2 + countCheck21_X2s  + countCheck21_X2e  <= 1
+
+X3s + 68 countCheck21_X3s >= 22
+X3e - 68 countCheck21_X3e <= 20
+-2 count21_X3 + countCheck21_X3s  + countCheck21_X3e  <= 1
+
+X4s + 68 countCheck21_X4s >= 22
+X4e - 68 countCheck21_X4e <= 20
+-2 count21_X4 + countCheck21_X4s  + countCheck21_X4e  <= 1
+
+X5s + 68 countCheck21_X5s >= 22
+X5e - 68 countCheck21_X5e <= 20
+-2 count21_X5 + countCheck21_X5s  + countCheck21_X5e  <= 1
+
+X6s + 68 countCheck21_X6s >= 22
+X6e - 68 countCheck21_X6e <= 20
+-2 count21_X6 + countCheck21_X6s  + countCheck21_X6e  <= 1
+
+X7s + 68 countCheck21_X7s >= 22
+X7e - 68 countCheck21_X7e <= 20
+-2 count21_X7 + countCheck21_X7s  + countCheck21_X7e  <= 1
+
+X8s + 68 countCheck21_X8s >= 22
+X8e - 68 countCheck21_X8e <= 20
+-2 count21_X8 + countCheck21_X8s  + countCheck21_X8e  <= 1
+
+X9s + 68 countCheck21_X9s >= 22
+X9e - 68 countCheck21_X9e <= 20
+-2 count21_X9 + countCheck21_X9s  + countCheck21_X9e  <= 1
+
+X10s + 68 countCheck21_X10s >= 22
+X10e - 68 countCheck21_X10e <= 20
+-2 count21_X10 + countCheck21_X10s  + countCheck21_X10e  <= 1
+
+X11s + 68 countCheck21_X11s >= 22
+X11e - 68 countCheck21_X11e <= 20
+-2 count21_X11 + countCheck21_X11s  + countCheck21_X11e  <= 1
+
+X12s + 68 countCheck21_X12s >= 22
+X12e - 68 countCheck21_X12e <= 20
+-2 count21_X12 + countCheck21_X12s  + countCheck21_X12e  <= 1
+
+X13s + 68 countCheck21_X13s >= 22
+X13e - 68 countCheck21_X13e <= 20
+-2 count21_X13 + countCheck21_X13s  + countCheck21_X13e  <= 1
+
+X14s + 68 countCheck21_X14s >= 22
+X14e - 68 countCheck21_X14e <= 20
+-2 count21_X14 + countCheck21_X14s  + countCheck21_X14e  <= 1
+
+X15s + 68 countCheck21_X15s >= 22
+X15e - 68 countCheck21_X15e <= 20
+-2 count21_X15 + countCheck21_X15s  + countCheck21_X15e  <= 1
+
+X16s + 68 countCheck21_X16s >= 22
+X16e - 68 countCheck21_X16e <= 20
+-2 count21_X16 + countCheck21_X16s  + countCheck21_X16e  <= 1
+
+X17s + 68 countCheck21_X17s >= 22
+X17e - 68 countCheck21_X17e <= 20
+-2 count21_X17 + countCheck21_X17s  + countCheck21_X17e  <= 1
+
+X18s + 68 countCheck21_X18s >= 22
+X18e - 68 countCheck21_X18e <= 20
+-2 count21_X18 + countCheck21_X18s  + countCheck21_X18e  <= 1
+
+X19s + 68 countCheck21_X19s >= 22
+X19e - 68 countCheck21_X19e <= 20
+-2 count21_X19 + countCheck21_X19s  + countCheck21_X19e  <= 1
+
+X20s + 68 countCheck21_X20s >= 22
+X20e - 68 countCheck21_X20e <= 20
+-2 count21_X20 + countCheck21_X20s  + countCheck21_X20e  <= 1
+
+X21s + 68 countCheck21_X21s >= 22
+X21e - 68 countCheck21_X21e <= 20
+-2 count21_X21 + countCheck21_X21s  + countCheck21_X21e  <= 1
+
+X22s + 68 countCheck21_X22s >= 22
+X22e - 68 countCheck21_X22e <= 20
+-2 count21_X22 + countCheck21_X22s  + countCheck21_X22e  <= 1
+
+X23s + 68 countCheck21_X23s >= 22
+X23e - 68 countCheck21_X23e <= 20
+-2 count21_X23 + countCheck21_X23s  + countCheck21_X23e  <= 1
+
+X24s + 68 countCheck21_X24s >= 22
+X24e - 68 countCheck21_X24e <= 20
+-2 count21_X24 + countCheck21_X24s  + countCheck21_X24e  <= 1
+
+X25s + 68 countCheck21_X25s >= 22
+X25e - 68 countCheck21_X25e <= 20
+-2 count21_X25 + countCheck21_X25s  + countCheck21_X25e  <= 1
+
+X26s + 68 countCheck21_X26s >= 22
+X26e - 68 countCheck21_X26e <= 20
+-2 count21_X26 + countCheck21_X26s  + countCheck21_X26e  <= 1
+
+X27s + 68 countCheck21_X27s >= 22
+X27e - 68 countCheck21_X27e <= 20
+-2 count21_X27 + countCheck21_X27s  + countCheck21_X27e  <= 1
+
+X28s + 68 countCheck21_X28s >= 22
+X28e - 68 countCheck21_X28e <= 20
+-2 count21_X28 + countCheck21_X28s  + countCheck21_X28e  <= 1
+
+X29s + 68 countCheck21_X29s >= 22
+X29e - 68 countCheck21_X29e <= 20
+-2 count21_X29 + countCheck21_X29s  + countCheck21_X29e  <= 1
+
+X30s + 68 countCheck21_X30s >= 22
+X30e - 68 countCheck21_X30e <= 20
+-2 count21_X30 + countCheck21_X30s  + countCheck21_X30e  <= 1
+
+X31s + 68 countCheck21_X31s >= 22
+X31e - 68 countCheck21_X31e <= 20
+-2 count21_X31 + countCheck21_X31s  + countCheck21_X31e  <= 1
+
+X32s + 68 countCheck21_X32s >= 22
+X32e - 68 countCheck21_X32e <= 20
+-2 count21_X32 + countCheck21_X32s  + countCheck21_X32e  <= 1
+
+X33s + 68 countCheck21_X33s >= 22
+X33e - 68 countCheck21_X33e <= 20
+-2 count21_X33 + countCheck21_X33s  + countCheck21_X33e  <= 1
+
+X34s + 68 countCheck21_X34s >= 22
+X34e - 68 countCheck21_X34e <= 20
+-2 count21_X34 + countCheck21_X34s  + countCheck21_X34e  <= 1
+
+X35s + 68 countCheck21_X35s >= 22
+X35e - 68 countCheck21_X35e <= 20
+-2 count21_X35 + countCheck21_X35s  + countCheck21_X35e  <= 1
+
+X36s + 68 countCheck21_X36s >= 22
+X36e - 68 countCheck21_X36e <= 20
+-2 count21_X36 + countCheck21_X36s  + countCheck21_X36e  <= 1
+
+X37s + 68 countCheck21_X37s >= 22
+X37e - 68 countCheck21_X37e <= 20
+-2 count21_X37 + countCheck21_X37s  + countCheck21_X37e  <= 1
+
+X38s + 68 countCheck21_X38s >= 22
+X38e - 68 countCheck21_X38e <= 20
+-2 count21_X38 + countCheck21_X38s  + countCheck21_X38e  <= 1
+
+X39s + 68 countCheck21_X39s >= 22
+X39e - 68 countCheck21_X39e <= 20
+-2 count21_X39 + countCheck21_X39s  + countCheck21_X39e  <= 1
+
+X40s + 68 countCheck21_X40s >= 22
+X40e - 68 countCheck21_X40e <= 20
+-2 count21_X40 + countCheck21_X40s  + countCheck21_X40e  <= 1
+
+X41s + 68 countCheck21_X41s >= 22
+X41e - 68 countCheck21_X41e <= 20
+-2 count21_X41 + countCheck21_X41s  + countCheck21_X41e  <= 1
+
+X42s + 68 countCheck21_X42s >= 22
+X42e - 68 countCheck21_X42e <= 20
+-2 count21_X42 + countCheck21_X42s  + countCheck21_X42e  <= 1
+
+X43s + 68 countCheck21_X43s >= 22
+X43e - 68 countCheck21_X43e <= 20
+-2 count21_X43 + countCheck21_X43s  + countCheck21_X43e  <= 1
+
+X44s + 68 countCheck21_X44s >= 22
+X44e - 68 countCheck21_X44e <= 20
+-2 count21_X44 + countCheck21_X44s  + countCheck21_X44e  <= 1
+
+X45s + 68 countCheck21_X45s >= 22
+X45e - 68 countCheck21_X45e <= 20
+-2 count21_X45 + countCheck21_X45s  + countCheck21_X45e  <= 1
+
+X46s + 68 countCheck21_X46s >= 22
+X46e - 68 countCheck21_X46e <= 20
+-2 count21_X46 + countCheck21_X46s  + countCheck21_X46e  <= 1
+
+X47s + 68 countCheck21_X47s >= 22
+X47e - 68 countCheck21_X47e <= 20
+-2 count21_X47 + countCheck21_X47s  + countCheck21_X47e  <= 1
+
+X48s + 68 countCheck21_X48s >= 22
+X48e - 68 countCheck21_X48e <= 20
+-2 count21_X48 + countCheck21_X48s  + countCheck21_X48e  <= 1
+
+X49s + 68 countCheck21_X49s >= 22
+X49e - 68 countCheck21_X49e <= 20
+-2 count21_X49 + countCheck21_X49s  + countCheck21_X49e  <= 1
+
+X50s + 68 countCheck21_X50s >= 22
+X50e - 68 countCheck21_X50e <= 20
+-2 count21_X50 + countCheck21_X50s  + countCheck21_X50e  <= 1
+
+X51s + 68 countCheck21_X51s >= 22
+X51e - 68 countCheck21_X51e <= 20
+-2 count21_X51 + countCheck21_X51s  + countCheck21_X51e  <= 1
+
+X52s + 68 countCheck21_X52s >= 22
+X52e - 68 countCheck21_X52e <= 20
+-2 count21_X52 + countCheck21_X52s  + countCheck21_X52e  <= 1
+
+X53s + 68 countCheck21_X53s >= 22
+X53e - 68 countCheck21_X53e <= 20
+-2 count21_X53 + countCheck21_X53s  + countCheck21_X53e  <= 1
+
+X54s + 68 countCheck21_X54s >= 22
+X54e - 68 countCheck21_X54e <= 20
+-2 count21_X54 + countCheck21_X54s  + countCheck21_X54e  <= 1
+
+X55s + 68 countCheck21_X55s >= 22
+X55e - 68 countCheck21_X55e <= 20
+-2 count21_X55 + countCheck21_X55s  + countCheck21_X55e  <= 1
+
+X56s + 68 countCheck21_X56s >= 22
+X56e - 68 countCheck21_X56e <= 20
+-2 count21_X56 + countCheck21_X56s  + countCheck21_X56e  <= 1
+
+X57s + 68 countCheck21_X57s >= 22
+X57e - 68 countCheck21_X57e <= 20
+-2 count21_X57 + countCheck21_X57s  + countCheck21_X57e  <= 1
+
+X58s + 68 countCheck21_X58s >= 22
+X58e - 68 countCheck21_X58e <= 20
+-2 count21_X58 + countCheck21_X58s  + countCheck21_X58e  <= 1
+
+X59s + 68 countCheck21_X59s >= 22
+X59e - 68 countCheck21_X59e <= 20
+-2 count21_X59 + countCheck21_X59s  + countCheck21_X59e  <= 1
+
+X60s + 68 countCheck21_X60s >= 22
+X60e - 68 countCheck21_X60e <= 20
+-2 count21_X60 + countCheck21_X60s  + countCheck21_X60e  <= 1
+
+X61s + 68 countCheck21_X61s >= 22
+X61e - 68 countCheck21_X61e <= 20
+-2 count21_X61 + countCheck21_X61s  + countCheck21_X61e  <= 1
+
+X62s + 68 countCheck21_X62s >= 22
+X62e - 68 countCheck21_X62e <= 20
+-2 count21_X62 + countCheck21_X62s  + countCheck21_X62e  <= 1
+
+X63s + 68 countCheck21_X63s >= 22
+X63e - 68 countCheck21_X63e <= 20
+-2 count21_X63 + countCheck21_X63s  + countCheck21_X63e  <= 1
+
+X64s + 68 countCheck21_X64s >= 22
+X64e - 68 countCheck21_X64e <= 20
+-2 count21_X64 + countCheck21_X64s  + countCheck21_X64e  <= 1
+
+X65s + 68 countCheck21_X65s >= 22
+X65e - 68 countCheck21_X65e <= 20
+-2 count21_X65 + countCheck21_X65s  + countCheck21_X65e  <= 1
+
+X66s + 68 countCheck21_X66s >= 22
+X66e - 68 countCheck21_X66e <= 20
+-2 count21_X66 + countCheck21_X66s  + countCheck21_X66e  <= 1
+
+X67s + 68 countCheck21_X67s >= 22
+X67e - 68 countCheck21_X67e <= 20
+-2 count21_X67 + countCheck21_X67s  + countCheck21_X67e  <= 1
+
+count21_X0 + count21_X1 + count21_X2 + count21_X3 + count21_X4 + count21_X5 + count21_X6 + count21_X7 + count21_X8 + count21_X9 + count21_X10 + count21_X11 + count21_X12 + count21_X13 + count21_X14 + count21_X15 + count21_X16 + count21_X17 + count21_X18 + count21_X19 + count21_X20 + count21_X21 + count21_X22 + count21_X23 + count21_X24 + count21_X25 + count21_X26 + count21_X27 + count21_X28 + count21_X29 + count21_X30 + count21_X31 + count21_X32 + count21_X33 + count21_X34 + count21_X35 + count21_X36 + count21_X37 + count21_X38 + count21_X39 + count21_X40 + count21_X41 + count21_X42 + count21_X43 + count21_X44 + count21_X45 + count21_X46 + count21_X47 + count21_X48 + count21_X49 + count21_X50 + count21_X51 + count21_X52 + count21_X53 + count21_X54 + count21_X55 + count21_X56 + count21_X57 + count21_X58 + count21_X59 + count21_X60 + count21_X61 + count21_X62 + count21_X63 + count21_X64 + count21_X65 + count21_X66 + count21_X67 - pathWidth <= 1
+X0s + 68 countCheck22_X0s >= 23
+X0e - 68 countCheck22_X0e <= 21
+-2 count22_X0 + countCheck22_X0s  + countCheck22_X0e  <= 1
+
+X1s + 68 countCheck22_X1s >= 23
+X1e - 68 countCheck22_X1e <= 21
+-2 count22_X1 + countCheck22_X1s  + countCheck22_X1e  <= 1
+
+X2s + 68 countCheck22_X2s >= 23
+X2e - 68 countCheck22_X2e <= 21
+-2 count22_X2 + countCheck22_X2s  + countCheck22_X2e  <= 1
+
+X3s + 68 countCheck22_X3s >= 23
+X3e - 68 countCheck22_X3e <= 21
+-2 count22_X3 + countCheck22_X3s  + countCheck22_X3e  <= 1
+
+X4s + 68 countCheck22_X4s >= 23
+X4e - 68 countCheck22_X4e <= 21
+-2 count22_X4 + countCheck22_X4s  + countCheck22_X4e  <= 1
+
+X5s + 68 countCheck22_X5s >= 23
+X5e - 68 countCheck22_X5e <= 21
+-2 count22_X5 + countCheck22_X5s  + countCheck22_X5e  <= 1
+
+X6s + 68 countCheck22_X6s >= 23
+X6e - 68 countCheck22_X6e <= 21
+-2 count22_X6 + countCheck22_X6s  + countCheck22_X6e  <= 1
+
+X7s + 68 countCheck22_X7s >= 23
+X7e - 68 countCheck22_X7e <= 21
+-2 count22_X7 + countCheck22_X7s  + countCheck22_X7e  <= 1
+
+X8s + 68 countCheck22_X8s >= 23
+X8e - 68 countCheck22_X8e <= 21
+-2 count22_X8 + countCheck22_X8s  + countCheck22_X8e  <= 1
+
+X9s + 68 countCheck22_X9s >= 23
+X9e - 68 countCheck22_X9e <= 21
+-2 count22_X9 + countCheck22_X9s  + countCheck22_X9e  <= 1
+
+X10s + 68 countCheck22_X10s >= 23
+X10e - 68 countCheck22_X10e <= 21
+-2 count22_X10 + countCheck22_X10s  + countCheck22_X10e  <= 1
+
+X11s + 68 countCheck22_X11s >= 23
+X11e - 68 countCheck22_X11e <= 21
+-2 count22_X11 + countCheck22_X11s  + countCheck22_X11e  <= 1
+
+X12s + 68 countCheck22_X12s >= 23
+X12e - 68 countCheck22_X12e <= 21
+-2 count22_X12 + countCheck22_X12s  + countCheck22_X12e  <= 1
+
+X13s + 68 countCheck22_X13s >= 23
+X13e - 68 countCheck22_X13e <= 21
+-2 count22_X13 + countCheck22_X13s  + countCheck22_X13e  <= 1
+
+X14s + 68 countCheck22_X14s >= 23
+X14e - 68 countCheck22_X14e <= 21
+-2 count22_X14 + countCheck22_X14s  + countCheck22_X14e  <= 1
+
+X15s + 68 countCheck22_X15s >= 23
+X15e - 68 countCheck22_X15e <= 21
+-2 count22_X15 + countCheck22_X15s  + countCheck22_X15e  <= 1
+
+X16s + 68 countCheck22_X16s >= 23
+X16e - 68 countCheck22_X16e <= 21
+-2 count22_X16 + countCheck22_X16s  + countCheck22_X16e  <= 1
+
+X17s + 68 countCheck22_X17s >= 23
+X17e - 68 countCheck22_X17e <= 21
+-2 count22_X17 + countCheck22_X17s  + countCheck22_X17e  <= 1
+
+X18s + 68 countCheck22_X18s >= 23
+X18e - 68 countCheck22_X18e <= 21
+-2 count22_X18 + countCheck22_X18s  + countCheck22_X18e  <= 1
+
+X19s + 68 countCheck22_X19s >= 23
+X19e - 68 countCheck22_X19e <= 21
+-2 count22_X19 + countCheck22_X19s  + countCheck22_X19e  <= 1
+
+X20s + 68 countCheck22_X20s >= 23
+X20e - 68 countCheck22_X20e <= 21
+-2 count22_X20 + countCheck22_X20s  + countCheck22_X20e  <= 1
+
+X21s + 68 countCheck22_X21s >= 23
+X21e - 68 countCheck22_X21e <= 21
+-2 count22_X21 + countCheck22_X21s  + countCheck22_X21e  <= 1
+
+X22s + 68 countCheck22_X22s >= 23
+X22e - 68 countCheck22_X22e <= 21
+-2 count22_X22 + countCheck22_X22s  + countCheck22_X22e  <= 1
+
+X23s + 68 countCheck22_X23s >= 23
+X23e - 68 countCheck22_X23e <= 21
+-2 count22_X23 + countCheck22_X23s  + countCheck22_X23e  <= 1
+
+X24s + 68 countCheck22_X24s >= 23
+X24e - 68 countCheck22_X24e <= 21
+-2 count22_X24 + countCheck22_X24s  + countCheck22_X24e  <= 1
+
+X25s + 68 countCheck22_X25s >= 23
+X25e - 68 countCheck22_X25e <= 21
+-2 count22_X25 + countCheck22_X25s  + countCheck22_X25e  <= 1
+
+X26s + 68 countCheck22_X26s >= 23
+X26e - 68 countCheck22_X26e <= 21
+-2 count22_X26 + countCheck22_X26s  + countCheck22_X26e  <= 1
+
+X27s + 68 countCheck22_X27s >= 23
+X27e - 68 countCheck22_X27e <= 21
+-2 count22_X27 + countCheck22_X27s  + countCheck22_X27e  <= 1
+
+X28s + 68 countCheck22_X28s >= 23
+X28e - 68 countCheck22_X28e <= 21
+-2 count22_X28 + countCheck22_X28s  + countCheck22_X28e  <= 1
+
+X29s + 68 countCheck22_X29s >= 23
+X29e - 68 countCheck22_X29e <= 21
+-2 count22_X29 + countCheck22_X29s  + countCheck22_X29e  <= 1
+
+X30s + 68 countCheck22_X30s >= 23
+X30e - 68 countCheck22_X30e <= 21
+-2 count22_X30 + countCheck22_X30s  + countCheck22_X30e  <= 1
+
+X31s + 68 countCheck22_X31s >= 23
+X31e - 68 countCheck22_X31e <= 21
+-2 count22_X31 + countCheck22_X31s  + countCheck22_X31e  <= 1
+
+X32s + 68 countCheck22_X32s >= 23
+X32e - 68 countCheck22_X32e <= 21
+-2 count22_X32 + countCheck22_X32s  + countCheck22_X32e  <= 1
+
+X33s + 68 countCheck22_X33s >= 23
+X33e - 68 countCheck22_X33e <= 21
+-2 count22_X33 + countCheck22_X33s  + countCheck22_X33e  <= 1
+
+X34s + 68 countCheck22_X34s >= 23
+X34e - 68 countCheck22_X34e <= 21
+-2 count22_X34 + countCheck22_X34s  + countCheck22_X34e  <= 1
+
+X35s + 68 countCheck22_X35s >= 23
+X35e - 68 countCheck22_X35e <= 21
+-2 count22_X35 + countCheck22_X35s  + countCheck22_X35e  <= 1
+
+X36s + 68 countCheck22_X36s >= 23
+X36e - 68 countCheck22_X36e <= 21
+-2 count22_X36 + countCheck22_X36s  + countCheck22_X36e  <= 1
+
+X37s + 68 countCheck22_X37s >= 23
+X37e - 68 countCheck22_X37e <= 21
+-2 count22_X37 + countCheck22_X37s  + countCheck22_X37e  <= 1
+
+X38s + 68 countCheck22_X38s >= 23
+X38e - 68 countCheck22_X38e <= 21
+-2 count22_X38 + countCheck22_X38s  + countCheck22_X38e  <= 1
+
+X39s + 68 countCheck22_X39s >= 23
+X39e - 68 countCheck22_X39e <= 21
+-2 count22_X39 + countCheck22_X39s  + countCheck22_X39e  <= 1
+
+X40s + 68 countCheck22_X40s >= 23
+X40e - 68 countCheck22_X40e <= 21
+-2 count22_X40 + countCheck22_X40s  + countCheck22_X40e  <= 1
+
+X41s + 68 countCheck22_X41s >= 23
+X41e - 68 countCheck22_X41e <= 21
+-2 count22_X41 + countCheck22_X41s  + countCheck22_X41e  <= 1
+
+X42s + 68 countCheck22_X42s >= 23
+X42e - 68 countCheck22_X42e <= 21
+-2 count22_X42 + countCheck22_X42s  + countCheck22_X42e  <= 1
+
+X43s + 68 countCheck22_X43s >= 23
+X43e - 68 countCheck22_X43e <= 21
+-2 count22_X43 + countCheck22_X43s  + countCheck22_X43e  <= 1
+
+X44s + 68 countCheck22_X44s >= 23
+X44e - 68 countCheck22_X44e <= 21
+-2 count22_X44 + countCheck22_X44s  + countCheck22_X44e  <= 1
+
+X45s + 68 countCheck22_X45s >= 23
+X45e - 68 countCheck22_X45e <= 21
+-2 count22_X45 + countCheck22_X45s  + countCheck22_X45e  <= 1
+
+X46s + 68 countCheck22_X46s >= 23
+X46e - 68 countCheck22_X46e <= 21
+-2 count22_X46 + countCheck22_X46s  + countCheck22_X46e  <= 1
+
+X47s + 68 countCheck22_X47s >= 23
+X47e - 68 countCheck22_X47e <= 21
+-2 count22_X47 + countCheck22_X47s  + countCheck22_X47e  <= 1
+
+X48s + 68 countCheck22_X48s >= 23
+X48e - 68 countCheck22_X48e <= 21
+-2 count22_X48 + countCheck22_X48s  + countCheck22_X48e  <= 1
+
+X49s + 68 countCheck22_X49s >= 23
+X49e - 68 countCheck22_X49e <= 21
+-2 count22_X49 + countCheck22_X49s  + countCheck22_X49e  <= 1
+
+X50s + 68 countCheck22_X50s >= 23
+X50e - 68 countCheck22_X50e <= 21
+-2 count22_X50 + countCheck22_X50s  + countCheck22_X50e  <= 1
+
+X51s + 68 countCheck22_X51s >= 23
+X51e - 68 countCheck22_X51e <= 21
+-2 count22_X51 + countCheck22_X51s  + countCheck22_X51e  <= 1
+
+X52s + 68 countCheck22_X52s >= 23
+X52e - 68 countCheck22_X52e <= 21
+-2 count22_X52 + countCheck22_X52s  + countCheck22_X52e  <= 1
+
+X53s + 68 countCheck22_X53s >= 23
+X53e - 68 countCheck22_X53e <= 21
+-2 count22_X53 + countCheck22_X53s  + countCheck22_X53e  <= 1
+
+X54s + 68 countCheck22_X54s >= 23
+X54e - 68 countCheck22_X54e <= 21
+-2 count22_X54 + countCheck22_X54s  + countCheck22_X54e  <= 1
+
+X55s + 68 countCheck22_X55s >= 23
+X55e - 68 countCheck22_X55e <= 21
+-2 count22_X55 + countCheck22_X55s  + countCheck22_X55e  <= 1
+
+X56s + 68 countCheck22_X56s >= 23
+X56e - 68 countCheck22_X56e <= 21
+-2 count22_X56 + countCheck22_X56s  + countCheck22_X56e  <= 1
+
+X57s + 68 countCheck22_X57s >= 23
+X57e - 68 countCheck22_X57e <= 21
+-2 count22_X57 + countCheck22_X57s  + countCheck22_X57e  <= 1
+
+X58s + 68 countCheck22_X58s >= 23
+X58e - 68 countCheck22_X58e <= 21
+-2 count22_X58 + countCheck22_X58s  + countCheck22_X58e  <= 1
+
+X59s + 68 countCheck22_X59s >= 23
+X59e - 68 countCheck22_X59e <= 21
+-2 count22_X59 + countCheck22_X59s  + countCheck22_X59e  <= 1
+
+X60s + 68 countCheck22_X60s >= 23
+X60e - 68 countCheck22_X60e <= 21
+-2 count22_X60 + countCheck22_X60s  + countCheck22_X60e  <= 1
+
+X61s + 68 countCheck22_X61s >= 23
+X61e - 68 countCheck22_X61e <= 21
+-2 count22_X61 + countCheck22_X61s  + countCheck22_X61e  <= 1
+
+X62s + 68 countCheck22_X62s >= 23
+X62e - 68 countCheck22_X62e <= 21
+-2 count22_X62 + countCheck22_X62s  + countCheck22_X62e  <= 1
+
+X63s + 68 countCheck22_X63s >= 23
+X63e - 68 countCheck22_X63e <= 21
+-2 count22_X63 + countCheck22_X63s  + countCheck22_X63e  <= 1
+
+X64s + 68 countCheck22_X64s >= 23
+X64e - 68 countCheck22_X64e <= 21
+-2 count22_X64 + countCheck22_X64s  + countCheck22_X64e  <= 1
+
+X65s + 68 countCheck22_X65s >= 23
+X65e - 68 countCheck22_X65e <= 21
+-2 count22_X65 + countCheck22_X65s  + countCheck22_X65e  <= 1
+
+X66s + 68 countCheck22_X66s >= 23
+X66e - 68 countCheck22_X66e <= 21
+-2 count22_X66 + countCheck22_X66s  + countCheck22_X66e  <= 1
+
+X67s + 68 countCheck22_X67s >= 23
+X67e - 68 countCheck22_X67e <= 21
+-2 count22_X67 + countCheck22_X67s  + countCheck22_X67e  <= 1
+
+count22_X0 + count22_X1 + count22_X2 + count22_X3 + count22_X4 + count22_X5 + count22_X6 + count22_X7 + count22_X8 + count22_X9 + count22_X10 + count22_X11 + count22_X12 + count22_X13 + count22_X14 + count22_X15 + count22_X16 + count22_X17 + count22_X18 + count22_X19 + count22_X20 + count22_X21 + count22_X22 + count22_X23 + count22_X24 + count22_X25 + count22_X26 + count22_X27 + count22_X28 + count22_X29 + count22_X30 + count22_X31 + count22_X32 + count22_X33 + count22_X34 + count22_X35 + count22_X36 + count22_X37 + count22_X38 + count22_X39 + count22_X40 + count22_X41 + count22_X42 + count22_X43 + count22_X44 + count22_X45 + count22_X46 + count22_X47 + count22_X48 + count22_X49 + count22_X50 + count22_X51 + count22_X52 + count22_X53 + count22_X54 + count22_X55 + count22_X56 + count22_X57 + count22_X58 + count22_X59 + count22_X60 + count22_X61 + count22_X62 + count22_X63 + count22_X64 + count22_X65 + count22_X66 + count22_X67 - pathWidth <= 1
+X0s + 68 countCheck23_X0s >= 24
+X0e - 68 countCheck23_X0e <= 22
+-2 count23_X0 + countCheck23_X0s  + countCheck23_X0e  <= 1
+
+X1s + 68 countCheck23_X1s >= 24
+X1e - 68 countCheck23_X1e <= 22
+-2 count23_X1 + countCheck23_X1s  + countCheck23_X1e  <= 1
+
+X2s + 68 countCheck23_X2s >= 24
+X2e - 68 countCheck23_X2e <= 22
+-2 count23_X2 + countCheck23_X2s  + countCheck23_X2e  <= 1
+
+X3s + 68 countCheck23_X3s >= 24
+X3e - 68 countCheck23_X3e <= 22
+-2 count23_X3 + countCheck23_X3s  + countCheck23_X3e  <= 1
+
+X4s + 68 countCheck23_X4s >= 24
+X4e - 68 countCheck23_X4e <= 22
+-2 count23_X4 + countCheck23_X4s  + countCheck23_X4e  <= 1
+
+X5s + 68 countCheck23_X5s >= 24
+X5e - 68 countCheck23_X5e <= 22
+-2 count23_X5 + countCheck23_X5s  + countCheck23_X5e  <= 1
+
+X6s + 68 countCheck23_X6s >= 24
+X6e - 68 countCheck23_X6e <= 22
+-2 count23_X6 + countCheck23_X6s  + countCheck23_X6e  <= 1
+
+X7s + 68 countCheck23_X7s >= 24
+X7e - 68 countCheck23_X7e <= 22
+-2 count23_X7 + countCheck23_X7s  + countCheck23_X7e  <= 1
+
+X8s + 68 countCheck23_X8s >= 24
+X8e - 68 countCheck23_X8e <= 22
+-2 count23_X8 + countCheck23_X8s  + countCheck23_X8e  <= 1
+
+X9s + 68 countCheck23_X9s >= 24
+X9e - 68 countCheck23_X9e <= 22
+-2 count23_X9 + countCheck23_X9s  + countCheck23_X9e  <= 1
+
+X10s + 68 countCheck23_X10s >= 24
+X10e - 68 countCheck23_X10e <= 22
+-2 count23_X10 + countCheck23_X10s  + countCheck23_X10e  <= 1
+
+X11s + 68 countCheck23_X11s >= 24
+X11e - 68 countCheck23_X11e <= 22
+-2 count23_X11 + countCheck23_X11s  + countCheck23_X11e  <= 1
+
+X12s + 68 countCheck23_X12s >= 24
+X12e - 68 countCheck23_X12e <= 22
+-2 count23_X12 + countCheck23_X12s  + countCheck23_X12e  <= 1
+
+X13s + 68 countCheck23_X13s >= 24
+X13e - 68 countCheck23_X13e <= 22
+-2 count23_X13 + countCheck23_X13s  + countCheck23_X13e  <= 1
+
+X14s + 68 countCheck23_X14s >= 24
+X14e - 68 countCheck23_X14e <= 22
+-2 count23_X14 + countCheck23_X14s  + countCheck23_X14e  <= 1
+
+X15s + 68 countCheck23_X15s >= 24
+X15e - 68 countCheck23_X15e <= 22
+-2 count23_X15 + countCheck23_X15s  + countCheck23_X15e  <= 1
+
+X16s + 68 countCheck23_X16s >= 24
+X16e - 68 countCheck23_X16e <= 22
+-2 count23_X16 + countCheck23_X16s  + countCheck23_X16e  <= 1
+
+X17s + 68 countCheck23_X17s >= 24
+X17e - 68 countCheck23_X17e <= 22
+-2 count23_X17 + countCheck23_X17s  + countCheck23_X17e  <= 1
+
+X18s + 68 countCheck23_X18s >= 24
+X18e - 68 countCheck23_X18e <= 22
+-2 count23_X18 + countCheck23_X18s  + countCheck23_X18e  <= 1
+
+X19s + 68 countCheck23_X19s >= 24
+X19e - 68 countCheck23_X19e <= 22
+-2 count23_X19 + countCheck23_X19s  + countCheck23_X19e  <= 1
+
+X20s + 68 countCheck23_X20s >= 24
+X20e - 68 countCheck23_X20e <= 22
+-2 count23_X20 + countCheck23_X20s  + countCheck23_X20e  <= 1
+
+X21s + 68 countCheck23_X21s >= 24
+X21e - 68 countCheck23_X21e <= 22
+-2 count23_X21 + countCheck23_X21s  + countCheck23_X21e  <= 1
+
+X22s + 68 countCheck23_X22s >= 24
+X22e - 68 countCheck23_X22e <= 22
+-2 count23_X22 + countCheck23_X22s  + countCheck23_X22e  <= 1
+
+X23s + 68 countCheck23_X23s >= 24
+X23e - 68 countCheck23_X23e <= 22
+-2 count23_X23 + countCheck23_X23s  + countCheck23_X23e  <= 1
+
+X24s + 68 countCheck23_X24s >= 24
+X24e - 68 countCheck23_X24e <= 22
+-2 count23_X24 + countCheck23_X24s  + countCheck23_X24e  <= 1
+
+X25s + 68 countCheck23_X25s >= 24
+X25e - 68 countCheck23_X25e <= 22
+-2 count23_X25 + countCheck23_X25s  + countCheck23_X25e  <= 1
+
+X26s + 68 countCheck23_X26s >= 24
+X26e - 68 countCheck23_X26e <= 22
+-2 count23_X26 + countCheck23_X26s  + countCheck23_X26e  <= 1
+
+X27s + 68 countCheck23_X27s >= 24
+X27e - 68 countCheck23_X27e <= 22
+-2 count23_X27 + countCheck23_X27s  + countCheck23_X27e  <= 1
+
+X28s + 68 countCheck23_X28s >= 24
+X28e - 68 countCheck23_X28e <= 22
+-2 count23_X28 + countCheck23_X28s  + countCheck23_X28e  <= 1
+
+X29s + 68 countCheck23_X29s >= 24
+X29e - 68 countCheck23_X29e <= 22
+-2 count23_X29 + countCheck23_X29s  + countCheck23_X29e  <= 1
+
+X30s + 68 countCheck23_X30s >= 24
+X30e - 68 countCheck23_X30e <= 22
+-2 count23_X30 + countCheck23_X30s  + countCheck23_X30e  <= 1
+
+X31s + 68 countCheck23_X31s >= 24
+X31e - 68 countCheck23_X31e <= 22
+-2 count23_X31 + countCheck23_X31s  + countCheck23_X31e  <= 1
+
+X32s + 68 countCheck23_X32s >= 24
+X32e - 68 countCheck23_X32e <= 22
+-2 count23_X32 + countCheck23_X32s  + countCheck23_X32e  <= 1
+
+X33s + 68 countCheck23_X33s >= 24
+X33e - 68 countCheck23_X33e <= 22
+-2 count23_X33 + countCheck23_X33s  + countCheck23_X33e  <= 1
+
+X34s + 68 countCheck23_X34s >= 24
+X34e - 68 countCheck23_X34e <= 22
+-2 count23_X34 + countCheck23_X34s  + countCheck23_X34e  <= 1
+
+X35s + 68 countCheck23_X35s >= 24
+X35e - 68 countCheck23_X35e <= 22
+-2 count23_X35 + countCheck23_X35s  + countCheck23_X35e  <= 1
+
+X36s + 68 countCheck23_X36s >= 24
+X36e - 68 countCheck23_X36e <= 22
+-2 count23_X36 + countCheck23_X36s  + countCheck23_X36e  <= 1
+
+X37s + 68 countCheck23_X37s >= 24
+X37e - 68 countCheck23_X37e <= 22
+-2 count23_X37 + countCheck23_X37s  + countCheck23_X37e  <= 1
+
+X38s + 68 countCheck23_X38s >= 24
+X38e - 68 countCheck23_X38e <= 22
+-2 count23_X38 + countCheck23_X38s  + countCheck23_X38e  <= 1
+
+X39s + 68 countCheck23_X39s >= 24
+X39e - 68 countCheck23_X39e <= 22
+-2 count23_X39 + countCheck23_X39s  + countCheck23_X39e  <= 1
+
+X40s + 68 countCheck23_X40s >= 24
+X40e - 68 countCheck23_X40e <= 22
+-2 count23_X40 + countCheck23_X40s  + countCheck23_X40e  <= 1
+
+X41s + 68 countCheck23_X41s >= 24
+X41e - 68 countCheck23_X41e <= 22
+-2 count23_X41 + countCheck23_X41s  + countCheck23_X41e  <= 1
+
+X42s + 68 countCheck23_X42s >= 24
+X42e - 68 countCheck23_X42e <= 22
+-2 count23_X42 + countCheck23_X42s  + countCheck23_X42e  <= 1
+
+X43s + 68 countCheck23_X43s >= 24
+X43e - 68 countCheck23_X43e <= 22
+-2 count23_X43 + countCheck23_X43s  + countCheck23_X43e  <= 1
+
+X44s + 68 countCheck23_X44s >= 24
+X44e - 68 countCheck23_X44e <= 22
+-2 count23_X44 + countCheck23_X44s  + countCheck23_X44e  <= 1
+
+X45s + 68 countCheck23_X45s >= 24
+X45e - 68 countCheck23_X45e <= 22
+-2 count23_X45 + countCheck23_X45s  + countCheck23_X45e  <= 1
+
+X46s + 68 countCheck23_X46s >= 24
+X46e - 68 countCheck23_X46e <= 22
+-2 count23_X46 + countCheck23_X46s  + countCheck23_X46e  <= 1
+
+X47s + 68 countCheck23_X47s >= 24
+X47e - 68 countCheck23_X47e <= 22
+-2 count23_X47 + countCheck23_X47s  + countCheck23_X47e  <= 1
+
+X48s + 68 countCheck23_X48s >= 24
+X48e - 68 countCheck23_X48e <= 22
+-2 count23_X48 + countCheck23_X48s  + countCheck23_X48e  <= 1
+
+X49s + 68 countCheck23_X49s >= 24
+X49e - 68 countCheck23_X49e <= 22
+-2 count23_X49 + countCheck23_X49s  + countCheck23_X49e  <= 1
+
+X50s + 68 countCheck23_X50s >= 24
+X50e - 68 countCheck23_X50e <= 22
+-2 count23_X50 + countCheck23_X50s  + countCheck23_X50e  <= 1
+
+X51s + 68 countCheck23_X51s >= 24
+X51e - 68 countCheck23_X51e <= 22
+-2 count23_X51 + countCheck23_X51s  + countCheck23_X51e  <= 1
+
+X52s + 68 countCheck23_X52s >= 24
+X52e - 68 countCheck23_X52e <= 22
+-2 count23_X52 + countCheck23_X52s  + countCheck23_X52e  <= 1
+
+X53s + 68 countCheck23_X53s >= 24
+X53e - 68 countCheck23_X53e <= 22
+-2 count23_X53 + countCheck23_X53s  + countCheck23_X53e  <= 1
+
+X54s + 68 countCheck23_X54s >= 24
+X54e - 68 countCheck23_X54e <= 22
+-2 count23_X54 + countCheck23_X54s  + countCheck23_X54e  <= 1
+
+X55s + 68 countCheck23_X55s >= 24
+X55e - 68 countCheck23_X55e <= 22
+-2 count23_X55 + countCheck23_X55s  + countCheck23_X55e  <= 1
+
+X56s + 68 countCheck23_X56s >= 24
+X56e - 68 countCheck23_X56e <= 22
+-2 count23_X56 + countCheck23_X56s  + countCheck23_X56e  <= 1
+
+X57s + 68 countCheck23_X57s >= 24
+X57e - 68 countCheck23_X57e <= 22
+-2 count23_X57 + countCheck23_X57s  + countCheck23_X57e  <= 1
+
+X58s + 68 countCheck23_X58s >= 24
+X58e - 68 countCheck23_X58e <= 22
+-2 count23_X58 + countCheck23_X58s  + countCheck23_X58e  <= 1
+
+X59s + 68 countCheck23_X59s >= 24
+X59e - 68 countCheck23_X59e <= 22
+-2 count23_X59 + countCheck23_X59s  + countCheck23_X59e  <= 1
+
+X60s + 68 countCheck23_X60s >= 24
+X60e - 68 countCheck23_X60e <= 22
+-2 count23_X60 + countCheck23_X60s  + countCheck23_X60e  <= 1
+
+X61s + 68 countCheck23_X61s >= 24
+X61e - 68 countCheck23_X61e <= 22
+-2 count23_X61 + countCheck23_X61s  + countCheck23_X61e  <= 1
+
+X62s + 68 countCheck23_X62s >= 24
+X62e - 68 countCheck23_X62e <= 22
+-2 count23_X62 + countCheck23_X62s  + countCheck23_X62e  <= 1
+
+X63s + 68 countCheck23_X63s >= 24
+X63e - 68 countCheck23_X63e <= 22
+-2 count23_X63 + countCheck23_X63s  + countCheck23_X63e  <= 1
+
+X64s + 68 countCheck23_X64s >= 24
+X64e - 68 countCheck23_X64e <= 22
+-2 count23_X64 + countCheck23_X64s  + countCheck23_X64e  <= 1
+
+X65s + 68 countCheck23_X65s >= 24
+X65e - 68 countCheck23_X65e <= 22
+-2 count23_X65 + countCheck23_X65s  + countCheck23_X65e  <= 1
+
+X66s + 68 countCheck23_X66s >= 24
+X66e - 68 countCheck23_X66e <= 22
+-2 count23_X66 + countCheck23_X66s  + countCheck23_X66e  <= 1
+
+X67s + 68 countCheck23_X67s >= 24
+X67e - 68 countCheck23_X67e <= 22
+-2 count23_X67 + countCheck23_X67s  + countCheck23_X67e  <= 1
+
+count23_X0 + count23_X1 + count23_X2 + count23_X3 + count23_X4 + count23_X5 + count23_X6 + count23_X7 + count23_X8 + count23_X9 + count23_X10 + count23_X11 + count23_X12 + count23_X13 + count23_X14 + count23_X15 + count23_X16 + count23_X17 + count23_X18 + count23_X19 + count23_X20 + count23_X21 + count23_X22 + count23_X23 + count23_X24 + count23_X25 + count23_X26 + count23_X27 + count23_X28 + count23_X29 + count23_X30 + count23_X31 + count23_X32 + count23_X33 + count23_X34 + count23_X35 + count23_X36 + count23_X37 + count23_X38 + count23_X39 + count23_X40 + count23_X41 + count23_X42 + count23_X43 + count23_X44 + count23_X45 + count23_X46 + count23_X47 + count23_X48 + count23_X49 + count23_X50 + count23_X51 + count23_X52 + count23_X53 + count23_X54 + count23_X55 + count23_X56 + count23_X57 + count23_X58 + count23_X59 + count23_X60 + count23_X61 + count23_X62 + count23_X63 + count23_X64 + count23_X65 + count23_X66 + count23_X67 - pathWidth <= 1
+X0s + 68 countCheck24_X0s >= 25
+X0e - 68 countCheck24_X0e <= 23
+-2 count24_X0 + countCheck24_X0s  + countCheck24_X0e  <= 1
+
+X1s + 68 countCheck24_X1s >= 25
+X1e - 68 countCheck24_X1e <= 23
+-2 count24_X1 + countCheck24_X1s  + countCheck24_X1e  <= 1
+
+X2s + 68 countCheck24_X2s >= 25
+X2e - 68 countCheck24_X2e <= 23
+-2 count24_X2 + countCheck24_X2s  + countCheck24_X2e  <= 1
+
+X3s + 68 countCheck24_X3s >= 25
+X3e - 68 countCheck24_X3e <= 23
+-2 count24_X3 + countCheck24_X3s  + countCheck24_X3e  <= 1
+
+X4s + 68 countCheck24_X4s >= 25
+X4e - 68 countCheck24_X4e <= 23
+-2 count24_X4 + countCheck24_X4s  + countCheck24_X4e  <= 1
+
+X5s + 68 countCheck24_X5s >= 25
+X5e - 68 countCheck24_X5e <= 23
+-2 count24_X5 + countCheck24_X5s  + countCheck24_X5e  <= 1
+
+X6s + 68 countCheck24_X6s >= 25
+X6e - 68 countCheck24_X6e <= 23
+-2 count24_X6 + countCheck24_X6s  + countCheck24_X6e  <= 1
+
+X7s + 68 countCheck24_X7s >= 25
+X7e - 68 countCheck24_X7e <= 23
+-2 count24_X7 + countCheck24_X7s  + countCheck24_X7e  <= 1
+
+X8s + 68 countCheck24_X8s >= 25
+X8e - 68 countCheck24_X8e <= 23
+-2 count24_X8 + countCheck24_X8s  + countCheck24_X8e  <= 1
+
+X9s + 68 countCheck24_X9s >= 25
+X9e - 68 countCheck24_X9e <= 23
+-2 count24_X9 + countCheck24_X9s  + countCheck24_X9e  <= 1
+
+X10s + 68 countCheck24_X10s >= 25
+X10e - 68 countCheck24_X10e <= 23
+-2 count24_X10 + countCheck24_X10s  + countCheck24_X10e  <= 1
+
+X11s + 68 countCheck24_X11s >= 25
+X11e - 68 countCheck24_X11e <= 23
+-2 count24_X11 + countCheck24_X11s  + countCheck24_X11e  <= 1
+
+X12s + 68 countCheck24_X12s >= 25
+X12e - 68 countCheck24_X12e <= 23
+-2 count24_X12 + countCheck24_X12s  + countCheck24_X12e  <= 1
+
+X13s + 68 countCheck24_X13s >= 25
+X13e - 68 countCheck24_X13e <= 23
+-2 count24_X13 + countCheck24_X13s  + countCheck24_X13e  <= 1
+
+X14s + 68 countCheck24_X14s >= 25
+X14e - 68 countCheck24_X14e <= 23
+-2 count24_X14 + countCheck24_X14s  + countCheck24_X14e  <= 1
+
+X15s + 68 countCheck24_X15s >= 25
+X15e - 68 countCheck24_X15e <= 23
+-2 count24_X15 + countCheck24_X15s  + countCheck24_X15e  <= 1
+
+X16s + 68 countCheck24_X16s >= 25
+X16e - 68 countCheck24_X16e <= 23
+-2 count24_X16 + countCheck24_X16s  + countCheck24_X16e  <= 1
+
+X17s + 68 countCheck24_X17s >= 25
+X17e - 68 countCheck24_X17e <= 23
+-2 count24_X17 + countCheck24_X17s  + countCheck24_X17e  <= 1
+
+X18s + 68 countCheck24_X18s >= 25
+X18e - 68 countCheck24_X18e <= 23
+-2 count24_X18 + countCheck24_X18s  + countCheck24_X18e  <= 1
+
+X19s + 68 countCheck24_X19s >= 25
+X19e - 68 countCheck24_X19e <= 23
+-2 count24_X19 + countCheck24_X19s  + countCheck24_X19e  <= 1
+
+X20s + 68 countCheck24_X20s >= 25
+X20e - 68 countCheck24_X20e <= 23
+-2 count24_X20 + countCheck24_X20s  + countCheck24_X20e  <= 1
+
+X21s + 68 countCheck24_X21s >= 25
+X21e - 68 countCheck24_X21e <= 23
+-2 count24_X21 + countCheck24_X21s  + countCheck24_X21e  <= 1
+
+X22s + 68 countCheck24_X22s >= 25
+X22e - 68 countCheck24_X22e <= 23
+-2 count24_X22 + countCheck24_X22s  + countCheck24_X22e  <= 1
+
+X23s + 68 countCheck24_X23s >= 25
+X23e - 68 countCheck24_X23e <= 23
+-2 count24_X23 + countCheck24_X23s  + countCheck24_X23e  <= 1
+
+X24s + 68 countCheck24_X24s >= 25
+X24e - 68 countCheck24_X24e <= 23
+-2 count24_X24 + countCheck24_X24s  + countCheck24_X24e  <= 1
+
+X25s + 68 countCheck24_X25s >= 25
+X25e - 68 countCheck24_X25e <= 23
+-2 count24_X25 + countCheck24_X25s  + countCheck24_X25e  <= 1
+
+X26s + 68 countCheck24_X26s >= 25
+X26e - 68 countCheck24_X26e <= 23
+-2 count24_X26 + countCheck24_X26s  + countCheck24_X26e  <= 1
+
+X27s + 68 countCheck24_X27s >= 25
+X27e - 68 countCheck24_X27e <= 23
+-2 count24_X27 + countCheck24_X27s  + countCheck24_X27e  <= 1
+
+X28s + 68 countCheck24_X28s >= 25
+X28e - 68 countCheck24_X28e <= 23
+-2 count24_X28 + countCheck24_X28s  + countCheck24_X28e  <= 1
+
+X29s + 68 countCheck24_X29s >= 25
+X29e - 68 countCheck24_X29e <= 23
+-2 count24_X29 + countCheck24_X29s  + countCheck24_X29e  <= 1
+
+X30s + 68 countCheck24_X30s >= 25
+X30e - 68 countCheck24_X30e <= 23
+-2 count24_X30 + countCheck24_X30s  + countCheck24_X30e  <= 1
+
+X31s + 68 countCheck24_X31s >= 25
+X31e - 68 countCheck24_X31e <= 23
+-2 count24_X31 + countCheck24_X31s  + countCheck24_X31e  <= 1
+
+X32s + 68 countCheck24_X32s >= 25
+X32e - 68 countCheck24_X32e <= 23
+-2 count24_X32 + countCheck24_X32s  + countCheck24_X32e  <= 1
+
+X33s + 68 countCheck24_X33s >= 25
+X33e - 68 countCheck24_X33e <= 23
+-2 count24_X33 + countCheck24_X33s  + countCheck24_X33e  <= 1
+
+X34s + 68 countCheck24_X34s >= 25
+X34e - 68 countCheck24_X34e <= 23
+-2 count24_X34 + countCheck24_X34s  + countCheck24_X34e  <= 1
+
+X35s + 68 countCheck24_X35s >= 25
+X35e - 68 countCheck24_X35e <= 23
+-2 count24_X35 + countCheck24_X35s  + countCheck24_X35e  <= 1
+
+X36s + 68 countCheck24_X36s >= 25
+X36e - 68 countCheck24_X36e <= 23
+-2 count24_X36 + countCheck24_X36s  + countCheck24_X36e  <= 1
+
+X37s + 68 countCheck24_X37s >= 25
+X37e - 68 countCheck24_X37e <= 23
+-2 count24_X37 + countCheck24_X37s  + countCheck24_X37e  <= 1
+
+X38s + 68 countCheck24_X38s >= 25
+X38e - 68 countCheck24_X38e <= 23
+-2 count24_X38 + countCheck24_X38s  + countCheck24_X38e  <= 1
+
+X39s + 68 countCheck24_X39s >= 25
+X39e - 68 countCheck24_X39e <= 23
+-2 count24_X39 + countCheck24_X39s  + countCheck24_X39e  <= 1
+
+X40s + 68 countCheck24_X40s >= 25
+X40e - 68 countCheck24_X40e <= 23
+-2 count24_X40 + countCheck24_X40s  + countCheck24_X40e  <= 1
+
+X41s + 68 countCheck24_X41s >= 25
+X41e - 68 countCheck24_X41e <= 23
+-2 count24_X41 + countCheck24_X41s  + countCheck24_X41e  <= 1
+
+X42s + 68 countCheck24_X42s >= 25
+X42e - 68 countCheck24_X42e <= 23
+-2 count24_X42 + countCheck24_X42s  + countCheck24_X42e  <= 1
+
+X43s + 68 countCheck24_X43s >= 25
+X43e - 68 countCheck24_X43e <= 23
+-2 count24_X43 + countCheck24_X43s  + countCheck24_X43e  <= 1
+
+X44s + 68 countCheck24_X44s >= 25
+X44e - 68 countCheck24_X44e <= 23
+-2 count24_X44 + countCheck24_X44s  + countCheck24_X44e  <= 1
+
+X45s + 68 countCheck24_X45s >= 25
+X45e - 68 countCheck24_X45e <= 23
+-2 count24_X45 + countCheck24_X45s  + countCheck24_X45e  <= 1
+
+X46s + 68 countCheck24_X46s >= 25
+X46e - 68 countCheck24_X46e <= 23
+-2 count24_X46 + countCheck24_X46s  + countCheck24_X46e  <= 1
+
+X47s + 68 countCheck24_X47s >= 25
+X47e - 68 countCheck24_X47e <= 23
+-2 count24_X47 + countCheck24_X47s  + countCheck24_X47e  <= 1
+
+X48s + 68 countCheck24_X48s >= 25
+X48e - 68 countCheck24_X48e <= 23
+-2 count24_X48 + countCheck24_X48s  + countCheck24_X48e  <= 1
+
+X49s + 68 countCheck24_X49s >= 25
+X49e - 68 countCheck24_X49e <= 23
+-2 count24_X49 + countCheck24_X49s  + countCheck24_X49e  <= 1
+
+X50s + 68 countCheck24_X50s >= 25
+X50e - 68 countCheck24_X50e <= 23
+-2 count24_X50 + countCheck24_X50s  + countCheck24_X50e  <= 1
+
+X51s + 68 countCheck24_X51s >= 25
+X51e - 68 countCheck24_X51e <= 23
+-2 count24_X51 + countCheck24_X51s  + countCheck24_X51e  <= 1
+
+X52s + 68 countCheck24_X52s >= 25
+X52e - 68 countCheck24_X52e <= 23
+-2 count24_X52 + countCheck24_X52s  + countCheck24_X52e  <= 1
+
+X53s + 68 countCheck24_X53s >= 25
+X53e - 68 countCheck24_X53e <= 23
+-2 count24_X53 + countCheck24_X53s  + countCheck24_X53e  <= 1
+
+X54s + 68 countCheck24_X54s >= 25
+X54e - 68 countCheck24_X54e <= 23
+-2 count24_X54 + countCheck24_X54s  + countCheck24_X54e  <= 1
+
+X55s + 68 countCheck24_X55s >= 25
+X55e - 68 countCheck24_X55e <= 23
+-2 count24_X55 + countCheck24_X55s  + countCheck24_X55e  <= 1
+
+X56s + 68 countCheck24_X56s >= 25
+X56e - 68 countCheck24_X56e <= 23
+-2 count24_X56 + countCheck24_X56s  + countCheck24_X56e  <= 1
+
+X57s + 68 countCheck24_X57s >= 25
+X57e - 68 countCheck24_X57e <= 23
+-2 count24_X57 + countCheck24_X57s  + countCheck24_X57e  <= 1
+
+X58s + 68 countCheck24_X58s >= 25
+X58e - 68 countCheck24_X58e <= 23
+-2 count24_X58 + countCheck24_X58s  + countCheck24_X58e  <= 1
+
+X59s + 68 countCheck24_X59s >= 25
+X59e - 68 countCheck24_X59e <= 23
+-2 count24_X59 + countCheck24_X59s  + countCheck24_X59e  <= 1
+
+X60s + 68 countCheck24_X60s >= 25
+X60e - 68 countCheck24_X60e <= 23
+-2 count24_X60 + countCheck24_X60s  + countCheck24_X60e  <= 1
+
+X61s + 68 countCheck24_X61s >= 25
+X61e - 68 countCheck24_X61e <= 23
+-2 count24_X61 + countCheck24_X61s  + countCheck24_X61e  <= 1
+
+X62s + 68 countCheck24_X62s >= 25
+X62e - 68 countCheck24_X62e <= 23
+-2 count24_X62 + countCheck24_X62s  + countCheck24_X62e  <= 1
+
+X63s + 68 countCheck24_X63s >= 25
+X63e - 68 countCheck24_X63e <= 23
+-2 count24_X63 + countCheck24_X63s  + countCheck24_X63e  <= 1
+
+X64s + 68 countCheck24_X64s >= 25
+X64e - 68 countCheck24_X64e <= 23
+-2 count24_X64 + countCheck24_X64s  + countCheck24_X64e  <= 1
+
+X65s + 68 countCheck24_X65s >= 25
+X65e - 68 countCheck24_X65e <= 23
+-2 count24_X65 + countCheck24_X65s  + countCheck24_X65e  <= 1
+
+X66s + 68 countCheck24_X66s >= 25
+X66e - 68 countCheck24_X66e <= 23
+-2 count24_X66 + countCheck24_X66s  + countCheck24_X66e  <= 1
+
+X67s + 68 countCheck24_X67s >= 25
+X67e - 68 countCheck24_X67e <= 23
+-2 count24_X67 + countCheck24_X67s  + countCheck24_X67e  <= 1
+
+count24_X0 + count24_X1 + count24_X2 + count24_X3 + count24_X4 + count24_X5 + count24_X6 + count24_X7 + count24_X8 + count24_X9 + count24_X10 + count24_X11 + count24_X12 + count24_X13 + count24_X14 + count24_X15 + count24_X16 + count24_X17 + count24_X18 + count24_X19 + count24_X20 + count24_X21 + count24_X22 + count24_X23 + count24_X24 + count24_X25 + count24_X26 + count24_X27 + count24_X28 + count24_X29 + count24_X30 + count24_X31 + count24_X32 + count24_X33 + count24_X34 + count24_X35 + count24_X36 + count24_X37 + count24_X38 + count24_X39 + count24_X40 + count24_X41 + count24_X42 + count24_X43 + count24_X44 + count24_X45 + count24_X46 + count24_X47 + count24_X48 + count24_X49 + count24_X50 + count24_X51 + count24_X52 + count24_X53 + count24_X54 + count24_X55 + count24_X56 + count24_X57 + count24_X58 + count24_X59 + count24_X60 + count24_X61 + count24_X62 + count24_X63 + count24_X64 + count24_X65 + count24_X66 + count24_X67 - pathWidth <= 1
+X0s + 68 countCheck25_X0s >= 26
+X0e - 68 countCheck25_X0e <= 24
+-2 count25_X0 + countCheck25_X0s  + countCheck25_X0e  <= 1
+
+X1s + 68 countCheck25_X1s >= 26
+X1e - 68 countCheck25_X1e <= 24
+-2 count25_X1 + countCheck25_X1s  + countCheck25_X1e  <= 1
+
+X2s + 68 countCheck25_X2s >= 26
+X2e - 68 countCheck25_X2e <= 24
+-2 count25_X2 + countCheck25_X2s  + countCheck25_X2e  <= 1
+
+X3s + 68 countCheck25_X3s >= 26
+X3e - 68 countCheck25_X3e <= 24
+-2 count25_X3 + countCheck25_X3s  + countCheck25_X3e  <= 1
+
+X4s + 68 countCheck25_X4s >= 26
+X4e - 68 countCheck25_X4e <= 24
+-2 count25_X4 + countCheck25_X4s  + countCheck25_X4e  <= 1
+
+X5s + 68 countCheck25_X5s >= 26
+X5e - 68 countCheck25_X5e <= 24
+-2 count25_X5 + countCheck25_X5s  + countCheck25_X5e  <= 1
+
+X6s + 68 countCheck25_X6s >= 26
+X6e - 68 countCheck25_X6e <= 24
+-2 count25_X6 + countCheck25_X6s  + countCheck25_X6e  <= 1
+
+X7s + 68 countCheck25_X7s >= 26
+X7e - 68 countCheck25_X7e <= 24
+-2 count25_X7 + countCheck25_X7s  + countCheck25_X7e  <= 1
+
+X8s + 68 countCheck25_X8s >= 26
+X8e - 68 countCheck25_X8e <= 24
+-2 count25_X8 + countCheck25_X8s  + countCheck25_X8e  <= 1
+
+X9s + 68 countCheck25_X9s >= 26
+X9e - 68 countCheck25_X9e <= 24
+-2 count25_X9 + countCheck25_X9s  + countCheck25_X9e  <= 1
+
+X10s + 68 countCheck25_X10s >= 26
+X10e - 68 countCheck25_X10e <= 24
+-2 count25_X10 + countCheck25_X10s  + countCheck25_X10e  <= 1
+
+X11s + 68 countCheck25_X11s >= 26
+X11e - 68 countCheck25_X11e <= 24
+-2 count25_X11 + countCheck25_X11s  + countCheck25_X11e  <= 1
+
+X12s + 68 countCheck25_X12s >= 26
+X12e - 68 countCheck25_X12e <= 24
+-2 count25_X12 + countCheck25_X12s  + countCheck25_X12e  <= 1
+
+X13s + 68 countCheck25_X13s >= 26
+X13e - 68 countCheck25_X13e <= 24
+-2 count25_X13 + countCheck25_X13s  + countCheck25_X13e  <= 1
+
+X14s + 68 countCheck25_X14s >= 26
+X14e - 68 countCheck25_X14e <= 24
+-2 count25_X14 + countCheck25_X14s  + countCheck25_X14e  <= 1
+
+X15s + 68 countCheck25_X15s >= 26
+X15e - 68 countCheck25_X15e <= 24
+-2 count25_X15 + countCheck25_X15s  + countCheck25_X15e  <= 1
+
+X16s + 68 countCheck25_X16s >= 26
+X16e - 68 countCheck25_X16e <= 24
+-2 count25_X16 + countCheck25_X16s  + countCheck25_X16e  <= 1
+
+X17s + 68 countCheck25_X17s >= 26
+X17e - 68 countCheck25_X17e <= 24
+-2 count25_X17 + countCheck25_X17s  + countCheck25_X17e  <= 1
+
+X18s + 68 countCheck25_X18s >= 26
+X18e - 68 countCheck25_X18e <= 24
+-2 count25_X18 + countCheck25_X18s  + countCheck25_X18e  <= 1
+
+X19s + 68 countCheck25_X19s >= 26
+X19e - 68 countCheck25_X19e <= 24
+-2 count25_X19 + countCheck25_X19s  + countCheck25_X19e  <= 1
+
+X20s + 68 countCheck25_X20s >= 26
+X20e - 68 countCheck25_X20e <= 24
+-2 count25_X20 + countCheck25_X20s  + countCheck25_X20e  <= 1
+
+X21s + 68 countCheck25_X21s >= 26
+X21e - 68 countCheck25_X21e <= 24
+-2 count25_X21 + countCheck25_X21s  + countCheck25_X21e  <= 1
+
+X22s + 68 countCheck25_X22s >= 26
+X22e - 68 countCheck25_X22e <= 24
+-2 count25_X22 + countCheck25_X22s  + countCheck25_X22e  <= 1
+
+X23s + 68 countCheck25_X23s >= 26
+X23e - 68 countCheck25_X23e <= 24
+-2 count25_X23 + countCheck25_X23s  + countCheck25_X23e  <= 1
+
+X24s + 68 countCheck25_X24s >= 26
+X24e - 68 countCheck25_X24e <= 24
+-2 count25_X24 + countCheck25_X24s  + countCheck25_X24e  <= 1
+
+X25s + 68 countCheck25_X25s >= 26
+X25e - 68 countCheck25_X25e <= 24
+-2 count25_X25 + countCheck25_X25s  + countCheck25_X25e  <= 1
+
+X26s + 68 countCheck25_X26s >= 26
+X26e - 68 countCheck25_X26e <= 24
+-2 count25_X26 + countCheck25_X26s  + countCheck25_X26e  <= 1
+
+X27s + 68 countCheck25_X27s >= 26
+X27e - 68 countCheck25_X27e <= 24
+-2 count25_X27 + countCheck25_X27s  + countCheck25_X27e  <= 1
+
+X28s + 68 countCheck25_X28s >= 26
+X28e - 68 countCheck25_X28e <= 24
+-2 count25_X28 + countCheck25_X28s  + countCheck25_X28e  <= 1
+
+X29s + 68 countCheck25_X29s >= 26
+X29e - 68 countCheck25_X29e <= 24
+-2 count25_X29 + countCheck25_X29s  + countCheck25_X29e  <= 1
+
+X30s + 68 countCheck25_X30s >= 26
+X30e - 68 countCheck25_X30e <= 24
+-2 count25_X30 + countCheck25_X30s  + countCheck25_X30e  <= 1
+
+X31s + 68 countCheck25_X31s >= 26
+X31e - 68 countCheck25_X31e <= 24
+-2 count25_X31 + countCheck25_X31s  + countCheck25_X31e  <= 1
+
+X32s + 68 countCheck25_X32s >= 26
+X32e - 68 countCheck25_X32e <= 24
+-2 count25_X32 + countCheck25_X32s  + countCheck25_X32e  <= 1
+
+X33s + 68 countCheck25_X33s >= 26
+X33e - 68 countCheck25_X33e <= 24
+-2 count25_X33 + countCheck25_X33s  + countCheck25_X33e  <= 1
+
+X34s + 68 countCheck25_X34s >= 26
+X34e - 68 countCheck25_X34e <= 24
+-2 count25_X34 + countCheck25_X34s  + countCheck25_X34e  <= 1
+
+X35s + 68 countCheck25_X35s >= 26
+X35e - 68 countCheck25_X35e <= 24
+-2 count25_X35 + countCheck25_X35s  + countCheck25_X35e  <= 1
+
+X36s + 68 countCheck25_X36s >= 26
+X36e - 68 countCheck25_X36e <= 24
+-2 count25_X36 + countCheck25_X36s  + countCheck25_X36e  <= 1
+
+X37s + 68 countCheck25_X37s >= 26
+X37e - 68 countCheck25_X37e <= 24
+-2 count25_X37 + countCheck25_X37s  + countCheck25_X37e  <= 1
+
+X38s + 68 countCheck25_X38s >= 26
+X38e - 68 countCheck25_X38e <= 24
+-2 count25_X38 + countCheck25_X38s  + countCheck25_X38e  <= 1
+
+X39s + 68 countCheck25_X39s >= 26
+X39e - 68 countCheck25_X39e <= 24
+-2 count25_X39 + countCheck25_X39s  + countCheck25_X39e  <= 1
+
+X40s + 68 countCheck25_X40s >= 26
+X40e - 68 countCheck25_X40e <= 24
+-2 count25_X40 + countCheck25_X40s  + countCheck25_X40e  <= 1
+
+X41s + 68 countCheck25_X41s >= 26
+X41e - 68 countCheck25_X41e <= 24
+-2 count25_X41 + countCheck25_X41s  + countCheck25_X41e  <= 1
+
+X42s + 68 countCheck25_X42s >= 26
+X42e - 68 countCheck25_X42e <= 24
+-2 count25_X42 + countCheck25_X42s  + countCheck25_X42e  <= 1
+
+X43s + 68 countCheck25_X43s >= 26
+X43e - 68 countCheck25_X43e <= 24
+-2 count25_X43 + countCheck25_X43s  + countCheck25_X43e  <= 1
+
+X44s + 68 countCheck25_X44s >= 26
+X44e - 68 countCheck25_X44e <= 24
+-2 count25_X44 + countCheck25_X44s  + countCheck25_X44e  <= 1
+
+X45s + 68 countCheck25_X45s >= 26
+X45e - 68 countCheck25_X45e <= 24
+-2 count25_X45 + countCheck25_X45s  + countCheck25_X45e  <= 1
+
+X46s + 68 countCheck25_X46s >= 26
+X46e - 68 countCheck25_X46e <= 24
+-2 count25_X46 + countCheck25_X46s  + countCheck25_X46e  <= 1
+
+X47s + 68 countCheck25_X47s >= 26
+X47e - 68 countCheck25_X47e <= 24
+-2 count25_X47 + countCheck25_X47s  + countCheck25_X47e  <= 1
+
+X48s + 68 countCheck25_X48s >= 26
+X48e - 68 countCheck25_X48e <= 24
+-2 count25_X48 + countCheck25_X48s  + countCheck25_X48e  <= 1
+
+X49s + 68 countCheck25_X49s >= 26
+X49e - 68 countCheck25_X49e <= 24
+-2 count25_X49 + countCheck25_X49s  + countCheck25_X49e  <= 1
+
+X50s + 68 countCheck25_X50s >= 26
+X50e - 68 countCheck25_X50e <= 24
+-2 count25_X50 + countCheck25_X50s  + countCheck25_X50e  <= 1
+
+X51s + 68 countCheck25_X51s >= 26
+X51e - 68 countCheck25_X51e <= 24
+-2 count25_X51 + countCheck25_X51s  + countCheck25_X51e  <= 1
+
+X52s + 68 countCheck25_X52s >= 26
+X52e - 68 countCheck25_X52e <= 24
+-2 count25_X52 + countCheck25_X52s  + countCheck25_X52e  <= 1
+
+X53s + 68 countCheck25_X53s >= 26
+X53e - 68 countCheck25_X53e <= 24
+-2 count25_X53 + countCheck25_X53s  + countCheck25_X53e  <= 1
+
+X54s + 68 countCheck25_X54s >= 26
+X54e - 68 countCheck25_X54e <= 24
+-2 count25_X54 + countCheck25_X54s  + countCheck25_X54e  <= 1
+
+X55s + 68 countCheck25_X55s >= 26
+X55e - 68 countCheck25_X55e <= 24
+-2 count25_X55 + countCheck25_X55s  + countCheck25_X55e  <= 1
+
+X56s + 68 countCheck25_X56s >= 26
+X56e - 68 countCheck25_X56e <= 24
+-2 count25_X56 + countCheck25_X56s  + countCheck25_X56e  <= 1
+
+X57s + 68 countCheck25_X57s >= 26
+X57e - 68 countCheck25_X57e <= 24
+-2 count25_X57 + countCheck25_X57s  + countCheck25_X57e  <= 1
+
+X58s + 68 countCheck25_X58s >= 26
+X58e - 68 countCheck25_X58e <= 24
+-2 count25_X58 + countCheck25_X58s  + countCheck25_X58e  <= 1
+
+X59s + 68 countCheck25_X59s >= 26
+X59e - 68 countCheck25_X59e <= 24
+-2 count25_X59 + countCheck25_X59s  + countCheck25_X59e  <= 1
+
+X60s + 68 countCheck25_X60s >= 26
+X60e - 68 countCheck25_X60e <= 24
+-2 count25_X60 + countCheck25_X60s  + countCheck25_X60e  <= 1
+
+X61s + 68 countCheck25_X61s >= 26
+X61e - 68 countCheck25_X61e <= 24
+-2 count25_X61 + countCheck25_X61s  + countCheck25_X61e  <= 1
+
+X62s + 68 countCheck25_X62s >= 26
+X62e - 68 countCheck25_X62e <= 24
+-2 count25_X62 + countCheck25_X62s  + countCheck25_X62e  <= 1
+
+X63s + 68 countCheck25_X63s >= 26
+X63e - 68 countCheck25_X63e <= 24
+-2 count25_X63 + countCheck25_X63s  + countCheck25_X63e  <= 1
+
+X64s + 68 countCheck25_X64s >= 26
+X64e - 68 countCheck25_X64e <= 24
+-2 count25_X64 + countCheck25_X64s  + countCheck25_X64e  <= 1
+
+X65s + 68 countCheck25_X65s >= 26
+X65e - 68 countCheck25_X65e <= 24
+-2 count25_X65 + countCheck25_X65s  + countCheck25_X65e  <= 1
+
+X66s + 68 countCheck25_X66s >= 26
+X66e - 68 countCheck25_X66e <= 24
+-2 count25_X66 + countCheck25_X66s  + countCheck25_X66e  <= 1
+
+X67s + 68 countCheck25_X67s >= 26
+X67e - 68 countCheck25_X67e <= 24
+-2 count25_X67 + countCheck25_X67s  + countCheck25_X67e  <= 1
+
+count25_X0 + count25_X1 + count25_X2 + count25_X3 + count25_X4 + count25_X5 + count25_X6 + count25_X7 + count25_X8 + count25_X9 + count25_X10 + count25_X11 + count25_X12 + count25_X13 + count25_X14 + count25_X15 + count25_X16 + count25_X17 + count25_X18 + count25_X19 + count25_X20 + count25_X21 + count25_X22 + count25_X23 + count25_X24 + count25_X25 + count25_X26 + count25_X27 + count25_X28 + count25_X29 + count25_X30 + count25_X31 + count25_X32 + count25_X33 + count25_X34 + count25_X35 + count25_X36 + count25_X37 + count25_X38 + count25_X39 + count25_X40 + count25_X41 + count25_X42 + count25_X43 + count25_X44 + count25_X45 + count25_X46 + count25_X47 + count25_X48 + count25_X49 + count25_X50 + count25_X51 + count25_X52 + count25_X53 + count25_X54 + count25_X55 + count25_X56 + count25_X57 + count25_X58 + count25_X59 + count25_X60 + count25_X61 + count25_X62 + count25_X63 + count25_X64 + count25_X65 + count25_X66 + count25_X67 - pathWidth <= 1
+X0s + 68 countCheck26_X0s >= 27
+X0e - 68 countCheck26_X0e <= 25
+-2 count26_X0 + countCheck26_X0s  + countCheck26_X0e  <= 1
+
+X1s + 68 countCheck26_X1s >= 27
+X1e - 68 countCheck26_X1e <= 25
+-2 count26_X1 + countCheck26_X1s  + countCheck26_X1e  <= 1
+
+X2s + 68 countCheck26_X2s >= 27
+X2e - 68 countCheck26_X2e <= 25
+-2 count26_X2 + countCheck26_X2s  + countCheck26_X2e  <= 1
+
+X3s + 68 countCheck26_X3s >= 27
+X3e - 68 countCheck26_X3e <= 25
+-2 count26_X3 + countCheck26_X3s  + countCheck26_X3e  <= 1
+
+X4s + 68 countCheck26_X4s >= 27
+X4e - 68 countCheck26_X4e <= 25
+-2 count26_X4 + countCheck26_X4s  + countCheck26_X4e  <= 1
+
+X5s + 68 countCheck26_X5s >= 27
+X5e - 68 countCheck26_X5e <= 25
+-2 count26_X5 + countCheck26_X5s  + countCheck26_X5e  <= 1
+
+X6s + 68 countCheck26_X6s >= 27
+X6e - 68 countCheck26_X6e <= 25
+-2 count26_X6 + countCheck26_X6s  + countCheck26_X6e  <= 1
+
+X7s + 68 countCheck26_X7s >= 27
+X7e - 68 countCheck26_X7e <= 25
+-2 count26_X7 + countCheck26_X7s  + countCheck26_X7e  <= 1
+
+X8s + 68 countCheck26_X8s >= 27
+X8e - 68 countCheck26_X8e <= 25
+-2 count26_X8 + countCheck26_X8s  + countCheck26_X8e  <= 1
+
+X9s + 68 countCheck26_X9s >= 27
+X9e - 68 countCheck26_X9e <= 25
+-2 count26_X9 + countCheck26_X9s  + countCheck26_X9e  <= 1
+
+X10s + 68 countCheck26_X10s >= 27
+X10e - 68 countCheck26_X10e <= 25
+-2 count26_X10 + countCheck26_X10s  + countCheck26_X10e  <= 1
+
+X11s + 68 countCheck26_X11s >= 27
+X11e - 68 countCheck26_X11e <= 25
+-2 count26_X11 + countCheck26_X11s  + countCheck26_X11e  <= 1
+
+X12s + 68 countCheck26_X12s >= 27
+X12e - 68 countCheck26_X12e <= 25
+-2 count26_X12 + countCheck26_X12s  + countCheck26_X12e  <= 1
+
+X13s + 68 countCheck26_X13s >= 27
+X13e - 68 countCheck26_X13e <= 25
+-2 count26_X13 + countCheck26_X13s  + countCheck26_X13e  <= 1
+
+X14s + 68 countCheck26_X14s >= 27
+X14e - 68 countCheck26_X14e <= 25
+-2 count26_X14 + countCheck26_X14s  + countCheck26_X14e  <= 1
+
+X15s + 68 countCheck26_X15s >= 27
+X15e - 68 countCheck26_X15e <= 25
+-2 count26_X15 + countCheck26_X15s  + countCheck26_X15e  <= 1
+
+X16s + 68 countCheck26_X16s >= 27
+X16e - 68 countCheck26_X16e <= 25
+-2 count26_X16 + countCheck26_X16s  + countCheck26_X16e  <= 1
+
+X17s + 68 countCheck26_X17s >= 27
+X17e - 68 countCheck26_X17e <= 25
+-2 count26_X17 + countCheck26_X17s  + countCheck26_X17e  <= 1
+
+X18s + 68 countCheck26_X18s >= 27
+X18e - 68 countCheck26_X18e <= 25
+-2 count26_X18 + countCheck26_X18s  + countCheck26_X18e  <= 1
+
+X19s + 68 countCheck26_X19s >= 27
+X19e - 68 countCheck26_X19e <= 25
+-2 count26_X19 + countCheck26_X19s  + countCheck26_X19e  <= 1
+
+X20s + 68 countCheck26_X20s >= 27
+X20e - 68 countCheck26_X20e <= 25
+-2 count26_X20 + countCheck26_X20s  + countCheck26_X20e  <= 1
+
+X21s + 68 countCheck26_X21s >= 27
+X21e - 68 countCheck26_X21e <= 25
+-2 count26_X21 + countCheck26_X21s  + countCheck26_X21e  <= 1
+
+X22s + 68 countCheck26_X22s >= 27
+X22e - 68 countCheck26_X22e <= 25
+-2 count26_X22 + countCheck26_X22s  + countCheck26_X22e  <= 1
+
+X23s + 68 countCheck26_X23s >= 27
+X23e - 68 countCheck26_X23e <= 25
+-2 count26_X23 + countCheck26_X23s  + countCheck26_X23e  <= 1
+
+X24s + 68 countCheck26_X24s >= 27
+X24e - 68 countCheck26_X24e <= 25
+-2 count26_X24 + countCheck26_X24s  + countCheck26_X24e  <= 1
+
+X25s + 68 countCheck26_X25s >= 27
+X25e - 68 countCheck26_X25e <= 25
+-2 count26_X25 + countCheck26_X25s  + countCheck26_X25e  <= 1
+
+X26s + 68 countCheck26_X26s >= 27
+X26e - 68 countCheck26_X26e <= 25
+-2 count26_X26 + countCheck26_X26s  + countCheck26_X26e  <= 1
+
+X27s + 68 countCheck26_X27s >= 27
+X27e - 68 countCheck26_X27e <= 25
+-2 count26_X27 + countCheck26_X27s  + countCheck26_X27e  <= 1
+
+X28s + 68 countCheck26_X28s >= 27
+X28e - 68 countCheck26_X28e <= 25
+-2 count26_X28 + countCheck26_X28s  + countCheck26_X28e  <= 1
+
+X29s + 68 countCheck26_X29s >= 27
+X29e - 68 countCheck26_X29e <= 25
+-2 count26_X29 + countCheck26_X29s  + countCheck26_X29e  <= 1
+
+X30s + 68 countCheck26_X30s >= 27
+X30e - 68 countCheck26_X30e <= 25
+-2 count26_X30 + countCheck26_X30s  + countCheck26_X30e  <= 1
+
+X31s + 68 countCheck26_X31s >= 27
+X31e - 68 countCheck26_X31e <= 25
+-2 count26_X31 + countCheck26_X31s  + countCheck26_X31e  <= 1
+
+X32s + 68 countCheck26_X32s >= 27
+X32e - 68 countCheck26_X32e <= 25
+-2 count26_X32 + countCheck26_X32s  + countCheck26_X32e  <= 1
+
+X33s + 68 countCheck26_X33s >= 27
+X33e - 68 countCheck26_X33e <= 25
+-2 count26_X33 + countCheck26_X33s  + countCheck26_X33e  <= 1
+
+X34s + 68 countCheck26_X34s >= 27
+X34e - 68 countCheck26_X34e <= 25
+-2 count26_X34 + countCheck26_X34s  + countCheck26_X34e  <= 1
+
+X35s + 68 countCheck26_X35s >= 27
+X35e - 68 countCheck26_X35e <= 25
+-2 count26_X35 + countCheck26_X35s  + countCheck26_X35e  <= 1
+
+X36s + 68 countCheck26_X36s >= 27
+X36e - 68 countCheck26_X36e <= 25
+-2 count26_X36 + countCheck26_X36s  + countCheck26_X36e  <= 1
+
+X37s + 68 countCheck26_X37s >= 27
+X37e - 68 countCheck26_X37e <= 25
+-2 count26_X37 + countCheck26_X37s  + countCheck26_X37e  <= 1
+
+X38s + 68 countCheck26_X38s >= 27
+X38e - 68 countCheck26_X38e <= 25
+-2 count26_X38 + countCheck26_X38s  + countCheck26_X38e  <= 1
+
+X39s + 68 countCheck26_X39s >= 27
+X39e - 68 countCheck26_X39e <= 25
+-2 count26_X39 + countCheck26_X39s  + countCheck26_X39e  <= 1
+
+X40s + 68 countCheck26_X40s >= 27
+X40e - 68 countCheck26_X40e <= 25
+-2 count26_X40 + countCheck26_X40s  + countCheck26_X40e  <= 1
+
+X41s + 68 countCheck26_X41s >= 27
+X41e - 68 countCheck26_X41e <= 25
+-2 count26_X41 + countCheck26_X41s  + countCheck26_X41e  <= 1
+
+X42s + 68 countCheck26_X42s >= 27
+X42e - 68 countCheck26_X42e <= 25
+-2 count26_X42 + countCheck26_X42s  + countCheck26_X42e  <= 1
+
+X43s + 68 countCheck26_X43s >= 27
+X43e - 68 countCheck26_X43e <= 25
+-2 count26_X43 + countCheck26_X43s  + countCheck26_X43e  <= 1
+
+X44s + 68 countCheck26_X44s >= 27
+X44e - 68 countCheck26_X44e <= 25
+-2 count26_X44 + countCheck26_X44s  + countCheck26_X44e  <= 1
+
+X45s + 68 countCheck26_X45s >= 27
+X45e - 68 countCheck26_X45e <= 25
+-2 count26_X45 + countCheck26_X45s  + countCheck26_X45e  <= 1
+
+X46s + 68 countCheck26_X46s >= 27
+X46e - 68 countCheck26_X46e <= 25
+-2 count26_X46 + countCheck26_X46s  + countCheck26_X46e  <= 1
+
+X47s + 68 countCheck26_X47s >= 27
+X47e - 68 countCheck26_X47e <= 25
+-2 count26_X47 + countCheck26_X47s  + countCheck26_X47e  <= 1
+
+X48s + 68 countCheck26_X48s >= 27
+X48e - 68 countCheck26_X48e <= 25
+-2 count26_X48 + countCheck26_X48s  + countCheck26_X48e  <= 1
+
+X49s + 68 countCheck26_X49s >= 27
+X49e - 68 countCheck26_X49e <= 25
+-2 count26_X49 + countCheck26_X49s  + countCheck26_X49e  <= 1
+
+X50s + 68 countCheck26_X50s >= 27
+X50e - 68 countCheck26_X50e <= 25
+-2 count26_X50 + countCheck26_X50s  + countCheck26_X50e  <= 1
+
+X51s + 68 countCheck26_X51s >= 27
+X51e - 68 countCheck26_X51e <= 25
+-2 count26_X51 + countCheck26_X51s  + countCheck26_X51e  <= 1
+
+X52s + 68 countCheck26_X52s >= 27
+X52e - 68 countCheck26_X52e <= 25
+-2 count26_X52 + countCheck26_X52s  + countCheck26_X52e  <= 1
+
+X53s + 68 countCheck26_X53s >= 27
+X53e - 68 countCheck26_X53e <= 25
+-2 count26_X53 + countCheck26_X53s  + countCheck26_X53e  <= 1
+
+X54s + 68 countCheck26_X54s >= 27
+X54e - 68 countCheck26_X54e <= 25
+-2 count26_X54 + countCheck26_X54s  + countCheck26_X54e  <= 1
+
+X55s + 68 countCheck26_X55s >= 27
+X55e - 68 countCheck26_X55e <= 25
+-2 count26_X55 + countCheck26_X55s  + countCheck26_X55e  <= 1
+
+X56s + 68 countCheck26_X56s >= 27
+X56e - 68 countCheck26_X56e <= 25
+-2 count26_X56 + countCheck26_X56s  + countCheck26_X56e  <= 1
+
+X57s + 68 countCheck26_X57s >= 27
+X57e - 68 countCheck26_X57e <= 25
+-2 count26_X57 + countCheck26_X57s  + countCheck26_X57e  <= 1
+
+X58s + 68 countCheck26_X58s >= 27
+X58e - 68 countCheck26_X58e <= 25
+-2 count26_X58 + countCheck26_X58s  + countCheck26_X58e  <= 1
+
+X59s + 68 countCheck26_X59s >= 27
+X59e - 68 countCheck26_X59e <= 25
+-2 count26_X59 + countCheck26_X59s  + countCheck26_X59e  <= 1
+
+X60s + 68 countCheck26_X60s >= 27
+X60e - 68 countCheck26_X60e <= 25
+-2 count26_X60 + countCheck26_X60s  + countCheck26_X60e  <= 1
+
+X61s + 68 countCheck26_X61s >= 27
+X61e - 68 countCheck26_X61e <= 25
+-2 count26_X61 + countCheck26_X61s  + countCheck26_X61e  <= 1
+
+X62s + 68 countCheck26_X62s >= 27
+X62e - 68 countCheck26_X62e <= 25
+-2 count26_X62 + countCheck26_X62s  + countCheck26_X62e  <= 1
+
+X63s + 68 countCheck26_X63s >= 27
+X63e - 68 countCheck26_X63e <= 25
+-2 count26_X63 + countCheck26_X63s  + countCheck26_X63e  <= 1
+
+X64s + 68 countCheck26_X64s >= 27
+X64e - 68 countCheck26_X64e <= 25
+-2 count26_X64 + countCheck26_X64s  + countCheck26_X64e  <= 1
+
+X65s + 68 countCheck26_X65s >= 27
+X65e - 68 countCheck26_X65e <= 25
+-2 count26_X65 + countCheck26_X65s  + countCheck26_X65e  <= 1
+
+X66s + 68 countCheck26_X66s >= 27
+X66e - 68 countCheck26_X66e <= 25
+-2 count26_X66 + countCheck26_X66s  + countCheck26_X66e  <= 1
+
+X67s + 68 countCheck26_X67s >= 27
+X67e - 68 countCheck26_X67e <= 25
+-2 count26_X67 + countCheck26_X67s  + countCheck26_X67e  <= 1
+
+count26_X0 + count26_X1 + count26_X2 + count26_X3 + count26_X4 + count26_X5 + count26_X6 + count26_X7 + count26_X8 + count26_X9 + count26_X10 + count26_X11 + count26_X12 + count26_X13 + count26_X14 + count26_X15 + count26_X16 + count26_X17 + count26_X18 + count26_X19 + count26_X20 + count26_X21 + count26_X22 + count26_X23 + count26_X24 + count26_X25 + count26_X26 + count26_X27 + count26_X28 + count26_X29 + count26_X30 + count26_X31 + count26_X32 + count26_X33 + count26_X34 + count26_X35 + count26_X36 + count26_X37 + count26_X38 + count26_X39 + count26_X40 + count26_X41 + count26_X42 + count26_X43 + count26_X44 + count26_X45 + count26_X46 + count26_X47 + count26_X48 + count26_X49 + count26_X50 + count26_X51 + count26_X52 + count26_X53 + count26_X54 + count26_X55 + count26_X56 + count26_X57 + count26_X58 + count26_X59 + count26_X60 + count26_X61 + count26_X62 + count26_X63 + count26_X64 + count26_X65 + count26_X66 + count26_X67 - pathWidth <= 1
+X0s + 68 countCheck27_X0s >= 28
+X0e - 68 countCheck27_X0e <= 26
+-2 count27_X0 + countCheck27_X0s  + countCheck27_X0e  <= 1
+
+X1s + 68 countCheck27_X1s >= 28
+X1e - 68 countCheck27_X1e <= 26
+-2 count27_X1 + countCheck27_X1s  + countCheck27_X1e  <= 1
+
+X2s + 68 countCheck27_X2s >= 28
+X2e - 68 countCheck27_X2e <= 26
+-2 count27_X2 + countCheck27_X2s  + countCheck27_X2e  <= 1
+
+X3s + 68 countCheck27_X3s >= 28
+X3e - 68 countCheck27_X3e <= 26
+-2 count27_X3 + countCheck27_X3s  + countCheck27_X3e  <= 1
+
+X4s + 68 countCheck27_X4s >= 28
+X4e - 68 countCheck27_X4e <= 26
+-2 count27_X4 + countCheck27_X4s  + countCheck27_X4e  <= 1
+
+X5s + 68 countCheck27_X5s >= 28
+X5e - 68 countCheck27_X5e <= 26
+-2 count27_X5 + countCheck27_X5s  + countCheck27_X5e  <= 1
+
+X6s + 68 countCheck27_X6s >= 28
+X6e - 68 countCheck27_X6e <= 26
+-2 count27_X6 + countCheck27_X6s  + countCheck27_X6e  <= 1
+
+X7s + 68 countCheck27_X7s >= 28
+X7e - 68 countCheck27_X7e <= 26
+-2 count27_X7 + countCheck27_X7s  + countCheck27_X7e  <= 1
+
+X8s + 68 countCheck27_X8s >= 28
+X8e - 68 countCheck27_X8e <= 26
+-2 count27_X8 + countCheck27_X8s  + countCheck27_X8e  <= 1
+
+X9s + 68 countCheck27_X9s >= 28
+X9e - 68 countCheck27_X9e <= 26
+-2 count27_X9 + countCheck27_X9s  + countCheck27_X9e  <= 1
+
+X10s + 68 countCheck27_X10s >= 28
+X10e - 68 countCheck27_X10e <= 26
+-2 count27_X10 + countCheck27_X10s  + countCheck27_X10e  <= 1
+
+X11s + 68 countCheck27_X11s >= 28
+X11e - 68 countCheck27_X11e <= 26
+-2 count27_X11 + countCheck27_X11s  + countCheck27_X11e  <= 1
+
+X12s + 68 countCheck27_X12s >= 28
+X12e - 68 countCheck27_X12e <= 26
+-2 count27_X12 + countCheck27_X12s  + countCheck27_X12e  <= 1
+
+X13s + 68 countCheck27_X13s >= 28
+X13e - 68 countCheck27_X13e <= 26
+-2 count27_X13 + countCheck27_X13s  + countCheck27_X13e  <= 1
+
+X14s + 68 countCheck27_X14s >= 28
+X14e - 68 countCheck27_X14e <= 26
+-2 count27_X14 + countCheck27_X14s  + countCheck27_X14e  <= 1
+
+X15s + 68 countCheck27_X15s >= 28
+X15e - 68 countCheck27_X15e <= 26
+-2 count27_X15 + countCheck27_X15s  + countCheck27_X15e  <= 1
+
+X16s + 68 countCheck27_X16s >= 28
+X16e - 68 countCheck27_X16e <= 26
+-2 count27_X16 + countCheck27_X16s  + countCheck27_X16e  <= 1
+
+X17s + 68 countCheck27_X17s >= 28
+X17e - 68 countCheck27_X17e <= 26
+-2 count27_X17 + countCheck27_X17s  + countCheck27_X17e  <= 1
+
+X18s + 68 countCheck27_X18s >= 28
+X18e - 68 countCheck27_X18e <= 26
+-2 count27_X18 + countCheck27_X18s  + countCheck27_X18e  <= 1
+
+X19s + 68 countCheck27_X19s >= 28
+X19e - 68 countCheck27_X19e <= 26
+-2 count27_X19 + countCheck27_X19s  + countCheck27_X19e  <= 1
+
+X20s + 68 countCheck27_X20s >= 28
+X20e - 68 countCheck27_X20e <= 26
+-2 count27_X20 + countCheck27_X20s  + countCheck27_X20e  <= 1
+
+X21s + 68 countCheck27_X21s >= 28
+X21e - 68 countCheck27_X21e <= 26
+-2 count27_X21 + countCheck27_X21s  + countCheck27_X21e  <= 1
+
+X22s + 68 countCheck27_X22s >= 28
+X22e - 68 countCheck27_X22e <= 26
+-2 count27_X22 + countCheck27_X22s  + countCheck27_X22e  <= 1
+
+X23s + 68 countCheck27_X23s >= 28
+X23e - 68 countCheck27_X23e <= 26
+-2 count27_X23 + countCheck27_X23s  + countCheck27_X23e  <= 1
+
+X24s + 68 countCheck27_X24s >= 28
+X24e - 68 countCheck27_X24e <= 26
+-2 count27_X24 + countCheck27_X24s  + countCheck27_X24e  <= 1
+
+X25s + 68 countCheck27_X25s >= 28
+X25e - 68 countCheck27_X25e <= 26
+-2 count27_X25 + countCheck27_X25s  + countCheck27_X25e  <= 1
+
+X26s + 68 countCheck27_X26s >= 28
+X26e - 68 countCheck27_X26e <= 26
+-2 count27_X26 + countCheck27_X26s  + countCheck27_X26e  <= 1
+
+X27s + 68 countCheck27_X27s >= 28
+X27e - 68 countCheck27_X27e <= 26
+-2 count27_X27 + countCheck27_X27s  + countCheck27_X27e  <= 1
+
+X28s + 68 countCheck27_X28s >= 28
+X28e - 68 countCheck27_X28e <= 26
+-2 count27_X28 + countCheck27_X28s  + countCheck27_X28e  <= 1
+
+X29s + 68 countCheck27_X29s >= 28
+X29e - 68 countCheck27_X29e <= 26
+-2 count27_X29 + countCheck27_X29s  + countCheck27_X29e  <= 1
+
+X30s + 68 countCheck27_X30s >= 28
+X30e - 68 countCheck27_X30e <= 26
+-2 count27_X30 + countCheck27_X30s  + countCheck27_X30e  <= 1
+
+X31s + 68 countCheck27_X31s >= 28
+X31e - 68 countCheck27_X31e <= 26
+-2 count27_X31 + countCheck27_X31s  + countCheck27_X31e  <= 1
+
+X32s + 68 countCheck27_X32s >= 28
+X32e - 68 countCheck27_X32e <= 26
+-2 count27_X32 + countCheck27_X32s  + countCheck27_X32e  <= 1
+
+X33s + 68 countCheck27_X33s >= 28
+X33e - 68 countCheck27_X33e <= 26
+-2 count27_X33 + countCheck27_X33s  + countCheck27_X33e  <= 1
+
+X34s + 68 countCheck27_X34s >= 28
+X34e - 68 countCheck27_X34e <= 26
+-2 count27_X34 + countCheck27_X34s  + countCheck27_X34e  <= 1
+
+X35s + 68 countCheck27_X35s >= 28
+X35e - 68 countCheck27_X35e <= 26
+-2 count27_X35 + countCheck27_X35s  + countCheck27_X35e  <= 1
+
+X36s + 68 countCheck27_X36s >= 28
+X36e - 68 countCheck27_X36e <= 26
+-2 count27_X36 + countCheck27_X36s  + countCheck27_X36e  <= 1
+
+X37s + 68 countCheck27_X37s >= 28
+X37e - 68 countCheck27_X37e <= 26
+-2 count27_X37 + countCheck27_X37s  + countCheck27_X37e  <= 1
+
+X38s + 68 countCheck27_X38s >= 28
+X38e - 68 countCheck27_X38e <= 26
+-2 count27_X38 + countCheck27_X38s  + countCheck27_X38e  <= 1
+
+X39s + 68 countCheck27_X39s >= 28
+X39e - 68 countCheck27_X39e <= 26
+-2 count27_X39 + countCheck27_X39s  + countCheck27_X39e  <= 1
+
+X40s + 68 countCheck27_X40s >= 28
+X40e - 68 countCheck27_X40e <= 26
+-2 count27_X40 + countCheck27_X40s  + countCheck27_X40e  <= 1
+
+X41s + 68 countCheck27_X41s >= 28
+X41e - 68 countCheck27_X41e <= 26
+-2 count27_X41 + countCheck27_X41s  + countCheck27_X41e  <= 1
+
+X42s + 68 countCheck27_X42s >= 28
+X42e - 68 countCheck27_X42e <= 26
+-2 count27_X42 + countCheck27_X42s  + countCheck27_X42e  <= 1
+
+X43s + 68 countCheck27_X43s >= 28
+X43e - 68 countCheck27_X43e <= 26
+-2 count27_X43 + countCheck27_X43s  + countCheck27_X43e  <= 1
+
+X44s + 68 countCheck27_X44s >= 28
+X44e - 68 countCheck27_X44e <= 26
+-2 count27_X44 + countCheck27_X44s  + countCheck27_X44e  <= 1
+
+X45s + 68 countCheck27_X45s >= 28
+X45e - 68 countCheck27_X45e <= 26
+-2 count27_X45 + countCheck27_X45s  + countCheck27_X45e  <= 1
+
+X46s + 68 countCheck27_X46s >= 28
+X46e - 68 countCheck27_X46e <= 26
+-2 count27_X46 + countCheck27_X46s  + countCheck27_X46e  <= 1
+
+X47s + 68 countCheck27_X47s >= 28
+X47e - 68 countCheck27_X47e <= 26
+-2 count27_X47 + countCheck27_X47s  + countCheck27_X47e  <= 1
+
+X48s + 68 countCheck27_X48s >= 28
+X48e - 68 countCheck27_X48e <= 26
+-2 count27_X48 + countCheck27_X48s  + countCheck27_X48e  <= 1
+
+X49s + 68 countCheck27_X49s >= 28
+X49e - 68 countCheck27_X49e <= 26
+-2 count27_X49 + countCheck27_X49s  + countCheck27_X49e  <= 1
+
+X50s + 68 countCheck27_X50s >= 28
+X50e - 68 countCheck27_X50e <= 26
+-2 count27_X50 + countCheck27_X50s  + countCheck27_X50e  <= 1
+
+X51s + 68 countCheck27_X51s >= 28
+X51e - 68 countCheck27_X51e <= 26
+-2 count27_X51 + countCheck27_X51s  + countCheck27_X51e  <= 1
+
+X52s + 68 countCheck27_X52s >= 28
+X52e - 68 countCheck27_X52e <= 26
+-2 count27_X52 + countCheck27_X52s  + countCheck27_X52e  <= 1
+
+X53s + 68 countCheck27_X53s >= 28
+X53e - 68 countCheck27_X53e <= 26
+-2 count27_X53 + countCheck27_X53s  + countCheck27_X53e  <= 1
+
+X54s + 68 countCheck27_X54s >= 28
+X54e - 68 countCheck27_X54e <= 26
+-2 count27_X54 + countCheck27_X54s  + countCheck27_X54e  <= 1
+
+X55s + 68 countCheck27_X55s >= 28
+X55e - 68 countCheck27_X55e <= 26
+-2 count27_X55 + countCheck27_X55s  + countCheck27_X55e  <= 1
+
+X56s + 68 countCheck27_X56s >= 28
+X56e - 68 countCheck27_X56e <= 26
+-2 count27_X56 + countCheck27_X56s  + countCheck27_X56e  <= 1
+
+X57s + 68 countCheck27_X57s >= 28
+X57e - 68 countCheck27_X57e <= 26
+-2 count27_X57 + countCheck27_X57s  + countCheck27_X57e  <= 1
+
+X58s + 68 countCheck27_X58s >= 28
+X58e - 68 countCheck27_X58e <= 26
+-2 count27_X58 + countCheck27_X58s  + countCheck27_X58e  <= 1
+
+X59s + 68 countCheck27_X59s >= 28
+X59e - 68 countCheck27_X59e <= 26
+-2 count27_X59 + countCheck27_X59s  + countCheck27_X59e  <= 1
+
+X60s + 68 countCheck27_X60s >= 28
+X60e - 68 countCheck27_X60e <= 26
+-2 count27_X60 + countCheck27_X60s  + countCheck27_X60e  <= 1
+
+X61s + 68 countCheck27_X61s >= 28
+X61e - 68 countCheck27_X61e <= 26
+-2 count27_X61 + countCheck27_X61s  + countCheck27_X61e  <= 1
+
+X62s + 68 countCheck27_X62s >= 28
+X62e - 68 countCheck27_X62e <= 26
+-2 count27_X62 + countCheck27_X62s  + countCheck27_X62e  <= 1
+
+X63s + 68 countCheck27_X63s >= 28
+X63e - 68 countCheck27_X63e <= 26
+-2 count27_X63 + countCheck27_X63s  + countCheck27_X63e  <= 1
+
+X64s + 68 countCheck27_X64s >= 28
+X64e - 68 countCheck27_X64e <= 26
+-2 count27_X64 + countCheck27_X64s  + countCheck27_X64e  <= 1
+
+X65s + 68 countCheck27_X65s >= 28
+X65e - 68 countCheck27_X65e <= 26
+-2 count27_X65 + countCheck27_X65s  + countCheck27_X65e  <= 1
+
+X66s + 68 countCheck27_X66s >= 28
+X66e - 68 countCheck27_X66e <= 26
+-2 count27_X66 + countCheck27_X66s  + countCheck27_X66e  <= 1
+
+X67s + 68 countCheck27_X67s >= 28
+X67e - 68 countCheck27_X67e <= 26
+-2 count27_X67 + countCheck27_X67s  + countCheck27_X67e  <= 1
+
+count27_X0 + count27_X1 + count27_X2 + count27_X3 + count27_X4 + count27_X5 + count27_X6 + count27_X7 + count27_X8 + count27_X9 + count27_X10 + count27_X11 + count27_X12 + count27_X13 + count27_X14 + count27_X15 + count27_X16 + count27_X17 + count27_X18 + count27_X19 + count27_X20 + count27_X21 + count27_X22 + count27_X23 + count27_X24 + count27_X25 + count27_X26 + count27_X27 + count27_X28 + count27_X29 + count27_X30 + count27_X31 + count27_X32 + count27_X33 + count27_X34 + count27_X35 + count27_X36 + count27_X37 + count27_X38 + count27_X39 + count27_X40 + count27_X41 + count27_X42 + count27_X43 + count27_X44 + count27_X45 + count27_X46 + count27_X47 + count27_X48 + count27_X49 + count27_X50 + count27_X51 + count27_X52 + count27_X53 + count27_X54 + count27_X55 + count27_X56 + count27_X57 + count27_X58 + count27_X59 + count27_X60 + count27_X61 + count27_X62 + count27_X63 + count27_X64 + count27_X65 + count27_X66 + count27_X67 - pathWidth <= 1
+X0s + 68 countCheck28_X0s >= 29
+X0e - 68 countCheck28_X0e <= 27
+-2 count28_X0 + countCheck28_X0s  + countCheck28_X0e  <= 1
+
+X1s + 68 countCheck28_X1s >= 29
+X1e - 68 countCheck28_X1e <= 27
+-2 count28_X1 + countCheck28_X1s  + countCheck28_X1e  <= 1
+
+X2s + 68 countCheck28_X2s >= 29
+X2e - 68 countCheck28_X2e <= 27
+-2 count28_X2 + countCheck28_X2s  + countCheck28_X2e  <= 1
+
+X3s + 68 countCheck28_X3s >= 29
+X3e - 68 countCheck28_X3e <= 27
+-2 count28_X3 + countCheck28_X3s  + countCheck28_X3e  <= 1
+
+X4s + 68 countCheck28_X4s >= 29
+X4e - 68 countCheck28_X4e <= 27
+-2 count28_X4 + countCheck28_X4s  + countCheck28_X4e  <= 1
+
+X5s + 68 countCheck28_X5s >= 29
+X5e - 68 countCheck28_X5e <= 27
+-2 count28_X5 + countCheck28_X5s  + countCheck28_X5e  <= 1
+
+X6s + 68 countCheck28_X6s >= 29
+X6e - 68 countCheck28_X6e <= 27
+-2 count28_X6 + countCheck28_X6s  + countCheck28_X6e  <= 1
+
+X7s + 68 countCheck28_X7s >= 29
+X7e - 68 countCheck28_X7e <= 27
+-2 count28_X7 + countCheck28_X7s  + countCheck28_X7e  <= 1
+
+X8s + 68 countCheck28_X8s >= 29
+X8e - 68 countCheck28_X8e <= 27
+-2 count28_X8 + countCheck28_X8s  + countCheck28_X8e  <= 1
+
+X9s + 68 countCheck28_X9s >= 29
+X9e - 68 countCheck28_X9e <= 27
+-2 count28_X9 + countCheck28_X9s  + countCheck28_X9e  <= 1
+
+X10s + 68 countCheck28_X10s >= 29
+X10e - 68 countCheck28_X10e <= 27
+-2 count28_X10 + countCheck28_X10s  + countCheck28_X10e  <= 1
+
+X11s + 68 countCheck28_X11s >= 29
+X11e - 68 countCheck28_X11e <= 27
+-2 count28_X11 + countCheck28_X11s  + countCheck28_X11e  <= 1
+
+X12s + 68 countCheck28_X12s >= 29
+X12e - 68 countCheck28_X12e <= 27
+-2 count28_X12 + countCheck28_X12s  + countCheck28_X12e  <= 1
+
+X13s + 68 countCheck28_X13s >= 29
+X13e - 68 countCheck28_X13e <= 27
+-2 count28_X13 + countCheck28_X13s  + countCheck28_X13e  <= 1
+
+X14s + 68 countCheck28_X14s >= 29
+X14e - 68 countCheck28_X14e <= 27
+-2 count28_X14 + countCheck28_X14s  + countCheck28_X14e  <= 1
+
+X15s + 68 countCheck28_X15s >= 29
+X15e - 68 countCheck28_X15e <= 27
+-2 count28_X15 + countCheck28_X15s  + countCheck28_X15e  <= 1
+
+X16s + 68 countCheck28_X16s >= 29
+X16e - 68 countCheck28_X16e <= 27
+-2 count28_X16 + countCheck28_X16s  + countCheck28_X16e  <= 1
+
+X17s + 68 countCheck28_X17s >= 29
+X17e - 68 countCheck28_X17e <= 27
+-2 count28_X17 + countCheck28_X17s  + countCheck28_X17e  <= 1
+
+X18s + 68 countCheck28_X18s >= 29
+X18e - 68 countCheck28_X18e <= 27
+-2 count28_X18 + countCheck28_X18s  + countCheck28_X18e  <= 1
+
+X19s + 68 countCheck28_X19s >= 29
+X19e - 68 countCheck28_X19e <= 27
+-2 count28_X19 + countCheck28_X19s  + countCheck28_X19e  <= 1
+
+X20s + 68 countCheck28_X20s >= 29
+X20e - 68 countCheck28_X20e <= 27
+-2 count28_X20 + countCheck28_X20s  + countCheck28_X20e  <= 1
+
+X21s + 68 countCheck28_X21s >= 29
+X21e - 68 countCheck28_X21e <= 27
+-2 count28_X21 + countCheck28_X21s  + countCheck28_X21e  <= 1
+
+X22s + 68 countCheck28_X22s >= 29
+X22e - 68 countCheck28_X22e <= 27
+-2 count28_X22 + countCheck28_X22s  + countCheck28_X22e  <= 1
+
+X23s + 68 countCheck28_X23s >= 29
+X23e - 68 countCheck28_X23e <= 27
+-2 count28_X23 + countCheck28_X23s  + countCheck28_X23e  <= 1
+
+X24s + 68 countCheck28_X24s >= 29
+X24e - 68 countCheck28_X24e <= 27
+-2 count28_X24 + countCheck28_X24s  + countCheck28_X24e  <= 1
+
+X25s + 68 countCheck28_X25s >= 29
+X25e - 68 countCheck28_X25e <= 27
+-2 count28_X25 + countCheck28_X25s  + countCheck28_X25e  <= 1
+
+X26s + 68 countCheck28_X26s >= 29
+X26e - 68 countCheck28_X26e <= 27
+-2 count28_X26 + countCheck28_X26s  + countCheck28_X26e  <= 1
+
+X27s + 68 countCheck28_X27s >= 29
+X27e - 68 countCheck28_X27e <= 27
+-2 count28_X27 + countCheck28_X27s  + countCheck28_X27e  <= 1
+
+X28s + 68 countCheck28_X28s >= 29
+X28e - 68 countCheck28_X28e <= 27
+-2 count28_X28 + countCheck28_X28s  + countCheck28_X28e  <= 1
+
+X29s + 68 countCheck28_X29s >= 29
+X29e - 68 countCheck28_X29e <= 27
+-2 count28_X29 + countCheck28_X29s  + countCheck28_X29e  <= 1
+
+X30s + 68 countCheck28_X30s >= 29
+X30e - 68 countCheck28_X30e <= 27
+-2 count28_X30 + countCheck28_X30s  + countCheck28_X30e  <= 1
+
+X31s + 68 countCheck28_X31s >= 29
+X31e - 68 countCheck28_X31e <= 27
+-2 count28_X31 + countCheck28_X31s  + countCheck28_X31e  <= 1
+
+X32s + 68 countCheck28_X32s >= 29
+X32e - 68 countCheck28_X32e <= 27
+-2 count28_X32 + countCheck28_X32s  + countCheck28_X32e  <= 1
+
+X33s + 68 countCheck28_X33s >= 29
+X33e - 68 countCheck28_X33e <= 27
+-2 count28_X33 + countCheck28_X33s  + countCheck28_X33e  <= 1
+
+X34s + 68 countCheck28_X34s >= 29
+X34e - 68 countCheck28_X34e <= 27
+-2 count28_X34 + countCheck28_X34s  + countCheck28_X34e  <= 1
+
+X35s + 68 countCheck28_X35s >= 29
+X35e - 68 countCheck28_X35e <= 27
+-2 count28_X35 + countCheck28_X35s  + countCheck28_X35e  <= 1
+
+X36s + 68 countCheck28_X36s >= 29
+X36e - 68 countCheck28_X36e <= 27
+-2 count28_X36 + countCheck28_X36s  + countCheck28_X36e  <= 1
+
+X37s + 68 countCheck28_X37s >= 29
+X37e - 68 countCheck28_X37e <= 27
+-2 count28_X37 + countCheck28_X37s  + countCheck28_X37e  <= 1
+
+X38s + 68 countCheck28_X38s >= 29
+X38e - 68 countCheck28_X38e <= 27
+-2 count28_X38 + countCheck28_X38s  + countCheck28_X38e  <= 1
+
+X39s + 68 countCheck28_X39s >= 29
+X39e - 68 countCheck28_X39e <= 27
+-2 count28_X39 + countCheck28_X39s  + countCheck28_X39e  <= 1
+
+X40s + 68 countCheck28_X40s >= 29
+X40e - 68 countCheck28_X40e <= 27
+-2 count28_X40 + countCheck28_X40s  + countCheck28_X40e  <= 1
+
+X41s + 68 countCheck28_X41s >= 29
+X41e - 68 countCheck28_X41e <= 27
+-2 count28_X41 + countCheck28_X41s  + countCheck28_X41e  <= 1
+
+X42s + 68 countCheck28_X42s >= 29
+X42e - 68 countCheck28_X42e <= 27
+-2 count28_X42 + countCheck28_X42s  + countCheck28_X42e  <= 1
+
+X43s + 68 countCheck28_X43s >= 29
+X43e - 68 countCheck28_X43e <= 27
+-2 count28_X43 + countCheck28_X43s  + countCheck28_X43e  <= 1
+
+X44s + 68 countCheck28_X44s >= 29
+X44e - 68 countCheck28_X44e <= 27
+-2 count28_X44 + countCheck28_X44s  + countCheck28_X44e  <= 1
+
+X45s + 68 countCheck28_X45s >= 29
+X45e - 68 countCheck28_X45e <= 27
+-2 count28_X45 + countCheck28_X45s  + countCheck28_X45e  <= 1
+
+X46s + 68 countCheck28_X46s >= 29
+X46e - 68 countCheck28_X46e <= 27
+-2 count28_X46 + countCheck28_X46s  + countCheck28_X46e  <= 1
+
+X47s + 68 countCheck28_X47s >= 29
+X47e - 68 countCheck28_X47e <= 27
+-2 count28_X47 + countCheck28_X47s  + countCheck28_X47e  <= 1
+
+X48s + 68 countCheck28_X48s >= 29
+X48e - 68 countCheck28_X48e <= 27
+-2 count28_X48 + countCheck28_X48s  + countCheck28_X48e  <= 1
+
+X49s + 68 countCheck28_X49s >= 29
+X49e - 68 countCheck28_X49e <= 27
+-2 count28_X49 + countCheck28_X49s  + countCheck28_X49e  <= 1
+
+X50s + 68 countCheck28_X50s >= 29
+X50e - 68 countCheck28_X50e <= 27
+-2 count28_X50 + countCheck28_X50s  + countCheck28_X50e  <= 1
+
+X51s + 68 countCheck28_X51s >= 29
+X51e - 68 countCheck28_X51e <= 27
+-2 count28_X51 + countCheck28_X51s  + countCheck28_X51e  <= 1
+
+X52s + 68 countCheck28_X52s >= 29
+X52e - 68 countCheck28_X52e <= 27
+-2 count28_X52 + countCheck28_X52s  + countCheck28_X52e  <= 1
+
+X53s + 68 countCheck28_X53s >= 29
+X53e - 68 countCheck28_X53e <= 27
+-2 count28_X53 + countCheck28_X53s  + countCheck28_X53e  <= 1
+
+X54s + 68 countCheck28_X54s >= 29
+X54e - 68 countCheck28_X54e <= 27
+-2 count28_X54 + countCheck28_X54s  + countCheck28_X54e  <= 1
+
+X55s + 68 countCheck28_X55s >= 29
+X55e - 68 countCheck28_X55e <= 27
+-2 count28_X55 + countCheck28_X55s  + countCheck28_X55e  <= 1
+
+X56s + 68 countCheck28_X56s >= 29
+X56e - 68 countCheck28_X56e <= 27
+-2 count28_X56 + countCheck28_X56s  + countCheck28_X56e  <= 1
+
+X57s + 68 countCheck28_X57s >= 29
+X57e - 68 countCheck28_X57e <= 27
+-2 count28_X57 + countCheck28_X57s  + countCheck28_X57e  <= 1
+
+X58s + 68 countCheck28_X58s >= 29
+X58e - 68 countCheck28_X58e <= 27
+-2 count28_X58 + countCheck28_X58s  + countCheck28_X58e  <= 1
+
+X59s + 68 countCheck28_X59s >= 29
+X59e - 68 countCheck28_X59e <= 27
+-2 count28_X59 + countCheck28_X59s  + countCheck28_X59e  <= 1
+
+X60s + 68 countCheck28_X60s >= 29
+X60e - 68 countCheck28_X60e <= 27
+-2 count28_X60 + countCheck28_X60s  + countCheck28_X60e  <= 1
+
+X61s + 68 countCheck28_X61s >= 29
+X61e - 68 countCheck28_X61e <= 27
+-2 count28_X61 + countCheck28_X61s  + countCheck28_X61e  <= 1
+
+X62s + 68 countCheck28_X62s >= 29
+X62e - 68 countCheck28_X62e <= 27
+-2 count28_X62 + countCheck28_X62s  + countCheck28_X62e  <= 1
+
+X63s + 68 countCheck28_X63s >= 29
+X63e - 68 countCheck28_X63e <= 27
+-2 count28_X63 + countCheck28_X63s  + countCheck28_X63e  <= 1
+
+X64s + 68 countCheck28_X64s >= 29
+X64e - 68 countCheck28_X64e <= 27
+-2 count28_X64 + countCheck28_X64s  + countCheck28_X64e  <= 1
+
+X65s + 68 countCheck28_X65s >= 29
+X65e - 68 countCheck28_X65e <= 27
+-2 count28_X65 + countCheck28_X65s  + countCheck28_X65e  <= 1
+
+X66s + 68 countCheck28_X66s >= 29
+X66e - 68 countCheck28_X66e <= 27
+-2 count28_X66 + countCheck28_X66s  + countCheck28_X66e  <= 1
+
+X67s + 68 countCheck28_X67s >= 29
+X67e - 68 countCheck28_X67e <= 27
+-2 count28_X67 + countCheck28_X67s  + countCheck28_X67e  <= 1
+
+count28_X0 + count28_X1 + count28_X2 + count28_X3 + count28_X4 + count28_X5 + count28_X6 + count28_X7 + count28_X8 + count28_X9 + count28_X10 + count28_X11 + count28_X12 + count28_X13 + count28_X14 + count28_X15 + count28_X16 + count28_X17 + count28_X18 + count28_X19 + count28_X20 + count28_X21 + count28_X22 + count28_X23 + count28_X24 + count28_X25 + count28_X26 + count28_X27 + count28_X28 + count28_X29 + count28_X30 + count28_X31 + count28_X32 + count28_X33 + count28_X34 + count28_X35 + count28_X36 + count28_X37 + count28_X38 + count28_X39 + count28_X40 + count28_X41 + count28_X42 + count28_X43 + count28_X44 + count28_X45 + count28_X46 + count28_X47 + count28_X48 + count28_X49 + count28_X50 + count28_X51 + count28_X52 + count28_X53 + count28_X54 + count28_X55 + count28_X56 + count28_X57 + count28_X58 + count28_X59 + count28_X60 + count28_X61 + count28_X62 + count28_X63 + count28_X64 + count28_X65 + count28_X66 + count28_X67 - pathWidth <= 1
+X0s + 68 countCheck29_X0s >= 30
+X0e - 68 countCheck29_X0e <= 28
+-2 count29_X0 + countCheck29_X0s  + countCheck29_X0e  <= 1
+
+X1s + 68 countCheck29_X1s >= 30
+X1e - 68 countCheck29_X1e <= 28
+-2 count29_X1 + countCheck29_X1s  + countCheck29_X1e  <= 1
+
+X2s + 68 countCheck29_X2s >= 30
+X2e - 68 countCheck29_X2e <= 28
+-2 count29_X2 + countCheck29_X2s  + countCheck29_X2e  <= 1
+
+X3s + 68 countCheck29_X3s >= 30
+X3e - 68 countCheck29_X3e <= 28
+-2 count29_X3 + countCheck29_X3s  + countCheck29_X3e  <= 1
+
+X4s + 68 countCheck29_X4s >= 30
+X4e - 68 countCheck29_X4e <= 28
+-2 count29_X4 + countCheck29_X4s  + countCheck29_X4e  <= 1
+
+X5s + 68 countCheck29_X5s >= 30
+X5e - 68 countCheck29_X5e <= 28
+-2 count29_X5 + countCheck29_X5s  + countCheck29_X5e  <= 1
+
+X6s + 68 countCheck29_X6s >= 30
+X6e - 68 countCheck29_X6e <= 28
+-2 count29_X6 + countCheck29_X6s  + countCheck29_X6e  <= 1
+
+X7s + 68 countCheck29_X7s >= 30
+X7e - 68 countCheck29_X7e <= 28
+-2 count29_X7 + countCheck29_X7s  + countCheck29_X7e  <= 1
+
+X8s + 68 countCheck29_X8s >= 30
+X8e - 68 countCheck29_X8e <= 28
+-2 count29_X8 + countCheck29_X8s  + countCheck29_X8e  <= 1
+
+X9s + 68 countCheck29_X9s >= 30
+X9e - 68 countCheck29_X9e <= 28
+-2 count29_X9 + countCheck29_X9s  + countCheck29_X9e  <= 1
+
+X10s + 68 countCheck29_X10s >= 30
+X10e - 68 countCheck29_X10e <= 28
+-2 count29_X10 + countCheck29_X10s  + countCheck29_X10e  <= 1
+
+X11s + 68 countCheck29_X11s >= 30
+X11e - 68 countCheck29_X11e <= 28
+-2 count29_X11 + countCheck29_X11s  + countCheck29_X11e  <= 1
+
+X12s + 68 countCheck29_X12s >= 30
+X12e - 68 countCheck29_X12e <= 28
+-2 count29_X12 + countCheck29_X12s  + countCheck29_X12e  <= 1
+
+X13s + 68 countCheck29_X13s >= 30
+X13e - 68 countCheck29_X13e <= 28
+-2 count29_X13 + countCheck29_X13s  + countCheck29_X13e  <= 1
+
+X14s + 68 countCheck29_X14s >= 30
+X14e - 68 countCheck29_X14e <= 28
+-2 count29_X14 + countCheck29_X14s  + countCheck29_X14e  <= 1
+
+X15s + 68 countCheck29_X15s >= 30
+X15e - 68 countCheck29_X15e <= 28
+-2 count29_X15 + countCheck29_X15s  + countCheck29_X15e  <= 1
+
+X16s + 68 countCheck29_X16s >= 30
+X16e - 68 countCheck29_X16e <= 28
+-2 count29_X16 + countCheck29_X16s  + countCheck29_X16e  <= 1
+
+X17s + 68 countCheck29_X17s >= 30
+X17e - 68 countCheck29_X17e <= 28
+-2 count29_X17 + countCheck29_X17s  + countCheck29_X17e  <= 1
+
+X18s + 68 countCheck29_X18s >= 30
+X18e - 68 countCheck29_X18e <= 28
+-2 count29_X18 + countCheck29_X18s  + countCheck29_X18e  <= 1
+
+X19s + 68 countCheck29_X19s >= 30
+X19e - 68 countCheck29_X19e <= 28
+-2 count29_X19 + countCheck29_X19s  + countCheck29_X19e  <= 1
+
+X20s + 68 countCheck29_X20s >= 30
+X20e - 68 countCheck29_X20e <= 28
+-2 count29_X20 + countCheck29_X20s  + countCheck29_X20e  <= 1
+
+X21s + 68 countCheck29_X21s >= 30
+X21e - 68 countCheck29_X21e <= 28
+-2 count29_X21 + countCheck29_X21s  + countCheck29_X21e  <= 1
+
+X22s + 68 countCheck29_X22s >= 30
+X22e - 68 countCheck29_X22e <= 28
+-2 count29_X22 + countCheck29_X22s  + countCheck29_X22e  <= 1
+
+X23s + 68 countCheck29_X23s >= 30
+X23e - 68 countCheck29_X23e <= 28
+-2 count29_X23 + countCheck29_X23s  + countCheck29_X23e  <= 1
+
+X24s + 68 countCheck29_X24s >= 30
+X24e - 68 countCheck29_X24e <= 28
+-2 count29_X24 + countCheck29_X24s  + countCheck29_X24e  <= 1
+
+X25s + 68 countCheck29_X25s >= 30
+X25e - 68 countCheck29_X25e <= 28
+-2 count29_X25 + countCheck29_X25s  + countCheck29_X25e  <= 1
+
+X26s + 68 countCheck29_X26s >= 30
+X26e - 68 countCheck29_X26e <= 28
+-2 count29_X26 + countCheck29_X26s  + countCheck29_X26e  <= 1
+
+X27s + 68 countCheck29_X27s >= 30
+X27e - 68 countCheck29_X27e <= 28
+-2 count29_X27 + countCheck29_X27s  + countCheck29_X27e  <= 1
+
+X28s + 68 countCheck29_X28s >= 30
+X28e - 68 countCheck29_X28e <= 28
+-2 count29_X28 + countCheck29_X28s  + countCheck29_X28e  <= 1
+
+X29s + 68 countCheck29_X29s >= 30
+X29e - 68 countCheck29_X29e <= 28
+-2 count29_X29 + countCheck29_X29s  + countCheck29_X29e  <= 1
+
+X30s + 68 countCheck29_X30s >= 30
+X30e - 68 countCheck29_X30e <= 28
+-2 count29_X30 + countCheck29_X30s  + countCheck29_X30e  <= 1
+
+X31s + 68 countCheck29_X31s >= 30
+X31e - 68 countCheck29_X31e <= 28
+-2 count29_X31 + countCheck29_X31s  + countCheck29_X31e  <= 1
+
+X32s + 68 countCheck29_X32s >= 30
+X32e - 68 countCheck29_X32e <= 28
+-2 count29_X32 + countCheck29_X32s  + countCheck29_X32e  <= 1
+
+X33s + 68 countCheck29_X33s >= 30
+X33e - 68 countCheck29_X33e <= 28
+-2 count29_X33 + countCheck29_X33s  + countCheck29_X33e  <= 1
+
+X34s + 68 countCheck29_X34s >= 30
+X34e - 68 countCheck29_X34e <= 28
+-2 count29_X34 + countCheck29_X34s  + countCheck29_X34e  <= 1
+
+X35s + 68 countCheck29_X35s >= 30
+X35e - 68 countCheck29_X35e <= 28
+-2 count29_X35 + countCheck29_X35s  + countCheck29_X35e  <= 1
+
+X36s + 68 countCheck29_X36s >= 30
+X36e - 68 countCheck29_X36e <= 28
+-2 count29_X36 + countCheck29_X36s  + countCheck29_X36e  <= 1
+
+X37s + 68 countCheck29_X37s >= 30
+X37e - 68 countCheck29_X37e <= 28
+-2 count29_X37 + countCheck29_X37s  + countCheck29_X37e  <= 1
+
+X38s + 68 countCheck29_X38s >= 30
+X38e - 68 countCheck29_X38e <= 28
+-2 count29_X38 + countCheck29_X38s  + countCheck29_X38e  <= 1
+
+X39s + 68 countCheck29_X39s >= 30
+X39e - 68 countCheck29_X39e <= 28
+-2 count29_X39 + countCheck29_X39s  + countCheck29_X39e  <= 1
+
+X40s + 68 countCheck29_X40s >= 30
+X40e - 68 countCheck29_X40e <= 28
+-2 count29_X40 + countCheck29_X40s  + countCheck29_X40e  <= 1
+
+X41s + 68 countCheck29_X41s >= 30
+X41e - 68 countCheck29_X41e <= 28
+-2 count29_X41 + countCheck29_X41s  + countCheck29_X41e  <= 1
+
+X42s + 68 countCheck29_X42s >= 30
+X42e - 68 countCheck29_X42e <= 28
+-2 count29_X42 + countCheck29_X42s  + countCheck29_X42e  <= 1
+
+X43s + 68 countCheck29_X43s >= 30
+X43e - 68 countCheck29_X43e <= 28
+-2 count29_X43 + countCheck29_X43s  + countCheck29_X43e  <= 1
+
+X44s + 68 countCheck29_X44s >= 30
+X44e - 68 countCheck29_X44e <= 28
+-2 count29_X44 + countCheck29_X44s  + countCheck29_X44e  <= 1
+
+X45s + 68 countCheck29_X45s >= 30
+X45e - 68 countCheck29_X45e <= 28
+-2 count29_X45 + countCheck29_X45s  + countCheck29_X45e  <= 1
+
+X46s + 68 countCheck29_X46s >= 30
+X46e - 68 countCheck29_X46e <= 28
+-2 count29_X46 + countCheck29_X46s  + countCheck29_X46e  <= 1
+
+X47s + 68 countCheck29_X47s >= 30
+X47e - 68 countCheck29_X47e <= 28
+-2 count29_X47 + countCheck29_X47s  + countCheck29_X47e  <= 1
+
+X48s + 68 countCheck29_X48s >= 30
+X48e - 68 countCheck29_X48e <= 28
+-2 count29_X48 + countCheck29_X48s  + countCheck29_X48e  <= 1
+
+X49s + 68 countCheck29_X49s >= 30
+X49e - 68 countCheck29_X49e <= 28
+-2 count29_X49 + countCheck29_X49s  + countCheck29_X49e  <= 1
+
+X50s + 68 countCheck29_X50s >= 30
+X50e - 68 countCheck29_X50e <= 28
+-2 count29_X50 + countCheck29_X50s  + countCheck29_X50e  <= 1
+
+X51s + 68 countCheck29_X51s >= 30
+X51e - 68 countCheck29_X51e <= 28
+-2 count29_X51 + countCheck29_X51s  + countCheck29_X51e  <= 1
+
+X52s + 68 countCheck29_X52s >= 30
+X52e - 68 countCheck29_X52e <= 28
+-2 count29_X52 + countCheck29_X52s  + countCheck29_X52e  <= 1
+
+X53s + 68 countCheck29_X53s >= 30
+X53e - 68 countCheck29_X53e <= 28
+-2 count29_X53 + countCheck29_X53s  + countCheck29_X53e  <= 1
+
+X54s + 68 countCheck29_X54s >= 30
+X54e - 68 countCheck29_X54e <= 28
+-2 count29_X54 + countCheck29_X54s  + countCheck29_X54e  <= 1
+
+X55s + 68 countCheck29_X55s >= 30
+X55e - 68 countCheck29_X55e <= 28
+-2 count29_X55 + countCheck29_X55s  + countCheck29_X55e  <= 1
+
+X56s + 68 countCheck29_X56s >= 30
+X56e - 68 countCheck29_X56e <= 28
+-2 count29_X56 + countCheck29_X56s  + countCheck29_X56e  <= 1
+
+X57s + 68 countCheck29_X57s >= 30
+X57e - 68 countCheck29_X57e <= 28
+-2 count29_X57 + countCheck29_X57s  + countCheck29_X57e  <= 1
+
+X58s + 68 countCheck29_X58s >= 30
+X58e - 68 countCheck29_X58e <= 28
+-2 count29_X58 + countCheck29_X58s  + countCheck29_X58e  <= 1
+
+X59s + 68 countCheck29_X59s >= 30
+X59e - 68 countCheck29_X59e <= 28
+-2 count29_X59 + countCheck29_X59s  + countCheck29_X59e  <= 1
+
+X60s + 68 countCheck29_X60s >= 30
+X60e - 68 countCheck29_X60e <= 28
+-2 count29_X60 + countCheck29_X60s  + countCheck29_X60e  <= 1
+
+X61s + 68 countCheck29_X61s >= 30
+X61e - 68 countCheck29_X61e <= 28
+-2 count29_X61 + countCheck29_X61s  + countCheck29_X61e  <= 1
+
+X62s + 68 countCheck29_X62s >= 30
+X62e - 68 countCheck29_X62e <= 28
+-2 count29_X62 + countCheck29_X62s  + countCheck29_X62e  <= 1
+
+X63s + 68 countCheck29_X63s >= 30
+X63e - 68 countCheck29_X63e <= 28
+-2 count29_X63 + countCheck29_X63s  + countCheck29_X63e  <= 1
+
+X64s + 68 countCheck29_X64s >= 30
+X64e - 68 countCheck29_X64e <= 28
+-2 count29_X64 + countCheck29_X64s  + countCheck29_X64e  <= 1
+
+X65s + 68 countCheck29_X65s >= 30
+X65e - 68 countCheck29_X65e <= 28
+-2 count29_X65 + countCheck29_X65s  + countCheck29_X65e  <= 1
+
+X66s + 68 countCheck29_X66s >= 30
+X66e - 68 countCheck29_X66e <= 28
+-2 count29_X66 + countCheck29_X66s  + countCheck29_X66e  <= 1
+
+X67s + 68 countCheck29_X67s >= 30
+X67e - 68 countCheck29_X67e <= 28
+-2 count29_X67 + countCheck29_X67s  + countCheck29_X67e  <= 1
+
+count29_X0 + count29_X1 + count29_X2 + count29_X3 + count29_X4 + count29_X5 + count29_X6 + count29_X7 + count29_X8 + count29_X9 + count29_X10 + count29_X11 + count29_X12 + count29_X13 + count29_X14 + count29_X15 + count29_X16 + count29_X17 + count29_X18 + count29_X19 + count29_X20 + count29_X21 + count29_X22 + count29_X23 + count29_X24 + count29_X25 + count29_X26 + count29_X27 + count29_X28 + count29_X29 + count29_X30 + count29_X31 + count29_X32 + count29_X33 + count29_X34 + count29_X35 + count29_X36 + count29_X37 + count29_X38 + count29_X39 + count29_X40 + count29_X41 + count29_X42 + count29_X43 + count29_X44 + count29_X45 + count29_X46 + count29_X47 + count29_X48 + count29_X49 + count29_X50 + count29_X51 + count29_X52 + count29_X53 + count29_X54 + count29_X55 + count29_X56 + count29_X57 + count29_X58 + count29_X59 + count29_X60 + count29_X61 + count29_X62 + count29_X63 + count29_X64 + count29_X65 + count29_X66 + count29_X67 - pathWidth <= 1
+X0s + 68 countCheck30_X0s >= 31
+X0e - 68 countCheck30_X0e <= 29
+-2 count30_X0 + countCheck30_X0s  + countCheck30_X0e  <= 1
+
+X1s + 68 countCheck30_X1s >= 31
+X1e - 68 countCheck30_X1e <= 29
+-2 count30_X1 + countCheck30_X1s  + countCheck30_X1e  <= 1
+
+X2s + 68 countCheck30_X2s >= 31
+X2e - 68 countCheck30_X2e <= 29
+-2 count30_X2 + countCheck30_X2s  + countCheck30_X2e  <= 1
+
+X3s + 68 countCheck30_X3s >= 31
+X3e - 68 countCheck30_X3e <= 29
+-2 count30_X3 + countCheck30_X3s  + countCheck30_X3e  <= 1
+
+X4s + 68 countCheck30_X4s >= 31
+X4e - 68 countCheck30_X4e <= 29
+-2 count30_X4 + countCheck30_X4s  + countCheck30_X4e  <= 1
+
+X5s + 68 countCheck30_X5s >= 31
+X5e - 68 countCheck30_X5e <= 29
+-2 count30_X5 + countCheck30_X5s  + countCheck30_X5e  <= 1
+
+X6s + 68 countCheck30_X6s >= 31
+X6e - 68 countCheck30_X6e <= 29
+-2 count30_X6 + countCheck30_X6s  + countCheck30_X6e  <= 1
+
+X7s + 68 countCheck30_X7s >= 31
+X7e - 68 countCheck30_X7e <= 29
+-2 count30_X7 + countCheck30_X7s  + countCheck30_X7e  <= 1
+
+X8s + 68 countCheck30_X8s >= 31
+X8e - 68 countCheck30_X8e <= 29
+-2 count30_X8 + countCheck30_X8s  + countCheck30_X8e  <= 1
+
+X9s + 68 countCheck30_X9s >= 31
+X9e - 68 countCheck30_X9e <= 29
+-2 count30_X9 + countCheck30_X9s  + countCheck30_X9e  <= 1
+
+X10s + 68 countCheck30_X10s >= 31
+X10e - 68 countCheck30_X10e <= 29
+-2 count30_X10 + countCheck30_X10s  + countCheck30_X10e  <= 1
+
+X11s + 68 countCheck30_X11s >= 31
+X11e - 68 countCheck30_X11e <= 29
+-2 count30_X11 + countCheck30_X11s  + countCheck30_X11e  <= 1
+
+X12s + 68 countCheck30_X12s >= 31
+X12e - 68 countCheck30_X12e <= 29
+-2 count30_X12 + countCheck30_X12s  + countCheck30_X12e  <= 1
+
+X13s + 68 countCheck30_X13s >= 31
+X13e - 68 countCheck30_X13e <= 29
+-2 count30_X13 + countCheck30_X13s  + countCheck30_X13e  <= 1
+
+X14s + 68 countCheck30_X14s >= 31
+X14e - 68 countCheck30_X14e <= 29
+-2 count30_X14 + countCheck30_X14s  + countCheck30_X14e  <= 1
+
+X15s + 68 countCheck30_X15s >= 31
+X15e - 68 countCheck30_X15e <= 29
+-2 count30_X15 + countCheck30_X15s  + countCheck30_X15e  <= 1
+
+X16s + 68 countCheck30_X16s >= 31
+X16e - 68 countCheck30_X16e <= 29
+-2 count30_X16 + countCheck30_X16s  + countCheck30_X16e  <= 1
+
+X17s + 68 countCheck30_X17s >= 31
+X17e - 68 countCheck30_X17e <= 29
+-2 count30_X17 + countCheck30_X17s  + countCheck30_X17e  <= 1
+
+X18s + 68 countCheck30_X18s >= 31
+X18e - 68 countCheck30_X18e <= 29
+-2 count30_X18 + countCheck30_X18s  + countCheck30_X18e  <= 1
+
+X19s + 68 countCheck30_X19s >= 31
+X19e - 68 countCheck30_X19e <= 29
+-2 count30_X19 + countCheck30_X19s  + countCheck30_X19e  <= 1
+
+X20s + 68 countCheck30_X20s >= 31
+X20e - 68 countCheck30_X20e <= 29
+-2 count30_X20 + countCheck30_X20s  + countCheck30_X20e  <= 1
+
+X21s + 68 countCheck30_X21s >= 31
+X21e - 68 countCheck30_X21e <= 29
+-2 count30_X21 + countCheck30_X21s  + countCheck30_X21e  <= 1
+
+X22s + 68 countCheck30_X22s >= 31
+X22e - 68 countCheck30_X22e <= 29
+-2 count30_X22 + countCheck30_X22s  + countCheck30_X22e  <= 1
+
+X23s + 68 countCheck30_X23s >= 31
+X23e - 68 countCheck30_X23e <= 29
+-2 count30_X23 + countCheck30_X23s  + countCheck30_X23e  <= 1
+
+X24s + 68 countCheck30_X24s >= 31
+X24e - 68 countCheck30_X24e <= 29
+-2 count30_X24 + countCheck30_X24s  + countCheck30_X24e  <= 1
+
+X25s + 68 countCheck30_X25s >= 31
+X25e - 68 countCheck30_X25e <= 29
+-2 count30_X25 + countCheck30_X25s  + countCheck30_X25e  <= 1
+
+X26s + 68 countCheck30_X26s >= 31
+X26e - 68 countCheck30_X26e <= 29
+-2 count30_X26 + countCheck30_X26s  + countCheck30_X26e  <= 1
+
+X27s + 68 countCheck30_X27s >= 31
+X27e - 68 countCheck30_X27e <= 29
+-2 count30_X27 + countCheck30_X27s  + countCheck30_X27e  <= 1
+
+X28s + 68 countCheck30_X28s >= 31
+X28e - 68 countCheck30_X28e <= 29
+-2 count30_X28 + countCheck30_X28s  + countCheck30_X28e  <= 1
+
+X29s + 68 countCheck30_X29s >= 31
+X29e - 68 countCheck30_X29e <= 29
+-2 count30_X29 + countCheck30_X29s  + countCheck30_X29e  <= 1
+
+X30s + 68 countCheck30_X30s >= 31
+X30e - 68 countCheck30_X30e <= 29
+-2 count30_X30 + countCheck30_X30s  + countCheck30_X30e  <= 1
+
+X31s + 68 countCheck30_X31s >= 31
+X31e - 68 countCheck30_X31e <= 29
+-2 count30_X31 + countCheck30_X31s  + countCheck30_X31e  <= 1
+
+X32s + 68 countCheck30_X32s >= 31
+X32e - 68 countCheck30_X32e <= 29
+-2 count30_X32 + countCheck30_X32s  + countCheck30_X32e  <= 1
+
+X33s + 68 countCheck30_X33s >= 31
+X33e - 68 countCheck30_X33e <= 29
+-2 count30_X33 + countCheck30_X33s  + countCheck30_X33e  <= 1
+
+X34s + 68 countCheck30_X34s >= 31
+X34e - 68 countCheck30_X34e <= 29
+-2 count30_X34 + countCheck30_X34s  + countCheck30_X34e  <= 1
+
+X35s + 68 countCheck30_X35s >= 31
+X35e - 68 countCheck30_X35e <= 29
+-2 count30_X35 + countCheck30_X35s  + countCheck30_X35e  <= 1
+
+X36s + 68 countCheck30_X36s >= 31
+X36e - 68 countCheck30_X36e <= 29
+-2 count30_X36 + countCheck30_X36s  + countCheck30_X36e  <= 1
+
+X37s + 68 countCheck30_X37s >= 31
+X37e - 68 countCheck30_X37e <= 29
+-2 count30_X37 + countCheck30_X37s  + countCheck30_X37e  <= 1
+
+X38s + 68 countCheck30_X38s >= 31
+X38e - 68 countCheck30_X38e <= 29
+-2 count30_X38 + countCheck30_X38s  + countCheck30_X38e  <= 1
+
+X39s + 68 countCheck30_X39s >= 31
+X39e - 68 countCheck30_X39e <= 29
+-2 count30_X39 + countCheck30_X39s  + countCheck30_X39e  <= 1
+
+X40s + 68 countCheck30_X40s >= 31
+X40e - 68 countCheck30_X40e <= 29
+-2 count30_X40 + countCheck30_X40s  + countCheck30_X40e  <= 1
+
+X41s + 68 countCheck30_X41s >= 31
+X41e - 68 countCheck30_X41e <= 29
+-2 count30_X41 + countCheck30_X41s  + countCheck30_X41e  <= 1
+
+X42s + 68 countCheck30_X42s >= 31
+X42e - 68 countCheck30_X42e <= 29
+-2 count30_X42 + countCheck30_X42s  + countCheck30_X42e  <= 1
+
+X43s + 68 countCheck30_X43s >= 31
+X43e - 68 countCheck30_X43e <= 29
+-2 count30_X43 + countCheck30_X43s  + countCheck30_X43e  <= 1
+
+X44s + 68 countCheck30_X44s >= 31
+X44e - 68 countCheck30_X44e <= 29
+-2 count30_X44 + countCheck30_X44s  + countCheck30_X44e  <= 1
+
+X45s + 68 countCheck30_X45s >= 31
+X45e - 68 countCheck30_X45e <= 29
+-2 count30_X45 + countCheck30_X45s  + countCheck30_X45e  <= 1
+
+X46s + 68 countCheck30_X46s >= 31
+X46e - 68 countCheck30_X46e <= 29
+-2 count30_X46 + countCheck30_X46s  + countCheck30_X46e  <= 1
+
+X47s + 68 countCheck30_X47s >= 31
+X47e - 68 countCheck30_X47e <= 29
+-2 count30_X47 + countCheck30_X47s  + countCheck30_X47e  <= 1
+
+X48s + 68 countCheck30_X48s >= 31
+X48e - 68 countCheck30_X48e <= 29
+-2 count30_X48 + countCheck30_X48s  + countCheck30_X48e  <= 1
+
+X49s + 68 countCheck30_X49s >= 31
+X49e - 68 countCheck30_X49e <= 29
+-2 count30_X49 + countCheck30_X49s  + countCheck30_X49e  <= 1
+
+X50s + 68 countCheck30_X50s >= 31
+X50e - 68 countCheck30_X50e <= 29
+-2 count30_X50 + countCheck30_X50s  + countCheck30_X50e  <= 1
+
+X51s + 68 countCheck30_X51s >= 31
+X51e - 68 countCheck30_X51e <= 29
+-2 count30_X51 + countCheck30_X51s  + countCheck30_X51e  <= 1
+
+X52s + 68 countCheck30_X52s >= 31
+X52e - 68 countCheck30_X52e <= 29
+-2 count30_X52 + countCheck30_X52s  + countCheck30_X52e  <= 1
+
+X53s + 68 countCheck30_X53s >= 31
+X53e - 68 countCheck30_X53e <= 29
+-2 count30_X53 + countCheck30_X53s  + countCheck30_X53e  <= 1
+
+X54s + 68 countCheck30_X54s >= 31
+X54e - 68 countCheck30_X54e <= 29
+-2 count30_X54 + countCheck30_X54s  + countCheck30_X54e  <= 1
+
+X55s + 68 countCheck30_X55s >= 31
+X55e - 68 countCheck30_X55e <= 29
+-2 count30_X55 + countCheck30_X55s  + countCheck30_X55e  <= 1
+
+X56s + 68 countCheck30_X56s >= 31
+X56e - 68 countCheck30_X56e <= 29
+-2 count30_X56 + countCheck30_X56s  + countCheck30_X56e  <= 1
+
+X57s + 68 countCheck30_X57s >= 31
+X57e - 68 countCheck30_X57e <= 29
+-2 count30_X57 + countCheck30_X57s  + countCheck30_X57e  <= 1
+
+X58s + 68 countCheck30_X58s >= 31
+X58e - 68 countCheck30_X58e <= 29
+-2 count30_X58 + countCheck30_X58s  + countCheck30_X58e  <= 1
+
+X59s + 68 countCheck30_X59s >= 31
+X59e - 68 countCheck30_X59e <= 29
+-2 count30_X59 + countCheck30_X59s  + countCheck30_X59e  <= 1
+
+X60s + 68 countCheck30_X60s >= 31
+X60e - 68 countCheck30_X60e <= 29
+-2 count30_X60 + countCheck30_X60s  + countCheck30_X60e  <= 1
+
+X61s + 68 countCheck30_X61s >= 31
+X61e - 68 countCheck30_X61e <= 29
+-2 count30_X61 + countCheck30_X61s  + countCheck30_X61e  <= 1
+
+X62s + 68 countCheck30_X62s >= 31
+X62e - 68 countCheck30_X62e <= 29
+-2 count30_X62 + countCheck30_X62s  + countCheck30_X62e  <= 1
+
+X63s + 68 countCheck30_X63s >= 31
+X63e - 68 countCheck30_X63e <= 29
+-2 count30_X63 + countCheck30_X63s  + countCheck30_X63e  <= 1
+
+X64s + 68 countCheck30_X64s >= 31
+X64e - 68 countCheck30_X64e <= 29
+-2 count30_X64 + countCheck30_X64s  + countCheck30_X64e  <= 1
+
+X65s + 68 countCheck30_X65s >= 31
+X65e - 68 countCheck30_X65e <= 29
+-2 count30_X65 + countCheck30_X65s  + countCheck30_X65e  <= 1
+
+X66s + 68 countCheck30_X66s >= 31
+X66e - 68 countCheck30_X66e <= 29
+-2 count30_X66 + countCheck30_X66s  + countCheck30_X66e  <= 1
+
+X67s + 68 countCheck30_X67s >= 31
+X67e - 68 countCheck30_X67e <= 29
+-2 count30_X67 + countCheck30_X67s  + countCheck30_X67e  <= 1
+
+count30_X0 + count30_X1 + count30_X2 + count30_X3 + count30_X4 + count30_X5 + count30_X6 + count30_X7 + count30_X8 + count30_X9 + count30_X10 + count30_X11 + count30_X12 + count30_X13 + count30_X14 + count30_X15 + count30_X16 + count30_X17 + count30_X18 + count30_X19 + count30_X20 + count30_X21 + count30_X22 + count30_X23 + count30_X24 + count30_X25 + count30_X26 + count30_X27 + count30_X28 + count30_X29 + count30_X30 + count30_X31 + count30_X32 + count30_X33 + count30_X34 + count30_X35 + count30_X36 + count30_X37 + count30_X38 + count30_X39 + count30_X40 + count30_X41 + count30_X42 + count30_X43 + count30_X44 + count30_X45 + count30_X46 + count30_X47 + count30_X48 + count30_X49 + count30_X50 + count30_X51 + count30_X52 + count30_X53 + count30_X54 + count30_X55 + count30_X56 + count30_X57 + count30_X58 + count30_X59 + count30_X60 + count30_X61 + count30_X62 + count30_X63 + count30_X64 + count30_X65 + count30_X66 + count30_X67 - pathWidth <= 1
+X0s + 68 countCheck31_X0s >= 32
+X0e - 68 countCheck31_X0e <= 30
+-2 count31_X0 + countCheck31_X0s  + countCheck31_X0e  <= 1
+
+X1s + 68 countCheck31_X1s >= 32
+X1e - 68 countCheck31_X1e <= 30
+-2 count31_X1 + countCheck31_X1s  + countCheck31_X1e  <= 1
+
+X2s + 68 countCheck31_X2s >= 32
+X2e - 68 countCheck31_X2e <= 30
+-2 count31_X2 + countCheck31_X2s  + countCheck31_X2e  <= 1
+
+X3s + 68 countCheck31_X3s >= 32
+X3e - 68 countCheck31_X3e <= 30
+-2 count31_X3 + countCheck31_X3s  + countCheck31_X3e  <= 1
+
+X4s + 68 countCheck31_X4s >= 32
+X4e - 68 countCheck31_X4e <= 30
+-2 count31_X4 + countCheck31_X4s  + countCheck31_X4e  <= 1
+
+X5s + 68 countCheck31_X5s >= 32
+X5e - 68 countCheck31_X5e <= 30
+-2 count31_X5 + countCheck31_X5s  + countCheck31_X5e  <= 1
+
+X6s + 68 countCheck31_X6s >= 32
+X6e - 68 countCheck31_X6e <= 30
+-2 count31_X6 + countCheck31_X6s  + countCheck31_X6e  <= 1
+
+X7s + 68 countCheck31_X7s >= 32
+X7e - 68 countCheck31_X7e <= 30
+-2 count31_X7 + countCheck31_X7s  + countCheck31_X7e  <= 1
+
+X8s + 68 countCheck31_X8s >= 32
+X8e - 68 countCheck31_X8e <= 30
+-2 count31_X8 + countCheck31_X8s  + countCheck31_X8e  <= 1
+
+X9s + 68 countCheck31_X9s >= 32
+X9e - 68 countCheck31_X9e <= 30
+-2 count31_X9 + countCheck31_X9s  + countCheck31_X9e  <= 1
+
+X10s + 68 countCheck31_X10s >= 32
+X10e - 68 countCheck31_X10e <= 30
+-2 count31_X10 + countCheck31_X10s  + countCheck31_X10e  <= 1
+
+X11s + 68 countCheck31_X11s >= 32
+X11e - 68 countCheck31_X11e <= 30
+-2 count31_X11 + countCheck31_X11s  + countCheck31_X11e  <= 1
+
+X12s + 68 countCheck31_X12s >= 32
+X12e - 68 countCheck31_X12e <= 30
+-2 count31_X12 + countCheck31_X12s  + countCheck31_X12e  <= 1
+
+X13s + 68 countCheck31_X13s >= 32
+X13e - 68 countCheck31_X13e <= 30
+-2 count31_X13 + countCheck31_X13s  + countCheck31_X13e  <= 1
+
+X14s + 68 countCheck31_X14s >= 32
+X14e - 68 countCheck31_X14e <= 30
+-2 count31_X14 + countCheck31_X14s  + countCheck31_X14e  <= 1
+
+X15s + 68 countCheck31_X15s >= 32
+X15e - 68 countCheck31_X15e <= 30
+-2 count31_X15 + countCheck31_X15s  + countCheck31_X15e  <= 1
+
+X16s + 68 countCheck31_X16s >= 32
+X16e - 68 countCheck31_X16e <= 30
+-2 count31_X16 + countCheck31_X16s  + countCheck31_X16e  <= 1
+
+X17s + 68 countCheck31_X17s >= 32
+X17e - 68 countCheck31_X17e <= 30
+-2 count31_X17 + countCheck31_X17s  + countCheck31_X17e  <= 1
+
+X18s + 68 countCheck31_X18s >= 32
+X18e - 68 countCheck31_X18e <= 30
+-2 count31_X18 + countCheck31_X18s  + countCheck31_X18e  <= 1
+
+X19s + 68 countCheck31_X19s >= 32
+X19e - 68 countCheck31_X19e <= 30
+-2 count31_X19 + countCheck31_X19s  + countCheck31_X19e  <= 1
+
+X20s + 68 countCheck31_X20s >= 32
+X20e - 68 countCheck31_X20e <= 30
+-2 count31_X20 + countCheck31_X20s  + countCheck31_X20e  <= 1
+
+X21s + 68 countCheck31_X21s >= 32
+X21e - 68 countCheck31_X21e <= 30
+-2 count31_X21 + countCheck31_X21s  + countCheck31_X21e  <= 1
+
+X22s + 68 countCheck31_X22s >= 32
+X22e - 68 countCheck31_X22e <= 30
+-2 count31_X22 + countCheck31_X22s  + countCheck31_X22e  <= 1
+
+X23s + 68 countCheck31_X23s >= 32
+X23e - 68 countCheck31_X23e <= 30
+-2 count31_X23 + countCheck31_X23s  + countCheck31_X23e  <= 1
+
+X24s + 68 countCheck31_X24s >= 32
+X24e - 68 countCheck31_X24e <= 30
+-2 count31_X24 + countCheck31_X24s  + countCheck31_X24e  <= 1
+
+X25s + 68 countCheck31_X25s >= 32
+X25e - 68 countCheck31_X25e <= 30
+-2 count31_X25 + countCheck31_X25s  + countCheck31_X25e  <= 1
+
+X26s + 68 countCheck31_X26s >= 32
+X26e - 68 countCheck31_X26e <= 30
+-2 count31_X26 + countCheck31_X26s  + countCheck31_X26e  <= 1
+
+X27s + 68 countCheck31_X27s >= 32
+X27e - 68 countCheck31_X27e <= 30
+-2 count31_X27 + countCheck31_X27s  + countCheck31_X27e  <= 1
+
+X28s + 68 countCheck31_X28s >= 32
+X28e - 68 countCheck31_X28e <= 30
+-2 count31_X28 + countCheck31_X28s  + countCheck31_X28e  <= 1
+
+X29s + 68 countCheck31_X29s >= 32
+X29e - 68 countCheck31_X29e <= 30
+-2 count31_X29 + countCheck31_X29s  + countCheck31_X29e  <= 1
+
+X30s + 68 countCheck31_X30s >= 32
+X30e - 68 countCheck31_X30e <= 30
+-2 count31_X30 + countCheck31_X30s  + countCheck31_X30e  <= 1
+
+X31s + 68 countCheck31_X31s >= 32
+X31e - 68 countCheck31_X31e <= 30
+-2 count31_X31 + countCheck31_X31s  + countCheck31_X31e  <= 1
+
+X32s + 68 countCheck31_X32s >= 32
+X32e - 68 countCheck31_X32e <= 30
+-2 count31_X32 + countCheck31_X32s  + countCheck31_X32e  <= 1
+
+X33s + 68 countCheck31_X33s >= 32
+X33e - 68 countCheck31_X33e <= 30
+-2 count31_X33 + countCheck31_X33s  + countCheck31_X33e  <= 1
+
+X34s + 68 countCheck31_X34s >= 32
+X34e - 68 countCheck31_X34e <= 30
+-2 count31_X34 + countCheck31_X34s  + countCheck31_X34e  <= 1
+
+X35s + 68 countCheck31_X35s >= 32
+X35e - 68 countCheck31_X35e <= 30
+-2 count31_X35 + countCheck31_X35s  + countCheck31_X35e  <= 1
+
+X36s + 68 countCheck31_X36s >= 32
+X36e - 68 countCheck31_X36e <= 30
+-2 count31_X36 + countCheck31_X36s  + countCheck31_X36e  <= 1
+
+X37s + 68 countCheck31_X37s >= 32
+X37e - 68 countCheck31_X37e <= 30
+-2 count31_X37 + countCheck31_X37s  + countCheck31_X37e  <= 1
+
+X38s + 68 countCheck31_X38s >= 32
+X38e - 68 countCheck31_X38e <= 30
+-2 count31_X38 + countCheck31_X38s  + countCheck31_X38e  <= 1
+
+X39s + 68 countCheck31_X39s >= 32
+X39e - 68 countCheck31_X39e <= 30
+-2 count31_X39 + countCheck31_X39s  + countCheck31_X39e  <= 1
+
+X40s + 68 countCheck31_X40s >= 32
+X40e - 68 countCheck31_X40e <= 30
+-2 count31_X40 + countCheck31_X40s  + countCheck31_X40e  <= 1
+
+X41s + 68 countCheck31_X41s >= 32
+X41e - 68 countCheck31_X41e <= 30
+-2 count31_X41 + countCheck31_X41s  + countCheck31_X41e  <= 1
+
+X42s + 68 countCheck31_X42s >= 32
+X42e - 68 countCheck31_X42e <= 30
+-2 count31_X42 + countCheck31_X42s  + countCheck31_X42e  <= 1
+
+X43s + 68 countCheck31_X43s >= 32
+X43e - 68 countCheck31_X43e <= 30
+-2 count31_X43 + countCheck31_X43s  + countCheck31_X43e  <= 1
+
+X44s + 68 countCheck31_X44s >= 32
+X44e - 68 countCheck31_X44e <= 30
+-2 count31_X44 + countCheck31_X44s  + countCheck31_X44e  <= 1
+
+X45s + 68 countCheck31_X45s >= 32
+X45e - 68 countCheck31_X45e <= 30
+-2 count31_X45 + countCheck31_X45s  + countCheck31_X45e  <= 1
+
+X46s + 68 countCheck31_X46s >= 32
+X46e - 68 countCheck31_X46e <= 30
+-2 count31_X46 + countCheck31_X46s  + countCheck31_X46e  <= 1
+
+X47s + 68 countCheck31_X47s >= 32
+X47e - 68 countCheck31_X47e <= 30
+-2 count31_X47 + countCheck31_X47s  + countCheck31_X47e  <= 1
+
+X48s + 68 countCheck31_X48s >= 32
+X48e - 68 countCheck31_X48e <= 30
+-2 count31_X48 + countCheck31_X48s  + countCheck31_X48e  <= 1
+
+X49s + 68 countCheck31_X49s >= 32
+X49e - 68 countCheck31_X49e <= 30
+-2 count31_X49 + countCheck31_X49s  + countCheck31_X49e  <= 1
+
+X50s + 68 countCheck31_X50s >= 32
+X50e - 68 countCheck31_X50e <= 30
+-2 count31_X50 + countCheck31_X50s  + countCheck31_X50e  <= 1
+
+X51s + 68 countCheck31_X51s >= 32
+X51e - 68 countCheck31_X51e <= 30
+-2 count31_X51 + countCheck31_X51s  + countCheck31_X51e  <= 1
+
+X52s + 68 countCheck31_X52s >= 32
+X52e - 68 countCheck31_X52e <= 30
+-2 count31_X52 + countCheck31_X52s  + countCheck31_X52e  <= 1
+
+X53s + 68 countCheck31_X53s >= 32
+X53e - 68 countCheck31_X53e <= 30
+-2 count31_X53 + countCheck31_X53s  + countCheck31_X53e  <= 1
+
+X54s + 68 countCheck31_X54s >= 32
+X54e - 68 countCheck31_X54e <= 30
+-2 count31_X54 + countCheck31_X54s  + countCheck31_X54e  <= 1
+
+X55s + 68 countCheck31_X55s >= 32
+X55e - 68 countCheck31_X55e <= 30
+-2 count31_X55 + countCheck31_X55s  + countCheck31_X55e  <= 1
+
+X56s + 68 countCheck31_X56s >= 32
+X56e - 68 countCheck31_X56e <= 30
+-2 count31_X56 + countCheck31_X56s  + countCheck31_X56e  <= 1
+
+X57s + 68 countCheck31_X57s >= 32
+X57e - 68 countCheck31_X57e <= 30
+-2 count31_X57 + countCheck31_X57s  + countCheck31_X57e  <= 1
+
+X58s + 68 countCheck31_X58s >= 32
+X58e - 68 countCheck31_X58e <= 30
+-2 count31_X58 + countCheck31_X58s  + countCheck31_X58e  <= 1
+
+X59s + 68 countCheck31_X59s >= 32
+X59e - 68 countCheck31_X59e <= 30
+-2 count31_X59 + countCheck31_X59s  + countCheck31_X59e  <= 1
+
+X60s + 68 countCheck31_X60s >= 32
+X60e - 68 countCheck31_X60e <= 30
+-2 count31_X60 + countCheck31_X60s  + countCheck31_X60e  <= 1
+
+X61s + 68 countCheck31_X61s >= 32
+X61e - 68 countCheck31_X61e <= 30
+-2 count31_X61 + countCheck31_X61s  + countCheck31_X61e  <= 1
+
+X62s + 68 countCheck31_X62s >= 32
+X62e - 68 countCheck31_X62e <= 30
+-2 count31_X62 + countCheck31_X62s  + countCheck31_X62e  <= 1
+
+X63s + 68 countCheck31_X63s >= 32
+X63e - 68 countCheck31_X63e <= 30
+-2 count31_X63 + countCheck31_X63s  + countCheck31_X63e  <= 1
+
+X64s + 68 countCheck31_X64s >= 32
+X64e - 68 countCheck31_X64e <= 30
+-2 count31_X64 + countCheck31_X64s  + countCheck31_X64e  <= 1
+
+X65s + 68 countCheck31_X65s >= 32
+X65e - 68 countCheck31_X65e <= 30
+-2 count31_X65 + countCheck31_X65s  + countCheck31_X65e  <= 1
+
+X66s + 68 countCheck31_X66s >= 32
+X66e - 68 countCheck31_X66e <= 30
+-2 count31_X66 + countCheck31_X66s  + countCheck31_X66e  <= 1
+
+X67s + 68 countCheck31_X67s >= 32
+X67e - 68 countCheck31_X67e <= 30
+-2 count31_X67 + countCheck31_X67s  + countCheck31_X67e  <= 1
+
+count31_X0 + count31_X1 + count31_X2 + count31_X3 + count31_X4 + count31_X5 + count31_X6 + count31_X7 + count31_X8 + count31_X9 + count31_X10 + count31_X11 + count31_X12 + count31_X13 + count31_X14 + count31_X15 + count31_X16 + count31_X17 + count31_X18 + count31_X19 + count31_X20 + count31_X21 + count31_X22 + count31_X23 + count31_X24 + count31_X25 + count31_X26 + count31_X27 + count31_X28 + count31_X29 + count31_X30 + count31_X31 + count31_X32 + count31_X33 + count31_X34 + count31_X35 + count31_X36 + count31_X37 + count31_X38 + count31_X39 + count31_X40 + count31_X41 + count31_X42 + count31_X43 + count31_X44 + count31_X45 + count31_X46 + count31_X47 + count31_X48 + count31_X49 + count31_X50 + count31_X51 + count31_X52 + count31_X53 + count31_X54 + count31_X55 + count31_X56 + count31_X57 + count31_X58 + count31_X59 + count31_X60 + count31_X61 + count31_X62 + count31_X63 + count31_X64 + count31_X65 + count31_X66 + count31_X67 - pathWidth <= 1
+X0s + 68 countCheck32_X0s >= 33
+X0e - 68 countCheck32_X0e <= 31
+-2 count32_X0 + countCheck32_X0s  + countCheck32_X0e  <= 1
+
+X1s + 68 countCheck32_X1s >= 33
+X1e - 68 countCheck32_X1e <= 31
+-2 count32_X1 + countCheck32_X1s  + countCheck32_X1e  <= 1
+
+X2s + 68 countCheck32_X2s >= 33
+X2e - 68 countCheck32_X2e <= 31
+-2 count32_X2 + countCheck32_X2s  + countCheck32_X2e  <= 1
+
+X3s + 68 countCheck32_X3s >= 33
+X3e - 68 countCheck32_X3e <= 31
+-2 count32_X3 + countCheck32_X3s  + countCheck32_X3e  <= 1
+
+X4s + 68 countCheck32_X4s >= 33
+X4e - 68 countCheck32_X4e <= 31
+-2 count32_X4 + countCheck32_X4s  + countCheck32_X4e  <= 1
+
+X5s + 68 countCheck32_X5s >= 33
+X5e - 68 countCheck32_X5e <= 31
+-2 count32_X5 + countCheck32_X5s  + countCheck32_X5e  <= 1
+
+X6s + 68 countCheck32_X6s >= 33
+X6e - 68 countCheck32_X6e <= 31
+-2 count32_X6 + countCheck32_X6s  + countCheck32_X6e  <= 1
+
+X7s + 68 countCheck32_X7s >= 33
+X7e - 68 countCheck32_X7e <= 31
+-2 count32_X7 + countCheck32_X7s  + countCheck32_X7e  <= 1
+
+X8s + 68 countCheck32_X8s >= 33
+X8e - 68 countCheck32_X8e <= 31
+-2 count32_X8 + countCheck32_X8s  + countCheck32_X8e  <= 1
+
+X9s + 68 countCheck32_X9s >= 33
+X9e - 68 countCheck32_X9e <= 31
+-2 count32_X9 + countCheck32_X9s  + countCheck32_X9e  <= 1
+
+X10s + 68 countCheck32_X10s >= 33
+X10e - 68 countCheck32_X10e <= 31
+-2 count32_X10 + countCheck32_X10s  + countCheck32_X10e  <= 1
+
+X11s + 68 countCheck32_X11s >= 33
+X11e - 68 countCheck32_X11e <= 31
+-2 count32_X11 + countCheck32_X11s  + countCheck32_X11e  <= 1
+
+X12s + 68 countCheck32_X12s >= 33
+X12e - 68 countCheck32_X12e <= 31
+-2 count32_X12 + countCheck32_X12s  + countCheck32_X12e  <= 1
+
+X13s + 68 countCheck32_X13s >= 33
+X13e - 68 countCheck32_X13e <= 31
+-2 count32_X13 + countCheck32_X13s  + countCheck32_X13e  <= 1
+
+X14s + 68 countCheck32_X14s >= 33
+X14e - 68 countCheck32_X14e <= 31
+-2 count32_X14 + countCheck32_X14s  + countCheck32_X14e  <= 1
+
+X15s + 68 countCheck32_X15s >= 33
+X15e - 68 countCheck32_X15e <= 31
+-2 count32_X15 + countCheck32_X15s  + countCheck32_X15e  <= 1
+
+X16s + 68 countCheck32_X16s >= 33
+X16e - 68 countCheck32_X16e <= 31
+-2 count32_X16 + countCheck32_X16s  + countCheck32_X16e  <= 1
+
+X17s + 68 countCheck32_X17s >= 33
+X17e - 68 countCheck32_X17e <= 31
+-2 count32_X17 + countCheck32_X17s  + countCheck32_X17e  <= 1
+
+X18s + 68 countCheck32_X18s >= 33
+X18e - 68 countCheck32_X18e <= 31
+-2 count32_X18 + countCheck32_X18s  + countCheck32_X18e  <= 1
+
+X19s + 68 countCheck32_X19s >= 33
+X19e - 68 countCheck32_X19e <= 31
+-2 count32_X19 + countCheck32_X19s  + countCheck32_X19e  <= 1
+
+X20s + 68 countCheck32_X20s >= 33
+X20e - 68 countCheck32_X20e <= 31
+-2 count32_X20 + countCheck32_X20s  + countCheck32_X20e  <= 1
+
+X21s + 68 countCheck32_X21s >= 33
+X21e - 68 countCheck32_X21e <= 31
+-2 count32_X21 + countCheck32_X21s  + countCheck32_X21e  <= 1
+
+X22s + 68 countCheck32_X22s >= 33
+X22e - 68 countCheck32_X22e <= 31
+-2 count32_X22 + countCheck32_X22s  + countCheck32_X22e  <= 1
+
+X23s + 68 countCheck32_X23s >= 33
+X23e - 68 countCheck32_X23e <= 31
+-2 count32_X23 + countCheck32_X23s  + countCheck32_X23e  <= 1
+
+X24s + 68 countCheck32_X24s >= 33
+X24e - 68 countCheck32_X24e <= 31
+-2 count32_X24 + countCheck32_X24s  + countCheck32_X24e  <= 1
+
+X25s + 68 countCheck32_X25s >= 33
+X25e - 68 countCheck32_X25e <= 31
+-2 count32_X25 + countCheck32_X25s  + countCheck32_X25e  <= 1
+
+X26s + 68 countCheck32_X26s >= 33
+X26e - 68 countCheck32_X26e <= 31
+-2 count32_X26 + countCheck32_X26s  + countCheck32_X26e  <= 1
+
+X27s + 68 countCheck32_X27s >= 33
+X27e - 68 countCheck32_X27e <= 31
+-2 count32_X27 + countCheck32_X27s  + countCheck32_X27e  <= 1
+
+X28s + 68 countCheck32_X28s >= 33
+X28e - 68 countCheck32_X28e <= 31
+-2 count32_X28 + countCheck32_X28s  + countCheck32_X28e  <= 1
+
+X29s + 68 countCheck32_X29s >= 33
+X29e - 68 countCheck32_X29e <= 31
+-2 count32_X29 + countCheck32_X29s  + countCheck32_X29e  <= 1
+
+X30s + 68 countCheck32_X30s >= 33
+X30e - 68 countCheck32_X30e <= 31
+-2 count32_X30 + countCheck32_X30s  + countCheck32_X30e  <= 1
+
+X31s + 68 countCheck32_X31s >= 33
+X31e - 68 countCheck32_X31e <= 31
+-2 count32_X31 + countCheck32_X31s  + countCheck32_X31e  <= 1
+
+X32s + 68 countCheck32_X32s >= 33
+X32e - 68 countCheck32_X32e <= 31
+-2 count32_X32 + countCheck32_X32s  + countCheck32_X32e  <= 1
+
+X33s + 68 countCheck32_X33s >= 33
+X33e - 68 countCheck32_X33e <= 31
+-2 count32_X33 + countCheck32_X33s  + countCheck32_X33e  <= 1
+
+X34s + 68 countCheck32_X34s >= 33
+X34e - 68 countCheck32_X34e <= 31
+-2 count32_X34 + countCheck32_X34s  + countCheck32_X34e  <= 1
+
+X35s + 68 countCheck32_X35s >= 33
+X35e - 68 countCheck32_X35e <= 31
+-2 count32_X35 + countCheck32_X35s  + countCheck32_X35e  <= 1
+
+X36s + 68 countCheck32_X36s >= 33
+X36e - 68 countCheck32_X36e <= 31
+-2 count32_X36 + countCheck32_X36s  + countCheck32_X36e  <= 1
+
+X37s + 68 countCheck32_X37s >= 33
+X37e - 68 countCheck32_X37e <= 31
+-2 count32_X37 + countCheck32_X37s  + countCheck32_X37e  <= 1
+
+X38s + 68 countCheck32_X38s >= 33
+X38e - 68 countCheck32_X38e <= 31
+-2 count32_X38 + countCheck32_X38s  + countCheck32_X38e  <= 1
+
+X39s + 68 countCheck32_X39s >= 33
+X39e - 68 countCheck32_X39e <= 31
+-2 count32_X39 + countCheck32_X39s  + countCheck32_X39e  <= 1
+
+X40s + 68 countCheck32_X40s >= 33
+X40e - 68 countCheck32_X40e <= 31
+-2 count32_X40 + countCheck32_X40s  + countCheck32_X40e  <= 1
+
+X41s + 68 countCheck32_X41s >= 33
+X41e - 68 countCheck32_X41e <= 31
+-2 count32_X41 + countCheck32_X41s  + countCheck32_X41e  <= 1
+
+X42s + 68 countCheck32_X42s >= 33
+X42e - 68 countCheck32_X42e <= 31
+-2 count32_X42 + countCheck32_X42s  + countCheck32_X42e  <= 1
+
+X43s + 68 countCheck32_X43s >= 33
+X43e - 68 countCheck32_X43e <= 31
+-2 count32_X43 + countCheck32_X43s  + countCheck32_X43e  <= 1
+
+X44s + 68 countCheck32_X44s >= 33
+X44e - 68 countCheck32_X44e <= 31
+-2 count32_X44 + countCheck32_X44s  + countCheck32_X44e  <= 1
+
+X45s + 68 countCheck32_X45s >= 33
+X45e - 68 countCheck32_X45e <= 31
+-2 count32_X45 + countCheck32_X45s  + countCheck32_X45e  <= 1
+
+X46s + 68 countCheck32_X46s >= 33
+X46e - 68 countCheck32_X46e <= 31
+-2 count32_X46 + countCheck32_X46s  + countCheck32_X46e  <= 1
+
+X47s + 68 countCheck32_X47s >= 33
+X47e - 68 countCheck32_X47e <= 31
+-2 count32_X47 + countCheck32_X47s  + countCheck32_X47e  <= 1
+
+X48s + 68 countCheck32_X48s >= 33
+X48e - 68 countCheck32_X48e <= 31
+-2 count32_X48 + countCheck32_X48s  + countCheck32_X48e  <= 1
+
+X49s + 68 countCheck32_X49s >= 33
+X49e - 68 countCheck32_X49e <= 31
+-2 count32_X49 + countCheck32_X49s  + countCheck32_X49e  <= 1
+
+X50s + 68 countCheck32_X50s >= 33
+X50e - 68 countCheck32_X50e <= 31
+-2 count32_X50 + countCheck32_X50s  + countCheck32_X50e  <= 1
+
+X51s + 68 countCheck32_X51s >= 33
+X51e - 68 countCheck32_X51e <= 31
+-2 count32_X51 + countCheck32_X51s  + countCheck32_X51e  <= 1
+
+X52s + 68 countCheck32_X52s >= 33
+X52e - 68 countCheck32_X52e <= 31
+-2 count32_X52 + countCheck32_X52s  + countCheck32_X52e  <= 1
+
+X53s + 68 countCheck32_X53s >= 33
+X53e - 68 countCheck32_X53e <= 31
+-2 count32_X53 + countCheck32_X53s  + countCheck32_X53e  <= 1
+
+X54s + 68 countCheck32_X54s >= 33
+X54e - 68 countCheck32_X54e <= 31
+-2 count32_X54 + countCheck32_X54s  + countCheck32_X54e  <= 1
+
+X55s + 68 countCheck32_X55s >= 33
+X55e - 68 countCheck32_X55e <= 31
+-2 count32_X55 + countCheck32_X55s  + countCheck32_X55e  <= 1
+
+X56s + 68 countCheck32_X56s >= 33
+X56e - 68 countCheck32_X56e <= 31
+-2 count32_X56 + countCheck32_X56s  + countCheck32_X56e  <= 1
+
+X57s + 68 countCheck32_X57s >= 33
+X57e - 68 countCheck32_X57e <= 31
+-2 count32_X57 + countCheck32_X57s  + countCheck32_X57e  <= 1
+
+X58s + 68 countCheck32_X58s >= 33
+X58e - 68 countCheck32_X58e <= 31
+-2 count32_X58 + countCheck32_X58s  + countCheck32_X58e  <= 1
+
+X59s + 68 countCheck32_X59s >= 33
+X59e - 68 countCheck32_X59e <= 31
+-2 count32_X59 + countCheck32_X59s  + countCheck32_X59e  <= 1
+
+X60s + 68 countCheck32_X60s >= 33
+X60e - 68 countCheck32_X60e <= 31
+-2 count32_X60 + countCheck32_X60s  + countCheck32_X60e  <= 1
+
+X61s + 68 countCheck32_X61s >= 33
+X61e - 68 countCheck32_X61e <= 31
+-2 count32_X61 + countCheck32_X61s  + countCheck32_X61e  <= 1
+
+X62s + 68 countCheck32_X62s >= 33
+X62e - 68 countCheck32_X62e <= 31
+-2 count32_X62 + countCheck32_X62s  + countCheck32_X62e  <= 1
+
+X63s + 68 countCheck32_X63s >= 33
+X63e - 68 countCheck32_X63e <= 31
+-2 count32_X63 + countCheck32_X63s  + countCheck32_X63e  <= 1
+
+X64s + 68 countCheck32_X64s >= 33
+X64e - 68 countCheck32_X64e <= 31
+-2 count32_X64 + countCheck32_X64s  + countCheck32_X64e  <= 1
+
+X65s + 68 countCheck32_X65s >= 33
+X65e - 68 countCheck32_X65e <= 31
+-2 count32_X65 + countCheck32_X65s  + countCheck32_X65e  <= 1
+
+X66s + 68 countCheck32_X66s >= 33
+X66e - 68 countCheck32_X66e <= 31
+-2 count32_X66 + countCheck32_X66s  + countCheck32_X66e  <= 1
+
+X67s + 68 countCheck32_X67s >= 33
+X67e - 68 countCheck32_X67e <= 31
+-2 count32_X67 + countCheck32_X67s  + countCheck32_X67e  <= 1
+
+count32_X0 + count32_X1 + count32_X2 + count32_X3 + count32_X4 + count32_X5 + count32_X6 + count32_X7 + count32_X8 + count32_X9 + count32_X10 + count32_X11 + count32_X12 + count32_X13 + count32_X14 + count32_X15 + count32_X16 + count32_X17 + count32_X18 + count32_X19 + count32_X20 + count32_X21 + count32_X22 + count32_X23 + count32_X24 + count32_X25 + count32_X26 + count32_X27 + count32_X28 + count32_X29 + count32_X30 + count32_X31 + count32_X32 + count32_X33 + count32_X34 + count32_X35 + count32_X36 + count32_X37 + count32_X38 + count32_X39 + count32_X40 + count32_X41 + count32_X42 + count32_X43 + count32_X44 + count32_X45 + count32_X46 + count32_X47 + count32_X48 + count32_X49 + count32_X50 + count32_X51 + count32_X52 + count32_X53 + count32_X54 + count32_X55 + count32_X56 + count32_X57 + count32_X58 + count32_X59 + count32_X60 + count32_X61 + count32_X62 + count32_X63 + count32_X64 + count32_X65 + count32_X66 + count32_X67 - pathWidth <= 1
+X0s + 68 countCheck33_X0s >= 34
+X0e - 68 countCheck33_X0e <= 32
+-2 count33_X0 + countCheck33_X0s  + countCheck33_X0e  <= 1
+
+X1s + 68 countCheck33_X1s >= 34
+X1e - 68 countCheck33_X1e <= 32
+-2 count33_X1 + countCheck33_X1s  + countCheck33_X1e  <= 1
+
+X2s + 68 countCheck33_X2s >= 34
+X2e - 68 countCheck33_X2e <= 32
+-2 count33_X2 + countCheck33_X2s  + countCheck33_X2e  <= 1
+
+X3s + 68 countCheck33_X3s >= 34
+X3e - 68 countCheck33_X3e <= 32
+-2 count33_X3 + countCheck33_X3s  + countCheck33_X3e  <= 1
+
+X4s + 68 countCheck33_X4s >= 34
+X4e - 68 countCheck33_X4e <= 32
+-2 count33_X4 + countCheck33_X4s  + countCheck33_X4e  <= 1
+
+X5s + 68 countCheck33_X5s >= 34
+X5e - 68 countCheck33_X5e <= 32
+-2 count33_X5 + countCheck33_X5s  + countCheck33_X5e  <= 1
+
+X6s + 68 countCheck33_X6s >= 34
+X6e - 68 countCheck33_X6e <= 32
+-2 count33_X6 + countCheck33_X6s  + countCheck33_X6e  <= 1
+
+X7s + 68 countCheck33_X7s >= 34
+X7e - 68 countCheck33_X7e <= 32
+-2 count33_X7 + countCheck33_X7s  + countCheck33_X7e  <= 1
+
+X8s + 68 countCheck33_X8s >= 34
+X8e - 68 countCheck33_X8e <= 32
+-2 count33_X8 + countCheck33_X8s  + countCheck33_X8e  <= 1
+
+X9s + 68 countCheck33_X9s >= 34
+X9e - 68 countCheck33_X9e <= 32
+-2 count33_X9 + countCheck33_X9s  + countCheck33_X9e  <= 1
+
+X10s + 68 countCheck33_X10s >= 34
+X10e - 68 countCheck33_X10e <= 32
+-2 count33_X10 + countCheck33_X10s  + countCheck33_X10e  <= 1
+
+X11s + 68 countCheck33_X11s >= 34
+X11e - 68 countCheck33_X11e <= 32
+-2 count33_X11 + countCheck33_X11s  + countCheck33_X11e  <= 1
+
+X12s + 68 countCheck33_X12s >= 34
+X12e - 68 countCheck33_X12e <= 32
+-2 count33_X12 + countCheck33_X12s  + countCheck33_X12e  <= 1
+
+X13s + 68 countCheck33_X13s >= 34
+X13e - 68 countCheck33_X13e <= 32
+-2 count33_X13 + countCheck33_X13s  + countCheck33_X13e  <= 1
+
+X14s + 68 countCheck33_X14s >= 34
+X14e - 68 countCheck33_X14e <= 32
+-2 count33_X14 + countCheck33_X14s  + countCheck33_X14e  <= 1
+
+X15s + 68 countCheck33_X15s >= 34
+X15e - 68 countCheck33_X15e <= 32
+-2 count33_X15 + countCheck33_X15s  + countCheck33_X15e  <= 1
+
+X16s + 68 countCheck33_X16s >= 34
+X16e - 68 countCheck33_X16e <= 32
+-2 count33_X16 + countCheck33_X16s  + countCheck33_X16e  <= 1
+
+X17s + 68 countCheck33_X17s >= 34
+X17e - 68 countCheck33_X17e <= 32
+-2 count33_X17 + countCheck33_X17s  + countCheck33_X17e  <= 1
+
+X18s + 68 countCheck33_X18s >= 34
+X18e - 68 countCheck33_X18e <= 32
+-2 count33_X18 + countCheck33_X18s  + countCheck33_X18e  <= 1
+
+X19s + 68 countCheck33_X19s >= 34
+X19e - 68 countCheck33_X19e <= 32
+-2 count33_X19 + countCheck33_X19s  + countCheck33_X19e  <= 1
+
+X20s + 68 countCheck33_X20s >= 34
+X20e - 68 countCheck33_X20e <= 32
+-2 count33_X20 + countCheck33_X20s  + countCheck33_X20e  <= 1
+
+X21s + 68 countCheck33_X21s >= 34
+X21e - 68 countCheck33_X21e <= 32
+-2 count33_X21 + countCheck33_X21s  + countCheck33_X21e  <= 1
+
+X22s + 68 countCheck33_X22s >= 34
+X22e - 68 countCheck33_X22e <= 32
+-2 count33_X22 + countCheck33_X22s  + countCheck33_X22e  <= 1
+
+X23s + 68 countCheck33_X23s >= 34
+X23e - 68 countCheck33_X23e <= 32
+-2 count33_X23 + countCheck33_X23s  + countCheck33_X23e  <= 1
+
+X24s + 68 countCheck33_X24s >= 34
+X24e - 68 countCheck33_X24e <= 32
+-2 count33_X24 + countCheck33_X24s  + countCheck33_X24e  <= 1
+
+X25s + 68 countCheck33_X25s >= 34
+X25e - 68 countCheck33_X25e <= 32
+-2 count33_X25 + countCheck33_X25s  + countCheck33_X25e  <= 1
+
+X26s + 68 countCheck33_X26s >= 34
+X26e - 68 countCheck33_X26e <= 32
+-2 count33_X26 + countCheck33_X26s  + countCheck33_X26e  <= 1
+
+X27s + 68 countCheck33_X27s >= 34
+X27e - 68 countCheck33_X27e <= 32
+-2 count33_X27 + countCheck33_X27s  + countCheck33_X27e  <= 1
+
+X28s + 68 countCheck33_X28s >= 34
+X28e - 68 countCheck33_X28e <= 32
+-2 count33_X28 + countCheck33_X28s  + countCheck33_X28e  <= 1
+
+X29s + 68 countCheck33_X29s >= 34
+X29e - 68 countCheck33_X29e <= 32
+-2 count33_X29 + countCheck33_X29s  + countCheck33_X29e  <= 1
+
+X30s + 68 countCheck33_X30s >= 34
+X30e - 68 countCheck33_X30e <= 32
+-2 count33_X30 + countCheck33_X30s  + countCheck33_X30e  <= 1
+
+X31s + 68 countCheck33_X31s >= 34
+X31e - 68 countCheck33_X31e <= 32
+-2 count33_X31 + countCheck33_X31s  + countCheck33_X31e  <= 1
+
+X32s + 68 countCheck33_X32s >= 34
+X32e - 68 countCheck33_X32e <= 32
+-2 count33_X32 + countCheck33_X32s  + countCheck33_X32e  <= 1
+
+X33s + 68 countCheck33_X33s >= 34
+X33e - 68 countCheck33_X33e <= 32
+-2 count33_X33 + countCheck33_X33s  + countCheck33_X33e  <= 1
+
+X34s + 68 countCheck33_X34s >= 34
+X34e - 68 countCheck33_X34e <= 32
+-2 count33_X34 + countCheck33_X34s  + countCheck33_X34e  <= 1
+
+X35s + 68 countCheck33_X35s >= 34
+X35e - 68 countCheck33_X35e <= 32
+-2 count33_X35 + countCheck33_X35s  + countCheck33_X35e  <= 1
+
+X36s + 68 countCheck33_X36s >= 34
+X36e - 68 countCheck33_X36e <= 32
+-2 count33_X36 + countCheck33_X36s  + countCheck33_X36e  <= 1
+
+X37s + 68 countCheck33_X37s >= 34
+X37e - 68 countCheck33_X37e <= 32
+-2 count33_X37 + countCheck33_X37s  + countCheck33_X37e  <= 1
+
+X38s + 68 countCheck33_X38s >= 34
+X38e - 68 countCheck33_X38e <= 32
+-2 count33_X38 + countCheck33_X38s  + countCheck33_X38e  <= 1
+
+X39s + 68 countCheck33_X39s >= 34
+X39e - 68 countCheck33_X39e <= 32
+-2 count33_X39 + countCheck33_X39s  + countCheck33_X39e  <= 1
+
+X40s + 68 countCheck33_X40s >= 34
+X40e - 68 countCheck33_X40e <= 32
+-2 count33_X40 + countCheck33_X40s  + countCheck33_X40e  <= 1
+
+X41s + 68 countCheck33_X41s >= 34
+X41e - 68 countCheck33_X41e <= 32
+-2 count33_X41 + countCheck33_X41s  + countCheck33_X41e  <= 1
+
+X42s + 68 countCheck33_X42s >= 34
+X42e - 68 countCheck33_X42e <= 32
+-2 count33_X42 + countCheck33_X42s  + countCheck33_X42e  <= 1
+
+X43s + 68 countCheck33_X43s >= 34
+X43e - 68 countCheck33_X43e <= 32
+-2 count33_X43 + countCheck33_X43s  + countCheck33_X43e  <= 1
+
+X44s + 68 countCheck33_X44s >= 34
+X44e - 68 countCheck33_X44e <= 32
+-2 count33_X44 + countCheck33_X44s  + countCheck33_X44e  <= 1
+
+X45s + 68 countCheck33_X45s >= 34
+X45e - 68 countCheck33_X45e <= 32
+-2 count33_X45 + countCheck33_X45s  + countCheck33_X45e  <= 1
+
+X46s + 68 countCheck33_X46s >= 34
+X46e - 68 countCheck33_X46e <= 32
+-2 count33_X46 + countCheck33_X46s  + countCheck33_X46e  <= 1
+
+X47s + 68 countCheck33_X47s >= 34
+X47e - 68 countCheck33_X47e <= 32
+-2 count33_X47 + countCheck33_X47s  + countCheck33_X47e  <= 1
+
+X48s + 68 countCheck33_X48s >= 34
+X48e - 68 countCheck33_X48e <= 32
+-2 count33_X48 + countCheck33_X48s  + countCheck33_X48e  <= 1
+
+X49s + 68 countCheck33_X49s >= 34
+X49e - 68 countCheck33_X49e <= 32
+-2 count33_X49 + countCheck33_X49s  + countCheck33_X49e  <= 1
+
+X50s + 68 countCheck33_X50s >= 34
+X50e - 68 countCheck33_X50e <= 32
+-2 count33_X50 + countCheck33_X50s  + countCheck33_X50e  <= 1
+
+X51s + 68 countCheck33_X51s >= 34
+X51e - 68 countCheck33_X51e <= 32
+-2 count33_X51 + countCheck33_X51s  + countCheck33_X51e  <= 1
+
+X52s + 68 countCheck33_X52s >= 34
+X52e - 68 countCheck33_X52e <= 32
+-2 count33_X52 + countCheck33_X52s  + countCheck33_X52e  <= 1
+
+X53s + 68 countCheck33_X53s >= 34
+X53e - 68 countCheck33_X53e <= 32
+-2 count33_X53 + countCheck33_X53s  + countCheck33_X53e  <= 1
+
+X54s + 68 countCheck33_X54s >= 34
+X54e - 68 countCheck33_X54e <= 32
+-2 count33_X54 + countCheck33_X54s  + countCheck33_X54e  <= 1
+
+X55s + 68 countCheck33_X55s >= 34
+X55e - 68 countCheck33_X55e <= 32
+-2 count33_X55 + countCheck33_X55s  + countCheck33_X55e  <= 1
+
+X56s + 68 countCheck33_X56s >= 34
+X56e - 68 countCheck33_X56e <= 32
+-2 count33_X56 + countCheck33_X56s  + countCheck33_X56e  <= 1
+
+X57s + 68 countCheck33_X57s >= 34
+X57e - 68 countCheck33_X57e <= 32
+-2 count33_X57 + countCheck33_X57s  + countCheck33_X57e  <= 1
+
+X58s + 68 countCheck33_X58s >= 34
+X58e - 68 countCheck33_X58e <= 32
+-2 count33_X58 + countCheck33_X58s  + countCheck33_X58e  <= 1
+
+X59s + 68 countCheck33_X59s >= 34
+X59e - 68 countCheck33_X59e <= 32
+-2 count33_X59 + countCheck33_X59s  + countCheck33_X59e  <= 1
+
+X60s + 68 countCheck33_X60s >= 34
+X60e - 68 countCheck33_X60e <= 32
+-2 count33_X60 + countCheck33_X60s  + countCheck33_X60e  <= 1
+
+X61s + 68 countCheck33_X61s >= 34
+X61e - 68 countCheck33_X61e <= 32
+-2 count33_X61 + countCheck33_X61s  + countCheck33_X61e  <= 1
+
+X62s + 68 countCheck33_X62s >= 34
+X62e - 68 countCheck33_X62e <= 32
+-2 count33_X62 + countCheck33_X62s  + countCheck33_X62e  <= 1
+
+X63s + 68 countCheck33_X63s >= 34
+X63e - 68 countCheck33_X63e <= 32
+-2 count33_X63 + countCheck33_X63s  + countCheck33_X63e  <= 1
+
+X64s + 68 countCheck33_X64s >= 34
+X64e - 68 countCheck33_X64e <= 32
+-2 count33_X64 + countCheck33_X64s  + countCheck33_X64e  <= 1
+
+X65s + 68 countCheck33_X65s >= 34
+X65e - 68 countCheck33_X65e <= 32
+-2 count33_X65 + countCheck33_X65s  + countCheck33_X65e  <= 1
+
+X66s + 68 countCheck33_X66s >= 34
+X66e - 68 countCheck33_X66e <= 32
+-2 count33_X66 + countCheck33_X66s  + countCheck33_X66e  <= 1
+
+X67s + 68 countCheck33_X67s >= 34
+X67e - 68 countCheck33_X67e <= 32
+-2 count33_X67 + countCheck33_X67s  + countCheck33_X67e  <= 1
+
+count33_X0 + count33_X1 + count33_X2 + count33_X3 + count33_X4 + count33_X5 + count33_X6 + count33_X7 + count33_X8 + count33_X9 + count33_X10 + count33_X11 + count33_X12 + count33_X13 + count33_X14 + count33_X15 + count33_X16 + count33_X17 + count33_X18 + count33_X19 + count33_X20 + count33_X21 + count33_X22 + count33_X23 + count33_X24 + count33_X25 + count33_X26 + count33_X27 + count33_X28 + count33_X29 + count33_X30 + count33_X31 + count33_X32 + count33_X33 + count33_X34 + count33_X35 + count33_X36 + count33_X37 + count33_X38 + count33_X39 + count33_X40 + count33_X41 + count33_X42 + count33_X43 + count33_X44 + count33_X45 + count33_X46 + count33_X47 + count33_X48 + count33_X49 + count33_X50 + count33_X51 + count33_X52 + count33_X53 + count33_X54 + count33_X55 + count33_X56 + count33_X57 + count33_X58 + count33_X59 + count33_X60 + count33_X61 + count33_X62 + count33_X63 + count33_X64 + count33_X65 + count33_X66 + count33_X67 - pathWidth <= 1
+X0s + 68 countCheck34_X0s >= 35
+X0e - 68 countCheck34_X0e <= 33
+-2 count34_X0 + countCheck34_X0s  + countCheck34_X0e  <= 1
+
+X1s + 68 countCheck34_X1s >= 35
+X1e - 68 countCheck34_X1e <= 33
+-2 count34_X1 + countCheck34_X1s  + countCheck34_X1e  <= 1
+
+X2s + 68 countCheck34_X2s >= 35
+X2e - 68 countCheck34_X2e <= 33
+-2 count34_X2 + countCheck34_X2s  + countCheck34_X2e  <= 1
+
+X3s + 68 countCheck34_X3s >= 35
+X3e - 68 countCheck34_X3e <= 33
+-2 count34_X3 + countCheck34_X3s  + countCheck34_X3e  <= 1
+
+X4s + 68 countCheck34_X4s >= 35
+X4e - 68 countCheck34_X4e <= 33
+-2 count34_X4 + countCheck34_X4s  + countCheck34_X4e  <= 1
+
+X5s + 68 countCheck34_X5s >= 35
+X5e - 68 countCheck34_X5e <= 33
+-2 count34_X5 + countCheck34_X5s  + countCheck34_X5e  <= 1
+
+X6s + 68 countCheck34_X6s >= 35
+X6e - 68 countCheck34_X6e <= 33
+-2 count34_X6 + countCheck34_X6s  + countCheck34_X6e  <= 1
+
+X7s + 68 countCheck34_X7s >= 35
+X7e - 68 countCheck34_X7e <= 33
+-2 count34_X7 + countCheck34_X7s  + countCheck34_X7e  <= 1
+
+X8s + 68 countCheck34_X8s >= 35
+X8e - 68 countCheck34_X8e <= 33
+-2 count34_X8 + countCheck34_X8s  + countCheck34_X8e  <= 1
+
+X9s + 68 countCheck34_X9s >= 35
+X9e - 68 countCheck34_X9e <= 33
+-2 count34_X9 + countCheck34_X9s  + countCheck34_X9e  <= 1
+
+X10s + 68 countCheck34_X10s >= 35
+X10e - 68 countCheck34_X10e <= 33
+-2 count34_X10 + countCheck34_X10s  + countCheck34_X10e  <= 1
+
+X11s + 68 countCheck34_X11s >= 35
+X11e - 68 countCheck34_X11e <= 33
+-2 count34_X11 + countCheck34_X11s  + countCheck34_X11e  <= 1
+
+X12s + 68 countCheck34_X12s >= 35
+X12e - 68 countCheck34_X12e <= 33
+-2 count34_X12 + countCheck34_X12s  + countCheck34_X12e  <= 1
+
+X13s + 68 countCheck34_X13s >= 35
+X13e - 68 countCheck34_X13e <= 33
+-2 count34_X13 + countCheck34_X13s  + countCheck34_X13e  <= 1
+
+X14s + 68 countCheck34_X14s >= 35
+X14e - 68 countCheck34_X14e <= 33
+-2 count34_X14 + countCheck34_X14s  + countCheck34_X14e  <= 1
+
+X15s + 68 countCheck34_X15s >= 35
+X15e - 68 countCheck34_X15e <= 33
+-2 count34_X15 + countCheck34_X15s  + countCheck34_X15e  <= 1
+
+X16s + 68 countCheck34_X16s >= 35
+X16e - 68 countCheck34_X16e <= 33
+-2 count34_X16 + countCheck34_X16s  + countCheck34_X16e  <= 1
+
+X17s + 68 countCheck34_X17s >= 35
+X17e - 68 countCheck34_X17e <= 33
+-2 count34_X17 + countCheck34_X17s  + countCheck34_X17e  <= 1
+
+X18s + 68 countCheck34_X18s >= 35
+X18e - 68 countCheck34_X18e <= 33
+-2 count34_X18 + countCheck34_X18s  + countCheck34_X18e  <= 1
+
+X19s + 68 countCheck34_X19s >= 35
+X19e - 68 countCheck34_X19e <= 33
+-2 count34_X19 + countCheck34_X19s  + countCheck34_X19e  <= 1
+
+X20s + 68 countCheck34_X20s >= 35
+X20e - 68 countCheck34_X20e <= 33
+-2 count34_X20 + countCheck34_X20s  + countCheck34_X20e  <= 1
+
+X21s + 68 countCheck34_X21s >= 35
+X21e - 68 countCheck34_X21e <= 33
+-2 count34_X21 + countCheck34_X21s  + countCheck34_X21e  <= 1
+
+X22s + 68 countCheck34_X22s >= 35
+X22e - 68 countCheck34_X22e <= 33
+-2 count34_X22 + countCheck34_X22s  + countCheck34_X22e  <= 1
+
+X23s + 68 countCheck34_X23s >= 35
+X23e - 68 countCheck34_X23e <= 33
+-2 count34_X23 + countCheck34_X23s  + countCheck34_X23e  <= 1
+
+X24s + 68 countCheck34_X24s >= 35
+X24e - 68 countCheck34_X24e <= 33
+-2 count34_X24 + countCheck34_X24s  + countCheck34_X24e  <= 1
+
+X25s + 68 countCheck34_X25s >= 35
+X25e - 68 countCheck34_X25e <= 33
+-2 count34_X25 + countCheck34_X25s  + countCheck34_X25e  <= 1
+
+X26s + 68 countCheck34_X26s >= 35
+X26e - 68 countCheck34_X26e <= 33
+-2 count34_X26 + countCheck34_X26s  + countCheck34_X26e  <= 1
+
+X27s + 68 countCheck34_X27s >= 35
+X27e - 68 countCheck34_X27e <= 33
+-2 count34_X27 + countCheck34_X27s  + countCheck34_X27e  <= 1
+
+X28s + 68 countCheck34_X28s >= 35
+X28e - 68 countCheck34_X28e <= 33
+-2 count34_X28 + countCheck34_X28s  + countCheck34_X28e  <= 1
+
+X29s + 68 countCheck34_X29s >= 35
+X29e - 68 countCheck34_X29e <= 33
+-2 count34_X29 + countCheck34_X29s  + countCheck34_X29e  <= 1
+
+X30s + 68 countCheck34_X30s >= 35
+X30e - 68 countCheck34_X30e <= 33
+-2 count34_X30 + countCheck34_X30s  + countCheck34_X30e  <= 1
+
+X31s + 68 countCheck34_X31s >= 35
+X31e - 68 countCheck34_X31e <= 33
+-2 count34_X31 + countCheck34_X31s  + countCheck34_X31e  <= 1
+
+X32s + 68 countCheck34_X32s >= 35
+X32e - 68 countCheck34_X32e <= 33
+-2 count34_X32 + countCheck34_X32s  + countCheck34_X32e  <= 1
+
+X33s + 68 countCheck34_X33s >= 35
+X33e - 68 countCheck34_X33e <= 33
+-2 count34_X33 + countCheck34_X33s  + countCheck34_X33e  <= 1
+
+X34s + 68 countCheck34_X34s >= 35
+X34e - 68 countCheck34_X34e <= 33
+-2 count34_X34 + countCheck34_X34s  + countCheck34_X34e  <= 1
+
+X35s + 68 countCheck34_X35s >= 35
+X35e - 68 countCheck34_X35e <= 33
+-2 count34_X35 + countCheck34_X35s  + countCheck34_X35e  <= 1
+
+X36s + 68 countCheck34_X36s >= 35
+X36e - 68 countCheck34_X36e <= 33
+-2 count34_X36 + countCheck34_X36s  + countCheck34_X36e  <= 1
+
+X37s + 68 countCheck34_X37s >= 35
+X37e - 68 countCheck34_X37e <= 33
+-2 count34_X37 + countCheck34_X37s  + countCheck34_X37e  <= 1
+
+X38s + 68 countCheck34_X38s >= 35
+X38e - 68 countCheck34_X38e <= 33
+-2 count34_X38 + countCheck34_X38s  + countCheck34_X38e  <= 1
+
+X39s + 68 countCheck34_X39s >= 35
+X39e - 68 countCheck34_X39e <= 33
+-2 count34_X39 + countCheck34_X39s  + countCheck34_X39e  <= 1
+
+X40s + 68 countCheck34_X40s >= 35
+X40e - 68 countCheck34_X40e <= 33
+-2 count34_X40 + countCheck34_X40s  + countCheck34_X40e  <= 1
+
+X41s + 68 countCheck34_X41s >= 35
+X41e - 68 countCheck34_X41e <= 33
+-2 count34_X41 + countCheck34_X41s  + countCheck34_X41e  <= 1
+
+X42s + 68 countCheck34_X42s >= 35
+X42e - 68 countCheck34_X42e <= 33
+-2 count34_X42 + countCheck34_X42s  + countCheck34_X42e  <= 1
+
+X43s + 68 countCheck34_X43s >= 35
+X43e - 68 countCheck34_X43e <= 33
+-2 count34_X43 + countCheck34_X43s  + countCheck34_X43e  <= 1
+
+X44s + 68 countCheck34_X44s >= 35
+X44e - 68 countCheck34_X44e <= 33
+-2 count34_X44 + countCheck34_X44s  + countCheck34_X44e  <= 1
+
+X45s + 68 countCheck34_X45s >= 35
+X45e - 68 countCheck34_X45e <= 33
+-2 count34_X45 + countCheck34_X45s  + countCheck34_X45e  <= 1
+
+X46s + 68 countCheck34_X46s >= 35
+X46e - 68 countCheck34_X46e <= 33
+-2 count34_X46 + countCheck34_X46s  + countCheck34_X46e  <= 1
+
+X47s + 68 countCheck34_X47s >= 35
+X47e - 68 countCheck34_X47e <= 33
+-2 count34_X47 + countCheck34_X47s  + countCheck34_X47e  <= 1
+
+X48s + 68 countCheck34_X48s >= 35
+X48e - 68 countCheck34_X48e <= 33
+-2 count34_X48 + countCheck34_X48s  + countCheck34_X48e  <= 1
+
+X49s + 68 countCheck34_X49s >= 35
+X49e - 68 countCheck34_X49e <= 33
+-2 count34_X49 + countCheck34_X49s  + countCheck34_X49e  <= 1
+
+X50s + 68 countCheck34_X50s >= 35
+X50e - 68 countCheck34_X50e <= 33
+-2 count34_X50 + countCheck34_X50s  + countCheck34_X50e  <= 1
+
+X51s + 68 countCheck34_X51s >= 35
+X51e - 68 countCheck34_X51e <= 33
+-2 count34_X51 + countCheck34_X51s  + countCheck34_X51e  <= 1
+
+X52s + 68 countCheck34_X52s >= 35
+X52e - 68 countCheck34_X52e <= 33
+-2 count34_X52 + countCheck34_X52s  + countCheck34_X52e  <= 1
+
+X53s + 68 countCheck34_X53s >= 35
+X53e - 68 countCheck34_X53e <= 33
+-2 count34_X53 + countCheck34_X53s  + countCheck34_X53e  <= 1
+
+X54s + 68 countCheck34_X54s >= 35
+X54e - 68 countCheck34_X54e <= 33
+-2 count34_X54 + countCheck34_X54s  + countCheck34_X54e  <= 1
+
+X55s + 68 countCheck34_X55s >= 35
+X55e - 68 countCheck34_X55e <= 33
+-2 count34_X55 + countCheck34_X55s  + countCheck34_X55e  <= 1
+
+X56s + 68 countCheck34_X56s >= 35
+X56e - 68 countCheck34_X56e <= 33
+-2 count34_X56 + countCheck34_X56s  + countCheck34_X56e  <= 1
+
+X57s + 68 countCheck34_X57s >= 35
+X57e - 68 countCheck34_X57e <= 33
+-2 count34_X57 + countCheck34_X57s  + countCheck34_X57e  <= 1
+
+X58s + 68 countCheck34_X58s >= 35
+X58e - 68 countCheck34_X58e <= 33
+-2 count34_X58 + countCheck34_X58s  + countCheck34_X58e  <= 1
+
+X59s + 68 countCheck34_X59s >= 35
+X59e - 68 countCheck34_X59e <= 33
+-2 count34_X59 + countCheck34_X59s  + countCheck34_X59e  <= 1
+
+X60s + 68 countCheck34_X60s >= 35
+X60e - 68 countCheck34_X60e <= 33
+-2 count34_X60 + countCheck34_X60s  + countCheck34_X60e  <= 1
+
+X61s + 68 countCheck34_X61s >= 35
+X61e - 68 countCheck34_X61e <= 33
+-2 count34_X61 + countCheck34_X61s  + countCheck34_X61e  <= 1
+
+X62s + 68 countCheck34_X62s >= 35
+X62e - 68 countCheck34_X62e <= 33
+-2 count34_X62 + countCheck34_X62s  + countCheck34_X62e  <= 1
+
+X63s + 68 countCheck34_X63s >= 35
+X63e - 68 countCheck34_X63e <= 33
+-2 count34_X63 + countCheck34_X63s  + countCheck34_X63e  <= 1
+
+X64s + 68 countCheck34_X64s >= 35
+X64e - 68 countCheck34_X64e <= 33
+-2 count34_X64 + countCheck34_X64s  + countCheck34_X64e  <= 1
+
+X65s + 68 countCheck34_X65s >= 35
+X65e - 68 countCheck34_X65e <= 33
+-2 count34_X65 + countCheck34_X65s  + countCheck34_X65e  <= 1
+
+X66s + 68 countCheck34_X66s >= 35
+X66e - 68 countCheck34_X66e <= 33
+-2 count34_X66 + countCheck34_X66s  + countCheck34_X66e  <= 1
+
+X67s + 68 countCheck34_X67s >= 35
+X67e - 68 countCheck34_X67e <= 33
+-2 count34_X67 + countCheck34_X67s  + countCheck34_X67e  <= 1
+
+count34_X0 + count34_X1 + count34_X2 + count34_X3 + count34_X4 + count34_X5 + count34_X6 + count34_X7 + count34_X8 + count34_X9 + count34_X10 + count34_X11 + count34_X12 + count34_X13 + count34_X14 + count34_X15 + count34_X16 + count34_X17 + count34_X18 + count34_X19 + count34_X20 + count34_X21 + count34_X22 + count34_X23 + count34_X24 + count34_X25 + count34_X26 + count34_X27 + count34_X28 + count34_X29 + count34_X30 + count34_X31 + count34_X32 + count34_X33 + count34_X34 + count34_X35 + count34_X36 + count34_X37 + count34_X38 + count34_X39 + count34_X40 + count34_X41 + count34_X42 + count34_X43 + count34_X44 + count34_X45 + count34_X46 + count34_X47 + count34_X48 + count34_X49 + count34_X50 + count34_X51 + count34_X52 + count34_X53 + count34_X54 + count34_X55 + count34_X56 + count34_X57 + count34_X58 + count34_X59 + count34_X60 + count34_X61 + count34_X62 + count34_X63 + count34_X64 + count34_X65 + count34_X66 + count34_X67 - pathWidth <= 1
+X0s + 68 countCheck35_X0s >= 36
+X0e - 68 countCheck35_X0e <= 34
+-2 count35_X0 + countCheck35_X0s  + countCheck35_X0e  <= 1
+
+X1s + 68 countCheck35_X1s >= 36
+X1e - 68 countCheck35_X1e <= 34
+-2 count35_X1 + countCheck35_X1s  + countCheck35_X1e  <= 1
+
+X2s + 68 countCheck35_X2s >= 36
+X2e - 68 countCheck35_X2e <= 34
+-2 count35_X2 + countCheck35_X2s  + countCheck35_X2e  <= 1
+
+X3s + 68 countCheck35_X3s >= 36
+X3e - 68 countCheck35_X3e <= 34
+-2 count35_X3 + countCheck35_X3s  + countCheck35_X3e  <= 1
+
+X4s + 68 countCheck35_X4s >= 36
+X4e - 68 countCheck35_X4e <= 34
+-2 count35_X4 + countCheck35_X4s  + countCheck35_X4e  <= 1
+
+X5s + 68 countCheck35_X5s >= 36
+X5e - 68 countCheck35_X5e <= 34
+-2 count35_X5 + countCheck35_X5s  + countCheck35_X5e  <= 1
+
+X6s + 68 countCheck35_X6s >= 36
+X6e - 68 countCheck35_X6e <= 34
+-2 count35_X6 + countCheck35_X6s  + countCheck35_X6e  <= 1
+
+X7s + 68 countCheck35_X7s >= 36
+X7e - 68 countCheck35_X7e <= 34
+-2 count35_X7 + countCheck35_X7s  + countCheck35_X7e  <= 1
+
+X8s + 68 countCheck35_X8s >= 36
+X8e - 68 countCheck35_X8e <= 34
+-2 count35_X8 + countCheck35_X8s  + countCheck35_X8e  <= 1
+
+X9s + 68 countCheck35_X9s >= 36
+X9e - 68 countCheck35_X9e <= 34
+-2 count35_X9 + countCheck35_X9s  + countCheck35_X9e  <= 1
+
+X10s + 68 countCheck35_X10s >= 36
+X10e - 68 countCheck35_X10e <= 34
+-2 count35_X10 + countCheck35_X10s  + countCheck35_X10e  <= 1
+
+X11s + 68 countCheck35_X11s >= 36
+X11e - 68 countCheck35_X11e <= 34
+-2 count35_X11 + countCheck35_X11s  + countCheck35_X11e  <= 1
+
+X12s + 68 countCheck35_X12s >= 36
+X12e - 68 countCheck35_X12e <= 34
+-2 count35_X12 + countCheck35_X12s  + countCheck35_X12e  <= 1
+
+X13s + 68 countCheck35_X13s >= 36
+X13e - 68 countCheck35_X13e <= 34
+-2 count35_X13 + countCheck35_X13s  + countCheck35_X13e  <= 1
+
+X14s + 68 countCheck35_X14s >= 36
+X14e - 68 countCheck35_X14e <= 34
+-2 count35_X14 + countCheck35_X14s  + countCheck35_X14e  <= 1
+
+X15s + 68 countCheck35_X15s >= 36
+X15e - 68 countCheck35_X15e <= 34
+-2 count35_X15 + countCheck35_X15s  + countCheck35_X15e  <= 1
+
+X16s + 68 countCheck35_X16s >= 36
+X16e - 68 countCheck35_X16e <= 34
+-2 count35_X16 + countCheck35_X16s  + countCheck35_X16e  <= 1
+
+X17s + 68 countCheck35_X17s >= 36
+X17e - 68 countCheck35_X17e <= 34
+-2 count35_X17 + countCheck35_X17s  + countCheck35_X17e  <= 1
+
+X18s + 68 countCheck35_X18s >= 36
+X18e - 68 countCheck35_X18e <= 34
+-2 count35_X18 + countCheck35_X18s  + countCheck35_X18e  <= 1
+
+X19s + 68 countCheck35_X19s >= 36
+X19e - 68 countCheck35_X19e <= 34
+-2 count35_X19 + countCheck35_X19s  + countCheck35_X19e  <= 1
+
+X20s + 68 countCheck35_X20s >= 36
+X20e - 68 countCheck35_X20e <= 34
+-2 count35_X20 + countCheck35_X20s  + countCheck35_X20e  <= 1
+
+X21s + 68 countCheck35_X21s >= 36
+X21e - 68 countCheck35_X21e <= 34
+-2 count35_X21 + countCheck35_X21s  + countCheck35_X21e  <= 1
+
+X22s + 68 countCheck35_X22s >= 36
+X22e - 68 countCheck35_X22e <= 34
+-2 count35_X22 + countCheck35_X22s  + countCheck35_X22e  <= 1
+
+X23s + 68 countCheck35_X23s >= 36
+X23e - 68 countCheck35_X23e <= 34
+-2 count35_X23 + countCheck35_X23s  + countCheck35_X23e  <= 1
+
+X24s + 68 countCheck35_X24s >= 36
+X24e - 68 countCheck35_X24e <= 34
+-2 count35_X24 + countCheck35_X24s  + countCheck35_X24e  <= 1
+
+X25s + 68 countCheck35_X25s >= 36
+X25e - 68 countCheck35_X25e <= 34
+-2 count35_X25 + countCheck35_X25s  + countCheck35_X25e  <= 1
+
+X26s + 68 countCheck35_X26s >= 36
+X26e - 68 countCheck35_X26e <= 34
+-2 count35_X26 + countCheck35_X26s  + countCheck35_X26e  <= 1
+
+X27s + 68 countCheck35_X27s >= 36
+X27e - 68 countCheck35_X27e <= 34
+-2 count35_X27 + countCheck35_X27s  + countCheck35_X27e  <= 1
+
+X28s + 68 countCheck35_X28s >= 36
+X28e - 68 countCheck35_X28e <= 34
+-2 count35_X28 + countCheck35_X28s  + countCheck35_X28e  <= 1
+
+X29s + 68 countCheck35_X29s >= 36
+X29e - 68 countCheck35_X29e <= 34
+-2 count35_X29 + countCheck35_X29s  + countCheck35_X29e  <= 1
+
+X30s + 68 countCheck35_X30s >= 36
+X30e - 68 countCheck35_X30e <= 34
+-2 count35_X30 + countCheck35_X30s  + countCheck35_X30e  <= 1
+
+X31s + 68 countCheck35_X31s >= 36
+X31e - 68 countCheck35_X31e <= 34
+-2 count35_X31 + countCheck35_X31s  + countCheck35_X31e  <= 1
+
+X32s + 68 countCheck35_X32s >= 36
+X32e - 68 countCheck35_X32e <= 34
+-2 count35_X32 + countCheck35_X32s  + countCheck35_X32e  <= 1
+
+X33s + 68 countCheck35_X33s >= 36
+X33e - 68 countCheck35_X33e <= 34
+-2 count35_X33 + countCheck35_X33s  + countCheck35_X33e  <= 1
+
+X34s + 68 countCheck35_X34s >= 36
+X34e - 68 countCheck35_X34e <= 34
+-2 count35_X34 + countCheck35_X34s  + countCheck35_X34e  <= 1
+
+X35s + 68 countCheck35_X35s >= 36
+X35e - 68 countCheck35_X35e <= 34
+-2 count35_X35 + countCheck35_X35s  + countCheck35_X35e  <= 1
+
+X36s + 68 countCheck35_X36s >= 36
+X36e - 68 countCheck35_X36e <= 34
+-2 count35_X36 + countCheck35_X36s  + countCheck35_X36e  <= 1
+
+X37s + 68 countCheck35_X37s >= 36
+X37e - 68 countCheck35_X37e <= 34
+-2 count35_X37 + countCheck35_X37s  + countCheck35_X37e  <= 1
+
+X38s + 68 countCheck35_X38s >= 36
+X38e - 68 countCheck35_X38e <= 34
+-2 count35_X38 + countCheck35_X38s  + countCheck35_X38e  <= 1
+
+X39s + 68 countCheck35_X39s >= 36
+X39e - 68 countCheck35_X39e <= 34
+-2 count35_X39 + countCheck35_X39s  + countCheck35_X39e  <= 1
+
+X40s + 68 countCheck35_X40s >= 36
+X40e - 68 countCheck35_X40e <= 34
+-2 count35_X40 + countCheck35_X40s  + countCheck35_X40e  <= 1
+
+X41s + 68 countCheck35_X41s >= 36
+X41e - 68 countCheck35_X41e <= 34
+-2 count35_X41 + countCheck35_X41s  + countCheck35_X41e  <= 1
+
+X42s + 68 countCheck35_X42s >= 36
+X42e - 68 countCheck35_X42e <= 34
+-2 count35_X42 + countCheck35_X42s  + countCheck35_X42e  <= 1
+
+X43s + 68 countCheck35_X43s >= 36
+X43e - 68 countCheck35_X43e <= 34
+-2 count35_X43 + countCheck35_X43s  + countCheck35_X43e  <= 1
+
+X44s + 68 countCheck35_X44s >= 36
+X44e - 68 countCheck35_X44e <= 34
+-2 count35_X44 + countCheck35_X44s  + countCheck35_X44e  <= 1
+
+X45s + 68 countCheck35_X45s >= 36
+X45e - 68 countCheck35_X45e <= 34
+-2 count35_X45 + countCheck35_X45s  + countCheck35_X45e  <= 1
+
+X46s + 68 countCheck35_X46s >= 36
+X46e - 68 countCheck35_X46e <= 34
+-2 count35_X46 + countCheck35_X46s  + countCheck35_X46e  <= 1
+
+X47s + 68 countCheck35_X47s >= 36
+X47e - 68 countCheck35_X47e <= 34
+-2 count35_X47 + countCheck35_X47s  + countCheck35_X47e  <= 1
+
+X48s + 68 countCheck35_X48s >= 36
+X48e - 68 countCheck35_X48e <= 34
+-2 count35_X48 + countCheck35_X48s  + countCheck35_X48e  <= 1
+
+X49s + 68 countCheck35_X49s >= 36
+X49e - 68 countCheck35_X49e <= 34
+-2 count35_X49 + countCheck35_X49s  + countCheck35_X49e  <= 1
+
+X50s + 68 countCheck35_X50s >= 36
+X50e - 68 countCheck35_X50e <= 34
+-2 count35_X50 + countCheck35_X50s  + countCheck35_X50e  <= 1
+
+X51s + 68 countCheck35_X51s >= 36
+X51e - 68 countCheck35_X51e <= 34
+-2 count35_X51 + countCheck35_X51s  + countCheck35_X51e  <= 1
+
+X52s + 68 countCheck35_X52s >= 36
+X52e - 68 countCheck35_X52e <= 34
+-2 count35_X52 + countCheck35_X52s  + countCheck35_X52e  <= 1
+
+X53s + 68 countCheck35_X53s >= 36
+X53e - 68 countCheck35_X53e <= 34
+-2 count35_X53 + countCheck35_X53s  + countCheck35_X53e  <= 1
+
+X54s + 68 countCheck35_X54s >= 36
+X54e - 68 countCheck35_X54e <= 34
+-2 count35_X54 + countCheck35_X54s  + countCheck35_X54e  <= 1
+
+X55s + 68 countCheck35_X55s >= 36
+X55e - 68 countCheck35_X55e <= 34
+-2 count35_X55 + countCheck35_X55s  + countCheck35_X55e  <= 1
+
+X56s + 68 countCheck35_X56s >= 36
+X56e - 68 countCheck35_X56e <= 34
+-2 count35_X56 + countCheck35_X56s  + countCheck35_X56e  <= 1
+
+X57s + 68 countCheck35_X57s >= 36
+X57e - 68 countCheck35_X57e <= 34
+-2 count35_X57 + countCheck35_X57s  + countCheck35_X57e  <= 1
+
+X58s + 68 countCheck35_X58s >= 36
+X58e - 68 countCheck35_X58e <= 34
+-2 count35_X58 + countCheck35_X58s  + countCheck35_X58e  <= 1
+
+X59s + 68 countCheck35_X59s >= 36
+X59e - 68 countCheck35_X59e <= 34
+-2 count35_X59 + countCheck35_X59s  + countCheck35_X59e  <= 1
+
+X60s + 68 countCheck35_X60s >= 36
+X60e - 68 countCheck35_X60e <= 34
+-2 count35_X60 + countCheck35_X60s  + countCheck35_X60e  <= 1
+
+X61s + 68 countCheck35_X61s >= 36
+X61e - 68 countCheck35_X61e <= 34
+-2 count35_X61 + countCheck35_X61s  + countCheck35_X61e  <= 1
+
+X62s + 68 countCheck35_X62s >= 36
+X62e - 68 countCheck35_X62e <= 34
+-2 count35_X62 + countCheck35_X62s  + countCheck35_X62e  <= 1
+
+X63s + 68 countCheck35_X63s >= 36
+X63e - 68 countCheck35_X63e <= 34
+-2 count35_X63 + countCheck35_X63s  + countCheck35_X63e  <= 1
+
+X64s + 68 countCheck35_X64s >= 36
+X64e - 68 countCheck35_X64e <= 34
+-2 count35_X64 + countCheck35_X64s  + countCheck35_X64e  <= 1
+
+X65s + 68 countCheck35_X65s >= 36
+X65e - 68 countCheck35_X65e <= 34
+-2 count35_X65 + countCheck35_X65s  + countCheck35_X65e  <= 1
+
+X66s + 68 countCheck35_X66s >= 36
+X66e - 68 countCheck35_X66e <= 34
+-2 count35_X66 + countCheck35_X66s  + countCheck35_X66e  <= 1
+
+X67s + 68 countCheck35_X67s >= 36
+X67e - 68 countCheck35_X67e <= 34
+-2 count35_X67 + countCheck35_X67s  + countCheck35_X67e  <= 1
+
+count35_X0 + count35_X1 + count35_X2 + count35_X3 + count35_X4 + count35_X5 + count35_X6 + count35_X7 + count35_X8 + count35_X9 + count35_X10 + count35_X11 + count35_X12 + count35_X13 + count35_X14 + count35_X15 + count35_X16 + count35_X17 + count35_X18 + count35_X19 + count35_X20 + count35_X21 + count35_X22 + count35_X23 + count35_X24 + count35_X25 + count35_X26 + count35_X27 + count35_X28 + count35_X29 + count35_X30 + count35_X31 + count35_X32 + count35_X33 + count35_X34 + count35_X35 + count35_X36 + count35_X37 + count35_X38 + count35_X39 + count35_X40 + count35_X41 + count35_X42 + count35_X43 + count35_X44 + count35_X45 + count35_X46 + count35_X47 + count35_X48 + count35_X49 + count35_X50 + count35_X51 + count35_X52 + count35_X53 + count35_X54 + count35_X55 + count35_X56 + count35_X57 + count35_X58 + count35_X59 + count35_X60 + count35_X61 + count35_X62 + count35_X63 + count35_X64 + count35_X65 + count35_X66 + count35_X67 - pathWidth <= 1
+X0s + 68 countCheck36_X0s >= 37
+X0e - 68 countCheck36_X0e <= 35
+-2 count36_X0 + countCheck36_X0s  + countCheck36_X0e  <= 1
+
+X1s + 68 countCheck36_X1s >= 37
+X1e - 68 countCheck36_X1e <= 35
+-2 count36_X1 + countCheck36_X1s  + countCheck36_X1e  <= 1
+
+X2s + 68 countCheck36_X2s >= 37
+X2e - 68 countCheck36_X2e <= 35
+-2 count36_X2 + countCheck36_X2s  + countCheck36_X2e  <= 1
+
+X3s + 68 countCheck36_X3s >= 37
+X3e - 68 countCheck36_X3e <= 35
+-2 count36_X3 + countCheck36_X3s  + countCheck36_X3e  <= 1
+
+X4s + 68 countCheck36_X4s >= 37
+X4e - 68 countCheck36_X4e <= 35
+-2 count36_X4 + countCheck36_X4s  + countCheck36_X4e  <= 1
+
+X5s + 68 countCheck36_X5s >= 37
+X5e - 68 countCheck36_X5e <= 35
+-2 count36_X5 + countCheck36_X5s  + countCheck36_X5e  <= 1
+
+X6s + 68 countCheck36_X6s >= 37
+X6e - 68 countCheck36_X6e <= 35
+-2 count36_X6 + countCheck36_X6s  + countCheck36_X6e  <= 1
+
+X7s + 68 countCheck36_X7s >= 37
+X7e - 68 countCheck36_X7e <= 35
+-2 count36_X7 + countCheck36_X7s  + countCheck36_X7e  <= 1
+
+X8s + 68 countCheck36_X8s >= 37
+X8e - 68 countCheck36_X8e <= 35
+-2 count36_X8 + countCheck36_X8s  + countCheck36_X8e  <= 1
+
+X9s + 68 countCheck36_X9s >= 37
+X9e - 68 countCheck36_X9e <= 35
+-2 count36_X9 + countCheck36_X9s  + countCheck36_X9e  <= 1
+
+X10s + 68 countCheck36_X10s >= 37
+X10e - 68 countCheck36_X10e <= 35
+-2 count36_X10 + countCheck36_X10s  + countCheck36_X10e  <= 1
+
+X11s + 68 countCheck36_X11s >= 37
+X11e - 68 countCheck36_X11e <= 35
+-2 count36_X11 + countCheck36_X11s  + countCheck36_X11e  <= 1
+
+X12s + 68 countCheck36_X12s >= 37
+X12e - 68 countCheck36_X12e <= 35
+-2 count36_X12 + countCheck36_X12s  + countCheck36_X12e  <= 1
+
+X13s + 68 countCheck36_X13s >= 37
+X13e - 68 countCheck36_X13e <= 35
+-2 count36_X13 + countCheck36_X13s  + countCheck36_X13e  <= 1
+
+X14s + 68 countCheck36_X14s >= 37
+X14e - 68 countCheck36_X14e <= 35
+-2 count36_X14 + countCheck36_X14s  + countCheck36_X14e  <= 1
+
+X15s + 68 countCheck36_X15s >= 37
+X15e - 68 countCheck36_X15e <= 35
+-2 count36_X15 + countCheck36_X15s  + countCheck36_X15e  <= 1
+
+X16s + 68 countCheck36_X16s >= 37
+X16e - 68 countCheck36_X16e <= 35
+-2 count36_X16 + countCheck36_X16s  + countCheck36_X16e  <= 1
+
+X17s + 68 countCheck36_X17s >= 37
+X17e - 68 countCheck36_X17e <= 35
+-2 count36_X17 + countCheck36_X17s  + countCheck36_X17e  <= 1
+
+X18s + 68 countCheck36_X18s >= 37
+X18e - 68 countCheck36_X18e <= 35
+-2 count36_X18 + countCheck36_X18s  + countCheck36_X18e  <= 1
+
+X19s + 68 countCheck36_X19s >= 37
+X19e - 68 countCheck36_X19e <= 35
+-2 count36_X19 + countCheck36_X19s  + countCheck36_X19e  <= 1
+
+X20s + 68 countCheck36_X20s >= 37
+X20e - 68 countCheck36_X20e <= 35
+-2 count36_X20 + countCheck36_X20s  + countCheck36_X20e  <= 1
+
+X21s + 68 countCheck36_X21s >= 37
+X21e - 68 countCheck36_X21e <= 35
+-2 count36_X21 + countCheck36_X21s  + countCheck36_X21e  <= 1
+
+X22s + 68 countCheck36_X22s >= 37
+X22e - 68 countCheck36_X22e <= 35
+-2 count36_X22 + countCheck36_X22s  + countCheck36_X22e  <= 1
+
+X23s + 68 countCheck36_X23s >= 37
+X23e - 68 countCheck36_X23e <= 35
+-2 count36_X23 + countCheck36_X23s  + countCheck36_X23e  <= 1
+
+X24s + 68 countCheck36_X24s >= 37
+X24e - 68 countCheck36_X24e <= 35
+-2 count36_X24 + countCheck36_X24s  + countCheck36_X24e  <= 1
+
+X25s + 68 countCheck36_X25s >= 37
+X25e - 68 countCheck36_X25e <= 35
+-2 count36_X25 + countCheck36_X25s  + countCheck36_X25e  <= 1
+
+X26s + 68 countCheck36_X26s >= 37
+X26e - 68 countCheck36_X26e <= 35
+-2 count36_X26 + countCheck36_X26s  + countCheck36_X26e  <= 1
+
+X27s + 68 countCheck36_X27s >= 37
+X27e - 68 countCheck36_X27e <= 35
+-2 count36_X27 + countCheck36_X27s  + countCheck36_X27e  <= 1
+
+X28s + 68 countCheck36_X28s >= 37
+X28e - 68 countCheck36_X28e <= 35
+-2 count36_X28 + countCheck36_X28s  + countCheck36_X28e  <= 1
+
+X29s + 68 countCheck36_X29s >= 37
+X29e - 68 countCheck36_X29e <= 35
+-2 count36_X29 + countCheck36_X29s  + countCheck36_X29e  <= 1
+
+X30s + 68 countCheck36_X30s >= 37
+X30e - 68 countCheck36_X30e <= 35
+-2 count36_X30 + countCheck36_X30s  + countCheck36_X30e  <= 1
+
+X31s + 68 countCheck36_X31s >= 37
+X31e - 68 countCheck36_X31e <= 35
+-2 count36_X31 + countCheck36_X31s  + countCheck36_X31e  <= 1
+
+X32s + 68 countCheck36_X32s >= 37
+X32e - 68 countCheck36_X32e <= 35
+-2 count36_X32 + countCheck36_X32s  + countCheck36_X32e  <= 1
+
+X33s + 68 countCheck36_X33s >= 37
+X33e - 68 countCheck36_X33e <= 35
+-2 count36_X33 + countCheck36_X33s  + countCheck36_X33e  <= 1
+
+X34s + 68 countCheck36_X34s >= 37
+X34e - 68 countCheck36_X34e <= 35
+-2 count36_X34 + countCheck36_X34s  + countCheck36_X34e  <= 1
+
+X35s + 68 countCheck36_X35s >= 37
+X35e - 68 countCheck36_X35e <= 35
+-2 count36_X35 + countCheck36_X35s  + countCheck36_X35e  <= 1
+
+X36s + 68 countCheck36_X36s >= 37
+X36e - 68 countCheck36_X36e <= 35
+-2 count36_X36 + countCheck36_X36s  + countCheck36_X36e  <= 1
+
+X37s + 68 countCheck36_X37s >= 37
+X37e - 68 countCheck36_X37e <= 35
+-2 count36_X37 + countCheck36_X37s  + countCheck36_X37e  <= 1
+
+X38s + 68 countCheck36_X38s >= 37
+X38e - 68 countCheck36_X38e <= 35
+-2 count36_X38 + countCheck36_X38s  + countCheck36_X38e  <= 1
+
+X39s + 68 countCheck36_X39s >= 37
+X39e - 68 countCheck36_X39e <= 35
+-2 count36_X39 + countCheck36_X39s  + countCheck36_X39e  <= 1
+
+X40s + 68 countCheck36_X40s >= 37
+X40e - 68 countCheck36_X40e <= 35
+-2 count36_X40 + countCheck36_X40s  + countCheck36_X40e  <= 1
+
+X41s + 68 countCheck36_X41s >= 37
+X41e - 68 countCheck36_X41e <= 35
+-2 count36_X41 + countCheck36_X41s  + countCheck36_X41e  <= 1
+
+X42s + 68 countCheck36_X42s >= 37
+X42e - 68 countCheck36_X42e <= 35
+-2 count36_X42 + countCheck36_X42s  + countCheck36_X42e  <= 1
+
+X43s + 68 countCheck36_X43s >= 37
+X43e - 68 countCheck36_X43e <= 35
+-2 count36_X43 + countCheck36_X43s  + countCheck36_X43e  <= 1
+
+X44s + 68 countCheck36_X44s >= 37
+X44e - 68 countCheck36_X44e <= 35
+-2 count36_X44 + countCheck36_X44s  + countCheck36_X44e  <= 1
+
+X45s + 68 countCheck36_X45s >= 37
+X45e - 68 countCheck36_X45e <= 35
+-2 count36_X45 + countCheck36_X45s  + countCheck36_X45e  <= 1
+
+X46s + 68 countCheck36_X46s >= 37
+X46e - 68 countCheck36_X46e <= 35
+-2 count36_X46 + countCheck36_X46s  + countCheck36_X46e  <= 1
+
+X47s + 68 countCheck36_X47s >= 37
+X47e - 68 countCheck36_X47e <= 35
+-2 count36_X47 + countCheck36_X47s  + countCheck36_X47e  <= 1
+
+X48s + 68 countCheck36_X48s >= 37
+X48e - 68 countCheck36_X48e <= 35
+-2 count36_X48 + countCheck36_X48s  + countCheck36_X48e  <= 1
+
+X49s + 68 countCheck36_X49s >= 37
+X49e - 68 countCheck36_X49e <= 35
+-2 count36_X49 + countCheck36_X49s  + countCheck36_X49e  <= 1
+
+X50s + 68 countCheck36_X50s >= 37
+X50e - 68 countCheck36_X50e <= 35
+-2 count36_X50 + countCheck36_X50s  + countCheck36_X50e  <= 1
+
+X51s + 68 countCheck36_X51s >= 37
+X51e - 68 countCheck36_X51e <= 35
+-2 count36_X51 + countCheck36_X51s  + countCheck36_X51e  <= 1
+
+X52s + 68 countCheck36_X52s >= 37
+X52e - 68 countCheck36_X52e <= 35
+-2 count36_X52 + countCheck36_X52s  + countCheck36_X52e  <= 1
+
+X53s + 68 countCheck36_X53s >= 37
+X53e - 68 countCheck36_X53e <= 35
+-2 count36_X53 + countCheck36_X53s  + countCheck36_X53e  <= 1
+
+X54s + 68 countCheck36_X54s >= 37
+X54e - 68 countCheck36_X54e <= 35
+-2 count36_X54 + countCheck36_X54s  + countCheck36_X54e  <= 1
+
+X55s + 68 countCheck36_X55s >= 37
+X55e - 68 countCheck36_X55e <= 35
+-2 count36_X55 + countCheck36_X55s  + countCheck36_X55e  <= 1
+
+X56s + 68 countCheck36_X56s >= 37
+X56e - 68 countCheck36_X56e <= 35
+-2 count36_X56 + countCheck36_X56s  + countCheck36_X56e  <= 1
+
+X57s + 68 countCheck36_X57s >= 37
+X57e - 68 countCheck36_X57e <= 35
+-2 count36_X57 + countCheck36_X57s  + countCheck36_X57e  <= 1
+
+X58s + 68 countCheck36_X58s >= 37
+X58e - 68 countCheck36_X58e <= 35
+-2 count36_X58 + countCheck36_X58s  + countCheck36_X58e  <= 1
+
+X59s + 68 countCheck36_X59s >= 37
+X59e - 68 countCheck36_X59e <= 35
+-2 count36_X59 + countCheck36_X59s  + countCheck36_X59e  <= 1
+
+X60s + 68 countCheck36_X60s >= 37
+X60e - 68 countCheck36_X60e <= 35
+-2 count36_X60 + countCheck36_X60s  + countCheck36_X60e  <= 1
+
+X61s + 68 countCheck36_X61s >= 37
+X61e - 68 countCheck36_X61e <= 35
+-2 count36_X61 + countCheck36_X61s  + countCheck36_X61e  <= 1
+
+X62s + 68 countCheck36_X62s >= 37
+X62e - 68 countCheck36_X62e <= 35
+-2 count36_X62 + countCheck36_X62s  + countCheck36_X62e  <= 1
+
+X63s + 68 countCheck36_X63s >= 37
+X63e - 68 countCheck36_X63e <= 35
+-2 count36_X63 + countCheck36_X63s  + countCheck36_X63e  <= 1
+
+X64s + 68 countCheck36_X64s >= 37
+X64e - 68 countCheck36_X64e <= 35
+-2 count36_X64 + countCheck36_X64s  + countCheck36_X64e  <= 1
+
+X65s + 68 countCheck36_X65s >= 37
+X65e - 68 countCheck36_X65e <= 35
+-2 count36_X65 + countCheck36_X65s  + countCheck36_X65e  <= 1
+
+X66s + 68 countCheck36_X66s >= 37
+X66e - 68 countCheck36_X66e <= 35
+-2 count36_X66 + countCheck36_X66s  + countCheck36_X66e  <= 1
+
+X67s + 68 countCheck36_X67s >= 37
+X67e - 68 countCheck36_X67e <= 35
+-2 count36_X67 + countCheck36_X67s  + countCheck36_X67e  <= 1
+
+count36_X0 + count36_X1 + count36_X2 + count36_X3 + count36_X4 + count36_X5 + count36_X6 + count36_X7 + count36_X8 + count36_X9 + count36_X10 + count36_X11 + count36_X12 + count36_X13 + count36_X14 + count36_X15 + count36_X16 + count36_X17 + count36_X18 + count36_X19 + count36_X20 + count36_X21 + count36_X22 + count36_X23 + count36_X24 + count36_X25 + count36_X26 + count36_X27 + count36_X28 + count36_X29 + count36_X30 + count36_X31 + count36_X32 + count36_X33 + count36_X34 + count36_X35 + count36_X36 + count36_X37 + count36_X38 + count36_X39 + count36_X40 + count36_X41 + count36_X42 + count36_X43 + count36_X44 + count36_X45 + count36_X46 + count36_X47 + count36_X48 + count36_X49 + count36_X50 + count36_X51 + count36_X52 + count36_X53 + count36_X54 + count36_X55 + count36_X56 + count36_X57 + count36_X58 + count36_X59 + count36_X60 + count36_X61 + count36_X62 + count36_X63 + count36_X64 + count36_X65 + count36_X66 + count36_X67 - pathWidth <= 1
+X0s + 68 countCheck37_X0s >= 38
+X0e - 68 countCheck37_X0e <= 36
+-2 count37_X0 + countCheck37_X0s  + countCheck37_X0e  <= 1
+
+X1s + 68 countCheck37_X1s >= 38
+X1e - 68 countCheck37_X1e <= 36
+-2 count37_X1 + countCheck37_X1s  + countCheck37_X1e  <= 1
+
+X2s + 68 countCheck37_X2s >= 38
+X2e - 68 countCheck37_X2e <= 36
+-2 count37_X2 + countCheck37_X2s  + countCheck37_X2e  <= 1
+
+X3s + 68 countCheck37_X3s >= 38
+X3e - 68 countCheck37_X3e <= 36
+-2 count37_X3 + countCheck37_X3s  + countCheck37_X3e  <= 1
+
+X4s + 68 countCheck37_X4s >= 38
+X4e - 68 countCheck37_X4e <= 36
+-2 count37_X4 + countCheck37_X4s  + countCheck37_X4e  <= 1
+
+X5s + 68 countCheck37_X5s >= 38
+X5e - 68 countCheck37_X5e <= 36
+-2 count37_X5 + countCheck37_X5s  + countCheck37_X5e  <= 1
+
+X6s + 68 countCheck37_X6s >= 38
+X6e - 68 countCheck37_X6e <= 36
+-2 count37_X6 + countCheck37_X6s  + countCheck37_X6e  <= 1
+
+X7s + 68 countCheck37_X7s >= 38
+X7e - 68 countCheck37_X7e <= 36
+-2 count37_X7 + countCheck37_X7s  + countCheck37_X7e  <= 1
+
+X8s + 68 countCheck37_X8s >= 38
+X8e - 68 countCheck37_X8e <= 36
+-2 count37_X8 + countCheck37_X8s  + countCheck37_X8e  <= 1
+
+X9s + 68 countCheck37_X9s >= 38
+X9e - 68 countCheck37_X9e <= 36
+-2 count37_X9 + countCheck37_X9s  + countCheck37_X9e  <= 1
+
+X10s + 68 countCheck37_X10s >= 38
+X10e - 68 countCheck37_X10e <= 36
+-2 count37_X10 + countCheck37_X10s  + countCheck37_X10e  <= 1
+
+X11s + 68 countCheck37_X11s >= 38
+X11e - 68 countCheck37_X11e <= 36
+-2 count37_X11 + countCheck37_X11s  + countCheck37_X11e  <= 1
+
+X12s + 68 countCheck37_X12s >= 38
+X12e - 68 countCheck37_X12e <= 36
+-2 count37_X12 + countCheck37_X12s  + countCheck37_X12e  <= 1
+
+X13s + 68 countCheck37_X13s >= 38
+X13e - 68 countCheck37_X13e <= 36
+-2 count37_X13 + countCheck37_X13s  + countCheck37_X13e  <= 1
+
+X14s + 68 countCheck37_X14s >= 38
+X14e - 68 countCheck37_X14e <= 36
+-2 count37_X14 + countCheck37_X14s  + countCheck37_X14e  <= 1
+
+X15s + 68 countCheck37_X15s >= 38
+X15e - 68 countCheck37_X15e <= 36
+-2 count37_X15 + countCheck37_X15s  + countCheck37_X15e  <= 1
+
+X16s + 68 countCheck37_X16s >= 38
+X16e - 68 countCheck37_X16e <= 36
+-2 count37_X16 + countCheck37_X16s  + countCheck37_X16e  <= 1
+
+X17s + 68 countCheck37_X17s >= 38
+X17e - 68 countCheck37_X17e <= 36
+-2 count37_X17 + countCheck37_X17s  + countCheck37_X17e  <= 1
+
+X18s + 68 countCheck37_X18s >= 38
+X18e - 68 countCheck37_X18e <= 36
+-2 count37_X18 + countCheck37_X18s  + countCheck37_X18e  <= 1
+
+X19s + 68 countCheck37_X19s >= 38
+X19e - 68 countCheck37_X19e <= 36
+-2 count37_X19 + countCheck37_X19s  + countCheck37_X19e  <= 1
+
+X20s + 68 countCheck37_X20s >= 38
+X20e - 68 countCheck37_X20e <= 36
+-2 count37_X20 + countCheck37_X20s  + countCheck37_X20e  <= 1
+
+X21s + 68 countCheck37_X21s >= 38
+X21e - 68 countCheck37_X21e <= 36
+-2 count37_X21 + countCheck37_X21s  + countCheck37_X21e  <= 1
+
+X22s + 68 countCheck37_X22s >= 38
+X22e - 68 countCheck37_X22e <= 36
+-2 count37_X22 + countCheck37_X22s  + countCheck37_X22e  <= 1
+
+X23s + 68 countCheck37_X23s >= 38
+X23e - 68 countCheck37_X23e <= 36
+-2 count37_X23 + countCheck37_X23s  + countCheck37_X23e  <= 1
+
+X24s + 68 countCheck37_X24s >= 38
+X24e - 68 countCheck37_X24e <= 36
+-2 count37_X24 + countCheck37_X24s  + countCheck37_X24e  <= 1
+
+X25s + 68 countCheck37_X25s >= 38
+X25e - 68 countCheck37_X25e <= 36
+-2 count37_X25 + countCheck37_X25s  + countCheck37_X25e  <= 1
+
+X26s + 68 countCheck37_X26s >= 38
+X26e - 68 countCheck37_X26e <= 36
+-2 count37_X26 + countCheck37_X26s  + countCheck37_X26e  <= 1
+
+X27s + 68 countCheck37_X27s >= 38
+X27e - 68 countCheck37_X27e <= 36
+-2 count37_X27 + countCheck37_X27s  + countCheck37_X27e  <= 1
+
+X28s + 68 countCheck37_X28s >= 38
+X28e - 68 countCheck37_X28e <= 36
+-2 count37_X28 + countCheck37_X28s  + countCheck37_X28e  <= 1
+
+X29s + 68 countCheck37_X29s >= 38
+X29e - 68 countCheck37_X29e <= 36
+-2 count37_X29 + countCheck37_X29s  + countCheck37_X29e  <= 1
+
+X30s + 68 countCheck37_X30s >= 38
+X30e - 68 countCheck37_X30e <= 36
+-2 count37_X30 + countCheck37_X30s  + countCheck37_X30e  <= 1
+
+X31s + 68 countCheck37_X31s >= 38
+X31e - 68 countCheck37_X31e <= 36
+-2 count37_X31 + countCheck37_X31s  + countCheck37_X31e  <= 1
+
+X32s + 68 countCheck37_X32s >= 38
+X32e - 68 countCheck37_X32e <= 36
+-2 count37_X32 + countCheck37_X32s  + countCheck37_X32e  <= 1
+
+X33s + 68 countCheck37_X33s >= 38
+X33e - 68 countCheck37_X33e <= 36
+-2 count37_X33 + countCheck37_X33s  + countCheck37_X33e  <= 1
+
+X34s + 68 countCheck37_X34s >= 38
+X34e - 68 countCheck37_X34e <= 36
+-2 count37_X34 + countCheck37_X34s  + countCheck37_X34e  <= 1
+
+X35s + 68 countCheck37_X35s >= 38
+X35e - 68 countCheck37_X35e <= 36
+-2 count37_X35 + countCheck37_X35s  + countCheck37_X35e  <= 1
+
+X36s + 68 countCheck37_X36s >= 38
+X36e - 68 countCheck37_X36e <= 36
+-2 count37_X36 + countCheck37_X36s  + countCheck37_X36e  <= 1
+
+X37s + 68 countCheck37_X37s >= 38
+X37e - 68 countCheck37_X37e <= 36
+-2 count37_X37 + countCheck37_X37s  + countCheck37_X37e  <= 1
+
+X38s + 68 countCheck37_X38s >= 38
+X38e - 68 countCheck37_X38e <= 36
+-2 count37_X38 + countCheck37_X38s  + countCheck37_X38e  <= 1
+
+X39s + 68 countCheck37_X39s >= 38
+X39e - 68 countCheck37_X39e <= 36
+-2 count37_X39 + countCheck37_X39s  + countCheck37_X39e  <= 1
+
+X40s + 68 countCheck37_X40s >= 38
+X40e - 68 countCheck37_X40e <= 36
+-2 count37_X40 + countCheck37_X40s  + countCheck37_X40e  <= 1
+
+X41s + 68 countCheck37_X41s >= 38
+X41e - 68 countCheck37_X41e <= 36
+-2 count37_X41 + countCheck37_X41s  + countCheck37_X41e  <= 1
+
+X42s + 68 countCheck37_X42s >= 38
+X42e - 68 countCheck37_X42e <= 36
+-2 count37_X42 + countCheck37_X42s  + countCheck37_X42e  <= 1
+
+X43s + 68 countCheck37_X43s >= 38
+X43e - 68 countCheck37_X43e <= 36
+-2 count37_X43 + countCheck37_X43s  + countCheck37_X43e  <= 1
+
+X44s + 68 countCheck37_X44s >= 38
+X44e - 68 countCheck37_X44e <= 36
+-2 count37_X44 + countCheck37_X44s  + countCheck37_X44e  <= 1
+
+X45s + 68 countCheck37_X45s >= 38
+X45e - 68 countCheck37_X45e <= 36
+-2 count37_X45 + countCheck37_X45s  + countCheck37_X45e  <= 1
+
+X46s + 68 countCheck37_X46s >= 38
+X46e - 68 countCheck37_X46e <= 36
+-2 count37_X46 + countCheck37_X46s  + countCheck37_X46e  <= 1
+
+X47s + 68 countCheck37_X47s >= 38
+X47e - 68 countCheck37_X47e <= 36
+-2 count37_X47 + countCheck37_X47s  + countCheck37_X47e  <= 1
+
+X48s + 68 countCheck37_X48s >= 38
+X48e - 68 countCheck37_X48e <= 36
+-2 count37_X48 + countCheck37_X48s  + countCheck37_X48e  <= 1
+
+X49s + 68 countCheck37_X49s >= 38
+X49e - 68 countCheck37_X49e <= 36
+-2 count37_X49 + countCheck37_X49s  + countCheck37_X49e  <= 1
+
+X50s + 68 countCheck37_X50s >= 38
+X50e - 68 countCheck37_X50e <= 36
+-2 count37_X50 + countCheck37_X50s  + countCheck37_X50e  <= 1
+
+X51s + 68 countCheck37_X51s >= 38
+X51e - 68 countCheck37_X51e <= 36
+-2 count37_X51 + countCheck37_X51s  + countCheck37_X51e  <= 1
+
+X52s + 68 countCheck37_X52s >= 38
+X52e - 68 countCheck37_X52e <= 36
+-2 count37_X52 + countCheck37_X52s  + countCheck37_X52e  <= 1
+
+X53s + 68 countCheck37_X53s >= 38
+X53e - 68 countCheck37_X53e <= 36
+-2 count37_X53 + countCheck37_X53s  + countCheck37_X53e  <= 1
+
+X54s + 68 countCheck37_X54s >= 38
+X54e - 68 countCheck37_X54e <= 36
+-2 count37_X54 + countCheck37_X54s  + countCheck37_X54e  <= 1
+
+X55s + 68 countCheck37_X55s >= 38
+X55e - 68 countCheck37_X55e <= 36
+-2 count37_X55 + countCheck37_X55s  + countCheck37_X55e  <= 1
+
+X56s + 68 countCheck37_X56s >= 38
+X56e - 68 countCheck37_X56e <= 36
+-2 count37_X56 + countCheck37_X56s  + countCheck37_X56e  <= 1
+
+X57s + 68 countCheck37_X57s >= 38
+X57e - 68 countCheck37_X57e <= 36
+-2 count37_X57 + countCheck37_X57s  + countCheck37_X57e  <= 1
+
+X58s + 68 countCheck37_X58s >= 38
+X58e - 68 countCheck37_X58e <= 36
+-2 count37_X58 + countCheck37_X58s  + countCheck37_X58e  <= 1
+
+X59s + 68 countCheck37_X59s >= 38
+X59e - 68 countCheck37_X59e <= 36
+-2 count37_X59 + countCheck37_X59s  + countCheck37_X59e  <= 1
+
+X60s + 68 countCheck37_X60s >= 38
+X60e - 68 countCheck37_X60e <= 36
+-2 count37_X60 + countCheck37_X60s  + countCheck37_X60e  <= 1
+
+X61s + 68 countCheck37_X61s >= 38
+X61e - 68 countCheck37_X61e <= 36
+-2 count37_X61 + countCheck37_X61s  + countCheck37_X61e  <= 1
+
+X62s + 68 countCheck37_X62s >= 38
+X62e - 68 countCheck37_X62e <= 36
+-2 count37_X62 + countCheck37_X62s  + countCheck37_X62e  <= 1
+
+X63s + 68 countCheck37_X63s >= 38
+X63e - 68 countCheck37_X63e <= 36
+-2 count37_X63 + countCheck37_X63s  + countCheck37_X63e  <= 1
+
+X64s + 68 countCheck37_X64s >= 38
+X64e - 68 countCheck37_X64e <= 36
+-2 count37_X64 + countCheck37_X64s  + countCheck37_X64e  <= 1
+
+X65s + 68 countCheck37_X65s >= 38
+X65e - 68 countCheck37_X65e <= 36
+-2 count37_X65 + countCheck37_X65s  + countCheck37_X65e  <= 1
+
+X66s + 68 countCheck37_X66s >= 38
+X66e - 68 countCheck37_X66e <= 36
+-2 count37_X66 + countCheck37_X66s  + countCheck37_X66e  <= 1
+
+X67s + 68 countCheck37_X67s >= 38
+X67e - 68 countCheck37_X67e <= 36
+-2 count37_X67 + countCheck37_X67s  + countCheck37_X67e  <= 1
+
+count37_X0 + count37_X1 + count37_X2 + count37_X3 + count37_X4 + count37_X5 + count37_X6 + count37_X7 + count37_X8 + count37_X9 + count37_X10 + count37_X11 + count37_X12 + count37_X13 + count37_X14 + count37_X15 + count37_X16 + count37_X17 + count37_X18 + count37_X19 + count37_X20 + count37_X21 + count37_X22 + count37_X23 + count37_X24 + count37_X25 + count37_X26 + count37_X27 + count37_X28 + count37_X29 + count37_X30 + count37_X31 + count37_X32 + count37_X33 + count37_X34 + count37_X35 + count37_X36 + count37_X37 + count37_X38 + count37_X39 + count37_X40 + count37_X41 + count37_X42 + count37_X43 + count37_X44 + count37_X45 + count37_X46 + count37_X47 + count37_X48 + count37_X49 + count37_X50 + count37_X51 + count37_X52 + count37_X53 + count37_X54 + count37_X55 + count37_X56 + count37_X57 + count37_X58 + count37_X59 + count37_X60 + count37_X61 + count37_X62 + count37_X63 + count37_X64 + count37_X65 + count37_X66 + count37_X67 - pathWidth <= 1
+X0s + 68 countCheck38_X0s >= 39
+X0e - 68 countCheck38_X0e <= 37
+-2 count38_X0 + countCheck38_X0s  + countCheck38_X0e  <= 1
+
+X1s + 68 countCheck38_X1s >= 39
+X1e - 68 countCheck38_X1e <= 37
+-2 count38_X1 + countCheck38_X1s  + countCheck38_X1e  <= 1
+
+X2s + 68 countCheck38_X2s >= 39
+X2e - 68 countCheck38_X2e <= 37
+-2 count38_X2 + countCheck38_X2s  + countCheck38_X2e  <= 1
+
+X3s + 68 countCheck38_X3s >= 39
+X3e - 68 countCheck38_X3e <= 37
+-2 count38_X3 + countCheck38_X3s  + countCheck38_X3e  <= 1
+
+X4s + 68 countCheck38_X4s >= 39
+X4e - 68 countCheck38_X4e <= 37
+-2 count38_X4 + countCheck38_X4s  + countCheck38_X4e  <= 1
+
+X5s + 68 countCheck38_X5s >= 39
+X5e - 68 countCheck38_X5e <= 37
+-2 count38_X5 + countCheck38_X5s  + countCheck38_X5e  <= 1
+
+X6s + 68 countCheck38_X6s >= 39
+X6e - 68 countCheck38_X6e <= 37
+-2 count38_X6 + countCheck38_X6s  + countCheck38_X6e  <= 1
+
+X7s + 68 countCheck38_X7s >= 39
+X7e - 68 countCheck38_X7e <= 37
+-2 count38_X7 + countCheck38_X7s  + countCheck38_X7e  <= 1
+
+X8s + 68 countCheck38_X8s >= 39
+X8e - 68 countCheck38_X8e <= 37
+-2 count38_X8 + countCheck38_X8s  + countCheck38_X8e  <= 1
+
+X9s + 68 countCheck38_X9s >= 39
+X9e - 68 countCheck38_X9e <= 37
+-2 count38_X9 + countCheck38_X9s  + countCheck38_X9e  <= 1
+
+X10s + 68 countCheck38_X10s >= 39
+X10e - 68 countCheck38_X10e <= 37
+-2 count38_X10 + countCheck38_X10s  + countCheck38_X10e  <= 1
+
+X11s + 68 countCheck38_X11s >= 39
+X11e - 68 countCheck38_X11e <= 37
+-2 count38_X11 + countCheck38_X11s  + countCheck38_X11e  <= 1
+
+X12s + 68 countCheck38_X12s >= 39
+X12e - 68 countCheck38_X12e <= 37
+-2 count38_X12 + countCheck38_X12s  + countCheck38_X12e  <= 1
+
+X13s + 68 countCheck38_X13s >= 39
+X13e - 68 countCheck38_X13e <= 37
+-2 count38_X13 + countCheck38_X13s  + countCheck38_X13e  <= 1
+
+X14s + 68 countCheck38_X14s >= 39
+X14e - 68 countCheck38_X14e <= 37
+-2 count38_X14 + countCheck38_X14s  + countCheck38_X14e  <= 1
+
+X15s + 68 countCheck38_X15s >= 39
+X15e - 68 countCheck38_X15e <= 37
+-2 count38_X15 + countCheck38_X15s  + countCheck38_X15e  <= 1
+
+X16s + 68 countCheck38_X16s >= 39
+X16e - 68 countCheck38_X16e <= 37
+-2 count38_X16 + countCheck38_X16s  + countCheck38_X16e  <= 1
+
+X17s + 68 countCheck38_X17s >= 39
+X17e - 68 countCheck38_X17e <= 37
+-2 count38_X17 + countCheck38_X17s  + countCheck38_X17e  <= 1
+
+X18s + 68 countCheck38_X18s >= 39
+X18e - 68 countCheck38_X18e <= 37
+-2 count38_X18 + countCheck38_X18s  + countCheck38_X18e  <= 1
+
+X19s + 68 countCheck38_X19s >= 39
+X19e - 68 countCheck38_X19e <= 37
+-2 count38_X19 + countCheck38_X19s  + countCheck38_X19e  <= 1
+
+X20s + 68 countCheck38_X20s >= 39
+X20e - 68 countCheck38_X20e <= 37
+-2 count38_X20 + countCheck38_X20s  + countCheck38_X20e  <= 1
+
+X21s + 68 countCheck38_X21s >= 39
+X21e - 68 countCheck38_X21e <= 37
+-2 count38_X21 + countCheck38_X21s  + countCheck38_X21e  <= 1
+
+X22s + 68 countCheck38_X22s >= 39
+X22e - 68 countCheck38_X22e <= 37
+-2 count38_X22 + countCheck38_X22s  + countCheck38_X22e  <= 1
+
+X23s + 68 countCheck38_X23s >= 39
+X23e - 68 countCheck38_X23e <= 37
+-2 count38_X23 + countCheck38_X23s  + countCheck38_X23e  <= 1
+
+X24s + 68 countCheck38_X24s >= 39
+X24e - 68 countCheck38_X24e <= 37
+-2 count38_X24 + countCheck38_X24s  + countCheck38_X24e  <= 1
+
+X25s + 68 countCheck38_X25s >= 39
+X25e - 68 countCheck38_X25e <= 37
+-2 count38_X25 + countCheck38_X25s  + countCheck38_X25e  <= 1
+
+X26s + 68 countCheck38_X26s >= 39
+X26e - 68 countCheck38_X26e <= 37
+-2 count38_X26 + countCheck38_X26s  + countCheck38_X26e  <= 1
+
+X27s + 68 countCheck38_X27s >= 39
+X27e - 68 countCheck38_X27e <= 37
+-2 count38_X27 + countCheck38_X27s  + countCheck38_X27e  <= 1
+
+X28s + 68 countCheck38_X28s >= 39
+X28e - 68 countCheck38_X28e <= 37
+-2 count38_X28 + countCheck38_X28s  + countCheck38_X28e  <= 1
+
+X29s + 68 countCheck38_X29s >= 39
+X29e - 68 countCheck38_X29e <= 37
+-2 count38_X29 + countCheck38_X29s  + countCheck38_X29e  <= 1
+
+X30s + 68 countCheck38_X30s >= 39
+X30e - 68 countCheck38_X30e <= 37
+-2 count38_X30 + countCheck38_X30s  + countCheck38_X30e  <= 1
+
+X31s + 68 countCheck38_X31s >= 39
+X31e - 68 countCheck38_X31e <= 37
+-2 count38_X31 + countCheck38_X31s  + countCheck38_X31e  <= 1
+
+X32s + 68 countCheck38_X32s >= 39
+X32e - 68 countCheck38_X32e <= 37
+-2 count38_X32 + countCheck38_X32s  + countCheck38_X32e  <= 1
+
+X33s + 68 countCheck38_X33s >= 39
+X33e - 68 countCheck38_X33e <= 37
+-2 count38_X33 + countCheck38_X33s  + countCheck38_X33e  <= 1
+
+X34s + 68 countCheck38_X34s >= 39
+X34e - 68 countCheck38_X34e <= 37
+-2 count38_X34 + countCheck38_X34s  + countCheck38_X34e  <= 1
+
+X35s + 68 countCheck38_X35s >= 39
+X35e - 68 countCheck38_X35e <= 37
+-2 count38_X35 + countCheck38_X35s  + countCheck38_X35e  <= 1
+
+X36s + 68 countCheck38_X36s >= 39
+X36e - 68 countCheck38_X36e <= 37
+-2 count38_X36 + countCheck38_X36s  + countCheck38_X36e  <= 1
+
+X37s + 68 countCheck38_X37s >= 39
+X37e - 68 countCheck38_X37e <= 37
+-2 count38_X37 + countCheck38_X37s  + countCheck38_X37e  <= 1
+
+X38s + 68 countCheck38_X38s >= 39
+X38e - 68 countCheck38_X38e <= 37
+-2 count38_X38 + countCheck38_X38s  + countCheck38_X38e  <= 1
+
+X39s + 68 countCheck38_X39s >= 39
+X39e - 68 countCheck38_X39e <= 37
+-2 count38_X39 + countCheck38_X39s  + countCheck38_X39e  <= 1
+
+X40s + 68 countCheck38_X40s >= 39
+X40e - 68 countCheck38_X40e <= 37
+-2 count38_X40 + countCheck38_X40s  + countCheck38_X40e  <= 1
+
+X41s + 68 countCheck38_X41s >= 39
+X41e - 68 countCheck38_X41e <= 37
+-2 count38_X41 + countCheck38_X41s  + countCheck38_X41e  <= 1
+
+X42s + 68 countCheck38_X42s >= 39
+X42e - 68 countCheck38_X42e <= 37
+-2 count38_X42 + countCheck38_X42s  + countCheck38_X42e  <= 1
+
+X43s + 68 countCheck38_X43s >= 39
+X43e - 68 countCheck38_X43e <= 37
+-2 count38_X43 + countCheck38_X43s  + countCheck38_X43e  <= 1
+
+X44s + 68 countCheck38_X44s >= 39
+X44e - 68 countCheck38_X44e <= 37
+-2 count38_X44 + countCheck38_X44s  + countCheck38_X44e  <= 1
+
+X45s + 68 countCheck38_X45s >= 39
+X45e - 68 countCheck38_X45e <= 37
+-2 count38_X45 + countCheck38_X45s  + countCheck38_X45e  <= 1
+
+X46s + 68 countCheck38_X46s >= 39
+X46e - 68 countCheck38_X46e <= 37
+-2 count38_X46 + countCheck38_X46s  + countCheck38_X46e  <= 1
+
+X47s + 68 countCheck38_X47s >= 39
+X47e - 68 countCheck38_X47e <= 37
+-2 count38_X47 + countCheck38_X47s  + countCheck38_X47e  <= 1
+
+X48s + 68 countCheck38_X48s >= 39
+X48e - 68 countCheck38_X48e <= 37
+-2 count38_X48 + countCheck38_X48s  + countCheck38_X48e  <= 1
+
+X49s + 68 countCheck38_X49s >= 39
+X49e - 68 countCheck38_X49e <= 37
+-2 count38_X49 + countCheck38_X49s  + countCheck38_X49e  <= 1
+
+X50s + 68 countCheck38_X50s >= 39
+X50e - 68 countCheck38_X50e <= 37
+-2 count38_X50 + countCheck38_X50s  + countCheck38_X50e  <= 1
+
+X51s + 68 countCheck38_X51s >= 39
+X51e - 68 countCheck38_X51e <= 37
+-2 count38_X51 + countCheck38_X51s  + countCheck38_X51e  <= 1
+
+X52s + 68 countCheck38_X52s >= 39
+X52e - 68 countCheck38_X52e <= 37
+-2 count38_X52 + countCheck38_X52s  + countCheck38_X52e  <= 1
+
+X53s + 68 countCheck38_X53s >= 39
+X53e - 68 countCheck38_X53e <= 37
+-2 count38_X53 + countCheck38_X53s  + countCheck38_X53e  <= 1
+
+X54s + 68 countCheck38_X54s >= 39
+X54e - 68 countCheck38_X54e <= 37
+-2 count38_X54 + countCheck38_X54s  + countCheck38_X54e  <= 1
+
+X55s + 68 countCheck38_X55s >= 39
+X55e - 68 countCheck38_X55e <= 37
+-2 count38_X55 + countCheck38_X55s  + countCheck38_X55e  <= 1
+
+X56s + 68 countCheck38_X56s >= 39
+X56e - 68 countCheck38_X56e <= 37
+-2 count38_X56 + countCheck38_X56s  + countCheck38_X56e  <= 1
+
+X57s + 68 countCheck38_X57s >= 39
+X57e - 68 countCheck38_X57e <= 37
+-2 count38_X57 + countCheck38_X57s  + countCheck38_X57e  <= 1
+
+X58s + 68 countCheck38_X58s >= 39
+X58e - 68 countCheck38_X58e <= 37
+-2 count38_X58 + countCheck38_X58s  + countCheck38_X58e  <= 1
+
+X59s + 68 countCheck38_X59s >= 39
+X59e - 68 countCheck38_X59e <= 37
+-2 count38_X59 + countCheck38_X59s  + countCheck38_X59e  <= 1
+
+X60s + 68 countCheck38_X60s >= 39
+X60e - 68 countCheck38_X60e <= 37
+-2 count38_X60 + countCheck38_X60s  + countCheck38_X60e  <= 1
+
+X61s + 68 countCheck38_X61s >= 39
+X61e - 68 countCheck38_X61e <= 37
+-2 count38_X61 + countCheck38_X61s  + countCheck38_X61e  <= 1
+
+X62s + 68 countCheck38_X62s >= 39
+X62e - 68 countCheck38_X62e <= 37
+-2 count38_X62 + countCheck38_X62s  + countCheck38_X62e  <= 1
+
+X63s + 68 countCheck38_X63s >= 39
+X63e - 68 countCheck38_X63e <= 37
+-2 count38_X63 + countCheck38_X63s  + countCheck38_X63e  <= 1
+
+X64s + 68 countCheck38_X64s >= 39
+X64e - 68 countCheck38_X64e <= 37
+-2 count38_X64 + countCheck38_X64s  + countCheck38_X64e  <= 1
+
+X65s + 68 countCheck38_X65s >= 39
+X65e - 68 countCheck38_X65e <= 37
+-2 count38_X65 + countCheck38_X65s  + countCheck38_X65e  <= 1
+
+X66s + 68 countCheck38_X66s >= 39
+X66e - 68 countCheck38_X66e <= 37
+-2 count38_X66 + countCheck38_X66s  + countCheck38_X66e  <= 1
+
+X67s + 68 countCheck38_X67s >= 39
+X67e - 68 countCheck38_X67e <= 37
+-2 count38_X67 + countCheck38_X67s  + countCheck38_X67e  <= 1
+
+count38_X0 + count38_X1 + count38_X2 + count38_X3 + count38_X4 + count38_X5 + count38_X6 + count38_X7 + count38_X8 + count38_X9 + count38_X10 + count38_X11 + count38_X12 + count38_X13 + count38_X14 + count38_X15 + count38_X16 + count38_X17 + count38_X18 + count38_X19 + count38_X20 + count38_X21 + count38_X22 + count38_X23 + count38_X24 + count38_X25 + count38_X26 + count38_X27 + count38_X28 + count38_X29 + count38_X30 + count38_X31 + count38_X32 + count38_X33 + count38_X34 + count38_X35 + count38_X36 + count38_X37 + count38_X38 + count38_X39 + count38_X40 + count38_X41 + count38_X42 + count38_X43 + count38_X44 + count38_X45 + count38_X46 + count38_X47 + count38_X48 + count38_X49 + count38_X50 + count38_X51 + count38_X52 + count38_X53 + count38_X54 + count38_X55 + count38_X56 + count38_X57 + count38_X58 + count38_X59 + count38_X60 + count38_X61 + count38_X62 + count38_X63 + count38_X64 + count38_X65 + count38_X66 + count38_X67 - pathWidth <= 1
+X0s + 68 countCheck39_X0s >= 40
+X0e - 68 countCheck39_X0e <= 38
+-2 count39_X0 + countCheck39_X0s  + countCheck39_X0e  <= 1
+
+X1s + 68 countCheck39_X1s >= 40
+X1e - 68 countCheck39_X1e <= 38
+-2 count39_X1 + countCheck39_X1s  + countCheck39_X1e  <= 1
+
+X2s + 68 countCheck39_X2s >= 40
+X2e - 68 countCheck39_X2e <= 38
+-2 count39_X2 + countCheck39_X2s  + countCheck39_X2e  <= 1
+
+X3s + 68 countCheck39_X3s >= 40
+X3e - 68 countCheck39_X3e <= 38
+-2 count39_X3 + countCheck39_X3s  + countCheck39_X3e  <= 1
+
+X4s + 68 countCheck39_X4s >= 40
+X4e - 68 countCheck39_X4e <= 38
+-2 count39_X4 + countCheck39_X4s  + countCheck39_X4e  <= 1
+
+X5s + 68 countCheck39_X5s >= 40
+X5e - 68 countCheck39_X5e <= 38
+-2 count39_X5 + countCheck39_X5s  + countCheck39_X5e  <= 1
+
+X6s + 68 countCheck39_X6s >= 40
+X6e - 68 countCheck39_X6e <= 38
+-2 count39_X6 + countCheck39_X6s  + countCheck39_X6e  <= 1
+
+X7s + 68 countCheck39_X7s >= 40
+X7e - 68 countCheck39_X7e <= 38
+-2 count39_X7 + countCheck39_X7s  + countCheck39_X7e  <= 1
+
+X8s + 68 countCheck39_X8s >= 40
+X8e - 68 countCheck39_X8e <= 38
+-2 count39_X8 + countCheck39_X8s  + countCheck39_X8e  <= 1
+
+X9s + 68 countCheck39_X9s >= 40
+X9e - 68 countCheck39_X9e <= 38
+-2 count39_X9 + countCheck39_X9s  + countCheck39_X9e  <= 1
+
+X10s + 68 countCheck39_X10s >= 40
+X10e - 68 countCheck39_X10e <= 38
+-2 count39_X10 + countCheck39_X10s  + countCheck39_X10e  <= 1
+
+X11s + 68 countCheck39_X11s >= 40
+X11e - 68 countCheck39_X11e <= 38
+-2 count39_X11 + countCheck39_X11s  + countCheck39_X11e  <= 1
+
+X12s + 68 countCheck39_X12s >= 40
+X12e - 68 countCheck39_X12e <= 38
+-2 count39_X12 + countCheck39_X12s  + countCheck39_X12e  <= 1
+
+X13s + 68 countCheck39_X13s >= 40
+X13e - 68 countCheck39_X13e <= 38
+-2 count39_X13 + countCheck39_X13s  + countCheck39_X13e  <= 1
+
+X14s + 68 countCheck39_X14s >= 40
+X14e - 68 countCheck39_X14e <= 38
+-2 count39_X14 + countCheck39_X14s  + countCheck39_X14e  <= 1
+
+X15s + 68 countCheck39_X15s >= 40
+X15e - 68 countCheck39_X15e <= 38
+-2 count39_X15 + countCheck39_X15s  + countCheck39_X15e  <= 1
+
+X16s + 68 countCheck39_X16s >= 40
+X16e - 68 countCheck39_X16e <= 38
+-2 count39_X16 + countCheck39_X16s  + countCheck39_X16e  <= 1
+
+X17s + 68 countCheck39_X17s >= 40
+X17e - 68 countCheck39_X17e <= 38
+-2 count39_X17 + countCheck39_X17s  + countCheck39_X17e  <= 1
+
+X18s + 68 countCheck39_X18s >= 40
+X18e - 68 countCheck39_X18e <= 38
+-2 count39_X18 + countCheck39_X18s  + countCheck39_X18e  <= 1
+
+X19s + 68 countCheck39_X19s >= 40
+X19e - 68 countCheck39_X19e <= 38
+-2 count39_X19 + countCheck39_X19s  + countCheck39_X19e  <= 1
+
+X20s + 68 countCheck39_X20s >= 40
+X20e - 68 countCheck39_X20e <= 38
+-2 count39_X20 + countCheck39_X20s  + countCheck39_X20e  <= 1
+
+X21s + 68 countCheck39_X21s >= 40
+X21e - 68 countCheck39_X21e <= 38
+-2 count39_X21 + countCheck39_X21s  + countCheck39_X21e  <= 1
+
+X22s + 68 countCheck39_X22s >= 40
+X22e - 68 countCheck39_X22e <= 38
+-2 count39_X22 + countCheck39_X22s  + countCheck39_X22e  <= 1
+
+X23s + 68 countCheck39_X23s >= 40
+X23e - 68 countCheck39_X23e <= 38
+-2 count39_X23 + countCheck39_X23s  + countCheck39_X23e  <= 1
+
+X24s + 68 countCheck39_X24s >= 40
+X24e - 68 countCheck39_X24e <= 38
+-2 count39_X24 + countCheck39_X24s  + countCheck39_X24e  <= 1
+
+X25s + 68 countCheck39_X25s >= 40
+X25e - 68 countCheck39_X25e <= 38
+-2 count39_X25 + countCheck39_X25s  + countCheck39_X25e  <= 1
+
+X26s + 68 countCheck39_X26s >= 40
+X26e - 68 countCheck39_X26e <= 38
+-2 count39_X26 + countCheck39_X26s  + countCheck39_X26e  <= 1
+
+X27s + 68 countCheck39_X27s >= 40
+X27e - 68 countCheck39_X27e <= 38
+-2 count39_X27 + countCheck39_X27s  + countCheck39_X27e  <= 1
+
+X28s + 68 countCheck39_X28s >= 40
+X28e - 68 countCheck39_X28e <= 38
+-2 count39_X28 + countCheck39_X28s  + countCheck39_X28e  <= 1
+
+X29s + 68 countCheck39_X29s >= 40
+X29e - 68 countCheck39_X29e <= 38
+-2 count39_X29 + countCheck39_X29s  + countCheck39_X29e  <= 1
+
+X30s + 68 countCheck39_X30s >= 40
+X30e - 68 countCheck39_X30e <= 38
+-2 count39_X30 + countCheck39_X30s  + countCheck39_X30e  <= 1
+
+X31s + 68 countCheck39_X31s >= 40
+X31e - 68 countCheck39_X31e <= 38
+-2 count39_X31 + countCheck39_X31s  + countCheck39_X31e  <= 1
+
+X32s + 68 countCheck39_X32s >= 40
+X32e - 68 countCheck39_X32e <= 38
+-2 count39_X32 + countCheck39_X32s  + countCheck39_X32e  <= 1
+
+X33s + 68 countCheck39_X33s >= 40
+X33e - 68 countCheck39_X33e <= 38
+-2 count39_X33 + countCheck39_X33s  + countCheck39_X33e  <= 1
+
+X34s + 68 countCheck39_X34s >= 40
+X34e - 68 countCheck39_X34e <= 38
+-2 count39_X34 + countCheck39_X34s  + countCheck39_X34e  <= 1
+
+X35s + 68 countCheck39_X35s >= 40
+X35e - 68 countCheck39_X35e <= 38
+-2 count39_X35 + countCheck39_X35s  + countCheck39_X35e  <= 1
+
+X36s + 68 countCheck39_X36s >= 40
+X36e - 68 countCheck39_X36e <= 38
+-2 count39_X36 + countCheck39_X36s  + countCheck39_X36e  <= 1
+
+X37s + 68 countCheck39_X37s >= 40
+X37e - 68 countCheck39_X37e <= 38
+-2 count39_X37 + countCheck39_X37s  + countCheck39_X37e  <= 1
+
+X38s + 68 countCheck39_X38s >= 40
+X38e - 68 countCheck39_X38e <= 38
+-2 count39_X38 + countCheck39_X38s  + countCheck39_X38e  <= 1
+
+X39s + 68 countCheck39_X39s >= 40
+X39e - 68 countCheck39_X39e <= 38
+-2 count39_X39 + countCheck39_X39s  + countCheck39_X39e  <= 1
+
+X40s + 68 countCheck39_X40s >= 40
+X40e - 68 countCheck39_X40e <= 38
+-2 count39_X40 + countCheck39_X40s  + countCheck39_X40e  <= 1
+
+X41s + 68 countCheck39_X41s >= 40
+X41e - 68 countCheck39_X41e <= 38
+-2 count39_X41 + countCheck39_X41s  + countCheck39_X41e  <= 1
+
+X42s + 68 countCheck39_X42s >= 40
+X42e - 68 countCheck39_X42e <= 38
+-2 count39_X42 + countCheck39_X42s  + countCheck39_X42e  <= 1
+
+X43s + 68 countCheck39_X43s >= 40
+X43e - 68 countCheck39_X43e <= 38
+-2 count39_X43 + countCheck39_X43s  + countCheck39_X43e  <= 1
+
+X44s + 68 countCheck39_X44s >= 40
+X44e - 68 countCheck39_X44e <= 38
+-2 count39_X44 + countCheck39_X44s  + countCheck39_X44e  <= 1
+
+X45s + 68 countCheck39_X45s >= 40
+X45e - 68 countCheck39_X45e <= 38
+-2 count39_X45 + countCheck39_X45s  + countCheck39_X45e  <= 1
+
+X46s + 68 countCheck39_X46s >= 40
+X46e - 68 countCheck39_X46e <= 38
+-2 count39_X46 + countCheck39_X46s  + countCheck39_X46e  <= 1
+
+X47s + 68 countCheck39_X47s >= 40
+X47e - 68 countCheck39_X47e <= 38
+-2 count39_X47 + countCheck39_X47s  + countCheck39_X47e  <= 1
+
+X48s + 68 countCheck39_X48s >= 40
+X48e - 68 countCheck39_X48e <= 38
+-2 count39_X48 + countCheck39_X48s  + countCheck39_X48e  <= 1
+
+X49s + 68 countCheck39_X49s >= 40
+X49e - 68 countCheck39_X49e <= 38
+-2 count39_X49 + countCheck39_X49s  + countCheck39_X49e  <= 1
+
+X50s + 68 countCheck39_X50s >= 40
+X50e - 68 countCheck39_X50e <= 38
+-2 count39_X50 + countCheck39_X50s  + countCheck39_X50e  <= 1
+
+X51s + 68 countCheck39_X51s >= 40
+X51e - 68 countCheck39_X51e <= 38
+-2 count39_X51 + countCheck39_X51s  + countCheck39_X51e  <= 1
+
+X52s + 68 countCheck39_X52s >= 40
+X52e - 68 countCheck39_X52e <= 38
+-2 count39_X52 + countCheck39_X52s  + countCheck39_X52e  <= 1
+
+X53s + 68 countCheck39_X53s >= 40
+X53e - 68 countCheck39_X53e <= 38
+-2 count39_X53 + countCheck39_X53s  + countCheck39_X53e  <= 1
+
+X54s + 68 countCheck39_X54s >= 40
+X54e - 68 countCheck39_X54e <= 38
+-2 count39_X54 + countCheck39_X54s  + countCheck39_X54e  <= 1
+
+X55s + 68 countCheck39_X55s >= 40
+X55e - 68 countCheck39_X55e <= 38
+-2 count39_X55 + countCheck39_X55s  + countCheck39_X55e  <= 1
+
+X56s + 68 countCheck39_X56s >= 40
+X56e - 68 countCheck39_X56e <= 38
+-2 count39_X56 + countCheck39_X56s  + countCheck39_X56e  <= 1
+
+X57s + 68 countCheck39_X57s >= 40
+X57e - 68 countCheck39_X57e <= 38
+-2 count39_X57 + countCheck39_X57s  + countCheck39_X57e  <= 1
+
+X58s + 68 countCheck39_X58s >= 40
+X58e - 68 countCheck39_X58e <= 38
+-2 count39_X58 + countCheck39_X58s  + countCheck39_X58e  <= 1
+
+X59s + 68 countCheck39_X59s >= 40
+X59e - 68 countCheck39_X59e <= 38
+-2 count39_X59 + countCheck39_X59s  + countCheck39_X59e  <= 1
+
+X60s + 68 countCheck39_X60s >= 40
+X60e - 68 countCheck39_X60e <= 38
+-2 count39_X60 + countCheck39_X60s  + countCheck39_X60e  <= 1
+
+X61s + 68 countCheck39_X61s >= 40
+X61e - 68 countCheck39_X61e <= 38
+-2 count39_X61 + countCheck39_X61s  + countCheck39_X61e  <= 1
+
+X62s + 68 countCheck39_X62s >= 40
+X62e - 68 countCheck39_X62e <= 38
+-2 count39_X62 + countCheck39_X62s  + countCheck39_X62e  <= 1
+
+X63s + 68 countCheck39_X63s >= 40
+X63e - 68 countCheck39_X63e <= 38
+-2 count39_X63 + countCheck39_X63s  + countCheck39_X63e  <= 1
+
+X64s + 68 countCheck39_X64s >= 40
+X64e - 68 countCheck39_X64e <= 38
+-2 count39_X64 + countCheck39_X64s  + countCheck39_X64e  <= 1
+
+X65s + 68 countCheck39_X65s >= 40
+X65e - 68 countCheck39_X65e <= 38
+-2 count39_X65 + countCheck39_X65s  + countCheck39_X65e  <= 1
+
+X66s + 68 countCheck39_X66s >= 40
+X66e - 68 countCheck39_X66e <= 38
+-2 count39_X66 + countCheck39_X66s  + countCheck39_X66e  <= 1
+
+X67s + 68 countCheck39_X67s >= 40
+X67e - 68 countCheck39_X67e <= 38
+-2 count39_X67 + countCheck39_X67s  + countCheck39_X67e  <= 1
+
+count39_X0 + count39_X1 + count39_X2 + count39_X3 + count39_X4 + count39_X5 + count39_X6 + count39_X7 + count39_X8 + count39_X9 + count39_X10 + count39_X11 + count39_X12 + count39_X13 + count39_X14 + count39_X15 + count39_X16 + count39_X17 + count39_X18 + count39_X19 + count39_X20 + count39_X21 + count39_X22 + count39_X23 + count39_X24 + count39_X25 + count39_X26 + count39_X27 + count39_X28 + count39_X29 + count39_X30 + count39_X31 + count39_X32 + count39_X33 + count39_X34 + count39_X35 + count39_X36 + count39_X37 + count39_X38 + count39_X39 + count39_X40 + count39_X41 + count39_X42 + count39_X43 + count39_X44 + count39_X45 + count39_X46 + count39_X47 + count39_X48 + count39_X49 + count39_X50 + count39_X51 + count39_X52 + count39_X53 + count39_X54 + count39_X55 + count39_X56 + count39_X57 + count39_X58 + count39_X59 + count39_X60 + count39_X61 + count39_X62 + count39_X63 + count39_X64 + count39_X65 + count39_X66 + count39_X67 - pathWidth <= 1
+X0s + 68 countCheck40_X0s >= 41
+X0e - 68 countCheck40_X0e <= 39
+-2 count40_X0 + countCheck40_X0s  + countCheck40_X0e  <= 1
+
+X1s + 68 countCheck40_X1s >= 41
+X1e - 68 countCheck40_X1e <= 39
+-2 count40_X1 + countCheck40_X1s  + countCheck40_X1e  <= 1
+
+X2s + 68 countCheck40_X2s >= 41
+X2e - 68 countCheck40_X2e <= 39
+-2 count40_X2 + countCheck40_X2s  + countCheck40_X2e  <= 1
+
+X3s + 68 countCheck40_X3s >= 41
+X3e - 68 countCheck40_X3e <= 39
+-2 count40_X3 + countCheck40_X3s  + countCheck40_X3e  <= 1
+
+X4s + 68 countCheck40_X4s >= 41
+X4e - 68 countCheck40_X4e <= 39
+-2 count40_X4 + countCheck40_X4s  + countCheck40_X4e  <= 1
+
+X5s + 68 countCheck40_X5s >= 41
+X5e - 68 countCheck40_X5e <= 39
+-2 count40_X5 + countCheck40_X5s  + countCheck40_X5e  <= 1
+
+X6s + 68 countCheck40_X6s >= 41
+X6e - 68 countCheck40_X6e <= 39
+-2 count40_X6 + countCheck40_X6s  + countCheck40_X6e  <= 1
+
+X7s + 68 countCheck40_X7s >= 41
+X7e - 68 countCheck40_X7e <= 39
+-2 count40_X7 + countCheck40_X7s  + countCheck40_X7e  <= 1
+
+X8s + 68 countCheck40_X8s >= 41
+X8e - 68 countCheck40_X8e <= 39
+-2 count40_X8 + countCheck40_X8s  + countCheck40_X8e  <= 1
+
+X9s + 68 countCheck40_X9s >= 41
+X9e - 68 countCheck40_X9e <= 39
+-2 count40_X9 + countCheck40_X9s  + countCheck40_X9e  <= 1
+
+X10s + 68 countCheck40_X10s >= 41
+X10e - 68 countCheck40_X10e <= 39
+-2 count40_X10 + countCheck40_X10s  + countCheck40_X10e  <= 1
+
+X11s + 68 countCheck40_X11s >= 41
+X11e - 68 countCheck40_X11e <= 39
+-2 count40_X11 + countCheck40_X11s  + countCheck40_X11e  <= 1
+
+X12s + 68 countCheck40_X12s >= 41
+X12e - 68 countCheck40_X12e <= 39
+-2 count40_X12 + countCheck40_X12s  + countCheck40_X12e  <= 1
+
+X13s + 68 countCheck40_X13s >= 41
+X13e - 68 countCheck40_X13e <= 39
+-2 count40_X13 + countCheck40_X13s  + countCheck40_X13e  <= 1
+
+X14s + 68 countCheck40_X14s >= 41
+X14e - 68 countCheck40_X14e <= 39
+-2 count40_X14 + countCheck40_X14s  + countCheck40_X14e  <= 1
+
+X15s + 68 countCheck40_X15s >= 41
+X15e - 68 countCheck40_X15e <= 39
+-2 count40_X15 + countCheck40_X15s  + countCheck40_X15e  <= 1
+
+X16s + 68 countCheck40_X16s >= 41
+X16e - 68 countCheck40_X16e <= 39
+-2 count40_X16 + countCheck40_X16s  + countCheck40_X16e  <= 1
+
+X17s + 68 countCheck40_X17s >= 41
+X17e - 68 countCheck40_X17e <= 39
+-2 count40_X17 + countCheck40_X17s  + countCheck40_X17e  <= 1
+
+X18s + 68 countCheck40_X18s >= 41
+X18e - 68 countCheck40_X18e <= 39
+-2 count40_X18 + countCheck40_X18s  + countCheck40_X18e  <= 1
+
+X19s + 68 countCheck40_X19s >= 41
+X19e - 68 countCheck40_X19e <= 39
+-2 count40_X19 + countCheck40_X19s  + countCheck40_X19e  <= 1
+
+X20s + 68 countCheck40_X20s >= 41
+X20e - 68 countCheck40_X20e <= 39
+-2 count40_X20 + countCheck40_X20s  + countCheck40_X20e  <= 1
+
+X21s + 68 countCheck40_X21s >= 41
+X21e - 68 countCheck40_X21e <= 39
+-2 count40_X21 + countCheck40_X21s  + countCheck40_X21e  <= 1
+
+X22s + 68 countCheck40_X22s >= 41
+X22e - 68 countCheck40_X22e <= 39
+-2 count40_X22 + countCheck40_X22s  + countCheck40_X22e  <= 1
+
+X23s + 68 countCheck40_X23s >= 41
+X23e - 68 countCheck40_X23e <= 39
+-2 count40_X23 + countCheck40_X23s  + countCheck40_X23e  <= 1
+
+X24s + 68 countCheck40_X24s >= 41
+X24e - 68 countCheck40_X24e <= 39
+-2 count40_X24 + countCheck40_X24s  + countCheck40_X24e  <= 1
+
+X25s + 68 countCheck40_X25s >= 41
+X25e - 68 countCheck40_X25e <= 39
+-2 count40_X25 + countCheck40_X25s  + countCheck40_X25e  <= 1
+
+X26s + 68 countCheck40_X26s >= 41
+X26e - 68 countCheck40_X26e <= 39
+-2 count40_X26 + countCheck40_X26s  + countCheck40_X26e  <= 1
+
+X27s + 68 countCheck40_X27s >= 41
+X27e - 68 countCheck40_X27e <= 39
+-2 count40_X27 + countCheck40_X27s  + countCheck40_X27e  <= 1
+
+X28s + 68 countCheck40_X28s >= 41
+X28e - 68 countCheck40_X28e <= 39
+-2 count40_X28 + countCheck40_X28s  + countCheck40_X28e  <= 1
+
+X29s + 68 countCheck40_X29s >= 41
+X29e - 68 countCheck40_X29e <= 39
+-2 count40_X29 + countCheck40_X29s  + countCheck40_X29e  <= 1
+
+X30s + 68 countCheck40_X30s >= 41
+X30e - 68 countCheck40_X30e <= 39
+-2 count40_X30 + countCheck40_X30s  + countCheck40_X30e  <= 1
+
+X31s + 68 countCheck40_X31s >= 41
+X31e - 68 countCheck40_X31e <= 39
+-2 count40_X31 + countCheck40_X31s  + countCheck40_X31e  <= 1
+
+X32s + 68 countCheck40_X32s >= 41
+X32e - 68 countCheck40_X32e <= 39
+-2 count40_X32 + countCheck40_X32s  + countCheck40_X32e  <= 1
+
+X33s + 68 countCheck40_X33s >= 41
+X33e - 68 countCheck40_X33e <= 39
+-2 count40_X33 + countCheck40_X33s  + countCheck40_X33e  <= 1
+
+X34s + 68 countCheck40_X34s >= 41
+X34e - 68 countCheck40_X34e <= 39
+-2 count40_X34 + countCheck40_X34s  + countCheck40_X34e  <= 1
+
+X35s + 68 countCheck40_X35s >= 41
+X35e - 68 countCheck40_X35e <= 39
+-2 count40_X35 + countCheck40_X35s  + countCheck40_X35e  <= 1
+
+X36s + 68 countCheck40_X36s >= 41
+X36e - 68 countCheck40_X36e <= 39
+-2 count40_X36 + countCheck40_X36s  + countCheck40_X36e  <= 1
+
+X37s + 68 countCheck40_X37s >= 41
+X37e - 68 countCheck40_X37e <= 39
+-2 count40_X37 + countCheck40_X37s  + countCheck40_X37e  <= 1
+
+X38s + 68 countCheck40_X38s >= 41
+X38e - 68 countCheck40_X38e <= 39
+-2 count40_X38 + countCheck40_X38s  + countCheck40_X38e  <= 1
+
+X39s + 68 countCheck40_X39s >= 41
+X39e - 68 countCheck40_X39e <= 39
+-2 count40_X39 + countCheck40_X39s  + countCheck40_X39e  <= 1
+
+X40s + 68 countCheck40_X40s >= 41
+X40e - 68 countCheck40_X40e <= 39
+-2 count40_X40 + countCheck40_X40s  + countCheck40_X40e  <= 1
+
+X41s + 68 countCheck40_X41s >= 41
+X41e - 68 countCheck40_X41e <= 39
+-2 count40_X41 + countCheck40_X41s  + countCheck40_X41e  <= 1
+
+X42s + 68 countCheck40_X42s >= 41
+X42e - 68 countCheck40_X42e <= 39
+-2 count40_X42 + countCheck40_X42s  + countCheck40_X42e  <= 1
+
+X43s + 68 countCheck40_X43s >= 41
+X43e - 68 countCheck40_X43e <= 39
+-2 count40_X43 + countCheck40_X43s  + countCheck40_X43e  <= 1
+
+X44s + 68 countCheck40_X44s >= 41
+X44e - 68 countCheck40_X44e <= 39
+-2 count40_X44 + countCheck40_X44s  + countCheck40_X44e  <= 1
+
+X45s + 68 countCheck40_X45s >= 41
+X45e - 68 countCheck40_X45e <= 39
+-2 count40_X45 + countCheck40_X45s  + countCheck40_X45e  <= 1
+
+X46s + 68 countCheck40_X46s >= 41
+X46e - 68 countCheck40_X46e <= 39
+-2 count40_X46 + countCheck40_X46s  + countCheck40_X46e  <= 1
+
+X47s + 68 countCheck40_X47s >= 41
+X47e - 68 countCheck40_X47e <= 39
+-2 count40_X47 + countCheck40_X47s  + countCheck40_X47e  <= 1
+
+X48s + 68 countCheck40_X48s >= 41
+X48e - 68 countCheck40_X48e <= 39
+-2 count40_X48 + countCheck40_X48s  + countCheck40_X48e  <= 1
+
+X49s + 68 countCheck40_X49s >= 41
+X49e - 68 countCheck40_X49e <= 39
+-2 count40_X49 + countCheck40_X49s  + countCheck40_X49e  <= 1
+
+X50s + 68 countCheck40_X50s >= 41
+X50e - 68 countCheck40_X50e <= 39
+-2 count40_X50 + countCheck40_X50s  + countCheck40_X50e  <= 1
+
+X51s + 68 countCheck40_X51s >= 41
+X51e - 68 countCheck40_X51e <= 39
+-2 count40_X51 + countCheck40_X51s  + countCheck40_X51e  <= 1
+
+X52s + 68 countCheck40_X52s >= 41
+X52e - 68 countCheck40_X52e <= 39
+-2 count40_X52 + countCheck40_X52s  + countCheck40_X52e  <= 1
+
+X53s + 68 countCheck40_X53s >= 41
+X53e - 68 countCheck40_X53e <= 39
+-2 count40_X53 + countCheck40_X53s  + countCheck40_X53e  <= 1
+
+X54s + 68 countCheck40_X54s >= 41
+X54e - 68 countCheck40_X54e <= 39
+-2 count40_X54 + countCheck40_X54s  + countCheck40_X54e  <= 1
+
+X55s + 68 countCheck40_X55s >= 41
+X55e - 68 countCheck40_X55e <= 39
+-2 count40_X55 + countCheck40_X55s  + countCheck40_X55e  <= 1
+
+X56s + 68 countCheck40_X56s >= 41
+X56e - 68 countCheck40_X56e <= 39
+-2 count40_X56 + countCheck40_X56s  + countCheck40_X56e  <= 1
+
+X57s + 68 countCheck40_X57s >= 41
+X57e - 68 countCheck40_X57e <= 39
+-2 count40_X57 + countCheck40_X57s  + countCheck40_X57e  <= 1
+
+X58s + 68 countCheck40_X58s >= 41
+X58e - 68 countCheck40_X58e <= 39
+-2 count40_X58 + countCheck40_X58s  + countCheck40_X58e  <= 1
+
+X59s + 68 countCheck40_X59s >= 41
+X59e - 68 countCheck40_X59e <= 39
+-2 count40_X59 + countCheck40_X59s  + countCheck40_X59e  <= 1
+
+X60s + 68 countCheck40_X60s >= 41
+X60e - 68 countCheck40_X60e <= 39
+-2 count40_X60 + countCheck40_X60s  + countCheck40_X60e  <= 1
+
+X61s + 68 countCheck40_X61s >= 41
+X61e - 68 countCheck40_X61e <= 39
+-2 count40_X61 + countCheck40_X61s  + countCheck40_X61e  <= 1
+
+X62s + 68 countCheck40_X62s >= 41
+X62e - 68 countCheck40_X62e <= 39
+-2 count40_X62 + countCheck40_X62s  + countCheck40_X62e  <= 1
+
+X63s + 68 countCheck40_X63s >= 41
+X63e - 68 countCheck40_X63e <= 39
+-2 count40_X63 + countCheck40_X63s  + countCheck40_X63e  <= 1
+
+X64s + 68 countCheck40_X64s >= 41
+X64e - 68 countCheck40_X64e <= 39
+-2 count40_X64 + countCheck40_X64s  + countCheck40_X64e  <= 1
+
+X65s + 68 countCheck40_X65s >= 41
+X65e - 68 countCheck40_X65e <= 39
+-2 count40_X65 + countCheck40_X65s  + countCheck40_X65e  <= 1
+
+X66s + 68 countCheck40_X66s >= 41
+X66e - 68 countCheck40_X66e <= 39
+-2 count40_X66 + countCheck40_X66s  + countCheck40_X66e  <= 1
+
+X67s + 68 countCheck40_X67s >= 41
+X67e - 68 countCheck40_X67e <= 39
+-2 count40_X67 + countCheck40_X67s  + countCheck40_X67e  <= 1
+
+count40_X0 + count40_X1 + count40_X2 + count40_X3 + count40_X4 + count40_X5 + count40_X6 + count40_X7 + count40_X8 + count40_X9 + count40_X10 + count40_X11 + count40_X12 + count40_X13 + count40_X14 + count40_X15 + count40_X16 + count40_X17 + count40_X18 + count40_X19 + count40_X20 + count40_X21 + count40_X22 + count40_X23 + count40_X24 + count40_X25 + count40_X26 + count40_X27 + count40_X28 + count40_X29 + count40_X30 + count40_X31 + count40_X32 + count40_X33 + count40_X34 + count40_X35 + count40_X36 + count40_X37 + count40_X38 + count40_X39 + count40_X40 + count40_X41 + count40_X42 + count40_X43 + count40_X44 + count40_X45 + count40_X46 + count40_X47 + count40_X48 + count40_X49 + count40_X50 + count40_X51 + count40_X52 + count40_X53 + count40_X54 + count40_X55 + count40_X56 + count40_X57 + count40_X58 + count40_X59 + count40_X60 + count40_X61 + count40_X62 + count40_X63 + count40_X64 + count40_X65 + count40_X66 + count40_X67 - pathWidth <= 1
+X0s + 68 countCheck41_X0s >= 42
+X0e - 68 countCheck41_X0e <= 40
+-2 count41_X0 + countCheck41_X0s  + countCheck41_X0e  <= 1
+
+X1s + 68 countCheck41_X1s >= 42
+X1e - 68 countCheck41_X1e <= 40
+-2 count41_X1 + countCheck41_X1s  + countCheck41_X1e  <= 1
+
+X2s + 68 countCheck41_X2s >= 42
+X2e - 68 countCheck41_X2e <= 40
+-2 count41_X2 + countCheck41_X2s  + countCheck41_X2e  <= 1
+
+X3s + 68 countCheck41_X3s >= 42
+X3e - 68 countCheck41_X3e <= 40
+-2 count41_X3 + countCheck41_X3s  + countCheck41_X3e  <= 1
+
+X4s + 68 countCheck41_X4s >= 42
+X4e - 68 countCheck41_X4e <= 40
+-2 count41_X4 + countCheck41_X4s  + countCheck41_X4e  <= 1
+
+X5s + 68 countCheck41_X5s >= 42
+X5e - 68 countCheck41_X5e <= 40
+-2 count41_X5 + countCheck41_X5s  + countCheck41_X5e  <= 1
+
+X6s + 68 countCheck41_X6s >= 42
+X6e - 68 countCheck41_X6e <= 40
+-2 count41_X6 + countCheck41_X6s  + countCheck41_X6e  <= 1
+
+X7s + 68 countCheck41_X7s >= 42
+X7e - 68 countCheck41_X7e <= 40
+-2 count41_X7 + countCheck41_X7s  + countCheck41_X7e  <= 1
+
+X8s + 68 countCheck41_X8s >= 42
+X8e - 68 countCheck41_X8e <= 40
+-2 count41_X8 + countCheck41_X8s  + countCheck41_X8e  <= 1
+
+X9s + 68 countCheck41_X9s >= 42
+X9e - 68 countCheck41_X9e <= 40
+-2 count41_X9 + countCheck41_X9s  + countCheck41_X9e  <= 1
+
+X10s + 68 countCheck41_X10s >= 42
+X10e - 68 countCheck41_X10e <= 40
+-2 count41_X10 + countCheck41_X10s  + countCheck41_X10e  <= 1
+
+X11s + 68 countCheck41_X11s >= 42
+X11e - 68 countCheck41_X11e <= 40
+-2 count41_X11 + countCheck41_X11s  + countCheck41_X11e  <= 1
+
+X12s + 68 countCheck41_X12s >= 42
+X12e - 68 countCheck41_X12e <= 40
+-2 count41_X12 + countCheck41_X12s  + countCheck41_X12e  <= 1
+
+X13s + 68 countCheck41_X13s >= 42
+X13e - 68 countCheck41_X13e <= 40
+-2 count41_X13 + countCheck41_X13s  + countCheck41_X13e  <= 1
+
+X14s + 68 countCheck41_X14s >= 42
+X14e - 68 countCheck41_X14e <= 40
+-2 count41_X14 + countCheck41_X14s  + countCheck41_X14e  <= 1
+
+X15s + 68 countCheck41_X15s >= 42
+X15e - 68 countCheck41_X15e <= 40
+-2 count41_X15 + countCheck41_X15s  + countCheck41_X15e  <= 1
+
+X16s + 68 countCheck41_X16s >= 42
+X16e - 68 countCheck41_X16e <= 40
+-2 count41_X16 + countCheck41_X16s  + countCheck41_X16e  <= 1
+
+X17s + 68 countCheck41_X17s >= 42
+X17e - 68 countCheck41_X17e <= 40
+-2 count41_X17 + countCheck41_X17s  + countCheck41_X17e  <= 1
+
+X18s + 68 countCheck41_X18s >= 42
+X18e - 68 countCheck41_X18e <= 40
+-2 count41_X18 + countCheck41_X18s  + countCheck41_X18e  <= 1
+
+X19s + 68 countCheck41_X19s >= 42
+X19e - 68 countCheck41_X19e <= 40
+-2 count41_X19 + countCheck41_X19s  + countCheck41_X19e  <= 1
+
+X20s + 68 countCheck41_X20s >= 42
+X20e - 68 countCheck41_X20e <= 40
+-2 count41_X20 + countCheck41_X20s  + countCheck41_X20e  <= 1
+
+X21s + 68 countCheck41_X21s >= 42
+X21e - 68 countCheck41_X21e <= 40
+-2 count41_X21 + countCheck41_X21s  + countCheck41_X21e  <= 1
+
+X22s + 68 countCheck41_X22s >= 42
+X22e - 68 countCheck41_X22e <= 40
+-2 count41_X22 + countCheck41_X22s  + countCheck41_X22e  <= 1
+
+X23s + 68 countCheck41_X23s >= 42
+X23e - 68 countCheck41_X23e <= 40
+-2 count41_X23 + countCheck41_X23s  + countCheck41_X23e  <= 1
+
+X24s + 68 countCheck41_X24s >= 42
+X24e - 68 countCheck41_X24e <= 40
+-2 count41_X24 + countCheck41_X24s  + countCheck41_X24e  <= 1
+
+X25s + 68 countCheck41_X25s >= 42
+X25e - 68 countCheck41_X25e <= 40
+-2 count41_X25 + countCheck41_X25s  + countCheck41_X25e  <= 1
+
+X26s + 68 countCheck41_X26s >= 42
+X26e - 68 countCheck41_X26e <= 40
+-2 count41_X26 + countCheck41_X26s  + countCheck41_X26e  <= 1
+
+X27s + 68 countCheck41_X27s >= 42
+X27e - 68 countCheck41_X27e <= 40
+-2 count41_X27 + countCheck41_X27s  + countCheck41_X27e  <= 1
+
+X28s + 68 countCheck41_X28s >= 42
+X28e - 68 countCheck41_X28e <= 40
+-2 count41_X28 + countCheck41_X28s  + countCheck41_X28e  <= 1
+
+X29s + 68 countCheck41_X29s >= 42
+X29e - 68 countCheck41_X29e <= 40
+-2 count41_X29 + countCheck41_X29s  + countCheck41_X29e  <= 1
+
+X30s + 68 countCheck41_X30s >= 42
+X30e - 68 countCheck41_X30e <= 40
+-2 count41_X30 + countCheck41_X30s  + countCheck41_X30e  <= 1
+
+X31s + 68 countCheck41_X31s >= 42
+X31e - 68 countCheck41_X31e <= 40
+-2 count41_X31 + countCheck41_X31s  + countCheck41_X31e  <= 1
+
+X32s + 68 countCheck41_X32s >= 42
+X32e - 68 countCheck41_X32e <= 40
+-2 count41_X32 + countCheck41_X32s  + countCheck41_X32e  <= 1
+
+X33s + 68 countCheck41_X33s >= 42
+X33e - 68 countCheck41_X33e <= 40
+-2 count41_X33 + countCheck41_X33s  + countCheck41_X33e  <= 1
+
+X34s + 68 countCheck41_X34s >= 42
+X34e - 68 countCheck41_X34e <= 40
+-2 count41_X34 + countCheck41_X34s  + countCheck41_X34e  <= 1
+
+X35s + 68 countCheck41_X35s >= 42
+X35e - 68 countCheck41_X35e <= 40
+-2 count41_X35 + countCheck41_X35s  + countCheck41_X35e  <= 1
+
+X36s + 68 countCheck41_X36s >= 42
+X36e - 68 countCheck41_X36e <= 40
+-2 count41_X36 + countCheck41_X36s  + countCheck41_X36e  <= 1
+
+X37s + 68 countCheck41_X37s >= 42
+X37e - 68 countCheck41_X37e <= 40
+-2 count41_X37 + countCheck41_X37s  + countCheck41_X37e  <= 1
+
+X38s + 68 countCheck41_X38s >= 42
+X38e - 68 countCheck41_X38e <= 40
+-2 count41_X38 + countCheck41_X38s  + countCheck41_X38e  <= 1
+
+X39s + 68 countCheck41_X39s >= 42
+X39e - 68 countCheck41_X39e <= 40
+-2 count41_X39 + countCheck41_X39s  + countCheck41_X39e  <= 1
+
+X40s + 68 countCheck41_X40s >= 42
+X40e - 68 countCheck41_X40e <= 40
+-2 count41_X40 + countCheck41_X40s  + countCheck41_X40e  <= 1
+
+X41s + 68 countCheck41_X41s >= 42
+X41e - 68 countCheck41_X41e <= 40
+-2 count41_X41 + countCheck41_X41s  + countCheck41_X41e  <= 1
+
+X42s + 68 countCheck41_X42s >= 42
+X42e - 68 countCheck41_X42e <= 40
+-2 count41_X42 + countCheck41_X42s  + countCheck41_X42e  <= 1
+
+X43s + 68 countCheck41_X43s >= 42
+X43e - 68 countCheck41_X43e <= 40
+-2 count41_X43 + countCheck41_X43s  + countCheck41_X43e  <= 1
+
+X44s + 68 countCheck41_X44s >= 42
+X44e - 68 countCheck41_X44e <= 40
+-2 count41_X44 + countCheck41_X44s  + countCheck41_X44e  <= 1
+
+X45s + 68 countCheck41_X45s >= 42
+X45e - 68 countCheck41_X45e <= 40
+-2 count41_X45 + countCheck41_X45s  + countCheck41_X45e  <= 1
+
+X46s + 68 countCheck41_X46s >= 42
+X46e - 68 countCheck41_X46e <= 40
+-2 count41_X46 + countCheck41_X46s  + countCheck41_X46e  <= 1
+
+X47s + 68 countCheck41_X47s >= 42
+X47e - 68 countCheck41_X47e <= 40
+-2 count41_X47 + countCheck41_X47s  + countCheck41_X47e  <= 1
+
+X48s + 68 countCheck41_X48s >= 42
+X48e - 68 countCheck41_X48e <= 40
+-2 count41_X48 + countCheck41_X48s  + countCheck41_X48e  <= 1
+
+X49s + 68 countCheck41_X49s >= 42
+X49e - 68 countCheck41_X49e <= 40
+-2 count41_X49 + countCheck41_X49s  + countCheck41_X49e  <= 1
+
+X50s + 68 countCheck41_X50s >= 42
+X50e - 68 countCheck41_X50e <= 40
+-2 count41_X50 + countCheck41_X50s  + countCheck41_X50e  <= 1
+
+X51s + 68 countCheck41_X51s >= 42
+X51e - 68 countCheck41_X51e <= 40
+-2 count41_X51 + countCheck41_X51s  + countCheck41_X51e  <= 1
+
+X52s + 68 countCheck41_X52s >= 42
+X52e - 68 countCheck41_X52e <= 40
+-2 count41_X52 + countCheck41_X52s  + countCheck41_X52e  <= 1
+
+X53s + 68 countCheck41_X53s >= 42
+X53e - 68 countCheck41_X53e <= 40
+-2 count41_X53 + countCheck41_X53s  + countCheck41_X53e  <= 1
+
+X54s + 68 countCheck41_X54s >= 42
+X54e - 68 countCheck41_X54e <= 40
+-2 count41_X54 + countCheck41_X54s  + countCheck41_X54e  <= 1
+
+X55s + 68 countCheck41_X55s >= 42
+X55e - 68 countCheck41_X55e <= 40
+-2 count41_X55 + countCheck41_X55s  + countCheck41_X55e  <= 1
+
+X56s + 68 countCheck41_X56s >= 42
+X56e - 68 countCheck41_X56e <= 40
+-2 count41_X56 + countCheck41_X56s  + countCheck41_X56e  <= 1
+
+X57s + 68 countCheck41_X57s >= 42
+X57e - 68 countCheck41_X57e <= 40
+-2 count41_X57 + countCheck41_X57s  + countCheck41_X57e  <= 1
+
+X58s + 68 countCheck41_X58s >= 42
+X58e - 68 countCheck41_X58e <= 40
+-2 count41_X58 + countCheck41_X58s  + countCheck41_X58e  <= 1
+
+X59s + 68 countCheck41_X59s >= 42
+X59e - 68 countCheck41_X59e <= 40
+-2 count41_X59 + countCheck41_X59s  + countCheck41_X59e  <= 1
+
+X60s + 68 countCheck41_X60s >= 42
+X60e - 68 countCheck41_X60e <= 40
+-2 count41_X60 + countCheck41_X60s  + countCheck41_X60e  <= 1
+
+X61s + 68 countCheck41_X61s >= 42
+X61e - 68 countCheck41_X61e <= 40
+-2 count41_X61 + countCheck41_X61s  + countCheck41_X61e  <= 1
+
+X62s + 68 countCheck41_X62s >= 42
+X62e - 68 countCheck41_X62e <= 40
+-2 count41_X62 + countCheck41_X62s  + countCheck41_X62e  <= 1
+
+X63s + 68 countCheck41_X63s >= 42
+X63e - 68 countCheck41_X63e <= 40
+-2 count41_X63 + countCheck41_X63s  + countCheck41_X63e  <= 1
+
+X64s + 68 countCheck41_X64s >= 42
+X64e - 68 countCheck41_X64e <= 40
+-2 count41_X64 + countCheck41_X64s  + countCheck41_X64e  <= 1
+
+X65s + 68 countCheck41_X65s >= 42
+X65e - 68 countCheck41_X65e <= 40
+-2 count41_X65 + countCheck41_X65s  + countCheck41_X65e  <= 1
+
+X66s + 68 countCheck41_X66s >= 42
+X66e - 68 countCheck41_X66e <= 40
+-2 count41_X66 + countCheck41_X66s  + countCheck41_X66e  <= 1
+
+X67s + 68 countCheck41_X67s >= 42
+X67e - 68 countCheck41_X67e <= 40
+-2 count41_X67 + countCheck41_X67s  + countCheck41_X67e  <= 1
+
+count41_X0 + count41_X1 + count41_X2 + count41_X3 + count41_X4 + count41_X5 + count41_X6 + count41_X7 + count41_X8 + count41_X9 + count41_X10 + count41_X11 + count41_X12 + count41_X13 + count41_X14 + count41_X15 + count41_X16 + count41_X17 + count41_X18 + count41_X19 + count41_X20 + count41_X21 + count41_X22 + count41_X23 + count41_X24 + count41_X25 + count41_X26 + count41_X27 + count41_X28 + count41_X29 + count41_X30 + count41_X31 + count41_X32 + count41_X33 + count41_X34 + count41_X35 + count41_X36 + count41_X37 + count41_X38 + count41_X39 + count41_X40 + count41_X41 + count41_X42 + count41_X43 + count41_X44 + count41_X45 + count41_X46 + count41_X47 + count41_X48 + count41_X49 + count41_X50 + count41_X51 + count41_X52 + count41_X53 + count41_X54 + count41_X55 + count41_X56 + count41_X57 + count41_X58 + count41_X59 + count41_X60 + count41_X61 + count41_X62 + count41_X63 + count41_X64 + count41_X65 + count41_X66 + count41_X67 - pathWidth <= 1
+X0s + 68 countCheck42_X0s >= 43
+X0e - 68 countCheck42_X0e <= 41
+-2 count42_X0 + countCheck42_X0s  + countCheck42_X0e  <= 1
+
+X1s + 68 countCheck42_X1s >= 43
+X1e - 68 countCheck42_X1e <= 41
+-2 count42_X1 + countCheck42_X1s  + countCheck42_X1e  <= 1
+
+X2s + 68 countCheck42_X2s >= 43
+X2e - 68 countCheck42_X2e <= 41
+-2 count42_X2 + countCheck42_X2s  + countCheck42_X2e  <= 1
+
+X3s + 68 countCheck42_X3s >= 43
+X3e - 68 countCheck42_X3e <= 41
+-2 count42_X3 + countCheck42_X3s  + countCheck42_X3e  <= 1
+
+X4s + 68 countCheck42_X4s >= 43
+X4e - 68 countCheck42_X4e <= 41
+-2 count42_X4 + countCheck42_X4s  + countCheck42_X4e  <= 1
+
+X5s + 68 countCheck42_X5s >= 43
+X5e - 68 countCheck42_X5e <= 41
+-2 count42_X5 + countCheck42_X5s  + countCheck42_X5e  <= 1
+
+X6s + 68 countCheck42_X6s >= 43
+X6e - 68 countCheck42_X6e <= 41
+-2 count42_X6 + countCheck42_X6s  + countCheck42_X6e  <= 1
+
+X7s + 68 countCheck42_X7s >= 43
+X7e - 68 countCheck42_X7e <= 41
+-2 count42_X7 + countCheck42_X7s  + countCheck42_X7e  <= 1
+
+X8s + 68 countCheck42_X8s >= 43
+X8e - 68 countCheck42_X8e <= 41
+-2 count42_X8 + countCheck42_X8s  + countCheck42_X8e  <= 1
+
+X9s + 68 countCheck42_X9s >= 43
+X9e - 68 countCheck42_X9e <= 41
+-2 count42_X9 + countCheck42_X9s  + countCheck42_X9e  <= 1
+
+X10s + 68 countCheck42_X10s >= 43
+X10e - 68 countCheck42_X10e <= 41
+-2 count42_X10 + countCheck42_X10s  + countCheck42_X10e  <= 1
+
+X11s + 68 countCheck42_X11s >= 43
+X11e - 68 countCheck42_X11e <= 41
+-2 count42_X11 + countCheck42_X11s  + countCheck42_X11e  <= 1
+
+X12s + 68 countCheck42_X12s >= 43
+X12e - 68 countCheck42_X12e <= 41
+-2 count42_X12 + countCheck42_X12s  + countCheck42_X12e  <= 1
+
+X13s + 68 countCheck42_X13s >= 43
+X13e - 68 countCheck42_X13e <= 41
+-2 count42_X13 + countCheck42_X13s  + countCheck42_X13e  <= 1
+
+X14s + 68 countCheck42_X14s >= 43
+X14e - 68 countCheck42_X14e <= 41
+-2 count42_X14 + countCheck42_X14s  + countCheck42_X14e  <= 1
+
+X15s + 68 countCheck42_X15s >= 43
+X15e - 68 countCheck42_X15e <= 41
+-2 count42_X15 + countCheck42_X15s  + countCheck42_X15e  <= 1
+
+X16s + 68 countCheck42_X16s >= 43
+X16e - 68 countCheck42_X16e <= 41
+-2 count42_X16 + countCheck42_X16s  + countCheck42_X16e  <= 1
+
+X17s + 68 countCheck42_X17s >= 43
+X17e - 68 countCheck42_X17e <= 41
+-2 count42_X17 + countCheck42_X17s  + countCheck42_X17e  <= 1
+
+X18s + 68 countCheck42_X18s >= 43
+X18e - 68 countCheck42_X18e <= 41
+-2 count42_X18 + countCheck42_X18s  + countCheck42_X18e  <= 1
+
+X19s + 68 countCheck42_X19s >= 43
+X19e - 68 countCheck42_X19e <= 41
+-2 count42_X19 + countCheck42_X19s  + countCheck42_X19e  <= 1
+
+X20s + 68 countCheck42_X20s >= 43
+X20e - 68 countCheck42_X20e <= 41
+-2 count42_X20 + countCheck42_X20s  + countCheck42_X20e  <= 1
+
+X21s + 68 countCheck42_X21s >= 43
+X21e - 68 countCheck42_X21e <= 41
+-2 count42_X21 + countCheck42_X21s  + countCheck42_X21e  <= 1
+
+X22s + 68 countCheck42_X22s >= 43
+X22e - 68 countCheck42_X22e <= 41
+-2 count42_X22 + countCheck42_X22s  + countCheck42_X22e  <= 1
+
+X23s + 68 countCheck42_X23s >= 43
+X23e - 68 countCheck42_X23e <= 41
+-2 count42_X23 + countCheck42_X23s  + countCheck42_X23e  <= 1
+
+X24s + 68 countCheck42_X24s >= 43
+X24e - 68 countCheck42_X24e <= 41
+-2 count42_X24 + countCheck42_X24s  + countCheck42_X24e  <= 1
+
+X25s + 68 countCheck42_X25s >= 43
+X25e - 68 countCheck42_X25e <= 41
+-2 count42_X25 + countCheck42_X25s  + countCheck42_X25e  <= 1
+
+X26s + 68 countCheck42_X26s >= 43
+X26e - 68 countCheck42_X26e <= 41
+-2 count42_X26 + countCheck42_X26s  + countCheck42_X26e  <= 1
+
+X27s + 68 countCheck42_X27s >= 43
+X27e - 68 countCheck42_X27e <= 41
+-2 count42_X27 + countCheck42_X27s  + countCheck42_X27e  <= 1
+
+X28s + 68 countCheck42_X28s >= 43
+X28e - 68 countCheck42_X28e <= 41
+-2 count42_X28 + countCheck42_X28s  + countCheck42_X28e  <= 1
+
+X29s + 68 countCheck42_X29s >= 43
+X29e - 68 countCheck42_X29e <= 41
+-2 count42_X29 + countCheck42_X29s  + countCheck42_X29e  <= 1
+
+X30s + 68 countCheck42_X30s >= 43
+X30e - 68 countCheck42_X30e <= 41
+-2 count42_X30 + countCheck42_X30s  + countCheck42_X30e  <= 1
+
+X31s + 68 countCheck42_X31s >= 43
+X31e - 68 countCheck42_X31e <= 41
+-2 count42_X31 + countCheck42_X31s  + countCheck42_X31e  <= 1
+
+X32s + 68 countCheck42_X32s >= 43
+X32e - 68 countCheck42_X32e <= 41
+-2 count42_X32 + countCheck42_X32s  + countCheck42_X32e  <= 1
+
+X33s + 68 countCheck42_X33s >= 43
+X33e - 68 countCheck42_X33e <= 41
+-2 count42_X33 + countCheck42_X33s  + countCheck42_X33e  <= 1
+
+X34s + 68 countCheck42_X34s >= 43
+X34e - 68 countCheck42_X34e <= 41
+-2 count42_X34 + countCheck42_X34s  + countCheck42_X34e  <= 1
+
+X35s + 68 countCheck42_X35s >= 43
+X35e - 68 countCheck42_X35e <= 41
+-2 count42_X35 + countCheck42_X35s  + countCheck42_X35e  <= 1
+
+X36s + 68 countCheck42_X36s >= 43
+X36e - 68 countCheck42_X36e <= 41
+-2 count42_X36 + countCheck42_X36s  + countCheck42_X36e  <= 1
+
+X37s + 68 countCheck42_X37s >= 43
+X37e - 68 countCheck42_X37e <= 41
+-2 count42_X37 + countCheck42_X37s  + countCheck42_X37e  <= 1
+
+X38s + 68 countCheck42_X38s >= 43
+X38e - 68 countCheck42_X38e <= 41
+-2 count42_X38 + countCheck42_X38s  + countCheck42_X38e  <= 1
+
+X39s + 68 countCheck42_X39s >= 43
+X39e - 68 countCheck42_X39e <= 41
+-2 count42_X39 + countCheck42_X39s  + countCheck42_X39e  <= 1
+
+X40s + 68 countCheck42_X40s >= 43
+X40e - 68 countCheck42_X40e <= 41
+-2 count42_X40 + countCheck42_X40s  + countCheck42_X40e  <= 1
+
+X41s + 68 countCheck42_X41s >= 43
+X41e - 68 countCheck42_X41e <= 41
+-2 count42_X41 + countCheck42_X41s  + countCheck42_X41e  <= 1
+
+X42s + 68 countCheck42_X42s >= 43
+X42e - 68 countCheck42_X42e <= 41
+-2 count42_X42 + countCheck42_X42s  + countCheck42_X42e  <= 1
+
+X43s + 68 countCheck42_X43s >= 43
+X43e - 68 countCheck42_X43e <= 41
+-2 count42_X43 + countCheck42_X43s  + countCheck42_X43e  <= 1
+
+X44s + 68 countCheck42_X44s >= 43
+X44e - 68 countCheck42_X44e <= 41
+-2 count42_X44 + countCheck42_X44s  + countCheck42_X44e  <= 1
+
+X45s + 68 countCheck42_X45s >= 43
+X45e - 68 countCheck42_X45e <= 41
+-2 count42_X45 + countCheck42_X45s  + countCheck42_X45e  <= 1
+
+X46s + 68 countCheck42_X46s >= 43
+X46e - 68 countCheck42_X46e <= 41
+-2 count42_X46 + countCheck42_X46s  + countCheck42_X46e  <= 1
+
+X47s + 68 countCheck42_X47s >= 43
+X47e - 68 countCheck42_X47e <= 41
+-2 count42_X47 + countCheck42_X47s  + countCheck42_X47e  <= 1
+
+X48s + 68 countCheck42_X48s >= 43
+X48e - 68 countCheck42_X48e <= 41
+-2 count42_X48 + countCheck42_X48s  + countCheck42_X48e  <= 1
+
+X49s + 68 countCheck42_X49s >= 43
+X49e - 68 countCheck42_X49e <= 41
+-2 count42_X49 + countCheck42_X49s  + countCheck42_X49e  <= 1
+
+X50s + 68 countCheck42_X50s >= 43
+X50e - 68 countCheck42_X50e <= 41
+-2 count42_X50 + countCheck42_X50s  + countCheck42_X50e  <= 1
+
+X51s + 68 countCheck42_X51s >= 43
+X51e - 68 countCheck42_X51e <= 41
+-2 count42_X51 + countCheck42_X51s  + countCheck42_X51e  <= 1
+
+X52s + 68 countCheck42_X52s >= 43
+X52e - 68 countCheck42_X52e <= 41
+-2 count42_X52 + countCheck42_X52s  + countCheck42_X52e  <= 1
+
+X53s + 68 countCheck42_X53s >= 43
+X53e - 68 countCheck42_X53e <= 41
+-2 count42_X53 + countCheck42_X53s  + countCheck42_X53e  <= 1
+
+X54s + 68 countCheck42_X54s >= 43
+X54e - 68 countCheck42_X54e <= 41
+-2 count42_X54 + countCheck42_X54s  + countCheck42_X54e  <= 1
+
+X55s + 68 countCheck42_X55s >= 43
+X55e - 68 countCheck42_X55e <= 41
+-2 count42_X55 + countCheck42_X55s  + countCheck42_X55e  <= 1
+
+X56s + 68 countCheck42_X56s >= 43
+X56e - 68 countCheck42_X56e <= 41
+-2 count42_X56 + countCheck42_X56s  + countCheck42_X56e  <= 1
+
+X57s + 68 countCheck42_X57s >= 43
+X57e - 68 countCheck42_X57e <= 41
+-2 count42_X57 + countCheck42_X57s  + countCheck42_X57e  <= 1
+
+X58s + 68 countCheck42_X58s >= 43
+X58e - 68 countCheck42_X58e <= 41
+-2 count42_X58 + countCheck42_X58s  + countCheck42_X58e  <= 1
+
+X59s + 68 countCheck42_X59s >= 43
+X59e - 68 countCheck42_X59e <= 41
+-2 count42_X59 + countCheck42_X59s  + countCheck42_X59e  <= 1
+
+X60s + 68 countCheck42_X60s >= 43
+X60e - 68 countCheck42_X60e <= 41
+-2 count42_X60 + countCheck42_X60s  + countCheck42_X60e  <= 1
+
+X61s + 68 countCheck42_X61s >= 43
+X61e - 68 countCheck42_X61e <= 41
+-2 count42_X61 + countCheck42_X61s  + countCheck42_X61e  <= 1
+
+X62s + 68 countCheck42_X62s >= 43
+X62e - 68 countCheck42_X62e <= 41
+-2 count42_X62 + countCheck42_X62s  + countCheck42_X62e  <= 1
+
+X63s + 68 countCheck42_X63s >= 43
+X63e - 68 countCheck42_X63e <= 41
+-2 count42_X63 + countCheck42_X63s  + countCheck42_X63e  <= 1
+
+X64s + 68 countCheck42_X64s >= 43
+X64e - 68 countCheck42_X64e <= 41
+-2 count42_X64 + countCheck42_X64s  + countCheck42_X64e  <= 1
+
+X65s + 68 countCheck42_X65s >= 43
+X65e - 68 countCheck42_X65e <= 41
+-2 count42_X65 + countCheck42_X65s  + countCheck42_X65e  <= 1
+
+X66s + 68 countCheck42_X66s >= 43
+X66e - 68 countCheck42_X66e <= 41
+-2 count42_X66 + countCheck42_X66s  + countCheck42_X66e  <= 1
+
+X67s + 68 countCheck42_X67s >= 43
+X67e - 68 countCheck42_X67e <= 41
+-2 count42_X67 + countCheck42_X67s  + countCheck42_X67e  <= 1
+
+count42_X0 + count42_X1 + count42_X2 + count42_X3 + count42_X4 + count42_X5 + count42_X6 + count42_X7 + count42_X8 + count42_X9 + count42_X10 + count42_X11 + count42_X12 + count42_X13 + count42_X14 + count42_X15 + count42_X16 + count42_X17 + count42_X18 + count42_X19 + count42_X20 + count42_X21 + count42_X22 + count42_X23 + count42_X24 + count42_X25 + count42_X26 + count42_X27 + count42_X28 + count42_X29 + count42_X30 + count42_X31 + count42_X32 + count42_X33 + count42_X34 + count42_X35 + count42_X36 + count42_X37 + count42_X38 + count42_X39 + count42_X40 + count42_X41 + count42_X42 + count42_X43 + count42_X44 + count42_X45 + count42_X46 + count42_X47 + count42_X48 + count42_X49 + count42_X50 + count42_X51 + count42_X52 + count42_X53 + count42_X54 + count42_X55 + count42_X56 + count42_X57 + count42_X58 + count42_X59 + count42_X60 + count42_X61 + count42_X62 + count42_X63 + count42_X64 + count42_X65 + count42_X66 + count42_X67 - pathWidth <= 1
+X0s + 68 countCheck43_X0s >= 44
+X0e - 68 countCheck43_X0e <= 42
+-2 count43_X0 + countCheck43_X0s  + countCheck43_X0e  <= 1
+
+X1s + 68 countCheck43_X1s >= 44
+X1e - 68 countCheck43_X1e <= 42
+-2 count43_X1 + countCheck43_X1s  + countCheck43_X1e  <= 1
+
+X2s + 68 countCheck43_X2s >= 44
+X2e - 68 countCheck43_X2e <= 42
+-2 count43_X2 + countCheck43_X2s  + countCheck43_X2e  <= 1
+
+X3s + 68 countCheck43_X3s >= 44
+X3e - 68 countCheck43_X3e <= 42
+-2 count43_X3 + countCheck43_X3s  + countCheck43_X3e  <= 1
+
+X4s + 68 countCheck43_X4s >= 44
+X4e - 68 countCheck43_X4e <= 42
+-2 count43_X4 + countCheck43_X4s  + countCheck43_X4e  <= 1
+
+X5s + 68 countCheck43_X5s >= 44
+X5e - 68 countCheck43_X5e <= 42
+-2 count43_X5 + countCheck43_X5s  + countCheck43_X5e  <= 1
+
+X6s + 68 countCheck43_X6s >= 44
+X6e - 68 countCheck43_X6e <= 42
+-2 count43_X6 + countCheck43_X6s  + countCheck43_X6e  <= 1
+
+X7s + 68 countCheck43_X7s >= 44
+X7e - 68 countCheck43_X7e <= 42
+-2 count43_X7 + countCheck43_X7s  + countCheck43_X7e  <= 1
+
+X8s + 68 countCheck43_X8s >= 44
+X8e - 68 countCheck43_X8e <= 42
+-2 count43_X8 + countCheck43_X8s  + countCheck43_X8e  <= 1
+
+X9s + 68 countCheck43_X9s >= 44
+X9e - 68 countCheck43_X9e <= 42
+-2 count43_X9 + countCheck43_X9s  + countCheck43_X9e  <= 1
+
+X10s + 68 countCheck43_X10s >= 44
+X10e - 68 countCheck43_X10e <= 42
+-2 count43_X10 + countCheck43_X10s  + countCheck43_X10e  <= 1
+
+X11s + 68 countCheck43_X11s >= 44
+X11e - 68 countCheck43_X11e <= 42
+-2 count43_X11 + countCheck43_X11s  + countCheck43_X11e  <= 1
+
+X12s + 68 countCheck43_X12s >= 44
+X12e - 68 countCheck43_X12e <= 42
+-2 count43_X12 + countCheck43_X12s  + countCheck43_X12e  <= 1
+
+X13s + 68 countCheck43_X13s >= 44
+X13e - 68 countCheck43_X13e <= 42
+-2 count43_X13 + countCheck43_X13s  + countCheck43_X13e  <= 1
+
+X14s + 68 countCheck43_X14s >= 44
+X14e - 68 countCheck43_X14e <= 42
+-2 count43_X14 + countCheck43_X14s  + countCheck43_X14e  <= 1
+
+X15s + 68 countCheck43_X15s >= 44
+X15e - 68 countCheck43_X15e <= 42
+-2 count43_X15 + countCheck43_X15s  + countCheck43_X15e  <= 1
+
+X16s + 68 countCheck43_X16s >= 44
+X16e - 68 countCheck43_X16e <= 42
+-2 count43_X16 + countCheck43_X16s  + countCheck43_X16e  <= 1
+
+X17s + 68 countCheck43_X17s >= 44
+X17e - 68 countCheck43_X17e <= 42
+-2 count43_X17 + countCheck43_X17s  + countCheck43_X17e  <= 1
+
+X18s + 68 countCheck43_X18s >= 44
+X18e - 68 countCheck43_X18e <= 42
+-2 count43_X18 + countCheck43_X18s  + countCheck43_X18e  <= 1
+
+X19s + 68 countCheck43_X19s >= 44
+X19e - 68 countCheck43_X19e <= 42
+-2 count43_X19 + countCheck43_X19s  + countCheck43_X19e  <= 1
+
+X20s + 68 countCheck43_X20s >= 44
+X20e - 68 countCheck43_X20e <= 42
+-2 count43_X20 + countCheck43_X20s  + countCheck43_X20e  <= 1
+
+X21s + 68 countCheck43_X21s >= 44
+X21e - 68 countCheck43_X21e <= 42
+-2 count43_X21 + countCheck43_X21s  + countCheck43_X21e  <= 1
+
+X22s + 68 countCheck43_X22s >= 44
+X22e - 68 countCheck43_X22e <= 42
+-2 count43_X22 + countCheck43_X22s  + countCheck43_X22e  <= 1
+
+X23s + 68 countCheck43_X23s >= 44
+X23e - 68 countCheck43_X23e <= 42
+-2 count43_X23 + countCheck43_X23s  + countCheck43_X23e  <= 1
+
+X24s + 68 countCheck43_X24s >= 44
+X24e - 68 countCheck43_X24e <= 42
+-2 count43_X24 + countCheck43_X24s  + countCheck43_X24e  <= 1
+
+X25s + 68 countCheck43_X25s >= 44
+X25e - 68 countCheck43_X25e <= 42
+-2 count43_X25 + countCheck43_X25s  + countCheck43_X25e  <= 1
+
+X26s + 68 countCheck43_X26s >= 44
+X26e - 68 countCheck43_X26e <= 42
+-2 count43_X26 + countCheck43_X26s  + countCheck43_X26e  <= 1
+
+X27s + 68 countCheck43_X27s >= 44
+X27e - 68 countCheck43_X27e <= 42
+-2 count43_X27 + countCheck43_X27s  + countCheck43_X27e  <= 1
+
+X28s + 68 countCheck43_X28s >= 44
+X28e - 68 countCheck43_X28e <= 42
+-2 count43_X28 + countCheck43_X28s  + countCheck43_X28e  <= 1
+
+X29s + 68 countCheck43_X29s >= 44
+X29e - 68 countCheck43_X29e <= 42
+-2 count43_X29 + countCheck43_X29s  + countCheck43_X29e  <= 1
+
+X30s + 68 countCheck43_X30s >= 44
+X30e - 68 countCheck43_X30e <= 42
+-2 count43_X30 + countCheck43_X30s  + countCheck43_X30e  <= 1
+
+X31s + 68 countCheck43_X31s >= 44
+X31e - 68 countCheck43_X31e <= 42
+-2 count43_X31 + countCheck43_X31s  + countCheck43_X31e  <= 1
+
+X32s + 68 countCheck43_X32s >= 44
+X32e - 68 countCheck43_X32e <= 42
+-2 count43_X32 + countCheck43_X32s  + countCheck43_X32e  <= 1
+
+X33s + 68 countCheck43_X33s >= 44
+X33e - 68 countCheck43_X33e <= 42
+-2 count43_X33 + countCheck43_X33s  + countCheck43_X33e  <= 1
+
+X34s + 68 countCheck43_X34s >= 44
+X34e - 68 countCheck43_X34e <= 42
+-2 count43_X34 + countCheck43_X34s  + countCheck43_X34e  <= 1
+
+X35s + 68 countCheck43_X35s >= 44
+X35e - 68 countCheck43_X35e <= 42
+-2 count43_X35 + countCheck43_X35s  + countCheck43_X35e  <= 1
+
+X36s + 68 countCheck43_X36s >= 44
+X36e - 68 countCheck43_X36e <= 42
+-2 count43_X36 + countCheck43_X36s  + countCheck43_X36e  <= 1
+
+X37s + 68 countCheck43_X37s >= 44
+X37e - 68 countCheck43_X37e <= 42
+-2 count43_X37 + countCheck43_X37s  + countCheck43_X37e  <= 1
+
+X38s + 68 countCheck43_X38s >= 44
+X38e - 68 countCheck43_X38e <= 42
+-2 count43_X38 + countCheck43_X38s  + countCheck43_X38e  <= 1
+
+X39s + 68 countCheck43_X39s >= 44
+X39e - 68 countCheck43_X39e <= 42
+-2 count43_X39 + countCheck43_X39s  + countCheck43_X39e  <= 1
+
+X40s + 68 countCheck43_X40s >= 44
+X40e - 68 countCheck43_X40e <= 42
+-2 count43_X40 + countCheck43_X40s  + countCheck43_X40e  <= 1
+
+X41s + 68 countCheck43_X41s >= 44
+X41e - 68 countCheck43_X41e <= 42
+-2 count43_X41 + countCheck43_X41s  + countCheck43_X41e  <= 1
+
+X42s + 68 countCheck43_X42s >= 44
+X42e - 68 countCheck43_X42e <= 42
+-2 count43_X42 + countCheck43_X42s  + countCheck43_X42e  <= 1
+
+X43s + 68 countCheck43_X43s >= 44
+X43e - 68 countCheck43_X43e <= 42
+-2 count43_X43 + countCheck43_X43s  + countCheck43_X43e  <= 1
+
+X44s + 68 countCheck43_X44s >= 44
+X44e - 68 countCheck43_X44e <= 42
+-2 count43_X44 + countCheck43_X44s  + countCheck43_X44e  <= 1
+
+X45s + 68 countCheck43_X45s >= 44
+X45e - 68 countCheck43_X45e <= 42
+-2 count43_X45 + countCheck43_X45s  + countCheck43_X45e  <= 1
+
+X46s + 68 countCheck43_X46s >= 44
+X46e - 68 countCheck43_X46e <= 42
+-2 count43_X46 + countCheck43_X46s  + countCheck43_X46e  <= 1
+
+X47s + 68 countCheck43_X47s >= 44
+X47e - 68 countCheck43_X47e <= 42
+-2 count43_X47 + countCheck43_X47s  + countCheck43_X47e  <= 1
+
+X48s + 68 countCheck43_X48s >= 44
+X48e - 68 countCheck43_X48e <= 42
+-2 count43_X48 + countCheck43_X48s  + countCheck43_X48e  <= 1
+
+X49s + 68 countCheck43_X49s >= 44
+X49e - 68 countCheck43_X49e <= 42
+-2 count43_X49 + countCheck43_X49s  + countCheck43_X49e  <= 1
+
+X50s + 68 countCheck43_X50s >= 44
+X50e - 68 countCheck43_X50e <= 42
+-2 count43_X50 + countCheck43_X50s  + countCheck43_X50e  <= 1
+
+X51s + 68 countCheck43_X51s >= 44
+X51e - 68 countCheck43_X51e <= 42
+-2 count43_X51 + countCheck43_X51s  + countCheck43_X51e  <= 1
+
+X52s + 68 countCheck43_X52s >= 44
+X52e - 68 countCheck43_X52e <= 42
+-2 count43_X52 + countCheck43_X52s  + countCheck43_X52e  <= 1
+
+X53s + 68 countCheck43_X53s >= 44
+X53e - 68 countCheck43_X53e <= 42
+-2 count43_X53 + countCheck43_X53s  + countCheck43_X53e  <= 1
+
+X54s + 68 countCheck43_X54s >= 44
+X54e - 68 countCheck43_X54e <= 42
+-2 count43_X54 + countCheck43_X54s  + countCheck43_X54e  <= 1
+
+X55s + 68 countCheck43_X55s >= 44
+X55e - 68 countCheck43_X55e <= 42
+-2 count43_X55 + countCheck43_X55s  + countCheck43_X55e  <= 1
+
+X56s + 68 countCheck43_X56s >= 44
+X56e - 68 countCheck43_X56e <= 42
+-2 count43_X56 + countCheck43_X56s  + countCheck43_X56e  <= 1
+
+X57s + 68 countCheck43_X57s >= 44
+X57e - 68 countCheck43_X57e <= 42
+-2 count43_X57 + countCheck43_X57s  + countCheck43_X57e  <= 1
+
+X58s + 68 countCheck43_X58s >= 44
+X58e - 68 countCheck43_X58e <= 42
+-2 count43_X58 + countCheck43_X58s  + countCheck43_X58e  <= 1
+
+X59s + 68 countCheck43_X59s >= 44
+X59e - 68 countCheck43_X59e <= 42
+-2 count43_X59 + countCheck43_X59s  + countCheck43_X59e  <= 1
+
+X60s + 68 countCheck43_X60s >= 44
+X60e - 68 countCheck43_X60e <= 42
+-2 count43_X60 + countCheck43_X60s  + countCheck43_X60e  <= 1
+
+X61s + 68 countCheck43_X61s >= 44
+X61e - 68 countCheck43_X61e <= 42
+-2 count43_X61 + countCheck43_X61s  + countCheck43_X61e  <= 1
+
+X62s + 68 countCheck43_X62s >= 44
+X62e - 68 countCheck43_X62e <= 42
+-2 count43_X62 + countCheck43_X62s  + countCheck43_X62e  <= 1
+
+X63s + 68 countCheck43_X63s >= 44
+X63e - 68 countCheck43_X63e <= 42
+-2 count43_X63 + countCheck43_X63s  + countCheck43_X63e  <= 1
+
+X64s + 68 countCheck43_X64s >= 44
+X64e - 68 countCheck43_X64e <= 42
+-2 count43_X64 + countCheck43_X64s  + countCheck43_X64e  <= 1
+
+X65s + 68 countCheck43_X65s >= 44
+X65e - 68 countCheck43_X65e <= 42
+-2 count43_X65 + countCheck43_X65s  + countCheck43_X65e  <= 1
+
+X66s + 68 countCheck43_X66s >= 44
+X66e - 68 countCheck43_X66e <= 42
+-2 count43_X66 + countCheck43_X66s  + countCheck43_X66e  <= 1
+
+X67s + 68 countCheck43_X67s >= 44
+X67e - 68 countCheck43_X67e <= 42
+-2 count43_X67 + countCheck43_X67s  + countCheck43_X67e  <= 1
+
+count43_X0 + count43_X1 + count43_X2 + count43_X3 + count43_X4 + count43_X5 + count43_X6 + count43_X7 + count43_X8 + count43_X9 + count43_X10 + count43_X11 + count43_X12 + count43_X13 + count43_X14 + count43_X15 + count43_X16 + count43_X17 + count43_X18 + count43_X19 + count43_X20 + count43_X21 + count43_X22 + count43_X23 + count43_X24 + count43_X25 + count43_X26 + count43_X27 + count43_X28 + count43_X29 + count43_X30 + count43_X31 + count43_X32 + count43_X33 + count43_X34 + count43_X35 + count43_X36 + count43_X37 + count43_X38 + count43_X39 + count43_X40 + count43_X41 + count43_X42 + count43_X43 + count43_X44 + count43_X45 + count43_X46 + count43_X47 + count43_X48 + count43_X49 + count43_X50 + count43_X51 + count43_X52 + count43_X53 + count43_X54 + count43_X55 + count43_X56 + count43_X57 + count43_X58 + count43_X59 + count43_X60 + count43_X61 + count43_X62 + count43_X63 + count43_X64 + count43_X65 + count43_X66 + count43_X67 - pathWidth <= 1
+X0s + 68 countCheck44_X0s >= 45
+X0e - 68 countCheck44_X0e <= 43
+-2 count44_X0 + countCheck44_X0s  + countCheck44_X0e  <= 1
+
+X1s + 68 countCheck44_X1s >= 45
+X1e - 68 countCheck44_X1e <= 43
+-2 count44_X1 + countCheck44_X1s  + countCheck44_X1e  <= 1
+
+X2s + 68 countCheck44_X2s >= 45
+X2e - 68 countCheck44_X2e <= 43
+-2 count44_X2 + countCheck44_X2s  + countCheck44_X2e  <= 1
+
+X3s + 68 countCheck44_X3s >= 45
+X3e - 68 countCheck44_X3e <= 43
+-2 count44_X3 + countCheck44_X3s  + countCheck44_X3e  <= 1
+
+X4s + 68 countCheck44_X4s >= 45
+X4e - 68 countCheck44_X4e <= 43
+-2 count44_X4 + countCheck44_X4s  + countCheck44_X4e  <= 1
+
+X5s + 68 countCheck44_X5s >= 45
+X5e - 68 countCheck44_X5e <= 43
+-2 count44_X5 + countCheck44_X5s  + countCheck44_X5e  <= 1
+
+X6s + 68 countCheck44_X6s >= 45
+X6e - 68 countCheck44_X6e <= 43
+-2 count44_X6 + countCheck44_X6s  + countCheck44_X6e  <= 1
+
+X7s + 68 countCheck44_X7s >= 45
+X7e - 68 countCheck44_X7e <= 43
+-2 count44_X7 + countCheck44_X7s  + countCheck44_X7e  <= 1
+
+X8s + 68 countCheck44_X8s >= 45
+X8e - 68 countCheck44_X8e <= 43
+-2 count44_X8 + countCheck44_X8s  + countCheck44_X8e  <= 1
+
+X9s + 68 countCheck44_X9s >= 45
+X9e - 68 countCheck44_X9e <= 43
+-2 count44_X9 + countCheck44_X9s  + countCheck44_X9e  <= 1
+
+X10s + 68 countCheck44_X10s >= 45
+X10e - 68 countCheck44_X10e <= 43
+-2 count44_X10 + countCheck44_X10s  + countCheck44_X10e  <= 1
+
+X11s + 68 countCheck44_X11s >= 45
+X11e - 68 countCheck44_X11e <= 43
+-2 count44_X11 + countCheck44_X11s  + countCheck44_X11e  <= 1
+
+X12s + 68 countCheck44_X12s >= 45
+X12e - 68 countCheck44_X12e <= 43
+-2 count44_X12 + countCheck44_X12s  + countCheck44_X12e  <= 1
+
+X13s + 68 countCheck44_X13s >= 45
+X13e - 68 countCheck44_X13e <= 43
+-2 count44_X13 + countCheck44_X13s  + countCheck44_X13e  <= 1
+
+X14s + 68 countCheck44_X14s >= 45
+X14e - 68 countCheck44_X14e <= 43
+-2 count44_X14 + countCheck44_X14s  + countCheck44_X14e  <= 1
+
+X15s + 68 countCheck44_X15s >= 45
+X15e - 68 countCheck44_X15e <= 43
+-2 count44_X15 + countCheck44_X15s  + countCheck44_X15e  <= 1
+
+X16s + 68 countCheck44_X16s >= 45
+X16e - 68 countCheck44_X16e <= 43
+-2 count44_X16 + countCheck44_X16s  + countCheck44_X16e  <= 1
+
+X17s + 68 countCheck44_X17s >= 45
+X17e - 68 countCheck44_X17e <= 43
+-2 count44_X17 + countCheck44_X17s  + countCheck44_X17e  <= 1
+
+X18s + 68 countCheck44_X18s >= 45
+X18e - 68 countCheck44_X18e <= 43
+-2 count44_X18 + countCheck44_X18s  + countCheck44_X18e  <= 1
+
+X19s + 68 countCheck44_X19s >= 45
+X19e - 68 countCheck44_X19e <= 43
+-2 count44_X19 + countCheck44_X19s  + countCheck44_X19e  <= 1
+
+X20s + 68 countCheck44_X20s >= 45
+X20e - 68 countCheck44_X20e <= 43
+-2 count44_X20 + countCheck44_X20s  + countCheck44_X20e  <= 1
+
+X21s + 68 countCheck44_X21s >= 45
+X21e - 68 countCheck44_X21e <= 43
+-2 count44_X21 + countCheck44_X21s  + countCheck44_X21e  <= 1
+
+X22s + 68 countCheck44_X22s >= 45
+X22e - 68 countCheck44_X22e <= 43
+-2 count44_X22 + countCheck44_X22s  + countCheck44_X22e  <= 1
+
+X23s + 68 countCheck44_X23s >= 45
+X23e - 68 countCheck44_X23e <= 43
+-2 count44_X23 + countCheck44_X23s  + countCheck44_X23e  <= 1
+
+X24s + 68 countCheck44_X24s >= 45
+X24e - 68 countCheck44_X24e <= 43
+-2 count44_X24 + countCheck44_X24s  + countCheck44_X24e  <= 1
+
+X25s + 68 countCheck44_X25s >= 45
+X25e - 68 countCheck44_X25e <= 43
+-2 count44_X25 + countCheck44_X25s  + countCheck44_X25e  <= 1
+
+X26s + 68 countCheck44_X26s >= 45
+X26e - 68 countCheck44_X26e <= 43
+-2 count44_X26 + countCheck44_X26s  + countCheck44_X26e  <= 1
+
+X27s + 68 countCheck44_X27s >= 45
+X27e - 68 countCheck44_X27e <= 43
+-2 count44_X27 + countCheck44_X27s  + countCheck44_X27e  <= 1
+
+X28s + 68 countCheck44_X28s >= 45
+X28e - 68 countCheck44_X28e <= 43
+-2 count44_X28 + countCheck44_X28s  + countCheck44_X28e  <= 1
+
+X29s + 68 countCheck44_X29s >= 45
+X29e - 68 countCheck44_X29e <= 43
+-2 count44_X29 + countCheck44_X29s  + countCheck44_X29e  <= 1
+
+X30s + 68 countCheck44_X30s >= 45
+X30e - 68 countCheck44_X30e <= 43
+-2 count44_X30 + countCheck44_X30s  + countCheck44_X30e  <= 1
+
+X31s + 68 countCheck44_X31s >= 45
+X31e - 68 countCheck44_X31e <= 43
+-2 count44_X31 + countCheck44_X31s  + countCheck44_X31e  <= 1
+
+X32s + 68 countCheck44_X32s >= 45
+X32e - 68 countCheck44_X32e <= 43
+-2 count44_X32 + countCheck44_X32s  + countCheck44_X32e  <= 1
+
+X33s + 68 countCheck44_X33s >= 45
+X33e - 68 countCheck44_X33e <= 43
+-2 count44_X33 + countCheck44_X33s  + countCheck44_X33e  <= 1
+
+X34s + 68 countCheck44_X34s >= 45
+X34e - 68 countCheck44_X34e <= 43
+-2 count44_X34 + countCheck44_X34s  + countCheck44_X34e  <= 1
+
+X35s + 68 countCheck44_X35s >= 45
+X35e - 68 countCheck44_X35e <= 43
+-2 count44_X35 + countCheck44_X35s  + countCheck44_X35e  <= 1
+
+X36s + 68 countCheck44_X36s >= 45
+X36e - 68 countCheck44_X36e <= 43
+-2 count44_X36 + countCheck44_X36s  + countCheck44_X36e  <= 1
+
+X37s + 68 countCheck44_X37s >= 45
+X37e - 68 countCheck44_X37e <= 43
+-2 count44_X37 + countCheck44_X37s  + countCheck44_X37e  <= 1
+
+X38s + 68 countCheck44_X38s >= 45
+X38e - 68 countCheck44_X38e <= 43
+-2 count44_X38 + countCheck44_X38s  + countCheck44_X38e  <= 1
+
+X39s + 68 countCheck44_X39s >= 45
+X39e - 68 countCheck44_X39e <= 43
+-2 count44_X39 + countCheck44_X39s  + countCheck44_X39e  <= 1
+
+X40s + 68 countCheck44_X40s >= 45
+X40e - 68 countCheck44_X40e <= 43
+-2 count44_X40 + countCheck44_X40s  + countCheck44_X40e  <= 1
+
+X41s + 68 countCheck44_X41s >= 45
+X41e - 68 countCheck44_X41e <= 43
+-2 count44_X41 + countCheck44_X41s  + countCheck44_X41e  <= 1
+
+X42s + 68 countCheck44_X42s >= 45
+X42e - 68 countCheck44_X42e <= 43
+-2 count44_X42 + countCheck44_X42s  + countCheck44_X42e  <= 1
+
+X43s + 68 countCheck44_X43s >= 45
+X43e - 68 countCheck44_X43e <= 43
+-2 count44_X43 + countCheck44_X43s  + countCheck44_X43e  <= 1
+
+X44s + 68 countCheck44_X44s >= 45
+X44e - 68 countCheck44_X44e <= 43
+-2 count44_X44 + countCheck44_X44s  + countCheck44_X44e  <= 1
+
+X45s + 68 countCheck44_X45s >= 45
+X45e - 68 countCheck44_X45e <= 43
+-2 count44_X45 + countCheck44_X45s  + countCheck44_X45e  <= 1
+
+X46s + 68 countCheck44_X46s >= 45
+X46e - 68 countCheck44_X46e <= 43
+-2 count44_X46 + countCheck44_X46s  + countCheck44_X46e  <= 1
+
+X47s + 68 countCheck44_X47s >= 45
+X47e - 68 countCheck44_X47e <= 43
+-2 count44_X47 + countCheck44_X47s  + countCheck44_X47e  <= 1
+
+X48s + 68 countCheck44_X48s >= 45
+X48e - 68 countCheck44_X48e <= 43
+-2 count44_X48 + countCheck44_X48s  + countCheck44_X48e  <= 1
+
+X49s + 68 countCheck44_X49s >= 45
+X49e - 68 countCheck44_X49e <= 43
+-2 count44_X49 + countCheck44_X49s  + countCheck44_X49e  <= 1
+
+X50s + 68 countCheck44_X50s >= 45
+X50e - 68 countCheck44_X50e <= 43
+-2 count44_X50 + countCheck44_X50s  + countCheck44_X50e  <= 1
+
+X51s + 68 countCheck44_X51s >= 45
+X51e - 68 countCheck44_X51e <= 43
+-2 count44_X51 + countCheck44_X51s  + countCheck44_X51e  <= 1
+
+X52s + 68 countCheck44_X52s >= 45
+X52e - 68 countCheck44_X52e <= 43
+-2 count44_X52 + countCheck44_X52s  + countCheck44_X52e  <= 1
+
+X53s + 68 countCheck44_X53s >= 45
+X53e - 68 countCheck44_X53e <= 43
+-2 count44_X53 + countCheck44_X53s  + countCheck44_X53e  <= 1
+
+X54s + 68 countCheck44_X54s >= 45
+X54e - 68 countCheck44_X54e <= 43
+-2 count44_X54 + countCheck44_X54s  + countCheck44_X54e  <= 1
+
+X55s + 68 countCheck44_X55s >= 45
+X55e - 68 countCheck44_X55e <= 43
+-2 count44_X55 + countCheck44_X55s  + countCheck44_X55e  <= 1
+
+X56s + 68 countCheck44_X56s >= 45
+X56e - 68 countCheck44_X56e <= 43
+-2 count44_X56 + countCheck44_X56s  + countCheck44_X56e  <= 1
+
+X57s + 68 countCheck44_X57s >= 45
+X57e - 68 countCheck44_X57e <= 43
+-2 count44_X57 + countCheck44_X57s  + countCheck44_X57e  <= 1
+
+X58s + 68 countCheck44_X58s >= 45
+X58e - 68 countCheck44_X58e <= 43
+-2 count44_X58 + countCheck44_X58s  + countCheck44_X58e  <= 1
+
+X59s + 68 countCheck44_X59s >= 45
+X59e - 68 countCheck44_X59e <= 43
+-2 count44_X59 + countCheck44_X59s  + countCheck44_X59e  <= 1
+
+X60s + 68 countCheck44_X60s >= 45
+X60e - 68 countCheck44_X60e <= 43
+-2 count44_X60 + countCheck44_X60s  + countCheck44_X60e  <= 1
+
+X61s + 68 countCheck44_X61s >= 45
+X61e - 68 countCheck44_X61e <= 43
+-2 count44_X61 + countCheck44_X61s  + countCheck44_X61e  <= 1
+
+X62s + 68 countCheck44_X62s >= 45
+X62e - 68 countCheck44_X62e <= 43
+-2 count44_X62 + countCheck44_X62s  + countCheck44_X62e  <= 1
+
+X63s + 68 countCheck44_X63s >= 45
+X63e - 68 countCheck44_X63e <= 43
+-2 count44_X63 + countCheck44_X63s  + countCheck44_X63e  <= 1
+
+X64s + 68 countCheck44_X64s >= 45
+X64e - 68 countCheck44_X64e <= 43
+-2 count44_X64 + countCheck44_X64s  + countCheck44_X64e  <= 1
+
+X65s + 68 countCheck44_X65s >= 45
+X65e - 68 countCheck44_X65e <= 43
+-2 count44_X65 + countCheck44_X65s  + countCheck44_X65e  <= 1
+
+X66s + 68 countCheck44_X66s >= 45
+X66e - 68 countCheck44_X66e <= 43
+-2 count44_X66 + countCheck44_X66s  + countCheck44_X66e  <= 1
+
+X67s + 68 countCheck44_X67s >= 45
+X67e - 68 countCheck44_X67e <= 43
+-2 count44_X67 + countCheck44_X67s  + countCheck44_X67e  <= 1
+
+count44_X0 + count44_X1 + count44_X2 + count44_X3 + count44_X4 + count44_X5 + count44_X6 + count44_X7 + count44_X8 + count44_X9 + count44_X10 + count44_X11 + count44_X12 + count44_X13 + count44_X14 + count44_X15 + count44_X16 + count44_X17 + count44_X18 + count44_X19 + count44_X20 + count44_X21 + count44_X22 + count44_X23 + count44_X24 + count44_X25 + count44_X26 + count44_X27 + count44_X28 + count44_X29 + count44_X30 + count44_X31 + count44_X32 + count44_X33 + count44_X34 + count44_X35 + count44_X36 + count44_X37 + count44_X38 + count44_X39 + count44_X40 + count44_X41 + count44_X42 + count44_X43 + count44_X44 + count44_X45 + count44_X46 + count44_X47 + count44_X48 + count44_X49 + count44_X50 + count44_X51 + count44_X52 + count44_X53 + count44_X54 + count44_X55 + count44_X56 + count44_X57 + count44_X58 + count44_X59 + count44_X60 + count44_X61 + count44_X62 + count44_X63 + count44_X64 + count44_X65 + count44_X66 + count44_X67 - pathWidth <= 1
+X0s + 68 countCheck45_X0s >= 46
+X0e - 68 countCheck45_X0e <= 44
+-2 count45_X0 + countCheck45_X0s  + countCheck45_X0e  <= 1
+
+X1s + 68 countCheck45_X1s >= 46
+X1e - 68 countCheck45_X1e <= 44
+-2 count45_X1 + countCheck45_X1s  + countCheck45_X1e  <= 1
+
+X2s + 68 countCheck45_X2s >= 46
+X2e - 68 countCheck45_X2e <= 44
+-2 count45_X2 + countCheck45_X2s  + countCheck45_X2e  <= 1
+
+X3s + 68 countCheck45_X3s >= 46
+X3e - 68 countCheck45_X3e <= 44
+-2 count45_X3 + countCheck45_X3s  + countCheck45_X3e  <= 1
+
+X4s + 68 countCheck45_X4s >= 46
+X4e - 68 countCheck45_X4e <= 44
+-2 count45_X4 + countCheck45_X4s  + countCheck45_X4e  <= 1
+
+X5s + 68 countCheck45_X5s >= 46
+X5e - 68 countCheck45_X5e <= 44
+-2 count45_X5 + countCheck45_X5s  + countCheck45_X5e  <= 1
+
+X6s + 68 countCheck45_X6s >= 46
+X6e - 68 countCheck45_X6e <= 44
+-2 count45_X6 + countCheck45_X6s  + countCheck45_X6e  <= 1
+
+X7s + 68 countCheck45_X7s >= 46
+X7e - 68 countCheck45_X7e <= 44
+-2 count45_X7 + countCheck45_X7s  + countCheck45_X7e  <= 1
+
+X8s + 68 countCheck45_X8s >= 46
+X8e - 68 countCheck45_X8e <= 44
+-2 count45_X8 + countCheck45_X8s  + countCheck45_X8e  <= 1
+
+X9s + 68 countCheck45_X9s >= 46
+X9e - 68 countCheck45_X9e <= 44
+-2 count45_X9 + countCheck45_X9s  + countCheck45_X9e  <= 1
+
+X10s + 68 countCheck45_X10s >= 46
+X10e - 68 countCheck45_X10e <= 44
+-2 count45_X10 + countCheck45_X10s  + countCheck45_X10e  <= 1
+
+X11s + 68 countCheck45_X11s >= 46
+X11e - 68 countCheck45_X11e <= 44
+-2 count45_X11 + countCheck45_X11s  + countCheck45_X11e  <= 1
+
+X12s + 68 countCheck45_X12s >= 46
+X12e - 68 countCheck45_X12e <= 44
+-2 count45_X12 + countCheck45_X12s  + countCheck45_X12e  <= 1
+
+X13s + 68 countCheck45_X13s >= 46
+X13e - 68 countCheck45_X13e <= 44
+-2 count45_X13 + countCheck45_X13s  + countCheck45_X13e  <= 1
+
+X14s + 68 countCheck45_X14s >= 46
+X14e - 68 countCheck45_X14e <= 44
+-2 count45_X14 + countCheck45_X14s  + countCheck45_X14e  <= 1
+
+X15s + 68 countCheck45_X15s >= 46
+X15e - 68 countCheck45_X15e <= 44
+-2 count45_X15 + countCheck45_X15s  + countCheck45_X15e  <= 1
+
+X16s + 68 countCheck45_X16s >= 46
+X16e - 68 countCheck45_X16e <= 44
+-2 count45_X16 + countCheck45_X16s  + countCheck45_X16e  <= 1
+
+X17s + 68 countCheck45_X17s >= 46
+X17e - 68 countCheck45_X17e <= 44
+-2 count45_X17 + countCheck45_X17s  + countCheck45_X17e  <= 1
+
+X18s + 68 countCheck45_X18s >= 46
+X18e - 68 countCheck45_X18e <= 44
+-2 count45_X18 + countCheck45_X18s  + countCheck45_X18e  <= 1
+
+X19s + 68 countCheck45_X19s >= 46
+X19e - 68 countCheck45_X19e <= 44
+-2 count45_X19 + countCheck45_X19s  + countCheck45_X19e  <= 1
+
+X20s + 68 countCheck45_X20s >= 46
+X20e - 68 countCheck45_X20e <= 44
+-2 count45_X20 + countCheck45_X20s  + countCheck45_X20e  <= 1
+
+X21s + 68 countCheck45_X21s >= 46
+X21e - 68 countCheck45_X21e <= 44
+-2 count45_X21 + countCheck45_X21s  + countCheck45_X21e  <= 1
+
+X22s + 68 countCheck45_X22s >= 46
+X22e - 68 countCheck45_X22e <= 44
+-2 count45_X22 + countCheck45_X22s  + countCheck45_X22e  <= 1
+
+X23s + 68 countCheck45_X23s >= 46
+X23e - 68 countCheck45_X23e <= 44
+-2 count45_X23 + countCheck45_X23s  + countCheck45_X23e  <= 1
+
+X24s + 68 countCheck45_X24s >= 46
+X24e - 68 countCheck45_X24e <= 44
+-2 count45_X24 + countCheck45_X24s  + countCheck45_X24e  <= 1
+
+X25s + 68 countCheck45_X25s >= 46
+X25e - 68 countCheck45_X25e <= 44
+-2 count45_X25 + countCheck45_X25s  + countCheck45_X25e  <= 1
+
+X26s + 68 countCheck45_X26s >= 46
+X26e - 68 countCheck45_X26e <= 44
+-2 count45_X26 + countCheck45_X26s  + countCheck45_X26e  <= 1
+
+X27s + 68 countCheck45_X27s >= 46
+X27e - 68 countCheck45_X27e <= 44
+-2 count45_X27 + countCheck45_X27s  + countCheck45_X27e  <= 1
+
+X28s + 68 countCheck45_X28s >= 46
+X28e - 68 countCheck45_X28e <= 44
+-2 count45_X28 + countCheck45_X28s  + countCheck45_X28e  <= 1
+
+X29s + 68 countCheck45_X29s >= 46
+X29e - 68 countCheck45_X29e <= 44
+-2 count45_X29 + countCheck45_X29s  + countCheck45_X29e  <= 1
+
+X30s + 68 countCheck45_X30s >= 46
+X30e - 68 countCheck45_X30e <= 44
+-2 count45_X30 + countCheck45_X30s  + countCheck45_X30e  <= 1
+
+X31s + 68 countCheck45_X31s >= 46
+X31e - 68 countCheck45_X31e <= 44
+-2 count45_X31 + countCheck45_X31s  + countCheck45_X31e  <= 1
+
+X32s + 68 countCheck45_X32s >= 46
+X32e - 68 countCheck45_X32e <= 44
+-2 count45_X32 + countCheck45_X32s  + countCheck45_X32e  <= 1
+
+X33s + 68 countCheck45_X33s >= 46
+X33e - 68 countCheck45_X33e <= 44
+-2 count45_X33 + countCheck45_X33s  + countCheck45_X33e  <= 1
+
+X34s + 68 countCheck45_X34s >= 46
+X34e - 68 countCheck45_X34e <= 44
+-2 count45_X34 + countCheck45_X34s  + countCheck45_X34e  <= 1
+
+X35s + 68 countCheck45_X35s >= 46
+X35e - 68 countCheck45_X35e <= 44
+-2 count45_X35 + countCheck45_X35s  + countCheck45_X35e  <= 1
+
+X36s + 68 countCheck45_X36s >= 46
+X36e - 68 countCheck45_X36e <= 44
+-2 count45_X36 + countCheck45_X36s  + countCheck45_X36e  <= 1
+
+X37s + 68 countCheck45_X37s >= 46
+X37e - 68 countCheck45_X37e <= 44
+-2 count45_X37 + countCheck45_X37s  + countCheck45_X37e  <= 1
+
+X38s + 68 countCheck45_X38s >= 46
+X38e - 68 countCheck45_X38e <= 44
+-2 count45_X38 + countCheck45_X38s  + countCheck45_X38e  <= 1
+
+X39s + 68 countCheck45_X39s >= 46
+X39e - 68 countCheck45_X39e <= 44
+-2 count45_X39 + countCheck45_X39s  + countCheck45_X39e  <= 1
+
+X40s + 68 countCheck45_X40s >= 46
+X40e - 68 countCheck45_X40e <= 44
+-2 count45_X40 + countCheck45_X40s  + countCheck45_X40e  <= 1
+
+X41s + 68 countCheck45_X41s >= 46
+X41e - 68 countCheck45_X41e <= 44
+-2 count45_X41 + countCheck45_X41s  + countCheck45_X41e  <= 1
+
+X42s + 68 countCheck45_X42s >= 46
+X42e - 68 countCheck45_X42e <= 44
+-2 count45_X42 + countCheck45_X42s  + countCheck45_X42e  <= 1
+
+X43s + 68 countCheck45_X43s >= 46
+X43e - 68 countCheck45_X43e <= 44
+-2 count45_X43 + countCheck45_X43s  + countCheck45_X43e  <= 1
+
+X44s + 68 countCheck45_X44s >= 46
+X44e - 68 countCheck45_X44e <= 44
+-2 count45_X44 + countCheck45_X44s  + countCheck45_X44e  <= 1
+
+X45s + 68 countCheck45_X45s >= 46
+X45e - 68 countCheck45_X45e <= 44
+-2 count45_X45 + countCheck45_X45s  + countCheck45_X45e  <= 1
+
+X46s + 68 countCheck45_X46s >= 46
+X46e - 68 countCheck45_X46e <= 44
+-2 count45_X46 + countCheck45_X46s  + countCheck45_X46e  <= 1
+
+X47s + 68 countCheck45_X47s >= 46
+X47e - 68 countCheck45_X47e <= 44
+-2 count45_X47 + countCheck45_X47s  + countCheck45_X47e  <= 1
+
+X48s + 68 countCheck45_X48s >= 46
+X48e - 68 countCheck45_X48e <= 44
+-2 count45_X48 + countCheck45_X48s  + countCheck45_X48e  <= 1
+
+X49s + 68 countCheck45_X49s >= 46
+X49e - 68 countCheck45_X49e <= 44
+-2 count45_X49 + countCheck45_X49s  + countCheck45_X49e  <= 1
+
+X50s + 68 countCheck45_X50s >= 46
+X50e - 68 countCheck45_X50e <= 44
+-2 count45_X50 + countCheck45_X50s  + countCheck45_X50e  <= 1
+
+X51s + 68 countCheck45_X51s >= 46
+X51e - 68 countCheck45_X51e <= 44
+-2 count45_X51 + countCheck45_X51s  + countCheck45_X51e  <= 1
+
+X52s + 68 countCheck45_X52s >= 46
+X52e - 68 countCheck45_X52e <= 44
+-2 count45_X52 + countCheck45_X52s  + countCheck45_X52e  <= 1
+
+X53s + 68 countCheck45_X53s >= 46
+X53e - 68 countCheck45_X53e <= 44
+-2 count45_X53 + countCheck45_X53s  + countCheck45_X53e  <= 1
+
+X54s + 68 countCheck45_X54s >= 46
+X54e - 68 countCheck45_X54e <= 44
+-2 count45_X54 + countCheck45_X54s  + countCheck45_X54e  <= 1
+
+X55s + 68 countCheck45_X55s >= 46
+X55e - 68 countCheck45_X55e <= 44
+-2 count45_X55 + countCheck45_X55s  + countCheck45_X55e  <= 1
+
+X56s + 68 countCheck45_X56s >= 46
+X56e - 68 countCheck45_X56e <= 44
+-2 count45_X56 + countCheck45_X56s  + countCheck45_X56e  <= 1
+
+X57s + 68 countCheck45_X57s >= 46
+X57e - 68 countCheck45_X57e <= 44
+-2 count45_X57 + countCheck45_X57s  + countCheck45_X57e  <= 1
+
+X58s + 68 countCheck45_X58s >= 46
+X58e - 68 countCheck45_X58e <= 44
+-2 count45_X58 + countCheck45_X58s  + countCheck45_X58e  <= 1
+
+X59s + 68 countCheck45_X59s >= 46
+X59e - 68 countCheck45_X59e <= 44
+-2 count45_X59 + countCheck45_X59s  + countCheck45_X59e  <= 1
+
+X60s + 68 countCheck45_X60s >= 46
+X60e - 68 countCheck45_X60e <= 44
+-2 count45_X60 + countCheck45_X60s  + countCheck45_X60e  <= 1
+
+X61s + 68 countCheck45_X61s >= 46
+X61e - 68 countCheck45_X61e <= 44
+-2 count45_X61 + countCheck45_X61s  + countCheck45_X61e  <= 1
+
+X62s + 68 countCheck45_X62s >= 46
+X62e - 68 countCheck45_X62e <= 44
+-2 count45_X62 + countCheck45_X62s  + countCheck45_X62e  <= 1
+
+X63s + 68 countCheck45_X63s >= 46
+X63e - 68 countCheck45_X63e <= 44
+-2 count45_X63 + countCheck45_X63s  + countCheck45_X63e  <= 1
+
+X64s + 68 countCheck45_X64s >= 46
+X64e - 68 countCheck45_X64e <= 44
+-2 count45_X64 + countCheck45_X64s  + countCheck45_X64e  <= 1
+
+X65s + 68 countCheck45_X65s >= 46
+X65e - 68 countCheck45_X65e <= 44
+-2 count45_X65 + countCheck45_X65s  + countCheck45_X65e  <= 1
+
+X66s + 68 countCheck45_X66s >= 46
+X66e - 68 countCheck45_X66e <= 44
+-2 count45_X66 + countCheck45_X66s  + countCheck45_X66e  <= 1
+
+X67s + 68 countCheck45_X67s >= 46
+X67e - 68 countCheck45_X67e <= 44
+-2 count45_X67 + countCheck45_X67s  + countCheck45_X67e  <= 1
+
+count45_X0 + count45_X1 + count45_X2 + count45_X3 + count45_X4 + count45_X5 + count45_X6 + count45_X7 + count45_X8 + count45_X9 + count45_X10 + count45_X11 + count45_X12 + count45_X13 + count45_X14 + count45_X15 + count45_X16 + count45_X17 + count45_X18 + count45_X19 + count45_X20 + count45_X21 + count45_X22 + count45_X23 + count45_X24 + count45_X25 + count45_X26 + count45_X27 + count45_X28 + count45_X29 + count45_X30 + count45_X31 + count45_X32 + count45_X33 + count45_X34 + count45_X35 + count45_X36 + count45_X37 + count45_X38 + count45_X39 + count45_X40 + count45_X41 + count45_X42 + count45_X43 + count45_X44 + count45_X45 + count45_X46 + count45_X47 + count45_X48 + count45_X49 + count45_X50 + count45_X51 + count45_X52 + count45_X53 + count45_X54 + count45_X55 + count45_X56 + count45_X57 + count45_X58 + count45_X59 + count45_X60 + count45_X61 + count45_X62 + count45_X63 + count45_X64 + count45_X65 + count45_X66 + count45_X67 - pathWidth <= 1
+X0s + 68 countCheck46_X0s >= 47
+X0e - 68 countCheck46_X0e <= 45
+-2 count46_X0 + countCheck46_X0s  + countCheck46_X0e  <= 1
+
+X1s + 68 countCheck46_X1s >= 47
+X1e - 68 countCheck46_X1e <= 45
+-2 count46_X1 + countCheck46_X1s  + countCheck46_X1e  <= 1
+
+X2s + 68 countCheck46_X2s >= 47
+X2e - 68 countCheck46_X2e <= 45
+-2 count46_X2 + countCheck46_X2s  + countCheck46_X2e  <= 1
+
+X3s + 68 countCheck46_X3s >= 47
+X3e - 68 countCheck46_X3e <= 45
+-2 count46_X3 + countCheck46_X3s  + countCheck46_X3e  <= 1
+
+X4s + 68 countCheck46_X4s >= 47
+X4e - 68 countCheck46_X4e <= 45
+-2 count46_X4 + countCheck46_X4s  + countCheck46_X4e  <= 1
+
+X5s + 68 countCheck46_X5s >= 47
+X5e - 68 countCheck46_X5e <= 45
+-2 count46_X5 + countCheck46_X5s  + countCheck46_X5e  <= 1
+
+X6s + 68 countCheck46_X6s >= 47
+X6e - 68 countCheck46_X6e <= 45
+-2 count46_X6 + countCheck46_X6s  + countCheck46_X6e  <= 1
+
+X7s + 68 countCheck46_X7s >= 47
+X7e - 68 countCheck46_X7e <= 45
+-2 count46_X7 + countCheck46_X7s  + countCheck46_X7e  <= 1
+
+X8s + 68 countCheck46_X8s >= 47
+X8e - 68 countCheck46_X8e <= 45
+-2 count46_X8 + countCheck46_X8s  + countCheck46_X8e  <= 1
+
+X9s + 68 countCheck46_X9s >= 47
+X9e - 68 countCheck46_X9e <= 45
+-2 count46_X9 + countCheck46_X9s  + countCheck46_X9e  <= 1
+
+X10s + 68 countCheck46_X10s >= 47
+X10e - 68 countCheck46_X10e <= 45
+-2 count46_X10 + countCheck46_X10s  + countCheck46_X10e  <= 1
+
+X11s + 68 countCheck46_X11s >= 47
+X11e - 68 countCheck46_X11e <= 45
+-2 count46_X11 + countCheck46_X11s  + countCheck46_X11e  <= 1
+
+X12s + 68 countCheck46_X12s >= 47
+X12e - 68 countCheck46_X12e <= 45
+-2 count46_X12 + countCheck46_X12s  + countCheck46_X12e  <= 1
+
+X13s + 68 countCheck46_X13s >= 47
+X13e - 68 countCheck46_X13e <= 45
+-2 count46_X13 + countCheck46_X13s  + countCheck46_X13e  <= 1
+
+X14s + 68 countCheck46_X14s >= 47
+X14e - 68 countCheck46_X14e <= 45
+-2 count46_X14 + countCheck46_X14s  + countCheck46_X14e  <= 1
+
+X15s + 68 countCheck46_X15s >= 47
+X15e - 68 countCheck46_X15e <= 45
+-2 count46_X15 + countCheck46_X15s  + countCheck46_X15e  <= 1
+
+X16s + 68 countCheck46_X16s >= 47
+X16e - 68 countCheck46_X16e <= 45
+-2 count46_X16 + countCheck46_X16s  + countCheck46_X16e  <= 1
+
+X17s + 68 countCheck46_X17s >= 47
+X17e - 68 countCheck46_X17e <= 45
+-2 count46_X17 + countCheck46_X17s  + countCheck46_X17e  <= 1
+
+X18s + 68 countCheck46_X18s >= 47
+X18e - 68 countCheck46_X18e <= 45
+-2 count46_X18 + countCheck46_X18s  + countCheck46_X18e  <= 1
+
+X19s + 68 countCheck46_X19s >= 47
+X19e - 68 countCheck46_X19e <= 45
+-2 count46_X19 + countCheck46_X19s  + countCheck46_X19e  <= 1
+
+X20s + 68 countCheck46_X20s >= 47
+X20e - 68 countCheck46_X20e <= 45
+-2 count46_X20 + countCheck46_X20s  + countCheck46_X20e  <= 1
+
+X21s + 68 countCheck46_X21s >= 47
+X21e - 68 countCheck46_X21e <= 45
+-2 count46_X21 + countCheck46_X21s  + countCheck46_X21e  <= 1
+
+X22s + 68 countCheck46_X22s >= 47
+X22e - 68 countCheck46_X22e <= 45
+-2 count46_X22 + countCheck46_X22s  + countCheck46_X22e  <= 1
+
+X23s + 68 countCheck46_X23s >= 47
+X23e - 68 countCheck46_X23e <= 45
+-2 count46_X23 + countCheck46_X23s  + countCheck46_X23e  <= 1
+
+X24s + 68 countCheck46_X24s >= 47
+X24e - 68 countCheck46_X24e <= 45
+-2 count46_X24 + countCheck46_X24s  + countCheck46_X24e  <= 1
+
+X25s + 68 countCheck46_X25s >= 47
+X25e - 68 countCheck46_X25e <= 45
+-2 count46_X25 + countCheck46_X25s  + countCheck46_X25e  <= 1
+
+X26s + 68 countCheck46_X26s >= 47
+X26e - 68 countCheck46_X26e <= 45
+-2 count46_X26 + countCheck46_X26s  + countCheck46_X26e  <= 1
+
+X27s + 68 countCheck46_X27s >= 47
+X27e - 68 countCheck46_X27e <= 45
+-2 count46_X27 + countCheck46_X27s  + countCheck46_X27e  <= 1
+
+X28s + 68 countCheck46_X28s >= 47
+X28e - 68 countCheck46_X28e <= 45
+-2 count46_X28 + countCheck46_X28s  + countCheck46_X28e  <= 1
+
+X29s + 68 countCheck46_X29s >= 47
+X29e - 68 countCheck46_X29e <= 45
+-2 count46_X29 + countCheck46_X29s  + countCheck46_X29e  <= 1
+
+X30s + 68 countCheck46_X30s >= 47
+X30e - 68 countCheck46_X30e <= 45
+-2 count46_X30 + countCheck46_X30s  + countCheck46_X30e  <= 1
+
+X31s + 68 countCheck46_X31s >= 47
+X31e - 68 countCheck46_X31e <= 45
+-2 count46_X31 + countCheck46_X31s  + countCheck46_X31e  <= 1
+
+X32s + 68 countCheck46_X32s >= 47
+X32e - 68 countCheck46_X32e <= 45
+-2 count46_X32 + countCheck46_X32s  + countCheck46_X32e  <= 1
+
+X33s + 68 countCheck46_X33s >= 47
+X33e - 68 countCheck46_X33e <= 45
+-2 count46_X33 + countCheck46_X33s  + countCheck46_X33e  <= 1
+
+X34s + 68 countCheck46_X34s >= 47
+X34e - 68 countCheck46_X34e <= 45
+-2 count46_X34 + countCheck46_X34s  + countCheck46_X34e  <= 1
+
+X35s + 68 countCheck46_X35s >= 47
+X35e - 68 countCheck46_X35e <= 45
+-2 count46_X35 + countCheck46_X35s  + countCheck46_X35e  <= 1
+
+X36s + 68 countCheck46_X36s >= 47
+X36e - 68 countCheck46_X36e <= 45
+-2 count46_X36 + countCheck46_X36s  + countCheck46_X36e  <= 1
+
+X37s + 68 countCheck46_X37s >= 47
+X37e - 68 countCheck46_X37e <= 45
+-2 count46_X37 + countCheck46_X37s  + countCheck46_X37e  <= 1
+
+X38s + 68 countCheck46_X38s >= 47
+X38e - 68 countCheck46_X38e <= 45
+-2 count46_X38 + countCheck46_X38s  + countCheck46_X38e  <= 1
+
+X39s + 68 countCheck46_X39s >= 47
+X39e - 68 countCheck46_X39e <= 45
+-2 count46_X39 + countCheck46_X39s  + countCheck46_X39e  <= 1
+
+X40s + 68 countCheck46_X40s >= 47
+X40e - 68 countCheck46_X40e <= 45
+-2 count46_X40 + countCheck46_X40s  + countCheck46_X40e  <= 1
+
+X41s + 68 countCheck46_X41s >= 47
+X41e - 68 countCheck46_X41e <= 45
+-2 count46_X41 + countCheck46_X41s  + countCheck46_X41e  <= 1
+
+X42s + 68 countCheck46_X42s >= 47
+X42e - 68 countCheck46_X42e <= 45
+-2 count46_X42 + countCheck46_X42s  + countCheck46_X42e  <= 1
+
+X43s + 68 countCheck46_X43s >= 47
+X43e - 68 countCheck46_X43e <= 45
+-2 count46_X43 + countCheck46_X43s  + countCheck46_X43e  <= 1
+
+X44s + 68 countCheck46_X44s >= 47
+X44e - 68 countCheck46_X44e <= 45
+-2 count46_X44 + countCheck46_X44s  + countCheck46_X44e  <= 1
+
+X45s + 68 countCheck46_X45s >= 47
+X45e - 68 countCheck46_X45e <= 45
+-2 count46_X45 + countCheck46_X45s  + countCheck46_X45e  <= 1
+
+X46s + 68 countCheck46_X46s >= 47
+X46e - 68 countCheck46_X46e <= 45
+-2 count46_X46 + countCheck46_X46s  + countCheck46_X46e  <= 1
+
+X47s + 68 countCheck46_X47s >= 47
+X47e - 68 countCheck46_X47e <= 45
+-2 count46_X47 + countCheck46_X47s  + countCheck46_X47e  <= 1
+
+X48s + 68 countCheck46_X48s >= 47
+X48e - 68 countCheck46_X48e <= 45
+-2 count46_X48 + countCheck46_X48s  + countCheck46_X48e  <= 1
+
+X49s + 68 countCheck46_X49s >= 47
+X49e - 68 countCheck46_X49e <= 45
+-2 count46_X49 + countCheck46_X49s  + countCheck46_X49e  <= 1
+
+X50s + 68 countCheck46_X50s >= 47
+X50e - 68 countCheck46_X50e <= 45
+-2 count46_X50 + countCheck46_X50s  + countCheck46_X50e  <= 1
+
+X51s + 68 countCheck46_X51s >= 47
+X51e - 68 countCheck46_X51e <= 45
+-2 count46_X51 + countCheck46_X51s  + countCheck46_X51e  <= 1
+
+X52s + 68 countCheck46_X52s >= 47
+X52e - 68 countCheck46_X52e <= 45
+-2 count46_X52 + countCheck46_X52s  + countCheck46_X52e  <= 1
+
+X53s + 68 countCheck46_X53s >= 47
+X53e - 68 countCheck46_X53e <= 45
+-2 count46_X53 + countCheck46_X53s  + countCheck46_X53e  <= 1
+
+X54s + 68 countCheck46_X54s >= 47
+X54e - 68 countCheck46_X54e <= 45
+-2 count46_X54 + countCheck46_X54s  + countCheck46_X54e  <= 1
+
+X55s + 68 countCheck46_X55s >= 47
+X55e - 68 countCheck46_X55e <= 45
+-2 count46_X55 + countCheck46_X55s  + countCheck46_X55e  <= 1
+
+X56s + 68 countCheck46_X56s >= 47
+X56e - 68 countCheck46_X56e <= 45
+-2 count46_X56 + countCheck46_X56s  + countCheck46_X56e  <= 1
+
+X57s + 68 countCheck46_X57s >= 47
+X57e - 68 countCheck46_X57e <= 45
+-2 count46_X57 + countCheck46_X57s  + countCheck46_X57e  <= 1
+
+X58s + 68 countCheck46_X58s >= 47
+X58e - 68 countCheck46_X58e <= 45
+-2 count46_X58 + countCheck46_X58s  + countCheck46_X58e  <= 1
+
+X59s + 68 countCheck46_X59s >= 47
+X59e - 68 countCheck46_X59e <= 45
+-2 count46_X59 + countCheck46_X59s  + countCheck46_X59e  <= 1
+
+X60s + 68 countCheck46_X60s >= 47
+X60e - 68 countCheck46_X60e <= 45
+-2 count46_X60 + countCheck46_X60s  + countCheck46_X60e  <= 1
+
+X61s + 68 countCheck46_X61s >= 47
+X61e - 68 countCheck46_X61e <= 45
+-2 count46_X61 + countCheck46_X61s  + countCheck46_X61e  <= 1
+
+X62s + 68 countCheck46_X62s >= 47
+X62e - 68 countCheck46_X62e <= 45
+-2 count46_X62 + countCheck46_X62s  + countCheck46_X62e  <= 1
+
+X63s + 68 countCheck46_X63s >= 47
+X63e - 68 countCheck46_X63e <= 45
+-2 count46_X63 + countCheck46_X63s  + countCheck46_X63e  <= 1
+
+X64s + 68 countCheck46_X64s >= 47
+X64e - 68 countCheck46_X64e <= 45
+-2 count46_X64 + countCheck46_X64s  + countCheck46_X64e  <= 1
+
+X65s + 68 countCheck46_X65s >= 47
+X65e - 68 countCheck46_X65e <= 45
+-2 count46_X65 + countCheck46_X65s  + countCheck46_X65e  <= 1
+
+X66s + 68 countCheck46_X66s >= 47
+X66e - 68 countCheck46_X66e <= 45
+-2 count46_X66 + countCheck46_X66s  + countCheck46_X66e  <= 1
+
+X67s + 68 countCheck46_X67s >= 47
+X67e - 68 countCheck46_X67e <= 45
+-2 count46_X67 + countCheck46_X67s  + countCheck46_X67e  <= 1
+
+count46_X0 + count46_X1 + count46_X2 + count46_X3 + count46_X4 + count46_X5 + count46_X6 + count46_X7 + count46_X8 + count46_X9 + count46_X10 + count46_X11 + count46_X12 + count46_X13 + count46_X14 + count46_X15 + count46_X16 + count46_X17 + count46_X18 + count46_X19 + count46_X20 + count46_X21 + count46_X22 + count46_X23 + count46_X24 + count46_X25 + count46_X26 + count46_X27 + count46_X28 + count46_X29 + count46_X30 + count46_X31 + count46_X32 + count46_X33 + count46_X34 + count46_X35 + count46_X36 + count46_X37 + count46_X38 + count46_X39 + count46_X40 + count46_X41 + count46_X42 + count46_X43 + count46_X44 + count46_X45 + count46_X46 + count46_X47 + count46_X48 + count46_X49 + count46_X50 + count46_X51 + count46_X52 + count46_X53 + count46_X54 + count46_X55 + count46_X56 + count46_X57 + count46_X58 + count46_X59 + count46_X60 + count46_X61 + count46_X62 + count46_X63 + count46_X64 + count46_X65 + count46_X66 + count46_X67 - pathWidth <= 1
+X0s + 68 countCheck47_X0s >= 48
+X0e - 68 countCheck47_X0e <= 46
+-2 count47_X0 + countCheck47_X0s  + countCheck47_X0e  <= 1
+
+X1s + 68 countCheck47_X1s >= 48
+X1e - 68 countCheck47_X1e <= 46
+-2 count47_X1 + countCheck47_X1s  + countCheck47_X1e  <= 1
+
+X2s + 68 countCheck47_X2s >= 48
+X2e - 68 countCheck47_X2e <= 46
+-2 count47_X2 + countCheck47_X2s  + countCheck47_X2e  <= 1
+
+X3s + 68 countCheck47_X3s >= 48
+X3e - 68 countCheck47_X3e <= 46
+-2 count47_X3 + countCheck47_X3s  + countCheck47_X3e  <= 1
+
+X4s + 68 countCheck47_X4s >= 48
+X4e - 68 countCheck47_X4e <= 46
+-2 count47_X4 + countCheck47_X4s  + countCheck47_X4e  <= 1
+
+X5s + 68 countCheck47_X5s >= 48
+X5e - 68 countCheck47_X5e <= 46
+-2 count47_X5 + countCheck47_X5s  + countCheck47_X5e  <= 1
+
+X6s + 68 countCheck47_X6s >= 48
+X6e - 68 countCheck47_X6e <= 46
+-2 count47_X6 + countCheck47_X6s  + countCheck47_X6e  <= 1
+
+X7s + 68 countCheck47_X7s >= 48
+X7e - 68 countCheck47_X7e <= 46
+-2 count47_X7 + countCheck47_X7s  + countCheck47_X7e  <= 1
+
+X8s + 68 countCheck47_X8s >= 48
+X8e - 68 countCheck47_X8e <= 46
+-2 count47_X8 + countCheck47_X8s  + countCheck47_X8e  <= 1
+
+X9s + 68 countCheck47_X9s >= 48
+X9e - 68 countCheck47_X9e <= 46
+-2 count47_X9 + countCheck47_X9s  + countCheck47_X9e  <= 1
+
+X10s + 68 countCheck47_X10s >= 48
+X10e - 68 countCheck47_X10e <= 46
+-2 count47_X10 + countCheck47_X10s  + countCheck47_X10e  <= 1
+
+X11s + 68 countCheck47_X11s >= 48
+X11e - 68 countCheck47_X11e <= 46
+-2 count47_X11 + countCheck47_X11s  + countCheck47_X11e  <= 1
+
+X12s + 68 countCheck47_X12s >= 48
+X12e - 68 countCheck47_X12e <= 46
+-2 count47_X12 + countCheck47_X12s  + countCheck47_X12e  <= 1
+
+X13s + 68 countCheck47_X13s >= 48
+X13e - 68 countCheck47_X13e <= 46
+-2 count47_X13 + countCheck47_X13s  + countCheck47_X13e  <= 1
+
+X14s + 68 countCheck47_X14s >= 48
+X14e - 68 countCheck47_X14e <= 46
+-2 count47_X14 + countCheck47_X14s  + countCheck47_X14e  <= 1
+
+X15s + 68 countCheck47_X15s >= 48
+X15e - 68 countCheck47_X15e <= 46
+-2 count47_X15 + countCheck47_X15s  + countCheck47_X15e  <= 1
+
+X16s + 68 countCheck47_X16s >= 48
+X16e - 68 countCheck47_X16e <= 46
+-2 count47_X16 + countCheck47_X16s  + countCheck47_X16e  <= 1
+
+X17s + 68 countCheck47_X17s >= 48
+X17e - 68 countCheck47_X17e <= 46
+-2 count47_X17 + countCheck47_X17s  + countCheck47_X17e  <= 1
+
+X18s + 68 countCheck47_X18s >= 48
+X18e - 68 countCheck47_X18e <= 46
+-2 count47_X18 + countCheck47_X18s  + countCheck47_X18e  <= 1
+
+X19s + 68 countCheck47_X19s >= 48
+X19e - 68 countCheck47_X19e <= 46
+-2 count47_X19 + countCheck47_X19s  + countCheck47_X19e  <= 1
+
+X20s + 68 countCheck47_X20s >= 48
+X20e - 68 countCheck47_X20e <= 46
+-2 count47_X20 + countCheck47_X20s  + countCheck47_X20e  <= 1
+
+X21s + 68 countCheck47_X21s >= 48
+X21e - 68 countCheck47_X21e <= 46
+-2 count47_X21 + countCheck47_X21s  + countCheck47_X21e  <= 1
+
+X22s + 68 countCheck47_X22s >= 48
+X22e - 68 countCheck47_X22e <= 46
+-2 count47_X22 + countCheck47_X22s  + countCheck47_X22e  <= 1
+
+X23s + 68 countCheck47_X23s >= 48
+X23e - 68 countCheck47_X23e <= 46
+-2 count47_X23 + countCheck47_X23s  + countCheck47_X23e  <= 1
+
+X24s + 68 countCheck47_X24s >= 48
+X24e - 68 countCheck47_X24e <= 46
+-2 count47_X24 + countCheck47_X24s  + countCheck47_X24e  <= 1
+
+X25s + 68 countCheck47_X25s >= 48
+X25e - 68 countCheck47_X25e <= 46
+-2 count47_X25 + countCheck47_X25s  + countCheck47_X25e  <= 1
+
+X26s + 68 countCheck47_X26s >= 48
+X26e - 68 countCheck47_X26e <= 46
+-2 count47_X26 + countCheck47_X26s  + countCheck47_X26e  <= 1
+
+X27s + 68 countCheck47_X27s >= 48
+X27e - 68 countCheck47_X27e <= 46
+-2 count47_X27 + countCheck47_X27s  + countCheck47_X27e  <= 1
+
+X28s + 68 countCheck47_X28s >= 48
+X28e - 68 countCheck47_X28e <= 46
+-2 count47_X28 + countCheck47_X28s  + countCheck47_X28e  <= 1
+
+X29s + 68 countCheck47_X29s >= 48
+X29e - 68 countCheck47_X29e <= 46
+-2 count47_X29 + countCheck47_X29s  + countCheck47_X29e  <= 1
+
+X30s + 68 countCheck47_X30s >= 48
+X30e - 68 countCheck47_X30e <= 46
+-2 count47_X30 + countCheck47_X30s  + countCheck47_X30e  <= 1
+
+X31s + 68 countCheck47_X31s >= 48
+X31e - 68 countCheck47_X31e <= 46
+-2 count47_X31 + countCheck47_X31s  + countCheck47_X31e  <= 1
+
+X32s + 68 countCheck47_X32s >= 48
+X32e - 68 countCheck47_X32e <= 46
+-2 count47_X32 + countCheck47_X32s  + countCheck47_X32e  <= 1
+
+X33s + 68 countCheck47_X33s >= 48
+X33e - 68 countCheck47_X33e <= 46
+-2 count47_X33 + countCheck47_X33s  + countCheck47_X33e  <= 1
+
+X34s + 68 countCheck47_X34s >= 48
+X34e - 68 countCheck47_X34e <= 46
+-2 count47_X34 + countCheck47_X34s  + countCheck47_X34e  <= 1
+
+X35s + 68 countCheck47_X35s >= 48
+X35e - 68 countCheck47_X35e <= 46
+-2 count47_X35 + countCheck47_X35s  + countCheck47_X35e  <= 1
+
+X36s + 68 countCheck47_X36s >= 48
+X36e - 68 countCheck47_X36e <= 46
+-2 count47_X36 + countCheck47_X36s  + countCheck47_X36e  <= 1
+
+X37s + 68 countCheck47_X37s >= 48
+X37e - 68 countCheck47_X37e <= 46
+-2 count47_X37 + countCheck47_X37s  + countCheck47_X37e  <= 1
+
+X38s + 68 countCheck47_X38s >= 48
+X38e - 68 countCheck47_X38e <= 46
+-2 count47_X38 + countCheck47_X38s  + countCheck47_X38e  <= 1
+
+X39s + 68 countCheck47_X39s >= 48
+X39e - 68 countCheck47_X39e <= 46
+-2 count47_X39 + countCheck47_X39s  + countCheck47_X39e  <= 1
+
+X40s + 68 countCheck47_X40s >= 48
+X40e - 68 countCheck47_X40e <= 46
+-2 count47_X40 + countCheck47_X40s  + countCheck47_X40e  <= 1
+
+X41s + 68 countCheck47_X41s >= 48
+X41e - 68 countCheck47_X41e <= 46
+-2 count47_X41 + countCheck47_X41s  + countCheck47_X41e  <= 1
+
+X42s + 68 countCheck47_X42s >= 48
+X42e - 68 countCheck47_X42e <= 46
+-2 count47_X42 + countCheck47_X42s  + countCheck47_X42e  <= 1
+
+X43s + 68 countCheck47_X43s >= 48
+X43e - 68 countCheck47_X43e <= 46
+-2 count47_X43 + countCheck47_X43s  + countCheck47_X43e  <= 1
+
+X44s + 68 countCheck47_X44s >= 48
+X44e - 68 countCheck47_X44e <= 46
+-2 count47_X44 + countCheck47_X44s  + countCheck47_X44e  <= 1
+
+X45s + 68 countCheck47_X45s >= 48
+X45e - 68 countCheck47_X45e <= 46
+-2 count47_X45 + countCheck47_X45s  + countCheck47_X45e  <= 1
+
+X46s + 68 countCheck47_X46s >= 48
+X46e - 68 countCheck47_X46e <= 46
+-2 count47_X46 + countCheck47_X46s  + countCheck47_X46e  <= 1
+
+X47s + 68 countCheck47_X47s >= 48
+X47e - 68 countCheck47_X47e <= 46
+-2 count47_X47 + countCheck47_X47s  + countCheck47_X47e  <= 1
+
+X48s + 68 countCheck47_X48s >= 48
+X48e - 68 countCheck47_X48e <= 46
+-2 count47_X48 + countCheck47_X48s  + countCheck47_X48e  <= 1
+
+X49s + 68 countCheck47_X49s >= 48
+X49e - 68 countCheck47_X49e <= 46
+-2 count47_X49 + countCheck47_X49s  + countCheck47_X49e  <= 1
+
+X50s + 68 countCheck47_X50s >= 48
+X50e - 68 countCheck47_X50e <= 46
+-2 count47_X50 + countCheck47_X50s  + countCheck47_X50e  <= 1
+
+X51s + 68 countCheck47_X51s >= 48
+X51e - 68 countCheck47_X51e <= 46
+-2 count47_X51 + countCheck47_X51s  + countCheck47_X51e  <= 1
+
+X52s + 68 countCheck47_X52s >= 48
+X52e - 68 countCheck47_X52e <= 46
+-2 count47_X52 + countCheck47_X52s  + countCheck47_X52e  <= 1
+
+X53s + 68 countCheck47_X53s >= 48
+X53e - 68 countCheck47_X53e <= 46
+-2 count47_X53 + countCheck47_X53s  + countCheck47_X53e  <= 1
+
+X54s + 68 countCheck47_X54s >= 48
+X54e - 68 countCheck47_X54e <= 46
+-2 count47_X54 + countCheck47_X54s  + countCheck47_X54e  <= 1
+
+X55s + 68 countCheck47_X55s >= 48
+X55e - 68 countCheck47_X55e <= 46
+-2 count47_X55 + countCheck47_X55s  + countCheck47_X55e  <= 1
+
+X56s + 68 countCheck47_X56s >= 48
+X56e - 68 countCheck47_X56e <= 46
+-2 count47_X56 + countCheck47_X56s  + countCheck47_X56e  <= 1
+
+X57s + 68 countCheck47_X57s >= 48
+X57e - 68 countCheck47_X57e <= 46
+-2 count47_X57 + countCheck47_X57s  + countCheck47_X57e  <= 1
+
+X58s + 68 countCheck47_X58s >= 48
+X58e - 68 countCheck47_X58e <= 46
+-2 count47_X58 + countCheck47_X58s  + countCheck47_X58e  <= 1
+
+X59s + 68 countCheck47_X59s >= 48
+X59e - 68 countCheck47_X59e <= 46
+-2 count47_X59 + countCheck47_X59s  + countCheck47_X59e  <= 1
+
+X60s + 68 countCheck47_X60s >= 48
+X60e - 68 countCheck47_X60e <= 46
+-2 count47_X60 + countCheck47_X60s  + countCheck47_X60e  <= 1
+
+X61s + 68 countCheck47_X61s >= 48
+X61e - 68 countCheck47_X61e <= 46
+-2 count47_X61 + countCheck47_X61s  + countCheck47_X61e  <= 1
+
+X62s + 68 countCheck47_X62s >= 48
+X62e - 68 countCheck47_X62e <= 46
+-2 count47_X62 + countCheck47_X62s  + countCheck47_X62e  <= 1
+
+X63s + 68 countCheck47_X63s >= 48
+X63e - 68 countCheck47_X63e <= 46
+-2 count47_X63 + countCheck47_X63s  + countCheck47_X63e  <= 1
+
+X64s + 68 countCheck47_X64s >= 48
+X64e - 68 countCheck47_X64e <= 46
+-2 count47_X64 + countCheck47_X64s  + countCheck47_X64e  <= 1
+
+X65s + 68 countCheck47_X65s >= 48
+X65e - 68 countCheck47_X65e <= 46
+-2 count47_X65 + countCheck47_X65s  + countCheck47_X65e  <= 1
+
+X66s + 68 countCheck47_X66s >= 48
+X66e - 68 countCheck47_X66e <= 46
+-2 count47_X66 + countCheck47_X66s  + countCheck47_X66e  <= 1
+
+X67s + 68 countCheck47_X67s >= 48
+X67e - 68 countCheck47_X67e <= 46
+-2 count47_X67 + countCheck47_X67s  + countCheck47_X67e  <= 1
+
+count47_X0 + count47_X1 + count47_X2 + count47_X3 + count47_X4 + count47_X5 + count47_X6 + count47_X7 + count47_X8 + count47_X9 + count47_X10 + count47_X11 + count47_X12 + count47_X13 + count47_X14 + count47_X15 + count47_X16 + count47_X17 + count47_X18 + count47_X19 + count47_X20 + count47_X21 + count47_X22 + count47_X23 + count47_X24 + count47_X25 + count47_X26 + count47_X27 + count47_X28 + count47_X29 + count47_X30 + count47_X31 + count47_X32 + count47_X33 + count47_X34 + count47_X35 + count47_X36 + count47_X37 + count47_X38 + count47_X39 + count47_X40 + count47_X41 + count47_X42 + count47_X43 + count47_X44 + count47_X45 + count47_X46 + count47_X47 + count47_X48 + count47_X49 + count47_X50 + count47_X51 + count47_X52 + count47_X53 + count47_X54 + count47_X55 + count47_X56 + count47_X57 + count47_X58 + count47_X59 + count47_X60 + count47_X61 + count47_X62 + count47_X63 + count47_X64 + count47_X65 + count47_X66 + count47_X67 - pathWidth <= 1
+X0s + 68 countCheck48_X0s >= 49
+X0e - 68 countCheck48_X0e <= 47
+-2 count48_X0 + countCheck48_X0s  + countCheck48_X0e  <= 1
+
+X1s + 68 countCheck48_X1s >= 49
+X1e - 68 countCheck48_X1e <= 47
+-2 count48_X1 + countCheck48_X1s  + countCheck48_X1e  <= 1
+
+X2s + 68 countCheck48_X2s >= 49
+X2e - 68 countCheck48_X2e <= 47
+-2 count48_X2 + countCheck48_X2s  + countCheck48_X2e  <= 1
+
+X3s + 68 countCheck48_X3s >= 49
+X3e - 68 countCheck48_X3e <= 47
+-2 count48_X3 + countCheck48_X3s  + countCheck48_X3e  <= 1
+
+X4s + 68 countCheck48_X4s >= 49
+X4e - 68 countCheck48_X4e <= 47
+-2 count48_X4 + countCheck48_X4s  + countCheck48_X4e  <= 1
+
+X5s + 68 countCheck48_X5s >= 49
+X5e - 68 countCheck48_X5e <= 47
+-2 count48_X5 + countCheck48_X5s  + countCheck48_X5e  <= 1
+
+X6s + 68 countCheck48_X6s >= 49
+X6e - 68 countCheck48_X6e <= 47
+-2 count48_X6 + countCheck48_X6s  + countCheck48_X6e  <= 1
+
+X7s + 68 countCheck48_X7s >= 49
+X7e - 68 countCheck48_X7e <= 47
+-2 count48_X7 + countCheck48_X7s  + countCheck48_X7e  <= 1
+
+X8s + 68 countCheck48_X8s >= 49
+X8e - 68 countCheck48_X8e <= 47
+-2 count48_X8 + countCheck48_X8s  + countCheck48_X8e  <= 1
+
+X9s + 68 countCheck48_X9s >= 49
+X9e - 68 countCheck48_X9e <= 47
+-2 count48_X9 + countCheck48_X9s  + countCheck48_X9e  <= 1
+
+X10s + 68 countCheck48_X10s >= 49
+X10e - 68 countCheck48_X10e <= 47
+-2 count48_X10 + countCheck48_X10s  + countCheck48_X10e  <= 1
+
+X11s + 68 countCheck48_X11s >= 49
+X11e - 68 countCheck48_X11e <= 47
+-2 count48_X11 + countCheck48_X11s  + countCheck48_X11e  <= 1
+
+X12s + 68 countCheck48_X12s >= 49
+X12e - 68 countCheck48_X12e <= 47
+-2 count48_X12 + countCheck48_X12s  + countCheck48_X12e  <= 1
+
+X13s + 68 countCheck48_X13s >= 49
+X13e - 68 countCheck48_X13e <= 47
+-2 count48_X13 + countCheck48_X13s  + countCheck48_X13e  <= 1
+
+X14s + 68 countCheck48_X14s >= 49
+X14e - 68 countCheck48_X14e <= 47
+-2 count48_X14 + countCheck48_X14s  + countCheck48_X14e  <= 1
+
+X15s + 68 countCheck48_X15s >= 49
+X15e - 68 countCheck48_X15e <= 47
+-2 count48_X15 + countCheck48_X15s  + countCheck48_X15e  <= 1
+
+X16s + 68 countCheck48_X16s >= 49
+X16e - 68 countCheck48_X16e <= 47
+-2 count48_X16 + countCheck48_X16s  + countCheck48_X16e  <= 1
+
+X17s + 68 countCheck48_X17s >= 49
+X17e - 68 countCheck48_X17e <= 47
+-2 count48_X17 + countCheck48_X17s  + countCheck48_X17e  <= 1
+
+X18s + 68 countCheck48_X18s >= 49
+X18e - 68 countCheck48_X18e <= 47
+-2 count48_X18 + countCheck48_X18s  + countCheck48_X18e  <= 1
+
+X19s + 68 countCheck48_X19s >= 49
+X19e - 68 countCheck48_X19e <= 47
+-2 count48_X19 + countCheck48_X19s  + countCheck48_X19e  <= 1
+
+X20s + 68 countCheck48_X20s >= 49
+X20e - 68 countCheck48_X20e <= 47
+-2 count48_X20 + countCheck48_X20s  + countCheck48_X20e  <= 1
+
+X21s + 68 countCheck48_X21s >= 49
+X21e - 68 countCheck48_X21e <= 47
+-2 count48_X21 + countCheck48_X21s  + countCheck48_X21e  <= 1
+
+X22s + 68 countCheck48_X22s >= 49
+X22e - 68 countCheck48_X22e <= 47
+-2 count48_X22 + countCheck48_X22s  + countCheck48_X22e  <= 1
+
+X23s + 68 countCheck48_X23s >= 49
+X23e - 68 countCheck48_X23e <= 47
+-2 count48_X23 + countCheck48_X23s  + countCheck48_X23e  <= 1
+
+X24s + 68 countCheck48_X24s >= 49
+X24e - 68 countCheck48_X24e <= 47
+-2 count48_X24 + countCheck48_X24s  + countCheck48_X24e  <= 1
+
+X25s + 68 countCheck48_X25s >= 49
+X25e - 68 countCheck48_X25e <= 47
+-2 count48_X25 + countCheck48_X25s  + countCheck48_X25e  <= 1
+
+X26s + 68 countCheck48_X26s >= 49
+X26e - 68 countCheck48_X26e <= 47
+-2 count48_X26 + countCheck48_X26s  + countCheck48_X26e  <= 1
+
+X27s + 68 countCheck48_X27s >= 49
+X27e - 68 countCheck48_X27e <= 47
+-2 count48_X27 + countCheck48_X27s  + countCheck48_X27e  <= 1
+
+X28s + 68 countCheck48_X28s >= 49
+X28e - 68 countCheck48_X28e <= 47
+-2 count48_X28 + countCheck48_X28s  + countCheck48_X28e  <= 1
+
+X29s + 68 countCheck48_X29s >= 49
+X29e - 68 countCheck48_X29e <= 47
+-2 count48_X29 + countCheck48_X29s  + countCheck48_X29e  <= 1
+
+X30s + 68 countCheck48_X30s >= 49
+X30e - 68 countCheck48_X30e <= 47
+-2 count48_X30 + countCheck48_X30s  + countCheck48_X30e  <= 1
+
+X31s + 68 countCheck48_X31s >= 49
+X31e - 68 countCheck48_X31e <= 47
+-2 count48_X31 + countCheck48_X31s  + countCheck48_X31e  <= 1
+
+X32s + 68 countCheck48_X32s >= 49
+X32e - 68 countCheck48_X32e <= 47
+-2 count48_X32 + countCheck48_X32s  + countCheck48_X32e  <= 1
+
+X33s + 68 countCheck48_X33s >= 49
+X33e - 68 countCheck48_X33e <= 47
+-2 count48_X33 + countCheck48_X33s  + countCheck48_X33e  <= 1
+
+X34s + 68 countCheck48_X34s >= 49
+X34e - 68 countCheck48_X34e <= 47
+-2 count48_X34 + countCheck48_X34s  + countCheck48_X34e  <= 1
+
+X35s + 68 countCheck48_X35s >= 49
+X35e - 68 countCheck48_X35e <= 47
+-2 count48_X35 + countCheck48_X35s  + countCheck48_X35e  <= 1
+
+X36s + 68 countCheck48_X36s >= 49
+X36e - 68 countCheck48_X36e <= 47
+-2 count48_X36 + countCheck48_X36s  + countCheck48_X36e  <= 1
+
+X37s + 68 countCheck48_X37s >= 49
+X37e - 68 countCheck48_X37e <= 47
+-2 count48_X37 + countCheck48_X37s  + countCheck48_X37e  <= 1
+
+X38s + 68 countCheck48_X38s >= 49
+X38e - 68 countCheck48_X38e <= 47
+-2 count48_X38 + countCheck48_X38s  + countCheck48_X38e  <= 1
+
+X39s + 68 countCheck48_X39s >= 49
+X39e - 68 countCheck48_X39e <= 47
+-2 count48_X39 + countCheck48_X39s  + countCheck48_X39e  <= 1
+
+X40s + 68 countCheck48_X40s >= 49
+X40e - 68 countCheck48_X40e <= 47
+-2 count48_X40 + countCheck48_X40s  + countCheck48_X40e  <= 1
+
+X41s + 68 countCheck48_X41s >= 49
+X41e - 68 countCheck48_X41e <= 47
+-2 count48_X41 + countCheck48_X41s  + countCheck48_X41e  <= 1
+
+X42s + 68 countCheck48_X42s >= 49
+X42e - 68 countCheck48_X42e <= 47
+-2 count48_X42 + countCheck48_X42s  + countCheck48_X42e  <= 1
+
+X43s + 68 countCheck48_X43s >= 49
+X43e - 68 countCheck48_X43e <= 47
+-2 count48_X43 + countCheck48_X43s  + countCheck48_X43e  <= 1
+
+X44s + 68 countCheck48_X44s >= 49
+X44e - 68 countCheck48_X44e <= 47
+-2 count48_X44 + countCheck48_X44s  + countCheck48_X44e  <= 1
+
+X45s + 68 countCheck48_X45s >= 49
+X45e - 68 countCheck48_X45e <= 47
+-2 count48_X45 + countCheck48_X45s  + countCheck48_X45e  <= 1
+
+X46s + 68 countCheck48_X46s >= 49
+X46e - 68 countCheck48_X46e <= 47
+-2 count48_X46 + countCheck48_X46s  + countCheck48_X46e  <= 1
+
+X47s + 68 countCheck48_X47s >= 49
+X47e - 68 countCheck48_X47e <= 47
+-2 count48_X47 + countCheck48_X47s  + countCheck48_X47e  <= 1
+
+X48s + 68 countCheck48_X48s >= 49
+X48e - 68 countCheck48_X48e <= 47
+-2 count48_X48 + countCheck48_X48s  + countCheck48_X48e  <= 1
+
+X49s + 68 countCheck48_X49s >= 49
+X49e - 68 countCheck48_X49e <= 47
+-2 count48_X49 + countCheck48_X49s  + countCheck48_X49e  <= 1
+
+X50s + 68 countCheck48_X50s >= 49
+X50e - 68 countCheck48_X50e <= 47
+-2 count48_X50 + countCheck48_X50s  + countCheck48_X50e  <= 1
+
+X51s + 68 countCheck48_X51s >= 49
+X51e - 68 countCheck48_X51e <= 47
+-2 count48_X51 + countCheck48_X51s  + countCheck48_X51e  <= 1
+
+X52s + 68 countCheck48_X52s >= 49
+X52e - 68 countCheck48_X52e <= 47
+-2 count48_X52 + countCheck48_X52s  + countCheck48_X52e  <= 1
+
+X53s + 68 countCheck48_X53s >= 49
+X53e - 68 countCheck48_X53e <= 47
+-2 count48_X53 + countCheck48_X53s  + countCheck48_X53e  <= 1
+
+X54s + 68 countCheck48_X54s >= 49
+X54e - 68 countCheck48_X54e <= 47
+-2 count48_X54 + countCheck48_X54s  + countCheck48_X54e  <= 1
+
+X55s + 68 countCheck48_X55s >= 49
+X55e - 68 countCheck48_X55e <= 47
+-2 count48_X55 + countCheck48_X55s  + countCheck48_X55e  <= 1
+
+X56s + 68 countCheck48_X56s >= 49
+X56e - 68 countCheck48_X56e <= 47
+-2 count48_X56 + countCheck48_X56s  + countCheck48_X56e  <= 1
+
+X57s + 68 countCheck48_X57s >= 49
+X57e - 68 countCheck48_X57e <= 47
+-2 count48_X57 + countCheck48_X57s  + countCheck48_X57e  <= 1
+
+X58s + 68 countCheck48_X58s >= 49
+X58e - 68 countCheck48_X58e <= 47
+-2 count48_X58 + countCheck48_X58s  + countCheck48_X58e  <= 1
+
+X59s + 68 countCheck48_X59s >= 49
+X59e - 68 countCheck48_X59e <= 47
+-2 count48_X59 + countCheck48_X59s  + countCheck48_X59e  <= 1
+
+X60s + 68 countCheck48_X60s >= 49
+X60e - 68 countCheck48_X60e <= 47
+-2 count48_X60 + countCheck48_X60s  + countCheck48_X60e  <= 1
+
+X61s + 68 countCheck48_X61s >= 49
+X61e - 68 countCheck48_X61e <= 47
+-2 count48_X61 + countCheck48_X61s  + countCheck48_X61e  <= 1
+
+X62s + 68 countCheck48_X62s >= 49
+X62e - 68 countCheck48_X62e <= 47
+-2 count48_X62 + countCheck48_X62s  + countCheck48_X62e  <= 1
+
+X63s + 68 countCheck48_X63s >= 49
+X63e - 68 countCheck48_X63e <= 47
+-2 count48_X63 + countCheck48_X63s  + countCheck48_X63e  <= 1
+
+X64s + 68 countCheck48_X64s >= 49
+X64e - 68 countCheck48_X64e <= 47
+-2 count48_X64 + countCheck48_X64s  + countCheck48_X64e  <= 1
+
+X65s + 68 countCheck48_X65s >= 49
+X65e - 68 countCheck48_X65e <= 47
+-2 count48_X65 + countCheck48_X65s  + countCheck48_X65e  <= 1
+
+X66s + 68 countCheck48_X66s >= 49
+X66e - 68 countCheck48_X66e <= 47
+-2 count48_X66 + countCheck48_X66s  + countCheck48_X66e  <= 1
+
+X67s + 68 countCheck48_X67s >= 49
+X67e - 68 countCheck48_X67e <= 47
+-2 count48_X67 + countCheck48_X67s  + countCheck48_X67e  <= 1
+
+count48_X0 + count48_X1 + count48_X2 + count48_X3 + count48_X4 + count48_X5 + count48_X6 + count48_X7 + count48_X8 + count48_X9 + count48_X10 + count48_X11 + count48_X12 + count48_X13 + count48_X14 + count48_X15 + count48_X16 + count48_X17 + count48_X18 + count48_X19 + count48_X20 + count48_X21 + count48_X22 + count48_X23 + count48_X24 + count48_X25 + count48_X26 + count48_X27 + count48_X28 + count48_X29 + count48_X30 + count48_X31 + count48_X32 + count48_X33 + count48_X34 + count48_X35 + count48_X36 + count48_X37 + count48_X38 + count48_X39 + count48_X40 + count48_X41 + count48_X42 + count48_X43 + count48_X44 + count48_X45 + count48_X46 + count48_X47 + count48_X48 + count48_X49 + count48_X50 + count48_X51 + count48_X52 + count48_X53 + count48_X54 + count48_X55 + count48_X56 + count48_X57 + count48_X58 + count48_X59 + count48_X60 + count48_X61 + count48_X62 + count48_X63 + count48_X64 + count48_X65 + count48_X66 + count48_X67 - pathWidth <= 1
+X0s + 68 countCheck49_X0s >= 50
+X0e - 68 countCheck49_X0e <= 48
+-2 count49_X0 + countCheck49_X0s  + countCheck49_X0e  <= 1
+
+X1s + 68 countCheck49_X1s >= 50
+X1e - 68 countCheck49_X1e <= 48
+-2 count49_X1 + countCheck49_X1s  + countCheck49_X1e  <= 1
+
+X2s + 68 countCheck49_X2s >= 50
+X2e - 68 countCheck49_X2e <= 48
+-2 count49_X2 + countCheck49_X2s  + countCheck49_X2e  <= 1
+
+X3s + 68 countCheck49_X3s >= 50
+X3e - 68 countCheck49_X3e <= 48
+-2 count49_X3 + countCheck49_X3s  + countCheck49_X3e  <= 1
+
+X4s + 68 countCheck49_X4s >= 50
+X4e - 68 countCheck49_X4e <= 48
+-2 count49_X4 + countCheck49_X4s  + countCheck49_X4e  <= 1
+
+X5s + 68 countCheck49_X5s >= 50
+X5e - 68 countCheck49_X5e <= 48
+-2 count49_X5 + countCheck49_X5s  + countCheck49_X5e  <= 1
+
+X6s + 68 countCheck49_X6s >= 50
+X6e - 68 countCheck49_X6e <= 48
+-2 count49_X6 + countCheck49_X6s  + countCheck49_X6e  <= 1
+
+X7s + 68 countCheck49_X7s >= 50
+X7e - 68 countCheck49_X7e <= 48
+-2 count49_X7 + countCheck49_X7s  + countCheck49_X7e  <= 1
+
+X8s + 68 countCheck49_X8s >= 50
+X8e - 68 countCheck49_X8e <= 48
+-2 count49_X8 + countCheck49_X8s  + countCheck49_X8e  <= 1
+
+X9s + 68 countCheck49_X9s >= 50
+X9e - 68 countCheck49_X9e <= 48
+-2 count49_X9 + countCheck49_X9s  + countCheck49_X9e  <= 1
+
+X10s + 68 countCheck49_X10s >= 50
+X10e - 68 countCheck49_X10e <= 48
+-2 count49_X10 + countCheck49_X10s  + countCheck49_X10e  <= 1
+
+X11s + 68 countCheck49_X11s >= 50
+X11e - 68 countCheck49_X11e <= 48
+-2 count49_X11 + countCheck49_X11s  + countCheck49_X11e  <= 1
+
+X12s + 68 countCheck49_X12s >= 50
+X12e - 68 countCheck49_X12e <= 48
+-2 count49_X12 + countCheck49_X12s  + countCheck49_X12e  <= 1
+
+X13s + 68 countCheck49_X13s >= 50
+X13e - 68 countCheck49_X13e <= 48
+-2 count49_X13 + countCheck49_X13s  + countCheck49_X13e  <= 1
+
+X14s + 68 countCheck49_X14s >= 50
+X14e - 68 countCheck49_X14e <= 48
+-2 count49_X14 + countCheck49_X14s  + countCheck49_X14e  <= 1
+
+X15s + 68 countCheck49_X15s >= 50
+X15e - 68 countCheck49_X15e <= 48
+-2 count49_X15 + countCheck49_X15s  + countCheck49_X15e  <= 1
+
+X16s + 68 countCheck49_X16s >= 50
+X16e - 68 countCheck49_X16e <= 48
+-2 count49_X16 + countCheck49_X16s  + countCheck49_X16e  <= 1
+
+X17s + 68 countCheck49_X17s >= 50
+X17e - 68 countCheck49_X17e <= 48
+-2 count49_X17 + countCheck49_X17s  + countCheck49_X17e  <= 1
+
+X18s + 68 countCheck49_X18s >= 50
+X18e - 68 countCheck49_X18e <= 48
+-2 count49_X18 + countCheck49_X18s  + countCheck49_X18e  <= 1
+
+X19s + 68 countCheck49_X19s >= 50
+X19e - 68 countCheck49_X19e <= 48
+-2 count49_X19 + countCheck49_X19s  + countCheck49_X19e  <= 1
+
+X20s + 68 countCheck49_X20s >= 50
+X20e - 68 countCheck49_X20e <= 48
+-2 count49_X20 + countCheck49_X20s  + countCheck49_X20e  <= 1
+
+X21s + 68 countCheck49_X21s >= 50
+X21e - 68 countCheck49_X21e <= 48
+-2 count49_X21 + countCheck49_X21s  + countCheck49_X21e  <= 1
+
+X22s + 68 countCheck49_X22s >= 50
+X22e - 68 countCheck49_X22e <= 48
+-2 count49_X22 + countCheck49_X22s  + countCheck49_X22e  <= 1
+
+X23s + 68 countCheck49_X23s >= 50
+X23e - 68 countCheck49_X23e <= 48
+-2 count49_X23 + countCheck49_X23s  + countCheck49_X23e  <= 1
+
+X24s + 68 countCheck49_X24s >= 50
+X24e - 68 countCheck49_X24e <= 48
+-2 count49_X24 + countCheck49_X24s  + countCheck49_X24e  <= 1
+
+X25s + 68 countCheck49_X25s >= 50
+X25e - 68 countCheck49_X25e <= 48
+-2 count49_X25 + countCheck49_X25s  + countCheck49_X25e  <= 1
+
+X26s + 68 countCheck49_X26s >= 50
+X26e - 68 countCheck49_X26e <= 48
+-2 count49_X26 + countCheck49_X26s  + countCheck49_X26e  <= 1
+
+X27s + 68 countCheck49_X27s >= 50
+X27e - 68 countCheck49_X27e <= 48
+-2 count49_X27 + countCheck49_X27s  + countCheck49_X27e  <= 1
+
+X28s + 68 countCheck49_X28s >= 50
+X28e - 68 countCheck49_X28e <= 48
+-2 count49_X28 + countCheck49_X28s  + countCheck49_X28e  <= 1
+
+X29s + 68 countCheck49_X29s >= 50
+X29e - 68 countCheck49_X29e <= 48
+-2 count49_X29 + countCheck49_X29s  + countCheck49_X29e  <= 1
+
+X30s + 68 countCheck49_X30s >= 50
+X30e - 68 countCheck49_X30e <= 48
+-2 count49_X30 + countCheck49_X30s  + countCheck49_X30e  <= 1
+
+X31s + 68 countCheck49_X31s >= 50
+X31e - 68 countCheck49_X31e <= 48
+-2 count49_X31 + countCheck49_X31s  + countCheck49_X31e  <= 1
+
+X32s + 68 countCheck49_X32s >= 50
+X32e - 68 countCheck49_X32e <= 48
+-2 count49_X32 + countCheck49_X32s  + countCheck49_X32e  <= 1
+
+X33s + 68 countCheck49_X33s >= 50
+X33e - 68 countCheck49_X33e <= 48
+-2 count49_X33 + countCheck49_X33s  + countCheck49_X33e  <= 1
+
+X34s + 68 countCheck49_X34s >= 50
+X34e - 68 countCheck49_X34e <= 48
+-2 count49_X34 + countCheck49_X34s  + countCheck49_X34e  <= 1
+
+X35s + 68 countCheck49_X35s >= 50
+X35e - 68 countCheck49_X35e <= 48
+-2 count49_X35 + countCheck49_X35s  + countCheck49_X35e  <= 1
+
+X36s + 68 countCheck49_X36s >= 50
+X36e - 68 countCheck49_X36e <= 48
+-2 count49_X36 + countCheck49_X36s  + countCheck49_X36e  <= 1
+
+X37s + 68 countCheck49_X37s >= 50
+X37e - 68 countCheck49_X37e <= 48
+-2 count49_X37 + countCheck49_X37s  + countCheck49_X37e  <= 1
+
+X38s + 68 countCheck49_X38s >= 50
+X38e - 68 countCheck49_X38e <= 48
+-2 count49_X38 + countCheck49_X38s  + countCheck49_X38e  <= 1
+
+X39s + 68 countCheck49_X39s >= 50
+X39e - 68 countCheck49_X39e <= 48
+-2 count49_X39 + countCheck49_X39s  + countCheck49_X39e  <= 1
+
+X40s + 68 countCheck49_X40s >= 50
+X40e - 68 countCheck49_X40e <= 48
+-2 count49_X40 + countCheck49_X40s  + countCheck49_X40e  <= 1
+
+X41s + 68 countCheck49_X41s >= 50
+X41e - 68 countCheck49_X41e <= 48
+-2 count49_X41 + countCheck49_X41s  + countCheck49_X41e  <= 1
+
+X42s + 68 countCheck49_X42s >= 50
+X42e - 68 countCheck49_X42e <= 48
+-2 count49_X42 + countCheck49_X42s  + countCheck49_X42e  <= 1
+
+X43s + 68 countCheck49_X43s >= 50
+X43e - 68 countCheck49_X43e <= 48
+-2 count49_X43 + countCheck49_X43s  + countCheck49_X43e  <= 1
+
+X44s + 68 countCheck49_X44s >= 50
+X44e - 68 countCheck49_X44e <= 48
+-2 count49_X44 + countCheck49_X44s  + countCheck49_X44e  <= 1
+
+X45s + 68 countCheck49_X45s >= 50
+X45e - 68 countCheck49_X45e <= 48
+-2 count49_X45 + countCheck49_X45s  + countCheck49_X45e  <= 1
+
+X46s + 68 countCheck49_X46s >= 50
+X46e - 68 countCheck49_X46e <= 48
+-2 count49_X46 + countCheck49_X46s  + countCheck49_X46e  <= 1
+
+X47s + 68 countCheck49_X47s >= 50
+X47e - 68 countCheck49_X47e <= 48
+-2 count49_X47 + countCheck49_X47s  + countCheck49_X47e  <= 1
+
+X48s + 68 countCheck49_X48s >= 50
+X48e - 68 countCheck49_X48e <= 48
+-2 count49_X48 + countCheck49_X48s  + countCheck49_X48e  <= 1
+
+X49s + 68 countCheck49_X49s >= 50
+X49e - 68 countCheck49_X49e <= 48
+-2 count49_X49 + countCheck49_X49s  + countCheck49_X49e  <= 1
+
+X50s + 68 countCheck49_X50s >= 50
+X50e - 68 countCheck49_X50e <= 48
+-2 count49_X50 + countCheck49_X50s  + countCheck49_X50e  <= 1
+
+X51s + 68 countCheck49_X51s >= 50
+X51e - 68 countCheck49_X51e <= 48
+-2 count49_X51 + countCheck49_X51s  + countCheck49_X51e  <= 1
+
+X52s + 68 countCheck49_X52s >= 50
+X52e - 68 countCheck49_X52e <= 48
+-2 count49_X52 + countCheck49_X52s  + countCheck49_X52e  <= 1
+
+X53s + 68 countCheck49_X53s >= 50
+X53e - 68 countCheck49_X53e <= 48
+-2 count49_X53 + countCheck49_X53s  + countCheck49_X53e  <= 1
+
+X54s + 68 countCheck49_X54s >= 50
+X54e - 68 countCheck49_X54e <= 48
+-2 count49_X54 + countCheck49_X54s  + countCheck49_X54e  <= 1
+
+X55s + 68 countCheck49_X55s >= 50
+X55e - 68 countCheck49_X55e <= 48
+-2 count49_X55 + countCheck49_X55s  + countCheck49_X55e  <= 1
+
+X56s + 68 countCheck49_X56s >= 50
+X56e - 68 countCheck49_X56e <= 48
+-2 count49_X56 + countCheck49_X56s  + countCheck49_X56e  <= 1
+
+X57s + 68 countCheck49_X57s >= 50
+X57e - 68 countCheck49_X57e <= 48
+-2 count49_X57 + countCheck49_X57s  + countCheck49_X57e  <= 1
+
+X58s + 68 countCheck49_X58s >= 50
+X58e - 68 countCheck49_X58e <= 48
+-2 count49_X58 + countCheck49_X58s  + countCheck49_X58e  <= 1
+
+X59s + 68 countCheck49_X59s >= 50
+X59e - 68 countCheck49_X59e <= 48
+-2 count49_X59 + countCheck49_X59s  + countCheck49_X59e  <= 1
+
+X60s + 68 countCheck49_X60s >= 50
+X60e - 68 countCheck49_X60e <= 48
+-2 count49_X60 + countCheck49_X60s  + countCheck49_X60e  <= 1
+
+X61s + 68 countCheck49_X61s >= 50
+X61e - 68 countCheck49_X61e <= 48
+-2 count49_X61 + countCheck49_X61s  + countCheck49_X61e  <= 1
+
+X62s + 68 countCheck49_X62s >= 50
+X62e - 68 countCheck49_X62e <= 48
+-2 count49_X62 + countCheck49_X62s  + countCheck49_X62e  <= 1
+
+X63s + 68 countCheck49_X63s >= 50
+X63e - 68 countCheck49_X63e <= 48
+-2 count49_X63 + countCheck49_X63s  + countCheck49_X63e  <= 1
+
+X64s + 68 countCheck49_X64s >= 50
+X64e - 68 countCheck49_X64e <= 48
+-2 count49_X64 + countCheck49_X64s  + countCheck49_X64e  <= 1
+
+X65s + 68 countCheck49_X65s >= 50
+X65e - 68 countCheck49_X65e <= 48
+-2 count49_X65 + countCheck49_X65s  + countCheck49_X65e  <= 1
+
+X66s + 68 countCheck49_X66s >= 50
+X66e - 68 countCheck49_X66e <= 48
+-2 count49_X66 + countCheck49_X66s  + countCheck49_X66e  <= 1
+
+X67s + 68 countCheck49_X67s >= 50
+X67e - 68 countCheck49_X67e <= 48
+-2 count49_X67 + countCheck49_X67s  + countCheck49_X67e  <= 1
+
+count49_X0 + count49_X1 + count49_X2 + count49_X3 + count49_X4 + count49_X5 + count49_X6 + count49_X7 + count49_X8 + count49_X9 + count49_X10 + count49_X11 + count49_X12 + count49_X13 + count49_X14 + count49_X15 + count49_X16 + count49_X17 + count49_X18 + count49_X19 + count49_X20 + count49_X21 + count49_X22 + count49_X23 + count49_X24 + count49_X25 + count49_X26 + count49_X27 + count49_X28 + count49_X29 + count49_X30 + count49_X31 + count49_X32 + count49_X33 + count49_X34 + count49_X35 + count49_X36 + count49_X37 + count49_X38 + count49_X39 + count49_X40 + count49_X41 + count49_X42 + count49_X43 + count49_X44 + count49_X45 + count49_X46 + count49_X47 + count49_X48 + count49_X49 + count49_X50 + count49_X51 + count49_X52 + count49_X53 + count49_X54 + count49_X55 + count49_X56 + count49_X57 + count49_X58 + count49_X59 + count49_X60 + count49_X61 + count49_X62 + count49_X63 + count49_X64 + count49_X65 + count49_X66 + count49_X67 - pathWidth <= 1
+X0s + 68 countCheck50_X0s >= 51
+X0e - 68 countCheck50_X0e <= 49
+-2 count50_X0 + countCheck50_X0s  + countCheck50_X0e  <= 1
+
+X1s + 68 countCheck50_X1s >= 51
+X1e - 68 countCheck50_X1e <= 49
+-2 count50_X1 + countCheck50_X1s  + countCheck50_X1e  <= 1
+
+X2s + 68 countCheck50_X2s >= 51
+X2e - 68 countCheck50_X2e <= 49
+-2 count50_X2 + countCheck50_X2s  + countCheck50_X2e  <= 1
+
+X3s + 68 countCheck50_X3s >= 51
+X3e - 68 countCheck50_X3e <= 49
+-2 count50_X3 + countCheck50_X3s  + countCheck50_X3e  <= 1
+
+X4s + 68 countCheck50_X4s >= 51
+X4e - 68 countCheck50_X4e <= 49
+-2 count50_X4 + countCheck50_X4s  + countCheck50_X4e  <= 1
+
+X5s + 68 countCheck50_X5s >= 51
+X5e - 68 countCheck50_X5e <= 49
+-2 count50_X5 + countCheck50_X5s  + countCheck50_X5e  <= 1
+
+X6s + 68 countCheck50_X6s >= 51
+X6e - 68 countCheck50_X6e <= 49
+-2 count50_X6 + countCheck50_X6s  + countCheck50_X6e  <= 1
+
+X7s + 68 countCheck50_X7s >= 51
+X7e - 68 countCheck50_X7e <= 49
+-2 count50_X7 + countCheck50_X7s  + countCheck50_X7e  <= 1
+
+X8s + 68 countCheck50_X8s >= 51
+X8e - 68 countCheck50_X8e <= 49
+-2 count50_X8 + countCheck50_X8s  + countCheck50_X8e  <= 1
+
+X9s + 68 countCheck50_X9s >= 51
+X9e - 68 countCheck50_X9e <= 49
+-2 count50_X9 + countCheck50_X9s  + countCheck50_X9e  <= 1
+
+X10s + 68 countCheck50_X10s >= 51
+X10e - 68 countCheck50_X10e <= 49
+-2 count50_X10 + countCheck50_X10s  + countCheck50_X10e  <= 1
+
+X11s + 68 countCheck50_X11s >= 51
+X11e - 68 countCheck50_X11e <= 49
+-2 count50_X11 + countCheck50_X11s  + countCheck50_X11e  <= 1
+
+X12s + 68 countCheck50_X12s >= 51
+X12e - 68 countCheck50_X12e <= 49
+-2 count50_X12 + countCheck50_X12s  + countCheck50_X12e  <= 1
+
+X13s + 68 countCheck50_X13s >= 51
+X13e - 68 countCheck50_X13e <= 49
+-2 count50_X13 + countCheck50_X13s  + countCheck50_X13e  <= 1
+
+X14s + 68 countCheck50_X14s >= 51
+X14e - 68 countCheck50_X14e <= 49
+-2 count50_X14 + countCheck50_X14s  + countCheck50_X14e  <= 1
+
+X15s + 68 countCheck50_X15s >= 51
+X15e - 68 countCheck50_X15e <= 49
+-2 count50_X15 + countCheck50_X15s  + countCheck50_X15e  <= 1
+
+X16s + 68 countCheck50_X16s >= 51
+X16e - 68 countCheck50_X16e <= 49
+-2 count50_X16 + countCheck50_X16s  + countCheck50_X16e  <= 1
+
+X17s + 68 countCheck50_X17s >= 51
+X17e - 68 countCheck50_X17e <= 49
+-2 count50_X17 + countCheck50_X17s  + countCheck50_X17e  <= 1
+
+X18s + 68 countCheck50_X18s >= 51
+X18e - 68 countCheck50_X18e <= 49
+-2 count50_X18 + countCheck50_X18s  + countCheck50_X18e  <= 1
+
+X19s + 68 countCheck50_X19s >= 51
+X19e - 68 countCheck50_X19e <= 49
+-2 count50_X19 + countCheck50_X19s  + countCheck50_X19e  <= 1
+
+X20s + 68 countCheck50_X20s >= 51
+X20e - 68 countCheck50_X20e <= 49
+-2 count50_X20 + countCheck50_X20s  + countCheck50_X20e  <= 1
+
+X21s + 68 countCheck50_X21s >= 51
+X21e - 68 countCheck50_X21e <= 49
+-2 count50_X21 + countCheck50_X21s  + countCheck50_X21e  <= 1
+
+X22s + 68 countCheck50_X22s >= 51
+X22e - 68 countCheck50_X22e <= 49
+-2 count50_X22 + countCheck50_X22s  + countCheck50_X22e  <= 1
+
+X23s + 68 countCheck50_X23s >= 51
+X23e - 68 countCheck50_X23e <= 49
+-2 count50_X23 + countCheck50_X23s  + countCheck50_X23e  <= 1
+
+X24s + 68 countCheck50_X24s >= 51
+X24e - 68 countCheck50_X24e <= 49
+-2 count50_X24 + countCheck50_X24s  + countCheck50_X24e  <= 1
+
+X25s + 68 countCheck50_X25s >= 51
+X25e - 68 countCheck50_X25e <= 49
+-2 count50_X25 + countCheck50_X25s  + countCheck50_X25e  <= 1
+
+X26s + 68 countCheck50_X26s >= 51
+X26e - 68 countCheck50_X26e <= 49
+-2 count50_X26 + countCheck50_X26s  + countCheck50_X26e  <= 1
+
+X27s + 68 countCheck50_X27s >= 51
+X27e - 68 countCheck50_X27e <= 49
+-2 count50_X27 + countCheck50_X27s  + countCheck50_X27e  <= 1
+
+X28s + 68 countCheck50_X28s >= 51
+X28e - 68 countCheck50_X28e <= 49
+-2 count50_X28 + countCheck50_X28s  + countCheck50_X28e  <= 1
+
+X29s + 68 countCheck50_X29s >= 51
+X29e - 68 countCheck50_X29e <= 49
+-2 count50_X29 + countCheck50_X29s  + countCheck50_X29e  <= 1
+
+X30s + 68 countCheck50_X30s >= 51
+X30e - 68 countCheck50_X30e <= 49
+-2 count50_X30 + countCheck50_X30s  + countCheck50_X30e  <= 1
+
+X31s + 68 countCheck50_X31s >= 51
+X31e - 68 countCheck50_X31e <= 49
+-2 count50_X31 + countCheck50_X31s  + countCheck50_X31e  <= 1
+
+X32s + 68 countCheck50_X32s >= 51
+X32e - 68 countCheck50_X32e <= 49
+-2 count50_X32 + countCheck50_X32s  + countCheck50_X32e  <= 1
+
+X33s + 68 countCheck50_X33s >= 51
+X33e - 68 countCheck50_X33e <= 49
+-2 count50_X33 + countCheck50_X33s  + countCheck50_X33e  <= 1
+
+X34s + 68 countCheck50_X34s >= 51
+X34e - 68 countCheck50_X34e <= 49
+-2 count50_X34 + countCheck50_X34s  + countCheck50_X34e  <= 1
+
+X35s + 68 countCheck50_X35s >= 51
+X35e - 68 countCheck50_X35e <= 49
+-2 count50_X35 + countCheck50_X35s  + countCheck50_X35e  <= 1
+
+X36s + 68 countCheck50_X36s >= 51
+X36e - 68 countCheck50_X36e <= 49
+-2 count50_X36 + countCheck50_X36s  + countCheck50_X36e  <= 1
+
+X37s + 68 countCheck50_X37s >= 51
+X37e - 68 countCheck50_X37e <= 49
+-2 count50_X37 + countCheck50_X37s  + countCheck50_X37e  <= 1
+
+X38s + 68 countCheck50_X38s >= 51
+X38e - 68 countCheck50_X38e <= 49
+-2 count50_X38 + countCheck50_X38s  + countCheck50_X38e  <= 1
+
+X39s + 68 countCheck50_X39s >= 51
+X39e - 68 countCheck50_X39e <= 49
+-2 count50_X39 + countCheck50_X39s  + countCheck50_X39e  <= 1
+
+X40s + 68 countCheck50_X40s >= 51
+X40e - 68 countCheck50_X40e <= 49
+-2 count50_X40 + countCheck50_X40s  + countCheck50_X40e  <= 1
+
+X41s + 68 countCheck50_X41s >= 51
+X41e - 68 countCheck50_X41e <= 49
+-2 count50_X41 + countCheck50_X41s  + countCheck50_X41e  <= 1
+
+X42s + 68 countCheck50_X42s >= 51
+X42e - 68 countCheck50_X42e <= 49
+-2 count50_X42 + countCheck50_X42s  + countCheck50_X42e  <= 1
+
+X43s + 68 countCheck50_X43s >= 51
+X43e - 68 countCheck50_X43e <= 49
+-2 count50_X43 + countCheck50_X43s  + countCheck50_X43e  <= 1
+
+X44s + 68 countCheck50_X44s >= 51
+X44e - 68 countCheck50_X44e <= 49
+-2 count50_X44 + countCheck50_X44s  + countCheck50_X44e  <= 1
+
+X45s + 68 countCheck50_X45s >= 51
+X45e - 68 countCheck50_X45e <= 49
+-2 count50_X45 + countCheck50_X45s  + countCheck50_X45e  <= 1
+
+X46s + 68 countCheck50_X46s >= 51
+X46e - 68 countCheck50_X46e <= 49
+-2 count50_X46 + countCheck50_X46s  + countCheck50_X46e  <= 1
+
+X47s + 68 countCheck50_X47s >= 51
+X47e - 68 countCheck50_X47e <= 49
+-2 count50_X47 + countCheck50_X47s  + countCheck50_X47e  <= 1
+
+X48s + 68 countCheck50_X48s >= 51
+X48e - 68 countCheck50_X48e <= 49
+-2 count50_X48 + countCheck50_X48s  + countCheck50_X48e  <= 1
+
+X49s + 68 countCheck50_X49s >= 51
+X49e - 68 countCheck50_X49e <= 49
+-2 count50_X49 + countCheck50_X49s  + countCheck50_X49e  <= 1
+
+X50s + 68 countCheck50_X50s >= 51
+X50e - 68 countCheck50_X50e <= 49
+-2 count50_X50 + countCheck50_X50s  + countCheck50_X50e  <= 1
+
+X51s + 68 countCheck50_X51s >= 51
+X51e - 68 countCheck50_X51e <= 49
+-2 count50_X51 + countCheck50_X51s  + countCheck50_X51e  <= 1
+
+X52s + 68 countCheck50_X52s >= 51
+X52e - 68 countCheck50_X52e <= 49
+-2 count50_X52 + countCheck50_X52s  + countCheck50_X52e  <= 1
+
+X53s + 68 countCheck50_X53s >= 51
+X53e - 68 countCheck50_X53e <= 49
+-2 count50_X53 + countCheck50_X53s  + countCheck50_X53e  <= 1
+
+X54s + 68 countCheck50_X54s >= 51
+X54e - 68 countCheck50_X54e <= 49
+-2 count50_X54 + countCheck50_X54s  + countCheck50_X54e  <= 1
+
+X55s + 68 countCheck50_X55s >= 51
+X55e - 68 countCheck50_X55e <= 49
+-2 count50_X55 + countCheck50_X55s  + countCheck50_X55e  <= 1
+
+X56s + 68 countCheck50_X56s >= 51
+X56e - 68 countCheck50_X56e <= 49
+-2 count50_X56 + countCheck50_X56s  + countCheck50_X56e  <= 1
+
+X57s + 68 countCheck50_X57s >= 51
+X57e - 68 countCheck50_X57e <= 49
+-2 count50_X57 + countCheck50_X57s  + countCheck50_X57e  <= 1
+
+X58s + 68 countCheck50_X58s >= 51
+X58e - 68 countCheck50_X58e <= 49
+-2 count50_X58 + countCheck50_X58s  + countCheck50_X58e  <= 1
+
+X59s + 68 countCheck50_X59s >= 51
+X59e - 68 countCheck50_X59e <= 49
+-2 count50_X59 + countCheck50_X59s  + countCheck50_X59e  <= 1
+
+X60s + 68 countCheck50_X60s >= 51
+X60e - 68 countCheck50_X60e <= 49
+-2 count50_X60 + countCheck50_X60s  + countCheck50_X60e  <= 1
+
+X61s + 68 countCheck50_X61s >= 51
+X61e - 68 countCheck50_X61e <= 49
+-2 count50_X61 + countCheck50_X61s  + countCheck50_X61e  <= 1
+
+X62s + 68 countCheck50_X62s >= 51
+X62e - 68 countCheck50_X62e <= 49
+-2 count50_X62 + countCheck50_X62s  + countCheck50_X62e  <= 1
+
+X63s + 68 countCheck50_X63s >= 51
+X63e - 68 countCheck50_X63e <= 49
+-2 count50_X63 + countCheck50_X63s  + countCheck50_X63e  <= 1
+
+X64s + 68 countCheck50_X64s >= 51
+X64e - 68 countCheck50_X64e <= 49
+-2 count50_X64 + countCheck50_X64s  + countCheck50_X64e  <= 1
+
+X65s + 68 countCheck50_X65s >= 51
+X65e - 68 countCheck50_X65e <= 49
+-2 count50_X65 + countCheck50_X65s  + countCheck50_X65e  <= 1
+
+X66s + 68 countCheck50_X66s >= 51
+X66e - 68 countCheck50_X66e <= 49
+-2 count50_X66 + countCheck50_X66s  + countCheck50_X66e  <= 1
+
+X67s + 68 countCheck50_X67s >= 51
+X67e - 68 countCheck50_X67e <= 49
+-2 count50_X67 + countCheck50_X67s  + countCheck50_X67e  <= 1
+
+count50_X0 + count50_X1 + count50_X2 + count50_X3 + count50_X4 + count50_X5 + count50_X6 + count50_X7 + count50_X8 + count50_X9 + count50_X10 + count50_X11 + count50_X12 + count50_X13 + count50_X14 + count50_X15 + count50_X16 + count50_X17 + count50_X18 + count50_X19 + count50_X20 + count50_X21 + count50_X22 + count50_X23 + count50_X24 + count50_X25 + count50_X26 + count50_X27 + count50_X28 + count50_X29 + count50_X30 + count50_X31 + count50_X32 + count50_X33 + count50_X34 + count50_X35 + count50_X36 + count50_X37 + count50_X38 + count50_X39 + count50_X40 + count50_X41 + count50_X42 + count50_X43 + count50_X44 + count50_X45 + count50_X46 + count50_X47 + count50_X48 + count50_X49 + count50_X50 + count50_X51 + count50_X52 + count50_X53 + count50_X54 + count50_X55 + count50_X56 + count50_X57 + count50_X58 + count50_X59 + count50_X60 + count50_X61 + count50_X62 + count50_X63 + count50_X64 + count50_X65 + count50_X66 + count50_X67 - pathWidth <= 1
+X0s + 68 countCheck51_X0s >= 52
+X0e - 68 countCheck51_X0e <= 50
+-2 count51_X0 + countCheck51_X0s  + countCheck51_X0e  <= 1
+
+X1s + 68 countCheck51_X1s >= 52
+X1e - 68 countCheck51_X1e <= 50
+-2 count51_X1 + countCheck51_X1s  + countCheck51_X1e  <= 1
+
+X2s + 68 countCheck51_X2s >= 52
+X2e - 68 countCheck51_X2e <= 50
+-2 count51_X2 + countCheck51_X2s  + countCheck51_X2e  <= 1
+
+X3s + 68 countCheck51_X3s >= 52
+X3e - 68 countCheck51_X3e <= 50
+-2 count51_X3 + countCheck51_X3s  + countCheck51_X3e  <= 1
+
+X4s + 68 countCheck51_X4s >= 52
+X4e - 68 countCheck51_X4e <= 50
+-2 count51_X4 + countCheck51_X4s  + countCheck51_X4e  <= 1
+
+X5s + 68 countCheck51_X5s >= 52
+X5e - 68 countCheck51_X5e <= 50
+-2 count51_X5 + countCheck51_X5s  + countCheck51_X5e  <= 1
+
+X6s + 68 countCheck51_X6s >= 52
+X6e - 68 countCheck51_X6e <= 50
+-2 count51_X6 + countCheck51_X6s  + countCheck51_X6e  <= 1
+
+X7s + 68 countCheck51_X7s >= 52
+X7e - 68 countCheck51_X7e <= 50
+-2 count51_X7 + countCheck51_X7s  + countCheck51_X7e  <= 1
+
+X8s + 68 countCheck51_X8s >= 52
+X8e - 68 countCheck51_X8e <= 50
+-2 count51_X8 + countCheck51_X8s  + countCheck51_X8e  <= 1
+
+X9s + 68 countCheck51_X9s >= 52
+X9e - 68 countCheck51_X9e <= 50
+-2 count51_X9 + countCheck51_X9s  + countCheck51_X9e  <= 1
+
+X10s + 68 countCheck51_X10s >= 52
+X10e - 68 countCheck51_X10e <= 50
+-2 count51_X10 + countCheck51_X10s  + countCheck51_X10e  <= 1
+
+X11s + 68 countCheck51_X11s >= 52
+X11e - 68 countCheck51_X11e <= 50
+-2 count51_X11 + countCheck51_X11s  + countCheck51_X11e  <= 1
+
+X12s + 68 countCheck51_X12s >= 52
+X12e - 68 countCheck51_X12e <= 50
+-2 count51_X12 + countCheck51_X12s  + countCheck51_X12e  <= 1
+
+X13s + 68 countCheck51_X13s >= 52
+X13e - 68 countCheck51_X13e <= 50
+-2 count51_X13 + countCheck51_X13s  + countCheck51_X13e  <= 1
+
+X14s + 68 countCheck51_X14s >= 52
+X14e - 68 countCheck51_X14e <= 50
+-2 count51_X14 + countCheck51_X14s  + countCheck51_X14e  <= 1
+
+X15s + 68 countCheck51_X15s >= 52
+X15e - 68 countCheck51_X15e <= 50
+-2 count51_X15 + countCheck51_X15s  + countCheck51_X15e  <= 1
+
+X16s + 68 countCheck51_X16s >= 52
+X16e - 68 countCheck51_X16e <= 50
+-2 count51_X16 + countCheck51_X16s  + countCheck51_X16e  <= 1
+
+X17s + 68 countCheck51_X17s >= 52
+X17e - 68 countCheck51_X17e <= 50
+-2 count51_X17 + countCheck51_X17s  + countCheck51_X17e  <= 1
+
+X18s + 68 countCheck51_X18s >= 52
+X18e - 68 countCheck51_X18e <= 50
+-2 count51_X18 + countCheck51_X18s  + countCheck51_X18e  <= 1
+
+X19s + 68 countCheck51_X19s >= 52
+X19e - 68 countCheck51_X19e <= 50
+-2 count51_X19 + countCheck51_X19s  + countCheck51_X19e  <= 1
+
+X20s + 68 countCheck51_X20s >= 52
+X20e - 68 countCheck51_X20e <= 50
+-2 count51_X20 + countCheck51_X20s  + countCheck51_X20e  <= 1
+
+X21s + 68 countCheck51_X21s >= 52
+X21e - 68 countCheck51_X21e <= 50
+-2 count51_X21 + countCheck51_X21s  + countCheck51_X21e  <= 1
+
+X22s + 68 countCheck51_X22s >= 52
+X22e - 68 countCheck51_X22e <= 50
+-2 count51_X22 + countCheck51_X22s  + countCheck51_X22e  <= 1
+
+X23s + 68 countCheck51_X23s >= 52
+X23e - 68 countCheck51_X23e <= 50
+-2 count51_X23 + countCheck51_X23s  + countCheck51_X23e  <= 1
+
+X24s + 68 countCheck51_X24s >= 52
+X24e - 68 countCheck51_X24e <= 50
+-2 count51_X24 + countCheck51_X24s  + countCheck51_X24e  <= 1
+
+X25s + 68 countCheck51_X25s >= 52
+X25e - 68 countCheck51_X25e <= 50
+-2 count51_X25 + countCheck51_X25s  + countCheck51_X25e  <= 1
+
+X26s + 68 countCheck51_X26s >= 52
+X26e - 68 countCheck51_X26e <= 50
+-2 count51_X26 + countCheck51_X26s  + countCheck51_X26e  <= 1
+
+X27s + 68 countCheck51_X27s >= 52
+X27e - 68 countCheck51_X27e <= 50
+-2 count51_X27 + countCheck51_X27s  + countCheck51_X27e  <= 1
+
+X28s + 68 countCheck51_X28s >= 52
+X28e - 68 countCheck51_X28e <= 50
+-2 count51_X28 + countCheck51_X28s  + countCheck51_X28e  <= 1
+
+X29s + 68 countCheck51_X29s >= 52
+X29e - 68 countCheck51_X29e <= 50
+-2 count51_X29 + countCheck51_X29s  + countCheck51_X29e  <= 1
+
+X30s + 68 countCheck51_X30s >= 52
+X30e - 68 countCheck51_X30e <= 50
+-2 count51_X30 + countCheck51_X30s  + countCheck51_X30e  <= 1
+
+X31s + 68 countCheck51_X31s >= 52
+X31e - 68 countCheck51_X31e <= 50
+-2 count51_X31 + countCheck51_X31s  + countCheck51_X31e  <= 1
+
+X32s + 68 countCheck51_X32s >= 52
+X32e - 68 countCheck51_X32e <= 50
+-2 count51_X32 + countCheck51_X32s  + countCheck51_X32e  <= 1
+
+X33s + 68 countCheck51_X33s >= 52
+X33e - 68 countCheck51_X33e <= 50
+-2 count51_X33 + countCheck51_X33s  + countCheck51_X33e  <= 1
+
+X34s + 68 countCheck51_X34s >= 52
+X34e - 68 countCheck51_X34e <= 50
+-2 count51_X34 + countCheck51_X34s  + countCheck51_X34e  <= 1
+
+X35s + 68 countCheck51_X35s >= 52
+X35e - 68 countCheck51_X35e <= 50
+-2 count51_X35 + countCheck51_X35s  + countCheck51_X35e  <= 1
+
+X36s + 68 countCheck51_X36s >= 52
+X36e - 68 countCheck51_X36e <= 50
+-2 count51_X36 + countCheck51_X36s  + countCheck51_X36e  <= 1
+
+X37s + 68 countCheck51_X37s >= 52
+X37e - 68 countCheck51_X37e <= 50
+-2 count51_X37 + countCheck51_X37s  + countCheck51_X37e  <= 1
+
+X38s + 68 countCheck51_X38s >= 52
+X38e - 68 countCheck51_X38e <= 50
+-2 count51_X38 + countCheck51_X38s  + countCheck51_X38e  <= 1
+
+X39s + 68 countCheck51_X39s >= 52
+X39e - 68 countCheck51_X39e <= 50
+-2 count51_X39 + countCheck51_X39s  + countCheck51_X39e  <= 1
+
+X40s + 68 countCheck51_X40s >= 52
+X40e - 68 countCheck51_X40e <= 50
+-2 count51_X40 + countCheck51_X40s  + countCheck51_X40e  <= 1
+
+X41s + 68 countCheck51_X41s >= 52
+X41e - 68 countCheck51_X41e <= 50
+-2 count51_X41 + countCheck51_X41s  + countCheck51_X41e  <= 1
+
+X42s + 68 countCheck51_X42s >= 52
+X42e - 68 countCheck51_X42e <= 50
+-2 count51_X42 + countCheck51_X42s  + countCheck51_X42e  <= 1
+
+X43s + 68 countCheck51_X43s >= 52
+X43e - 68 countCheck51_X43e <= 50
+-2 count51_X43 + countCheck51_X43s  + countCheck51_X43e  <= 1
+
+X44s + 68 countCheck51_X44s >= 52
+X44e - 68 countCheck51_X44e <= 50
+-2 count51_X44 + countCheck51_X44s  + countCheck51_X44e  <= 1
+
+X45s + 68 countCheck51_X45s >= 52
+X45e - 68 countCheck51_X45e <= 50
+-2 count51_X45 + countCheck51_X45s  + countCheck51_X45e  <= 1
+
+X46s + 68 countCheck51_X46s >= 52
+X46e - 68 countCheck51_X46e <= 50
+-2 count51_X46 + countCheck51_X46s  + countCheck51_X46e  <= 1
+
+X47s + 68 countCheck51_X47s >= 52
+X47e - 68 countCheck51_X47e <= 50
+-2 count51_X47 + countCheck51_X47s  + countCheck51_X47e  <= 1
+
+X48s + 68 countCheck51_X48s >= 52
+X48e - 68 countCheck51_X48e <= 50
+-2 count51_X48 + countCheck51_X48s  + countCheck51_X48e  <= 1
+
+X49s + 68 countCheck51_X49s >= 52
+X49e - 68 countCheck51_X49e <= 50
+-2 count51_X49 + countCheck51_X49s  + countCheck51_X49e  <= 1
+
+X50s + 68 countCheck51_X50s >= 52
+X50e - 68 countCheck51_X50e <= 50
+-2 count51_X50 + countCheck51_X50s  + countCheck51_X50e  <= 1
+
+X51s + 68 countCheck51_X51s >= 52
+X51e - 68 countCheck51_X51e <= 50
+-2 count51_X51 + countCheck51_X51s  + countCheck51_X51e  <= 1
+
+X52s + 68 countCheck51_X52s >= 52
+X52e - 68 countCheck51_X52e <= 50
+-2 count51_X52 + countCheck51_X52s  + countCheck51_X52e  <= 1
+
+X53s + 68 countCheck51_X53s >= 52
+X53e - 68 countCheck51_X53e <= 50
+-2 count51_X53 + countCheck51_X53s  + countCheck51_X53e  <= 1
+
+X54s + 68 countCheck51_X54s >= 52
+X54e - 68 countCheck51_X54e <= 50
+-2 count51_X54 + countCheck51_X54s  + countCheck51_X54e  <= 1
+
+X55s + 68 countCheck51_X55s >= 52
+X55e - 68 countCheck51_X55e <= 50
+-2 count51_X55 + countCheck51_X55s  + countCheck51_X55e  <= 1
+
+X56s + 68 countCheck51_X56s >= 52
+X56e - 68 countCheck51_X56e <= 50
+-2 count51_X56 + countCheck51_X56s  + countCheck51_X56e  <= 1
+
+X57s + 68 countCheck51_X57s >= 52
+X57e - 68 countCheck51_X57e <= 50
+-2 count51_X57 + countCheck51_X57s  + countCheck51_X57e  <= 1
+
+X58s + 68 countCheck51_X58s >= 52
+X58e - 68 countCheck51_X58e <= 50
+-2 count51_X58 + countCheck51_X58s  + countCheck51_X58e  <= 1
+
+X59s + 68 countCheck51_X59s >= 52
+X59e - 68 countCheck51_X59e <= 50
+-2 count51_X59 + countCheck51_X59s  + countCheck51_X59e  <= 1
+
+X60s + 68 countCheck51_X60s >= 52
+X60e - 68 countCheck51_X60e <= 50
+-2 count51_X60 + countCheck51_X60s  + countCheck51_X60e  <= 1
+
+X61s + 68 countCheck51_X61s >= 52
+X61e - 68 countCheck51_X61e <= 50
+-2 count51_X61 + countCheck51_X61s  + countCheck51_X61e  <= 1
+
+X62s + 68 countCheck51_X62s >= 52
+X62e - 68 countCheck51_X62e <= 50
+-2 count51_X62 + countCheck51_X62s  + countCheck51_X62e  <= 1
+
+X63s + 68 countCheck51_X63s >= 52
+X63e - 68 countCheck51_X63e <= 50
+-2 count51_X63 + countCheck51_X63s  + countCheck51_X63e  <= 1
+
+X64s + 68 countCheck51_X64s >= 52
+X64e - 68 countCheck51_X64e <= 50
+-2 count51_X64 + countCheck51_X64s  + countCheck51_X64e  <= 1
+
+X65s + 68 countCheck51_X65s >= 52
+X65e - 68 countCheck51_X65e <= 50
+-2 count51_X65 + countCheck51_X65s  + countCheck51_X65e  <= 1
+
+X66s + 68 countCheck51_X66s >= 52
+X66e - 68 countCheck51_X66e <= 50
+-2 count51_X66 + countCheck51_X66s  + countCheck51_X66e  <= 1
+
+X67s + 68 countCheck51_X67s >= 52
+X67e - 68 countCheck51_X67e <= 50
+-2 count51_X67 + countCheck51_X67s  + countCheck51_X67e  <= 1
+
+count51_X0 + count51_X1 + count51_X2 + count51_X3 + count51_X4 + count51_X5 + count51_X6 + count51_X7 + count51_X8 + count51_X9 + count51_X10 + count51_X11 + count51_X12 + count51_X13 + count51_X14 + count51_X15 + count51_X16 + count51_X17 + count51_X18 + count51_X19 + count51_X20 + count51_X21 + count51_X22 + count51_X23 + count51_X24 + count51_X25 + count51_X26 + count51_X27 + count51_X28 + count51_X29 + count51_X30 + count51_X31 + count51_X32 + count51_X33 + count51_X34 + count51_X35 + count51_X36 + count51_X37 + count51_X38 + count51_X39 + count51_X40 + count51_X41 + count51_X42 + count51_X43 + count51_X44 + count51_X45 + count51_X46 + count51_X47 + count51_X48 + count51_X49 + count51_X50 + count51_X51 + count51_X52 + count51_X53 + count51_X54 + count51_X55 + count51_X56 + count51_X57 + count51_X58 + count51_X59 + count51_X60 + count51_X61 + count51_X62 + count51_X63 + count51_X64 + count51_X65 + count51_X66 + count51_X67 - pathWidth <= 1
+X0s + 68 countCheck52_X0s >= 53
+X0e - 68 countCheck52_X0e <= 51
+-2 count52_X0 + countCheck52_X0s  + countCheck52_X0e  <= 1
+
+X1s + 68 countCheck52_X1s >= 53
+X1e - 68 countCheck52_X1e <= 51
+-2 count52_X1 + countCheck52_X1s  + countCheck52_X1e  <= 1
+
+X2s + 68 countCheck52_X2s >= 53
+X2e - 68 countCheck52_X2e <= 51
+-2 count52_X2 + countCheck52_X2s  + countCheck52_X2e  <= 1
+
+X3s + 68 countCheck52_X3s >= 53
+X3e - 68 countCheck52_X3e <= 51
+-2 count52_X3 + countCheck52_X3s  + countCheck52_X3e  <= 1
+
+X4s + 68 countCheck52_X4s >= 53
+X4e - 68 countCheck52_X4e <= 51
+-2 count52_X4 + countCheck52_X4s  + countCheck52_X4e  <= 1
+
+X5s + 68 countCheck52_X5s >= 53
+X5e - 68 countCheck52_X5e <= 51
+-2 count52_X5 + countCheck52_X5s  + countCheck52_X5e  <= 1
+
+X6s + 68 countCheck52_X6s >= 53
+X6e - 68 countCheck52_X6e <= 51
+-2 count52_X6 + countCheck52_X6s  + countCheck52_X6e  <= 1
+
+X7s + 68 countCheck52_X7s >= 53
+X7e - 68 countCheck52_X7e <= 51
+-2 count52_X7 + countCheck52_X7s  + countCheck52_X7e  <= 1
+
+X8s + 68 countCheck52_X8s >= 53
+X8e - 68 countCheck52_X8e <= 51
+-2 count52_X8 + countCheck52_X8s  + countCheck52_X8e  <= 1
+
+X9s + 68 countCheck52_X9s >= 53
+X9e - 68 countCheck52_X9e <= 51
+-2 count52_X9 + countCheck52_X9s  + countCheck52_X9e  <= 1
+
+X10s + 68 countCheck52_X10s >= 53
+X10e - 68 countCheck52_X10e <= 51
+-2 count52_X10 + countCheck52_X10s  + countCheck52_X10e  <= 1
+
+X11s + 68 countCheck52_X11s >= 53
+X11e - 68 countCheck52_X11e <= 51
+-2 count52_X11 + countCheck52_X11s  + countCheck52_X11e  <= 1
+
+X12s + 68 countCheck52_X12s >= 53
+X12e - 68 countCheck52_X12e <= 51
+-2 count52_X12 + countCheck52_X12s  + countCheck52_X12e  <= 1
+
+X13s + 68 countCheck52_X13s >= 53
+X13e - 68 countCheck52_X13e <= 51
+-2 count52_X13 + countCheck52_X13s  + countCheck52_X13e  <= 1
+
+X14s + 68 countCheck52_X14s >= 53
+X14e - 68 countCheck52_X14e <= 51
+-2 count52_X14 + countCheck52_X14s  + countCheck52_X14e  <= 1
+
+X15s + 68 countCheck52_X15s >= 53
+X15e - 68 countCheck52_X15e <= 51
+-2 count52_X15 + countCheck52_X15s  + countCheck52_X15e  <= 1
+
+X16s + 68 countCheck52_X16s >= 53
+X16e - 68 countCheck52_X16e <= 51
+-2 count52_X16 + countCheck52_X16s  + countCheck52_X16e  <= 1
+
+X17s + 68 countCheck52_X17s >= 53
+X17e - 68 countCheck52_X17e <= 51
+-2 count52_X17 + countCheck52_X17s  + countCheck52_X17e  <= 1
+
+X18s + 68 countCheck52_X18s >= 53
+X18e - 68 countCheck52_X18e <= 51
+-2 count52_X18 + countCheck52_X18s  + countCheck52_X18e  <= 1
+
+X19s + 68 countCheck52_X19s >= 53
+X19e - 68 countCheck52_X19e <= 51
+-2 count52_X19 + countCheck52_X19s  + countCheck52_X19e  <= 1
+
+X20s + 68 countCheck52_X20s >= 53
+X20e - 68 countCheck52_X20e <= 51
+-2 count52_X20 + countCheck52_X20s  + countCheck52_X20e  <= 1
+
+X21s + 68 countCheck52_X21s >= 53
+X21e - 68 countCheck52_X21e <= 51
+-2 count52_X21 + countCheck52_X21s  + countCheck52_X21e  <= 1
+
+X22s + 68 countCheck52_X22s >= 53
+X22e - 68 countCheck52_X22e <= 51
+-2 count52_X22 + countCheck52_X22s  + countCheck52_X22e  <= 1
+
+X23s + 68 countCheck52_X23s >= 53
+X23e - 68 countCheck52_X23e <= 51
+-2 count52_X23 + countCheck52_X23s  + countCheck52_X23e  <= 1
+
+X24s + 68 countCheck52_X24s >= 53
+X24e - 68 countCheck52_X24e <= 51
+-2 count52_X24 + countCheck52_X24s  + countCheck52_X24e  <= 1
+
+X25s + 68 countCheck52_X25s >= 53
+X25e - 68 countCheck52_X25e <= 51
+-2 count52_X25 + countCheck52_X25s  + countCheck52_X25e  <= 1
+
+X26s + 68 countCheck52_X26s >= 53
+X26e - 68 countCheck52_X26e <= 51
+-2 count52_X26 + countCheck52_X26s  + countCheck52_X26e  <= 1
+
+X27s + 68 countCheck52_X27s >= 53
+X27e - 68 countCheck52_X27e <= 51
+-2 count52_X27 + countCheck52_X27s  + countCheck52_X27e  <= 1
+
+X28s + 68 countCheck52_X28s >= 53
+X28e - 68 countCheck52_X28e <= 51
+-2 count52_X28 + countCheck52_X28s  + countCheck52_X28e  <= 1
+
+X29s + 68 countCheck52_X29s >= 53
+X29e - 68 countCheck52_X29e <= 51
+-2 count52_X29 + countCheck52_X29s  + countCheck52_X29e  <= 1
+
+X30s + 68 countCheck52_X30s >= 53
+X30e - 68 countCheck52_X30e <= 51
+-2 count52_X30 + countCheck52_X30s  + countCheck52_X30e  <= 1
+
+X31s + 68 countCheck52_X31s >= 53
+X31e - 68 countCheck52_X31e <= 51
+-2 count52_X31 + countCheck52_X31s  + countCheck52_X31e  <= 1
+
+X32s + 68 countCheck52_X32s >= 53
+X32e - 68 countCheck52_X32e <= 51
+-2 count52_X32 + countCheck52_X32s  + countCheck52_X32e  <= 1
+
+X33s + 68 countCheck52_X33s >= 53
+X33e - 68 countCheck52_X33e <= 51
+-2 count52_X33 + countCheck52_X33s  + countCheck52_X33e  <= 1
+
+X34s + 68 countCheck52_X34s >= 53
+X34e - 68 countCheck52_X34e <= 51
+-2 count52_X34 + countCheck52_X34s  + countCheck52_X34e  <= 1
+
+X35s + 68 countCheck52_X35s >= 53
+X35e - 68 countCheck52_X35e <= 51
+-2 count52_X35 + countCheck52_X35s  + countCheck52_X35e  <= 1
+
+X36s + 68 countCheck52_X36s >= 53
+X36e - 68 countCheck52_X36e <= 51
+-2 count52_X36 + countCheck52_X36s  + countCheck52_X36e  <= 1
+
+X37s + 68 countCheck52_X37s >= 53
+X37e - 68 countCheck52_X37e <= 51
+-2 count52_X37 + countCheck52_X37s  + countCheck52_X37e  <= 1
+
+X38s + 68 countCheck52_X38s >= 53
+X38e - 68 countCheck52_X38e <= 51
+-2 count52_X38 + countCheck52_X38s  + countCheck52_X38e  <= 1
+
+X39s + 68 countCheck52_X39s >= 53
+X39e - 68 countCheck52_X39e <= 51
+-2 count52_X39 + countCheck52_X39s  + countCheck52_X39e  <= 1
+
+X40s + 68 countCheck52_X40s >= 53
+X40e - 68 countCheck52_X40e <= 51
+-2 count52_X40 + countCheck52_X40s  + countCheck52_X40e  <= 1
+
+X41s + 68 countCheck52_X41s >= 53
+X41e - 68 countCheck52_X41e <= 51
+-2 count52_X41 + countCheck52_X41s  + countCheck52_X41e  <= 1
+
+X42s + 68 countCheck52_X42s >= 53
+X42e - 68 countCheck52_X42e <= 51
+-2 count52_X42 + countCheck52_X42s  + countCheck52_X42e  <= 1
+
+X43s + 68 countCheck52_X43s >= 53
+X43e - 68 countCheck52_X43e <= 51
+-2 count52_X43 + countCheck52_X43s  + countCheck52_X43e  <= 1
+
+X44s + 68 countCheck52_X44s >= 53
+X44e - 68 countCheck52_X44e <= 51
+-2 count52_X44 + countCheck52_X44s  + countCheck52_X44e  <= 1
+
+X45s + 68 countCheck52_X45s >= 53
+X45e - 68 countCheck52_X45e <= 51
+-2 count52_X45 + countCheck52_X45s  + countCheck52_X45e  <= 1
+
+X46s + 68 countCheck52_X46s >= 53
+X46e - 68 countCheck52_X46e <= 51
+-2 count52_X46 + countCheck52_X46s  + countCheck52_X46e  <= 1
+
+X47s + 68 countCheck52_X47s >= 53
+X47e - 68 countCheck52_X47e <= 51
+-2 count52_X47 + countCheck52_X47s  + countCheck52_X47e  <= 1
+
+X48s + 68 countCheck52_X48s >= 53
+X48e - 68 countCheck52_X48e <= 51
+-2 count52_X48 + countCheck52_X48s  + countCheck52_X48e  <= 1
+
+X49s + 68 countCheck52_X49s >= 53
+X49e - 68 countCheck52_X49e <= 51
+-2 count52_X49 + countCheck52_X49s  + countCheck52_X49e  <= 1
+
+X50s + 68 countCheck52_X50s >= 53
+X50e - 68 countCheck52_X50e <= 51
+-2 count52_X50 + countCheck52_X50s  + countCheck52_X50e  <= 1
+
+X51s + 68 countCheck52_X51s >= 53
+X51e - 68 countCheck52_X51e <= 51
+-2 count52_X51 + countCheck52_X51s  + countCheck52_X51e  <= 1
+
+X52s + 68 countCheck52_X52s >= 53
+X52e - 68 countCheck52_X52e <= 51
+-2 count52_X52 + countCheck52_X52s  + countCheck52_X52e  <= 1
+
+X53s + 68 countCheck52_X53s >= 53
+X53e - 68 countCheck52_X53e <= 51
+-2 count52_X53 + countCheck52_X53s  + countCheck52_X53e  <= 1
+
+X54s + 68 countCheck52_X54s >= 53
+X54e - 68 countCheck52_X54e <= 51
+-2 count52_X54 + countCheck52_X54s  + countCheck52_X54e  <= 1
+
+X55s + 68 countCheck52_X55s >= 53
+X55e - 68 countCheck52_X55e <= 51
+-2 count52_X55 + countCheck52_X55s  + countCheck52_X55e  <= 1
+
+X56s + 68 countCheck52_X56s >= 53
+X56e - 68 countCheck52_X56e <= 51
+-2 count52_X56 + countCheck52_X56s  + countCheck52_X56e  <= 1
+
+X57s + 68 countCheck52_X57s >= 53
+X57e - 68 countCheck52_X57e <= 51
+-2 count52_X57 + countCheck52_X57s  + countCheck52_X57e  <= 1
+
+X58s + 68 countCheck52_X58s >= 53
+X58e - 68 countCheck52_X58e <= 51
+-2 count52_X58 + countCheck52_X58s  + countCheck52_X58e  <= 1
+
+X59s + 68 countCheck52_X59s >= 53
+X59e - 68 countCheck52_X59e <= 51
+-2 count52_X59 + countCheck52_X59s  + countCheck52_X59e  <= 1
+
+X60s + 68 countCheck52_X60s >= 53
+X60e - 68 countCheck52_X60e <= 51
+-2 count52_X60 + countCheck52_X60s  + countCheck52_X60e  <= 1
+
+X61s + 68 countCheck52_X61s >= 53
+X61e - 68 countCheck52_X61e <= 51
+-2 count52_X61 + countCheck52_X61s  + countCheck52_X61e  <= 1
+
+X62s + 68 countCheck52_X62s >= 53
+X62e - 68 countCheck52_X62e <= 51
+-2 count52_X62 + countCheck52_X62s  + countCheck52_X62e  <= 1
+
+X63s + 68 countCheck52_X63s >= 53
+X63e - 68 countCheck52_X63e <= 51
+-2 count52_X63 + countCheck52_X63s  + countCheck52_X63e  <= 1
+
+X64s + 68 countCheck52_X64s >= 53
+X64e - 68 countCheck52_X64e <= 51
+-2 count52_X64 + countCheck52_X64s  + countCheck52_X64e  <= 1
+
+X65s + 68 countCheck52_X65s >= 53
+X65e - 68 countCheck52_X65e <= 51
+-2 count52_X65 + countCheck52_X65s  + countCheck52_X65e  <= 1
+
+X66s + 68 countCheck52_X66s >= 53
+X66e - 68 countCheck52_X66e <= 51
+-2 count52_X66 + countCheck52_X66s  + countCheck52_X66e  <= 1
+
+X67s + 68 countCheck52_X67s >= 53
+X67e - 68 countCheck52_X67e <= 51
+-2 count52_X67 + countCheck52_X67s  + countCheck52_X67e  <= 1
+
+count52_X0 + count52_X1 + count52_X2 + count52_X3 + count52_X4 + count52_X5 + count52_X6 + count52_X7 + count52_X8 + count52_X9 + count52_X10 + count52_X11 + count52_X12 + count52_X13 + count52_X14 + count52_X15 + count52_X16 + count52_X17 + count52_X18 + count52_X19 + count52_X20 + count52_X21 + count52_X22 + count52_X23 + count52_X24 + count52_X25 + count52_X26 + count52_X27 + count52_X28 + count52_X29 + count52_X30 + count52_X31 + count52_X32 + count52_X33 + count52_X34 + count52_X35 + count52_X36 + count52_X37 + count52_X38 + count52_X39 + count52_X40 + count52_X41 + count52_X42 + count52_X43 + count52_X44 + count52_X45 + count52_X46 + count52_X47 + count52_X48 + count52_X49 + count52_X50 + count52_X51 + count52_X52 + count52_X53 + count52_X54 + count52_X55 + count52_X56 + count52_X57 + count52_X58 + count52_X59 + count52_X60 + count52_X61 + count52_X62 + count52_X63 + count52_X64 + count52_X65 + count52_X66 + count52_X67 - pathWidth <= 1
+X0s + 68 countCheck53_X0s >= 54
+X0e - 68 countCheck53_X0e <= 52
+-2 count53_X0 + countCheck53_X0s  + countCheck53_X0e  <= 1
+
+X1s + 68 countCheck53_X1s >= 54
+X1e - 68 countCheck53_X1e <= 52
+-2 count53_X1 + countCheck53_X1s  + countCheck53_X1e  <= 1
+
+X2s + 68 countCheck53_X2s >= 54
+X2e - 68 countCheck53_X2e <= 52
+-2 count53_X2 + countCheck53_X2s  + countCheck53_X2e  <= 1
+
+X3s + 68 countCheck53_X3s >= 54
+X3e - 68 countCheck53_X3e <= 52
+-2 count53_X3 + countCheck53_X3s  + countCheck53_X3e  <= 1
+
+X4s + 68 countCheck53_X4s >= 54
+X4e - 68 countCheck53_X4e <= 52
+-2 count53_X4 + countCheck53_X4s  + countCheck53_X4e  <= 1
+
+X5s + 68 countCheck53_X5s >= 54
+X5e - 68 countCheck53_X5e <= 52
+-2 count53_X5 + countCheck53_X5s  + countCheck53_X5e  <= 1
+
+X6s + 68 countCheck53_X6s >= 54
+X6e - 68 countCheck53_X6e <= 52
+-2 count53_X6 + countCheck53_X6s  + countCheck53_X6e  <= 1
+
+X7s + 68 countCheck53_X7s >= 54
+X7e - 68 countCheck53_X7e <= 52
+-2 count53_X7 + countCheck53_X7s  + countCheck53_X7e  <= 1
+
+X8s + 68 countCheck53_X8s >= 54
+X8e - 68 countCheck53_X8e <= 52
+-2 count53_X8 + countCheck53_X8s  + countCheck53_X8e  <= 1
+
+X9s + 68 countCheck53_X9s >= 54
+X9e - 68 countCheck53_X9e <= 52
+-2 count53_X9 + countCheck53_X9s  + countCheck53_X9e  <= 1
+
+X10s + 68 countCheck53_X10s >= 54
+X10e - 68 countCheck53_X10e <= 52
+-2 count53_X10 + countCheck53_X10s  + countCheck53_X10e  <= 1
+
+X11s + 68 countCheck53_X11s >= 54
+X11e - 68 countCheck53_X11e <= 52
+-2 count53_X11 + countCheck53_X11s  + countCheck53_X11e  <= 1
+
+X12s + 68 countCheck53_X12s >= 54
+X12e - 68 countCheck53_X12e <= 52
+-2 count53_X12 + countCheck53_X12s  + countCheck53_X12e  <= 1
+
+X13s + 68 countCheck53_X13s >= 54
+X13e - 68 countCheck53_X13e <= 52
+-2 count53_X13 + countCheck53_X13s  + countCheck53_X13e  <= 1
+
+X14s + 68 countCheck53_X14s >= 54
+X14e - 68 countCheck53_X14e <= 52
+-2 count53_X14 + countCheck53_X14s  + countCheck53_X14e  <= 1
+
+X15s + 68 countCheck53_X15s >= 54
+X15e - 68 countCheck53_X15e <= 52
+-2 count53_X15 + countCheck53_X15s  + countCheck53_X15e  <= 1
+
+X16s + 68 countCheck53_X16s >= 54
+X16e - 68 countCheck53_X16e <= 52
+-2 count53_X16 + countCheck53_X16s  + countCheck53_X16e  <= 1
+
+X17s + 68 countCheck53_X17s >= 54
+X17e - 68 countCheck53_X17e <= 52
+-2 count53_X17 + countCheck53_X17s  + countCheck53_X17e  <= 1
+
+X18s + 68 countCheck53_X18s >= 54
+X18e - 68 countCheck53_X18e <= 52
+-2 count53_X18 + countCheck53_X18s  + countCheck53_X18e  <= 1
+
+X19s + 68 countCheck53_X19s >= 54
+X19e - 68 countCheck53_X19e <= 52
+-2 count53_X19 + countCheck53_X19s  + countCheck53_X19e  <= 1
+
+X20s + 68 countCheck53_X20s >= 54
+X20e - 68 countCheck53_X20e <= 52
+-2 count53_X20 + countCheck53_X20s  + countCheck53_X20e  <= 1
+
+X21s + 68 countCheck53_X21s >= 54
+X21e - 68 countCheck53_X21e <= 52
+-2 count53_X21 + countCheck53_X21s  + countCheck53_X21e  <= 1
+
+X22s + 68 countCheck53_X22s >= 54
+X22e - 68 countCheck53_X22e <= 52
+-2 count53_X22 + countCheck53_X22s  + countCheck53_X22e  <= 1
+
+X23s + 68 countCheck53_X23s >= 54
+X23e - 68 countCheck53_X23e <= 52
+-2 count53_X23 + countCheck53_X23s  + countCheck53_X23e  <= 1
+
+X24s + 68 countCheck53_X24s >= 54
+X24e - 68 countCheck53_X24e <= 52
+-2 count53_X24 + countCheck53_X24s  + countCheck53_X24e  <= 1
+
+X25s + 68 countCheck53_X25s >= 54
+X25e - 68 countCheck53_X25e <= 52
+-2 count53_X25 + countCheck53_X25s  + countCheck53_X25e  <= 1
+
+X26s + 68 countCheck53_X26s >= 54
+X26e - 68 countCheck53_X26e <= 52
+-2 count53_X26 + countCheck53_X26s  + countCheck53_X26e  <= 1
+
+X27s + 68 countCheck53_X27s >= 54
+X27e - 68 countCheck53_X27e <= 52
+-2 count53_X27 + countCheck53_X27s  + countCheck53_X27e  <= 1
+
+X28s + 68 countCheck53_X28s >= 54
+X28e - 68 countCheck53_X28e <= 52
+-2 count53_X28 + countCheck53_X28s  + countCheck53_X28e  <= 1
+
+X29s + 68 countCheck53_X29s >= 54
+X29e - 68 countCheck53_X29e <= 52
+-2 count53_X29 + countCheck53_X29s  + countCheck53_X29e  <= 1
+
+X30s + 68 countCheck53_X30s >= 54
+X30e - 68 countCheck53_X30e <= 52
+-2 count53_X30 + countCheck53_X30s  + countCheck53_X30e  <= 1
+
+X31s + 68 countCheck53_X31s >= 54
+X31e - 68 countCheck53_X31e <= 52
+-2 count53_X31 + countCheck53_X31s  + countCheck53_X31e  <= 1
+
+X32s + 68 countCheck53_X32s >= 54
+X32e - 68 countCheck53_X32e <= 52
+-2 count53_X32 + countCheck53_X32s  + countCheck53_X32e  <= 1
+
+X33s + 68 countCheck53_X33s >= 54
+X33e - 68 countCheck53_X33e <= 52
+-2 count53_X33 + countCheck53_X33s  + countCheck53_X33e  <= 1
+
+X34s + 68 countCheck53_X34s >= 54
+X34e - 68 countCheck53_X34e <= 52
+-2 count53_X34 + countCheck53_X34s  + countCheck53_X34e  <= 1
+
+X35s + 68 countCheck53_X35s >= 54
+X35e - 68 countCheck53_X35e <= 52
+-2 count53_X35 + countCheck53_X35s  + countCheck53_X35e  <= 1
+
+X36s + 68 countCheck53_X36s >= 54
+X36e - 68 countCheck53_X36e <= 52
+-2 count53_X36 + countCheck53_X36s  + countCheck53_X36e  <= 1
+
+X37s + 68 countCheck53_X37s >= 54
+X37e - 68 countCheck53_X37e <= 52
+-2 count53_X37 + countCheck53_X37s  + countCheck53_X37e  <= 1
+
+X38s + 68 countCheck53_X38s >= 54
+X38e - 68 countCheck53_X38e <= 52
+-2 count53_X38 + countCheck53_X38s  + countCheck53_X38e  <= 1
+
+X39s + 68 countCheck53_X39s >= 54
+X39e - 68 countCheck53_X39e <= 52
+-2 count53_X39 + countCheck53_X39s  + countCheck53_X39e  <= 1
+
+X40s + 68 countCheck53_X40s >= 54
+X40e - 68 countCheck53_X40e <= 52
+-2 count53_X40 + countCheck53_X40s  + countCheck53_X40e  <= 1
+
+X41s + 68 countCheck53_X41s >= 54
+X41e - 68 countCheck53_X41e <= 52
+-2 count53_X41 + countCheck53_X41s  + countCheck53_X41e  <= 1
+
+X42s + 68 countCheck53_X42s >= 54
+X42e - 68 countCheck53_X42e <= 52
+-2 count53_X42 + countCheck53_X42s  + countCheck53_X42e  <= 1
+
+X43s + 68 countCheck53_X43s >= 54
+X43e - 68 countCheck53_X43e <= 52
+-2 count53_X43 + countCheck53_X43s  + countCheck53_X43e  <= 1
+
+X44s + 68 countCheck53_X44s >= 54
+X44e - 68 countCheck53_X44e <= 52
+-2 count53_X44 + countCheck53_X44s  + countCheck53_X44e  <= 1
+
+X45s + 68 countCheck53_X45s >= 54
+X45e - 68 countCheck53_X45e <= 52
+-2 count53_X45 + countCheck53_X45s  + countCheck53_X45e  <= 1
+
+X46s + 68 countCheck53_X46s >= 54
+X46e - 68 countCheck53_X46e <= 52
+-2 count53_X46 + countCheck53_X46s  + countCheck53_X46e  <= 1
+
+X47s + 68 countCheck53_X47s >= 54
+X47e - 68 countCheck53_X47e <= 52
+-2 count53_X47 + countCheck53_X47s  + countCheck53_X47e  <= 1
+
+X48s + 68 countCheck53_X48s >= 54
+X48e - 68 countCheck53_X48e <= 52
+-2 count53_X48 + countCheck53_X48s  + countCheck53_X48e  <= 1
+
+X49s + 68 countCheck53_X49s >= 54
+X49e - 68 countCheck53_X49e <= 52
+-2 count53_X49 + countCheck53_X49s  + countCheck53_X49e  <= 1
+
+X50s + 68 countCheck53_X50s >= 54
+X50e - 68 countCheck53_X50e <= 52
+-2 count53_X50 + countCheck53_X50s  + countCheck53_X50e  <= 1
+
+X51s + 68 countCheck53_X51s >= 54
+X51e - 68 countCheck53_X51e <= 52
+-2 count53_X51 + countCheck53_X51s  + countCheck53_X51e  <= 1
+
+X52s + 68 countCheck53_X52s >= 54
+X52e - 68 countCheck53_X52e <= 52
+-2 count53_X52 + countCheck53_X52s  + countCheck53_X52e  <= 1
+
+X53s + 68 countCheck53_X53s >= 54
+X53e - 68 countCheck53_X53e <= 52
+-2 count53_X53 + countCheck53_X53s  + countCheck53_X53e  <= 1
+
+X54s + 68 countCheck53_X54s >= 54
+X54e - 68 countCheck53_X54e <= 52
+-2 count53_X54 + countCheck53_X54s  + countCheck53_X54e  <= 1
+
+X55s + 68 countCheck53_X55s >= 54
+X55e - 68 countCheck53_X55e <= 52
+-2 count53_X55 + countCheck53_X55s  + countCheck53_X55e  <= 1
+
+X56s + 68 countCheck53_X56s >= 54
+X56e - 68 countCheck53_X56e <= 52
+-2 count53_X56 + countCheck53_X56s  + countCheck53_X56e  <= 1
+
+X57s + 68 countCheck53_X57s >= 54
+X57e - 68 countCheck53_X57e <= 52
+-2 count53_X57 + countCheck53_X57s  + countCheck53_X57e  <= 1
+
+X58s + 68 countCheck53_X58s >= 54
+X58e - 68 countCheck53_X58e <= 52
+-2 count53_X58 + countCheck53_X58s  + countCheck53_X58e  <= 1
+
+X59s + 68 countCheck53_X59s >= 54
+X59e - 68 countCheck53_X59e <= 52
+-2 count53_X59 + countCheck53_X59s  + countCheck53_X59e  <= 1
+
+X60s + 68 countCheck53_X60s >= 54
+X60e - 68 countCheck53_X60e <= 52
+-2 count53_X60 + countCheck53_X60s  + countCheck53_X60e  <= 1
+
+X61s + 68 countCheck53_X61s >= 54
+X61e - 68 countCheck53_X61e <= 52
+-2 count53_X61 + countCheck53_X61s  + countCheck53_X61e  <= 1
+
+X62s + 68 countCheck53_X62s >= 54
+X62e - 68 countCheck53_X62e <= 52
+-2 count53_X62 + countCheck53_X62s  + countCheck53_X62e  <= 1
+
+X63s + 68 countCheck53_X63s >= 54
+X63e - 68 countCheck53_X63e <= 52
+-2 count53_X63 + countCheck53_X63s  + countCheck53_X63e  <= 1
+
+X64s + 68 countCheck53_X64s >= 54
+X64e - 68 countCheck53_X64e <= 52
+-2 count53_X64 + countCheck53_X64s  + countCheck53_X64e  <= 1
+
+X65s + 68 countCheck53_X65s >= 54
+X65e - 68 countCheck53_X65e <= 52
+-2 count53_X65 + countCheck53_X65s  + countCheck53_X65e  <= 1
+
+X66s + 68 countCheck53_X66s >= 54
+X66e - 68 countCheck53_X66e <= 52
+-2 count53_X66 + countCheck53_X66s  + countCheck53_X66e  <= 1
+
+X67s + 68 countCheck53_X67s >= 54
+X67e - 68 countCheck53_X67e <= 52
+-2 count53_X67 + countCheck53_X67s  + countCheck53_X67e  <= 1
+
+count53_X0 + count53_X1 + count53_X2 + count53_X3 + count53_X4 + count53_X5 + count53_X6 + count53_X7 + count53_X8 + count53_X9 + count53_X10 + count53_X11 + count53_X12 + count53_X13 + count53_X14 + count53_X15 + count53_X16 + count53_X17 + count53_X18 + count53_X19 + count53_X20 + count53_X21 + count53_X22 + count53_X23 + count53_X24 + count53_X25 + count53_X26 + count53_X27 + count53_X28 + count53_X29 + count53_X30 + count53_X31 + count53_X32 + count53_X33 + count53_X34 + count53_X35 + count53_X36 + count53_X37 + count53_X38 + count53_X39 + count53_X40 + count53_X41 + count53_X42 + count53_X43 + count53_X44 + count53_X45 + count53_X46 + count53_X47 + count53_X48 + count53_X49 + count53_X50 + count53_X51 + count53_X52 + count53_X53 + count53_X54 + count53_X55 + count53_X56 + count53_X57 + count53_X58 + count53_X59 + count53_X60 + count53_X61 + count53_X62 + count53_X63 + count53_X64 + count53_X65 + count53_X66 + count53_X67 - pathWidth <= 1
+X0s + 68 countCheck54_X0s >= 55
+X0e - 68 countCheck54_X0e <= 53
+-2 count54_X0 + countCheck54_X0s  + countCheck54_X0e  <= 1
+
+X1s + 68 countCheck54_X1s >= 55
+X1e - 68 countCheck54_X1e <= 53
+-2 count54_X1 + countCheck54_X1s  + countCheck54_X1e  <= 1
+
+X2s + 68 countCheck54_X2s >= 55
+X2e - 68 countCheck54_X2e <= 53
+-2 count54_X2 + countCheck54_X2s  + countCheck54_X2e  <= 1
+
+X3s + 68 countCheck54_X3s >= 55
+X3e - 68 countCheck54_X3e <= 53
+-2 count54_X3 + countCheck54_X3s  + countCheck54_X3e  <= 1
+
+X4s + 68 countCheck54_X4s >= 55
+X4e - 68 countCheck54_X4e <= 53
+-2 count54_X4 + countCheck54_X4s  + countCheck54_X4e  <= 1
+
+X5s + 68 countCheck54_X5s >= 55
+X5e - 68 countCheck54_X5e <= 53
+-2 count54_X5 + countCheck54_X5s  + countCheck54_X5e  <= 1
+
+X6s + 68 countCheck54_X6s >= 55
+X6e - 68 countCheck54_X6e <= 53
+-2 count54_X6 + countCheck54_X6s  + countCheck54_X6e  <= 1
+
+X7s + 68 countCheck54_X7s >= 55
+X7e - 68 countCheck54_X7e <= 53
+-2 count54_X7 + countCheck54_X7s  + countCheck54_X7e  <= 1
+
+X8s + 68 countCheck54_X8s >= 55
+X8e - 68 countCheck54_X8e <= 53
+-2 count54_X8 + countCheck54_X8s  + countCheck54_X8e  <= 1
+
+X9s + 68 countCheck54_X9s >= 55
+X9e - 68 countCheck54_X9e <= 53
+-2 count54_X9 + countCheck54_X9s  + countCheck54_X9e  <= 1
+
+X10s + 68 countCheck54_X10s >= 55
+X10e - 68 countCheck54_X10e <= 53
+-2 count54_X10 + countCheck54_X10s  + countCheck54_X10e  <= 1
+
+X11s + 68 countCheck54_X11s >= 55
+X11e - 68 countCheck54_X11e <= 53
+-2 count54_X11 + countCheck54_X11s  + countCheck54_X11e  <= 1
+
+X12s + 68 countCheck54_X12s >= 55
+X12e - 68 countCheck54_X12e <= 53
+-2 count54_X12 + countCheck54_X12s  + countCheck54_X12e  <= 1
+
+X13s + 68 countCheck54_X13s >= 55
+X13e - 68 countCheck54_X13e <= 53
+-2 count54_X13 + countCheck54_X13s  + countCheck54_X13e  <= 1
+
+X14s + 68 countCheck54_X14s >= 55
+X14e - 68 countCheck54_X14e <= 53
+-2 count54_X14 + countCheck54_X14s  + countCheck54_X14e  <= 1
+
+X15s + 68 countCheck54_X15s >= 55
+X15e - 68 countCheck54_X15e <= 53
+-2 count54_X15 + countCheck54_X15s  + countCheck54_X15e  <= 1
+
+X16s + 68 countCheck54_X16s >= 55
+X16e - 68 countCheck54_X16e <= 53
+-2 count54_X16 + countCheck54_X16s  + countCheck54_X16e  <= 1
+
+X17s + 68 countCheck54_X17s >= 55
+X17e - 68 countCheck54_X17e <= 53
+-2 count54_X17 + countCheck54_X17s  + countCheck54_X17e  <= 1
+
+X18s + 68 countCheck54_X18s >= 55
+X18e - 68 countCheck54_X18e <= 53
+-2 count54_X18 + countCheck54_X18s  + countCheck54_X18e  <= 1
+
+X19s + 68 countCheck54_X19s >= 55
+X19e - 68 countCheck54_X19e <= 53
+-2 count54_X19 + countCheck54_X19s  + countCheck54_X19e  <= 1
+
+X20s + 68 countCheck54_X20s >= 55
+X20e - 68 countCheck54_X20e <= 53
+-2 count54_X20 + countCheck54_X20s  + countCheck54_X20e  <= 1
+
+X21s + 68 countCheck54_X21s >= 55
+X21e - 68 countCheck54_X21e <= 53
+-2 count54_X21 + countCheck54_X21s  + countCheck54_X21e  <= 1
+
+X22s + 68 countCheck54_X22s >= 55
+X22e - 68 countCheck54_X22e <= 53
+-2 count54_X22 + countCheck54_X22s  + countCheck54_X22e  <= 1
+
+X23s + 68 countCheck54_X23s >= 55
+X23e - 68 countCheck54_X23e <= 53
+-2 count54_X23 + countCheck54_X23s  + countCheck54_X23e  <= 1
+
+X24s + 68 countCheck54_X24s >= 55
+X24e - 68 countCheck54_X24e <= 53
+-2 count54_X24 + countCheck54_X24s  + countCheck54_X24e  <= 1
+
+X25s + 68 countCheck54_X25s >= 55
+X25e - 68 countCheck54_X25e <= 53
+-2 count54_X25 + countCheck54_X25s  + countCheck54_X25e  <= 1
+
+X26s + 68 countCheck54_X26s >= 55
+X26e - 68 countCheck54_X26e <= 53
+-2 count54_X26 + countCheck54_X26s  + countCheck54_X26e  <= 1
+
+X27s + 68 countCheck54_X27s >= 55
+X27e - 68 countCheck54_X27e <= 53
+-2 count54_X27 + countCheck54_X27s  + countCheck54_X27e  <= 1
+
+X28s + 68 countCheck54_X28s >= 55
+X28e - 68 countCheck54_X28e <= 53
+-2 count54_X28 + countCheck54_X28s  + countCheck54_X28e  <= 1
+
+X29s + 68 countCheck54_X29s >= 55
+X29e - 68 countCheck54_X29e <= 53
+-2 count54_X29 + countCheck54_X29s  + countCheck54_X29e  <= 1
+
+X30s + 68 countCheck54_X30s >= 55
+X30e - 68 countCheck54_X30e <= 53
+-2 count54_X30 + countCheck54_X30s  + countCheck54_X30e  <= 1
+
+X31s + 68 countCheck54_X31s >= 55
+X31e - 68 countCheck54_X31e <= 53
+-2 count54_X31 + countCheck54_X31s  + countCheck54_X31e  <= 1
+
+X32s + 68 countCheck54_X32s >= 55
+X32e - 68 countCheck54_X32e <= 53
+-2 count54_X32 + countCheck54_X32s  + countCheck54_X32e  <= 1
+
+X33s + 68 countCheck54_X33s >= 55
+X33e - 68 countCheck54_X33e <= 53
+-2 count54_X33 + countCheck54_X33s  + countCheck54_X33e  <= 1
+
+X34s + 68 countCheck54_X34s >= 55
+X34e - 68 countCheck54_X34e <= 53
+-2 count54_X34 + countCheck54_X34s  + countCheck54_X34e  <= 1
+
+X35s + 68 countCheck54_X35s >= 55
+X35e - 68 countCheck54_X35e <= 53
+-2 count54_X35 + countCheck54_X35s  + countCheck54_X35e  <= 1
+
+X36s + 68 countCheck54_X36s >= 55
+X36e - 68 countCheck54_X36e <= 53
+-2 count54_X36 + countCheck54_X36s  + countCheck54_X36e  <= 1
+
+X37s + 68 countCheck54_X37s >= 55
+X37e - 68 countCheck54_X37e <= 53
+-2 count54_X37 + countCheck54_X37s  + countCheck54_X37e  <= 1
+
+X38s + 68 countCheck54_X38s >= 55
+X38e - 68 countCheck54_X38e <= 53
+-2 count54_X38 + countCheck54_X38s  + countCheck54_X38e  <= 1
+
+X39s + 68 countCheck54_X39s >= 55
+X39e - 68 countCheck54_X39e <= 53
+-2 count54_X39 + countCheck54_X39s  + countCheck54_X39e  <= 1
+
+X40s + 68 countCheck54_X40s >= 55
+X40e - 68 countCheck54_X40e <= 53
+-2 count54_X40 + countCheck54_X40s  + countCheck54_X40e  <= 1
+
+X41s + 68 countCheck54_X41s >= 55
+X41e - 68 countCheck54_X41e <= 53
+-2 count54_X41 + countCheck54_X41s  + countCheck54_X41e  <= 1
+
+X42s + 68 countCheck54_X42s >= 55
+X42e - 68 countCheck54_X42e <= 53
+-2 count54_X42 + countCheck54_X42s  + countCheck54_X42e  <= 1
+
+X43s + 68 countCheck54_X43s >= 55
+X43e - 68 countCheck54_X43e <= 53
+-2 count54_X43 + countCheck54_X43s  + countCheck54_X43e  <= 1
+
+X44s + 68 countCheck54_X44s >= 55
+X44e - 68 countCheck54_X44e <= 53
+-2 count54_X44 + countCheck54_X44s  + countCheck54_X44e  <= 1
+
+X45s + 68 countCheck54_X45s >= 55
+X45e - 68 countCheck54_X45e <= 53
+-2 count54_X45 + countCheck54_X45s  + countCheck54_X45e  <= 1
+
+X46s + 68 countCheck54_X46s >= 55
+X46e - 68 countCheck54_X46e <= 53
+-2 count54_X46 + countCheck54_X46s  + countCheck54_X46e  <= 1
+
+X47s + 68 countCheck54_X47s >= 55
+X47e - 68 countCheck54_X47e <= 53
+-2 count54_X47 + countCheck54_X47s  + countCheck54_X47e  <= 1
+
+X48s + 68 countCheck54_X48s >= 55
+X48e - 68 countCheck54_X48e <= 53
+-2 count54_X48 + countCheck54_X48s  + countCheck54_X48e  <= 1
+
+X49s + 68 countCheck54_X49s >= 55
+X49e - 68 countCheck54_X49e <= 53
+-2 count54_X49 + countCheck54_X49s  + countCheck54_X49e  <= 1
+
+X50s + 68 countCheck54_X50s >= 55
+X50e - 68 countCheck54_X50e <= 53
+-2 count54_X50 + countCheck54_X50s  + countCheck54_X50e  <= 1
+
+X51s + 68 countCheck54_X51s >= 55
+X51e - 68 countCheck54_X51e <= 53
+-2 count54_X51 + countCheck54_X51s  + countCheck54_X51e  <= 1
+
+X52s + 68 countCheck54_X52s >= 55
+X52e - 68 countCheck54_X52e <= 53
+-2 count54_X52 + countCheck54_X52s  + countCheck54_X52e  <= 1
+
+X53s + 68 countCheck54_X53s >= 55
+X53e - 68 countCheck54_X53e <= 53
+-2 count54_X53 + countCheck54_X53s  + countCheck54_X53e  <= 1
+
+X54s + 68 countCheck54_X54s >= 55
+X54e - 68 countCheck54_X54e <= 53
+-2 count54_X54 + countCheck54_X54s  + countCheck54_X54e  <= 1
+
+X55s + 68 countCheck54_X55s >= 55
+X55e - 68 countCheck54_X55e <= 53
+-2 count54_X55 + countCheck54_X55s  + countCheck54_X55e  <= 1
+
+X56s + 68 countCheck54_X56s >= 55
+X56e - 68 countCheck54_X56e <= 53
+-2 count54_X56 + countCheck54_X56s  + countCheck54_X56e  <= 1
+
+X57s + 68 countCheck54_X57s >= 55
+X57e - 68 countCheck54_X57e <= 53
+-2 count54_X57 + countCheck54_X57s  + countCheck54_X57e  <= 1
+
+X58s + 68 countCheck54_X58s >= 55
+X58e - 68 countCheck54_X58e <= 53
+-2 count54_X58 + countCheck54_X58s  + countCheck54_X58e  <= 1
+
+X59s + 68 countCheck54_X59s >= 55
+X59e - 68 countCheck54_X59e <= 53
+-2 count54_X59 + countCheck54_X59s  + countCheck54_X59e  <= 1
+
+X60s + 68 countCheck54_X60s >= 55
+X60e - 68 countCheck54_X60e <= 53
+-2 count54_X60 + countCheck54_X60s  + countCheck54_X60e  <= 1
+
+X61s + 68 countCheck54_X61s >= 55
+X61e - 68 countCheck54_X61e <= 53
+-2 count54_X61 + countCheck54_X61s  + countCheck54_X61e  <= 1
+
+X62s + 68 countCheck54_X62s >= 55
+X62e - 68 countCheck54_X62e <= 53
+-2 count54_X62 + countCheck54_X62s  + countCheck54_X62e  <= 1
+
+X63s + 68 countCheck54_X63s >= 55
+X63e - 68 countCheck54_X63e <= 53
+-2 count54_X63 + countCheck54_X63s  + countCheck54_X63e  <= 1
+
+X64s + 68 countCheck54_X64s >= 55
+X64e - 68 countCheck54_X64e <= 53
+-2 count54_X64 + countCheck54_X64s  + countCheck54_X64e  <= 1
+
+X65s + 68 countCheck54_X65s >= 55
+X65e - 68 countCheck54_X65e <= 53
+-2 count54_X65 + countCheck54_X65s  + countCheck54_X65e  <= 1
+
+X66s + 68 countCheck54_X66s >= 55
+X66e - 68 countCheck54_X66e <= 53
+-2 count54_X66 + countCheck54_X66s  + countCheck54_X66e  <= 1
+
+X67s + 68 countCheck54_X67s >= 55
+X67e - 68 countCheck54_X67e <= 53
+-2 count54_X67 + countCheck54_X67s  + countCheck54_X67e  <= 1
+
+count54_X0 + count54_X1 + count54_X2 + count54_X3 + count54_X4 + count54_X5 + count54_X6 + count54_X7 + count54_X8 + count54_X9 + count54_X10 + count54_X11 + count54_X12 + count54_X13 + count54_X14 + count54_X15 + count54_X16 + count54_X17 + count54_X18 + count54_X19 + count54_X20 + count54_X21 + count54_X22 + count54_X23 + count54_X24 + count54_X25 + count54_X26 + count54_X27 + count54_X28 + count54_X29 + count54_X30 + count54_X31 + count54_X32 + count54_X33 + count54_X34 + count54_X35 + count54_X36 + count54_X37 + count54_X38 + count54_X39 + count54_X40 + count54_X41 + count54_X42 + count54_X43 + count54_X44 + count54_X45 + count54_X46 + count54_X47 + count54_X48 + count54_X49 + count54_X50 + count54_X51 + count54_X52 + count54_X53 + count54_X54 + count54_X55 + count54_X56 + count54_X57 + count54_X58 + count54_X59 + count54_X60 + count54_X61 + count54_X62 + count54_X63 + count54_X64 + count54_X65 + count54_X66 + count54_X67 - pathWidth <= 1
+X0s + 68 countCheck55_X0s >= 56
+X0e - 68 countCheck55_X0e <= 54
+-2 count55_X0 + countCheck55_X0s  + countCheck55_X0e  <= 1
+
+X1s + 68 countCheck55_X1s >= 56
+X1e - 68 countCheck55_X1e <= 54
+-2 count55_X1 + countCheck55_X1s  + countCheck55_X1e  <= 1
+
+X2s + 68 countCheck55_X2s >= 56
+X2e - 68 countCheck55_X2e <= 54
+-2 count55_X2 + countCheck55_X2s  + countCheck55_X2e  <= 1
+
+X3s + 68 countCheck55_X3s >= 56
+X3e - 68 countCheck55_X3e <= 54
+-2 count55_X3 + countCheck55_X3s  + countCheck55_X3e  <= 1
+
+X4s + 68 countCheck55_X4s >= 56
+X4e - 68 countCheck55_X4e <= 54
+-2 count55_X4 + countCheck55_X4s  + countCheck55_X4e  <= 1
+
+X5s + 68 countCheck55_X5s >= 56
+X5e - 68 countCheck55_X5e <= 54
+-2 count55_X5 + countCheck55_X5s  + countCheck55_X5e  <= 1
+
+X6s + 68 countCheck55_X6s >= 56
+X6e - 68 countCheck55_X6e <= 54
+-2 count55_X6 + countCheck55_X6s  + countCheck55_X6e  <= 1
+
+X7s + 68 countCheck55_X7s >= 56
+X7e - 68 countCheck55_X7e <= 54
+-2 count55_X7 + countCheck55_X7s  + countCheck55_X7e  <= 1
+
+X8s + 68 countCheck55_X8s >= 56
+X8e - 68 countCheck55_X8e <= 54
+-2 count55_X8 + countCheck55_X8s  + countCheck55_X8e  <= 1
+
+X9s + 68 countCheck55_X9s >= 56
+X9e - 68 countCheck55_X9e <= 54
+-2 count55_X9 + countCheck55_X9s  + countCheck55_X9e  <= 1
+
+X10s + 68 countCheck55_X10s >= 56
+X10e - 68 countCheck55_X10e <= 54
+-2 count55_X10 + countCheck55_X10s  + countCheck55_X10e  <= 1
+
+X11s + 68 countCheck55_X11s >= 56
+X11e - 68 countCheck55_X11e <= 54
+-2 count55_X11 + countCheck55_X11s  + countCheck55_X11e  <= 1
+
+X12s + 68 countCheck55_X12s >= 56
+X12e - 68 countCheck55_X12e <= 54
+-2 count55_X12 + countCheck55_X12s  + countCheck55_X12e  <= 1
+
+X13s + 68 countCheck55_X13s >= 56
+X13e - 68 countCheck55_X13e <= 54
+-2 count55_X13 + countCheck55_X13s  + countCheck55_X13e  <= 1
+
+X14s + 68 countCheck55_X14s >= 56
+X14e - 68 countCheck55_X14e <= 54
+-2 count55_X14 + countCheck55_X14s  + countCheck55_X14e  <= 1
+
+X15s + 68 countCheck55_X15s >= 56
+X15e - 68 countCheck55_X15e <= 54
+-2 count55_X15 + countCheck55_X15s  + countCheck55_X15e  <= 1
+
+X16s + 68 countCheck55_X16s >= 56
+X16e - 68 countCheck55_X16e <= 54
+-2 count55_X16 + countCheck55_X16s  + countCheck55_X16e  <= 1
+
+X17s + 68 countCheck55_X17s >= 56
+X17e - 68 countCheck55_X17e <= 54
+-2 count55_X17 + countCheck55_X17s  + countCheck55_X17e  <= 1
+
+X18s + 68 countCheck55_X18s >= 56
+X18e - 68 countCheck55_X18e <= 54
+-2 count55_X18 + countCheck55_X18s  + countCheck55_X18e  <= 1
+
+X19s + 68 countCheck55_X19s >= 56
+X19e - 68 countCheck55_X19e <= 54
+-2 count55_X19 + countCheck55_X19s  + countCheck55_X19e  <= 1
+
+X20s + 68 countCheck55_X20s >= 56
+X20e - 68 countCheck55_X20e <= 54
+-2 count55_X20 + countCheck55_X20s  + countCheck55_X20e  <= 1
+
+X21s + 68 countCheck55_X21s >= 56
+X21e - 68 countCheck55_X21e <= 54
+-2 count55_X21 + countCheck55_X21s  + countCheck55_X21e  <= 1
+
+X22s + 68 countCheck55_X22s >= 56
+X22e - 68 countCheck55_X22e <= 54
+-2 count55_X22 + countCheck55_X22s  + countCheck55_X22e  <= 1
+
+X23s + 68 countCheck55_X23s >= 56
+X23e - 68 countCheck55_X23e <= 54
+-2 count55_X23 + countCheck55_X23s  + countCheck55_X23e  <= 1
+
+X24s + 68 countCheck55_X24s >= 56
+X24e - 68 countCheck55_X24e <= 54
+-2 count55_X24 + countCheck55_X24s  + countCheck55_X24e  <= 1
+
+X25s + 68 countCheck55_X25s >= 56
+X25e - 68 countCheck55_X25e <= 54
+-2 count55_X25 + countCheck55_X25s  + countCheck55_X25e  <= 1
+
+X26s + 68 countCheck55_X26s >= 56
+X26e - 68 countCheck55_X26e <= 54
+-2 count55_X26 + countCheck55_X26s  + countCheck55_X26e  <= 1
+
+X27s + 68 countCheck55_X27s >= 56
+X27e - 68 countCheck55_X27e <= 54
+-2 count55_X27 + countCheck55_X27s  + countCheck55_X27e  <= 1
+
+X28s + 68 countCheck55_X28s >= 56
+X28e - 68 countCheck55_X28e <= 54
+-2 count55_X28 + countCheck55_X28s  + countCheck55_X28e  <= 1
+
+X29s + 68 countCheck55_X29s >= 56
+X29e - 68 countCheck55_X29e <= 54
+-2 count55_X29 + countCheck55_X29s  + countCheck55_X29e  <= 1
+
+X30s + 68 countCheck55_X30s >= 56
+X30e - 68 countCheck55_X30e <= 54
+-2 count55_X30 + countCheck55_X30s  + countCheck55_X30e  <= 1
+
+X31s + 68 countCheck55_X31s >= 56
+X31e - 68 countCheck55_X31e <= 54
+-2 count55_X31 + countCheck55_X31s  + countCheck55_X31e  <= 1
+
+X32s + 68 countCheck55_X32s >= 56
+X32e - 68 countCheck55_X32e <= 54
+-2 count55_X32 + countCheck55_X32s  + countCheck55_X32e  <= 1
+
+X33s + 68 countCheck55_X33s >= 56
+X33e - 68 countCheck55_X33e <= 54
+-2 count55_X33 + countCheck55_X33s  + countCheck55_X33e  <= 1
+
+X34s + 68 countCheck55_X34s >= 56
+X34e - 68 countCheck55_X34e <= 54
+-2 count55_X34 + countCheck55_X34s  + countCheck55_X34e  <= 1
+
+X35s + 68 countCheck55_X35s >= 56
+X35e - 68 countCheck55_X35e <= 54
+-2 count55_X35 + countCheck55_X35s  + countCheck55_X35e  <= 1
+
+X36s + 68 countCheck55_X36s >= 56
+X36e - 68 countCheck55_X36e <= 54
+-2 count55_X36 + countCheck55_X36s  + countCheck55_X36e  <= 1
+
+X37s + 68 countCheck55_X37s >= 56
+X37e - 68 countCheck55_X37e <= 54
+-2 count55_X37 + countCheck55_X37s  + countCheck55_X37e  <= 1
+
+X38s + 68 countCheck55_X38s >= 56
+X38e - 68 countCheck55_X38e <= 54
+-2 count55_X38 + countCheck55_X38s  + countCheck55_X38e  <= 1
+
+X39s + 68 countCheck55_X39s >= 56
+X39e - 68 countCheck55_X39e <= 54
+-2 count55_X39 + countCheck55_X39s  + countCheck55_X39e  <= 1
+
+X40s + 68 countCheck55_X40s >= 56
+X40e - 68 countCheck55_X40e <= 54
+-2 count55_X40 + countCheck55_X40s  + countCheck55_X40e  <= 1
+
+X41s + 68 countCheck55_X41s >= 56
+X41e - 68 countCheck55_X41e <= 54
+-2 count55_X41 + countCheck55_X41s  + countCheck55_X41e  <= 1
+
+X42s + 68 countCheck55_X42s >= 56
+X42e - 68 countCheck55_X42e <= 54
+-2 count55_X42 + countCheck55_X42s  + countCheck55_X42e  <= 1
+
+X43s + 68 countCheck55_X43s >= 56
+X43e - 68 countCheck55_X43e <= 54
+-2 count55_X43 + countCheck55_X43s  + countCheck55_X43e  <= 1
+
+X44s + 68 countCheck55_X44s >= 56
+X44e - 68 countCheck55_X44e <= 54
+-2 count55_X44 + countCheck55_X44s  + countCheck55_X44e  <= 1
+
+X45s + 68 countCheck55_X45s >= 56
+X45e - 68 countCheck55_X45e <= 54
+-2 count55_X45 + countCheck55_X45s  + countCheck55_X45e  <= 1
+
+X46s + 68 countCheck55_X46s >= 56
+X46e - 68 countCheck55_X46e <= 54
+-2 count55_X46 + countCheck55_X46s  + countCheck55_X46e  <= 1
+
+X47s + 68 countCheck55_X47s >= 56
+X47e - 68 countCheck55_X47e <= 54
+-2 count55_X47 + countCheck55_X47s  + countCheck55_X47e  <= 1
+
+X48s + 68 countCheck55_X48s >= 56
+X48e - 68 countCheck55_X48e <= 54
+-2 count55_X48 + countCheck55_X48s  + countCheck55_X48e  <= 1
+
+X49s + 68 countCheck55_X49s >= 56
+X49e - 68 countCheck55_X49e <= 54
+-2 count55_X49 + countCheck55_X49s  + countCheck55_X49e  <= 1
+
+X50s + 68 countCheck55_X50s >= 56
+X50e - 68 countCheck55_X50e <= 54
+-2 count55_X50 + countCheck55_X50s  + countCheck55_X50e  <= 1
+
+X51s + 68 countCheck55_X51s >= 56
+X51e - 68 countCheck55_X51e <= 54
+-2 count55_X51 + countCheck55_X51s  + countCheck55_X51e  <= 1
+
+X52s + 68 countCheck55_X52s >= 56
+X52e - 68 countCheck55_X52e <= 54
+-2 count55_X52 + countCheck55_X52s  + countCheck55_X52e  <= 1
+
+X53s + 68 countCheck55_X53s >= 56
+X53e - 68 countCheck55_X53e <= 54
+-2 count55_X53 + countCheck55_X53s  + countCheck55_X53e  <= 1
+
+X54s + 68 countCheck55_X54s >= 56
+X54e - 68 countCheck55_X54e <= 54
+-2 count55_X54 + countCheck55_X54s  + countCheck55_X54e  <= 1
+
+X55s + 68 countCheck55_X55s >= 56
+X55e - 68 countCheck55_X55e <= 54
+-2 count55_X55 + countCheck55_X55s  + countCheck55_X55e  <= 1
+
+X56s + 68 countCheck55_X56s >= 56
+X56e - 68 countCheck55_X56e <= 54
+-2 count55_X56 + countCheck55_X56s  + countCheck55_X56e  <= 1
+
+X57s + 68 countCheck55_X57s >= 56
+X57e - 68 countCheck55_X57e <= 54
+-2 count55_X57 + countCheck55_X57s  + countCheck55_X57e  <= 1
+
+X58s + 68 countCheck55_X58s >= 56
+X58e - 68 countCheck55_X58e <= 54
+-2 count55_X58 + countCheck55_X58s  + countCheck55_X58e  <= 1
+
+X59s + 68 countCheck55_X59s >= 56
+X59e - 68 countCheck55_X59e <= 54
+-2 count55_X59 + countCheck55_X59s  + countCheck55_X59e  <= 1
+
+X60s + 68 countCheck55_X60s >= 56
+X60e - 68 countCheck55_X60e <= 54
+-2 count55_X60 + countCheck55_X60s  + countCheck55_X60e  <= 1
+
+X61s + 68 countCheck55_X61s >= 56
+X61e - 68 countCheck55_X61e <= 54
+-2 count55_X61 + countCheck55_X61s  + countCheck55_X61e  <= 1
+
+X62s + 68 countCheck55_X62s >= 56
+X62e - 68 countCheck55_X62e <= 54
+-2 count55_X62 + countCheck55_X62s  + countCheck55_X62e  <= 1
+
+X63s + 68 countCheck55_X63s >= 56
+X63e - 68 countCheck55_X63e <= 54
+-2 count55_X63 + countCheck55_X63s  + countCheck55_X63e  <= 1
+
+X64s + 68 countCheck55_X64s >= 56
+X64e - 68 countCheck55_X64e <= 54
+-2 count55_X64 + countCheck55_X64s  + countCheck55_X64e  <= 1
+
+X65s + 68 countCheck55_X65s >= 56
+X65e - 68 countCheck55_X65e <= 54
+-2 count55_X65 + countCheck55_X65s  + countCheck55_X65e  <= 1
+
+X66s + 68 countCheck55_X66s >= 56
+X66e - 68 countCheck55_X66e <= 54
+-2 count55_X66 + countCheck55_X66s  + countCheck55_X66e  <= 1
+
+X67s + 68 countCheck55_X67s >= 56
+X67e - 68 countCheck55_X67e <= 54
+-2 count55_X67 + countCheck55_X67s  + countCheck55_X67e  <= 1
+
+count55_X0 + count55_X1 + count55_X2 + count55_X3 + count55_X4 + count55_X5 + count55_X6 + count55_X7 + count55_X8 + count55_X9 + count55_X10 + count55_X11 + count55_X12 + count55_X13 + count55_X14 + count55_X15 + count55_X16 + count55_X17 + count55_X18 + count55_X19 + count55_X20 + count55_X21 + count55_X22 + count55_X23 + count55_X24 + count55_X25 + count55_X26 + count55_X27 + count55_X28 + count55_X29 + count55_X30 + count55_X31 + count55_X32 + count55_X33 + count55_X34 + count55_X35 + count55_X36 + count55_X37 + count55_X38 + count55_X39 + count55_X40 + count55_X41 + count55_X42 + count55_X43 + count55_X44 + count55_X45 + count55_X46 + count55_X47 + count55_X48 + count55_X49 + count55_X50 + count55_X51 + count55_X52 + count55_X53 + count55_X54 + count55_X55 + count55_X56 + count55_X57 + count55_X58 + count55_X59 + count55_X60 + count55_X61 + count55_X62 + count55_X63 + count55_X64 + count55_X65 + count55_X66 + count55_X67 - pathWidth <= 1
+X0s + 68 countCheck56_X0s >= 57
+X0e - 68 countCheck56_X0e <= 55
+-2 count56_X0 + countCheck56_X0s  + countCheck56_X0e  <= 1
+
+X1s + 68 countCheck56_X1s >= 57
+X1e - 68 countCheck56_X1e <= 55
+-2 count56_X1 + countCheck56_X1s  + countCheck56_X1e  <= 1
+
+X2s + 68 countCheck56_X2s >= 57
+X2e - 68 countCheck56_X2e <= 55
+-2 count56_X2 + countCheck56_X2s  + countCheck56_X2e  <= 1
+
+X3s + 68 countCheck56_X3s >= 57
+X3e - 68 countCheck56_X3e <= 55
+-2 count56_X3 + countCheck56_X3s  + countCheck56_X3e  <= 1
+
+X4s + 68 countCheck56_X4s >= 57
+X4e - 68 countCheck56_X4e <= 55
+-2 count56_X4 + countCheck56_X4s  + countCheck56_X4e  <= 1
+
+X5s + 68 countCheck56_X5s >= 57
+X5e - 68 countCheck56_X5e <= 55
+-2 count56_X5 + countCheck56_X5s  + countCheck56_X5e  <= 1
+
+X6s + 68 countCheck56_X6s >= 57
+X6e - 68 countCheck56_X6e <= 55
+-2 count56_X6 + countCheck56_X6s  + countCheck56_X6e  <= 1
+
+X7s + 68 countCheck56_X7s >= 57
+X7e - 68 countCheck56_X7e <= 55
+-2 count56_X7 + countCheck56_X7s  + countCheck56_X7e  <= 1
+
+X8s + 68 countCheck56_X8s >= 57
+X8e - 68 countCheck56_X8e <= 55
+-2 count56_X8 + countCheck56_X8s  + countCheck56_X8e  <= 1
+
+X9s + 68 countCheck56_X9s >= 57
+X9e - 68 countCheck56_X9e <= 55
+-2 count56_X9 + countCheck56_X9s  + countCheck56_X9e  <= 1
+
+X10s + 68 countCheck56_X10s >= 57
+X10e - 68 countCheck56_X10e <= 55
+-2 count56_X10 + countCheck56_X10s  + countCheck56_X10e  <= 1
+
+X11s + 68 countCheck56_X11s >= 57
+X11e - 68 countCheck56_X11e <= 55
+-2 count56_X11 + countCheck56_X11s  + countCheck56_X11e  <= 1
+
+X12s + 68 countCheck56_X12s >= 57
+X12e - 68 countCheck56_X12e <= 55
+-2 count56_X12 + countCheck56_X12s  + countCheck56_X12e  <= 1
+
+X13s + 68 countCheck56_X13s >= 57
+X13e - 68 countCheck56_X13e <= 55
+-2 count56_X13 + countCheck56_X13s  + countCheck56_X13e  <= 1
+
+X14s + 68 countCheck56_X14s >= 57
+X14e - 68 countCheck56_X14e <= 55
+-2 count56_X14 + countCheck56_X14s  + countCheck56_X14e  <= 1
+
+X15s + 68 countCheck56_X15s >= 57
+X15e - 68 countCheck56_X15e <= 55
+-2 count56_X15 + countCheck56_X15s  + countCheck56_X15e  <= 1
+
+X16s + 68 countCheck56_X16s >= 57
+X16e - 68 countCheck56_X16e <= 55
+-2 count56_X16 + countCheck56_X16s  + countCheck56_X16e  <= 1
+
+X17s + 68 countCheck56_X17s >= 57
+X17e - 68 countCheck56_X17e <= 55
+-2 count56_X17 + countCheck56_X17s  + countCheck56_X17e  <= 1
+
+X18s + 68 countCheck56_X18s >= 57
+X18e - 68 countCheck56_X18e <= 55
+-2 count56_X18 + countCheck56_X18s  + countCheck56_X18e  <= 1
+
+X19s + 68 countCheck56_X19s >= 57
+X19e - 68 countCheck56_X19e <= 55
+-2 count56_X19 + countCheck56_X19s  + countCheck56_X19e  <= 1
+
+X20s + 68 countCheck56_X20s >= 57
+X20e - 68 countCheck56_X20e <= 55
+-2 count56_X20 + countCheck56_X20s  + countCheck56_X20e  <= 1
+
+X21s + 68 countCheck56_X21s >= 57
+X21e - 68 countCheck56_X21e <= 55
+-2 count56_X21 + countCheck56_X21s  + countCheck56_X21e  <= 1
+
+X22s + 68 countCheck56_X22s >= 57
+X22e - 68 countCheck56_X22e <= 55
+-2 count56_X22 + countCheck56_X22s  + countCheck56_X22e  <= 1
+
+X23s + 68 countCheck56_X23s >= 57
+X23e - 68 countCheck56_X23e <= 55
+-2 count56_X23 + countCheck56_X23s  + countCheck56_X23e  <= 1
+
+X24s + 68 countCheck56_X24s >= 57
+X24e - 68 countCheck56_X24e <= 55
+-2 count56_X24 + countCheck56_X24s  + countCheck56_X24e  <= 1
+
+X25s + 68 countCheck56_X25s >= 57
+X25e - 68 countCheck56_X25e <= 55
+-2 count56_X25 + countCheck56_X25s  + countCheck56_X25e  <= 1
+
+X26s + 68 countCheck56_X26s >= 57
+X26e - 68 countCheck56_X26e <= 55
+-2 count56_X26 + countCheck56_X26s  + countCheck56_X26e  <= 1
+
+X27s + 68 countCheck56_X27s >= 57
+X27e - 68 countCheck56_X27e <= 55
+-2 count56_X27 + countCheck56_X27s  + countCheck56_X27e  <= 1
+
+X28s + 68 countCheck56_X28s >= 57
+X28e - 68 countCheck56_X28e <= 55
+-2 count56_X28 + countCheck56_X28s  + countCheck56_X28e  <= 1
+
+X29s + 68 countCheck56_X29s >= 57
+X29e - 68 countCheck56_X29e <= 55
+-2 count56_X29 + countCheck56_X29s  + countCheck56_X29e  <= 1
+
+X30s + 68 countCheck56_X30s >= 57
+X30e - 68 countCheck56_X30e <= 55
+-2 count56_X30 + countCheck56_X30s  + countCheck56_X30e  <= 1
+
+X31s + 68 countCheck56_X31s >= 57
+X31e - 68 countCheck56_X31e <= 55
+-2 count56_X31 + countCheck56_X31s  + countCheck56_X31e  <= 1
+
+X32s + 68 countCheck56_X32s >= 57
+X32e - 68 countCheck56_X32e <= 55
+-2 count56_X32 + countCheck56_X32s  + countCheck56_X32e  <= 1
+
+X33s + 68 countCheck56_X33s >= 57
+X33e - 68 countCheck56_X33e <= 55
+-2 count56_X33 + countCheck56_X33s  + countCheck56_X33e  <= 1
+
+X34s + 68 countCheck56_X34s >= 57
+X34e - 68 countCheck56_X34e <= 55
+-2 count56_X34 + countCheck56_X34s  + countCheck56_X34e  <= 1
+
+X35s + 68 countCheck56_X35s >= 57
+X35e - 68 countCheck56_X35e <= 55
+-2 count56_X35 + countCheck56_X35s  + countCheck56_X35e  <= 1
+
+X36s + 68 countCheck56_X36s >= 57
+X36e - 68 countCheck56_X36e <= 55
+-2 count56_X36 + countCheck56_X36s  + countCheck56_X36e  <= 1
+
+X37s + 68 countCheck56_X37s >= 57
+X37e - 68 countCheck56_X37e <= 55
+-2 count56_X37 + countCheck56_X37s  + countCheck56_X37e  <= 1
+
+X38s + 68 countCheck56_X38s >= 57
+X38e - 68 countCheck56_X38e <= 55
+-2 count56_X38 + countCheck56_X38s  + countCheck56_X38e  <= 1
+
+X39s + 68 countCheck56_X39s >= 57
+X39e - 68 countCheck56_X39e <= 55
+-2 count56_X39 + countCheck56_X39s  + countCheck56_X39e  <= 1
+
+X40s + 68 countCheck56_X40s >= 57
+X40e - 68 countCheck56_X40e <= 55
+-2 count56_X40 + countCheck56_X40s  + countCheck56_X40e  <= 1
+
+X41s + 68 countCheck56_X41s >= 57
+X41e - 68 countCheck56_X41e <= 55
+-2 count56_X41 + countCheck56_X41s  + countCheck56_X41e  <= 1
+
+X42s + 68 countCheck56_X42s >= 57
+X42e - 68 countCheck56_X42e <= 55
+-2 count56_X42 + countCheck56_X42s  + countCheck56_X42e  <= 1
+
+X43s + 68 countCheck56_X43s >= 57
+X43e - 68 countCheck56_X43e <= 55
+-2 count56_X43 + countCheck56_X43s  + countCheck56_X43e  <= 1
+
+X44s + 68 countCheck56_X44s >= 57
+X44e - 68 countCheck56_X44e <= 55
+-2 count56_X44 + countCheck56_X44s  + countCheck56_X44e  <= 1
+
+X45s + 68 countCheck56_X45s >= 57
+X45e - 68 countCheck56_X45e <= 55
+-2 count56_X45 + countCheck56_X45s  + countCheck56_X45e  <= 1
+
+X46s + 68 countCheck56_X46s >= 57
+X46e - 68 countCheck56_X46e <= 55
+-2 count56_X46 + countCheck56_X46s  + countCheck56_X46e  <= 1
+
+X47s + 68 countCheck56_X47s >= 57
+X47e - 68 countCheck56_X47e <= 55
+-2 count56_X47 + countCheck56_X47s  + countCheck56_X47e  <= 1
+
+X48s + 68 countCheck56_X48s >= 57
+X48e - 68 countCheck56_X48e <= 55
+-2 count56_X48 + countCheck56_X48s  + countCheck56_X48e  <= 1
+
+X49s + 68 countCheck56_X49s >= 57
+X49e - 68 countCheck56_X49e <= 55
+-2 count56_X49 + countCheck56_X49s  + countCheck56_X49e  <= 1
+
+X50s + 68 countCheck56_X50s >= 57
+X50e - 68 countCheck56_X50e <= 55
+-2 count56_X50 + countCheck56_X50s  + countCheck56_X50e  <= 1
+
+X51s + 68 countCheck56_X51s >= 57
+X51e - 68 countCheck56_X51e <= 55
+-2 count56_X51 + countCheck56_X51s  + countCheck56_X51e  <= 1
+
+X52s + 68 countCheck56_X52s >= 57
+X52e - 68 countCheck56_X52e <= 55
+-2 count56_X52 + countCheck56_X52s  + countCheck56_X52e  <= 1
+
+X53s + 68 countCheck56_X53s >= 57
+X53e - 68 countCheck56_X53e <= 55
+-2 count56_X53 + countCheck56_X53s  + countCheck56_X53e  <= 1
+
+X54s + 68 countCheck56_X54s >= 57
+X54e - 68 countCheck56_X54e <= 55
+-2 count56_X54 + countCheck56_X54s  + countCheck56_X54e  <= 1
+
+X55s + 68 countCheck56_X55s >= 57
+X55e - 68 countCheck56_X55e <= 55
+-2 count56_X55 + countCheck56_X55s  + countCheck56_X55e  <= 1
+
+X56s + 68 countCheck56_X56s >= 57
+X56e - 68 countCheck56_X56e <= 55
+-2 count56_X56 + countCheck56_X56s  + countCheck56_X56e  <= 1
+
+X57s + 68 countCheck56_X57s >= 57
+X57e - 68 countCheck56_X57e <= 55
+-2 count56_X57 + countCheck56_X57s  + countCheck56_X57e  <= 1
+
+X58s + 68 countCheck56_X58s >= 57
+X58e - 68 countCheck56_X58e <= 55
+-2 count56_X58 + countCheck56_X58s  + countCheck56_X58e  <= 1
+
+X59s + 68 countCheck56_X59s >= 57
+X59e - 68 countCheck56_X59e <= 55
+-2 count56_X59 + countCheck56_X59s  + countCheck56_X59e  <= 1
+
+X60s + 68 countCheck56_X60s >= 57
+X60e - 68 countCheck56_X60e <= 55
+-2 count56_X60 + countCheck56_X60s  + countCheck56_X60e  <= 1
+
+X61s + 68 countCheck56_X61s >= 57
+X61e - 68 countCheck56_X61e <= 55
+-2 count56_X61 + countCheck56_X61s  + countCheck56_X61e  <= 1
+
+X62s + 68 countCheck56_X62s >= 57
+X62e - 68 countCheck56_X62e <= 55
+-2 count56_X62 + countCheck56_X62s  + countCheck56_X62e  <= 1
+
+X63s + 68 countCheck56_X63s >= 57
+X63e - 68 countCheck56_X63e <= 55
+-2 count56_X63 + countCheck56_X63s  + countCheck56_X63e  <= 1
+
+X64s + 68 countCheck56_X64s >= 57
+X64e - 68 countCheck56_X64e <= 55
+-2 count56_X64 + countCheck56_X64s  + countCheck56_X64e  <= 1
+
+X65s + 68 countCheck56_X65s >= 57
+X65e - 68 countCheck56_X65e <= 55
+-2 count56_X65 + countCheck56_X65s  + countCheck56_X65e  <= 1
+
+X66s + 68 countCheck56_X66s >= 57
+X66e - 68 countCheck56_X66e <= 55
+-2 count56_X66 + countCheck56_X66s  + countCheck56_X66e  <= 1
+
+X67s + 68 countCheck56_X67s >= 57
+X67e - 68 countCheck56_X67e <= 55
+-2 count56_X67 + countCheck56_X67s  + countCheck56_X67e  <= 1
+
+count56_X0 + count56_X1 + count56_X2 + count56_X3 + count56_X4 + count56_X5 + count56_X6 + count56_X7 + count56_X8 + count56_X9 + count56_X10 + count56_X11 + count56_X12 + count56_X13 + count56_X14 + count56_X15 + count56_X16 + count56_X17 + count56_X18 + count56_X19 + count56_X20 + count56_X21 + count56_X22 + count56_X23 + count56_X24 + count56_X25 + count56_X26 + count56_X27 + count56_X28 + count56_X29 + count56_X30 + count56_X31 + count56_X32 + count56_X33 + count56_X34 + count56_X35 + count56_X36 + count56_X37 + count56_X38 + count56_X39 + count56_X40 + count56_X41 + count56_X42 + count56_X43 + count56_X44 + count56_X45 + count56_X46 + count56_X47 + count56_X48 + count56_X49 + count56_X50 + count56_X51 + count56_X52 + count56_X53 + count56_X54 + count56_X55 + count56_X56 + count56_X57 + count56_X58 + count56_X59 + count56_X60 + count56_X61 + count56_X62 + count56_X63 + count56_X64 + count56_X65 + count56_X66 + count56_X67 - pathWidth <= 1
+X0s + 68 countCheck57_X0s >= 58
+X0e - 68 countCheck57_X0e <= 56
+-2 count57_X0 + countCheck57_X0s  + countCheck57_X0e  <= 1
+
+X1s + 68 countCheck57_X1s >= 58
+X1e - 68 countCheck57_X1e <= 56
+-2 count57_X1 + countCheck57_X1s  + countCheck57_X1e  <= 1
+
+X2s + 68 countCheck57_X2s >= 58
+X2e - 68 countCheck57_X2e <= 56
+-2 count57_X2 + countCheck57_X2s  + countCheck57_X2e  <= 1
+
+X3s + 68 countCheck57_X3s >= 58
+X3e - 68 countCheck57_X3e <= 56
+-2 count57_X3 + countCheck57_X3s  + countCheck57_X3e  <= 1
+
+X4s + 68 countCheck57_X4s >= 58
+X4e - 68 countCheck57_X4e <= 56
+-2 count57_X4 + countCheck57_X4s  + countCheck57_X4e  <= 1
+
+X5s + 68 countCheck57_X5s >= 58
+X5e - 68 countCheck57_X5e <= 56
+-2 count57_X5 + countCheck57_X5s  + countCheck57_X5e  <= 1
+
+X6s + 68 countCheck57_X6s >= 58
+X6e - 68 countCheck57_X6e <= 56
+-2 count57_X6 + countCheck57_X6s  + countCheck57_X6e  <= 1
+
+X7s + 68 countCheck57_X7s >= 58
+X7e - 68 countCheck57_X7e <= 56
+-2 count57_X7 + countCheck57_X7s  + countCheck57_X7e  <= 1
+
+X8s + 68 countCheck57_X8s >= 58
+X8e - 68 countCheck57_X8e <= 56
+-2 count57_X8 + countCheck57_X8s  + countCheck57_X8e  <= 1
+
+X9s + 68 countCheck57_X9s >= 58
+X9e - 68 countCheck57_X9e <= 56
+-2 count57_X9 + countCheck57_X9s  + countCheck57_X9e  <= 1
+
+X10s + 68 countCheck57_X10s >= 58
+X10e - 68 countCheck57_X10e <= 56
+-2 count57_X10 + countCheck57_X10s  + countCheck57_X10e  <= 1
+
+X11s + 68 countCheck57_X11s >= 58
+X11e - 68 countCheck57_X11e <= 56
+-2 count57_X11 + countCheck57_X11s  + countCheck57_X11e  <= 1
+
+X12s + 68 countCheck57_X12s >= 58
+X12e - 68 countCheck57_X12e <= 56
+-2 count57_X12 + countCheck57_X12s  + countCheck57_X12e  <= 1
+
+X13s + 68 countCheck57_X13s >= 58
+X13e - 68 countCheck57_X13e <= 56
+-2 count57_X13 + countCheck57_X13s  + countCheck57_X13e  <= 1
+
+X14s + 68 countCheck57_X14s >= 58
+X14e - 68 countCheck57_X14e <= 56
+-2 count57_X14 + countCheck57_X14s  + countCheck57_X14e  <= 1
+
+X15s + 68 countCheck57_X15s >= 58
+X15e - 68 countCheck57_X15e <= 56
+-2 count57_X15 + countCheck57_X15s  + countCheck57_X15e  <= 1
+
+X16s + 68 countCheck57_X16s >= 58
+X16e - 68 countCheck57_X16e <= 56
+-2 count57_X16 + countCheck57_X16s  + countCheck57_X16e  <= 1
+
+X17s + 68 countCheck57_X17s >= 58
+X17e - 68 countCheck57_X17e <= 56
+-2 count57_X17 + countCheck57_X17s  + countCheck57_X17e  <= 1
+
+X18s + 68 countCheck57_X18s >= 58
+X18e - 68 countCheck57_X18e <= 56
+-2 count57_X18 + countCheck57_X18s  + countCheck57_X18e  <= 1
+
+X19s + 68 countCheck57_X19s >= 58
+X19e - 68 countCheck57_X19e <= 56
+-2 count57_X19 + countCheck57_X19s  + countCheck57_X19e  <= 1
+
+X20s + 68 countCheck57_X20s >= 58
+X20e - 68 countCheck57_X20e <= 56
+-2 count57_X20 + countCheck57_X20s  + countCheck57_X20e  <= 1
+
+X21s + 68 countCheck57_X21s >= 58
+X21e - 68 countCheck57_X21e <= 56
+-2 count57_X21 + countCheck57_X21s  + countCheck57_X21e  <= 1
+
+X22s + 68 countCheck57_X22s >= 58
+X22e - 68 countCheck57_X22e <= 56
+-2 count57_X22 + countCheck57_X22s  + countCheck57_X22e  <= 1
+
+X23s + 68 countCheck57_X23s >= 58
+X23e - 68 countCheck57_X23e <= 56
+-2 count57_X23 + countCheck57_X23s  + countCheck57_X23e  <= 1
+
+X24s + 68 countCheck57_X24s >= 58
+X24e - 68 countCheck57_X24e <= 56
+-2 count57_X24 + countCheck57_X24s  + countCheck57_X24e  <= 1
+
+X25s + 68 countCheck57_X25s >= 58
+X25e - 68 countCheck57_X25e <= 56
+-2 count57_X25 + countCheck57_X25s  + countCheck57_X25e  <= 1
+
+X26s + 68 countCheck57_X26s >= 58
+X26e - 68 countCheck57_X26e <= 56
+-2 count57_X26 + countCheck57_X26s  + countCheck57_X26e  <= 1
+
+X27s + 68 countCheck57_X27s >= 58
+X27e - 68 countCheck57_X27e <= 56
+-2 count57_X27 + countCheck57_X27s  + countCheck57_X27e  <= 1
+
+X28s + 68 countCheck57_X28s >= 58
+X28e - 68 countCheck57_X28e <= 56
+-2 count57_X28 + countCheck57_X28s  + countCheck57_X28e  <= 1
+
+X29s + 68 countCheck57_X29s >= 58
+X29e - 68 countCheck57_X29e <= 56
+-2 count57_X29 + countCheck57_X29s  + countCheck57_X29e  <= 1
+
+X30s + 68 countCheck57_X30s >= 58
+X30e - 68 countCheck57_X30e <= 56
+-2 count57_X30 + countCheck57_X30s  + countCheck57_X30e  <= 1
+
+X31s + 68 countCheck57_X31s >= 58
+X31e - 68 countCheck57_X31e <= 56
+-2 count57_X31 + countCheck57_X31s  + countCheck57_X31e  <= 1
+
+X32s + 68 countCheck57_X32s >= 58
+X32e - 68 countCheck57_X32e <= 56
+-2 count57_X32 + countCheck57_X32s  + countCheck57_X32e  <= 1
+
+X33s + 68 countCheck57_X33s >= 58
+X33e - 68 countCheck57_X33e <= 56
+-2 count57_X33 + countCheck57_X33s  + countCheck57_X33e  <= 1
+
+X34s + 68 countCheck57_X34s >= 58
+X34e - 68 countCheck57_X34e <= 56
+-2 count57_X34 + countCheck57_X34s  + countCheck57_X34e  <= 1
+
+X35s + 68 countCheck57_X35s >= 58
+X35e - 68 countCheck57_X35e <= 56
+-2 count57_X35 + countCheck57_X35s  + countCheck57_X35e  <= 1
+
+X36s + 68 countCheck57_X36s >= 58
+X36e - 68 countCheck57_X36e <= 56
+-2 count57_X36 + countCheck57_X36s  + countCheck57_X36e  <= 1
+
+X37s + 68 countCheck57_X37s >= 58
+X37e - 68 countCheck57_X37e <= 56
+-2 count57_X37 + countCheck57_X37s  + countCheck57_X37e  <= 1
+
+X38s + 68 countCheck57_X38s >= 58
+X38e - 68 countCheck57_X38e <= 56
+-2 count57_X38 + countCheck57_X38s  + countCheck57_X38e  <= 1
+
+X39s + 68 countCheck57_X39s >= 58
+X39e - 68 countCheck57_X39e <= 56
+-2 count57_X39 + countCheck57_X39s  + countCheck57_X39e  <= 1
+
+X40s + 68 countCheck57_X40s >= 58
+X40e - 68 countCheck57_X40e <= 56
+-2 count57_X40 + countCheck57_X40s  + countCheck57_X40e  <= 1
+
+X41s + 68 countCheck57_X41s >= 58
+X41e - 68 countCheck57_X41e <= 56
+-2 count57_X41 + countCheck57_X41s  + countCheck57_X41e  <= 1
+
+X42s + 68 countCheck57_X42s >= 58
+X42e - 68 countCheck57_X42e <= 56
+-2 count57_X42 + countCheck57_X42s  + countCheck57_X42e  <= 1
+
+X43s + 68 countCheck57_X43s >= 58
+X43e - 68 countCheck57_X43e <= 56
+-2 count57_X43 + countCheck57_X43s  + countCheck57_X43e  <= 1
+
+X44s + 68 countCheck57_X44s >= 58
+X44e - 68 countCheck57_X44e <= 56
+-2 count57_X44 + countCheck57_X44s  + countCheck57_X44e  <= 1
+
+X45s + 68 countCheck57_X45s >= 58
+X45e - 68 countCheck57_X45e <= 56
+-2 count57_X45 + countCheck57_X45s  + countCheck57_X45e  <= 1
+
+X46s + 68 countCheck57_X46s >= 58
+X46e - 68 countCheck57_X46e <= 56
+-2 count57_X46 + countCheck57_X46s  + countCheck57_X46e  <= 1
+
+X47s + 68 countCheck57_X47s >= 58
+X47e - 68 countCheck57_X47e <= 56
+-2 count57_X47 + countCheck57_X47s  + countCheck57_X47e  <= 1
+
+X48s + 68 countCheck57_X48s >= 58
+X48e - 68 countCheck57_X48e <= 56
+-2 count57_X48 + countCheck57_X48s  + countCheck57_X48e  <= 1
+
+X49s + 68 countCheck57_X49s >= 58
+X49e - 68 countCheck57_X49e <= 56
+-2 count57_X49 + countCheck57_X49s  + countCheck57_X49e  <= 1
+
+X50s + 68 countCheck57_X50s >= 58
+X50e - 68 countCheck57_X50e <= 56
+-2 count57_X50 + countCheck57_X50s  + countCheck57_X50e  <= 1
+
+X51s + 68 countCheck57_X51s >= 58
+X51e - 68 countCheck57_X51e <= 56
+-2 count57_X51 + countCheck57_X51s  + countCheck57_X51e  <= 1
+
+X52s + 68 countCheck57_X52s >= 58
+X52e - 68 countCheck57_X52e <= 56
+-2 count57_X52 + countCheck57_X52s  + countCheck57_X52e  <= 1
+
+X53s + 68 countCheck57_X53s >= 58
+X53e - 68 countCheck57_X53e <= 56
+-2 count57_X53 + countCheck57_X53s  + countCheck57_X53e  <= 1
+
+X54s + 68 countCheck57_X54s >= 58
+X54e - 68 countCheck57_X54e <= 56
+-2 count57_X54 + countCheck57_X54s  + countCheck57_X54e  <= 1
+
+X55s + 68 countCheck57_X55s >= 58
+X55e - 68 countCheck57_X55e <= 56
+-2 count57_X55 + countCheck57_X55s  + countCheck57_X55e  <= 1
+
+X56s + 68 countCheck57_X56s >= 58
+X56e - 68 countCheck57_X56e <= 56
+-2 count57_X56 + countCheck57_X56s  + countCheck57_X56e  <= 1
+
+X57s + 68 countCheck57_X57s >= 58
+X57e - 68 countCheck57_X57e <= 56
+-2 count57_X57 + countCheck57_X57s  + countCheck57_X57e  <= 1
+
+X58s + 68 countCheck57_X58s >= 58
+X58e - 68 countCheck57_X58e <= 56
+-2 count57_X58 + countCheck57_X58s  + countCheck57_X58e  <= 1
+
+X59s + 68 countCheck57_X59s >= 58
+X59e - 68 countCheck57_X59e <= 56
+-2 count57_X59 + countCheck57_X59s  + countCheck57_X59e  <= 1
+
+X60s + 68 countCheck57_X60s >= 58
+X60e - 68 countCheck57_X60e <= 56
+-2 count57_X60 + countCheck57_X60s  + countCheck57_X60e  <= 1
+
+X61s + 68 countCheck57_X61s >= 58
+X61e - 68 countCheck57_X61e <= 56
+-2 count57_X61 + countCheck57_X61s  + countCheck57_X61e  <= 1
+
+X62s + 68 countCheck57_X62s >= 58
+X62e - 68 countCheck57_X62e <= 56
+-2 count57_X62 + countCheck57_X62s  + countCheck57_X62e  <= 1
+
+X63s + 68 countCheck57_X63s >= 58
+X63e - 68 countCheck57_X63e <= 56
+-2 count57_X63 + countCheck57_X63s  + countCheck57_X63e  <= 1
+
+X64s + 68 countCheck57_X64s >= 58
+X64e - 68 countCheck57_X64e <= 56
+-2 count57_X64 + countCheck57_X64s  + countCheck57_X64e  <= 1
+
+X65s + 68 countCheck57_X65s >= 58
+X65e - 68 countCheck57_X65e <= 56
+-2 count57_X65 + countCheck57_X65s  + countCheck57_X65e  <= 1
+
+X66s + 68 countCheck57_X66s >= 58
+X66e - 68 countCheck57_X66e <= 56
+-2 count57_X66 + countCheck57_X66s  + countCheck57_X66e  <= 1
+
+X67s + 68 countCheck57_X67s >= 58
+X67e - 68 countCheck57_X67e <= 56
+-2 count57_X67 + countCheck57_X67s  + countCheck57_X67e  <= 1
+
+count57_X0 + count57_X1 + count57_X2 + count57_X3 + count57_X4 + count57_X5 + count57_X6 + count57_X7 + count57_X8 + count57_X9 + count57_X10 + count57_X11 + count57_X12 + count57_X13 + count57_X14 + count57_X15 + count57_X16 + count57_X17 + count57_X18 + count57_X19 + count57_X20 + count57_X21 + count57_X22 + count57_X23 + count57_X24 + count57_X25 + count57_X26 + count57_X27 + count57_X28 + count57_X29 + count57_X30 + count57_X31 + count57_X32 + count57_X33 + count57_X34 + count57_X35 + count57_X36 + count57_X37 + count57_X38 + count57_X39 + count57_X40 + count57_X41 + count57_X42 + count57_X43 + count57_X44 + count57_X45 + count57_X46 + count57_X47 + count57_X48 + count57_X49 + count57_X50 + count57_X51 + count57_X52 + count57_X53 + count57_X54 + count57_X55 + count57_X56 + count57_X57 + count57_X58 + count57_X59 + count57_X60 + count57_X61 + count57_X62 + count57_X63 + count57_X64 + count57_X65 + count57_X66 + count57_X67 - pathWidth <= 1
+X0s + 68 countCheck58_X0s >= 59
+X0e - 68 countCheck58_X0e <= 57
+-2 count58_X0 + countCheck58_X0s  + countCheck58_X0e  <= 1
+
+X1s + 68 countCheck58_X1s >= 59
+X1e - 68 countCheck58_X1e <= 57
+-2 count58_X1 + countCheck58_X1s  + countCheck58_X1e  <= 1
+
+X2s + 68 countCheck58_X2s >= 59
+X2e - 68 countCheck58_X2e <= 57
+-2 count58_X2 + countCheck58_X2s  + countCheck58_X2e  <= 1
+
+X3s + 68 countCheck58_X3s >= 59
+X3e - 68 countCheck58_X3e <= 57
+-2 count58_X3 + countCheck58_X3s  + countCheck58_X3e  <= 1
+
+X4s + 68 countCheck58_X4s >= 59
+X4e - 68 countCheck58_X4e <= 57
+-2 count58_X4 + countCheck58_X4s  + countCheck58_X4e  <= 1
+
+X5s + 68 countCheck58_X5s >= 59
+X5e - 68 countCheck58_X5e <= 57
+-2 count58_X5 + countCheck58_X5s  + countCheck58_X5e  <= 1
+
+X6s + 68 countCheck58_X6s >= 59
+X6e - 68 countCheck58_X6e <= 57
+-2 count58_X6 + countCheck58_X6s  + countCheck58_X6e  <= 1
+
+X7s + 68 countCheck58_X7s >= 59
+X7e - 68 countCheck58_X7e <= 57
+-2 count58_X7 + countCheck58_X7s  + countCheck58_X7e  <= 1
+
+X8s + 68 countCheck58_X8s >= 59
+X8e - 68 countCheck58_X8e <= 57
+-2 count58_X8 + countCheck58_X8s  + countCheck58_X8e  <= 1
+
+X9s + 68 countCheck58_X9s >= 59
+X9e - 68 countCheck58_X9e <= 57
+-2 count58_X9 + countCheck58_X9s  + countCheck58_X9e  <= 1
+
+X10s + 68 countCheck58_X10s >= 59
+X10e - 68 countCheck58_X10e <= 57
+-2 count58_X10 + countCheck58_X10s  + countCheck58_X10e  <= 1
+
+X11s + 68 countCheck58_X11s >= 59
+X11e - 68 countCheck58_X11e <= 57
+-2 count58_X11 + countCheck58_X11s  + countCheck58_X11e  <= 1
+
+X12s + 68 countCheck58_X12s >= 59
+X12e - 68 countCheck58_X12e <= 57
+-2 count58_X12 + countCheck58_X12s  + countCheck58_X12e  <= 1
+
+X13s + 68 countCheck58_X13s >= 59
+X13e - 68 countCheck58_X13e <= 57
+-2 count58_X13 + countCheck58_X13s  + countCheck58_X13e  <= 1
+
+X14s + 68 countCheck58_X14s >= 59
+X14e - 68 countCheck58_X14e <= 57
+-2 count58_X14 + countCheck58_X14s  + countCheck58_X14e  <= 1
+
+X15s + 68 countCheck58_X15s >= 59
+X15e - 68 countCheck58_X15e <= 57
+-2 count58_X15 + countCheck58_X15s  + countCheck58_X15e  <= 1
+
+X16s + 68 countCheck58_X16s >= 59
+X16e - 68 countCheck58_X16e <= 57
+-2 count58_X16 + countCheck58_X16s  + countCheck58_X16e  <= 1
+
+X17s + 68 countCheck58_X17s >= 59
+X17e - 68 countCheck58_X17e <= 57
+-2 count58_X17 + countCheck58_X17s  + countCheck58_X17e  <= 1
+
+X18s + 68 countCheck58_X18s >= 59
+X18e - 68 countCheck58_X18e <= 57
+-2 count58_X18 + countCheck58_X18s  + countCheck58_X18e  <= 1
+
+X19s + 68 countCheck58_X19s >= 59
+X19e - 68 countCheck58_X19e <= 57
+-2 count58_X19 + countCheck58_X19s  + countCheck58_X19e  <= 1
+
+X20s + 68 countCheck58_X20s >= 59
+X20e - 68 countCheck58_X20e <= 57
+-2 count58_X20 + countCheck58_X20s  + countCheck58_X20e  <= 1
+
+X21s + 68 countCheck58_X21s >= 59
+X21e - 68 countCheck58_X21e <= 57
+-2 count58_X21 + countCheck58_X21s  + countCheck58_X21e  <= 1
+
+X22s + 68 countCheck58_X22s >= 59
+X22e - 68 countCheck58_X22e <= 57
+-2 count58_X22 + countCheck58_X22s  + countCheck58_X22e  <= 1
+
+X23s + 68 countCheck58_X23s >= 59
+X23e - 68 countCheck58_X23e <= 57
+-2 count58_X23 + countCheck58_X23s  + countCheck58_X23e  <= 1
+
+X24s + 68 countCheck58_X24s >= 59
+X24e - 68 countCheck58_X24e <= 57
+-2 count58_X24 + countCheck58_X24s  + countCheck58_X24e  <= 1
+
+X25s + 68 countCheck58_X25s >= 59
+X25e - 68 countCheck58_X25e <= 57
+-2 count58_X25 + countCheck58_X25s  + countCheck58_X25e  <= 1
+
+X26s + 68 countCheck58_X26s >= 59
+X26e - 68 countCheck58_X26e <= 57
+-2 count58_X26 + countCheck58_X26s  + countCheck58_X26e  <= 1
+
+X27s + 68 countCheck58_X27s >= 59
+X27e - 68 countCheck58_X27e <= 57
+-2 count58_X27 + countCheck58_X27s  + countCheck58_X27e  <= 1
+
+X28s + 68 countCheck58_X28s >= 59
+X28e - 68 countCheck58_X28e <= 57
+-2 count58_X28 + countCheck58_X28s  + countCheck58_X28e  <= 1
+
+X29s + 68 countCheck58_X29s >= 59
+X29e - 68 countCheck58_X29e <= 57
+-2 count58_X29 + countCheck58_X29s  + countCheck58_X29e  <= 1
+
+X30s + 68 countCheck58_X30s >= 59
+X30e - 68 countCheck58_X30e <= 57
+-2 count58_X30 + countCheck58_X30s  + countCheck58_X30e  <= 1
+
+X31s + 68 countCheck58_X31s >= 59
+X31e - 68 countCheck58_X31e <= 57
+-2 count58_X31 + countCheck58_X31s  + countCheck58_X31e  <= 1
+
+X32s + 68 countCheck58_X32s >= 59
+X32e - 68 countCheck58_X32e <= 57
+-2 count58_X32 + countCheck58_X32s  + countCheck58_X32e  <= 1
+
+X33s + 68 countCheck58_X33s >= 59
+X33e - 68 countCheck58_X33e <= 57
+-2 count58_X33 + countCheck58_X33s  + countCheck58_X33e  <= 1
+
+X34s + 68 countCheck58_X34s >= 59
+X34e - 68 countCheck58_X34e <= 57
+-2 count58_X34 + countCheck58_X34s  + countCheck58_X34e  <= 1
+
+X35s + 68 countCheck58_X35s >= 59
+X35e - 68 countCheck58_X35e <= 57
+-2 count58_X35 + countCheck58_X35s  + countCheck58_X35e  <= 1
+
+X36s + 68 countCheck58_X36s >= 59
+X36e - 68 countCheck58_X36e <= 57
+-2 count58_X36 + countCheck58_X36s  + countCheck58_X36e  <= 1
+
+X37s + 68 countCheck58_X37s >= 59
+X37e - 68 countCheck58_X37e <= 57
+-2 count58_X37 + countCheck58_X37s  + countCheck58_X37e  <= 1
+
+X38s + 68 countCheck58_X38s >= 59
+X38e - 68 countCheck58_X38e <= 57
+-2 count58_X38 + countCheck58_X38s  + countCheck58_X38e  <= 1
+
+X39s + 68 countCheck58_X39s >= 59
+X39e - 68 countCheck58_X39e <= 57
+-2 count58_X39 + countCheck58_X39s  + countCheck58_X39e  <= 1
+
+X40s + 68 countCheck58_X40s >= 59
+X40e - 68 countCheck58_X40e <= 57
+-2 count58_X40 + countCheck58_X40s  + countCheck58_X40e  <= 1
+
+X41s + 68 countCheck58_X41s >= 59
+X41e - 68 countCheck58_X41e <= 57
+-2 count58_X41 + countCheck58_X41s  + countCheck58_X41e  <= 1
+
+X42s + 68 countCheck58_X42s >= 59
+X42e - 68 countCheck58_X42e <= 57
+-2 count58_X42 + countCheck58_X42s  + countCheck58_X42e  <= 1
+
+X43s + 68 countCheck58_X43s >= 59
+X43e - 68 countCheck58_X43e <= 57
+-2 count58_X43 + countCheck58_X43s  + countCheck58_X43e  <= 1
+
+X44s + 68 countCheck58_X44s >= 59
+X44e - 68 countCheck58_X44e <= 57
+-2 count58_X44 + countCheck58_X44s  + countCheck58_X44e  <= 1
+
+X45s + 68 countCheck58_X45s >= 59
+X45e - 68 countCheck58_X45e <= 57
+-2 count58_X45 + countCheck58_X45s  + countCheck58_X45e  <= 1
+
+X46s + 68 countCheck58_X46s >= 59
+X46e - 68 countCheck58_X46e <= 57
+-2 count58_X46 + countCheck58_X46s  + countCheck58_X46e  <= 1
+
+X47s + 68 countCheck58_X47s >= 59
+X47e - 68 countCheck58_X47e <= 57
+-2 count58_X47 + countCheck58_X47s  + countCheck58_X47e  <= 1
+
+X48s + 68 countCheck58_X48s >= 59
+X48e - 68 countCheck58_X48e <= 57
+-2 count58_X48 + countCheck58_X48s  + countCheck58_X48e  <= 1
+
+X49s + 68 countCheck58_X49s >= 59
+X49e - 68 countCheck58_X49e <= 57
+-2 count58_X49 + countCheck58_X49s  + countCheck58_X49e  <= 1
+
+X50s + 68 countCheck58_X50s >= 59
+X50e - 68 countCheck58_X50e <= 57
+-2 count58_X50 + countCheck58_X50s  + countCheck58_X50e  <= 1
+
+X51s + 68 countCheck58_X51s >= 59
+X51e - 68 countCheck58_X51e <= 57
+-2 count58_X51 + countCheck58_X51s  + countCheck58_X51e  <= 1
+
+X52s + 68 countCheck58_X52s >= 59
+X52e - 68 countCheck58_X52e <= 57
+-2 count58_X52 + countCheck58_X52s  + countCheck58_X52e  <= 1
+
+X53s + 68 countCheck58_X53s >= 59
+X53e - 68 countCheck58_X53e <= 57
+-2 count58_X53 + countCheck58_X53s  + countCheck58_X53e  <= 1
+
+X54s + 68 countCheck58_X54s >= 59
+X54e - 68 countCheck58_X54e <= 57
+-2 count58_X54 + countCheck58_X54s  + countCheck58_X54e  <= 1
+
+X55s + 68 countCheck58_X55s >= 59
+X55e - 68 countCheck58_X55e <= 57
+-2 count58_X55 + countCheck58_X55s  + countCheck58_X55e  <= 1
+
+X56s + 68 countCheck58_X56s >= 59
+X56e - 68 countCheck58_X56e <= 57
+-2 count58_X56 + countCheck58_X56s  + countCheck58_X56e  <= 1
+
+X57s + 68 countCheck58_X57s >= 59
+X57e - 68 countCheck58_X57e <= 57
+-2 count58_X57 + countCheck58_X57s  + countCheck58_X57e  <= 1
+
+X58s + 68 countCheck58_X58s >= 59
+X58e - 68 countCheck58_X58e <= 57
+-2 count58_X58 + countCheck58_X58s  + countCheck58_X58e  <= 1
+
+X59s + 68 countCheck58_X59s >= 59
+X59e - 68 countCheck58_X59e <= 57
+-2 count58_X59 + countCheck58_X59s  + countCheck58_X59e  <= 1
+
+X60s + 68 countCheck58_X60s >= 59
+X60e - 68 countCheck58_X60e <= 57
+-2 count58_X60 + countCheck58_X60s  + countCheck58_X60e  <= 1
+
+X61s + 68 countCheck58_X61s >= 59
+X61e - 68 countCheck58_X61e <= 57
+-2 count58_X61 + countCheck58_X61s  + countCheck58_X61e  <= 1
+
+X62s + 68 countCheck58_X62s >= 59
+X62e - 68 countCheck58_X62e <= 57
+-2 count58_X62 + countCheck58_X62s  + countCheck58_X62e  <= 1
+
+X63s + 68 countCheck58_X63s >= 59
+X63e - 68 countCheck58_X63e <= 57
+-2 count58_X63 + countCheck58_X63s  + countCheck58_X63e  <= 1
+
+X64s + 68 countCheck58_X64s >= 59
+X64e - 68 countCheck58_X64e <= 57
+-2 count58_X64 + countCheck58_X64s  + countCheck58_X64e  <= 1
+
+X65s + 68 countCheck58_X65s >= 59
+X65e - 68 countCheck58_X65e <= 57
+-2 count58_X65 + countCheck58_X65s  + countCheck58_X65e  <= 1
+
+X66s + 68 countCheck58_X66s >= 59
+X66e - 68 countCheck58_X66e <= 57
+-2 count58_X66 + countCheck58_X66s  + countCheck58_X66e  <= 1
+
+X67s + 68 countCheck58_X67s >= 59
+X67e - 68 countCheck58_X67e <= 57
+-2 count58_X67 + countCheck58_X67s  + countCheck58_X67e  <= 1
+
+count58_X0 + count58_X1 + count58_X2 + count58_X3 + count58_X4 + count58_X5 + count58_X6 + count58_X7 + count58_X8 + count58_X9 + count58_X10 + count58_X11 + count58_X12 + count58_X13 + count58_X14 + count58_X15 + count58_X16 + count58_X17 + count58_X18 + count58_X19 + count58_X20 + count58_X21 + count58_X22 + count58_X23 + count58_X24 + count58_X25 + count58_X26 + count58_X27 + count58_X28 + count58_X29 + count58_X30 + count58_X31 + count58_X32 + count58_X33 + count58_X34 + count58_X35 + count58_X36 + count58_X37 + count58_X38 + count58_X39 + count58_X40 + count58_X41 + count58_X42 + count58_X43 + count58_X44 + count58_X45 + count58_X46 + count58_X47 + count58_X48 + count58_X49 + count58_X50 + count58_X51 + count58_X52 + count58_X53 + count58_X54 + count58_X55 + count58_X56 + count58_X57 + count58_X58 + count58_X59 + count58_X60 + count58_X61 + count58_X62 + count58_X63 + count58_X64 + count58_X65 + count58_X66 + count58_X67 - pathWidth <= 1
+X0s + 68 countCheck59_X0s >= 60
+X0e - 68 countCheck59_X0e <= 58
+-2 count59_X0 + countCheck59_X0s  + countCheck59_X0e  <= 1
+
+X1s + 68 countCheck59_X1s >= 60
+X1e - 68 countCheck59_X1e <= 58
+-2 count59_X1 + countCheck59_X1s  + countCheck59_X1e  <= 1
+
+X2s + 68 countCheck59_X2s >= 60
+X2e - 68 countCheck59_X2e <= 58
+-2 count59_X2 + countCheck59_X2s  + countCheck59_X2e  <= 1
+
+X3s + 68 countCheck59_X3s >= 60
+X3e - 68 countCheck59_X3e <= 58
+-2 count59_X3 + countCheck59_X3s  + countCheck59_X3e  <= 1
+
+X4s + 68 countCheck59_X4s >= 60
+X4e - 68 countCheck59_X4e <= 58
+-2 count59_X4 + countCheck59_X4s  + countCheck59_X4e  <= 1
+
+X5s + 68 countCheck59_X5s >= 60
+X5e - 68 countCheck59_X5e <= 58
+-2 count59_X5 + countCheck59_X5s  + countCheck59_X5e  <= 1
+
+X6s + 68 countCheck59_X6s >= 60
+X6e - 68 countCheck59_X6e <= 58
+-2 count59_X6 + countCheck59_X6s  + countCheck59_X6e  <= 1
+
+X7s + 68 countCheck59_X7s >= 60
+X7e - 68 countCheck59_X7e <= 58
+-2 count59_X7 + countCheck59_X7s  + countCheck59_X7e  <= 1
+
+X8s + 68 countCheck59_X8s >= 60
+X8e - 68 countCheck59_X8e <= 58
+-2 count59_X8 + countCheck59_X8s  + countCheck59_X8e  <= 1
+
+X9s + 68 countCheck59_X9s >= 60
+X9e - 68 countCheck59_X9e <= 58
+-2 count59_X9 + countCheck59_X9s  + countCheck59_X9e  <= 1
+
+X10s + 68 countCheck59_X10s >= 60
+X10e - 68 countCheck59_X10e <= 58
+-2 count59_X10 + countCheck59_X10s  + countCheck59_X10e  <= 1
+
+X11s + 68 countCheck59_X11s >= 60
+X11e - 68 countCheck59_X11e <= 58
+-2 count59_X11 + countCheck59_X11s  + countCheck59_X11e  <= 1
+
+X12s + 68 countCheck59_X12s >= 60
+X12e - 68 countCheck59_X12e <= 58
+-2 count59_X12 + countCheck59_X12s  + countCheck59_X12e  <= 1
+
+X13s + 68 countCheck59_X13s >= 60
+X13e - 68 countCheck59_X13e <= 58
+-2 count59_X13 + countCheck59_X13s  + countCheck59_X13e  <= 1
+
+X14s + 68 countCheck59_X14s >= 60
+X14e - 68 countCheck59_X14e <= 58
+-2 count59_X14 + countCheck59_X14s  + countCheck59_X14e  <= 1
+
+X15s + 68 countCheck59_X15s >= 60
+X15e - 68 countCheck59_X15e <= 58
+-2 count59_X15 + countCheck59_X15s  + countCheck59_X15e  <= 1
+
+X16s + 68 countCheck59_X16s >= 60
+X16e - 68 countCheck59_X16e <= 58
+-2 count59_X16 + countCheck59_X16s  + countCheck59_X16e  <= 1
+
+X17s + 68 countCheck59_X17s >= 60
+X17e - 68 countCheck59_X17e <= 58
+-2 count59_X17 + countCheck59_X17s  + countCheck59_X17e  <= 1
+
+X18s + 68 countCheck59_X18s >= 60
+X18e - 68 countCheck59_X18e <= 58
+-2 count59_X18 + countCheck59_X18s  + countCheck59_X18e  <= 1
+
+X19s + 68 countCheck59_X19s >= 60
+X19e - 68 countCheck59_X19e <= 58
+-2 count59_X19 + countCheck59_X19s  + countCheck59_X19e  <= 1
+
+X20s + 68 countCheck59_X20s >= 60
+X20e - 68 countCheck59_X20e <= 58
+-2 count59_X20 + countCheck59_X20s  + countCheck59_X20e  <= 1
+
+X21s + 68 countCheck59_X21s >= 60
+X21e - 68 countCheck59_X21e <= 58
+-2 count59_X21 + countCheck59_X21s  + countCheck59_X21e  <= 1
+
+X22s + 68 countCheck59_X22s >= 60
+X22e - 68 countCheck59_X22e <= 58
+-2 count59_X22 + countCheck59_X22s  + countCheck59_X22e  <= 1
+
+X23s + 68 countCheck59_X23s >= 60
+X23e - 68 countCheck59_X23e <= 58
+-2 count59_X23 + countCheck59_X23s  + countCheck59_X23e  <= 1
+
+X24s + 68 countCheck59_X24s >= 60
+X24e - 68 countCheck59_X24e <= 58
+-2 count59_X24 + countCheck59_X24s  + countCheck59_X24e  <= 1
+
+X25s + 68 countCheck59_X25s >= 60
+X25e - 68 countCheck59_X25e <= 58
+-2 count59_X25 + countCheck59_X25s  + countCheck59_X25e  <= 1
+
+X26s + 68 countCheck59_X26s >= 60
+X26e - 68 countCheck59_X26e <= 58
+-2 count59_X26 + countCheck59_X26s  + countCheck59_X26e  <= 1
+
+X27s + 68 countCheck59_X27s >= 60
+X27e - 68 countCheck59_X27e <= 58
+-2 count59_X27 + countCheck59_X27s  + countCheck59_X27e  <= 1
+
+X28s + 68 countCheck59_X28s >= 60
+X28e - 68 countCheck59_X28e <= 58
+-2 count59_X28 + countCheck59_X28s  + countCheck59_X28e  <= 1
+
+X29s + 68 countCheck59_X29s >= 60
+X29e - 68 countCheck59_X29e <= 58
+-2 count59_X29 + countCheck59_X29s  + countCheck59_X29e  <= 1
+
+X30s + 68 countCheck59_X30s >= 60
+X30e - 68 countCheck59_X30e <= 58
+-2 count59_X30 + countCheck59_X30s  + countCheck59_X30e  <= 1
+
+X31s + 68 countCheck59_X31s >= 60
+X31e - 68 countCheck59_X31e <= 58
+-2 count59_X31 + countCheck59_X31s  + countCheck59_X31e  <= 1
+
+X32s + 68 countCheck59_X32s >= 60
+X32e - 68 countCheck59_X32e <= 58
+-2 count59_X32 + countCheck59_X32s  + countCheck59_X32e  <= 1
+
+X33s + 68 countCheck59_X33s >= 60
+X33e - 68 countCheck59_X33e <= 58
+-2 count59_X33 + countCheck59_X33s  + countCheck59_X33e  <= 1
+
+X34s + 68 countCheck59_X34s >= 60
+X34e - 68 countCheck59_X34e <= 58
+-2 count59_X34 + countCheck59_X34s  + countCheck59_X34e  <= 1
+
+X35s + 68 countCheck59_X35s >= 60
+X35e - 68 countCheck59_X35e <= 58
+-2 count59_X35 + countCheck59_X35s  + countCheck59_X35e  <= 1
+
+X36s + 68 countCheck59_X36s >= 60
+X36e - 68 countCheck59_X36e <= 58
+-2 count59_X36 + countCheck59_X36s  + countCheck59_X36e  <= 1
+
+X37s + 68 countCheck59_X37s >= 60
+X37e - 68 countCheck59_X37e <= 58
+-2 count59_X37 + countCheck59_X37s  + countCheck59_X37e  <= 1
+
+X38s + 68 countCheck59_X38s >= 60
+X38e - 68 countCheck59_X38e <= 58
+-2 count59_X38 + countCheck59_X38s  + countCheck59_X38e  <= 1
+
+X39s + 68 countCheck59_X39s >= 60
+X39e - 68 countCheck59_X39e <= 58
+-2 count59_X39 + countCheck59_X39s  + countCheck59_X39e  <= 1
+
+X40s + 68 countCheck59_X40s >= 60
+X40e - 68 countCheck59_X40e <= 58
+-2 count59_X40 + countCheck59_X40s  + countCheck59_X40e  <= 1
+
+X41s + 68 countCheck59_X41s >= 60
+X41e - 68 countCheck59_X41e <= 58
+-2 count59_X41 + countCheck59_X41s  + countCheck59_X41e  <= 1
+
+X42s + 68 countCheck59_X42s >= 60
+X42e - 68 countCheck59_X42e <= 58
+-2 count59_X42 + countCheck59_X42s  + countCheck59_X42e  <= 1
+
+X43s + 68 countCheck59_X43s >= 60
+X43e - 68 countCheck59_X43e <= 58
+-2 count59_X43 + countCheck59_X43s  + countCheck59_X43e  <= 1
+
+X44s + 68 countCheck59_X44s >= 60
+X44e - 68 countCheck59_X44e <= 58
+-2 count59_X44 + countCheck59_X44s  + countCheck59_X44e  <= 1
+
+X45s + 68 countCheck59_X45s >= 60
+X45e - 68 countCheck59_X45e <= 58
+-2 count59_X45 + countCheck59_X45s  + countCheck59_X45e  <= 1
+
+X46s + 68 countCheck59_X46s >= 60
+X46e - 68 countCheck59_X46e <= 58
+-2 count59_X46 + countCheck59_X46s  + countCheck59_X46e  <= 1
+
+X47s + 68 countCheck59_X47s >= 60
+X47e - 68 countCheck59_X47e <= 58
+-2 count59_X47 + countCheck59_X47s  + countCheck59_X47e  <= 1
+
+X48s + 68 countCheck59_X48s >= 60
+X48e - 68 countCheck59_X48e <= 58
+-2 count59_X48 + countCheck59_X48s  + countCheck59_X48e  <= 1
+
+X49s + 68 countCheck59_X49s >= 60
+X49e - 68 countCheck59_X49e <= 58
+-2 count59_X49 + countCheck59_X49s  + countCheck59_X49e  <= 1
+
+X50s + 68 countCheck59_X50s >= 60
+X50e - 68 countCheck59_X50e <= 58
+-2 count59_X50 + countCheck59_X50s  + countCheck59_X50e  <= 1
+
+X51s + 68 countCheck59_X51s >= 60
+X51e - 68 countCheck59_X51e <= 58
+-2 count59_X51 + countCheck59_X51s  + countCheck59_X51e  <= 1
+
+X52s + 68 countCheck59_X52s >= 60
+X52e - 68 countCheck59_X52e <= 58
+-2 count59_X52 + countCheck59_X52s  + countCheck59_X52e  <= 1
+
+X53s + 68 countCheck59_X53s >= 60
+X53e - 68 countCheck59_X53e <= 58
+-2 count59_X53 + countCheck59_X53s  + countCheck59_X53e  <= 1
+
+X54s + 68 countCheck59_X54s >= 60
+X54e - 68 countCheck59_X54e <= 58
+-2 count59_X54 + countCheck59_X54s  + countCheck59_X54e  <= 1
+
+X55s + 68 countCheck59_X55s >= 60
+X55e - 68 countCheck59_X55e <= 58
+-2 count59_X55 + countCheck59_X55s  + countCheck59_X55e  <= 1
+
+X56s + 68 countCheck59_X56s >= 60
+X56e - 68 countCheck59_X56e <= 58
+-2 count59_X56 + countCheck59_X56s  + countCheck59_X56e  <= 1
+
+X57s + 68 countCheck59_X57s >= 60
+X57e - 68 countCheck59_X57e <= 58
+-2 count59_X57 + countCheck59_X57s  + countCheck59_X57e  <= 1
+
+X58s + 68 countCheck59_X58s >= 60
+X58e - 68 countCheck59_X58e <= 58
+-2 count59_X58 + countCheck59_X58s  + countCheck59_X58e  <= 1
+
+X59s + 68 countCheck59_X59s >= 60
+X59e - 68 countCheck59_X59e <= 58
+-2 count59_X59 + countCheck59_X59s  + countCheck59_X59e  <= 1
+
+X60s + 68 countCheck59_X60s >= 60
+X60e - 68 countCheck59_X60e <= 58
+-2 count59_X60 + countCheck59_X60s  + countCheck59_X60e  <= 1
+
+X61s + 68 countCheck59_X61s >= 60
+X61e - 68 countCheck59_X61e <= 58
+-2 count59_X61 + countCheck59_X61s  + countCheck59_X61e  <= 1
+
+X62s + 68 countCheck59_X62s >= 60
+X62e - 68 countCheck59_X62e <= 58
+-2 count59_X62 + countCheck59_X62s  + countCheck59_X62e  <= 1
+
+X63s + 68 countCheck59_X63s >= 60
+X63e - 68 countCheck59_X63e <= 58
+-2 count59_X63 + countCheck59_X63s  + countCheck59_X63e  <= 1
+
+X64s + 68 countCheck59_X64s >= 60
+X64e - 68 countCheck59_X64e <= 58
+-2 count59_X64 + countCheck59_X64s  + countCheck59_X64e  <= 1
+
+X65s + 68 countCheck59_X65s >= 60
+X65e - 68 countCheck59_X65e <= 58
+-2 count59_X65 + countCheck59_X65s  + countCheck59_X65e  <= 1
+
+X66s + 68 countCheck59_X66s >= 60
+X66e - 68 countCheck59_X66e <= 58
+-2 count59_X66 + countCheck59_X66s  + countCheck59_X66e  <= 1
+
+X67s + 68 countCheck59_X67s >= 60
+X67e - 68 countCheck59_X67e <= 58
+-2 count59_X67 + countCheck59_X67s  + countCheck59_X67e  <= 1
+
+count59_X0 + count59_X1 + count59_X2 + count59_X3 + count59_X4 + count59_X5 + count59_X6 + count59_X7 + count59_X8 + count59_X9 + count59_X10 + count59_X11 + count59_X12 + count59_X13 + count59_X14 + count59_X15 + count59_X16 + count59_X17 + count59_X18 + count59_X19 + count59_X20 + count59_X21 + count59_X22 + count59_X23 + count59_X24 + count59_X25 + count59_X26 + count59_X27 + count59_X28 + count59_X29 + count59_X30 + count59_X31 + count59_X32 + count59_X33 + count59_X34 + count59_X35 + count59_X36 + count59_X37 + count59_X38 + count59_X39 + count59_X40 + count59_X41 + count59_X42 + count59_X43 + count59_X44 + count59_X45 + count59_X46 + count59_X47 + count59_X48 + count59_X49 + count59_X50 + count59_X51 + count59_X52 + count59_X53 + count59_X54 + count59_X55 + count59_X56 + count59_X57 + count59_X58 + count59_X59 + count59_X60 + count59_X61 + count59_X62 + count59_X63 + count59_X64 + count59_X65 + count59_X66 + count59_X67 - pathWidth <= 1
+X0s + 68 countCheck60_X0s >= 61
+X0e - 68 countCheck60_X0e <= 59
+-2 count60_X0 + countCheck60_X0s  + countCheck60_X0e  <= 1
+
+X1s + 68 countCheck60_X1s >= 61
+X1e - 68 countCheck60_X1e <= 59
+-2 count60_X1 + countCheck60_X1s  + countCheck60_X1e  <= 1
+
+X2s + 68 countCheck60_X2s >= 61
+X2e - 68 countCheck60_X2e <= 59
+-2 count60_X2 + countCheck60_X2s  + countCheck60_X2e  <= 1
+
+X3s + 68 countCheck60_X3s >= 61
+X3e - 68 countCheck60_X3e <= 59
+-2 count60_X3 + countCheck60_X3s  + countCheck60_X3e  <= 1
+
+X4s + 68 countCheck60_X4s >= 61
+X4e - 68 countCheck60_X4e <= 59
+-2 count60_X4 + countCheck60_X4s  + countCheck60_X4e  <= 1
+
+X5s + 68 countCheck60_X5s >= 61
+X5e - 68 countCheck60_X5e <= 59
+-2 count60_X5 + countCheck60_X5s  + countCheck60_X5e  <= 1
+
+X6s + 68 countCheck60_X6s >= 61
+X6e - 68 countCheck60_X6e <= 59
+-2 count60_X6 + countCheck60_X6s  + countCheck60_X6e  <= 1
+
+X7s + 68 countCheck60_X7s >= 61
+X7e - 68 countCheck60_X7e <= 59
+-2 count60_X7 + countCheck60_X7s  + countCheck60_X7e  <= 1
+
+X8s + 68 countCheck60_X8s >= 61
+X8e - 68 countCheck60_X8e <= 59
+-2 count60_X8 + countCheck60_X8s  + countCheck60_X8e  <= 1
+
+X9s + 68 countCheck60_X9s >= 61
+X9e - 68 countCheck60_X9e <= 59
+-2 count60_X9 + countCheck60_X9s  + countCheck60_X9e  <= 1
+
+X10s + 68 countCheck60_X10s >= 61
+X10e - 68 countCheck60_X10e <= 59
+-2 count60_X10 + countCheck60_X10s  + countCheck60_X10e  <= 1
+
+X11s + 68 countCheck60_X11s >= 61
+X11e - 68 countCheck60_X11e <= 59
+-2 count60_X11 + countCheck60_X11s  + countCheck60_X11e  <= 1
+
+X12s + 68 countCheck60_X12s >= 61
+X12e - 68 countCheck60_X12e <= 59
+-2 count60_X12 + countCheck60_X12s  + countCheck60_X12e  <= 1
+
+X13s + 68 countCheck60_X13s >= 61
+X13e - 68 countCheck60_X13e <= 59
+-2 count60_X13 + countCheck60_X13s  + countCheck60_X13e  <= 1
+
+X14s + 68 countCheck60_X14s >= 61
+X14e - 68 countCheck60_X14e <= 59
+-2 count60_X14 + countCheck60_X14s  + countCheck60_X14e  <= 1
+
+X15s + 68 countCheck60_X15s >= 61
+X15e - 68 countCheck60_X15e <= 59
+-2 count60_X15 + countCheck60_X15s  + countCheck60_X15e  <= 1
+
+X16s + 68 countCheck60_X16s >= 61
+X16e - 68 countCheck60_X16e <= 59
+-2 count60_X16 + countCheck60_X16s  + countCheck60_X16e  <= 1
+
+X17s + 68 countCheck60_X17s >= 61
+X17e - 68 countCheck60_X17e <= 59
+-2 count60_X17 + countCheck60_X17s  + countCheck60_X17e  <= 1
+
+X18s + 68 countCheck60_X18s >= 61
+X18e - 68 countCheck60_X18e <= 59
+-2 count60_X18 + countCheck60_X18s  + countCheck60_X18e  <= 1
+
+X19s + 68 countCheck60_X19s >= 61
+X19e - 68 countCheck60_X19e <= 59
+-2 count60_X19 + countCheck60_X19s  + countCheck60_X19e  <= 1
+
+X20s + 68 countCheck60_X20s >= 61
+X20e - 68 countCheck60_X20e <= 59
+-2 count60_X20 + countCheck60_X20s  + countCheck60_X20e  <= 1
+
+X21s + 68 countCheck60_X21s >= 61
+X21e - 68 countCheck60_X21e <= 59
+-2 count60_X21 + countCheck60_X21s  + countCheck60_X21e  <= 1
+
+X22s + 68 countCheck60_X22s >= 61
+X22e - 68 countCheck60_X22e <= 59
+-2 count60_X22 + countCheck60_X22s  + countCheck60_X22e  <= 1
+
+X23s + 68 countCheck60_X23s >= 61
+X23e - 68 countCheck60_X23e <= 59
+-2 count60_X23 + countCheck60_X23s  + countCheck60_X23e  <= 1
+
+X24s + 68 countCheck60_X24s >= 61
+X24e - 68 countCheck60_X24e <= 59
+-2 count60_X24 + countCheck60_X24s  + countCheck60_X24e  <= 1
+
+X25s + 68 countCheck60_X25s >= 61
+X25e - 68 countCheck60_X25e <= 59
+-2 count60_X25 + countCheck60_X25s  + countCheck60_X25e  <= 1
+
+X26s + 68 countCheck60_X26s >= 61
+X26e - 68 countCheck60_X26e <= 59
+-2 count60_X26 + countCheck60_X26s  + countCheck60_X26e  <= 1
+
+X27s + 68 countCheck60_X27s >= 61
+X27e - 68 countCheck60_X27e <= 59
+-2 count60_X27 + countCheck60_X27s  + countCheck60_X27e  <= 1
+
+X28s + 68 countCheck60_X28s >= 61
+X28e - 68 countCheck60_X28e <= 59
+-2 count60_X28 + countCheck60_X28s  + countCheck60_X28e  <= 1
+
+X29s + 68 countCheck60_X29s >= 61
+X29e - 68 countCheck60_X29e <= 59
+-2 count60_X29 + countCheck60_X29s  + countCheck60_X29e  <= 1
+
+X30s + 68 countCheck60_X30s >= 61
+X30e - 68 countCheck60_X30e <= 59
+-2 count60_X30 + countCheck60_X30s  + countCheck60_X30e  <= 1
+
+X31s + 68 countCheck60_X31s >= 61
+X31e - 68 countCheck60_X31e <= 59
+-2 count60_X31 + countCheck60_X31s  + countCheck60_X31e  <= 1
+
+X32s + 68 countCheck60_X32s >= 61
+X32e - 68 countCheck60_X32e <= 59
+-2 count60_X32 + countCheck60_X32s  + countCheck60_X32e  <= 1
+
+X33s + 68 countCheck60_X33s >= 61
+X33e - 68 countCheck60_X33e <= 59
+-2 count60_X33 + countCheck60_X33s  + countCheck60_X33e  <= 1
+
+X34s + 68 countCheck60_X34s >= 61
+X34e - 68 countCheck60_X34e <= 59
+-2 count60_X34 + countCheck60_X34s  + countCheck60_X34e  <= 1
+
+X35s + 68 countCheck60_X35s >= 61
+X35e - 68 countCheck60_X35e <= 59
+-2 count60_X35 + countCheck60_X35s  + countCheck60_X35e  <= 1
+
+X36s + 68 countCheck60_X36s >= 61
+X36e - 68 countCheck60_X36e <= 59
+-2 count60_X36 + countCheck60_X36s  + countCheck60_X36e  <= 1
+
+X37s + 68 countCheck60_X37s >= 61
+X37e - 68 countCheck60_X37e <= 59
+-2 count60_X37 + countCheck60_X37s  + countCheck60_X37e  <= 1
+
+X38s + 68 countCheck60_X38s >= 61
+X38e - 68 countCheck60_X38e <= 59
+-2 count60_X38 + countCheck60_X38s  + countCheck60_X38e  <= 1
+
+X39s + 68 countCheck60_X39s >= 61
+X39e - 68 countCheck60_X39e <= 59
+-2 count60_X39 + countCheck60_X39s  + countCheck60_X39e  <= 1
+
+X40s + 68 countCheck60_X40s >= 61
+X40e - 68 countCheck60_X40e <= 59
+-2 count60_X40 + countCheck60_X40s  + countCheck60_X40e  <= 1
+
+X41s + 68 countCheck60_X41s >= 61
+X41e - 68 countCheck60_X41e <= 59
+-2 count60_X41 + countCheck60_X41s  + countCheck60_X41e  <= 1
+
+X42s + 68 countCheck60_X42s >= 61
+X42e - 68 countCheck60_X42e <= 59
+-2 count60_X42 + countCheck60_X42s  + countCheck60_X42e  <= 1
+
+X43s + 68 countCheck60_X43s >= 61
+X43e - 68 countCheck60_X43e <= 59
+-2 count60_X43 + countCheck60_X43s  + countCheck60_X43e  <= 1
+
+X44s + 68 countCheck60_X44s >= 61
+X44e - 68 countCheck60_X44e <= 59
+-2 count60_X44 + countCheck60_X44s  + countCheck60_X44e  <= 1
+
+X45s + 68 countCheck60_X45s >= 61
+X45e - 68 countCheck60_X45e <= 59
+-2 count60_X45 + countCheck60_X45s  + countCheck60_X45e  <= 1
+
+X46s + 68 countCheck60_X46s >= 61
+X46e - 68 countCheck60_X46e <= 59
+-2 count60_X46 + countCheck60_X46s  + countCheck60_X46e  <= 1
+
+X47s + 68 countCheck60_X47s >= 61
+X47e - 68 countCheck60_X47e <= 59
+-2 count60_X47 + countCheck60_X47s  + countCheck60_X47e  <= 1
+
+X48s + 68 countCheck60_X48s >= 61
+X48e - 68 countCheck60_X48e <= 59
+-2 count60_X48 + countCheck60_X48s  + countCheck60_X48e  <= 1
+
+X49s + 68 countCheck60_X49s >= 61
+X49e - 68 countCheck60_X49e <= 59
+-2 count60_X49 + countCheck60_X49s  + countCheck60_X49e  <= 1
+
+X50s + 68 countCheck60_X50s >= 61
+X50e - 68 countCheck60_X50e <= 59
+-2 count60_X50 + countCheck60_X50s  + countCheck60_X50e  <= 1
+
+X51s + 68 countCheck60_X51s >= 61
+X51e - 68 countCheck60_X51e <= 59
+-2 count60_X51 + countCheck60_X51s  + countCheck60_X51e  <= 1
+
+X52s + 68 countCheck60_X52s >= 61
+X52e - 68 countCheck60_X52e <= 59
+-2 count60_X52 + countCheck60_X52s  + countCheck60_X52e  <= 1
+
+X53s + 68 countCheck60_X53s >= 61
+X53e - 68 countCheck60_X53e <= 59
+-2 count60_X53 + countCheck60_X53s  + countCheck60_X53e  <= 1
+
+X54s + 68 countCheck60_X54s >= 61
+X54e - 68 countCheck60_X54e <= 59
+-2 count60_X54 + countCheck60_X54s  + countCheck60_X54e  <= 1
+
+X55s + 68 countCheck60_X55s >= 61
+X55e - 68 countCheck60_X55e <= 59
+-2 count60_X55 + countCheck60_X55s  + countCheck60_X55e  <= 1
+
+X56s + 68 countCheck60_X56s >= 61
+X56e - 68 countCheck60_X56e <= 59
+-2 count60_X56 + countCheck60_X56s  + countCheck60_X56e  <= 1
+
+X57s + 68 countCheck60_X57s >= 61
+X57e - 68 countCheck60_X57e <= 59
+-2 count60_X57 + countCheck60_X57s  + countCheck60_X57e  <= 1
+
+X58s + 68 countCheck60_X58s >= 61
+X58e - 68 countCheck60_X58e <= 59
+-2 count60_X58 + countCheck60_X58s  + countCheck60_X58e  <= 1
+
+X59s + 68 countCheck60_X59s >= 61
+X59e - 68 countCheck60_X59e <= 59
+-2 count60_X59 + countCheck60_X59s  + countCheck60_X59e  <= 1
+
+X60s + 68 countCheck60_X60s >= 61
+X60e - 68 countCheck60_X60e <= 59
+-2 count60_X60 + countCheck60_X60s  + countCheck60_X60e  <= 1
+
+X61s + 68 countCheck60_X61s >= 61
+X61e - 68 countCheck60_X61e <= 59
+-2 count60_X61 + countCheck60_X61s  + countCheck60_X61e  <= 1
+
+X62s + 68 countCheck60_X62s >= 61
+X62e - 68 countCheck60_X62e <= 59
+-2 count60_X62 + countCheck60_X62s  + countCheck60_X62e  <= 1
+
+X63s + 68 countCheck60_X63s >= 61
+X63e - 68 countCheck60_X63e <= 59
+-2 count60_X63 + countCheck60_X63s  + countCheck60_X63e  <= 1
+
+X64s + 68 countCheck60_X64s >= 61
+X64e - 68 countCheck60_X64e <= 59
+-2 count60_X64 + countCheck60_X64s  + countCheck60_X64e  <= 1
+
+X65s + 68 countCheck60_X65s >= 61
+X65e - 68 countCheck60_X65e <= 59
+-2 count60_X65 + countCheck60_X65s  + countCheck60_X65e  <= 1
+
+X66s + 68 countCheck60_X66s >= 61
+X66e - 68 countCheck60_X66e <= 59
+-2 count60_X66 + countCheck60_X66s  + countCheck60_X66e  <= 1
+
+X67s + 68 countCheck60_X67s >= 61
+X67e - 68 countCheck60_X67e <= 59
+-2 count60_X67 + countCheck60_X67s  + countCheck60_X67e  <= 1
+
+count60_X0 + count60_X1 + count60_X2 + count60_X3 + count60_X4 + count60_X5 + count60_X6 + count60_X7 + count60_X8 + count60_X9 + count60_X10 + count60_X11 + count60_X12 + count60_X13 + count60_X14 + count60_X15 + count60_X16 + count60_X17 + count60_X18 + count60_X19 + count60_X20 + count60_X21 + count60_X22 + count60_X23 + count60_X24 + count60_X25 + count60_X26 + count60_X27 + count60_X28 + count60_X29 + count60_X30 + count60_X31 + count60_X32 + count60_X33 + count60_X34 + count60_X35 + count60_X36 + count60_X37 + count60_X38 + count60_X39 + count60_X40 + count60_X41 + count60_X42 + count60_X43 + count60_X44 + count60_X45 + count60_X46 + count60_X47 + count60_X48 + count60_X49 + count60_X50 + count60_X51 + count60_X52 + count60_X53 + count60_X54 + count60_X55 + count60_X56 + count60_X57 + count60_X58 + count60_X59 + count60_X60 + count60_X61 + count60_X62 + count60_X63 + count60_X64 + count60_X65 + count60_X66 + count60_X67 - pathWidth <= 1
+X0s + 68 countCheck61_X0s >= 62
+X0e - 68 countCheck61_X0e <= 60
+-2 count61_X0 + countCheck61_X0s  + countCheck61_X0e  <= 1
+
+X1s + 68 countCheck61_X1s >= 62
+X1e - 68 countCheck61_X1e <= 60
+-2 count61_X1 + countCheck61_X1s  + countCheck61_X1e  <= 1
+
+X2s + 68 countCheck61_X2s >= 62
+X2e - 68 countCheck61_X2e <= 60
+-2 count61_X2 + countCheck61_X2s  + countCheck61_X2e  <= 1
+
+X3s + 68 countCheck61_X3s >= 62
+X3e - 68 countCheck61_X3e <= 60
+-2 count61_X3 + countCheck61_X3s  + countCheck61_X3e  <= 1
+
+X4s + 68 countCheck61_X4s >= 62
+X4e - 68 countCheck61_X4e <= 60
+-2 count61_X4 + countCheck61_X4s  + countCheck61_X4e  <= 1
+
+X5s + 68 countCheck61_X5s >= 62
+X5e - 68 countCheck61_X5e <= 60
+-2 count61_X5 + countCheck61_X5s  + countCheck61_X5e  <= 1
+
+X6s + 68 countCheck61_X6s >= 62
+X6e - 68 countCheck61_X6e <= 60
+-2 count61_X6 + countCheck61_X6s  + countCheck61_X6e  <= 1
+
+X7s + 68 countCheck61_X7s >= 62
+X7e - 68 countCheck61_X7e <= 60
+-2 count61_X7 + countCheck61_X7s  + countCheck61_X7e  <= 1
+
+X8s + 68 countCheck61_X8s >= 62
+X8e - 68 countCheck61_X8e <= 60
+-2 count61_X8 + countCheck61_X8s  + countCheck61_X8e  <= 1
+
+X9s + 68 countCheck61_X9s >= 62
+X9e - 68 countCheck61_X9e <= 60
+-2 count61_X9 + countCheck61_X9s  + countCheck61_X9e  <= 1
+
+X10s + 68 countCheck61_X10s >= 62
+X10e - 68 countCheck61_X10e <= 60
+-2 count61_X10 + countCheck61_X10s  + countCheck61_X10e  <= 1
+
+X11s + 68 countCheck61_X11s >= 62
+X11e - 68 countCheck61_X11e <= 60
+-2 count61_X11 + countCheck61_X11s  + countCheck61_X11e  <= 1
+
+X12s + 68 countCheck61_X12s >= 62
+X12e - 68 countCheck61_X12e <= 60
+-2 count61_X12 + countCheck61_X12s  + countCheck61_X12e  <= 1
+
+X13s + 68 countCheck61_X13s >= 62
+X13e - 68 countCheck61_X13e <= 60
+-2 count61_X13 + countCheck61_X13s  + countCheck61_X13e  <= 1
+
+X14s + 68 countCheck61_X14s >= 62
+X14e - 68 countCheck61_X14e <= 60
+-2 count61_X14 + countCheck61_X14s  + countCheck61_X14e  <= 1
+
+X15s + 68 countCheck61_X15s >= 62
+X15e - 68 countCheck61_X15e <= 60
+-2 count61_X15 + countCheck61_X15s  + countCheck61_X15e  <= 1
+
+X16s + 68 countCheck61_X16s >= 62
+X16e - 68 countCheck61_X16e <= 60
+-2 count61_X16 + countCheck61_X16s  + countCheck61_X16e  <= 1
+
+X17s + 68 countCheck61_X17s >= 62
+X17e - 68 countCheck61_X17e <= 60
+-2 count61_X17 + countCheck61_X17s  + countCheck61_X17e  <= 1
+
+X18s + 68 countCheck61_X18s >= 62
+X18e - 68 countCheck61_X18e <= 60
+-2 count61_X18 + countCheck61_X18s  + countCheck61_X18e  <= 1
+
+X19s + 68 countCheck61_X19s >= 62
+X19e - 68 countCheck61_X19e <= 60
+-2 count61_X19 + countCheck61_X19s  + countCheck61_X19e  <= 1
+
+X20s + 68 countCheck61_X20s >= 62
+X20e - 68 countCheck61_X20e <= 60
+-2 count61_X20 + countCheck61_X20s  + countCheck61_X20e  <= 1
+
+X21s + 68 countCheck61_X21s >= 62
+X21e - 68 countCheck61_X21e <= 60
+-2 count61_X21 + countCheck61_X21s  + countCheck61_X21e  <= 1
+
+X22s + 68 countCheck61_X22s >= 62
+X22e - 68 countCheck61_X22e <= 60
+-2 count61_X22 + countCheck61_X22s  + countCheck61_X22e  <= 1
+
+X23s + 68 countCheck61_X23s >= 62
+X23e - 68 countCheck61_X23e <= 60
+-2 count61_X23 + countCheck61_X23s  + countCheck61_X23e  <= 1
+
+X24s + 68 countCheck61_X24s >= 62
+X24e - 68 countCheck61_X24e <= 60
+-2 count61_X24 + countCheck61_X24s  + countCheck61_X24e  <= 1
+
+X25s + 68 countCheck61_X25s >= 62
+X25e - 68 countCheck61_X25e <= 60
+-2 count61_X25 + countCheck61_X25s  + countCheck61_X25e  <= 1
+
+X26s + 68 countCheck61_X26s >= 62
+X26e - 68 countCheck61_X26e <= 60
+-2 count61_X26 + countCheck61_X26s  + countCheck61_X26e  <= 1
+
+X27s + 68 countCheck61_X27s >= 62
+X27e - 68 countCheck61_X27e <= 60
+-2 count61_X27 + countCheck61_X27s  + countCheck61_X27e  <= 1
+
+X28s + 68 countCheck61_X28s >= 62
+X28e - 68 countCheck61_X28e <= 60
+-2 count61_X28 + countCheck61_X28s  + countCheck61_X28e  <= 1
+
+X29s + 68 countCheck61_X29s >= 62
+X29e - 68 countCheck61_X29e <= 60
+-2 count61_X29 + countCheck61_X29s  + countCheck61_X29e  <= 1
+
+X30s + 68 countCheck61_X30s >= 62
+X30e - 68 countCheck61_X30e <= 60
+-2 count61_X30 + countCheck61_X30s  + countCheck61_X30e  <= 1
+
+X31s + 68 countCheck61_X31s >= 62
+X31e - 68 countCheck61_X31e <= 60
+-2 count61_X31 + countCheck61_X31s  + countCheck61_X31e  <= 1
+
+X32s + 68 countCheck61_X32s >= 62
+X32e - 68 countCheck61_X32e <= 60
+-2 count61_X32 + countCheck61_X32s  + countCheck61_X32e  <= 1
+
+X33s + 68 countCheck61_X33s >= 62
+X33e - 68 countCheck61_X33e <= 60
+-2 count61_X33 + countCheck61_X33s  + countCheck61_X33e  <= 1
+
+X34s + 68 countCheck61_X34s >= 62
+X34e - 68 countCheck61_X34e <= 60
+-2 count61_X34 + countCheck61_X34s  + countCheck61_X34e  <= 1
+
+X35s + 68 countCheck61_X35s >= 62
+X35e - 68 countCheck61_X35e <= 60
+-2 count61_X35 + countCheck61_X35s  + countCheck61_X35e  <= 1
+
+X36s + 68 countCheck61_X36s >= 62
+X36e - 68 countCheck61_X36e <= 60
+-2 count61_X36 + countCheck61_X36s  + countCheck61_X36e  <= 1
+
+X37s + 68 countCheck61_X37s >= 62
+X37e - 68 countCheck61_X37e <= 60
+-2 count61_X37 + countCheck61_X37s  + countCheck61_X37e  <= 1
+
+X38s + 68 countCheck61_X38s >= 62
+X38e - 68 countCheck61_X38e <= 60
+-2 count61_X38 + countCheck61_X38s  + countCheck61_X38e  <= 1
+
+X39s + 68 countCheck61_X39s >= 62
+X39e - 68 countCheck61_X39e <= 60
+-2 count61_X39 + countCheck61_X39s  + countCheck61_X39e  <= 1
+
+X40s + 68 countCheck61_X40s >= 62
+X40e - 68 countCheck61_X40e <= 60
+-2 count61_X40 + countCheck61_X40s  + countCheck61_X40e  <= 1
+
+X41s + 68 countCheck61_X41s >= 62
+X41e - 68 countCheck61_X41e <= 60
+-2 count61_X41 + countCheck61_X41s  + countCheck61_X41e  <= 1
+
+X42s + 68 countCheck61_X42s >= 62
+X42e - 68 countCheck61_X42e <= 60
+-2 count61_X42 + countCheck61_X42s  + countCheck61_X42e  <= 1
+
+X43s + 68 countCheck61_X43s >= 62
+X43e - 68 countCheck61_X43e <= 60
+-2 count61_X43 + countCheck61_X43s  + countCheck61_X43e  <= 1
+
+X44s + 68 countCheck61_X44s >= 62
+X44e - 68 countCheck61_X44e <= 60
+-2 count61_X44 + countCheck61_X44s  + countCheck61_X44e  <= 1
+
+X45s + 68 countCheck61_X45s >= 62
+X45e - 68 countCheck61_X45e <= 60
+-2 count61_X45 + countCheck61_X45s  + countCheck61_X45e  <= 1
+
+X46s + 68 countCheck61_X46s >= 62
+X46e - 68 countCheck61_X46e <= 60
+-2 count61_X46 + countCheck61_X46s  + countCheck61_X46e  <= 1
+
+X47s + 68 countCheck61_X47s >= 62
+X47e - 68 countCheck61_X47e <= 60
+-2 count61_X47 + countCheck61_X47s  + countCheck61_X47e  <= 1
+
+X48s + 68 countCheck61_X48s >= 62
+X48e - 68 countCheck61_X48e <= 60
+-2 count61_X48 + countCheck61_X48s  + countCheck61_X48e  <= 1
+
+X49s + 68 countCheck61_X49s >= 62
+X49e - 68 countCheck61_X49e <= 60
+-2 count61_X49 + countCheck61_X49s  + countCheck61_X49e  <= 1
+
+X50s + 68 countCheck61_X50s >= 62
+X50e - 68 countCheck61_X50e <= 60
+-2 count61_X50 + countCheck61_X50s  + countCheck61_X50e  <= 1
+
+X51s + 68 countCheck61_X51s >= 62
+X51e - 68 countCheck61_X51e <= 60
+-2 count61_X51 + countCheck61_X51s  + countCheck61_X51e  <= 1
+
+X52s + 68 countCheck61_X52s >= 62
+X52e - 68 countCheck61_X52e <= 60
+-2 count61_X52 + countCheck61_X52s  + countCheck61_X52e  <= 1
+
+X53s + 68 countCheck61_X53s >= 62
+X53e - 68 countCheck61_X53e <= 60
+-2 count61_X53 + countCheck61_X53s  + countCheck61_X53e  <= 1
+
+X54s + 68 countCheck61_X54s >= 62
+X54e - 68 countCheck61_X54e <= 60
+-2 count61_X54 + countCheck61_X54s  + countCheck61_X54e  <= 1
+
+X55s + 68 countCheck61_X55s >= 62
+X55e - 68 countCheck61_X55e <= 60
+-2 count61_X55 + countCheck61_X55s  + countCheck61_X55e  <= 1
+
+X56s + 68 countCheck61_X56s >= 62
+X56e - 68 countCheck61_X56e <= 60
+-2 count61_X56 + countCheck61_X56s  + countCheck61_X56e  <= 1
+
+X57s + 68 countCheck61_X57s >= 62
+X57e - 68 countCheck61_X57e <= 60
+-2 count61_X57 + countCheck61_X57s  + countCheck61_X57e  <= 1
+
+X58s + 68 countCheck61_X58s >= 62
+X58e - 68 countCheck61_X58e <= 60
+-2 count61_X58 + countCheck61_X58s  + countCheck61_X58e  <= 1
+
+X59s + 68 countCheck61_X59s >= 62
+X59e - 68 countCheck61_X59e <= 60
+-2 count61_X59 + countCheck61_X59s  + countCheck61_X59e  <= 1
+
+X60s + 68 countCheck61_X60s >= 62
+X60e - 68 countCheck61_X60e <= 60
+-2 count61_X60 + countCheck61_X60s  + countCheck61_X60e  <= 1
+
+X61s + 68 countCheck61_X61s >= 62
+X61e - 68 countCheck61_X61e <= 60
+-2 count61_X61 + countCheck61_X61s  + countCheck61_X61e  <= 1
+
+X62s + 68 countCheck61_X62s >= 62
+X62e - 68 countCheck61_X62e <= 60
+-2 count61_X62 + countCheck61_X62s  + countCheck61_X62e  <= 1
+
+X63s + 68 countCheck61_X63s >= 62
+X63e - 68 countCheck61_X63e <= 60
+-2 count61_X63 + countCheck61_X63s  + countCheck61_X63e  <= 1
+
+X64s + 68 countCheck61_X64s >= 62
+X64e - 68 countCheck61_X64e <= 60
+-2 count61_X64 + countCheck61_X64s  + countCheck61_X64e  <= 1
+
+X65s + 68 countCheck61_X65s >= 62
+X65e - 68 countCheck61_X65e <= 60
+-2 count61_X65 + countCheck61_X65s  + countCheck61_X65e  <= 1
+
+X66s + 68 countCheck61_X66s >= 62
+X66e - 68 countCheck61_X66e <= 60
+-2 count61_X66 + countCheck61_X66s  + countCheck61_X66e  <= 1
+
+X67s + 68 countCheck61_X67s >= 62
+X67e - 68 countCheck61_X67e <= 60
+-2 count61_X67 + countCheck61_X67s  + countCheck61_X67e  <= 1
+
+count61_X0 + count61_X1 + count61_X2 + count61_X3 + count61_X4 + count61_X5 + count61_X6 + count61_X7 + count61_X8 + count61_X9 + count61_X10 + count61_X11 + count61_X12 + count61_X13 + count61_X14 + count61_X15 + count61_X16 + count61_X17 + count61_X18 + count61_X19 + count61_X20 + count61_X21 + count61_X22 + count61_X23 + count61_X24 + count61_X25 + count61_X26 + count61_X27 + count61_X28 + count61_X29 + count61_X30 + count61_X31 + count61_X32 + count61_X33 + count61_X34 + count61_X35 + count61_X36 + count61_X37 + count61_X38 + count61_X39 + count61_X40 + count61_X41 + count61_X42 + count61_X43 + count61_X44 + count61_X45 + count61_X46 + count61_X47 + count61_X48 + count61_X49 + count61_X50 + count61_X51 + count61_X52 + count61_X53 + count61_X54 + count61_X55 + count61_X56 + count61_X57 + count61_X58 + count61_X59 + count61_X60 + count61_X61 + count61_X62 + count61_X63 + count61_X64 + count61_X65 + count61_X66 + count61_X67 - pathWidth <= 1
+X0s + 68 countCheck62_X0s >= 63
+X0e - 68 countCheck62_X0e <= 61
+-2 count62_X0 + countCheck62_X0s  + countCheck62_X0e  <= 1
+
+X1s + 68 countCheck62_X1s >= 63
+X1e - 68 countCheck62_X1e <= 61
+-2 count62_X1 + countCheck62_X1s  + countCheck62_X1e  <= 1
+
+X2s + 68 countCheck62_X2s >= 63
+X2e - 68 countCheck62_X2e <= 61
+-2 count62_X2 + countCheck62_X2s  + countCheck62_X2e  <= 1
+
+X3s + 68 countCheck62_X3s >= 63
+X3e - 68 countCheck62_X3e <= 61
+-2 count62_X3 + countCheck62_X3s  + countCheck62_X3e  <= 1
+
+X4s + 68 countCheck62_X4s >= 63
+X4e - 68 countCheck62_X4e <= 61
+-2 count62_X4 + countCheck62_X4s  + countCheck62_X4e  <= 1
+
+X5s + 68 countCheck62_X5s >= 63
+X5e - 68 countCheck62_X5e <= 61
+-2 count62_X5 + countCheck62_X5s  + countCheck62_X5e  <= 1
+
+X6s + 68 countCheck62_X6s >= 63
+X6e - 68 countCheck62_X6e <= 61
+-2 count62_X6 + countCheck62_X6s  + countCheck62_X6e  <= 1
+
+X7s + 68 countCheck62_X7s >= 63
+X7e - 68 countCheck62_X7e <= 61
+-2 count62_X7 + countCheck62_X7s  + countCheck62_X7e  <= 1
+
+X8s + 68 countCheck62_X8s >= 63
+X8e - 68 countCheck62_X8e <= 61
+-2 count62_X8 + countCheck62_X8s  + countCheck62_X8e  <= 1
+
+X9s + 68 countCheck62_X9s >= 63
+X9e - 68 countCheck62_X9e <= 61
+-2 count62_X9 + countCheck62_X9s  + countCheck62_X9e  <= 1
+
+X10s + 68 countCheck62_X10s >= 63
+X10e - 68 countCheck62_X10e <= 61
+-2 count62_X10 + countCheck62_X10s  + countCheck62_X10e  <= 1
+
+X11s + 68 countCheck62_X11s >= 63
+X11e - 68 countCheck62_X11e <= 61
+-2 count62_X11 + countCheck62_X11s  + countCheck62_X11e  <= 1
+
+X12s + 68 countCheck62_X12s >= 63
+X12e - 68 countCheck62_X12e <= 61
+-2 count62_X12 + countCheck62_X12s  + countCheck62_X12e  <= 1
+
+X13s + 68 countCheck62_X13s >= 63
+X13e - 68 countCheck62_X13e <= 61
+-2 count62_X13 + countCheck62_X13s  + countCheck62_X13e  <= 1
+
+X14s + 68 countCheck62_X14s >= 63
+X14e - 68 countCheck62_X14e <= 61
+-2 count62_X14 + countCheck62_X14s  + countCheck62_X14e  <= 1
+
+X15s + 68 countCheck62_X15s >= 63
+X15e - 68 countCheck62_X15e <= 61
+-2 count62_X15 + countCheck62_X15s  + countCheck62_X15e  <= 1
+
+X16s + 68 countCheck62_X16s >= 63
+X16e - 68 countCheck62_X16e <= 61
+-2 count62_X16 + countCheck62_X16s  + countCheck62_X16e  <= 1
+
+X17s + 68 countCheck62_X17s >= 63
+X17e - 68 countCheck62_X17e <= 61
+-2 count62_X17 + countCheck62_X17s  + countCheck62_X17e  <= 1
+
+X18s + 68 countCheck62_X18s >= 63
+X18e - 68 countCheck62_X18e <= 61
+-2 count62_X18 + countCheck62_X18s  + countCheck62_X18e  <= 1
+
+X19s + 68 countCheck62_X19s >= 63
+X19e - 68 countCheck62_X19e <= 61
+-2 count62_X19 + countCheck62_X19s  + countCheck62_X19e  <= 1
+
+X20s + 68 countCheck62_X20s >= 63
+X20e - 68 countCheck62_X20e <= 61
+-2 count62_X20 + countCheck62_X20s  + countCheck62_X20e  <= 1
+
+X21s + 68 countCheck62_X21s >= 63
+X21e - 68 countCheck62_X21e <= 61
+-2 count62_X21 + countCheck62_X21s  + countCheck62_X21e  <= 1
+
+X22s + 68 countCheck62_X22s >= 63
+X22e - 68 countCheck62_X22e <= 61
+-2 count62_X22 + countCheck62_X22s  + countCheck62_X22e  <= 1
+
+X23s + 68 countCheck62_X23s >= 63
+X23e - 68 countCheck62_X23e <= 61
+-2 count62_X23 + countCheck62_X23s  + countCheck62_X23e  <= 1
+
+X24s + 68 countCheck62_X24s >= 63
+X24e - 68 countCheck62_X24e <= 61
+-2 count62_X24 + countCheck62_X24s  + countCheck62_X24e  <= 1
+
+X25s + 68 countCheck62_X25s >= 63
+X25e - 68 countCheck62_X25e <= 61
+-2 count62_X25 + countCheck62_X25s  + countCheck62_X25e  <= 1
+
+X26s + 68 countCheck62_X26s >= 63
+X26e - 68 countCheck62_X26e <= 61
+-2 count62_X26 + countCheck62_X26s  + countCheck62_X26e  <= 1
+
+X27s + 68 countCheck62_X27s >= 63
+X27e - 68 countCheck62_X27e <= 61
+-2 count62_X27 + countCheck62_X27s  + countCheck62_X27e  <= 1
+
+X28s + 68 countCheck62_X28s >= 63
+X28e - 68 countCheck62_X28e <= 61
+-2 count62_X28 + countCheck62_X28s  + countCheck62_X28e  <= 1
+
+X29s + 68 countCheck62_X29s >= 63
+X29e - 68 countCheck62_X29e <= 61
+-2 count62_X29 + countCheck62_X29s  + countCheck62_X29e  <= 1
+
+X30s + 68 countCheck62_X30s >= 63
+X30e - 68 countCheck62_X30e <= 61
+-2 count62_X30 + countCheck62_X30s  + countCheck62_X30e  <= 1
+
+X31s + 68 countCheck62_X31s >= 63
+X31e - 68 countCheck62_X31e <= 61
+-2 count62_X31 + countCheck62_X31s  + countCheck62_X31e  <= 1
+
+X32s + 68 countCheck62_X32s >= 63
+X32e - 68 countCheck62_X32e <= 61
+-2 count62_X32 + countCheck62_X32s  + countCheck62_X32e  <= 1
+
+X33s + 68 countCheck62_X33s >= 63
+X33e - 68 countCheck62_X33e <= 61
+-2 count62_X33 + countCheck62_X33s  + countCheck62_X33e  <= 1
+
+X34s + 68 countCheck62_X34s >= 63
+X34e - 68 countCheck62_X34e <= 61
+-2 count62_X34 + countCheck62_X34s  + countCheck62_X34e  <= 1
+
+X35s + 68 countCheck62_X35s >= 63
+X35e - 68 countCheck62_X35e <= 61
+-2 count62_X35 + countCheck62_X35s  + countCheck62_X35e  <= 1
+
+X36s + 68 countCheck62_X36s >= 63
+X36e - 68 countCheck62_X36e <= 61
+-2 count62_X36 + countCheck62_X36s  + countCheck62_X36e  <= 1
+
+X37s + 68 countCheck62_X37s >= 63
+X37e - 68 countCheck62_X37e <= 61
+-2 count62_X37 + countCheck62_X37s  + countCheck62_X37e  <= 1
+
+X38s + 68 countCheck62_X38s >= 63
+X38e - 68 countCheck62_X38e <= 61
+-2 count62_X38 + countCheck62_X38s  + countCheck62_X38e  <= 1
+
+X39s + 68 countCheck62_X39s >= 63
+X39e - 68 countCheck62_X39e <= 61
+-2 count62_X39 + countCheck62_X39s  + countCheck62_X39e  <= 1
+
+X40s + 68 countCheck62_X40s >= 63
+X40e - 68 countCheck62_X40e <= 61
+-2 count62_X40 + countCheck62_X40s  + countCheck62_X40e  <= 1
+
+X41s + 68 countCheck62_X41s >= 63
+X41e - 68 countCheck62_X41e <= 61
+-2 count62_X41 + countCheck62_X41s  + countCheck62_X41e  <= 1
+
+X42s + 68 countCheck62_X42s >= 63
+X42e - 68 countCheck62_X42e <= 61
+-2 count62_X42 + countCheck62_X42s  + countCheck62_X42e  <= 1
+
+X43s + 68 countCheck62_X43s >= 63
+X43e - 68 countCheck62_X43e <= 61
+-2 count62_X43 + countCheck62_X43s  + countCheck62_X43e  <= 1
+
+X44s + 68 countCheck62_X44s >= 63
+X44e - 68 countCheck62_X44e <= 61
+-2 count62_X44 + countCheck62_X44s  + countCheck62_X44e  <= 1
+
+X45s + 68 countCheck62_X45s >= 63
+X45e - 68 countCheck62_X45e <= 61
+-2 count62_X45 + countCheck62_X45s  + countCheck62_X45e  <= 1
+
+X46s + 68 countCheck62_X46s >= 63
+X46e - 68 countCheck62_X46e <= 61
+-2 count62_X46 + countCheck62_X46s  + countCheck62_X46e  <= 1
+
+X47s + 68 countCheck62_X47s >= 63
+X47e - 68 countCheck62_X47e <= 61
+-2 count62_X47 + countCheck62_X47s  + countCheck62_X47e  <= 1
+
+X48s + 68 countCheck62_X48s >= 63
+X48e - 68 countCheck62_X48e <= 61
+-2 count62_X48 + countCheck62_X48s  + countCheck62_X48e  <= 1
+
+X49s + 68 countCheck62_X49s >= 63
+X49e - 68 countCheck62_X49e <= 61
+-2 count62_X49 + countCheck62_X49s  + countCheck62_X49e  <= 1
+
+X50s + 68 countCheck62_X50s >= 63
+X50e - 68 countCheck62_X50e <= 61
+-2 count62_X50 + countCheck62_X50s  + countCheck62_X50e  <= 1
+
+X51s + 68 countCheck62_X51s >= 63
+X51e - 68 countCheck62_X51e <= 61
+-2 count62_X51 + countCheck62_X51s  + countCheck62_X51e  <= 1
+
+X52s + 68 countCheck62_X52s >= 63
+X52e - 68 countCheck62_X52e <= 61
+-2 count62_X52 + countCheck62_X52s  + countCheck62_X52e  <= 1
+
+X53s + 68 countCheck62_X53s >= 63
+X53e - 68 countCheck62_X53e <= 61
+-2 count62_X53 + countCheck62_X53s  + countCheck62_X53e  <= 1
+
+X54s + 68 countCheck62_X54s >= 63
+X54e - 68 countCheck62_X54e <= 61
+-2 count62_X54 + countCheck62_X54s  + countCheck62_X54e  <= 1
+
+X55s + 68 countCheck62_X55s >= 63
+X55e - 68 countCheck62_X55e <= 61
+-2 count62_X55 + countCheck62_X55s  + countCheck62_X55e  <= 1
+
+X56s + 68 countCheck62_X56s >= 63
+X56e - 68 countCheck62_X56e <= 61
+-2 count62_X56 + countCheck62_X56s  + countCheck62_X56e  <= 1
+
+X57s + 68 countCheck62_X57s >= 63
+X57e - 68 countCheck62_X57e <= 61
+-2 count62_X57 + countCheck62_X57s  + countCheck62_X57e  <= 1
+
+X58s + 68 countCheck62_X58s >= 63
+X58e - 68 countCheck62_X58e <= 61
+-2 count62_X58 + countCheck62_X58s  + countCheck62_X58e  <= 1
+
+X59s + 68 countCheck62_X59s >= 63
+X59e - 68 countCheck62_X59e <= 61
+-2 count62_X59 + countCheck62_X59s  + countCheck62_X59e  <= 1
+
+X60s + 68 countCheck62_X60s >= 63
+X60e - 68 countCheck62_X60e <= 61
+-2 count62_X60 + countCheck62_X60s  + countCheck62_X60e  <= 1
+
+X61s + 68 countCheck62_X61s >= 63
+X61e - 68 countCheck62_X61e <= 61
+-2 count62_X61 + countCheck62_X61s  + countCheck62_X61e  <= 1
+
+X62s + 68 countCheck62_X62s >= 63
+X62e - 68 countCheck62_X62e <= 61
+-2 count62_X62 + countCheck62_X62s  + countCheck62_X62e  <= 1
+
+X63s + 68 countCheck62_X63s >= 63
+X63e - 68 countCheck62_X63e <= 61
+-2 count62_X63 + countCheck62_X63s  + countCheck62_X63e  <= 1
+
+X64s + 68 countCheck62_X64s >= 63
+X64e - 68 countCheck62_X64e <= 61
+-2 count62_X64 + countCheck62_X64s  + countCheck62_X64e  <= 1
+
+X65s + 68 countCheck62_X65s >= 63
+X65e - 68 countCheck62_X65e <= 61
+-2 count62_X65 + countCheck62_X65s  + countCheck62_X65e  <= 1
+
+X66s + 68 countCheck62_X66s >= 63
+X66e - 68 countCheck62_X66e <= 61
+-2 count62_X66 + countCheck62_X66s  + countCheck62_X66e  <= 1
+
+X67s + 68 countCheck62_X67s >= 63
+X67e - 68 countCheck62_X67e <= 61
+-2 count62_X67 + countCheck62_X67s  + countCheck62_X67e  <= 1
+
+count62_X0 + count62_X1 + count62_X2 + count62_X3 + count62_X4 + count62_X5 + count62_X6 + count62_X7 + count62_X8 + count62_X9 + count62_X10 + count62_X11 + count62_X12 + count62_X13 + count62_X14 + count62_X15 + count62_X16 + count62_X17 + count62_X18 + count62_X19 + count62_X20 + count62_X21 + count62_X22 + count62_X23 + count62_X24 + count62_X25 + count62_X26 + count62_X27 + count62_X28 + count62_X29 + count62_X30 + count62_X31 + count62_X32 + count62_X33 + count62_X34 + count62_X35 + count62_X36 + count62_X37 + count62_X38 + count62_X39 + count62_X40 + count62_X41 + count62_X42 + count62_X43 + count62_X44 + count62_X45 + count62_X46 + count62_X47 + count62_X48 + count62_X49 + count62_X50 + count62_X51 + count62_X52 + count62_X53 + count62_X54 + count62_X55 + count62_X56 + count62_X57 + count62_X58 + count62_X59 + count62_X60 + count62_X61 + count62_X62 + count62_X63 + count62_X64 + count62_X65 + count62_X66 + count62_X67 - pathWidth <= 1
+X0s + 68 countCheck63_X0s >= 64
+X0e - 68 countCheck63_X0e <= 62
+-2 count63_X0 + countCheck63_X0s  + countCheck63_X0e  <= 1
+
+X1s + 68 countCheck63_X1s >= 64
+X1e - 68 countCheck63_X1e <= 62
+-2 count63_X1 + countCheck63_X1s  + countCheck63_X1e  <= 1
+
+X2s + 68 countCheck63_X2s >= 64
+X2e - 68 countCheck63_X2e <= 62
+-2 count63_X2 + countCheck63_X2s  + countCheck63_X2e  <= 1
+
+X3s + 68 countCheck63_X3s >= 64
+X3e - 68 countCheck63_X3e <= 62
+-2 count63_X3 + countCheck63_X3s  + countCheck63_X3e  <= 1
+
+X4s + 68 countCheck63_X4s >= 64
+X4e - 68 countCheck63_X4e <= 62
+-2 count63_X4 + countCheck63_X4s  + countCheck63_X4e  <= 1
+
+X5s + 68 countCheck63_X5s >= 64
+X5e - 68 countCheck63_X5e <= 62
+-2 count63_X5 + countCheck63_X5s  + countCheck63_X5e  <= 1
+
+X6s + 68 countCheck63_X6s >= 64
+X6e - 68 countCheck63_X6e <= 62
+-2 count63_X6 + countCheck63_X6s  + countCheck63_X6e  <= 1
+
+X7s + 68 countCheck63_X7s >= 64
+X7e - 68 countCheck63_X7e <= 62
+-2 count63_X7 + countCheck63_X7s  + countCheck63_X7e  <= 1
+
+X8s + 68 countCheck63_X8s >= 64
+X8e - 68 countCheck63_X8e <= 62
+-2 count63_X8 + countCheck63_X8s  + countCheck63_X8e  <= 1
+
+X9s + 68 countCheck63_X9s >= 64
+X9e - 68 countCheck63_X9e <= 62
+-2 count63_X9 + countCheck63_X9s  + countCheck63_X9e  <= 1
+
+X10s + 68 countCheck63_X10s >= 64
+X10e - 68 countCheck63_X10e <= 62
+-2 count63_X10 + countCheck63_X10s  + countCheck63_X10e  <= 1
+
+X11s + 68 countCheck63_X11s >= 64
+X11e - 68 countCheck63_X11e <= 62
+-2 count63_X11 + countCheck63_X11s  + countCheck63_X11e  <= 1
+
+X12s + 68 countCheck63_X12s >= 64
+X12e - 68 countCheck63_X12e <= 62
+-2 count63_X12 + countCheck63_X12s  + countCheck63_X12e  <= 1
+
+X13s + 68 countCheck63_X13s >= 64
+X13e - 68 countCheck63_X13e <= 62
+-2 count63_X13 + countCheck63_X13s  + countCheck63_X13e  <= 1
+
+X14s + 68 countCheck63_X14s >= 64
+X14e - 68 countCheck63_X14e <= 62
+-2 count63_X14 + countCheck63_X14s  + countCheck63_X14e  <= 1
+
+X15s + 68 countCheck63_X15s >= 64
+X15e - 68 countCheck63_X15e <= 62
+-2 count63_X15 + countCheck63_X15s  + countCheck63_X15e  <= 1
+
+X16s + 68 countCheck63_X16s >= 64
+X16e - 68 countCheck63_X16e <= 62
+-2 count63_X16 + countCheck63_X16s  + countCheck63_X16e  <= 1
+
+X17s + 68 countCheck63_X17s >= 64
+X17e - 68 countCheck63_X17e <= 62
+-2 count63_X17 + countCheck63_X17s  + countCheck63_X17e  <= 1
+
+X18s + 68 countCheck63_X18s >= 64
+X18e - 68 countCheck63_X18e <= 62
+-2 count63_X18 + countCheck63_X18s  + countCheck63_X18e  <= 1
+
+X19s + 68 countCheck63_X19s >= 64
+X19e - 68 countCheck63_X19e <= 62
+-2 count63_X19 + countCheck63_X19s  + countCheck63_X19e  <= 1
+
+X20s + 68 countCheck63_X20s >= 64
+X20e - 68 countCheck63_X20e <= 62
+-2 count63_X20 + countCheck63_X20s  + countCheck63_X20e  <= 1
+
+X21s + 68 countCheck63_X21s >= 64
+X21e - 68 countCheck63_X21e <= 62
+-2 count63_X21 + countCheck63_X21s  + countCheck63_X21e  <= 1
+
+X22s + 68 countCheck63_X22s >= 64
+X22e - 68 countCheck63_X22e <= 62
+-2 count63_X22 + countCheck63_X22s  + countCheck63_X22e  <= 1
+
+X23s + 68 countCheck63_X23s >= 64
+X23e - 68 countCheck63_X23e <= 62
+-2 count63_X23 + countCheck63_X23s  + countCheck63_X23e  <= 1
+
+X24s + 68 countCheck63_X24s >= 64
+X24e - 68 countCheck63_X24e <= 62
+-2 count63_X24 + countCheck63_X24s  + countCheck63_X24e  <= 1
+
+X25s + 68 countCheck63_X25s >= 64
+X25e - 68 countCheck63_X25e <= 62
+-2 count63_X25 + countCheck63_X25s  + countCheck63_X25e  <= 1
+
+X26s + 68 countCheck63_X26s >= 64
+X26e - 68 countCheck63_X26e <= 62
+-2 count63_X26 + countCheck63_X26s  + countCheck63_X26e  <= 1
+
+X27s + 68 countCheck63_X27s >= 64
+X27e - 68 countCheck63_X27e <= 62
+-2 count63_X27 + countCheck63_X27s  + countCheck63_X27e  <= 1
+
+X28s + 68 countCheck63_X28s >= 64
+X28e - 68 countCheck63_X28e <= 62
+-2 count63_X28 + countCheck63_X28s  + countCheck63_X28e  <= 1
+
+X29s + 68 countCheck63_X29s >= 64
+X29e - 68 countCheck63_X29e <= 62
+-2 count63_X29 + countCheck63_X29s  + countCheck63_X29e  <= 1
+
+X30s + 68 countCheck63_X30s >= 64
+X30e - 68 countCheck63_X30e <= 62
+-2 count63_X30 + countCheck63_X30s  + countCheck63_X30e  <= 1
+
+X31s + 68 countCheck63_X31s >= 64
+X31e - 68 countCheck63_X31e <= 62
+-2 count63_X31 + countCheck63_X31s  + countCheck63_X31e  <= 1
+
+X32s + 68 countCheck63_X32s >= 64
+X32e - 68 countCheck63_X32e <= 62
+-2 count63_X32 + countCheck63_X32s  + countCheck63_X32e  <= 1
+
+X33s + 68 countCheck63_X33s >= 64
+X33e - 68 countCheck63_X33e <= 62
+-2 count63_X33 + countCheck63_X33s  + countCheck63_X33e  <= 1
+
+X34s + 68 countCheck63_X34s >= 64
+X34e - 68 countCheck63_X34e <= 62
+-2 count63_X34 + countCheck63_X34s  + countCheck63_X34e  <= 1
+
+X35s + 68 countCheck63_X35s >= 64
+X35e - 68 countCheck63_X35e <= 62
+-2 count63_X35 + countCheck63_X35s  + countCheck63_X35e  <= 1
+
+X36s + 68 countCheck63_X36s >= 64
+X36e - 68 countCheck63_X36e <= 62
+-2 count63_X36 + countCheck63_X36s  + countCheck63_X36e  <= 1
+
+X37s + 68 countCheck63_X37s >= 64
+X37e - 68 countCheck63_X37e <= 62
+-2 count63_X37 + countCheck63_X37s  + countCheck63_X37e  <= 1
+
+X38s + 68 countCheck63_X38s >= 64
+X38e - 68 countCheck63_X38e <= 62
+-2 count63_X38 + countCheck63_X38s  + countCheck63_X38e  <= 1
+
+X39s + 68 countCheck63_X39s >= 64
+X39e - 68 countCheck63_X39e <= 62
+-2 count63_X39 + countCheck63_X39s  + countCheck63_X39e  <= 1
+
+X40s + 68 countCheck63_X40s >= 64
+X40e - 68 countCheck63_X40e <= 62
+-2 count63_X40 + countCheck63_X40s  + countCheck63_X40e  <= 1
+
+X41s + 68 countCheck63_X41s >= 64
+X41e - 68 countCheck63_X41e <= 62
+-2 count63_X41 + countCheck63_X41s  + countCheck63_X41e  <= 1
+
+X42s + 68 countCheck63_X42s >= 64
+X42e - 68 countCheck63_X42e <= 62
+-2 count63_X42 + countCheck63_X42s  + countCheck63_X42e  <= 1
+
+X43s + 68 countCheck63_X43s >= 64
+X43e - 68 countCheck63_X43e <= 62
+-2 count63_X43 + countCheck63_X43s  + countCheck63_X43e  <= 1
+
+X44s + 68 countCheck63_X44s >= 64
+X44e - 68 countCheck63_X44e <= 62
+-2 count63_X44 + countCheck63_X44s  + countCheck63_X44e  <= 1
+
+X45s + 68 countCheck63_X45s >= 64
+X45e - 68 countCheck63_X45e <= 62
+-2 count63_X45 + countCheck63_X45s  + countCheck63_X45e  <= 1
+
+X46s + 68 countCheck63_X46s >= 64
+X46e - 68 countCheck63_X46e <= 62
+-2 count63_X46 + countCheck63_X46s  + countCheck63_X46e  <= 1
+
+X47s + 68 countCheck63_X47s >= 64
+X47e - 68 countCheck63_X47e <= 62
+-2 count63_X47 + countCheck63_X47s  + countCheck63_X47e  <= 1
+
+X48s + 68 countCheck63_X48s >= 64
+X48e - 68 countCheck63_X48e <= 62
+-2 count63_X48 + countCheck63_X48s  + countCheck63_X48e  <= 1
+
+X49s + 68 countCheck63_X49s >= 64
+X49e - 68 countCheck63_X49e <= 62
+-2 count63_X49 + countCheck63_X49s  + countCheck63_X49e  <= 1
+
+X50s + 68 countCheck63_X50s >= 64
+X50e - 68 countCheck63_X50e <= 62
+-2 count63_X50 + countCheck63_X50s  + countCheck63_X50e  <= 1
+
+X51s + 68 countCheck63_X51s >= 64
+X51e - 68 countCheck63_X51e <= 62
+-2 count63_X51 + countCheck63_X51s  + countCheck63_X51e  <= 1
+
+X52s + 68 countCheck63_X52s >= 64
+X52e - 68 countCheck63_X52e <= 62
+-2 count63_X52 + countCheck63_X52s  + countCheck63_X52e  <= 1
+
+X53s + 68 countCheck63_X53s >= 64
+X53e - 68 countCheck63_X53e <= 62
+-2 count63_X53 + countCheck63_X53s  + countCheck63_X53e  <= 1
+
+X54s + 68 countCheck63_X54s >= 64
+X54e - 68 countCheck63_X54e <= 62
+-2 count63_X54 + countCheck63_X54s  + countCheck63_X54e  <= 1
+
+X55s + 68 countCheck63_X55s >= 64
+X55e - 68 countCheck63_X55e <= 62
+-2 count63_X55 + countCheck63_X55s  + countCheck63_X55e  <= 1
+
+X56s + 68 countCheck63_X56s >= 64
+X56e - 68 countCheck63_X56e <= 62
+-2 count63_X56 + countCheck63_X56s  + countCheck63_X56e  <= 1
+
+X57s + 68 countCheck63_X57s >= 64
+X57e - 68 countCheck63_X57e <= 62
+-2 count63_X57 + countCheck63_X57s  + countCheck63_X57e  <= 1
+
+X58s + 68 countCheck63_X58s >= 64
+X58e - 68 countCheck63_X58e <= 62
+-2 count63_X58 + countCheck63_X58s  + countCheck63_X58e  <= 1
+
+X59s + 68 countCheck63_X59s >= 64
+X59e - 68 countCheck63_X59e <= 62
+-2 count63_X59 + countCheck63_X59s  + countCheck63_X59e  <= 1
+
+X60s + 68 countCheck63_X60s >= 64
+X60e - 68 countCheck63_X60e <= 62
+-2 count63_X60 + countCheck63_X60s  + countCheck63_X60e  <= 1
+
+X61s + 68 countCheck63_X61s >= 64
+X61e - 68 countCheck63_X61e <= 62
+-2 count63_X61 + countCheck63_X61s  + countCheck63_X61e  <= 1
+
+X62s + 68 countCheck63_X62s >= 64
+X62e - 68 countCheck63_X62e <= 62
+-2 count63_X62 + countCheck63_X62s  + countCheck63_X62e  <= 1
+
+X63s + 68 countCheck63_X63s >= 64
+X63e - 68 countCheck63_X63e <= 62
+-2 count63_X63 + countCheck63_X63s  + countCheck63_X63e  <= 1
+
+X64s + 68 countCheck63_X64s >= 64
+X64e - 68 countCheck63_X64e <= 62
+-2 count63_X64 + countCheck63_X64s  + countCheck63_X64e  <= 1
+
+X65s + 68 countCheck63_X65s >= 64
+X65e - 68 countCheck63_X65e <= 62
+-2 count63_X65 + countCheck63_X65s  + countCheck63_X65e  <= 1
+
+X66s + 68 countCheck63_X66s >= 64
+X66e - 68 countCheck63_X66e <= 62
+-2 count63_X66 + countCheck63_X66s  + countCheck63_X66e  <= 1
+
+X67s + 68 countCheck63_X67s >= 64
+X67e - 68 countCheck63_X67e <= 62
+-2 count63_X67 + countCheck63_X67s  + countCheck63_X67e  <= 1
+
+count63_X0 + count63_X1 + count63_X2 + count63_X3 + count63_X4 + count63_X5 + count63_X6 + count63_X7 + count63_X8 + count63_X9 + count63_X10 + count63_X11 + count63_X12 + count63_X13 + count63_X14 + count63_X15 + count63_X16 + count63_X17 + count63_X18 + count63_X19 + count63_X20 + count63_X21 + count63_X22 + count63_X23 + count63_X24 + count63_X25 + count63_X26 + count63_X27 + count63_X28 + count63_X29 + count63_X30 + count63_X31 + count63_X32 + count63_X33 + count63_X34 + count63_X35 + count63_X36 + count63_X37 + count63_X38 + count63_X39 + count63_X40 + count63_X41 + count63_X42 + count63_X43 + count63_X44 + count63_X45 + count63_X46 + count63_X47 + count63_X48 + count63_X49 + count63_X50 + count63_X51 + count63_X52 + count63_X53 + count63_X54 + count63_X55 + count63_X56 + count63_X57 + count63_X58 + count63_X59 + count63_X60 + count63_X61 + count63_X62 + count63_X63 + count63_X64 + count63_X65 + count63_X66 + count63_X67 - pathWidth <= 1
+X0s + 68 countCheck64_X0s >= 65
+X0e - 68 countCheck64_X0e <= 63
+-2 count64_X0 + countCheck64_X0s  + countCheck64_X0e  <= 1
+
+X1s + 68 countCheck64_X1s >= 65
+X1e - 68 countCheck64_X1e <= 63
+-2 count64_X1 + countCheck64_X1s  + countCheck64_X1e  <= 1
+
+X2s + 68 countCheck64_X2s >= 65
+X2e - 68 countCheck64_X2e <= 63
+-2 count64_X2 + countCheck64_X2s  + countCheck64_X2e  <= 1
+
+X3s + 68 countCheck64_X3s >= 65
+X3e - 68 countCheck64_X3e <= 63
+-2 count64_X3 + countCheck64_X3s  + countCheck64_X3e  <= 1
+
+X4s + 68 countCheck64_X4s >= 65
+X4e - 68 countCheck64_X4e <= 63
+-2 count64_X4 + countCheck64_X4s  + countCheck64_X4e  <= 1
+
+X5s + 68 countCheck64_X5s >= 65
+X5e - 68 countCheck64_X5e <= 63
+-2 count64_X5 + countCheck64_X5s  + countCheck64_X5e  <= 1
+
+X6s + 68 countCheck64_X6s >= 65
+X6e - 68 countCheck64_X6e <= 63
+-2 count64_X6 + countCheck64_X6s  + countCheck64_X6e  <= 1
+
+X7s + 68 countCheck64_X7s >= 65
+X7e - 68 countCheck64_X7e <= 63
+-2 count64_X7 + countCheck64_X7s  + countCheck64_X7e  <= 1
+
+X8s + 68 countCheck64_X8s >= 65
+X8e - 68 countCheck64_X8e <= 63
+-2 count64_X8 + countCheck64_X8s  + countCheck64_X8e  <= 1
+
+X9s + 68 countCheck64_X9s >= 65
+X9e - 68 countCheck64_X9e <= 63
+-2 count64_X9 + countCheck64_X9s  + countCheck64_X9e  <= 1
+
+X10s + 68 countCheck64_X10s >= 65
+X10e - 68 countCheck64_X10e <= 63
+-2 count64_X10 + countCheck64_X10s  + countCheck64_X10e  <= 1
+
+X11s + 68 countCheck64_X11s >= 65
+X11e - 68 countCheck64_X11e <= 63
+-2 count64_X11 + countCheck64_X11s  + countCheck64_X11e  <= 1
+
+X12s + 68 countCheck64_X12s >= 65
+X12e - 68 countCheck64_X12e <= 63
+-2 count64_X12 + countCheck64_X12s  + countCheck64_X12e  <= 1
+
+X13s + 68 countCheck64_X13s >= 65
+X13e - 68 countCheck64_X13e <= 63
+-2 count64_X13 + countCheck64_X13s  + countCheck64_X13e  <= 1
+
+X14s + 68 countCheck64_X14s >= 65
+X14e - 68 countCheck64_X14e <= 63
+-2 count64_X14 + countCheck64_X14s  + countCheck64_X14e  <= 1
+
+X15s + 68 countCheck64_X15s >= 65
+X15e - 68 countCheck64_X15e <= 63
+-2 count64_X15 + countCheck64_X15s  + countCheck64_X15e  <= 1
+
+X16s + 68 countCheck64_X16s >= 65
+X16e - 68 countCheck64_X16e <= 63
+-2 count64_X16 + countCheck64_X16s  + countCheck64_X16e  <= 1
+
+X17s + 68 countCheck64_X17s >= 65
+X17e - 68 countCheck64_X17e <= 63
+-2 count64_X17 + countCheck64_X17s  + countCheck64_X17e  <= 1
+
+X18s + 68 countCheck64_X18s >= 65
+X18e - 68 countCheck64_X18e <= 63
+-2 count64_X18 + countCheck64_X18s  + countCheck64_X18e  <= 1
+
+X19s + 68 countCheck64_X19s >= 65
+X19e - 68 countCheck64_X19e <= 63
+-2 count64_X19 + countCheck64_X19s  + countCheck64_X19e  <= 1
+
+X20s + 68 countCheck64_X20s >= 65
+X20e - 68 countCheck64_X20e <= 63
+-2 count64_X20 + countCheck64_X20s  + countCheck64_X20e  <= 1
+
+X21s + 68 countCheck64_X21s >= 65
+X21e - 68 countCheck64_X21e <= 63
+-2 count64_X21 + countCheck64_X21s  + countCheck64_X21e  <= 1
+
+X22s + 68 countCheck64_X22s >= 65
+X22e - 68 countCheck64_X22e <= 63
+-2 count64_X22 + countCheck64_X22s  + countCheck64_X22e  <= 1
+
+X23s + 68 countCheck64_X23s >= 65
+X23e - 68 countCheck64_X23e <= 63
+-2 count64_X23 + countCheck64_X23s  + countCheck64_X23e  <= 1
+
+X24s + 68 countCheck64_X24s >= 65
+X24e - 68 countCheck64_X24e <= 63
+-2 count64_X24 + countCheck64_X24s  + countCheck64_X24e  <= 1
+
+X25s + 68 countCheck64_X25s >= 65
+X25e - 68 countCheck64_X25e <= 63
+-2 count64_X25 + countCheck64_X25s  + countCheck64_X25e  <= 1
+
+X26s + 68 countCheck64_X26s >= 65
+X26e - 68 countCheck64_X26e <= 63
+-2 count64_X26 + countCheck64_X26s  + countCheck64_X26e  <= 1
+
+X27s + 68 countCheck64_X27s >= 65
+X27e - 68 countCheck64_X27e <= 63
+-2 count64_X27 + countCheck64_X27s  + countCheck64_X27e  <= 1
+
+X28s + 68 countCheck64_X28s >= 65
+X28e - 68 countCheck64_X28e <= 63
+-2 count64_X28 + countCheck64_X28s  + countCheck64_X28e  <= 1
+
+X29s + 68 countCheck64_X29s >= 65
+X29e - 68 countCheck64_X29e <= 63
+-2 count64_X29 + countCheck64_X29s  + countCheck64_X29e  <= 1
+
+X30s + 68 countCheck64_X30s >= 65
+X30e - 68 countCheck64_X30e <= 63
+-2 count64_X30 + countCheck64_X30s  + countCheck64_X30e  <= 1
+
+X31s + 68 countCheck64_X31s >= 65
+X31e - 68 countCheck64_X31e <= 63
+-2 count64_X31 + countCheck64_X31s  + countCheck64_X31e  <= 1
+
+X32s + 68 countCheck64_X32s >= 65
+X32e - 68 countCheck64_X32e <= 63
+-2 count64_X32 + countCheck64_X32s  + countCheck64_X32e  <= 1
+
+X33s + 68 countCheck64_X33s >= 65
+X33e - 68 countCheck64_X33e <= 63
+-2 count64_X33 + countCheck64_X33s  + countCheck64_X33e  <= 1
+
+X34s + 68 countCheck64_X34s >= 65
+X34e - 68 countCheck64_X34e <= 63
+-2 count64_X34 + countCheck64_X34s  + countCheck64_X34e  <= 1
+
+X35s + 68 countCheck64_X35s >= 65
+X35e - 68 countCheck64_X35e <= 63
+-2 count64_X35 + countCheck64_X35s  + countCheck64_X35e  <= 1
+
+X36s + 68 countCheck64_X36s >= 65
+X36e - 68 countCheck64_X36e <= 63
+-2 count64_X36 + countCheck64_X36s  + countCheck64_X36e  <= 1
+
+X37s + 68 countCheck64_X37s >= 65
+X37e - 68 countCheck64_X37e <= 63
+-2 count64_X37 + countCheck64_X37s  + countCheck64_X37e  <= 1
+
+X38s + 68 countCheck64_X38s >= 65
+X38e - 68 countCheck64_X38e <= 63
+-2 count64_X38 + countCheck64_X38s  + countCheck64_X38e  <= 1
+
+X39s + 68 countCheck64_X39s >= 65
+X39e - 68 countCheck64_X39e <= 63
+-2 count64_X39 + countCheck64_X39s  + countCheck64_X39e  <= 1
+
+X40s + 68 countCheck64_X40s >= 65
+X40e - 68 countCheck64_X40e <= 63
+-2 count64_X40 + countCheck64_X40s  + countCheck64_X40e  <= 1
+
+X41s + 68 countCheck64_X41s >= 65
+X41e - 68 countCheck64_X41e <= 63
+-2 count64_X41 + countCheck64_X41s  + countCheck64_X41e  <= 1
+
+X42s + 68 countCheck64_X42s >= 65
+X42e - 68 countCheck64_X42e <= 63
+-2 count64_X42 + countCheck64_X42s  + countCheck64_X42e  <= 1
+
+X43s + 68 countCheck64_X43s >= 65
+X43e - 68 countCheck64_X43e <= 63
+-2 count64_X43 + countCheck64_X43s  + countCheck64_X43e  <= 1
+
+X44s + 68 countCheck64_X44s >= 65
+X44e - 68 countCheck64_X44e <= 63
+-2 count64_X44 + countCheck64_X44s  + countCheck64_X44e  <= 1
+
+X45s + 68 countCheck64_X45s >= 65
+X45e - 68 countCheck64_X45e <= 63
+-2 count64_X45 + countCheck64_X45s  + countCheck64_X45e  <= 1
+
+X46s + 68 countCheck64_X46s >= 65
+X46e - 68 countCheck64_X46e <= 63
+-2 count64_X46 + countCheck64_X46s  + countCheck64_X46e  <= 1
+
+X47s + 68 countCheck64_X47s >= 65
+X47e - 68 countCheck64_X47e <= 63
+-2 count64_X47 + countCheck64_X47s  + countCheck64_X47e  <= 1
+
+X48s + 68 countCheck64_X48s >= 65
+X48e - 68 countCheck64_X48e <= 63
+-2 count64_X48 + countCheck64_X48s  + countCheck64_X48e  <= 1
+
+X49s + 68 countCheck64_X49s >= 65
+X49e - 68 countCheck64_X49e <= 63
+-2 count64_X49 + countCheck64_X49s  + countCheck64_X49e  <= 1
+
+X50s + 68 countCheck64_X50s >= 65
+X50e - 68 countCheck64_X50e <= 63
+-2 count64_X50 + countCheck64_X50s  + countCheck64_X50e  <= 1
+
+X51s + 68 countCheck64_X51s >= 65
+X51e - 68 countCheck64_X51e <= 63
+-2 count64_X51 + countCheck64_X51s  + countCheck64_X51e  <= 1
+
+X52s + 68 countCheck64_X52s >= 65
+X52e - 68 countCheck64_X52e <= 63
+-2 count64_X52 + countCheck64_X52s  + countCheck64_X52e  <= 1
+
+X53s + 68 countCheck64_X53s >= 65
+X53e - 68 countCheck64_X53e <= 63
+-2 count64_X53 + countCheck64_X53s  + countCheck64_X53e  <= 1
+
+X54s + 68 countCheck64_X54s >= 65
+X54e - 68 countCheck64_X54e <= 63
+-2 count64_X54 + countCheck64_X54s  + countCheck64_X54e  <= 1
+
+X55s + 68 countCheck64_X55s >= 65
+X55e - 68 countCheck64_X55e <= 63
+-2 count64_X55 + countCheck64_X55s  + countCheck64_X55e  <= 1
+
+X56s + 68 countCheck64_X56s >= 65
+X56e - 68 countCheck64_X56e <= 63
+-2 count64_X56 + countCheck64_X56s  + countCheck64_X56e  <= 1
+
+X57s + 68 countCheck64_X57s >= 65
+X57e - 68 countCheck64_X57e <= 63
+-2 count64_X57 + countCheck64_X57s  + countCheck64_X57e  <= 1
+
+X58s + 68 countCheck64_X58s >= 65
+X58e - 68 countCheck64_X58e <= 63
+-2 count64_X58 + countCheck64_X58s  + countCheck64_X58e  <= 1
+
+X59s + 68 countCheck64_X59s >= 65
+X59e - 68 countCheck64_X59e <= 63
+-2 count64_X59 + countCheck64_X59s  + countCheck64_X59e  <= 1
+
+X60s + 68 countCheck64_X60s >= 65
+X60e - 68 countCheck64_X60e <= 63
+-2 count64_X60 + countCheck64_X60s  + countCheck64_X60e  <= 1
+
+X61s + 68 countCheck64_X61s >= 65
+X61e - 68 countCheck64_X61e <= 63
+-2 count64_X61 + countCheck64_X61s  + countCheck64_X61e  <= 1
+
+X62s + 68 countCheck64_X62s >= 65
+X62e - 68 countCheck64_X62e <= 63
+-2 count64_X62 + countCheck64_X62s  + countCheck64_X62e  <= 1
+
+X63s + 68 countCheck64_X63s >= 65
+X63e - 68 countCheck64_X63e <= 63
+-2 count64_X63 + countCheck64_X63s  + countCheck64_X63e  <= 1
+
+X64s + 68 countCheck64_X64s >= 65
+X64e - 68 countCheck64_X64e <= 63
+-2 count64_X64 + countCheck64_X64s  + countCheck64_X64e  <= 1
+
+X65s + 68 countCheck64_X65s >= 65
+X65e - 68 countCheck64_X65e <= 63
+-2 count64_X65 + countCheck64_X65s  + countCheck64_X65e  <= 1
+
+X66s + 68 countCheck64_X66s >= 65
+X66e - 68 countCheck64_X66e <= 63
+-2 count64_X66 + countCheck64_X66s  + countCheck64_X66e  <= 1
+
+X67s + 68 countCheck64_X67s >= 65
+X67e - 68 countCheck64_X67e <= 63
+-2 count64_X67 + countCheck64_X67s  + countCheck64_X67e  <= 1
+
+count64_X0 + count64_X1 + count64_X2 + count64_X3 + count64_X4 + count64_X5 + count64_X6 + count64_X7 + count64_X8 + count64_X9 + count64_X10 + count64_X11 + count64_X12 + count64_X13 + count64_X14 + count64_X15 + count64_X16 + count64_X17 + count64_X18 + count64_X19 + count64_X20 + count64_X21 + count64_X22 + count64_X23 + count64_X24 + count64_X25 + count64_X26 + count64_X27 + count64_X28 + count64_X29 + count64_X30 + count64_X31 + count64_X32 + count64_X33 + count64_X34 + count64_X35 + count64_X36 + count64_X37 + count64_X38 + count64_X39 + count64_X40 + count64_X41 + count64_X42 + count64_X43 + count64_X44 + count64_X45 + count64_X46 + count64_X47 + count64_X48 + count64_X49 + count64_X50 + count64_X51 + count64_X52 + count64_X53 + count64_X54 + count64_X55 + count64_X56 + count64_X57 + count64_X58 + count64_X59 + count64_X60 + count64_X61 + count64_X62 + count64_X63 + count64_X64 + count64_X65 + count64_X66 + count64_X67 - pathWidth <= 1
+X0s + 68 countCheck65_X0s >= 66
+X0e - 68 countCheck65_X0e <= 64
+-2 count65_X0 + countCheck65_X0s  + countCheck65_X0e  <= 1
+
+X1s + 68 countCheck65_X1s >= 66
+X1e - 68 countCheck65_X1e <= 64
+-2 count65_X1 + countCheck65_X1s  + countCheck65_X1e  <= 1
+
+X2s + 68 countCheck65_X2s >= 66
+X2e - 68 countCheck65_X2e <= 64
+-2 count65_X2 + countCheck65_X2s  + countCheck65_X2e  <= 1
+
+X3s + 68 countCheck65_X3s >= 66
+X3e - 68 countCheck65_X3e <= 64
+-2 count65_X3 + countCheck65_X3s  + countCheck65_X3e  <= 1
+
+X4s + 68 countCheck65_X4s >= 66
+X4e - 68 countCheck65_X4e <= 64
+-2 count65_X4 + countCheck65_X4s  + countCheck65_X4e  <= 1
+
+X5s + 68 countCheck65_X5s >= 66
+X5e - 68 countCheck65_X5e <= 64
+-2 count65_X5 + countCheck65_X5s  + countCheck65_X5e  <= 1
+
+X6s + 68 countCheck65_X6s >= 66
+X6e - 68 countCheck65_X6e <= 64
+-2 count65_X6 + countCheck65_X6s  + countCheck65_X6e  <= 1
+
+X7s + 68 countCheck65_X7s >= 66
+X7e - 68 countCheck65_X7e <= 64
+-2 count65_X7 + countCheck65_X7s  + countCheck65_X7e  <= 1
+
+X8s + 68 countCheck65_X8s >= 66
+X8e - 68 countCheck65_X8e <= 64
+-2 count65_X8 + countCheck65_X8s  + countCheck65_X8e  <= 1
+
+X9s + 68 countCheck65_X9s >= 66
+X9e - 68 countCheck65_X9e <= 64
+-2 count65_X9 + countCheck65_X9s  + countCheck65_X9e  <= 1
+
+X10s + 68 countCheck65_X10s >= 66
+X10e - 68 countCheck65_X10e <= 64
+-2 count65_X10 + countCheck65_X10s  + countCheck65_X10e  <= 1
+
+X11s + 68 countCheck65_X11s >= 66
+X11e - 68 countCheck65_X11e <= 64
+-2 count65_X11 + countCheck65_X11s  + countCheck65_X11e  <= 1
+
+X12s + 68 countCheck65_X12s >= 66
+X12e - 68 countCheck65_X12e <= 64
+-2 count65_X12 + countCheck65_X12s  + countCheck65_X12e  <= 1
+
+X13s + 68 countCheck65_X13s >= 66
+X13e - 68 countCheck65_X13e <= 64
+-2 count65_X13 + countCheck65_X13s  + countCheck65_X13e  <= 1
+
+X14s + 68 countCheck65_X14s >= 66
+X14e - 68 countCheck65_X14e <= 64
+-2 count65_X14 + countCheck65_X14s  + countCheck65_X14e  <= 1
+
+X15s + 68 countCheck65_X15s >= 66
+X15e - 68 countCheck65_X15e <= 64
+-2 count65_X15 + countCheck65_X15s  + countCheck65_X15e  <= 1
+
+X16s + 68 countCheck65_X16s >= 66
+X16e - 68 countCheck65_X16e <= 64
+-2 count65_X16 + countCheck65_X16s  + countCheck65_X16e  <= 1
+
+X17s + 68 countCheck65_X17s >= 66
+X17e - 68 countCheck65_X17e <= 64
+-2 count65_X17 + countCheck65_X17s  + countCheck65_X17e  <= 1
+
+X18s + 68 countCheck65_X18s >= 66
+X18e - 68 countCheck65_X18e <= 64
+-2 count65_X18 + countCheck65_X18s  + countCheck65_X18e  <= 1
+
+X19s + 68 countCheck65_X19s >= 66
+X19e - 68 countCheck65_X19e <= 64
+-2 count65_X19 + countCheck65_X19s  + countCheck65_X19e  <= 1
+
+X20s + 68 countCheck65_X20s >= 66
+X20e - 68 countCheck65_X20e <= 64
+-2 count65_X20 + countCheck65_X20s  + countCheck65_X20e  <= 1
+
+X21s + 68 countCheck65_X21s >= 66
+X21e - 68 countCheck65_X21e <= 64
+-2 count65_X21 + countCheck65_X21s  + countCheck65_X21e  <= 1
+
+X22s + 68 countCheck65_X22s >= 66
+X22e - 68 countCheck65_X22e <= 64
+-2 count65_X22 + countCheck65_X22s  + countCheck65_X22e  <= 1
+
+X23s + 68 countCheck65_X23s >= 66
+X23e - 68 countCheck65_X23e <= 64
+-2 count65_X23 + countCheck65_X23s  + countCheck65_X23e  <= 1
+
+X24s + 68 countCheck65_X24s >= 66
+X24e - 68 countCheck65_X24e <= 64
+-2 count65_X24 + countCheck65_X24s  + countCheck65_X24e  <= 1
+
+X25s + 68 countCheck65_X25s >= 66
+X25e - 68 countCheck65_X25e <= 64
+-2 count65_X25 + countCheck65_X25s  + countCheck65_X25e  <= 1
+
+X26s + 68 countCheck65_X26s >= 66
+X26e - 68 countCheck65_X26e <= 64
+-2 count65_X26 + countCheck65_X26s  + countCheck65_X26e  <= 1
+
+X27s + 68 countCheck65_X27s >= 66
+X27e - 68 countCheck65_X27e <= 64
+-2 count65_X27 + countCheck65_X27s  + countCheck65_X27e  <= 1
+
+X28s + 68 countCheck65_X28s >= 66
+X28e - 68 countCheck65_X28e <= 64
+-2 count65_X28 + countCheck65_X28s  + countCheck65_X28e  <= 1
+
+X29s + 68 countCheck65_X29s >= 66
+X29e - 68 countCheck65_X29e <= 64
+-2 count65_X29 + countCheck65_X29s  + countCheck65_X29e  <= 1
+
+X30s + 68 countCheck65_X30s >= 66
+X30e - 68 countCheck65_X30e <= 64
+-2 count65_X30 + countCheck65_X30s  + countCheck65_X30e  <= 1
+
+X31s + 68 countCheck65_X31s >= 66
+X31e - 68 countCheck65_X31e <= 64
+-2 count65_X31 + countCheck65_X31s  + countCheck65_X31e  <= 1
+
+X32s + 68 countCheck65_X32s >= 66
+X32e - 68 countCheck65_X32e <= 64
+-2 count65_X32 + countCheck65_X32s  + countCheck65_X32e  <= 1
+
+X33s + 68 countCheck65_X33s >= 66
+X33e - 68 countCheck65_X33e <= 64
+-2 count65_X33 + countCheck65_X33s  + countCheck65_X33e  <= 1
+
+X34s + 68 countCheck65_X34s >= 66
+X34e - 68 countCheck65_X34e <= 64
+-2 count65_X34 + countCheck65_X34s  + countCheck65_X34e  <= 1
+
+X35s + 68 countCheck65_X35s >= 66
+X35e - 68 countCheck65_X35e <= 64
+-2 count65_X35 + countCheck65_X35s  + countCheck65_X35e  <= 1
+
+X36s + 68 countCheck65_X36s >= 66
+X36e - 68 countCheck65_X36e <= 64
+-2 count65_X36 + countCheck65_X36s  + countCheck65_X36e  <= 1
+
+X37s + 68 countCheck65_X37s >= 66
+X37e - 68 countCheck65_X37e <= 64
+-2 count65_X37 + countCheck65_X37s  + countCheck65_X37e  <= 1
+
+X38s + 68 countCheck65_X38s >= 66
+X38e - 68 countCheck65_X38e <= 64
+-2 count65_X38 + countCheck65_X38s  + countCheck65_X38e  <= 1
+
+X39s + 68 countCheck65_X39s >= 66
+X39e - 68 countCheck65_X39e <= 64
+-2 count65_X39 + countCheck65_X39s  + countCheck65_X39e  <= 1
+
+X40s + 68 countCheck65_X40s >= 66
+X40e - 68 countCheck65_X40e <= 64
+-2 count65_X40 + countCheck65_X40s  + countCheck65_X40e  <= 1
+
+X41s + 68 countCheck65_X41s >= 66
+X41e - 68 countCheck65_X41e <= 64
+-2 count65_X41 + countCheck65_X41s  + countCheck65_X41e  <= 1
+
+X42s + 68 countCheck65_X42s >= 66
+X42e - 68 countCheck65_X42e <= 64
+-2 count65_X42 + countCheck65_X42s  + countCheck65_X42e  <= 1
+
+X43s + 68 countCheck65_X43s >= 66
+X43e - 68 countCheck65_X43e <= 64
+-2 count65_X43 + countCheck65_X43s  + countCheck65_X43e  <= 1
+
+X44s + 68 countCheck65_X44s >= 66
+X44e - 68 countCheck65_X44e <= 64
+-2 count65_X44 + countCheck65_X44s  + countCheck65_X44e  <= 1
+
+X45s + 68 countCheck65_X45s >= 66
+X45e - 68 countCheck65_X45e <= 64
+-2 count65_X45 + countCheck65_X45s  + countCheck65_X45e  <= 1
+
+X46s + 68 countCheck65_X46s >= 66
+X46e - 68 countCheck65_X46e <= 64
+-2 count65_X46 + countCheck65_X46s  + countCheck65_X46e  <= 1
+
+X47s + 68 countCheck65_X47s >= 66
+X47e - 68 countCheck65_X47e <= 64
+-2 count65_X47 + countCheck65_X47s  + countCheck65_X47e  <= 1
+
+X48s + 68 countCheck65_X48s >= 66
+X48e - 68 countCheck65_X48e <= 64
+-2 count65_X48 + countCheck65_X48s  + countCheck65_X48e  <= 1
+
+X49s + 68 countCheck65_X49s >= 66
+X49e - 68 countCheck65_X49e <= 64
+-2 count65_X49 + countCheck65_X49s  + countCheck65_X49e  <= 1
+
+X50s + 68 countCheck65_X50s >= 66
+X50e - 68 countCheck65_X50e <= 64
+-2 count65_X50 + countCheck65_X50s  + countCheck65_X50e  <= 1
+
+X51s + 68 countCheck65_X51s >= 66
+X51e - 68 countCheck65_X51e <= 64
+-2 count65_X51 + countCheck65_X51s  + countCheck65_X51e  <= 1
+
+X52s + 68 countCheck65_X52s >= 66
+X52e - 68 countCheck65_X52e <= 64
+-2 count65_X52 + countCheck65_X52s  + countCheck65_X52e  <= 1
+
+X53s + 68 countCheck65_X53s >= 66
+X53e - 68 countCheck65_X53e <= 64
+-2 count65_X53 + countCheck65_X53s  + countCheck65_X53e  <= 1
+
+X54s + 68 countCheck65_X54s >= 66
+X54e - 68 countCheck65_X54e <= 64
+-2 count65_X54 + countCheck65_X54s  + countCheck65_X54e  <= 1
+
+X55s + 68 countCheck65_X55s >= 66
+X55e - 68 countCheck65_X55e <= 64
+-2 count65_X55 + countCheck65_X55s  + countCheck65_X55e  <= 1
+
+X56s + 68 countCheck65_X56s >= 66
+X56e - 68 countCheck65_X56e <= 64
+-2 count65_X56 + countCheck65_X56s  + countCheck65_X56e  <= 1
+
+X57s + 68 countCheck65_X57s >= 66
+X57e - 68 countCheck65_X57e <= 64
+-2 count65_X57 + countCheck65_X57s  + countCheck65_X57e  <= 1
+
+X58s + 68 countCheck65_X58s >= 66
+X58e - 68 countCheck65_X58e <= 64
+-2 count65_X58 + countCheck65_X58s  + countCheck65_X58e  <= 1
+
+X59s + 68 countCheck65_X59s >= 66
+X59e - 68 countCheck65_X59e <= 64
+-2 count65_X59 + countCheck65_X59s  + countCheck65_X59e  <= 1
+
+X60s + 68 countCheck65_X60s >= 66
+X60e - 68 countCheck65_X60e <= 64
+-2 count65_X60 + countCheck65_X60s  + countCheck65_X60e  <= 1
+
+X61s + 68 countCheck65_X61s >= 66
+X61e - 68 countCheck65_X61e <= 64
+-2 count65_X61 + countCheck65_X61s  + countCheck65_X61e  <= 1
+
+X62s + 68 countCheck65_X62s >= 66
+X62e - 68 countCheck65_X62e <= 64
+-2 count65_X62 + countCheck65_X62s  + countCheck65_X62e  <= 1
+
+X63s + 68 countCheck65_X63s >= 66
+X63e - 68 countCheck65_X63e <= 64
+-2 count65_X63 + countCheck65_X63s  + countCheck65_X63e  <= 1
+
+X64s + 68 countCheck65_X64s >= 66
+X64e - 68 countCheck65_X64e <= 64
+-2 count65_X64 + countCheck65_X64s  + countCheck65_X64e  <= 1
+
+X65s + 68 countCheck65_X65s >= 66
+X65e - 68 countCheck65_X65e <= 64
+-2 count65_X65 + countCheck65_X65s  + countCheck65_X65e  <= 1
+
+X66s + 68 countCheck65_X66s >= 66
+X66e - 68 countCheck65_X66e <= 64
+-2 count65_X66 + countCheck65_X66s  + countCheck65_X66e  <= 1
+
+X67s + 68 countCheck65_X67s >= 66
+X67e - 68 countCheck65_X67e <= 64
+-2 count65_X67 + countCheck65_X67s  + countCheck65_X67e  <= 1
+
+count65_X0 + count65_X1 + count65_X2 + count65_X3 + count65_X4 + count65_X5 + count65_X6 + count65_X7 + count65_X8 + count65_X9 + count65_X10 + count65_X11 + count65_X12 + count65_X13 + count65_X14 + count65_X15 + count65_X16 + count65_X17 + count65_X18 + count65_X19 + count65_X20 + count65_X21 + count65_X22 + count65_X23 + count65_X24 + count65_X25 + count65_X26 + count65_X27 + count65_X28 + count65_X29 + count65_X30 + count65_X31 + count65_X32 + count65_X33 + count65_X34 + count65_X35 + count65_X36 + count65_X37 + count65_X38 + count65_X39 + count65_X40 + count65_X41 + count65_X42 + count65_X43 + count65_X44 + count65_X45 + count65_X46 + count65_X47 + count65_X48 + count65_X49 + count65_X50 + count65_X51 + count65_X52 + count65_X53 + count65_X54 + count65_X55 + count65_X56 + count65_X57 + count65_X58 + count65_X59 + count65_X60 + count65_X61 + count65_X62 + count65_X63 + count65_X64 + count65_X65 + count65_X66 + count65_X67 - pathWidth <= 1
+X0s + 68 countCheck66_X0s >= 67
+X0e - 68 countCheck66_X0e <= 65
+-2 count66_X0 + countCheck66_X0s  + countCheck66_X0e  <= 1
+
+X1s + 68 countCheck66_X1s >= 67
+X1e - 68 countCheck66_X1e <= 65
+-2 count66_X1 + countCheck66_X1s  + countCheck66_X1e  <= 1
+
+X2s + 68 countCheck66_X2s >= 67
+X2e - 68 countCheck66_X2e <= 65
+-2 count66_X2 + countCheck66_X2s  + countCheck66_X2e  <= 1
+
+X3s + 68 countCheck66_X3s >= 67
+X3e - 68 countCheck66_X3e <= 65
+-2 count66_X3 + countCheck66_X3s  + countCheck66_X3e  <= 1
+
+X4s + 68 countCheck66_X4s >= 67
+X4e - 68 countCheck66_X4e <= 65
+-2 count66_X4 + countCheck66_X4s  + countCheck66_X4e  <= 1
+
+X5s + 68 countCheck66_X5s >= 67
+X5e - 68 countCheck66_X5e <= 65
+-2 count66_X5 + countCheck66_X5s  + countCheck66_X5e  <= 1
+
+X6s + 68 countCheck66_X6s >= 67
+X6e - 68 countCheck66_X6e <= 65
+-2 count66_X6 + countCheck66_X6s  + countCheck66_X6e  <= 1
+
+X7s + 68 countCheck66_X7s >= 67
+X7e - 68 countCheck66_X7e <= 65
+-2 count66_X7 + countCheck66_X7s  + countCheck66_X7e  <= 1
+
+X8s + 68 countCheck66_X8s >= 67
+X8e - 68 countCheck66_X8e <= 65
+-2 count66_X8 + countCheck66_X8s  + countCheck66_X8e  <= 1
+
+X9s + 68 countCheck66_X9s >= 67
+X9e - 68 countCheck66_X9e <= 65
+-2 count66_X9 + countCheck66_X9s  + countCheck66_X9e  <= 1
+
+X10s + 68 countCheck66_X10s >= 67
+X10e - 68 countCheck66_X10e <= 65
+-2 count66_X10 + countCheck66_X10s  + countCheck66_X10e  <= 1
+
+X11s + 68 countCheck66_X11s >= 67
+X11e - 68 countCheck66_X11e <= 65
+-2 count66_X11 + countCheck66_X11s  + countCheck66_X11e  <= 1
+
+X12s + 68 countCheck66_X12s >= 67
+X12e - 68 countCheck66_X12e <= 65
+-2 count66_X12 + countCheck66_X12s  + countCheck66_X12e  <= 1
+
+X13s + 68 countCheck66_X13s >= 67
+X13e - 68 countCheck66_X13e <= 65
+-2 count66_X13 + countCheck66_X13s  + countCheck66_X13e  <= 1
+
+X14s + 68 countCheck66_X14s >= 67
+X14e - 68 countCheck66_X14e <= 65
+-2 count66_X14 + countCheck66_X14s  + countCheck66_X14e  <= 1
+
+X15s + 68 countCheck66_X15s >= 67
+X15e - 68 countCheck66_X15e <= 65
+-2 count66_X15 + countCheck66_X15s  + countCheck66_X15e  <= 1
+
+X16s + 68 countCheck66_X16s >= 67
+X16e - 68 countCheck66_X16e <= 65
+-2 count66_X16 + countCheck66_X16s  + countCheck66_X16e  <= 1
+
+X17s + 68 countCheck66_X17s >= 67
+X17e - 68 countCheck66_X17e <= 65
+-2 count66_X17 + countCheck66_X17s  + countCheck66_X17e  <= 1
+
+X18s + 68 countCheck66_X18s >= 67
+X18e - 68 countCheck66_X18e <= 65
+-2 count66_X18 + countCheck66_X18s  + countCheck66_X18e  <= 1
+
+X19s + 68 countCheck66_X19s >= 67
+X19e - 68 countCheck66_X19e <= 65
+-2 count66_X19 + countCheck66_X19s  + countCheck66_X19e  <= 1
+
+X20s + 68 countCheck66_X20s >= 67
+X20e - 68 countCheck66_X20e <= 65
+-2 count66_X20 + countCheck66_X20s  + countCheck66_X20e  <= 1
+
+X21s + 68 countCheck66_X21s >= 67
+X21e - 68 countCheck66_X21e <= 65
+-2 count66_X21 + countCheck66_X21s  + countCheck66_X21e  <= 1
+
+X22s + 68 countCheck66_X22s >= 67
+X22e - 68 countCheck66_X22e <= 65
+-2 count66_X22 + countCheck66_X22s  + countCheck66_X22e  <= 1
+
+X23s + 68 countCheck66_X23s >= 67
+X23e - 68 countCheck66_X23e <= 65
+-2 count66_X23 + countCheck66_X23s  + countCheck66_X23e  <= 1
+
+X24s + 68 countCheck66_X24s >= 67
+X24e - 68 countCheck66_X24e <= 65
+-2 count66_X24 + countCheck66_X24s  + countCheck66_X24e  <= 1
+
+X25s + 68 countCheck66_X25s >= 67
+X25e - 68 countCheck66_X25e <= 65
+-2 count66_X25 + countCheck66_X25s  + countCheck66_X25e  <= 1
+
+X26s + 68 countCheck66_X26s >= 67
+X26e - 68 countCheck66_X26e <= 65
+-2 count66_X26 + countCheck66_X26s  + countCheck66_X26e  <= 1
+
+X27s + 68 countCheck66_X27s >= 67
+X27e - 68 countCheck66_X27e <= 65
+-2 count66_X27 + countCheck66_X27s  + countCheck66_X27e  <= 1
+
+X28s + 68 countCheck66_X28s >= 67
+X28e - 68 countCheck66_X28e <= 65
+-2 count66_X28 + countCheck66_X28s  + countCheck66_X28e  <= 1
+
+X29s + 68 countCheck66_X29s >= 67
+X29e - 68 countCheck66_X29e <= 65
+-2 count66_X29 + countCheck66_X29s  + countCheck66_X29e  <= 1
+
+X30s + 68 countCheck66_X30s >= 67
+X30e - 68 countCheck66_X30e <= 65
+-2 count66_X30 + countCheck66_X30s  + countCheck66_X30e  <= 1
+
+X31s + 68 countCheck66_X31s >= 67
+X31e - 68 countCheck66_X31e <= 65
+-2 count66_X31 + countCheck66_X31s  + countCheck66_X31e  <= 1
+
+X32s + 68 countCheck66_X32s >= 67
+X32e - 68 countCheck66_X32e <= 65
+-2 count66_X32 + countCheck66_X32s  + countCheck66_X32e  <= 1
+
+X33s + 68 countCheck66_X33s >= 67
+X33e - 68 countCheck66_X33e <= 65
+-2 count66_X33 + countCheck66_X33s  + countCheck66_X33e  <= 1
+
+X34s + 68 countCheck66_X34s >= 67
+X34e - 68 countCheck66_X34e <= 65
+-2 count66_X34 + countCheck66_X34s  + countCheck66_X34e  <= 1
+
+X35s + 68 countCheck66_X35s >= 67
+X35e - 68 countCheck66_X35e <= 65
+-2 count66_X35 + countCheck66_X35s  + countCheck66_X35e  <= 1
+
+X36s + 68 countCheck66_X36s >= 67
+X36e - 68 countCheck66_X36e <= 65
+-2 count66_X36 + countCheck66_X36s  + countCheck66_X36e  <= 1
+
+X37s + 68 countCheck66_X37s >= 67
+X37e - 68 countCheck66_X37e <= 65
+-2 count66_X37 + countCheck66_X37s  + countCheck66_X37e  <= 1
+
+X38s + 68 countCheck66_X38s >= 67
+X38e - 68 countCheck66_X38e <= 65
+-2 count66_X38 + countCheck66_X38s  + countCheck66_X38e  <= 1
+
+X39s + 68 countCheck66_X39s >= 67
+X39e - 68 countCheck66_X39e <= 65
+-2 count66_X39 + countCheck66_X39s  + countCheck66_X39e  <= 1
+
+X40s + 68 countCheck66_X40s >= 67
+X40e - 68 countCheck66_X40e <= 65
+-2 count66_X40 + countCheck66_X40s  + countCheck66_X40e  <= 1
+
+X41s + 68 countCheck66_X41s >= 67
+X41e - 68 countCheck66_X41e <= 65
+-2 count66_X41 + countCheck66_X41s  + countCheck66_X41e  <= 1
+
+X42s + 68 countCheck66_X42s >= 67
+X42e - 68 countCheck66_X42e <= 65
+-2 count66_X42 + countCheck66_X42s  + countCheck66_X42e  <= 1
+
+X43s + 68 countCheck66_X43s >= 67
+X43e - 68 countCheck66_X43e <= 65
+-2 count66_X43 + countCheck66_X43s  + countCheck66_X43e  <= 1
+
+X44s + 68 countCheck66_X44s >= 67
+X44e - 68 countCheck66_X44e <= 65
+-2 count66_X44 + countCheck66_X44s  + countCheck66_X44e  <= 1
+
+X45s + 68 countCheck66_X45s >= 67
+X45e - 68 countCheck66_X45e <= 65
+-2 count66_X45 + countCheck66_X45s  + countCheck66_X45e  <= 1
+
+X46s + 68 countCheck66_X46s >= 67
+X46e - 68 countCheck66_X46e <= 65
+-2 count66_X46 + countCheck66_X46s  + countCheck66_X46e  <= 1
+
+X47s + 68 countCheck66_X47s >= 67
+X47e - 68 countCheck66_X47e <= 65
+-2 count66_X47 + countCheck66_X47s  + countCheck66_X47e  <= 1
+
+X48s + 68 countCheck66_X48s >= 67
+X48e - 68 countCheck66_X48e <= 65
+-2 count66_X48 + countCheck66_X48s  + countCheck66_X48e  <= 1
+
+X49s + 68 countCheck66_X49s >= 67
+X49e - 68 countCheck66_X49e <= 65
+-2 count66_X49 + countCheck66_X49s  + countCheck66_X49e  <= 1
+
+X50s + 68 countCheck66_X50s >= 67
+X50e - 68 countCheck66_X50e <= 65
+-2 count66_X50 + countCheck66_X50s  + countCheck66_X50e  <= 1
+
+X51s + 68 countCheck66_X51s >= 67
+X51e - 68 countCheck66_X51e <= 65
+-2 count66_X51 + countCheck66_X51s  + countCheck66_X51e  <= 1
+
+X52s + 68 countCheck66_X52s >= 67
+X52e - 68 countCheck66_X52e <= 65
+-2 count66_X52 + countCheck66_X52s  + countCheck66_X52e  <= 1
+
+X53s + 68 countCheck66_X53s >= 67
+X53e - 68 countCheck66_X53e <= 65
+-2 count66_X53 + countCheck66_X53s  + countCheck66_X53e  <= 1
+
+X54s + 68 countCheck66_X54s >= 67
+X54e - 68 countCheck66_X54e <= 65
+-2 count66_X54 + countCheck66_X54s  + countCheck66_X54e  <= 1
+
+X55s + 68 countCheck66_X55s >= 67
+X55e - 68 countCheck66_X55e <= 65
+-2 count66_X55 + countCheck66_X55s  + countCheck66_X55e  <= 1
+
+X56s + 68 countCheck66_X56s >= 67
+X56e - 68 countCheck66_X56e <= 65
+-2 count66_X56 + countCheck66_X56s  + countCheck66_X56e  <= 1
+
+X57s + 68 countCheck66_X57s >= 67
+X57e - 68 countCheck66_X57e <= 65
+-2 count66_X57 + countCheck66_X57s  + countCheck66_X57e  <= 1
+
+X58s + 68 countCheck66_X58s >= 67
+X58e - 68 countCheck66_X58e <= 65
+-2 count66_X58 + countCheck66_X58s  + countCheck66_X58e  <= 1
+
+X59s + 68 countCheck66_X59s >= 67
+X59e - 68 countCheck66_X59e <= 65
+-2 count66_X59 + countCheck66_X59s  + countCheck66_X59e  <= 1
+
+X60s + 68 countCheck66_X60s >= 67
+X60e - 68 countCheck66_X60e <= 65
+-2 count66_X60 + countCheck66_X60s  + countCheck66_X60e  <= 1
+
+X61s + 68 countCheck66_X61s >= 67
+X61e - 68 countCheck66_X61e <= 65
+-2 count66_X61 + countCheck66_X61s  + countCheck66_X61e  <= 1
+
+X62s + 68 countCheck66_X62s >= 67
+X62e - 68 countCheck66_X62e <= 65
+-2 count66_X62 + countCheck66_X62s  + countCheck66_X62e  <= 1
+
+X63s + 68 countCheck66_X63s >= 67
+X63e - 68 countCheck66_X63e <= 65
+-2 count66_X63 + countCheck66_X63s  + countCheck66_X63e  <= 1
+
+X64s + 68 countCheck66_X64s >= 67
+X64e - 68 countCheck66_X64e <= 65
+-2 count66_X64 + countCheck66_X64s  + countCheck66_X64e  <= 1
+
+X65s + 68 countCheck66_X65s >= 67
+X65e - 68 countCheck66_X65e <= 65
+-2 count66_X65 + countCheck66_X65s  + countCheck66_X65e  <= 1
+
+X66s + 68 countCheck66_X66s >= 67
+X66e - 68 countCheck66_X66e <= 65
+-2 count66_X66 + countCheck66_X66s  + countCheck66_X66e  <= 1
+
+X67s + 68 countCheck66_X67s >= 67
+X67e - 68 countCheck66_X67e <= 65
+-2 count66_X67 + countCheck66_X67s  + countCheck66_X67e  <= 1
+
+count66_X0 + count66_X1 + count66_X2 + count66_X3 + count66_X4 + count66_X5 + count66_X6 + count66_X7 + count66_X8 + count66_X9 + count66_X10 + count66_X11 + count66_X12 + count66_X13 + count66_X14 + count66_X15 + count66_X16 + count66_X17 + count66_X18 + count66_X19 + count66_X20 + count66_X21 + count66_X22 + count66_X23 + count66_X24 + count66_X25 + count66_X26 + count66_X27 + count66_X28 + count66_X29 + count66_X30 + count66_X31 + count66_X32 + count66_X33 + count66_X34 + count66_X35 + count66_X36 + count66_X37 + count66_X38 + count66_X39 + count66_X40 + count66_X41 + count66_X42 + count66_X43 + count66_X44 + count66_X45 + count66_X46 + count66_X47 + count66_X48 + count66_X49 + count66_X50 + count66_X51 + count66_X52 + count66_X53 + count66_X54 + count66_X55 + count66_X56 + count66_X57 + count66_X58 + count66_X59 + count66_X60 + count66_X61 + count66_X62 + count66_X63 + count66_X64 + count66_X65 + count66_X66 + count66_X67 - pathWidth <= 1
+Bounds 
+0 <= X0s <= 66 
+0 <= X0e <= 66 
+0 <= X1s <= 66 
+0 <= X1e <= 66 
+0 <= X2s <= 66 
+0 <= X2e <= 66 
+0 <= X3s <= 66 
+0 <= X3e <= 66 
+0 <= X4s <= 66 
+0 <= X4e <= 66 
+0 <= X5s <= 66 
+0 <= X5e <= 66 
+0 <= X6s <= 66 
+0 <= X6e <= 66 
+0 <= X7s <= 66 
+0 <= X7e <= 66 
+0 <= X8s <= 66 
+0 <= X8e <= 66 
+0 <= X9s <= 66 
+0 <= X9e <= 66 
+0 <= X10s <= 66 
+0 <= X10e <= 66 
+0 <= X11s <= 66 
+0 <= X11e <= 66 
+0 <= X12s <= 66 
+0 <= X12e <= 66 
+0 <= X13s <= 66 
+0 <= X13e <= 66 
+0 <= X14s <= 66 
+0 <= X14e <= 66 
+0 <= X15s <= 66 
+0 <= X15e <= 66 
+0 <= X16s <= 66 
+0 <= X16e <= 66 
+0 <= X17s <= 66 
+0 <= X17e <= 66 
+0 <= X18s <= 66 
+0 <= X18e <= 66 
+0 <= X19s <= 66 
+0 <= X19e <= 66 
+0 <= X20s <= 66 
+0 <= X20e <= 66 
+0 <= X21s <= 66 
+0 <= X21e <= 66 
+0 <= X22s <= 66 
+0 <= X22e <= 66 
+0 <= X23s <= 66 
+0 <= X23e <= 66 
+0 <= X24s <= 66 
+0 <= X24e <= 66 
+0 <= X25s <= 66 
+0 <= X25e <= 66 
+0 <= X26s <= 66 
+0 <= X26e <= 66 
+0 <= X27s <= 66 
+0 <= X27e <= 66 
+0 <= X28s <= 66 
+0 <= X28e <= 66 
+0 <= X29s <= 66 
+0 <= X29e <= 66 
+0 <= X30s <= 66 
+0 <= X30e <= 66 
+0 <= X31s <= 66 
+0 <= X31e <= 66 
+0 <= X32s <= 66 
+0 <= X32e <= 66 
+0 <= X33s <= 66 
+0 <= X33e <= 66 
+0 <= X34s <= 66 
+0 <= X34e <= 66 
+0 <= X35s <= 66 
+0 <= X35e <= 66 
+0 <= X36s <= 66 
+0 <= X36e <= 66 
+0 <= X37s <= 66 
+0 <= X37e <= 66 
+0 <= X38s <= 66 
+0 <= X38e <= 66 
+0 <= X39s <= 66 
+0 <= X39e <= 66 
+0 <= X40s <= 66 
+0 <= X40e <= 66 
+0 <= X41s <= 66 
+0 <= X41e <= 66 
+0 <= X42s <= 66 
+0 <= X42e <= 66 
+0 <= X43s <= 66 
+0 <= X43e <= 66 
+0 <= X44s <= 66 
+0 <= X44e <= 66 
+0 <= X45s <= 66 
+0 <= X45e <= 66 
+0 <= X46s <= 66 
+0 <= X46e <= 66 
+0 <= X47s <= 66 
+0 <= X47e <= 66 
+0 <= X48s <= 66 
+0 <= X48e <= 66 
+0 <= X49s <= 66 
+0 <= X49e <= 66 
+0 <= X50s <= 66 
+0 <= X50e <= 66 
+0 <= X51s <= 66 
+0 <= X51e <= 66 
+0 <= X52s <= 66 
+0 <= X52e <= 66 
+0 <= X53s <= 66 
+0 <= X53e <= 66 
+0 <= X54s <= 66 
+0 <= X54e <= 66 
+0 <= X55s <= 66 
+0 <= X55e <= 66 
+0 <= X56s <= 66 
+0 <= X56e <= 66 
+0 <= X57s <= 66 
+0 <= X57e <= 66 
+0 <= X58s <= 66 
+0 <= X58e <= 66 
+0 <= X59s <= 66 
+0 <= X59e <= 66 
+0 <= X60s <= 66 
+0 <= X60e <= 66 
+0 <= X61s <= 66 
+0 <= X61e <= 66 
+0 <= X62s <= 66 
+0 <= X62e <= 66 
+0 <= X63s <= 66 
+0 <= X63e <= 66 
+0 <= X64s <= 66 
+0 <= X64e <= 66 
+0 <= X65s <= 66 
+0 <= X65e <= 66 
+0 <= X66s <= 66 
+0 <= X66e <= 66 
+0 <= X67s <= 66 
+0 <= X67e <= 66 
+
+General 
+X0s 
+X0e 
+X1s 
+X1e 
+X2s 
+X2e 
+X3s 
+X3e 
+X4s 
+X4e 
+X5s 
+X5e 
+X6s 
+X6e 
+X7s 
+X7e 
+X8s 
+X8e 
+X9s 
+X9e 
+X10s 
+X10e 
+X11s 
+X11e 
+X12s 
+X12e 
+X13s 
+X13e 
+X14s 
+X14e 
+X15s 
+X15e 
+X16s 
+X16e 
+X17s 
+X17e 
+X18s 
+X18e 
+X19s 
+X19e 
+X20s 
+X20e 
+X21s 
+X21e 
+X22s 
+X22e 
+X23s 
+X23e 
+X24s 
+X24e 
+X25s 
+X25e 
+X26s 
+X26e 
+X27s 
+X27e 
+X28s 
+X28e 
+X29s 
+X29e 
+X30s 
+X30e 
+X31s 
+X31e 
+X32s 
+X32e 
+X33s 
+X33e 
+X34s 
+X34e 
+X35s 
+X35e 
+X36s 
+X36e 
+X37s 
+X37e 
+X38s 
+X38e 
+X39s 
+X39e 
+X40s 
+X40e 
+X41s 
+X41e 
+X42s 
+X42e 
+X43s 
+X43e 
+X44s 
+X44e 
+X45s 
+X45e 
+X46s 
+X46e 
+X47s 
+X47e 
+X48s 
+X48e 
+X49s 
+X49e 
+X50s 
+X50e 
+X51s 
+X51e 
+X52s 
+X52e 
+X53s 
+X53e 
+X54s 
+X54e 
+X55s 
+X55e 
+X56s 
+X56e 
+X57s 
+X57e 
+X58s 
+X58e 
+X59s 
+X59e 
+X60s 
+X60e 
+X61s 
+X61e 
+X62s 
+X62e 
+X63s 
+X63e 
+X64s 
+X64e 
+X65s 
+X65e 
+X66s 
+X66e 
+X67s 
+X67e 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+pathWidth 
+
+Binary 
+countCheck0_X0s 
+countCheck0_X0e 
+count0_X0 
+countCheck0_X1s 
+countCheck0_X1e 
+count0_X1 
+countCheck0_X2s 
+countCheck0_X2e 
+count0_X2 
+countCheck0_X3s 
+countCheck0_X3e 
+count0_X3 
+countCheck0_X4s 
+countCheck0_X4e 
+count0_X4 
+countCheck0_X5s 
+countCheck0_X5e 
+count0_X5 
+countCheck0_X6s 
+countCheck0_X6e 
+count0_X6 
+countCheck0_X7s 
+countCheck0_X7e 
+count0_X7 
+countCheck0_X8s 
+countCheck0_X8e 
+count0_X8 
+countCheck0_X9s 
+countCheck0_X9e 
+count0_X9 
+countCheck0_X10s 
+countCheck0_X10e 
+count0_X10 
+countCheck0_X11s 
+countCheck0_X11e 
+count0_X11 
+countCheck0_X12s 
+countCheck0_X12e 
+count0_X12 
+countCheck0_X13s 
+countCheck0_X13e 
+count0_X13 
+countCheck0_X14s 
+countCheck0_X14e 
+count0_X14 
+countCheck0_X15s 
+countCheck0_X15e 
+count0_X15 
+countCheck0_X16s 
+countCheck0_X16e 
+count0_X16 
+countCheck0_X17s 
+countCheck0_X17e 
+count0_X17 
+countCheck0_X18s 
+countCheck0_X18e 
+count0_X18 
+countCheck0_X19s 
+countCheck0_X19e 
+count0_X19 
+countCheck0_X20s 
+countCheck0_X20e 
+count0_X20 
+countCheck0_X21s 
+countCheck0_X21e 
+count0_X21 
+countCheck0_X22s 
+countCheck0_X22e 
+count0_X22 
+countCheck0_X23s 
+countCheck0_X23e 
+count0_X23 
+countCheck0_X24s 
+countCheck0_X24e 
+count0_X24 
+countCheck0_X25s 
+countCheck0_X25e 
+count0_X25 
+countCheck0_X26s 
+countCheck0_X26e 
+count0_X26 
+countCheck0_X27s 
+countCheck0_X27e 
+count0_X27 
+countCheck0_X28s 
+countCheck0_X28e 
+count0_X28 
+countCheck0_X29s 
+countCheck0_X29e 
+count0_X29 
+countCheck0_X30s 
+countCheck0_X30e 
+count0_X30 
+countCheck0_X31s 
+countCheck0_X31e 
+count0_X31 
+countCheck0_X32s 
+countCheck0_X32e 
+count0_X32 
+countCheck0_X33s 
+countCheck0_X33e 
+count0_X33 
+countCheck0_X34s 
+countCheck0_X34e 
+count0_X34 
+countCheck0_X35s 
+countCheck0_X35e 
+count0_X35 
+countCheck0_X36s 
+countCheck0_X36e 
+count0_X36 
+countCheck0_X37s 
+countCheck0_X37e 
+count0_X37 
+countCheck0_X38s 
+countCheck0_X38e 
+count0_X38 
+countCheck0_X39s 
+countCheck0_X39e 
+count0_X39 
+countCheck0_X40s 
+countCheck0_X40e 
+count0_X40 
+countCheck0_X41s 
+countCheck0_X41e 
+count0_X41 
+countCheck0_X42s 
+countCheck0_X42e 
+count0_X42 
+countCheck0_X43s 
+countCheck0_X43e 
+count0_X43 
+countCheck0_X44s 
+countCheck0_X44e 
+count0_X44 
+countCheck0_X45s 
+countCheck0_X45e 
+count0_X45 
+countCheck0_X46s 
+countCheck0_X46e 
+count0_X46 
+countCheck0_X47s 
+countCheck0_X47e 
+count0_X47 
+countCheck0_X48s 
+countCheck0_X48e 
+count0_X48 
+countCheck0_X49s 
+countCheck0_X49e 
+count0_X49 
+countCheck0_X50s 
+countCheck0_X50e 
+count0_X50 
+countCheck0_X51s 
+countCheck0_X51e 
+count0_X51 
+countCheck0_X52s 
+countCheck0_X52e 
+count0_X52 
+countCheck0_X53s 
+countCheck0_X53e 
+count0_X53 
+countCheck0_X54s 
+countCheck0_X54e 
+count0_X54 
+countCheck0_X55s 
+countCheck0_X55e 
+count0_X55 
+countCheck0_X56s 
+countCheck0_X56e 
+count0_X56 
+countCheck0_X57s 
+countCheck0_X57e 
+count0_X57 
+countCheck0_X58s 
+countCheck0_X58e 
+count0_X58 
+countCheck0_X59s 
+countCheck0_X59e 
+count0_X59 
+countCheck0_X60s 
+countCheck0_X60e 
+count0_X60 
+countCheck0_X61s 
+countCheck0_X61e 
+count0_X61 
+countCheck0_X62s 
+countCheck0_X62e 
+count0_X62 
+countCheck0_X63s 
+countCheck0_X63e 
+count0_X63 
+countCheck0_X64s 
+countCheck0_X64e 
+count0_X64 
+countCheck0_X65s 
+countCheck0_X65e 
+count0_X65 
+countCheck0_X66s 
+countCheck0_X66e 
+count0_X66 
+countCheck0_X67s 
+countCheck0_X67e 
+count0_X67 
+countCheck1_X0s 
+countCheck1_X0e 
+count1_X0 
+countCheck1_X1s 
+countCheck1_X1e 
+count1_X1 
+countCheck1_X2s 
+countCheck1_X2e 
+count1_X2 
+countCheck1_X3s 
+countCheck1_X3e 
+count1_X3 
+countCheck1_X4s 
+countCheck1_X4e 
+count1_X4 
+countCheck1_X5s 
+countCheck1_X5e 
+count1_X5 
+countCheck1_X6s 
+countCheck1_X6e 
+count1_X6 
+countCheck1_X7s 
+countCheck1_X7e 
+count1_X7 
+countCheck1_X8s 
+countCheck1_X8e 
+count1_X8 
+countCheck1_X9s 
+countCheck1_X9e 
+count1_X9 
+countCheck1_X10s 
+countCheck1_X10e 
+count1_X10 
+countCheck1_X11s 
+countCheck1_X11e 
+count1_X11 
+countCheck1_X12s 
+countCheck1_X12e 
+count1_X12 
+countCheck1_X13s 
+countCheck1_X13e 
+count1_X13 
+countCheck1_X14s 
+countCheck1_X14e 
+count1_X14 
+countCheck1_X15s 
+countCheck1_X15e 
+count1_X15 
+countCheck1_X16s 
+countCheck1_X16e 
+count1_X16 
+countCheck1_X17s 
+countCheck1_X17e 
+count1_X17 
+countCheck1_X18s 
+countCheck1_X18e 
+count1_X18 
+countCheck1_X19s 
+countCheck1_X19e 
+count1_X19 
+countCheck1_X20s 
+countCheck1_X20e 
+count1_X20 
+countCheck1_X21s 
+countCheck1_X21e 
+count1_X21 
+countCheck1_X22s 
+countCheck1_X22e 
+count1_X22 
+countCheck1_X23s 
+countCheck1_X23e 
+count1_X23 
+countCheck1_X24s 
+countCheck1_X24e 
+count1_X24 
+countCheck1_X25s 
+countCheck1_X25e 
+count1_X25 
+countCheck1_X26s 
+countCheck1_X26e 
+count1_X26 
+countCheck1_X27s 
+countCheck1_X27e 
+count1_X27 
+countCheck1_X28s 
+countCheck1_X28e 
+count1_X28 
+countCheck1_X29s 
+countCheck1_X29e 
+count1_X29 
+countCheck1_X30s 
+countCheck1_X30e 
+count1_X30 
+countCheck1_X31s 
+countCheck1_X31e 
+count1_X31 
+countCheck1_X32s 
+countCheck1_X32e 
+count1_X32 
+countCheck1_X33s 
+countCheck1_X33e 
+count1_X33 
+countCheck1_X34s 
+countCheck1_X34e 
+count1_X34 
+countCheck1_X35s 
+countCheck1_X35e 
+count1_X35 
+countCheck1_X36s 
+countCheck1_X36e 
+count1_X36 
+countCheck1_X37s 
+countCheck1_X37e 
+count1_X37 
+countCheck1_X38s 
+countCheck1_X38e 
+count1_X38 
+countCheck1_X39s 
+countCheck1_X39e 
+count1_X39 
+countCheck1_X40s 
+countCheck1_X40e 
+count1_X40 
+countCheck1_X41s 
+countCheck1_X41e 
+count1_X41 
+countCheck1_X42s 
+countCheck1_X42e 
+count1_X42 
+countCheck1_X43s 
+countCheck1_X43e 
+count1_X43 
+countCheck1_X44s 
+countCheck1_X44e 
+count1_X44 
+countCheck1_X45s 
+countCheck1_X45e 
+count1_X45 
+countCheck1_X46s 
+countCheck1_X46e 
+count1_X46 
+countCheck1_X47s 
+countCheck1_X47e 
+count1_X47 
+countCheck1_X48s 
+countCheck1_X48e 
+count1_X48 
+countCheck1_X49s 
+countCheck1_X49e 
+count1_X49 
+countCheck1_X50s 
+countCheck1_X50e 
+count1_X50 
+countCheck1_X51s 
+countCheck1_X51e 
+count1_X51 
+countCheck1_X52s 
+countCheck1_X52e 
+count1_X52 
+countCheck1_X53s 
+countCheck1_X53e 
+count1_X53 
+countCheck1_X54s 
+countCheck1_X54e 
+count1_X54 
+countCheck1_X55s 
+countCheck1_X55e 
+count1_X55 
+countCheck1_X56s 
+countCheck1_X56e 
+count1_X56 
+countCheck1_X57s 
+countCheck1_X57e 
+count1_X57 
+countCheck1_X58s 
+countCheck1_X58e 
+count1_X58 
+countCheck1_X59s 
+countCheck1_X59e 
+count1_X59 
+countCheck1_X60s 
+countCheck1_X60e 
+count1_X60 
+countCheck1_X61s 
+countCheck1_X61e 
+count1_X61 
+countCheck1_X62s 
+countCheck1_X62e 
+count1_X62 
+countCheck1_X63s 
+countCheck1_X63e 
+count1_X63 
+countCheck1_X64s 
+countCheck1_X64e 
+count1_X64 
+countCheck1_X65s 
+countCheck1_X65e 
+count1_X65 
+countCheck1_X66s 
+countCheck1_X66e 
+count1_X66 
+countCheck1_X67s 
+countCheck1_X67e 
+count1_X67 
+countCheck2_X0s 
+countCheck2_X0e 
+count2_X0 
+countCheck2_X1s 
+countCheck2_X1e 
+count2_X1 
+countCheck2_X2s 
+countCheck2_X2e 
+count2_X2 
+countCheck2_X3s 
+countCheck2_X3e 
+count2_X3 
+countCheck2_X4s 
+countCheck2_X4e 
+count2_X4 
+countCheck2_X5s 
+countCheck2_X5e 
+count2_X5 
+countCheck2_X6s 
+countCheck2_X6e 
+count2_X6 
+countCheck2_X7s 
+countCheck2_X7e 
+count2_X7 
+countCheck2_X8s 
+countCheck2_X8e 
+count2_X8 
+countCheck2_X9s 
+countCheck2_X9e 
+count2_X9 
+countCheck2_X10s 
+countCheck2_X10e 
+count2_X10 
+countCheck2_X11s 
+countCheck2_X11e 
+count2_X11 
+countCheck2_X12s 
+countCheck2_X12e 
+count2_X12 
+countCheck2_X13s 
+countCheck2_X13e 
+count2_X13 
+countCheck2_X14s 
+countCheck2_X14e 
+count2_X14 
+countCheck2_X15s 
+countCheck2_X15e 
+count2_X15 
+countCheck2_X16s 
+countCheck2_X16e 
+count2_X16 
+countCheck2_X17s 
+countCheck2_X17e 
+count2_X17 
+countCheck2_X18s 
+countCheck2_X18e 
+count2_X18 
+countCheck2_X19s 
+countCheck2_X19e 
+count2_X19 
+countCheck2_X20s 
+countCheck2_X20e 
+count2_X20 
+countCheck2_X21s 
+countCheck2_X21e 
+count2_X21 
+countCheck2_X22s 
+countCheck2_X22e 
+count2_X22 
+countCheck2_X23s 
+countCheck2_X23e 
+count2_X23 
+countCheck2_X24s 
+countCheck2_X24e 
+count2_X24 
+countCheck2_X25s 
+countCheck2_X25e 
+count2_X25 
+countCheck2_X26s 
+countCheck2_X26e 
+count2_X26 
+countCheck2_X27s 
+countCheck2_X27e 
+count2_X27 
+countCheck2_X28s 
+countCheck2_X28e 
+count2_X28 
+countCheck2_X29s 
+countCheck2_X29e 
+count2_X29 
+countCheck2_X30s 
+countCheck2_X30e 
+count2_X30 
+countCheck2_X31s 
+countCheck2_X31e 
+count2_X31 
+countCheck2_X32s 
+countCheck2_X32e 
+count2_X32 
+countCheck2_X33s 
+countCheck2_X33e 
+count2_X33 
+countCheck2_X34s 
+countCheck2_X34e 
+count2_X34 
+countCheck2_X35s 
+countCheck2_X35e 
+count2_X35 
+countCheck2_X36s 
+countCheck2_X36e 
+count2_X36 
+countCheck2_X37s 
+countCheck2_X37e 
+count2_X37 
+countCheck2_X38s 
+countCheck2_X38e 
+count2_X38 
+countCheck2_X39s 
+countCheck2_X39e 
+count2_X39 
+countCheck2_X40s 
+countCheck2_X40e 
+count2_X40 
+countCheck2_X41s 
+countCheck2_X41e 
+count2_X41 
+countCheck2_X42s 
+countCheck2_X42e 
+count2_X42 
+countCheck2_X43s 
+countCheck2_X43e 
+count2_X43 
+countCheck2_X44s 
+countCheck2_X44e 
+count2_X44 
+countCheck2_X45s 
+countCheck2_X45e 
+count2_X45 
+countCheck2_X46s 
+countCheck2_X46e 
+count2_X46 
+countCheck2_X47s 
+countCheck2_X47e 
+count2_X47 
+countCheck2_X48s 
+countCheck2_X48e 
+count2_X48 
+countCheck2_X49s 
+countCheck2_X49e 
+count2_X49 
+countCheck2_X50s 
+countCheck2_X50e 
+count2_X50 
+countCheck2_X51s 
+countCheck2_X51e 
+count2_X51 
+countCheck2_X52s 
+countCheck2_X52e 
+count2_X52 
+countCheck2_X53s 
+countCheck2_X53e 
+count2_X53 
+countCheck2_X54s 
+countCheck2_X54e 
+count2_X54 
+countCheck2_X55s 
+countCheck2_X55e 
+count2_X55 
+countCheck2_X56s 
+countCheck2_X56e 
+count2_X56 
+countCheck2_X57s 
+countCheck2_X57e 
+count2_X57 
+countCheck2_X58s 
+countCheck2_X58e 
+count2_X58 
+countCheck2_X59s 
+countCheck2_X59e 
+count2_X59 
+countCheck2_X60s 
+countCheck2_X60e 
+count2_X60 
+countCheck2_X61s 
+countCheck2_X61e 
+count2_X61 
+countCheck2_X62s 
+countCheck2_X62e 
+count2_X62 
+countCheck2_X63s 
+countCheck2_X63e 
+count2_X63 
+countCheck2_X64s 
+countCheck2_X64e 
+count2_X64 
+countCheck2_X65s 
+countCheck2_X65e 
+count2_X65 
+countCheck2_X66s 
+countCheck2_X66e 
+count2_X66 
+countCheck2_X67s 
+countCheck2_X67e 
+count2_X67 
+countCheck3_X0s 
+countCheck3_X0e 
+count3_X0 
+countCheck3_X1s 
+countCheck3_X1e 
+count3_X1 
+countCheck3_X2s 
+countCheck3_X2e 
+count3_X2 
+countCheck3_X3s 
+countCheck3_X3e 
+count3_X3 
+countCheck3_X4s 
+countCheck3_X4e 
+count3_X4 
+countCheck3_X5s 
+countCheck3_X5e 
+count3_X5 
+countCheck3_X6s 
+countCheck3_X6e 
+count3_X6 
+countCheck3_X7s 
+countCheck3_X7e 
+count3_X7 
+countCheck3_X8s 
+countCheck3_X8e 
+count3_X8 
+countCheck3_X9s 
+countCheck3_X9e 
+count3_X9 
+countCheck3_X10s 
+countCheck3_X10e 
+count3_X10 
+countCheck3_X11s 
+countCheck3_X11e 
+count3_X11 
+countCheck3_X12s 
+countCheck3_X12e 
+count3_X12 
+countCheck3_X13s 
+countCheck3_X13e 
+count3_X13 
+countCheck3_X14s 
+countCheck3_X14e 
+count3_X14 
+countCheck3_X15s 
+countCheck3_X15e 
+count3_X15 
+countCheck3_X16s 
+countCheck3_X16e 
+count3_X16 
+countCheck3_X17s 
+countCheck3_X17e 
+count3_X17 
+countCheck3_X18s 
+countCheck3_X18e 
+count3_X18 
+countCheck3_X19s 
+countCheck3_X19e 
+count3_X19 
+countCheck3_X20s 
+countCheck3_X20e 
+count3_X20 
+countCheck3_X21s 
+countCheck3_X21e 
+count3_X21 
+countCheck3_X22s 
+countCheck3_X22e 
+count3_X22 
+countCheck3_X23s 
+countCheck3_X23e 
+count3_X23 
+countCheck3_X24s 
+countCheck3_X24e 
+count3_X24 
+countCheck3_X25s 
+countCheck3_X25e 
+count3_X25 
+countCheck3_X26s 
+countCheck3_X26e 
+count3_X26 
+countCheck3_X27s 
+countCheck3_X27e 
+count3_X27 
+countCheck3_X28s 
+countCheck3_X28e 
+count3_X28 
+countCheck3_X29s 
+countCheck3_X29e 
+count3_X29 
+countCheck3_X30s 
+countCheck3_X30e 
+count3_X30 
+countCheck3_X31s 
+countCheck3_X31e 
+count3_X31 
+countCheck3_X32s 
+countCheck3_X32e 
+count3_X32 
+countCheck3_X33s 
+countCheck3_X33e 
+count3_X33 
+countCheck3_X34s 
+countCheck3_X34e 
+count3_X34 
+countCheck3_X35s 
+countCheck3_X35e 
+count3_X35 
+countCheck3_X36s 
+countCheck3_X36e 
+count3_X36 
+countCheck3_X37s 
+countCheck3_X37e 
+count3_X37 
+countCheck3_X38s 
+countCheck3_X38e 
+count3_X38 
+countCheck3_X39s 
+countCheck3_X39e 
+count3_X39 
+countCheck3_X40s 
+countCheck3_X40e 
+count3_X40 
+countCheck3_X41s 
+countCheck3_X41e 
+count3_X41 
+countCheck3_X42s 
+countCheck3_X42e 
+count3_X42 
+countCheck3_X43s 
+countCheck3_X43e 
+count3_X43 
+countCheck3_X44s 
+countCheck3_X44e 
+count3_X44 
+countCheck3_X45s 
+countCheck3_X45e 
+count3_X45 
+countCheck3_X46s 
+countCheck3_X46e 
+count3_X46 
+countCheck3_X47s 
+countCheck3_X47e 
+count3_X47 
+countCheck3_X48s 
+countCheck3_X48e 
+count3_X48 
+countCheck3_X49s 
+countCheck3_X49e 
+count3_X49 
+countCheck3_X50s 
+countCheck3_X50e 
+count3_X50 
+countCheck3_X51s 
+countCheck3_X51e 
+count3_X51 
+countCheck3_X52s 
+countCheck3_X52e 
+count3_X52 
+countCheck3_X53s 
+countCheck3_X53e 
+count3_X53 
+countCheck3_X54s 
+countCheck3_X54e 
+count3_X54 
+countCheck3_X55s 
+countCheck3_X55e 
+count3_X55 
+countCheck3_X56s 
+countCheck3_X56e 
+count3_X56 
+countCheck3_X57s 
+countCheck3_X57e 
+count3_X57 
+countCheck3_X58s 
+countCheck3_X58e 
+count3_X58 
+countCheck3_X59s 
+countCheck3_X59e 
+count3_X59 
+countCheck3_X60s 
+countCheck3_X60e 
+count3_X60 
+countCheck3_X61s 
+countCheck3_X61e 
+count3_X61 
+countCheck3_X62s 
+countCheck3_X62e 
+count3_X62 
+countCheck3_X63s 
+countCheck3_X63e 
+count3_X63 
+countCheck3_X64s 
+countCheck3_X64e 
+count3_X64 
+countCheck3_X65s 
+countCheck3_X65e 
+count3_X65 
+countCheck3_X66s 
+countCheck3_X66e 
+count3_X66 
+countCheck3_X67s 
+countCheck3_X67e 
+count3_X67 
+countCheck4_X0s 
+countCheck4_X0e 
+count4_X0 
+countCheck4_X1s 
+countCheck4_X1e 
+count4_X1 
+countCheck4_X2s 
+countCheck4_X2e 
+count4_X2 
+countCheck4_X3s 
+countCheck4_X3e 
+count4_X3 
+countCheck4_X4s 
+countCheck4_X4e 
+count4_X4 
+countCheck4_X5s 
+countCheck4_X5e 
+count4_X5 
+countCheck4_X6s 
+countCheck4_X6e 
+count4_X6 
+countCheck4_X7s 
+countCheck4_X7e 
+count4_X7 
+countCheck4_X8s 
+countCheck4_X8e 
+count4_X8 
+countCheck4_X9s 
+countCheck4_X9e 
+count4_X9 
+countCheck4_X10s 
+countCheck4_X10e 
+count4_X10 
+countCheck4_X11s 
+countCheck4_X11e 
+count4_X11 
+countCheck4_X12s 
+countCheck4_X12e 
+count4_X12 
+countCheck4_X13s 
+countCheck4_X13e 
+count4_X13 
+countCheck4_X14s 
+countCheck4_X14e 
+count4_X14 
+countCheck4_X15s 
+countCheck4_X15e 
+count4_X15 
+countCheck4_X16s 
+countCheck4_X16e 
+count4_X16 
+countCheck4_X17s 
+countCheck4_X17e 
+count4_X17 
+countCheck4_X18s 
+countCheck4_X18e 
+count4_X18 
+countCheck4_X19s 
+countCheck4_X19e 
+count4_X19 
+countCheck4_X20s 
+countCheck4_X20e 
+count4_X20 
+countCheck4_X21s 
+countCheck4_X21e 
+count4_X21 
+countCheck4_X22s 
+countCheck4_X22e 
+count4_X22 
+countCheck4_X23s 
+countCheck4_X23e 
+count4_X23 
+countCheck4_X24s 
+countCheck4_X24e 
+count4_X24 
+countCheck4_X25s 
+countCheck4_X25e 
+count4_X25 
+countCheck4_X26s 
+countCheck4_X26e 
+count4_X26 
+countCheck4_X27s 
+countCheck4_X27e 
+count4_X27 
+countCheck4_X28s 
+countCheck4_X28e 
+count4_X28 
+countCheck4_X29s 
+countCheck4_X29e 
+count4_X29 
+countCheck4_X30s 
+countCheck4_X30e 
+count4_X30 
+countCheck4_X31s 
+countCheck4_X31e 
+count4_X31 
+countCheck4_X32s 
+countCheck4_X32e 
+count4_X32 
+countCheck4_X33s 
+countCheck4_X33e 
+count4_X33 
+countCheck4_X34s 
+countCheck4_X34e 
+count4_X34 
+countCheck4_X35s 
+countCheck4_X35e 
+count4_X35 
+countCheck4_X36s 
+countCheck4_X36e 
+count4_X36 
+countCheck4_X37s 
+countCheck4_X37e 
+count4_X37 
+countCheck4_X38s 
+countCheck4_X38e 
+count4_X38 
+countCheck4_X39s 
+countCheck4_X39e 
+count4_X39 
+countCheck4_X40s 
+countCheck4_X40e 
+count4_X40 
+countCheck4_X41s 
+countCheck4_X41e 
+count4_X41 
+countCheck4_X42s 
+countCheck4_X42e 
+count4_X42 
+countCheck4_X43s 
+countCheck4_X43e 
+count4_X43 
+countCheck4_X44s 
+countCheck4_X44e 
+count4_X44 
+countCheck4_X45s 
+countCheck4_X45e 
+count4_X45 
+countCheck4_X46s 
+countCheck4_X46e 
+count4_X46 
+countCheck4_X47s 
+countCheck4_X47e 
+count4_X47 
+countCheck4_X48s 
+countCheck4_X48e 
+count4_X48 
+countCheck4_X49s 
+countCheck4_X49e 
+count4_X49 
+countCheck4_X50s 
+countCheck4_X50e 
+count4_X50 
+countCheck4_X51s 
+countCheck4_X51e 
+count4_X51 
+countCheck4_X52s 
+countCheck4_X52e 
+count4_X52 
+countCheck4_X53s 
+countCheck4_X53e 
+count4_X53 
+countCheck4_X54s 
+countCheck4_X54e 
+count4_X54 
+countCheck4_X55s 
+countCheck4_X55e 
+count4_X55 
+countCheck4_X56s 
+countCheck4_X56e 
+count4_X56 
+countCheck4_X57s 
+countCheck4_X57e 
+count4_X57 
+countCheck4_X58s 
+countCheck4_X58e 
+count4_X58 
+countCheck4_X59s 
+countCheck4_X59e 
+count4_X59 
+countCheck4_X60s 
+countCheck4_X60e 
+count4_X60 
+countCheck4_X61s 
+countCheck4_X61e 
+count4_X61 
+countCheck4_X62s 
+countCheck4_X62e 
+count4_X62 
+countCheck4_X63s 
+countCheck4_X63e 
+count4_X63 
+countCheck4_X64s 
+countCheck4_X64e 
+count4_X64 
+countCheck4_X65s 
+countCheck4_X65e 
+count4_X65 
+countCheck4_X66s 
+countCheck4_X66e 
+count4_X66 
+countCheck4_X67s 
+countCheck4_X67e 
+count4_X67 
+countCheck5_X0s 
+countCheck5_X0e 
+count5_X0 
+countCheck5_X1s 
+countCheck5_X1e 
+count5_X1 
+countCheck5_X2s 
+countCheck5_X2e 
+count5_X2 
+countCheck5_X3s 
+countCheck5_X3e 
+count5_X3 
+countCheck5_X4s 
+countCheck5_X4e 
+count5_X4 
+countCheck5_X5s 
+countCheck5_X5e 
+count5_X5 
+countCheck5_X6s 
+countCheck5_X6e 
+count5_X6 
+countCheck5_X7s 
+countCheck5_X7e 
+count5_X7 
+countCheck5_X8s 
+countCheck5_X8e 
+count5_X8 
+countCheck5_X9s 
+countCheck5_X9e 
+count5_X9 
+countCheck5_X10s 
+countCheck5_X10e 
+count5_X10 
+countCheck5_X11s 
+countCheck5_X11e 
+count5_X11 
+countCheck5_X12s 
+countCheck5_X12e 
+count5_X12 
+countCheck5_X13s 
+countCheck5_X13e 
+count5_X13 
+countCheck5_X14s 
+countCheck5_X14e 
+count5_X14 
+countCheck5_X15s 
+countCheck5_X15e 
+count5_X15 
+countCheck5_X16s 
+countCheck5_X16e 
+count5_X16 
+countCheck5_X17s 
+countCheck5_X17e 
+count5_X17 
+countCheck5_X18s 
+countCheck5_X18e 
+count5_X18 
+countCheck5_X19s 
+countCheck5_X19e 
+count5_X19 
+countCheck5_X20s 
+countCheck5_X20e 
+count5_X20 
+countCheck5_X21s 
+countCheck5_X21e 
+count5_X21 
+countCheck5_X22s 
+countCheck5_X22e 
+count5_X22 
+countCheck5_X23s 
+countCheck5_X23e 
+count5_X23 
+countCheck5_X24s 
+countCheck5_X24e 
+count5_X24 
+countCheck5_X25s 
+countCheck5_X25e 
+count5_X25 
+countCheck5_X26s 
+countCheck5_X26e 
+count5_X26 
+countCheck5_X27s 
+countCheck5_X27e 
+count5_X27 
+countCheck5_X28s 
+countCheck5_X28e 
+count5_X28 
+countCheck5_X29s 
+countCheck5_X29e 
+count5_X29 
+countCheck5_X30s 
+countCheck5_X30e 
+count5_X30 
+countCheck5_X31s 
+countCheck5_X31e 
+count5_X31 
+countCheck5_X32s 
+countCheck5_X32e 
+count5_X32 
+countCheck5_X33s 
+countCheck5_X33e 
+count5_X33 
+countCheck5_X34s 
+countCheck5_X34e 
+count5_X34 
+countCheck5_X35s 
+countCheck5_X35e 
+count5_X35 
+countCheck5_X36s 
+countCheck5_X36e 
+count5_X36 
+countCheck5_X37s 
+countCheck5_X37e 
+count5_X37 
+countCheck5_X38s 
+countCheck5_X38e 
+count5_X38 
+countCheck5_X39s 
+countCheck5_X39e 
+count5_X39 
+countCheck5_X40s 
+countCheck5_X40e 
+count5_X40 
+countCheck5_X41s 
+countCheck5_X41e 
+count5_X41 
+countCheck5_X42s 
+countCheck5_X42e 
+count5_X42 
+countCheck5_X43s 
+countCheck5_X43e 
+count5_X43 
+countCheck5_X44s 
+countCheck5_X44e 
+count5_X44 
+countCheck5_X45s 
+countCheck5_X45e 
+count5_X45 
+countCheck5_X46s 
+countCheck5_X46e 
+count5_X46 
+countCheck5_X47s 
+countCheck5_X47e 
+count5_X47 
+countCheck5_X48s 
+countCheck5_X48e 
+count5_X48 
+countCheck5_X49s 
+countCheck5_X49e 
+count5_X49 
+countCheck5_X50s 
+countCheck5_X50e 
+count5_X50 
+countCheck5_X51s 
+countCheck5_X51e 
+count5_X51 
+countCheck5_X52s 
+countCheck5_X52e 
+count5_X52 
+countCheck5_X53s 
+countCheck5_X53e 
+count5_X53 
+countCheck5_X54s 
+countCheck5_X54e 
+count5_X54 
+countCheck5_X55s 
+countCheck5_X55e 
+count5_X55 
+countCheck5_X56s 
+countCheck5_X56e 
+count5_X56 
+countCheck5_X57s 
+countCheck5_X57e 
+count5_X57 
+countCheck5_X58s 
+countCheck5_X58e 
+count5_X58 
+countCheck5_X59s 
+countCheck5_X59e 
+count5_X59 
+countCheck5_X60s 
+countCheck5_X60e 
+count5_X60 
+countCheck5_X61s 
+countCheck5_X61e 
+count5_X61 
+countCheck5_X62s 
+countCheck5_X62e 
+count5_X62 
+countCheck5_X63s 
+countCheck5_X63e 
+count5_X63 
+countCheck5_X64s 
+countCheck5_X64e 
+count5_X64 
+countCheck5_X65s 
+countCheck5_X65e 
+count5_X65 
+countCheck5_X66s 
+countCheck5_X66e 
+count5_X66 
+countCheck5_X67s 
+countCheck5_X67e 
+count5_X67 
+countCheck6_X0s 
+countCheck6_X0e 
+count6_X0 
+countCheck6_X1s 
+countCheck6_X1e 
+count6_X1 
+countCheck6_X2s 
+countCheck6_X2e 
+count6_X2 
+countCheck6_X3s 
+countCheck6_X3e 
+count6_X3 
+countCheck6_X4s 
+countCheck6_X4e 
+count6_X4 
+countCheck6_X5s 
+countCheck6_X5e 
+count6_X5 
+countCheck6_X6s 
+countCheck6_X6e 
+count6_X6 
+countCheck6_X7s 
+countCheck6_X7e 
+count6_X7 
+countCheck6_X8s 
+countCheck6_X8e 
+count6_X8 
+countCheck6_X9s 
+countCheck6_X9e 
+count6_X9 
+countCheck6_X10s 
+countCheck6_X10e 
+count6_X10 
+countCheck6_X11s 
+countCheck6_X11e 
+count6_X11 
+countCheck6_X12s 
+countCheck6_X12e 
+count6_X12 
+countCheck6_X13s 
+countCheck6_X13e 
+count6_X13 
+countCheck6_X14s 
+countCheck6_X14e 
+count6_X14 
+countCheck6_X15s 
+countCheck6_X15e 
+count6_X15 
+countCheck6_X16s 
+countCheck6_X16e 
+count6_X16 
+countCheck6_X17s 
+countCheck6_X17e 
+count6_X17 
+countCheck6_X18s 
+countCheck6_X18e 
+count6_X18 
+countCheck6_X19s 
+countCheck6_X19e 
+count6_X19 
+countCheck6_X20s 
+countCheck6_X20e 
+count6_X20 
+countCheck6_X21s 
+countCheck6_X21e 
+count6_X21 
+countCheck6_X22s 
+countCheck6_X22e 
+count6_X22 
+countCheck6_X23s 
+countCheck6_X23e 
+count6_X23 
+countCheck6_X24s 
+countCheck6_X24e 
+count6_X24 
+countCheck6_X25s 
+countCheck6_X25e 
+count6_X25 
+countCheck6_X26s 
+countCheck6_X26e 
+count6_X26 
+countCheck6_X27s 
+countCheck6_X27e 
+count6_X27 
+countCheck6_X28s 
+countCheck6_X28e 
+count6_X28 
+countCheck6_X29s 
+countCheck6_X29e 
+count6_X29 
+countCheck6_X30s 
+countCheck6_X30e 
+count6_X30 
+countCheck6_X31s 
+countCheck6_X31e 
+count6_X31 
+countCheck6_X32s 
+countCheck6_X32e 
+count6_X32 
+countCheck6_X33s 
+countCheck6_X33e 
+count6_X33 
+countCheck6_X34s 
+countCheck6_X34e 
+count6_X34 
+countCheck6_X35s 
+countCheck6_X35e 
+count6_X35 
+countCheck6_X36s 
+countCheck6_X36e 
+count6_X36 
+countCheck6_X37s 
+countCheck6_X37e 
+count6_X37 
+countCheck6_X38s 
+countCheck6_X38e 
+count6_X38 
+countCheck6_X39s 
+countCheck6_X39e 
+count6_X39 
+countCheck6_X40s 
+countCheck6_X40e 
+count6_X40 
+countCheck6_X41s 
+countCheck6_X41e 
+count6_X41 
+countCheck6_X42s 
+countCheck6_X42e 
+count6_X42 
+countCheck6_X43s 
+countCheck6_X43e 
+count6_X43 
+countCheck6_X44s 
+countCheck6_X44e 
+count6_X44 
+countCheck6_X45s 
+countCheck6_X45e 
+count6_X45 
+countCheck6_X46s 
+countCheck6_X46e 
+count6_X46 
+countCheck6_X47s 
+countCheck6_X47e 
+count6_X47 
+countCheck6_X48s 
+countCheck6_X48e 
+count6_X48 
+countCheck6_X49s 
+countCheck6_X49e 
+count6_X49 
+countCheck6_X50s 
+countCheck6_X50e 
+count6_X50 
+countCheck6_X51s 
+countCheck6_X51e 
+count6_X51 
+countCheck6_X52s 
+countCheck6_X52e 
+count6_X52 
+countCheck6_X53s 
+countCheck6_X53e 
+count6_X53 
+countCheck6_X54s 
+countCheck6_X54e 
+count6_X54 
+countCheck6_X55s 
+countCheck6_X55e 
+count6_X55 
+countCheck6_X56s 
+countCheck6_X56e 
+count6_X56 
+countCheck6_X57s 
+countCheck6_X57e 
+count6_X57 
+countCheck6_X58s 
+countCheck6_X58e 
+count6_X58 
+countCheck6_X59s 
+countCheck6_X59e 
+count6_X59 
+countCheck6_X60s 
+countCheck6_X60e 
+count6_X60 
+countCheck6_X61s 
+countCheck6_X61e 
+count6_X61 
+countCheck6_X62s 
+countCheck6_X62e 
+count6_X62 
+countCheck6_X63s 
+countCheck6_X63e 
+count6_X63 
+countCheck6_X64s 
+countCheck6_X64e 
+count6_X64 
+countCheck6_X65s 
+countCheck6_X65e 
+count6_X65 
+countCheck6_X66s 
+countCheck6_X66e 
+count6_X66 
+countCheck6_X67s 
+countCheck6_X67e 
+count6_X67 
+countCheck7_X0s 
+countCheck7_X0e 
+count7_X0 
+countCheck7_X1s 
+countCheck7_X1e 
+count7_X1 
+countCheck7_X2s 
+countCheck7_X2e 
+count7_X2 
+countCheck7_X3s 
+countCheck7_X3e 
+count7_X3 
+countCheck7_X4s 
+countCheck7_X4e 
+count7_X4 
+countCheck7_X5s 
+countCheck7_X5e 
+count7_X5 
+countCheck7_X6s 
+countCheck7_X6e 
+count7_X6 
+countCheck7_X7s 
+countCheck7_X7e 
+count7_X7 
+countCheck7_X8s 
+countCheck7_X8e 
+count7_X8 
+countCheck7_X9s 
+countCheck7_X9e 
+count7_X9 
+countCheck7_X10s 
+countCheck7_X10e 
+count7_X10 
+countCheck7_X11s 
+countCheck7_X11e 
+count7_X11 
+countCheck7_X12s 
+countCheck7_X12e 
+count7_X12 
+countCheck7_X13s 
+countCheck7_X13e 
+count7_X13 
+countCheck7_X14s 
+countCheck7_X14e 
+count7_X14 
+countCheck7_X15s 
+countCheck7_X15e 
+count7_X15 
+countCheck7_X16s 
+countCheck7_X16e 
+count7_X16 
+countCheck7_X17s 
+countCheck7_X17e 
+count7_X17 
+countCheck7_X18s 
+countCheck7_X18e 
+count7_X18 
+countCheck7_X19s 
+countCheck7_X19e 
+count7_X19 
+countCheck7_X20s 
+countCheck7_X20e 
+count7_X20 
+countCheck7_X21s 
+countCheck7_X21e 
+count7_X21 
+countCheck7_X22s 
+countCheck7_X22e 
+count7_X22 
+countCheck7_X23s 
+countCheck7_X23e 
+count7_X23 
+countCheck7_X24s 
+countCheck7_X24e 
+count7_X24 
+countCheck7_X25s 
+countCheck7_X25e 
+count7_X25 
+countCheck7_X26s 
+countCheck7_X26e 
+count7_X26 
+countCheck7_X27s 
+countCheck7_X27e 
+count7_X27 
+countCheck7_X28s 
+countCheck7_X28e 
+count7_X28 
+countCheck7_X29s 
+countCheck7_X29e 
+count7_X29 
+countCheck7_X30s 
+countCheck7_X30e 
+count7_X30 
+countCheck7_X31s 
+countCheck7_X31e 
+count7_X31 
+countCheck7_X32s 
+countCheck7_X32e 
+count7_X32 
+countCheck7_X33s 
+countCheck7_X33e 
+count7_X33 
+countCheck7_X34s 
+countCheck7_X34e 
+count7_X34 
+countCheck7_X35s 
+countCheck7_X35e 
+count7_X35 
+countCheck7_X36s 
+countCheck7_X36e 
+count7_X36 
+countCheck7_X37s 
+countCheck7_X37e 
+count7_X37 
+countCheck7_X38s 
+countCheck7_X38e 
+count7_X38 
+countCheck7_X39s 
+countCheck7_X39e 
+count7_X39 
+countCheck7_X40s 
+countCheck7_X40e 
+count7_X40 
+countCheck7_X41s 
+countCheck7_X41e 
+count7_X41 
+countCheck7_X42s 
+countCheck7_X42e 
+count7_X42 
+countCheck7_X43s 
+countCheck7_X43e 
+count7_X43 
+countCheck7_X44s 
+countCheck7_X44e 
+count7_X44 
+countCheck7_X45s 
+countCheck7_X45e 
+count7_X45 
+countCheck7_X46s 
+countCheck7_X46e 
+count7_X46 
+countCheck7_X47s 
+countCheck7_X47e 
+count7_X47 
+countCheck7_X48s 
+countCheck7_X48e 
+count7_X48 
+countCheck7_X49s 
+countCheck7_X49e 
+count7_X49 
+countCheck7_X50s 
+countCheck7_X50e 
+count7_X50 
+countCheck7_X51s 
+countCheck7_X51e 
+count7_X51 
+countCheck7_X52s 
+countCheck7_X52e 
+count7_X52 
+countCheck7_X53s 
+countCheck7_X53e 
+count7_X53 
+countCheck7_X54s 
+countCheck7_X54e 
+count7_X54 
+countCheck7_X55s 
+countCheck7_X55e 
+count7_X55 
+countCheck7_X56s 
+countCheck7_X56e 
+count7_X56 
+countCheck7_X57s 
+countCheck7_X57e 
+count7_X57 
+countCheck7_X58s 
+countCheck7_X58e 
+count7_X58 
+countCheck7_X59s 
+countCheck7_X59e 
+count7_X59 
+countCheck7_X60s 
+countCheck7_X60e 
+count7_X60 
+countCheck7_X61s 
+countCheck7_X61e 
+count7_X61 
+countCheck7_X62s 
+countCheck7_X62e 
+count7_X62 
+countCheck7_X63s 
+countCheck7_X63e 
+count7_X63 
+countCheck7_X64s 
+countCheck7_X64e 
+count7_X64 
+countCheck7_X65s 
+countCheck7_X65e 
+count7_X65 
+countCheck7_X66s 
+countCheck7_X66e 
+count7_X66 
+countCheck7_X67s 
+countCheck7_X67e 
+count7_X67 
+countCheck8_X0s 
+countCheck8_X0e 
+count8_X0 
+countCheck8_X1s 
+countCheck8_X1e 
+count8_X1 
+countCheck8_X2s 
+countCheck8_X2e 
+count8_X2 
+countCheck8_X3s 
+countCheck8_X3e 
+count8_X3 
+countCheck8_X4s 
+countCheck8_X4e 
+count8_X4 
+countCheck8_X5s 
+countCheck8_X5e 
+count8_X5 
+countCheck8_X6s 
+countCheck8_X6e 
+count8_X6 
+countCheck8_X7s 
+countCheck8_X7e 
+count8_X7 
+countCheck8_X8s 
+countCheck8_X8e 
+count8_X8 
+countCheck8_X9s 
+countCheck8_X9e 
+count8_X9 
+countCheck8_X10s 
+countCheck8_X10e 
+count8_X10 
+countCheck8_X11s 
+countCheck8_X11e 
+count8_X11 
+countCheck8_X12s 
+countCheck8_X12e 
+count8_X12 
+countCheck8_X13s 
+countCheck8_X13e 
+count8_X13 
+countCheck8_X14s 
+countCheck8_X14e 
+count8_X14 
+countCheck8_X15s 
+countCheck8_X15e 
+count8_X15 
+countCheck8_X16s 
+countCheck8_X16e 
+count8_X16 
+countCheck8_X17s 
+countCheck8_X17e 
+count8_X17 
+countCheck8_X18s 
+countCheck8_X18e 
+count8_X18 
+countCheck8_X19s 
+countCheck8_X19e 
+count8_X19 
+countCheck8_X20s 
+countCheck8_X20e 
+count8_X20 
+countCheck8_X21s 
+countCheck8_X21e 
+count8_X21 
+countCheck8_X22s 
+countCheck8_X22e 
+count8_X22 
+countCheck8_X23s 
+countCheck8_X23e 
+count8_X23 
+countCheck8_X24s 
+countCheck8_X24e 
+count8_X24 
+countCheck8_X25s 
+countCheck8_X25e 
+count8_X25 
+countCheck8_X26s 
+countCheck8_X26e 
+count8_X26 
+countCheck8_X27s 
+countCheck8_X27e 
+count8_X27 
+countCheck8_X28s 
+countCheck8_X28e 
+count8_X28 
+countCheck8_X29s 
+countCheck8_X29e 
+count8_X29 
+countCheck8_X30s 
+countCheck8_X30e 
+count8_X30 
+countCheck8_X31s 
+countCheck8_X31e 
+count8_X31 
+countCheck8_X32s 
+countCheck8_X32e 
+count8_X32 
+countCheck8_X33s 
+countCheck8_X33e 
+count8_X33 
+countCheck8_X34s 
+countCheck8_X34e 
+count8_X34 
+countCheck8_X35s 
+countCheck8_X35e 
+count8_X35 
+countCheck8_X36s 
+countCheck8_X36e 
+count8_X36 
+countCheck8_X37s 
+countCheck8_X37e 
+count8_X37 
+countCheck8_X38s 
+countCheck8_X38e 
+count8_X38 
+countCheck8_X39s 
+countCheck8_X39e 
+count8_X39 
+countCheck8_X40s 
+countCheck8_X40e 
+count8_X40 
+countCheck8_X41s 
+countCheck8_X41e 
+count8_X41 
+countCheck8_X42s 
+countCheck8_X42e 
+count8_X42 
+countCheck8_X43s 
+countCheck8_X43e 
+count8_X43 
+countCheck8_X44s 
+countCheck8_X44e 
+count8_X44 
+countCheck8_X45s 
+countCheck8_X45e 
+count8_X45 
+countCheck8_X46s 
+countCheck8_X46e 
+count8_X46 
+countCheck8_X47s 
+countCheck8_X47e 
+count8_X47 
+countCheck8_X48s 
+countCheck8_X48e 
+count8_X48 
+countCheck8_X49s 
+countCheck8_X49e 
+count8_X49 
+countCheck8_X50s 
+countCheck8_X50e 
+count8_X50 
+countCheck8_X51s 
+countCheck8_X51e 
+count8_X51 
+countCheck8_X52s 
+countCheck8_X52e 
+count8_X52 
+countCheck8_X53s 
+countCheck8_X53e 
+count8_X53 
+countCheck8_X54s 
+countCheck8_X54e 
+count8_X54 
+countCheck8_X55s 
+countCheck8_X55e 
+count8_X55 
+countCheck8_X56s 
+countCheck8_X56e 
+count8_X56 
+countCheck8_X57s 
+countCheck8_X57e 
+count8_X57 
+countCheck8_X58s 
+countCheck8_X58e 
+count8_X58 
+countCheck8_X59s 
+countCheck8_X59e 
+count8_X59 
+countCheck8_X60s 
+countCheck8_X60e 
+count8_X60 
+countCheck8_X61s 
+countCheck8_X61e 
+count8_X61 
+countCheck8_X62s 
+countCheck8_X62e 
+count8_X62 
+countCheck8_X63s 
+countCheck8_X63e 
+count8_X63 
+countCheck8_X64s 
+countCheck8_X64e 
+count8_X64 
+countCheck8_X65s 
+countCheck8_X65e 
+count8_X65 
+countCheck8_X66s 
+countCheck8_X66e 
+count8_X66 
+countCheck8_X67s 
+countCheck8_X67e 
+count8_X67 
+countCheck9_X0s 
+countCheck9_X0e 
+count9_X0 
+countCheck9_X1s 
+countCheck9_X1e 
+count9_X1 
+countCheck9_X2s 
+countCheck9_X2e 
+count9_X2 
+countCheck9_X3s 
+countCheck9_X3e 
+count9_X3 
+countCheck9_X4s 
+countCheck9_X4e 
+count9_X4 
+countCheck9_X5s 
+countCheck9_X5e 
+count9_X5 
+countCheck9_X6s 
+countCheck9_X6e 
+count9_X6 
+countCheck9_X7s 
+countCheck9_X7e 
+count9_X7 
+countCheck9_X8s 
+countCheck9_X8e 
+count9_X8 
+countCheck9_X9s 
+countCheck9_X9e 
+count9_X9 
+countCheck9_X10s 
+countCheck9_X10e 
+count9_X10 
+countCheck9_X11s 
+countCheck9_X11e 
+count9_X11 
+countCheck9_X12s 
+countCheck9_X12e 
+count9_X12 
+countCheck9_X13s 
+countCheck9_X13e 
+count9_X13 
+countCheck9_X14s 
+countCheck9_X14e 
+count9_X14 
+countCheck9_X15s 
+countCheck9_X15e 
+count9_X15 
+countCheck9_X16s 
+countCheck9_X16e 
+count9_X16 
+countCheck9_X17s 
+countCheck9_X17e 
+count9_X17 
+countCheck9_X18s 
+countCheck9_X18e 
+count9_X18 
+countCheck9_X19s 
+countCheck9_X19e 
+count9_X19 
+countCheck9_X20s 
+countCheck9_X20e 
+count9_X20 
+countCheck9_X21s 
+countCheck9_X21e 
+count9_X21 
+countCheck9_X22s 
+countCheck9_X22e 
+count9_X22 
+countCheck9_X23s 
+countCheck9_X23e 
+count9_X23 
+countCheck9_X24s 
+countCheck9_X24e 
+count9_X24 
+countCheck9_X25s 
+countCheck9_X25e 
+count9_X25 
+countCheck9_X26s 
+countCheck9_X26e 
+count9_X26 
+countCheck9_X27s 
+countCheck9_X27e 
+count9_X27 
+countCheck9_X28s 
+countCheck9_X28e 
+count9_X28 
+countCheck9_X29s 
+countCheck9_X29e 
+count9_X29 
+countCheck9_X30s 
+countCheck9_X30e 
+count9_X30 
+countCheck9_X31s 
+countCheck9_X31e 
+count9_X31 
+countCheck9_X32s 
+countCheck9_X32e 
+count9_X32 
+countCheck9_X33s 
+countCheck9_X33e 
+count9_X33 
+countCheck9_X34s 
+countCheck9_X34e 
+count9_X34 
+countCheck9_X35s 
+countCheck9_X35e 
+count9_X35 
+countCheck9_X36s 
+countCheck9_X36e 
+count9_X36 
+countCheck9_X37s 
+countCheck9_X37e 
+count9_X37 
+countCheck9_X38s 
+countCheck9_X38e 
+count9_X38 
+countCheck9_X39s 
+countCheck9_X39e 
+count9_X39 
+countCheck9_X40s 
+countCheck9_X40e 
+count9_X40 
+countCheck9_X41s 
+countCheck9_X41e 
+count9_X41 
+countCheck9_X42s 
+countCheck9_X42e 
+count9_X42 
+countCheck9_X43s 
+countCheck9_X43e 
+count9_X43 
+countCheck9_X44s 
+countCheck9_X44e 
+count9_X44 
+countCheck9_X45s 
+countCheck9_X45e 
+count9_X45 
+countCheck9_X46s 
+countCheck9_X46e 
+count9_X46 
+countCheck9_X47s 
+countCheck9_X47e 
+count9_X47 
+countCheck9_X48s 
+countCheck9_X48e 
+count9_X48 
+countCheck9_X49s 
+countCheck9_X49e 
+count9_X49 
+countCheck9_X50s 
+countCheck9_X50e 
+count9_X50 
+countCheck9_X51s 
+countCheck9_X51e 
+count9_X51 
+countCheck9_X52s 
+countCheck9_X52e 
+count9_X52 
+countCheck9_X53s 
+countCheck9_X53e 
+count9_X53 
+countCheck9_X54s 
+countCheck9_X54e 
+count9_X54 
+countCheck9_X55s 
+countCheck9_X55e 
+count9_X55 
+countCheck9_X56s 
+countCheck9_X56e 
+count9_X56 
+countCheck9_X57s 
+countCheck9_X57e 
+count9_X57 
+countCheck9_X58s 
+countCheck9_X58e 
+count9_X58 
+countCheck9_X59s 
+countCheck9_X59e 
+count9_X59 
+countCheck9_X60s 
+countCheck9_X60e 
+count9_X60 
+countCheck9_X61s 
+countCheck9_X61e 
+count9_X61 
+countCheck9_X62s 
+countCheck9_X62e 
+count9_X62 
+countCheck9_X63s 
+countCheck9_X63e 
+count9_X63 
+countCheck9_X64s 
+countCheck9_X64e 
+count9_X64 
+countCheck9_X65s 
+countCheck9_X65e 
+count9_X65 
+countCheck9_X66s 
+countCheck9_X66e 
+count9_X66 
+countCheck9_X67s 
+countCheck9_X67e 
+count9_X67 
+countCheck10_X0s 
+countCheck10_X0e 
+count10_X0 
+countCheck10_X1s 
+countCheck10_X1e 
+count10_X1 
+countCheck10_X2s 
+countCheck10_X2e 
+count10_X2 
+countCheck10_X3s 
+countCheck10_X3e 
+count10_X3 
+countCheck10_X4s 
+countCheck10_X4e 
+count10_X4 
+countCheck10_X5s 
+countCheck10_X5e 
+count10_X5 
+countCheck10_X6s 
+countCheck10_X6e 
+count10_X6 
+countCheck10_X7s 
+countCheck10_X7e 
+count10_X7 
+countCheck10_X8s 
+countCheck10_X8e 
+count10_X8 
+countCheck10_X9s 
+countCheck10_X9e 
+count10_X9 
+countCheck10_X10s 
+countCheck10_X10e 
+count10_X10 
+countCheck10_X11s 
+countCheck10_X11e 
+count10_X11 
+countCheck10_X12s 
+countCheck10_X12e 
+count10_X12 
+countCheck10_X13s 
+countCheck10_X13e 
+count10_X13 
+countCheck10_X14s 
+countCheck10_X14e 
+count10_X14 
+countCheck10_X15s 
+countCheck10_X15e 
+count10_X15 
+countCheck10_X16s 
+countCheck10_X16e 
+count10_X16 
+countCheck10_X17s 
+countCheck10_X17e 
+count10_X17 
+countCheck10_X18s 
+countCheck10_X18e 
+count10_X18 
+countCheck10_X19s 
+countCheck10_X19e 
+count10_X19 
+countCheck10_X20s 
+countCheck10_X20e 
+count10_X20 
+countCheck10_X21s 
+countCheck10_X21e 
+count10_X21 
+countCheck10_X22s 
+countCheck10_X22e 
+count10_X22 
+countCheck10_X23s 
+countCheck10_X23e 
+count10_X23 
+countCheck10_X24s 
+countCheck10_X24e 
+count10_X24 
+countCheck10_X25s 
+countCheck10_X25e 
+count10_X25 
+countCheck10_X26s 
+countCheck10_X26e 
+count10_X26 
+countCheck10_X27s 
+countCheck10_X27e 
+count10_X27 
+countCheck10_X28s 
+countCheck10_X28e 
+count10_X28 
+countCheck10_X29s 
+countCheck10_X29e 
+count10_X29 
+countCheck10_X30s 
+countCheck10_X30e 
+count10_X30 
+countCheck10_X31s 
+countCheck10_X31e 
+count10_X31 
+countCheck10_X32s 
+countCheck10_X32e 
+count10_X32 
+countCheck10_X33s 
+countCheck10_X33e 
+count10_X33 
+countCheck10_X34s 
+countCheck10_X34e 
+count10_X34 
+countCheck10_X35s 
+countCheck10_X35e 
+count10_X35 
+countCheck10_X36s 
+countCheck10_X36e 
+count10_X36 
+countCheck10_X37s 
+countCheck10_X37e 
+count10_X37 
+countCheck10_X38s 
+countCheck10_X38e 
+count10_X38 
+countCheck10_X39s 
+countCheck10_X39e 
+count10_X39 
+countCheck10_X40s 
+countCheck10_X40e 
+count10_X40 
+countCheck10_X41s 
+countCheck10_X41e 
+count10_X41 
+countCheck10_X42s 
+countCheck10_X42e 
+count10_X42 
+countCheck10_X43s 
+countCheck10_X43e 
+count10_X43 
+countCheck10_X44s 
+countCheck10_X44e 
+count10_X44 
+countCheck10_X45s 
+countCheck10_X45e 
+count10_X45 
+countCheck10_X46s 
+countCheck10_X46e 
+count10_X46 
+countCheck10_X47s 
+countCheck10_X47e 
+count10_X47 
+countCheck10_X48s 
+countCheck10_X48e 
+count10_X48 
+countCheck10_X49s 
+countCheck10_X49e 
+count10_X49 
+countCheck10_X50s 
+countCheck10_X50e 
+count10_X50 
+countCheck10_X51s 
+countCheck10_X51e 
+count10_X51 
+countCheck10_X52s 
+countCheck10_X52e 
+count10_X52 
+countCheck10_X53s 
+countCheck10_X53e 
+count10_X53 
+countCheck10_X54s 
+countCheck10_X54e 
+count10_X54 
+countCheck10_X55s 
+countCheck10_X55e 
+count10_X55 
+countCheck10_X56s 
+countCheck10_X56e 
+count10_X56 
+countCheck10_X57s 
+countCheck10_X57e 
+count10_X57 
+countCheck10_X58s 
+countCheck10_X58e 
+count10_X58 
+countCheck10_X59s 
+countCheck10_X59e 
+count10_X59 
+countCheck10_X60s 
+countCheck10_X60e 
+count10_X60 
+countCheck10_X61s 
+countCheck10_X61e 
+count10_X61 
+countCheck10_X62s 
+countCheck10_X62e 
+count10_X62 
+countCheck10_X63s 
+countCheck10_X63e 
+count10_X63 
+countCheck10_X64s 
+countCheck10_X64e 
+count10_X64 
+countCheck10_X65s 
+countCheck10_X65e 
+count10_X65 
+countCheck10_X66s 
+countCheck10_X66e 
+count10_X66 
+countCheck10_X67s 
+countCheck10_X67e 
+count10_X67 
+countCheck11_X0s 
+countCheck11_X0e 
+count11_X0 
+countCheck11_X1s 
+countCheck11_X1e 
+count11_X1 
+countCheck11_X2s 
+countCheck11_X2e 
+count11_X2 
+countCheck11_X3s 
+countCheck11_X3e 
+count11_X3 
+countCheck11_X4s 
+countCheck11_X4e 
+count11_X4 
+countCheck11_X5s 
+countCheck11_X5e 
+count11_X5 
+countCheck11_X6s 
+countCheck11_X6e 
+count11_X6 
+countCheck11_X7s 
+countCheck11_X7e 
+count11_X7 
+countCheck11_X8s 
+countCheck11_X8e 
+count11_X8 
+countCheck11_X9s 
+countCheck11_X9e 
+count11_X9 
+countCheck11_X10s 
+countCheck11_X10e 
+count11_X10 
+countCheck11_X11s 
+countCheck11_X11e 
+count11_X11 
+countCheck11_X12s 
+countCheck11_X12e 
+count11_X12 
+countCheck11_X13s 
+countCheck11_X13e 
+count11_X13 
+countCheck11_X14s 
+countCheck11_X14e 
+count11_X14 
+countCheck11_X15s 
+countCheck11_X15e 
+count11_X15 
+countCheck11_X16s 
+countCheck11_X16e 
+count11_X16 
+countCheck11_X17s 
+countCheck11_X17e 
+count11_X17 
+countCheck11_X18s 
+countCheck11_X18e 
+count11_X18 
+countCheck11_X19s 
+countCheck11_X19e 
+count11_X19 
+countCheck11_X20s 
+countCheck11_X20e 
+count11_X20 
+countCheck11_X21s 
+countCheck11_X21e 
+count11_X21 
+countCheck11_X22s 
+countCheck11_X22e 
+count11_X22 
+countCheck11_X23s 
+countCheck11_X23e 
+count11_X23 
+countCheck11_X24s 
+countCheck11_X24e 
+count11_X24 
+countCheck11_X25s 
+countCheck11_X25e 
+count11_X25 
+countCheck11_X26s 
+countCheck11_X26e 
+count11_X26 
+countCheck11_X27s 
+countCheck11_X27e 
+count11_X27 
+countCheck11_X28s 
+countCheck11_X28e 
+count11_X28 
+countCheck11_X29s 
+countCheck11_X29e 
+count11_X29 
+countCheck11_X30s 
+countCheck11_X30e 
+count11_X30 
+countCheck11_X31s 
+countCheck11_X31e 
+count11_X31 
+countCheck11_X32s 
+countCheck11_X32e 
+count11_X32 
+countCheck11_X33s 
+countCheck11_X33e 
+count11_X33 
+countCheck11_X34s 
+countCheck11_X34e 
+count11_X34 
+countCheck11_X35s 
+countCheck11_X35e 
+count11_X35 
+countCheck11_X36s 
+countCheck11_X36e 
+count11_X36 
+countCheck11_X37s 
+countCheck11_X37e 
+count11_X37 
+countCheck11_X38s 
+countCheck11_X38e 
+count11_X38 
+countCheck11_X39s 
+countCheck11_X39e 
+count11_X39 
+countCheck11_X40s 
+countCheck11_X40e 
+count11_X40 
+countCheck11_X41s 
+countCheck11_X41e 
+count11_X41 
+countCheck11_X42s 
+countCheck11_X42e 
+count11_X42 
+countCheck11_X43s 
+countCheck11_X43e 
+count11_X43 
+countCheck11_X44s 
+countCheck11_X44e 
+count11_X44 
+countCheck11_X45s 
+countCheck11_X45e 
+count11_X45 
+countCheck11_X46s 
+countCheck11_X46e 
+count11_X46 
+countCheck11_X47s 
+countCheck11_X47e 
+count11_X47 
+countCheck11_X48s 
+countCheck11_X48e 
+count11_X48 
+countCheck11_X49s 
+countCheck11_X49e 
+count11_X49 
+countCheck11_X50s 
+countCheck11_X50e 
+count11_X50 
+countCheck11_X51s 
+countCheck11_X51e 
+count11_X51 
+countCheck11_X52s 
+countCheck11_X52e 
+count11_X52 
+countCheck11_X53s 
+countCheck11_X53e 
+count11_X53 
+countCheck11_X54s 
+countCheck11_X54e 
+count11_X54 
+countCheck11_X55s 
+countCheck11_X55e 
+count11_X55 
+countCheck11_X56s 
+countCheck11_X56e 
+count11_X56 
+countCheck11_X57s 
+countCheck11_X57e 
+count11_X57 
+countCheck11_X58s 
+countCheck11_X58e 
+count11_X58 
+countCheck11_X59s 
+countCheck11_X59e 
+count11_X59 
+countCheck11_X60s 
+countCheck11_X60e 
+count11_X60 
+countCheck11_X61s 
+countCheck11_X61e 
+count11_X61 
+countCheck11_X62s 
+countCheck11_X62e 
+count11_X62 
+countCheck11_X63s 
+countCheck11_X63e 
+count11_X63 
+countCheck11_X64s 
+countCheck11_X64e 
+count11_X64 
+countCheck11_X65s 
+countCheck11_X65e 
+count11_X65 
+countCheck11_X66s 
+countCheck11_X66e 
+count11_X66 
+countCheck11_X67s 
+countCheck11_X67e 
+count11_X67 
+countCheck12_X0s 
+countCheck12_X0e 
+count12_X0 
+countCheck12_X1s 
+countCheck12_X1e 
+count12_X1 
+countCheck12_X2s 
+countCheck12_X2e 
+count12_X2 
+countCheck12_X3s 
+countCheck12_X3e 
+count12_X3 
+countCheck12_X4s 
+countCheck12_X4e 
+count12_X4 
+countCheck12_X5s 
+countCheck12_X5e 
+count12_X5 
+countCheck12_X6s 
+countCheck12_X6e 
+count12_X6 
+countCheck12_X7s 
+countCheck12_X7e 
+count12_X7 
+countCheck12_X8s 
+countCheck12_X8e 
+count12_X8 
+countCheck12_X9s 
+countCheck12_X9e 
+count12_X9 
+countCheck12_X10s 
+countCheck12_X10e 
+count12_X10 
+countCheck12_X11s 
+countCheck12_X11e 
+count12_X11 
+countCheck12_X12s 
+countCheck12_X12e 
+count12_X12 
+countCheck12_X13s 
+countCheck12_X13e 
+count12_X13 
+countCheck12_X14s 
+countCheck12_X14e 
+count12_X14 
+countCheck12_X15s 
+countCheck12_X15e 
+count12_X15 
+countCheck12_X16s 
+countCheck12_X16e 
+count12_X16 
+countCheck12_X17s 
+countCheck12_X17e 
+count12_X17 
+countCheck12_X18s 
+countCheck12_X18e 
+count12_X18 
+countCheck12_X19s 
+countCheck12_X19e 
+count12_X19 
+countCheck12_X20s 
+countCheck12_X20e 
+count12_X20 
+countCheck12_X21s 
+countCheck12_X21e 
+count12_X21 
+countCheck12_X22s 
+countCheck12_X22e 
+count12_X22 
+countCheck12_X23s 
+countCheck12_X23e 
+count12_X23 
+countCheck12_X24s 
+countCheck12_X24e 
+count12_X24 
+countCheck12_X25s 
+countCheck12_X25e 
+count12_X25 
+countCheck12_X26s 
+countCheck12_X26e 
+count12_X26 
+countCheck12_X27s 
+countCheck12_X27e 
+count12_X27 
+countCheck12_X28s 
+countCheck12_X28e 
+count12_X28 
+countCheck12_X29s 
+countCheck12_X29e 
+count12_X29 
+countCheck12_X30s 
+countCheck12_X30e 
+count12_X30 
+countCheck12_X31s 
+countCheck12_X31e 
+count12_X31 
+countCheck12_X32s 
+countCheck12_X32e 
+count12_X32 
+countCheck12_X33s 
+countCheck12_X33e 
+count12_X33 
+countCheck12_X34s 
+countCheck12_X34e 
+count12_X34 
+countCheck12_X35s 
+countCheck12_X35e 
+count12_X35 
+countCheck12_X36s 
+countCheck12_X36e 
+count12_X36 
+countCheck12_X37s 
+countCheck12_X37e 
+count12_X37 
+countCheck12_X38s 
+countCheck12_X38e 
+count12_X38 
+countCheck12_X39s 
+countCheck12_X39e 
+count12_X39 
+countCheck12_X40s 
+countCheck12_X40e 
+count12_X40 
+countCheck12_X41s 
+countCheck12_X41e 
+count12_X41 
+countCheck12_X42s 
+countCheck12_X42e 
+count12_X42 
+countCheck12_X43s 
+countCheck12_X43e 
+count12_X43 
+countCheck12_X44s 
+countCheck12_X44e 
+count12_X44 
+countCheck12_X45s 
+countCheck12_X45e 
+count12_X45 
+countCheck12_X46s 
+countCheck12_X46e 
+count12_X46 
+countCheck12_X47s 
+countCheck12_X47e 
+count12_X47 
+countCheck12_X48s 
+countCheck12_X48e 
+count12_X48 
+countCheck12_X49s 
+countCheck12_X49e 
+count12_X49 
+countCheck12_X50s 
+countCheck12_X50e 
+count12_X50 
+countCheck12_X51s 
+countCheck12_X51e 
+count12_X51 
+countCheck12_X52s 
+countCheck12_X52e 
+count12_X52 
+countCheck12_X53s 
+countCheck12_X53e 
+count12_X53 
+countCheck12_X54s 
+countCheck12_X54e 
+count12_X54 
+countCheck12_X55s 
+countCheck12_X55e 
+count12_X55 
+countCheck12_X56s 
+countCheck12_X56e 
+count12_X56 
+countCheck12_X57s 
+countCheck12_X57e 
+count12_X57 
+countCheck12_X58s 
+countCheck12_X58e 
+count12_X58 
+countCheck12_X59s 
+countCheck12_X59e 
+count12_X59 
+countCheck12_X60s 
+countCheck12_X60e 
+count12_X60 
+countCheck12_X61s 
+countCheck12_X61e 
+count12_X61 
+countCheck12_X62s 
+countCheck12_X62e 
+count12_X62 
+countCheck12_X63s 
+countCheck12_X63e 
+count12_X63 
+countCheck12_X64s 
+countCheck12_X64e 
+count12_X64 
+countCheck12_X65s 
+countCheck12_X65e 
+count12_X65 
+countCheck12_X66s 
+countCheck12_X66e 
+count12_X66 
+countCheck12_X67s 
+countCheck12_X67e 
+count12_X67 
+countCheck13_X0s 
+countCheck13_X0e 
+count13_X0 
+countCheck13_X1s 
+countCheck13_X1e 
+count13_X1 
+countCheck13_X2s 
+countCheck13_X2e 
+count13_X2 
+countCheck13_X3s 
+countCheck13_X3e 
+count13_X3 
+countCheck13_X4s 
+countCheck13_X4e 
+count13_X4 
+countCheck13_X5s 
+countCheck13_X5e 
+count13_X5 
+countCheck13_X6s 
+countCheck13_X6e 
+count13_X6 
+countCheck13_X7s 
+countCheck13_X7e 
+count13_X7 
+countCheck13_X8s 
+countCheck13_X8e 
+count13_X8 
+countCheck13_X9s 
+countCheck13_X9e 
+count13_X9 
+countCheck13_X10s 
+countCheck13_X10e 
+count13_X10 
+countCheck13_X11s 
+countCheck13_X11e 
+count13_X11 
+countCheck13_X12s 
+countCheck13_X12e 
+count13_X12 
+countCheck13_X13s 
+countCheck13_X13e 
+count13_X13 
+countCheck13_X14s 
+countCheck13_X14e 
+count13_X14 
+countCheck13_X15s 
+countCheck13_X15e 
+count13_X15 
+countCheck13_X16s 
+countCheck13_X16e 
+count13_X16 
+countCheck13_X17s 
+countCheck13_X17e 
+count13_X17 
+countCheck13_X18s 
+countCheck13_X18e 
+count13_X18 
+countCheck13_X19s 
+countCheck13_X19e 
+count13_X19 
+countCheck13_X20s 
+countCheck13_X20e 
+count13_X20 
+countCheck13_X21s 
+countCheck13_X21e 
+count13_X21 
+countCheck13_X22s 
+countCheck13_X22e 
+count13_X22 
+countCheck13_X23s 
+countCheck13_X23e 
+count13_X23 
+countCheck13_X24s 
+countCheck13_X24e 
+count13_X24 
+countCheck13_X25s 
+countCheck13_X25e 
+count13_X25 
+countCheck13_X26s 
+countCheck13_X26e 
+count13_X26 
+countCheck13_X27s 
+countCheck13_X27e 
+count13_X27 
+countCheck13_X28s 
+countCheck13_X28e 
+count13_X28 
+countCheck13_X29s 
+countCheck13_X29e 
+count13_X29 
+countCheck13_X30s 
+countCheck13_X30e 
+count13_X30 
+countCheck13_X31s 
+countCheck13_X31e 
+count13_X31 
+countCheck13_X32s 
+countCheck13_X32e 
+count13_X32 
+countCheck13_X33s 
+countCheck13_X33e 
+count13_X33 
+countCheck13_X34s 
+countCheck13_X34e 
+count13_X34 
+countCheck13_X35s 
+countCheck13_X35e 
+count13_X35 
+countCheck13_X36s 
+countCheck13_X36e 
+count13_X36 
+countCheck13_X37s 
+countCheck13_X37e 
+count13_X37 
+countCheck13_X38s 
+countCheck13_X38e 
+count13_X38 
+countCheck13_X39s 
+countCheck13_X39e 
+count13_X39 
+countCheck13_X40s 
+countCheck13_X40e 
+count13_X40 
+countCheck13_X41s 
+countCheck13_X41e 
+count13_X41 
+countCheck13_X42s 
+countCheck13_X42e 
+count13_X42 
+countCheck13_X43s 
+countCheck13_X43e 
+count13_X43 
+countCheck13_X44s 
+countCheck13_X44e 
+count13_X44 
+countCheck13_X45s 
+countCheck13_X45e 
+count13_X45 
+countCheck13_X46s 
+countCheck13_X46e 
+count13_X46 
+countCheck13_X47s 
+countCheck13_X47e 
+count13_X47 
+countCheck13_X48s 
+countCheck13_X48e 
+count13_X48 
+countCheck13_X49s 
+countCheck13_X49e 
+count13_X49 
+countCheck13_X50s 
+countCheck13_X50e 
+count13_X50 
+countCheck13_X51s 
+countCheck13_X51e 
+count13_X51 
+countCheck13_X52s 
+countCheck13_X52e 
+count13_X52 
+countCheck13_X53s 
+countCheck13_X53e 
+count13_X53 
+countCheck13_X54s 
+countCheck13_X54e 
+count13_X54 
+countCheck13_X55s 
+countCheck13_X55e 
+count13_X55 
+countCheck13_X56s 
+countCheck13_X56e 
+count13_X56 
+countCheck13_X57s 
+countCheck13_X57e 
+count13_X57 
+countCheck13_X58s 
+countCheck13_X58e 
+count13_X58 
+countCheck13_X59s 
+countCheck13_X59e 
+count13_X59 
+countCheck13_X60s 
+countCheck13_X60e 
+count13_X60 
+countCheck13_X61s 
+countCheck13_X61e 
+count13_X61 
+countCheck13_X62s 
+countCheck13_X62e 
+count13_X62 
+countCheck13_X63s 
+countCheck13_X63e 
+count13_X63 
+countCheck13_X64s 
+countCheck13_X64e 
+count13_X64 
+countCheck13_X65s 
+countCheck13_X65e 
+count13_X65 
+countCheck13_X66s 
+countCheck13_X66e 
+count13_X66 
+countCheck13_X67s 
+countCheck13_X67e 
+count13_X67 
+countCheck14_X0s 
+countCheck14_X0e 
+count14_X0 
+countCheck14_X1s 
+countCheck14_X1e 
+count14_X1 
+countCheck14_X2s 
+countCheck14_X2e 
+count14_X2 
+countCheck14_X3s 
+countCheck14_X3e 
+count14_X3 
+countCheck14_X4s 
+countCheck14_X4e 
+count14_X4 
+countCheck14_X5s 
+countCheck14_X5e 
+count14_X5 
+countCheck14_X6s 
+countCheck14_X6e 
+count14_X6 
+countCheck14_X7s 
+countCheck14_X7e 
+count14_X7 
+countCheck14_X8s 
+countCheck14_X8e 
+count14_X8 
+countCheck14_X9s 
+countCheck14_X9e 
+count14_X9 
+countCheck14_X10s 
+countCheck14_X10e 
+count14_X10 
+countCheck14_X11s 
+countCheck14_X11e 
+count14_X11 
+countCheck14_X12s 
+countCheck14_X12e 
+count14_X12 
+countCheck14_X13s 
+countCheck14_X13e 
+count14_X13 
+countCheck14_X14s 
+countCheck14_X14e 
+count14_X14 
+countCheck14_X15s 
+countCheck14_X15e 
+count14_X15 
+countCheck14_X16s 
+countCheck14_X16e 
+count14_X16 
+countCheck14_X17s 
+countCheck14_X17e 
+count14_X17 
+countCheck14_X18s 
+countCheck14_X18e 
+count14_X18 
+countCheck14_X19s 
+countCheck14_X19e 
+count14_X19 
+countCheck14_X20s 
+countCheck14_X20e 
+count14_X20 
+countCheck14_X21s 
+countCheck14_X21e 
+count14_X21 
+countCheck14_X22s 
+countCheck14_X22e 
+count14_X22 
+countCheck14_X23s 
+countCheck14_X23e 
+count14_X23 
+countCheck14_X24s 
+countCheck14_X24e 
+count14_X24 
+countCheck14_X25s 
+countCheck14_X25e 
+count14_X25 
+countCheck14_X26s 
+countCheck14_X26e 
+count14_X26 
+countCheck14_X27s 
+countCheck14_X27e 
+count14_X27 
+countCheck14_X28s 
+countCheck14_X28e 
+count14_X28 
+countCheck14_X29s 
+countCheck14_X29e 
+count14_X29 
+countCheck14_X30s 
+countCheck14_X30e 
+count14_X30 
+countCheck14_X31s 
+countCheck14_X31e 
+count14_X31 
+countCheck14_X32s 
+countCheck14_X32e 
+count14_X32 
+countCheck14_X33s 
+countCheck14_X33e 
+count14_X33 
+countCheck14_X34s 
+countCheck14_X34e 
+count14_X34 
+countCheck14_X35s 
+countCheck14_X35e 
+count14_X35 
+countCheck14_X36s 
+countCheck14_X36e 
+count14_X36 
+countCheck14_X37s 
+countCheck14_X37e 
+count14_X37 
+countCheck14_X38s 
+countCheck14_X38e 
+count14_X38 
+countCheck14_X39s 
+countCheck14_X39e 
+count14_X39 
+countCheck14_X40s 
+countCheck14_X40e 
+count14_X40 
+countCheck14_X41s 
+countCheck14_X41e 
+count14_X41 
+countCheck14_X42s 
+countCheck14_X42e 
+count14_X42 
+countCheck14_X43s 
+countCheck14_X43e 
+count14_X43 
+countCheck14_X44s 
+countCheck14_X44e 
+count14_X44 
+countCheck14_X45s 
+countCheck14_X45e 
+count14_X45 
+countCheck14_X46s 
+countCheck14_X46e 
+count14_X46 
+countCheck14_X47s 
+countCheck14_X47e 
+count14_X47 
+countCheck14_X48s 
+countCheck14_X48e 
+count14_X48 
+countCheck14_X49s 
+countCheck14_X49e 
+count14_X49 
+countCheck14_X50s 
+countCheck14_X50e 
+count14_X50 
+countCheck14_X51s 
+countCheck14_X51e 
+count14_X51 
+countCheck14_X52s 
+countCheck14_X52e 
+count14_X52 
+countCheck14_X53s 
+countCheck14_X53e 
+count14_X53 
+countCheck14_X54s 
+countCheck14_X54e 
+count14_X54 
+countCheck14_X55s 
+countCheck14_X55e 
+count14_X55 
+countCheck14_X56s 
+countCheck14_X56e 
+count14_X56 
+countCheck14_X57s 
+countCheck14_X57e 
+count14_X57 
+countCheck14_X58s 
+countCheck14_X58e 
+count14_X58 
+countCheck14_X59s 
+countCheck14_X59e 
+count14_X59 
+countCheck14_X60s 
+countCheck14_X60e 
+count14_X60 
+countCheck14_X61s 
+countCheck14_X61e 
+count14_X61 
+countCheck14_X62s 
+countCheck14_X62e 
+count14_X62 
+countCheck14_X63s 
+countCheck14_X63e 
+count14_X63 
+countCheck14_X64s 
+countCheck14_X64e 
+count14_X64 
+countCheck14_X65s 
+countCheck14_X65e 
+count14_X65 
+countCheck14_X66s 
+countCheck14_X66e 
+count14_X66 
+countCheck14_X67s 
+countCheck14_X67e 
+count14_X67 
+countCheck15_X0s 
+countCheck15_X0e 
+count15_X0 
+countCheck15_X1s 
+countCheck15_X1e 
+count15_X1 
+countCheck15_X2s 
+countCheck15_X2e 
+count15_X2 
+countCheck15_X3s 
+countCheck15_X3e 
+count15_X3 
+countCheck15_X4s 
+countCheck15_X4e 
+count15_X4 
+countCheck15_X5s 
+countCheck15_X5e 
+count15_X5 
+countCheck15_X6s 
+countCheck15_X6e 
+count15_X6 
+countCheck15_X7s 
+countCheck15_X7e 
+count15_X7 
+countCheck15_X8s 
+countCheck15_X8e 
+count15_X8 
+countCheck15_X9s 
+countCheck15_X9e 
+count15_X9 
+countCheck15_X10s 
+countCheck15_X10e 
+count15_X10 
+countCheck15_X11s 
+countCheck15_X11e 
+count15_X11 
+countCheck15_X12s 
+countCheck15_X12e 
+count15_X12 
+countCheck15_X13s 
+countCheck15_X13e 
+count15_X13 
+countCheck15_X14s 
+countCheck15_X14e 
+count15_X14 
+countCheck15_X15s 
+countCheck15_X15e 
+count15_X15 
+countCheck15_X16s 
+countCheck15_X16e 
+count15_X16 
+countCheck15_X17s 
+countCheck15_X17e 
+count15_X17 
+countCheck15_X18s 
+countCheck15_X18e 
+count15_X18 
+countCheck15_X19s 
+countCheck15_X19e 
+count15_X19 
+countCheck15_X20s 
+countCheck15_X20e 
+count15_X20 
+countCheck15_X21s 
+countCheck15_X21e 
+count15_X21 
+countCheck15_X22s 
+countCheck15_X22e 
+count15_X22 
+countCheck15_X23s 
+countCheck15_X23e 
+count15_X23 
+countCheck15_X24s 
+countCheck15_X24e 
+count15_X24 
+countCheck15_X25s 
+countCheck15_X25e 
+count15_X25 
+countCheck15_X26s 
+countCheck15_X26e 
+count15_X26 
+countCheck15_X27s 
+countCheck15_X27e 
+count15_X27 
+countCheck15_X28s 
+countCheck15_X28e 
+count15_X28 
+countCheck15_X29s 
+countCheck15_X29e 
+count15_X29 
+countCheck15_X30s 
+countCheck15_X30e 
+count15_X30 
+countCheck15_X31s 
+countCheck15_X31e 
+count15_X31 
+countCheck15_X32s 
+countCheck15_X32e 
+count15_X32 
+countCheck15_X33s 
+countCheck15_X33e 
+count15_X33 
+countCheck15_X34s 
+countCheck15_X34e 
+count15_X34 
+countCheck15_X35s 
+countCheck15_X35e 
+count15_X35 
+countCheck15_X36s 
+countCheck15_X36e 
+count15_X36 
+countCheck15_X37s 
+countCheck15_X37e 
+count15_X37 
+countCheck15_X38s 
+countCheck15_X38e 
+count15_X38 
+countCheck15_X39s 
+countCheck15_X39e 
+count15_X39 
+countCheck15_X40s 
+countCheck15_X40e 
+count15_X40 
+countCheck15_X41s 
+countCheck15_X41e 
+count15_X41 
+countCheck15_X42s 
+countCheck15_X42e 
+count15_X42 
+countCheck15_X43s 
+countCheck15_X43e 
+count15_X43 
+countCheck15_X44s 
+countCheck15_X44e 
+count15_X44 
+countCheck15_X45s 
+countCheck15_X45e 
+count15_X45 
+countCheck15_X46s 
+countCheck15_X46e 
+count15_X46 
+countCheck15_X47s 
+countCheck15_X47e 
+count15_X47 
+countCheck15_X48s 
+countCheck15_X48e 
+count15_X48 
+countCheck15_X49s 
+countCheck15_X49e 
+count15_X49 
+countCheck15_X50s 
+countCheck15_X50e 
+count15_X50 
+countCheck15_X51s 
+countCheck15_X51e 
+count15_X51 
+countCheck15_X52s 
+countCheck15_X52e 
+count15_X52 
+countCheck15_X53s 
+countCheck15_X53e 
+count15_X53 
+countCheck15_X54s 
+countCheck15_X54e 
+count15_X54 
+countCheck15_X55s 
+countCheck15_X55e 
+count15_X55 
+countCheck15_X56s 
+countCheck15_X56e 
+count15_X56 
+countCheck15_X57s 
+countCheck15_X57e 
+count15_X57 
+countCheck15_X58s 
+countCheck15_X58e 
+count15_X58 
+countCheck15_X59s 
+countCheck15_X59e 
+count15_X59 
+countCheck15_X60s 
+countCheck15_X60e 
+count15_X60 
+countCheck15_X61s 
+countCheck15_X61e 
+count15_X61 
+countCheck15_X62s 
+countCheck15_X62e 
+count15_X62 
+countCheck15_X63s 
+countCheck15_X63e 
+count15_X63 
+countCheck15_X64s 
+countCheck15_X64e 
+count15_X64 
+countCheck15_X65s 
+countCheck15_X65e 
+count15_X65 
+countCheck15_X66s 
+countCheck15_X66e 
+count15_X66 
+countCheck15_X67s 
+countCheck15_X67e 
+count15_X67 
+countCheck16_X0s 
+countCheck16_X0e 
+count16_X0 
+countCheck16_X1s 
+countCheck16_X1e 
+count16_X1 
+countCheck16_X2s 
+countCheck16_X2e 
+count16_X2 
+countCheck16_X3s 
+countCheck16_X3e 
+count16_X3 
+countCheck16_X4s 
+countCheck16_X4e 
+count16_X4 
+countCheck16_X5s 
+countCheck16_X5e 
+count16_X5 
+countCheck16_X6s 
+countCheck16_X6e 
+count16_X6 
+countCheck16_X7s 
+countCheck16_X7e 
+count16_X7 
+countCheck16_X8s 
+countCheck16_X8e 
+count16_X8 
+countCheck16_X9s 
+countCheck16_X9e 
+count16_X9 
+countCheck16_X10s 
+countCheck16_X10e 
+count16_X10 
+countCheck16_X11s 
+countCheck16_X11e 
+count16_X11 
+countCheck16_X12s 
+countCheck16_X12e 
+count16_X12 
+countCheck16_X13s 
+countCheck16_X13e 
+count16_X13 
+countCheck16_X14s 
+countCheck16_X14e 
+count16_X14 
+countCheck16_X15s 
+countCheck16_X15e 
+count16_X15 
+countCheck16_X16s 
+countCheck16_X16e 
+count16_X16 
+countCheck16_X17s 
+countCheck16_X17e 
+count16_X17 
+countCheck16_X18s 
+countCheck16_X18e 
+count16_X18 
+countCheck16_X19s 
+countCheck16_X19e 
+count16_X19 
+countCheck16_X20s 
+countCheck16_X20e 
+count16_X20 
+countCheck16_X21s 
+countCheck16_X21e 
+count16_X21 
+countCheck16_X22s 
+countCheck16_X22e 
+count16_X22 
+countCheck16_X23s 
+countCheck16_X23e 
+count16_X23 
+countCheck16_X24s 
+countCheck16_X24e 
+count16_X24 
+countCheck16_X25s 
+countCheck16_X25e 
+count16_X25 
+countCheck16_X26s 
+countCheck16_X26e 
+count16_X26 
+countCheck16_X27s 
+countCheck16_X27e 
+count16_X27 
+countCheck16_X28s 
+countCheck16_X28e 
+count16_X28 
+countCheck16_X29s 
+countCheck16_X29e 
+count16_X29 
+countCheck16_X30s 
+countCheck16_X30e 
+count16_X30 
+countCheck16_X31s 
+countCheck16_X31e 
+count16_X31 
+countCheck16_X32s 
+countCheck16_X32e 
+count16_X32 
+countCheck16_X33s 
+countCheck16_X33e 
+count16_X33 
+countCheck16_X34s 
+countCheck16_X34e 
+count16_X34 
+countCheck16_X35s 
+countCheck16_X35e 
+count16_X35 
+countCheck16_X36s 
+countCheck16_X36e 
+count16_X36 
+countCheck16_X37s 
+countCheck16_X37e 
+count16_X37 
+countCheck16_X38s 
+countCheck16_X38e 
+count16_X38 
+countCheck16_X39s 
+countCheck16_X39e 
+count16_X39 
+countCheck16_X40s 
+countCheck16_X40e 
+count16_X40 
+countCheck16_X41s 
+countCheck16_X41e 
+count16_X41 
+countCheck16_X42s 
+countCheck16_X42e 
+count16_X42 
+countCheck16_X43s 
+countCheck16_X43e 
+count16_X43 
+countCheck16_X44s 
+countCheck16_X44e 
+count16_X44 
+countCheck16_X45s 
+countCheck16_X45e 
+count16_X45 
+countCheck16_X46s 
+countCheck16_X46e 
+count16_X46 
+countCheck16_X47s 
+countCheck16_X47e 
+count16_X47 
+countCheck16_X48s 
+countCheck16_X48e 
+count16_X48 
+countCheck16_X49s 
+countCheck16_X49e 
+count16_X49 
+countCheck16_X50s 
+countCheck16_X50e 
+count16_X50 
+countCheck16_X51s 
+countCheck16_X51e 
+count16_X51 
+countCheck16_X52s 
+countCheck16_X52e 
+count16_X52 
+countCheck16_X53s 
+countCheck16_X53e 
+count16_X53 
+countCheck16_X54s 
+countCheck16_X54e 
+count16_X54 
+countCheck16_X55s 
+countCheck16_X55e 
+count16_X55 
+countCheck16_X56s 
+countCheck16_X56e 
+count16_X56 
+countCheck16_X57s 
+countCheck16_X57e 
+count16_X57 
+countCheck16_X58s 
+countCheck16_X58e 
+count16_X58 
+countCheck16_X59s 
+countCheck16_X59e 
+count16_X59 
+countCheck16_X60s 
+countCheck16_X60e 
+count16_X60 
+countCheck16_X61s 
+countCheck16_X61e 
+count16_X61 
+countCheck16_X62s 
+countCheck16_X62e 
+count16_X62 
+countCheck16_X63s 
+countCheck16_X63e 
+count16_X63 
+countCheck16_X64s 
+countCheck16_X64e 
+count16_X64 
+countCheck16_X65s 
+countCheck16_X65e 
+count16_X65 
+countCheck16_X66s 
+countCheck16_X66e 
+count16_X66 
+countCheck16_X67s 
+countCheck16_X67e 
+count16_X67 
+countCheck17_X0s 
+countCheck17_X0e 
+count17_X0 
+countCheck17_X1s 
+countCheck17_X1e 
+count17_X1 
+countCheck17_X2s 
+countCheck17_X2e 
+count17_X2 
+countCheck17_X3s 
+countCheck17_X3e 
+count17_X3 
+countCheck17_X4s 
+countCheck17_X4e 
+count17_X4 
+countCheck17_X5s 
+countCheck17_X5e 
+count17_X5 
+countCheck17_X6s 
+countCheck17_X6e 
+count17_X6 
+countCheck17_X7s 
+countCheck17_X7e 
+count17_X7 
+countCheck17_X8s 
+countCheck17_X8e 
+count17_X8 
+countCheck17_X9s 
+countCheck17_X9e 
+count17_X9 
+countCheck17_X10s 
+countCheck17_X10e 
+count17_X10 
+countCheck17_X11s 
+countCheck17_X11e 
+count17_X11 
+countCheck17_X12s 
+countCheck17_X12e 
+count17_X12 
+countCheck17_X13s 
+countCheck17_X13e 
+count17_X13 
+countCheck17_X14s 
+countCheck17_X14e 
+count17_X14 
+countCheck17_X15s 
+countCheck17_X15e 
+count17_X15 
+countCheck17_X16s 
+countCheck17_X16e 
+count17_X16 
+countCheck17_X17s 
+countCheck17_X17e 
+count17_X17 
+countCheck17_X18s 
+countCheck17_X18e 
+count17_X18 
+countCheck17_X19s 
+countCheck17_X19e 
+count17_X19 
+countCheck17_X20s 
+countCheck17_X20e 
+count17_X20 
+countCheck17_X21s 
+countCheck17_X21e 
+count17_X21 
+countCheck17_X22s 
+countCheck17_X22e 
+count17_X22 
+countCheck17_X23s 
+countCheck17_X23e 
+count17_X23 
+countCheck17_X24s 
+countCheck17_X24e 
+count17_X24 
+countCheck17_X25s 
+countCheck17_X25e 
+count17_X25 
+countCheck17_X26s 
+countCheck17_X26e 
+count17_X26 
+countCheck17_X27s 
+countCheck17_X27e 
+count17_X27 
+countCheck17_X28s 
+countCheck17_X28e 
+count17_X28 
+countCheck17_X29s 
+countCheck17_X29e 
+count17_X29 
+countCheck17_X30s 
+countCheck17_X30e 
+count17_X30 
+countCheck17_X31s 
+countCheck17_X31e 
+count17_X31 
+countCheck17_X32s 
+countCheck17_X32e 
+count17_X32 
+countCheck17_X33s 
+countCheck17_X33e 
+count17_X33 
+countCheck17_X34s 
+countCheck17_X34e 
+count17_X34 
+countCheck17_X35s 
+countCheck17_X35e 
+count17_X35 
+countCheck17_X36s 
+countCheck17_X36e 
+count17_X36 
+countCheck17_X37s 
+countCheck17_X37e 
+count17_X37 
+countCheck17_X38s 
+countCheck17_X38e 
+count17_X38 
+countCheck17_X39s 
+countCheck17_X39e 
+count17_X39 
+countCheck17_X40s 
+countCheck17_X40e 
+count17_X40 
+countCheck17_X41s 
+countCheck17_X41e 
+count17_X41 
+countCheck17_X42s 
+countCheck17_X42e 
+count17_X42 
+countCheck17_X43s 
+countCheck17_X43e 
+count17_X43 
+countCheck17_X44s 
+countCheck17_X44e 
+count17_X44 
+countCheck17_X45s 
+countCheck17_X45e 
+count17_X45 
+countCheck17_X46s 
+countCheck17_X46e 
+count17_X46 
+countCheck17_X47s 
+countCheck17_X47e 
+count17_X47 
+countCheck17_X48s 
+countCheck17_X48e 
+count17_X48 
+countCheck17_X49s 
+countCheck17_X49e 
+count17_X49 
+countCheck17_X50s 
+countCheck17_X50e 
+count17_X50 
+countCheck17_X51s 
+countCheck17_X51e 
+count17_X51 
+countCheck17_X52s 
+countCheck17_X52e 
+count17_X52 
+countCheck17_X53s 
+countCheck17_X53e 
+count17_X53 
+countCheck17_X54s 
+countCheck17_X54e 
+count17_X54 
+countCheck17_X55s 
+countCheck17_X55e 
+count17_X55 
+countCheck17_X56s 
+countCheck17_X56e 
+count17_X56 
+countCheck17_X57s 
+countCheck17_X57e 
+count17_X57 
+countCheck17_X58s 
+countCheck17_X58e 
+count17_X58 
+countCheck17_X59s 
+countCheck17_X59e 
+count17_X59 
+countCheck17_X60s 
+countCheck17_X60e 
+count17_X60 
+countCheck17_X61s 
+countCheck17_X61e 
+count17_X61 
+countCheck17_X62s 
+countCheck17_X62e 
+count17_X62 
+countCheck17_X63s 
+countCheck17_X63e 
+count17_X63 
+countCheck17_X64s 
+countCheck17_X64e 
+count17_X64 
+countCheck17_X65s 
+countCheck17_X65e 
+count17_X65 
+countCheck17_X66s 
+countCheck17_X66e 
+count17_X66 
+countCheck17_X67s 
+countCheck17_X67e 
+count17_X67 
+countCheck18_X0s 
+countCheck18_X0e 
+count18_X0 
+countCheck18_X1s 
+countCheck18_X1e 
+count18_X1 
+countCheck18_X2s 
+countCheck18_X2e 
+count18_X2 
+countCheck18_X3s 
+countCheck18_X3e 
+count18_X3 
+countCheck18_X4s 
+countCheck18_X4e 
+count18_X4 
+countCheck18_X5s 
+countCheck18_X5e 
+count18_X5 
+countCheck18_X6s 
+countCheck18_X6e 
+count18_X6 
+countCheck18_X7s 
+countCheck18_X7e 
+count18_X7 
+countCheck18_X8s 
+countCheck18_X8e 
+count18_X8 
+countCheck18_X9s 
+countCheck18_X9e 
+count18_X9 
+countCheck18_X10s 
+countCheck18_X10e 
+count18_X10 
+countCheck18_X11s 
+countCheck18_X11e 
+count18_X11 
+countCheck18_X12s 
+countCheck18_X12e 
+count18_X12 
+countCheck18_X13s 
+countCheck18_X13e 
+count18_X13 
+countCheck18_X14s 
+countCheck18_X14e 
+count18_X14 
+countCheck18_X15s 
+countCheck18_X15e 
+count18_X15 
+countCheck18_X16s 
+countCheck18_X16e 
+count18_X16 
+countCheck18_X17s 
+countCheck18_X17e 
+count18_X17 
+countCheck18_X18s 
+countCheck18_X18e 
+count18_X18 
+countCheck18_X19s 
+countCheck18_X19e 
+count18_X19 
+countCheck18_X20s 
+countCheck18_X20e 
+count18_X20 
+countCheck18_X21s 
+countCheck18_X21e 
+count18_X21 
+countCheck18_X22s 
+countCheck18_X22e 
+count18_X22 
+countCheck18_X23s 
+countCheck18_X23e 
+count18_X23 
+countCheck18_X24s 
+countCheck18_X24e 
+count18_X24 
+countCheck18_X25s 
+countCheck18_X25e 
+count18_X25 
+countCheck18_X26s 
+countCheck18_X26e 
+count18_X26 
+countCheck18_X27s 
+countCheck18_X27e 
+count18_X27 
+countCheck18_X28s 
+countCheck18_X28e 
+count18_X28 
+countCheck18_X29s 
+countCheck18_X29e 
+count18_X29 
+countCheck18_X30s 
+countCheck18_X30e 
+count18_X30 
+countCheck18_X31s 
+countCheck18_X31e 
+count18_X31 
+countCheck18_X32s 
+countCheck18_X32e 
+count18_X32 
+countCheck18_X33s 
+countCheck18_X33e 
+count18_X33 
+countCheck18_X34s 
+countCheck18_X34e 
+count18_X34 
+countCheck18_X35s 
+countCheck18_X35e 
+count18_X35 
+countCheck18_X36s 
+countCheck18_X36e 
+count18_X36 
+countCheck18_X37s 
+countCheck18_X37e 
+count18_X37 
+countCheck18_X38s 
+countCheck18_X38e 
+count18_X38 
+countCheck18_X39s 
+countCheck18_X39e 
+count18_X39 
+countCheck18_X40s 
+countCheck18_X40e 
+count18_X40 
+countCheck18_X41s 
+countCheck18_X41e 
+count18_X41 
+countCheck18_X42s 
+countCheck18_X42e 
+count18_X42 
+countCheck18_X43s 
+countCheck18_X43e 
+count18_X43 
+countCheck18_X44s 
+countCheck18_X44e 
+count18_X44 
+countCheck18_X45s 
+countCheck18_X45e 
+count18_X45 
+countCheck18_X46s 
+countCheck18_X46e 
+count18_X46 
+countCheck18_X47s 
+countCheck18_X47e 
+count18_X47 
+countCheck18_X48s 
+countCheck18_X48e 
+count18_X48 
+countCheck18_X49s 
+countCheck18_X49e 
+count18_X49 
+countCheck18_X50s 
+countCheck18_X50e 
+count18_X50 
+countCheck18_X51s 
+countCheck18_X51e 
+count18_X51 
+countCheck18_X52s 
+countCheck18_X52e 
+count18_X52 
+countCheck18_X53s 
+countCheck18_X53e 
+count18_X53 
+countCheck18_X54s 
+countCheck18_X54e 
+count18_X54 
+countCheck18_X55s 
+countCheck18_X55e 
+count18_X55 
+countCheck18_X56s 
+countCheck18_X56e 
+count18_X56 
+countCheck18_X57s 
+countCheck18_X57e 
+count18_X57 
+countCheck18_X58s 
+countCheck18_X58e 
+count18_X58 
+countCheck18_X59s 
+countCheck18_X59e 
+count18_X59 
+countCheck18_X60s 
+countCheck18_X60e 
+count18_X60 
+countCheck18_X61s 
+countCheck18_X61e 
+count18_X61 
+countCheck18_X62s 
+countCheck18_X62e 
+count18_X62 
+countCheck18_X63s 
+countCheck18_X63e 
+count18_X63 
+countCheck18_X64s 
+countCheck18_X64e 
+count18_X64 
+countCheck18_X65s 
+countCheck18_X65e 
+count18_X65 
+countCheck18_X66s 
+countCheck18_X66e 
+count18_X66 
+countCheck18_X67s 
+countCheck18_X67e 
+count18_X67 
+countCheck19_X0s 
+countCheck19_X0e 
+count19_X0 
+countCheck19_X1s 
+countCheck19_X1e 
+count19_X1 
+countCheck19_X2s 
+countCheck19_X2e 
+count19_X2 
+countCheck19_X3s 
+countCheck19_X3e 
+count19_X3 
+countCheck19_X4s 
+countCheck19_X4e 
+count19_X4 
+countCheck19_X5s 
+countCheck19_X5e 
+count19_X5 
+countCheck19_X6s 
+countCheck19_X6e 
+count19_X6 
+countCheck19_X7s 
+countCheck19_X7e 
+count19_X7 
+countCheck19_X8s 
+countCheck19_X8e 
+count19_X8 
+countCheck19_X9s 
+countCheck19_X9e 
+count19_X9 
+countCheck19_X10s 
+countCheck19_X10e 
+count19_X10 
+countCheck19_X11s 
+countCheck19_X11e 
+count19_X11 
+countCheck19_X12s 
+countCheck19_X12e 
+count19_X12 
+countCheck19_X13s 
+countCheck19_X13e 
+count19_X13 
+countCheck19_X14s 
+countCheck19_X14e 
+count19_X14 
+countCheck19_X15s 
+countCheck19_X15e 
+count19_X15 
+countCheck19_X16s 
+countCheck19_X16e 
+count19_X16 
+countCheck19_X17s 
+countCheck19_X17e 
+count19_X17 
+countCheck19_X18s 
+countCheck19_X18e 
+count19_X18 
+countCheck19_X19s 
+countCheck19_X19e 
+count19_X19 
+countCheck19_X20s 
+countCheck19_X20e 
+count19_X20 
+countCheck19_X21s 
+countCheck19_X21e 
+count19_X21 
+countCheck19_X22s 
+countCheck19_X22e 
+count19_X22 
+countCheck19_X23s 
+countCheck19_X23e 
+count19_X23 
+countCheck19_X24s 
+countCheck19_X24e 
+count19_X24 
+countCheck19_X25s 
+countCheck19_X25e 
+count19_X25 
+countCheck19_X26s 
+countCheck19_X26e 
+count19_X26 
+countCheck19_X27s 
+countCheck19_X27e 
+count19_X27 
+countCheck19_X28s 
+countCheck19_X28e 
+count19_X28 
+countCheck19_X29s 
+countCheck19_X29e 
+count19_X29 
+countCheck19_X30s 
+countCheck19_X30e 
+count19_X30 
+countCheck19_X31s 
+countCheck19_X31e 
+count19_X31 
+countCheck19_X32s 
+countCheck19_X32e 
+count19_X32 
+countCheck19_X33s 
+countCheck19_X33e 
+count19_X33 
+countCheck19_X34s 
+countCheck19_X34e 
+count19_X34 
+countCheck19_X35s 
+countCheck19_X35e 
+count19_X35 
+countCheck19_X36s 
+countCheck19_X36e 
+count19_X36 
+countCheck19_X37s 
+countCheck19_X37e 
+count19_X37 
+countCheck19_X38s 
+countCheck19_X38e 
+count19_X38 
+countCheck19_X39s 
+countCheck19_X39e 
+count19_X39 
+countCheck19_X40s 
+countCheck19_X40e 
+count19_X40 
+countCheck19_X41s 
+countCheck19_X41e 
+count19_X41 
+countCheck19_X42s 
+countCheck19_X42e 
+count19_X42 
+countCheck19_X43s 
+countCheck19_X43e 
+count19_X43 
+countCheck19_X44s 
+countCheck19_X44e 
+count19_X44 
+countCheck19_X45s 
+countCheck19_X45e 
+count19_X45 
+countCheck19_X46s 
+countCheck19_X46e 
+count19_X46 
+countCheck19_X47s 
+countCheck19_X47e 
+count19_X47 
+countCheck19_X48s 
+countCheck19_X48e 
+count19_X48 
+countCheck19_X49s 
+countCheck19_X49e 
+count19_X49 
+countCheck19_X50s 
+countCheck19_X50e 
+count19_X50 
+countCheck19_X51s 
+countCheck19_X51e 
+count19_X51 
+countCheck19_X52s 
+countCheck19_X52e 
+count19_X52 
+countCheck19_X53s 
+countCheck19_X53e 
+count19_X53 
+countCheck19_X54s 
+countCheck19_X54e 
+count19_X54 
+countCheck19_X55s 
+countCheck19_X55e 
+count19_X55 
+countCheck19_X56s 
+countCheck19_X56e 
+count19_X56 
+countCheck19_X57s 
+countCheck19_X57e 
+count19_X57 
+countCheck19_X58s 
+countCheck19_X58e 
+count19_X58 
+countCheck19_X59s 
+countCheck19_X59e 
+count19_X59 
+countCheck19_X60s 
+countCheck19_X60e 
+count19_X60 
+countCheck19_X61s 
+countCheck19_X61e 
+count19_X61 
+countCheck19_X62s 
+countCheck19_X62e 
+count19_X62 
+countCheck19_X63s 
+countCheck19_X63e 
+count19_X63 
+countCheck19_X64s 
+countCheck19_X64e 
+count19_X64 
+countCheck19_X65s 
+countCheck19_X65e 
+count19_X65 
+countCheck19_X66s 
+countCheck19_X66e 
+count19_X66 
+countCheck19_X67s 
+countCheck19_X67e 
+count19_X67 
+countCheck20_X0s 
+countCheck20_X0e 
+count20_X0 
+countCheck20_X1s 
+countCheck20_X1e 
+count20_X1 
+countCheck20_X2s 
+countCheck20_X2e 
+count20_X2 
+countCheck20_X3s 
+countCheck20_X3e 
+count20_X3 
+countCheck20_X4s 
+countCheck20_X4e 
+count20_X4 
+countCheck20_X5s 
+countCheck20_X5e 
+count20_X5 
+countCheck20_X6s 
+countCheck20_X6e 
+count20_X6 
+countCheck20_X7s 
+countCheck20_X7e 
+count20_X7 
+countCheck20_X8s 
+countCheck20_X8e 
+count20_X8 
+countCheck20_X9s 
+countCheck20_X9e 
+count20_X9 
+countCheck20_X10s 
+countCheck20_X10e 
+count20_X10 
+countCheck20_X11s 
+countCheck20_X11e 
+count20_X11 
+countCheck20_X12s 
+countCheck20_X12e 
+count20_X12 
+countCheck20_X13s 
+countCheck20_X13e 
+count20_X13 
+countCheck20_X14s 
+countCheck20_X14e 
+count20_X14 
+countCheck20_X15s 
+countCheck20_X15e 
+count20_X15 
+countCheck20_X16s 
+countCheck20_X16e 
+count20_X16 
+countCheck20_X17s 
+countCheck20_X17e 
+count20_X17 
+countCheck20_X18s 
+countCheck20_X18e 
+count20_X18 
+countCheck20_X19s 
+countCheck20_X19e 
+count20_X19 
+countCheck20_X20s 
+countCheck20_X20e 
+count20_X20 
+countCheck20_X21s 
+countCheck20_X21e 
+count20_X21 
+countCheck20_X22s 
+countCheck20_X22e 
+count20_X22 
+countCheck20_X23s 
+countCheck20_X23e 
+count20_X23 
+countCheck20_X24s 
+countCheck20_X24e 
+count20_X24 
+countCheck20_X25s 
+countCheck20_X25e 
+count20_X25 
+countCheck20_X26s 
+countCheck20_X26e 
+count20_X26 
+countCheck20_X27s 
+countCheck20_X27e 
+count20_X27 
+countCheck20_X28s 
+countCheck20_X28e 
+count20_X28 
+countCheck20_X29s 
+countCheck20_X29e 
+count20_X29 
+countCheck20_X30s 
+countCheck20_X30e 
+count20_X30 
+countCheck20_X31s 
+countCheck20_X31e 
+count20_X31 
+countCheck20_X32s 
+countCheck20_X32e 
+count20_X32 
+countCheck20_X33s 
+countCheck20_X33e 
+count20_X33 
+countCheck20_X34s 
+countCheck20_X34e 
+count20_X34 
+countCheck20_X35s 
+countCheck20_X35e 
+count20_X35 
+countCheck20_X36s 
+countCheck20_X36e 
+count20_X36 
+countCheck20_X37s 
+countCheck20_X37e 
+count20_X37 
+countCheck20_X38s 
+countCheck20_X38e 
+count20_X38 
+countCheck20_X39s 
+countCheck20_X39e 
+count20_X39 
+countCheck20_X40s 
+countCheck20_X40e 
+count20_X40 
+countCheck20_X41s 
+countCheck20_X41e 
+count20_X41 
+countCheck20_X42s 
+countCheck20_X42e 
+count20_X42 
+countCheck20_X43s 
+countCheck20_X43e 
+count20_X43 
+countCheck20_X44s 
+countCheck20_X44e 
+count20_X44 
+countCheck20_X45s 
+countCheck20_X45e 
+count20_X45 
+countCheck20_X46s 
+countCheck20_X46e 
+count20_X46 
+countCheck20_X47s 
+countCheck20_X47e 
+count20_X47 
+countCheck20_X48s 
+countCheck20_X48e 
+count20_X48 
+countCheck20_X49s 
+countCheck20_X49e 
+count20_X49 
+countCheck20_X50s 
+countCheck20_X50e 
+count20_X50 
+countCheck20_X51s 
+countCheck20_X51e 
+count20_X51 
+countCheck20_X52s 
+countCheck20_X52e 
+count20_X52 
+countCheck20_X53s 
+countCheck20_X53e 
+count20_X53 
+countCheck20_X54s 
+countCheck20_X54e 
+count20_X54 
+countCheck20_X55s 
+countCheck20_X55e 
+count20_X55 
+countCheck20_X56s 
+countCheck20_X56e 
+count20_X56 
+countCheck20_X57s 
+countCheck20_X57e 
+count20_X57 
+countCheck20_X58s 
+countCheck20_X58e 
+count20_X58 
+countCheck20_X59s 
+countCheck20_X59e 
+count20_X59 
+countCheck20_X60s 
+countCheck20_X60e 
+count20_X60 
+countCheck20_X61s 
+countCheck20_X61e 
+count20_X61 
+countCheck20_X62s 
+countCheck20_X62e 
+count20_X62 
+countCheck20_X63s 
+countCheck20_X63e 
+count20_X63 
+countCheck20_X64s 
+countCheck20_X64e 
+count20_X64 
+countCheck20_X65s 
+countCheck20_X65e 
+count20_X65 
+countCheck20_X66s 
+countCheck20_X66e 
+count20_X66 
+countCheck20_X67s 
+countCheck20_X67e 
+count20_X67 
+countCheck21_X0s 
+countCheck21_X0e 
+count21_X0 
+countCheck21_X1s 
+countCheck21_X1e 
+count21_X1 
+countCheck21_X2s 
+countCheck21_X2e 
+count21_X2 
+countCheck21_X3s 
+countCheck21_X3e 
+count21_X3 
+countCheck21_X4s 
+countCheck21_X4e 
+count21_X4 
+countCheck21_X5s 
+countCheck21_X5e 
+count21_X5 
+countCheck21_X6s 
+countCheck21_X6e 
+count21_X6 
+countCheck21_X7s 
+countCheck21_X7e 
+count21_X7 
+countCheck21_X8s 
+countCheck21_X8e 
+count21_X8 
+countCheck21_X9s 
+countCheck21_X9e 
+count21_X9 
+countCheck21_X10s 
+countCheck21_X10e 
+count21_X10 
+countCheck21_X11s 
+countCheck21_X11e 
+count21_X11 
+countCheck21_X12s 
+countCheck21_X12e 
+count21_X12 
+countCheck21_X13s 
+countCheck21_X13e 
+count21_X13 
+countCheck21_X14s 
+countCheck21_X14e 
+count21_X14 
+countCheck21_X15s 
+countCheck21_X15e 
+count21_X15 
+countCheck21_X16s 
+countCheck21_X16e 
+count21_X16 
+countCheck21_X17s 
+countCheck21_X17e 
+count21_X17 
+countCheck21_X18s 
+countCheck21_X18e 
+count21_X18 
+countCheck21_X19s 
+countCheck21_X19e 
+count21_X19 
+countCheck21_X20s 
+countCheck21_X20e 
+count21_X20 
+countCheck21_X21s 
+countCheck21_X21e 
+count21_X21 
+countCheck21_X22s 
+countCheck21_X22e 
+count21_X22 
+countCheck21_X23s 
+countCheck21_X23e 
+count21_X23 
+countCheck21_X24s 
+countCheck21_X24e 
+count21_X24 
+countCheck21_X25s 
+countCheck21_X25e 
+count21_X25 
+countCheck21_X26s 
+countCheck21_X26e 
+count21_X26 
+countCheck21_X27s 
+countCheck21_X27e 
+count21_X27 
+countCheck21_X28s 
+countCheck21_X28e 
+count21_X28 
+countCheck21_X29s 
+countCheck21_X29e 
+count21_X29 
+countCheck21_X30s 
+countCheck21_X30e 
+count21_X30 
+countCheck21_X31s 
+countCheck21_X31e 
+count21_X31 
+countCheck21_X32s 
+countCheck21_X32e 
+count21_X32 
+countCheck21_X33s 
+countCheck21_X33e 
+count21_X33 
+countCheck21_X34s 
+countCheck21_X34e 
+count21_X34 
+countCheck21_X35s 
+countCheck21_X35e 
+count21_X35 
+countCheck21_X36s 
+countCheck21_X36e 
+count21_X36 
+countCheck21_X37s 
+countCheck21_X37e 
+count21_X37 
+countCheck21_X38s 
+countCheck21_X38e 
+count21_X38 
+countCheck21_X39s 
+countCheck21_X39e 
+count21_X39 
+countCheck21_X40s 
+countCheck21_X40e 
+count21_X40 
+countCheck21_X41s 
+countCheck21_X41e 
+count21_X41 
+countCheck21_X42s 
+countCheck21_X42e 
+count21_X42 
+countCheck21_X43s 
+countCheck21_X43e 
+count21_X43 
+countCheck21_X44s 
+countCheck21_X44e 
+count21_X44 
+countCheck21_X45s 
+countCheck21_X45e 
+count21_X45 
+countCheck21_X46s 
+countCheck21_X46e 
+count21_X46 
+countCheck21_X47s 
+countCheck21_X47e 
+count21_X47 
+countCheck21_X48s 
+countCheck21_X48e 
+count21_X48 
+countCheck21_X49s 
+countCheck21_X49e 
+count21_X49 
+countCheck21_X50s 
+countCheck21_X50e 
+count21_X50 
+countCheck21_X51s 
+countCheck21_X51e 
+count21_X51 
+countCheck21_X52s 
+countCheck21_X52e 
+count21_X52 
+countCheck21_X53s 
+countCheck21_X53e 
+count21_X53 
+countCheck21_X54s 
+countCheck21_X54e 
+count21_X54 
+countCheck21_X55s 
+countCheck21_X55e 
+count21_X55 
+countCheck21_X56s 
+countCheck21_X56e 
+count21_X56 
+countCheck21_X57s 
+countCheck21_X57e 
+count21_X57 
+countCheck21_X58s 
+countCheck21_X58e 
+count21_X58 
+countCheck21_X59s 
+countCheck21_X59e 
+count21_X59 
+countCheck21_X60s 
+countCheck21_X60e 
+count21_X60 
+countCheck21_X61s 
+countCheck21_X61e 
+count21_X61 
+countCheck21_X62s 
+countCheck21_X62e 
+count21_X62 
+countCheck21_X63s 
+countCheck21_X63e 
+count21_X63 
+countCheck21_X64s 
+countCheck21_X64e 
+count21_X64 
+countCheck21_X65s 
+countCheck21_X65e 
+count21_X65 
+countCheck21_X66s 
+countCheck21_X66e 
+count21_X66 
+countCheck21_X67s 
+countCheck21_X67e 
+count21_X67 
+countCheck22_X0s 
+countCheck22_X0e 
+count22_X0 
+countCheck22_X1s 
+countCheck22_X1e 
+count22_X1 
+countCheck22_X2s 
+countCheck22_X2e 
+count22_X2 
+countCheck22_X3s 
+countCheck22_X3e 
+count22_X3 
+countCheck22_X4s 
+countCheck22_X4e 
+count22_X4 
+countCheck22_X5s 
+countCheck22_X5e 
+count22_X5 
+countCheck22_X6s 
+countCheck22_X6e 
+count22_X6 
+countCheck22_X7s 
+countCheck22_X7e 
+count22_X7 
+countCheck22_X8s 
+countCheck22_X8e 
+count22_X8 
+countCheck22_X9s 
+countCheck22_X9e 
+count22_X9 
+countCheck22_X10s 
+countCheck22_X10e 
+count22_X10 
+countCheck22_X11s 
+countCheck22_X11e 
+count22_X11 
+countCheck22_X12s 
+countCheck22_X12e 
+count22_X12 
+countCheck22_X13s 
+countCheck22_X13e 
+count22_X13 
+countCheck22_X14s 
+countCheck22_X14e 
+count22_X14 
+countCheck22_X15s 
+countCheck22_X15e 
+count22_X15 
+countCheck22_X16s 
+countCheck22_X16e 
+count22_X16 
+countCheck22_X17s 
+countCheck22_X17e 
+count22_X17 
+countCheck22_X18s 
+countCheck22_X18e 
+count22_X18 
+countCheck22_X19s 
+countCheck22_X19e 
+count22_X19 
+countCheck22_X20s 
+countCheck22_X20e 
+count22_X20 
+countCheck22_X21s 
+countCheck22_X21e 
+count22_X21 
+countCheck22_X22s 
+countCheck22_X22e 
+count22_X22 
+countCheck22_X23s 
+countCheck22_X23e 
+count22_X23 
+countCheck22_X24s 
+countCheck22_X24e 
+count22_X24 
+countCheck22_X25s 
+countCheck22_X25e 
+count22_X25 
+countCheck22_X26s 
+countCheck22_X26e 
+count22_X26 
+countCheck22_X27s 
+countCheck22_X27e 
+count22_X27 
+countCheck22_X28s 
+countCheck22_X28e 
+count22_X28 
+countCheck22_X29s 
+countCheck22_X29e 
+count22_X29 
+countCheck22_X30s 
+countCheck22_X30e 
+count22_X30 
+countCheck22_X31s 
+countCheck22_X31e 
+count22_X31 
+countCheck22_X32s 
+countCheck22_X32e 
+count22_X32 
+countCheck22_X33s 
+countCheck22_X33e 
+count22_X33 
+countCheck22_X34s 
+countCheck22_X34e 
+count22_X34 
+countCheck22_X35s 
+countCheck22_X35e 
+count22_X35 
+countCheck22_X36s 
+countCheck22_X36e 
+count22_X36 
+countCheck22_X37s 
+countCheck22_X37e 
+count22_X37 
+countCheck22_X38s 
+countCheck22_X38e 
+count22_X38 
+countCheck22_X39s 
+countCheck22_X39e 
+count22_X39 
+countCheck22_X40s 
+countCheck22_X40e 
+count22_X40 
+countCheck22_X41s 
+countCheck22_X41e 
+count22_X41 
+countCheck22_X42s 
+countCheck22_X42e 
+count22_X42 
+countCheck22_X43s 
+countCheck22_X43e 
+count22_X43 
+countCheck22_X44s 
+countCheck22_X44e 
+count22_X44 
+countCheck22_X45s 
+countCheck22_X45e 
+count22_X45 
+countCheck22_X46s 
+countCheck22_X46e 
+count22_X46 
+countCheck22_X47s 
+countCheck22_X47e 
+count22_X47 
+countCheck22_X48s 
+countCheck22_X48e 
+count22_X48 
+countCheck22_X49s 
+countCheck22_X49e 
+count22_X49 
+countCheck22_X50s 
+countCheck22_X50e 
+count22_X50 
+countCheck22_X51s 
+countCheck22_X51e 
+count22_X51 
+countCheck22_X52s 
+countCheck22_X52e 
+count22_X52 
+countCheck22_X53s 
+countCheck22_X53e 
+count22_X53 
+countCheck22_X54s 
+countCheck22_X54e 
+count22_X54 
+countCheck22_X55s 
+countCheck22_X55e 
+count22_X55 
+countCheck22_X56s 
+countCheck22_X56e 
+count22_X56 
+countCheck22_X57s 
+countCheck22_X57e 
+count22_X57 
+countCheck22_X58s 
+countCheck22_X58e 
+count22_X58 
+countCheck22_X59s 
+countCheck22_X59e 
+count22_X59 
+countCheck22_X60s 
+countCheck22_X60e 
+count22_X60 
+countCheck22_X61s 
+countCheck22_X61e 
+count22_X61 
+countCheck22_X62s 
+countCheck22_X62e 
+count22_X62 
+countCheck22_X63s 
+countCheck22_X63e 
+count22_X63 
+countCheck22_X64s 
+countCheck22_X64e 
+count22_X64 
+countCheck22_X65s 
+countCheck22_X65e 
+count22_X65 
+countCheck22_X66s 
+countCheck22_X66e 
+count22_X66 
+countCheck22_X67s 
+countCheck22_X67e 
+count22_X67 
+countCheck23_X0s 
+countCheck23_X0e 
+count23_X0 
+countCheck23_X1s 
+countCheck23_X1e 
+count23_X1 
+countCheck23_X2s 
+countCheck23_X2e 
+count23_X2 
+countCheck23_X3s 
+countCheck23_X3e 
+count23_X3 
+countCheck23_X4s 
+countCheck23_X4e 
+count23_X4 
+countCheck23_X5s 
+countCheck23_X5e 
+count23_X5 
+countCheck23_X6s 
+countCheck23_X6e 
+count23_X6 
+countCheck23_X7s 
+countCheck23_X7e 
+count23_X7 
+countCheck23_X8s 
+countCheck23_X8e 
+count23_X8 
+countCheck23_X9s 
+countCheck23_X9e 
+count23_X9 
+countCheck23_X10s 
+countCheck23_X10e 
+count23_X10 
+countCheck23_X11s 
+countCheck23_X11e 
+count23_X11 
+countCheck23_X12s 
+countCheck23_X12e 
+count23_X12 
+countCheck23_X13s 
+countCheck23_X13e 
+count23_X13 
+countCheck23_X14s 
+countCheck23_X14e 
+count23_X14 
+countCheck23_X15s 
+countCheck23_X15e 
+count23_X15 
+countCheck23_X16s 
+countCheck23_X16e 
+count23_X16 
+countCheck23_X17s 
+countCheck23_X17e 
+count23_X17 
+countCheck23_X18s 
+countCheck23_X18e 
+count23_X18 
+countCheck23_X19s 
+countCheck23_X19e 
+count23_X19 
+countCheck23_X20s 
+countCheck23_X20e 
+count23_X20 
+countCheck23_X21s 
+countCheck23_X21e 
+count23_X21 
+countCheck23_X22s 
+countCheck23_X22e 
+count23_X22 
+countCheck23_X23s 
+countCheck23_X23e 
+count23_X23 
+countCheck23_X24s 
+countCheck23_X24e 
+count23_X24 
+countCheck23_X25s 
+countCheck23_X25e 
+count23_X25 
+countCheck23_X26s 
+countCheck23_X26e 
+count23_X26 
+countCheck23_X27s 
+countCheck23_X27e 
+count23_X27 
+countCheck23_X28s 
+countCheck23_X28e 
+count23_X28 
+countCheck23_X29s 
+countCheck23_X29e 
+count23_X29 
+countCheck23_X30s 
+countCheck23_X30e 
+count23_X30 
+countCheck23_X31s 
+countCheck23_X31e 
+count23_X31 
+countCheck23_X32s 
+countCheck23_X32e 
+count23_X32 
+countCheck23_X33s 
+countCheck23_X33e 
+count23_X33 
+countCheck23_X34s 
+countCheck23_X34e 
+count23_X34 
+countCheck23_X35s 
+countCheck23_X35e 
+count23_X35 
+countCheck23_X36s 
+countCheck23_X36e 
+count23_X36 
+countCheck23_X37s 
+countCheck23_X37e 
+count23_X37 
+countCheck23_X38s 
+countCheck23_X38e 
+count23_X38 
+countCheck23_X39s 
+countCheck23_X39e 
+count23_X39 
+countCheck23_X40s 
+countCheck23_X40e 
+count23_X40 
+countCheck23_X41s 
+countCheck23_X41e 
+count23_X41 
+countCheck23_X42s 
+countCheck23_X42e 
+count23_X42 
+countCheck23_X43s 
+countCheck23_X43e 
+count23_X43 
+countCheck23_X44s 
+countCheck23_X44e 
+count23_X44 
+countCheck23_X45s 
+countCheck23_X45e 
+count23_X45 
+countCheck23_X46s 
+countCheck23_X46e 
+count23_X46 
+countCheck23_X47s 
+countCheck23_X47e 
+count23_X47 
+countCheck23_X48s 
+countCheck23_X48e 
+count23_X48 
+countCheck23_X49s 
+countCheck23_X49e 
+count23_X49 
+countCheck23_X50s 
+countCheck23_X50e 
+count23_X50 
+countCheck23_X51s 
+countCheck23_X51e 
+count23_X51 
+countCheck23_X52s 
+countCheck23_X52e 
+count23_X52 
+countCheck23_X53s 
+countCheck23_X53e 
+count23_X53 
+countCheck23_X54s 
+countCheck23_X54e 
+count23_X54 
+countCheck23_X55s 
+countCheck23_X55e 
+count23_X55 
+countCheck23_X56s 
+countCheck23_X56e 
+count23_X56 
+countCheck23_X57s 
+countCheck23_X57e 
+count23_X57 
+countCheck23_X58s 
+countCheck23_X58e 
+count23_X58 
+countCheck23_X59s 
+countCheck23_X59e 
+count23_X59 
+countCheck23_X60s 
+countCheck23_X60e 
+count23_X60 
+countCheck23_X61s 
+countCheck23_X61e 
+count23_X61 
+countCheck23_X62s 
+countCheck23_X62e 
+count23_X62 
+countCheck23_X63s 
+countCheck23_X63e 
+count23_X63 
+countCheck23_X64s 
+countCheck23_X64e 
+count23_X64 
+countCheck23_X65s 
+countCheck23_X65e 
+count23_X65 
+countCheck23_X66s 
+countCheck23_X66e 
+count23_X66 
+countCheck23_X67s 
+countCheck23_X67e 
+count23_X67 
+countCheck24_X0s 
+countCheck24_X0e 
+count24_X0 
+countCheck24_X1s 
+countCheck24_X1e 
+count24_X1 
+countCheck24_X2s 
+countCheck24_X2e 
+count24_X2 
+countCheck24_X3s 
+countCheck24_X3e 
+count24_X3 
+countCheck24_X4s 
+countCheck24_X4e 
+count24_X4 
+countCheck24_X5s 
+countCheck24_X5e 
+count24_X5 
+countCheck24_X6s 
+countCheck24_X6e 
+count24_X6 
+countCheck24_X7s 
+countCheck24_X7e 
+count24_X7 
+countCheck24_X8s 
+countCheck24_X8e 
+count24_X8 
+countCheck24_X9s 
+countCheck24_X9e 
+count24_X9 
+countCheck24_X10s 
+countCheck24_X10e 
+count24_X10 
+countCheck24_X11s 
+countCheck24_X11e 
+count24_X11 
+countCheck24_X12s 
+countCheck24_X12e 
+count24_X12 
+countCheck24_X13s 
+countCheck24_X13e 
+count24_X13 
+countCheck24_X14s 
+countCheck24_X14e 
+count24_X14 
+countCheck24_X15s 
+countCheck24_X15e 
+count24_X15 
+countCheck24_X16s 
+countCheck24_X16e 
+count24_X16 
+countCheck24_X17s 
+countCheck24_X17e 
+count24_X17 
+countCheck24_X18s 
+countCheck24_X18e 
+count24_X18 
+countCheck24_X19s 
+countCheck24_X19e 
+count24_X19 
+countCheck24_X20s 
+countCheck24_X20e 
+count24_X20 
+countCheck24_X21s 
+countCheck24_X21e 
+count24_X21 
+countCheck24_X22s 
+countCheck24_X22e 
+count24_X22 
+countCheck24_X23s 
+countCheck24_X23e 
+count24_X23 
+countCheck24_X24s 
+countCheck24_X24e 
+count24_X24 
+countCheck24_X25s 
+countCheck24_X25e 
+count24_X25 
+countCheck24_X26s 
+countCheck24_X26e 
+count24_X26 
+countCheck24_X27s 
+countCheck24_X27e 
+count24_X27 
+countCheck24_X28s 
+countCheck24_X28e 
+count24_X28 
+countCheck24_X29s 
+countCheck24_X29e 
+count24_X29 
+countCheck24_X30s 
+countCheck24_X30e 
+count24_X30 
+countCheck24_X31s 
+countCheck24_X31e 
+count24_X31 
+countCheck24_X32s 
+countCheck24_X32e 
+count24_X32 
+countCheck24_X33s 
+countCheck24_X33e 
+count24_X33 
+countCheck24_X34s 
+countCheck24_X34e 
+count24_X34 
+countCheck24_X35s 
+countCheck24_X35e 
+count24_X35 
+countCheck24_X36s 
+countCheck24_X36e 
+count24_X36 
+countCheck24_X37s 
+countCheck24_X37e 
+count24_X37 
+countCheck24_X38s 
+countCheck24_X38e 
+count24_X38 
+countCheck24_X39s 
+countCheck24_X39e 
+count24_X39 
+countCheck24_X40s 
+countCheck24_X40e 
+count24_X40 
+countCheck24_X41s 
+countCheck24_X41e 
+count24_X41 
+countCheck24_X42s 
+countCheck24_X42e 
+count24_X42 
+countCheck24_X43s 
+countCheck24_X43e 
+count24_X43 
+countCheck24_X44s 
+countCheck24_X44e 
+count24_X44 
+countCheck24_X45s 
+countCheck24_X45e 
+count24_X45 
+countCheck24_X46s 
+countCheck24_X46e 
+count24_X46 
+countCheck24_X47s 
+countCheck24_X47e 
+count24_X47 
+countCheck24_X48s 
+countCheck24_X48e 
+count24_X48 
+countCheck24_X49s 
+countCheck24_X49e 
+count24_X49 
+countCheck24_X50s 
+countCheck24_X50e 
+count24_X50 
+countCheck24_X51s 
+countCheck24_X51e 
+count24_X51 
+countCheck24_X52s 
+countCheck24_X52e 
+count24_X52 
+countCheck24_X53s 
+countCheck24_X53e 
+count24_X53 
+countCheck24_X54s 
+countCheck24_X54e 
+count24_X54 
+countCheck24_X55s 
+countCheck24_X55e 
+count24_X55 
+countCheck24_X56s 
+countCheck24_X56e 
+count24_X56 
+countCheck24_X57s 
+countCheck24_X57e 
+count24_X57 
+countCheck24_X58s 
+countCheck24_X58e 
+count24_X58 
+countCheck24_X59s 
+countCheck24_X59e 
+count24_X59 
+countCheck24_X60s 
+countCheck24_X60e 
+count24_X60 
+countCheck24_X61s 
+countCheck24_X61e 
+count24_X61 
+countCheck24_X62s 
+countCheck24_X62e 
+count24_X62 
+countCheck24_X63s 
+countCheck24_X63e 
+count24_X63 
+countCheck24_X64s 
+countCheck24_X64e 
+count24_X64 
+countCheck24_X65s 
+countCheck24_X65e 
+count24_X65 
+countCheck24_X66s 
+countCheck24_X66e 
+count24_X66 
+countCheck24_X67s 
+countCheck24_X67e 
+count24_X67 
+countCheck25_X0s 
+countCheck25_X0e 
+count25_X0 
+countCheck25_X1s 
+countCheck25_X1e 
+count25_X1 
+countCheck25_X2s 
+countCheck25_X2e 
+count25_X2 
+countCheck25_X3s 
+countCheck25_X3e 
+count25_X3 
+countCheck25_X4s 
+countCheck25_X4e 
+count25_X4 
+countCheck25_X5s 
+countCheck25_X5e 
+count25_X5 
+countCheck25_X6s 
+countCheck25_X6e 
+count25_X6 
+countCheck25_X7s 
+countCheck25_X7e 
+count25_X7 
+countCheck25_X8s 
+countCheck25_X8e 
+count25_X8 
+countCheck25_X9s 
+countCheck25_X9e 
+count25_X9 
+countCheck25_X10s 
+countCheck25_X10e 
+count25_X10 
+countCheck25_X11s 
+countCheck25_X11e 
+count25_X11 
+countCheck25_X12s 
+countCheck25_X12e 
+count25_X12 
+countCheck25_X13s 
+countCheck25_X13e 
+count25_X13 
+countCheck25_X14s 
+countCheck25_X14e 
+count25_X14 
+countCheck25_X15s 
+countCheck25_X15e 
+count25_X15 
+countCheck25_X16s 
+countCheck25_X16e 
+count25_X16 
+countCheck25_X17s 
+countCheck25_X17e 
+count25_X17 
+countCheck25_X18s 
+countCheck25_X18e 
+count25_X18 
+countCheck25_X19s 
+countCheck25_X19e 
+count25_X19 
+countCheck25_X20s 
+countCheck25_X20e 
+count25_X20 
+countCheck25_X21s 
+countCheck25_X21e 
+count25_X21 
+countCheck25_X22s 
+countCheck25_X22e 
+count25_X22 
+countCheck25_X23s 
+countCheck25_X23e 
+count25_X23 
+countCheck25_X24s 
+countCheck25_X24e 
+count25_X24 
+countCheck25_X25s 
+countCheck25_X25e 
+count25_X25 
+countCheck25_X26s 
+countCheck25_X26e 
+count25_X26 
+countCheck25_X27s 
+countCheck25_X27e 
+count25_X27 
+countCheck25_X28s 
+countCheck25_X28e 
+count25_X28 
+countCheck25_X29s 
+countCheck25_X29e 
+count25_X29 
+countCheck25_X30s 
+countCheck25_X30e 
+count25_X30 
+countCheck25_X31s 
+countCheck25_X31e 
+count25_X31 
+countCheck25_X32s 
+countCheck25_X32e 
+count25_X32 
+countCheck25_X33s 
+countCheck25_X33e 
+count25_X33 
+countCheck25_X34s 
+countCheck25_X34e 
+count25_X34 
+countCheck25_X35s 
+countCheck25_X35e 
+count25_X35 
+countCheck25_X36s 
+countCheck25_X36e 
+count25_X36 
+countCheck25_X37s 
+countCheck25_X37e 
+count25_X37 
+countCheck25_X38s 
+countCheck25_X38e 
+count25_X38 
+countCheck25_X39s 
+countCheck25_X39e 
+count25_X39 
+countCheck25_X40s 
+countCheck25_X40e 
+count25_X40 
+countCheck25_X41s 
+countCheck25_X41e 
+count25_X41 
+countCheck25_X42s 
+countCheck25_X42e 
+count25_X42 
+countCheck25_X43s 
+countCheck25_X43e 
+count25_X43 
+countCheck25_X44s 
+countCheck25_X44e 
+count25_X44 
+countCheck25_X45s 
+countCheck25_X45e 
+count25_X45 
+countCheck25_X46s 
+countCheck25_X46e 
+count25_X46 
+countCheck25_X47s 
+countCheck25_X47e 
+count25_X47 
+countCheck25_X48s 
+countCheck25_X48e 
+count25_X48 
+countCheck25_X49s 
+countCheck25_X49e 
+count25_X49 
+countCheck25_X50s 
+countCheck25_X50e 
+count25_X50 
+countCheck25_X51s 
+countCheck25_X51e 
+count25_X51 
+countCheck25_X52s 
+countCheck25_X52e 
+count25_X52 
+countCheck25_X53s 
+countCheck25_X53e 
+count25_X53 
+countCheck25_X54s 
+countCheck25_X54e 
+count25_X54 
+countCheck25_X55s 
+countCheck25_X55e 
+count25_X55 
+countCheck25_X56s 
+countCheck25_X56e 
+count25_X56 
+countCheck25_X57s 
+countCheck25_X57e 
+count25_X57 
+countCheck25_X58s 
+countCheck25_X58e 
+count25_X58 
+countCheck25_X59s 
+countCheck25_X59e 
+count25_X59 
+countCheck25_X60s 
+countCheck25_X60e 
+count25_X60 
+countCheck25_X61s 
+countCheck25_X61e 
+count25_X61 
+countCheck25_X62s 
+countCheck25_X62e 
+count25_X62 
+countCheck25_X63s 
+countCheck25_X63e 
+count25_X63 
+countCheck25_X64s 
+countCheck25_X64e 
+count25_X64 
+countCheck25_X65s 
+countCheck25_X65e 
+count25_X65 
+countCheck25_X66s 
+countCheck25_X66e 
+count25_X66 
+countCheck25_X67s 
+countCheck25_X67e 
+count25_X67 
+countCheck26_X0s 
+countCheck26_X0e 
+count26_X0 
+countCheck26_X1s 
+countCheck26_X1e 
+count26_X1 
+countCheck26_X2s 
+countCheck26_X2e 
+count26_X2 
+countCheck26_X3s 
+countCheck26_X3e 
+count26_X3 
+countCheck26_X4s 
+countCheck26_X4e 
+count26_X4 
+countCheck26_X5s 
+countCheck26_X5e 
+count26_X5 
+countCheck26_X6s 
+countCheck26_X6e 
+count26_X6 
+countCheck26_X7s 
+countCheck26_X7e 
+count26_X7 
+countCheck26_X8s 
+countCheck26_X8e 
+count26_X8 
+countCheck26_X9s 
+countCheck26_X9e 
+count26_X9 
+countCheck26_X10s 
+countCheck26_X10e 
+count26_X10 
+countCheck26_X11s 
+countCheck26_X11e 
+count26_X11 
+countCheck26_X12s 
+countCheck26_X12e 
+count26_X12 
+countCheck26_X13s 
+countCheck26_X13e 
+count26_X13 
+countCheck26_X14s 
+countCheck26_X14e 
+count26_X14 
+countCheck26_X15s 
+countCheck26_X15e 
+count26_X15 
+countCheck26_X16s 
+countCheck26_X16e 
+count26_X16 
+countCheck26_X17s 
+countCheck26_X17e 
+count26_X17 
+countCheck26_X18s 
+countCheck26_X18e 
+count26_X18 
+countCheck26_X19s 
+countCheck26_X19e 
+count26_X19 
+countCheck26_X20s 
+countCheck26_X20e 
+count26_X20 
+countCheck26_X21s 
+countCheck26_X21e 
+count26_X21 
+countCheck26_X22s 
+countCheck26_X22e 
+count26_X22 
+countCheck26_X23s 
+countCheck26_X23e 
+count26_X23 
+countCheck26_X24s 
+countCheck26_X24e 
+count26_X24 
+countCheck26_X25s 
+countCheck26_X25e 
+count26_X25 
+countCheck26_X26s 
+countCheck26_X26e 
+count26_X26 
+countCheck26_X27s 
+countCheck26_X27e 
+count26_X27 
+countCheck26_X28s 
+countCheck26_X28e 
+count26_X28 
+countCheck26_X29s 
+countCheck26_X29e 
+count26_X29 
+countCheck26_X30s 
+countCheck26_X30e 
+count26_X30 
+countCheck26_X31s 
+countCheck26_X31e 
+count26_X31 
+countCheck26_X32s 
+countCheck26_X32e 
+count26_X32 
+countCheck26_X33s 
+countCheck26_X33e 
+count26_X33 
+countCheck26_X34s 
+countCheck26_X34e 
+count26_X34 
+countCheck26_X35s 
+countCheck26_X35e 
+count26_X35 
+countCheck26_X36s 
+countCheck26_X36e 
+count26_X36 
+countCheck26_X37s 
+countCheck26_X37e 
+count26_X37 
+countCheck26_X38s 
+countCheck26_X38e 
+count26_X38 
+countCheck26_X39s 
+countCheck26_X39e 
+count26_X39 
+countCheck26_X40s 
+countCheck26_X40e 
+count26_X40 
+countCheck26_X41s 
+countCheck26_X41e 
+count26_X41 
+countCheck26_X42s 
+countCheck26_X42e 
+count26_X42 
+countCheck26_X43s 
+countCheck26_X43e 
+count26_X43 
+countCheck26_X44s 
+countCheck26_X44e 
+count26_X44 
+countCheck26_X45s 
+countCheck26_X45e 
+count26_X45 
+countCheck26_X46s 
+countCheck26_X46e 
+count26_X46 
+countCheck26_X47s 
+countCheck26_X47e 
+count26_X47 
+countCheck26_X48s 
+countCheck26_X48e 
+count26_X48 
+countCheck26_X49s 
+countCheck26_X49e 
+count26_X49 
+countCheck26_X50s 
+countCheck26_X50e 
+count26_X50 
+countCheck26_X51s 
+countCheck26_X51e 
+count26_X51 
+countCheck26_X52s 
+countCheck26_X52e 
+count26_X52 
+countCheck26_X53s 
+countCheck26_X53e 
+count26_X53 
+countCheck26_X54s 
+countCheck26_X54e 
+count26_X54 
+countCheck26_X55s 
+countCheck26_X55e 
+count26_X55 
+countCheck26_X56s 
+countCheck26_X56e 
+count26_X56 
+countCheck26_X57s 
+countCheck26_X57e 
+count26_X57 
+countCheck26_X58s 
+countCheck26_X58e 
+count26_X58 
+countCheck26_X59s 
+countCheck26_X59e 
+count26_X59 
+countCheck26_X60s 
+countCheck26_X60e 
+count26_X60 
+countCheck26_X61s 
+countCheck26_X61e 
+count26_X61 
+countCheck26_X62s 
+countCheck26_X62e 
+count26_X62 
+countCheck26_X63s 
+countCheck26_X63e 
+count26_X63 
+countCheck26_X64s 
+countCheck26_X64e 
+count26_X64 
+countCheck26_X65s 
+countCheck26_X65e 
+count26_X65 
+countCheck26_X66s 
+countCheck26_X66e 
+count26_X66 
+countCheck26_X67s 
+countCheck26_X67e 
+count26_X67 
+countCheck27_X0s 
+countCheck27_X0e 
+count27_X0 
+countCheck27_X1s 
+countCheck27_X1e 
+count27_X1 
+countCheck27_X2s 
+countCheck27_X2e 
+count27_X2 
+countCheck27_X3s 
+countCheck27_X3e 
+count27_X3 
+countCheck27_X4s 
+countCheck27_X4e 
+count27_X4 
+countCheck27_X5s 
+countCheck27_X5e 
+count27_X5 
+countCheck27_X6s 
+countCheck27_X6e 
+count27_X6 
+countCheck27_X7s 
+countCheck27_X7e 
+count27_X7 
+countCheck27_X8s 
+countCheck27_X8e 
+count27_X8 
+countCheck27_X9s 
+countCheck27_X9e 
+count27_X9 
+countCheck27_X10s 
+countCheck27_X10e 
+count27_X10 
+countCheck27_X11s 
+countCheck27_X11e 
+count27_X11 
+countCheck27_X12s 
+countCheck27_X12e 
+count27_X12 
+countCheck27_X13s 
+countCheck27_X13e 
+count27_X13 
+countCheck27_X14s 
+countCheck27_X14e 
+count27_X14 
+countCheck27_X15s 
+countCheck27_X15e 
+count27_X15 
+countCheck27_X16s 
+countCheck27_X16e 
+count27_X16 
+countCheck27_X17s 
+countCheck27_X17e 
+count27_X17 
+countCheck27_X18s 
+countCheck27_X18e 
+count27_X18 
+countCheck27_X19s 
+countCheck27_X19e 
+count27_X19 
+countCheck27_X20s 
+countCheck27_X20e 
+count27_X20 
+countCheck27_X21s 
+countCheck27_X21e 
+count27_X21 
+countCheck27_X22s 
+countCheck27_X22e 
+count27_X22 
+countCheck27_X23s 
+countCheck27_X23e 
+count27_X23 
+countCheck27_X24s 
+countCheck27_X24e 
+count27_X24 
+countCheck27_X25s 
+countCheck27_X25e 
+count27_X25 
+countCheck27_X26s 
+countCheck27_X26e 
+count27_X26 
+countCheck27_X27s 
+countCheck27_X27e 
+count27_X27 
+countCheck27_X28s 
+countCheck27_X28e 
+count27_X28 
+countCheck27_X29s 
+countCheck27_X29e 
+count27_X29 
+countCheck27_X30s 
+countCheck27_X30e 
+count27_X30 
+countCheck27_X31s 
+countCheck27_X31e 
+count27_X31 
+countCheck27_X32s 
+countCheck27_X32e 
+count27_X32 
+countCheck27_X33s 
+countCheck27_X33e 
+count27_X33 
+countCheck27_X34s 
+countCheck27_X34e 
+count27_X34 
+countCheck27_X35s 
+countCheck27_X35e 
+count27_X35 
+countCheck27_X36s 
+countCheck27_X36e 
+count27_X36 
+countCheck27_X37s 
+countCheck27_X37e 
+count27_X37 
+countCheck27_X38s 
+countCheck27_X38e 
+count27_X38 
+countCheck27_X39s 
+countCheck27_X39e 
+count27_X39 
+countCheck27_X40s 
+countCheck27_X40e 
+count27_X40 
+countCheck27_X41s 
+countCheck27_X41e 
+count27_X41 
+countCheck27_X42s 
+countCheck27_X42e 
+count27_X42 
+countCheck27_X43s 
+countCheck27_X43e 
+count27_X43 
+countCheck27_X44s 
+countCheck27_X44e 
+count27_X44 
+countCheck27_X45s 
+countCheck27_X45e 
+count27_X45 
+countCheck27_X46s 
+countCheck27_X46e 
+count27_X46 
+countCheck27_X47s 
+countCheck27_X47e 
+count27_X47 
+countCheck27_X48s 
+countCheck27_X48e 
+count27_X48 
+countCheck27_X49s 
+countCheck27_X49e 
+count27_X49 
+countCheck27_X50s 
+countCheck27_X50e 
+count27_X50 
+countCheck27_X51s 
+countCheck27_X51e 
+count27_X51 
+countCheck27_X52s 
+countCheck27_X52e 
+count27_X52 
+countCheck27_X53s 
+countCheck27_X53e 
+count27_X53 
+countCheck27_X54s 
+countCheck27_X54e 
+count27_X54 
+countCheck27_X55s 
+countCheck27_X55e 
+count27_X55 
+countCheck27_X56s 
+countCheck27_X56e 
+count27_X56 
+countCheck27_X57s 
+countCheck27_X57e 
+count27_X57 
+countCheck27_X58s 
+countCheck27_X58e 
+count27_X58 
+countCheck27_X59s 
+countCheck27_X59e 
+count27_X59 
+countCheck27_X60s 
+countCheck27_X60e 
+count27_X60 
+countCheck27_X61s 
+countCheck27_X61e 
+count27_X61 
+countCheck27_X62s 
+countCheck27_X62e 
+count27_X62 
+countCheck27_X63s 
+countCheck27_X63e 
+count27_X63 
+countCheck27_X64s 
+countCheck27_X64e 
+count27_X64 
+countCheck27_X65s 
+countCheck27_X65e 
+count27_X65 
+countCheck27_X66s 
+countCheck27_X66e 
+count27_X66 
+countCheck27_X67s 
+countCheck27_X67e 
+count27_X67 
+countCheck28_X0s 
+countCheck28_X0e 
+count28_X0 
+countCheck28_X1s 
+countCheck28_X1e 
+count28_X1 
+countCheck28_X2s 
+countCheck28_X2e 
+count28_X2 
+countCheck28_X3s 
+countCheck28_X3e 
+count28_X3 
+countCheck28_X4s 
+countCheck28_X4e 
+count28_X4 
+countCheck28_X5s 
+countCheck28_X5e 
+count28_X5 
+countCheck28_X6s 
+countCheck28_X6e 
+count28_X6 
+countCheck28_X7s 
+countCheck28_X7e 
+count28_X7 
+countCheck28_X8s 
+countCheck28_X8e 
+count28_X8 
+countCheck28_X9s 
+countCheck28_X9e 
+count28_X9 
+countCheck28_X10s 
+countCheck28_X10e 
+count28_X10 
+countCheck28_X11s 
+countCheck28_X11e 
+count28_X11 
+countCheck28_X12s 
+countCheck28_X12e 
+count28_X12 
+countCheck28_X13s 
+countCheck28_X13e 
+count28_X13 
+countCheck28_X14s 
+countCheck28_X14e 
+count28_X14 
+countCheck28_X15s 
+countCheck28_X15e 
+count28_X15 
+countCheck28_X16s 
+countCheck28_X16e 
+count28_X16 
+countCheck28_X17s 
+countCheck28_X17e 
+count28_X17 
+countCheck28_X18s 
+countCheck28_X18e 
+count28_X18 
+countCheck28_X19s 
+countCheck28_X19e 
+count28_X19 
+countCheck28_X20s 
+countCheck28_X20e 
+count28_X20 
+countCheck28_X21s 
+countCheck28_X21e 
+count28_X21 
+countCheck28_X22s 
+countCheck28_X22e 
+count28_X22 
+countCheck28_X23s 
+countCheck28_X23e 
+count28_X23 
+countCheck28_X24s 
+countCheck28_X24e 
+count28_X24 
+countCheck28_X25s 
+countCheck28_X25e 
+count28_X25 
+countCheck28_X26s 
+countCheck28_X26e 
+count28_X26 
+countCheck28_X27s 
+countCheck28_X27e 
+count28_X27 
+countCheck28_X28s 
+countCheck28_X28e 
+count28_X28 
+countCheck28_X29s 
+countCheck28_X29e 
+count28_X29 
+countCheck28_X30s 
+countCheck28_X30e 
+count28_X30 
+countCheck28_X31s 
+countCheck28_X31e 
+count28_X31 
+countCheck28_X32s 
+countCheck28_X32e 
+count28_X32 
+countCheck28_X33s 
+countCheck28_X33e 
+count28_X33 
+countCheck28_X34s 
+countCheck28_X34e 
+count28_X34 
+countCheck28_X35s 
+countCheck28_X35e 
+count28_X35 
+countCheck28_X36s 
+countCheck28_X36e 
+count28_X36 
+countCheck28_X37s 
+countCheck28_X37e 
+count28_X37 
+countCheck28_X38s 
+countCheck28_X38e 
+count28_X38 
+countCheck28_X39s 
+countCheck28_X39e 
+count28_X39 
+countCheck28_X40s 
+countCheck28_X40e 
+count28_X40 
+countCheck28_X41s 
+countCheck28_X41e 
+count28_X41 
+countCheck28_X42s 
+countCheck28_X42e 
+count28_X42 
+countCheck28_X43s 
+countCheck28_X43e 
+count28_X43 
+countCheck28_X44s 
+countCheck28_X44e 
+count28_X44 
+countCheck28_X45s 
+countCheck28_X45e 
+count28_X45 
+countCheck28_X46s 
+countCheck28_X46e 
+count28_X46 
+countCheck28_X47s 
+countCheck28_X47e 
+count28_X47 
+countCheck28_X48s 
+countCheck28_X48e 
+count28_X48 
+countCheck28_X49s 
+countCheck28_X49e 
+count28_X49 
+countCheck28_X50s 
+countCheck28_X50e 
+count28_X50 
+countCheck28_X51s 
+countCheck28_X51e 
+count28_X51 
+countCheck28_X52s 
+countCheck28_X52e 
+count28_X52 
+countCheck28_X53s 
+countCheck28_X53e 
+count28_X53 
+countCheck28_X54s 
+countCheck28_X54e 
+count28_X54 
+countCheck28_X55s 
+countCheck28_X55e 
+count28_X55 
+countCheck28_X56s 
+countCheck28_X56e 
+count28_X56 
+countCheck28_X57s 
+countCheck28_X57e 
+count28_X57 
+countCheck28_X58s 
+countCheck28_X58e 
+count28_X58 
+countCheck28_X59s 
+countCheck28_X59e 
+count28_X59 
+countCheck28_X60s 
+countCheck28_X60e 
+count28_X60 
+countCheck28_X61s 
+countCheck28_X61e 
+count28_X61 
+countCheck28_X62s 
+countCheck28_X62e 
+count28_X62 
+countCheck28_X63s 
+countCheck28_X63e 
+count28_X63 
+countCheck28_X64s 
+countCheck28_X64e 
+count28_X64 
+countCheck28_X65s 
+countCheck28_X65e 
+count28_X65 
+countCheck28_X66s 
+countCheck28_X66e 
+count28_X66 
+countCheck28_X67s 
+countCheck28_X67e 
+count28_X67 
+countCheck29_X0s 
+countCheck29_X0e 
+count29_X0 
+countCheck29_X1s 
+countCheck29_X1e 
+count29_X1 
+countCheck29_X2s 
+countCheck29_X2e 
+count29_X2 
+countCheck29_X3s 
+countCheck29_X3e 
+count29_X3 
+countCheck29_X4s 
+countCheck29_X4e 
+count29_X4 
+countCheck29_X5s 
+countCheck29_X5e 
+count29_X5 
+countCheck29_X6s 
+countCheck29_X6e 
+count29_X6 
+countCheck29_X7s 
+countCheck29_X7e 
+count29_X7 
+countCheck29_X8s 
+countCheck29_X8e 
+count29_X8 
+countCheck29_X9s 
+countCheck29_X9e 
+count29_X9 
+countCheck29_X10s 
+countCheck29_X10e 
+count29_X10 
+countCheck29_X11s 
+countCheck29_X11e 
+count29_X11 
+countCheck29_X12s 
+countCheck29_X12e 
+count29_X12 
+countCheck29_X13s 
+countCheck29_X13e 
+count29_X13 
+countCheck29_X14s 
+countCheck29_X14e 
+count29_X14 
+countCheck29_X15s 
+countCheck29_X15e 
+count29_X15 
+countCheck29_X16s 
+countCheck29_X16e 
+count29_X16 
+countCheck29_X17s 
+countCheck29_X17e 
+count29_X17 
+countCheck29_X18s 
+countCheck29_X18e 
+count29_X18 
+countCheck29_X19s 
+countCheck29_X19e 
+count29_X19 
+countCheck29_X20s 
+countCheck29_X20e 
+count29_X20 
+countCheck29_X21s 
+countCheck29_X21e 
+count29_X21 
+countCheck29_X22s 
+countCheck29_X22e 
+count29_X22 
+countCheck29_X23s 
+countCheck29_X23e 
+count29_X23 
+countCheck29_X24s 
+countCheck29_X24e 
+count29_X24 
+countCheck29_X25s 
+countCheck29_X25e 
+count29_X25 
+countCheck29_X26s 
+countCheck29_X26e 
+count29_X26 
+countCheck29_X27s 
+countCheck29_X27e 
+count29_X27 
+countCheck29_X28s 
+countCheck29_X28e 
+count29_X28 
+countCheck29_X29s 
+countCheck29_X29e 
+count29_X29 
+countCheck29_X30s 
+countCheck29_X30e 
+count29_X30 
+countCheck29_X31s 
+countCheck29_X31e 
+count29_X31 
+countCheck29_X32s 
+countCheck29_X32e 
+count29_X32 
+countCheck29_X33s 
+countCheck29_X33e 
+count29_X33 
+countCheck29_X34s 
+countCheck29_X34e 
+count29_X34 
+countCheck29_X35s 
+countCheck29_X35e 
+count29_X35 
+countCheck29_X36s 
+countCheck29_X36e 
+count29_X36 
+countCheck29_X37s 
+countCheck29_X37e 
+count29_X37 
+countCheck29_X38s 
+countCheck29_X38e 
+count29_X38 
+countCheck29_X39s 
+countCheck29_X39e 
+count29_X39 
+countCheck29_X40s 
+countCheck29_X40e 
+count29_X40 
+countCheck29_X41s 
+countCheck29_X41e 
+count29_X41 
+countCheck29_X42s 
+countCheck29_X42e 
+count29_X42 
+countCheck29_X43s 
+countCheck29_X43e 
+count29_X43 
+countCheck29_X44s 
+countCheck29_X44e 
+count29_X44 
+countCheck29_X45s 
+countCheck29_X45e 
+count29_X45 
+countCheck29_X46s 
+countCheck29_X46e 
+count29_X46 
+countCheck29_X47s 
+countCheck29_X47e 
+count29_X47 
+countCheck29_X48s 
+countCheck29_X48e 
+count29_X48 
+countCheck29_X49s 
+countCheck29_X49e 
+count29_X49 
+countCheck29_X50s 
+countCheck29_X50e 
+count29_X50 
+countCheck29_X51s 
+countCheck29_X51e 
+count29_X51 
+countCheck29_X52s 
+countCheck29_X52e 
+count29_X52 
+countCheck29_X53s 
+countCheck29_X53e 
+count29_X53 
+countCheck29_X54s 
+countCheck29_X54e 
+count29_X54 
+countCheck29_X55s 
+countCheck29_X55e 
+count29_X55 
+countCheck29_X56s 
+countCheck29_X56e 
+count29_X56 
+countCheck29_X57s 
+countCheck29_X57e 
+count29_X57 
+countCheck29_X58s 
+countCheck29_X58e 
+count29_X58 
+countCheck29_X59s 
+countCheck29_X59e 
+count29_X59 
+countCheck29_X60s 
+countCheck29_X60e 
+count29_X60 
+countCheck29_X61s 
+countCheck29_X61e 
+count29_X61 
+countCheck29_X62s 
+countCheck29_X62e 
+count29_X62 
+countCheck29_X63s 
+countCheck29_X63e 
+count29_X63 
+countCheck29_X64s 
+countCheck29_X64e 
+count29_X64 
+countCheck29_X65s 
+countCheck29_X65e 
+count29_X65 
+countCheck29_X66s 
+countCheck29_X66e 
+count29_X66 
+countCheck29_X67s 
+countCheck29_X67e 
+count29_X67 
+countCheck30_X0s 
+countCheck30_X0e 
+count30_X0 
+countCheck30_X1s 
+countCheck30_X1e 
+count30_X1 
+countCheck30_X2s 
+countCheck30_X2e 
+count30_X2 
+countCheck30_X3s 
+countCheck30_X3e 
+count30_X3 
+countCheck30_X4s 
+countCheck30_X4e 
+count30_X4 
+countCheck30_X5s 
+countCheck30_X5e 
+count30_X5 
+countCheck30_X6s 
+countCheck30_X6e 
+count30_X6 
+countCheck30_X7s 
+countCheck30_X7e 
+count30_X7 
+countCheck30_X8s 
+countCheck30_X8e 
+count30_X8 
+countCheck30_X9s 
+countCheck30_X9e 
+count30_X9 
+countCheck30_X10s 
+countCheck30_X10e 
+count30_X10 
+countCheck30_X11s 
+countCheck30_X11e 
+count30_X11 
+countCheck30_X12s 
+countCheck30_X12e 
+count30_X12 
+countCheck30_X13s 
+countCheck30_X13e 
+count30_X13 
+countCheck30_X14s 
+countCheck30_X14e 
+count30_X14 
+countCheck30_X15s 
+countCheck30_X15e 
+count30_X15 
+countCheck30_X16s 
+countCheck30_X16e 
+count30_X16 
+countCheck30_X17s 
+countCheck30_X17e 
+count30_X17 
+countCheck30_X18s 
+countCheck30_X18e 
+count30_X18 
+countCheck30_X19s 
+countCheck30_X19e 
+count30_X19 
+countCheck30_X20s 
+countCheck30_X20e 
+count30_X20 
+countCheck30_X21s 
+countCheck30_X21e 
+count30_X21 
+countCheck30_X22s 
+countCheck30_X22e 
+count30_X22 
+countCheck30_X23s 
+countCheck30_X23e 
+count30_X23 
+countCheck30_X24s 
+countCheck30_X24e 
+count30_X24 
+countCheck30_X25s 
+countCheck30_X25e 
+count30_X25 
+countCheck30_X26s 
+countCheck30_X26e 
+count30_X26 
+countCheck30_X27s 
+countCheck30_X27e 
+count30_X27 
+countCheck30_X28s 
+countCheck30_X28e 
+count30_X28 
+countCheck30_X29s 
+countCheck30_X29e 
+count30_X29 
+countCheck30_X30s 
+countCheck30_X30e 
+count30_X30 
+countCheck30_X31s 
+countCheck30_X31e 
+count30_X31 
+countCheck30_X32s 
+countCheck30_X32e 
+count30_X32 
+countCheck30_X33s 
+countCheck30_X33e 
+count30_X33 
+countCheck30_X34s 
+countCheck30_X34e 
+count30_X34 
+countCheck30_X35s 
+countCheck30_X35e 
+count30_X35 
+countCheck30_X36s 
+countCheck30_X36e 
+count30_X36 
+countCheck30_X37s 
+countCheck30_X37e 
+count30_X37 
+countCheck30_X38s 
+countCheck30_X38e 
+count30_X38 
+countCheck30_X39s 
+countCheck30_X39e 
+count30_X39 
+countCheck30_X40s 
+countCheck30_X40e 
+count30_X40 
+countCheck30_X41s 
+countCheck30_X41e 
+count30_X41 
+countCheck30_X42s 
+countCheck30_X42e 
+count30_X42 
+countCheck30_X43s 
+countCheck30_X43e 
+count30_X43 
+countCheck30_X44s 
+countCheck30_X44e 
+count30_X44 
+countCheck30_X45s 
+countCheck30_X45e 
+count30_X45 
+countCheck30_X46s 
+countCheck30_X46e 
+count30_X46 
+countCheck30_X47s 
+countCheck30_X47e 
+count30_X47 
+countCheck30_X48s 
+countCheck30_X48e 
+count30_X48 
+countCheck30_X49s 
+countCheck30_X49e 
+count30_X49 
+countCheck30_X50s 
+countCheck30_X50e 
+count30_X50 
+countCheck30_X51s 
+countCheck30_X51e 
+count30_X51 
+countCheck30_X52s 
+countCheck30_X52e 
+count30_X52 
+countCheck30_X53s 
+countCheck30_X53e 
+count30_X53 
+countCheck30_X54s 
+countCheck30_X54e 
+count30_X54 
+countCheck30_X55s 
+countCheck30_X55e 
+count30_X55 
+countCheck30_X56s 
+countCheck30_X56e 
+count30_X56 
+countCheck30_X57s 
+countCheck30_X57e 
+count30_X57 
+countCheck30_X58s 
+countCheck30_X58e 
+count30_X58 
+countCheck30_X59s 
+countCheck30_X59e 
+count30_X59 
+countCheck30_X60s 
+countCheck30_X60e 
+count30_X60 
+countCheck30_X61s 
+countCheck30_X61e 
+count30_X61 
+countCheck30_X62s 
+countCheck30_X62e 
+count30_X62 
+countCheck30_X63s 
+countCheck30_X63e 
+count30_X63 
+countCheck30_X64s 
+countCheck30_X64e 
+count30_X64 
+countCheck30_X65s 
+countCheck30_X65e 
+count30_X65 
+countCheck30_X66s 
+countCheck30_X66e 
+count30_X66 
+countCheck30_X67s 
+countCheck30_X67e 
+count30_X67 
+countCheck31_X0s 
+countCheck31_X0e 
+count31_X0 
+countCheck31_X1s 
+countCheck31_X1e 
+count31_X1 
+countCheck31_X2s 
+countCheck31_X2e 
+count31_X2 
+countCheck31_X3s 
+countCheck31_X3e 
+count31_X3 
+countCheck31_X4s 
+countCheck31_X4e 
+count31_X4 
+countCheck31_X5s 
+countCheck31_X5e 
+count31_X5 
+countCheck31_X6s 
+countCheck31_X6e 
+count31_X6 
+countCheck31_X7s 
+countCheck31_X7e 
+count31_X7 
+countCheck31_X8s 
+countCheck31_X8e 
+count31_X8 
+countCheck31_X9s 
+countCheck31_X9e 
+count31_X9 
+countCheck31_X10s 
+countCheck31_X10e 
+count31_X10 
+countCheck31_X11s 
+countCheck31_X11e 
+count31_X11 
+countCheck31_X12s 
+countCheck31_X12e 
+count31_X12 
+countCheck31_X13s 
+countCheck31_X13e 
+count31_X13 
+countCheck31_X14s 
+countCheck31_X14e 
+count31_X14 
+countCheck31_X15s 
+countCheck31_X15e 
+count31_X15 
+countCheck31_X16s 
+countCheck31_X16e 
+count31_X16 
+countCheck31_X17s 
+countCheck31_X17e 
+count31_X17 
+countCheck31_X18s 
+countCheck31_X18e 
+count31_X18 
+countCheck31_X19s 
+countCheck31_X19e 
+count31_X19 
+countCheck31_X20s 
+countCheck31_X20e 
+count31_X20 
+countCheck31_X21s 
+countCheck31_X21e 
+count31_X21 
+countCheck31_X22s 
+countCheck31_X22e 
+count31_X22 
+countCheck31_X23s 
+countCheck31_X23e 
+count31_X23 
+countCheck31_X24s 
+countCheck31_X24e 
+count31_X24 
+countCheck31_X25s 
+countCheck31_X25e 
+count31_X25 
+countCheck31_X26s 
+countCheck31_X26e 
+count31_X26 
+countCheck31_X27s 
+countCheck31_X27e 
+count31_X27 
+countCheck31_X28s 
+countCheck31_X28e 
+count31_X28 
+countCheck31_X29s 
+countCheck31_X29e 
+count31_X29 
+countCheck31_X30s 
+countCheck31_X30e 
+count31_X30 
+countCheck31_X31s 
+countCheck31_X31e 
+count31_X31 
+countCheck31_X32s 
+countCheck31_X32e 
+count31_X32 
+countCheck31_X33s 
+countCheck31_X33e 
+count31_X33 
+countCheck31_X34s 
+countCheck31_X34e 
+count31_X34 
+countCheck31_X35s 
+countCheck31_X35e 
+count31_X35 
+countCheck31_X36s 
+countCheck31_X36e 
+count31_X36 
+countCheck31_X37s 
+countCheck31_X37e 
+count31_X37 
+countCheck31_X38s 
+countCheck31_X38e 
+count31_X38 
+countCheck31_X39s 
+countCheck31_X39e 
+count31_X39 
+countCheck31_X40s 
+countCheck31_X40e 
+count31_X40 
+countCheck31_X41s 
+countCheck31_X41e 
+count31_X41 
+countCheck31_X42s 
+countCheck31_X42e 
+count31_X42 
+countCheck31_X43s 
+countCheck31_X43e 
+count31_X43 
+countCheck31_X44s 
+countCheck31_X44e 
+count31_X44 
+countCheck31_X45s 
+countCheck31_X45e 
+count31_X45 
+countCheck31_X46s 
+countCheck31_X46e 
+count31_X46 
+countCheck31_X47s 
+countCheck31_X47e 
+count31_X47 
+countCheck31_X48s 
+countCheck31_X48e 
+count31_X48 
+countCheck31_X49s 
+countCheck31_X49e 
+count31_X49 
+countCheck31_X50s 
+countCheck31_X50e 
+count31_X50 
+countCheck31_X51s 
+countCheck31_X51e 
+count31_X51 
+countCheck31_X52s 
+countCheck31_X52e 
+count31_X52 
+countCheck31_X53s 
+countCheck31_X53e 
+count31_X53 
+countCheck31_X54s 
+countCheck31_X54e 
+count31_X54 
+countCheck31_X55s 
+countCheck31_X55e 
+count31_X55 
+countCheck31_X56s 
+countCheck31_X56e 
+count31_X56 
+countCheck31_X57s 
+countCheck31_X57e 
+count31_X57 
+countCheck31_X58s 
+countCheck31_X58e 
+count31_X58 
+countCheck31_X59s 
+countCheck31_X59e 
+count31_X59 
+countCheck31_X60s 
+countCheck31_X60e 
+count31_X60 
+countCheck31_X61s 
+countCheck31_X61e 
+count31_X61 
+countCheck31_X62s 
+countCheck31_X62e 
+count31_X62 
+countCheck31_X63s 
+countCheck31_X63e 
+count31_X63 
+countCheck31_X64s 
+countCheck31_X64e 
+count31_X64 
+countCheck31_X65s 
+countCheck31_X65e 
+count31_X65 
+countCheck31_X66s 
+countCheck31_X66e 
+count31_X66 
+countCheck31_X67s 
+countCheck31_X67e 
+count31_X67 
+countCheck32_X0s 
+countCheck32_X0e 
+count32_X0 
+countCheck32_X1s 
+countCheck32_X1e 
+count32_X1 
+countCheck32_X2s 
+countCheck32_X2e 
+count32_X2 
+countCheck32_X3s 
+countCheck32_X3e 
+count32_X3 
+countCheck32_X4s 
+countCheck32_X4e 
+count32_X4 
+countCheck32_X5s 
+countCheck32_X5e 
+count32_X5 
+countCheck32_X6s 
+countCheck32_X6e 
+count32_X6 
+countCheck32_X7s 
+countCheck32_X7e 
+count32_X7 
+countCheck32_X8s 
+countCheck32_X8e 
+count32_X8 
+countCheck32_X9s 
+countCheck32_X9e 
+count32_X9 
+countCheck32_X10s 
+countCheck32_X10e 
+count32_X10 
+countCheck32_X11s 
+countCheck32_X11e 
+count32_X11 
+countCheck32_X12s 
+countCheck32_X12e 
+count32_X12 
+countCheck32_X13s 
+countCheck32_X13e 
+count32_X13 
+countCheck32_X14s 
+countCheck32_X14e 
+count32_X14 
+countCheck32_X15s 
+countCheck32_X15e 
+count32_X15 
+countCheck32_X16s 
+countCheck32_X16e 
+count32_X16 
+countCheck32_X17s 
+countCheck32_X17e 
+count32_X17 
+countCheck32_X18s 
+countCheck32_X18e 
+count32_X18 
+countCheck32_X19s 
+countCheck32_X19e 
+count32_X19 
+countCheck32_X20s 
+countCheck32_X20e 
+count32_X20 
+countCheck32_X21s 
+countCheck32_X21e 
+count32_X21 
+countCheck32_X22s 
+countCheck32_X22e 
+count32_X22 
+countCheck32_X23s 
+countCheck32_X23e 
+count32_X23 
+countCheck32_X24s 
+countCheck32_X24e 
+count32_X24 
+countCheck32_X25s 
+countCheck32_X25e 
+count32_X25 
+countCheck32_X26s 
+countCheck32_X26e 
+count32_X26 
+countCheck32_X27s 
+countCheck32_X27e 
+count32_X27 
+countCheck32_X28s 
+countCheck32_X28e 
+count32_X28 
+countCheck32_X29s 
+countCheck32_X29e 
+count32_X29 
+countCheck32_X30s 
+countCheck32_X30e 
+count32_X30 
+countCheck32_X31s 
+countCheck32_X31e 
+count32_X31 
+countCheck32_X32s 
+countCheck32_X32e 
+count32_X32 
+countCheck32_X33s 
+countCheck32_X33e 
+count32_X33 
+countCheck32_X34s 
+countCheck32_X34e 
+count32_X34 
+countCheck32_X35s 
+countCheck32_X35e 
+count32_X35 
+countCheck32_X36s 
+countCheck32_X36e 
+count32_X36 
+countCheck32_X37s 
+countCheck32_X37e 
+count32_X37 
+countCheck32_X38s 
+countCheck32_X38e 
+count32_X38 
+countCheck32_X39s 
+countCheck32_X39e 
+count32_X39 
+countCheck32_X40s 
+countCheck32_X40e 
+count32_X40 
+countCheck32_X41s 
+countCheck32_X41e 
+count32_X41 
+countCheck32_X42s 
+countCheck32_X42e 
+count32_X42 
+countCheck32_X43s 
+countCheck32_X43e 
+count32_X43 
+countCheck32_X44s 
+countCheck32_X44e 
+count32_X44 
+countCheck32_X45s 
+countCheck32_X45e 
+count32_X45 
+countCheck32_X46s 
+countCheck32_X46e 
+count32_X46 
+countCheck32_X47s 
+countCheck32_X47e 
+count32_X47 
+countCheck32_X48s 
+countCheck32_X48e 
+count32_X48 
+countCheck32_X49s 
+countCheck32_X49e 
+count32_X49 
+countCheck32_X50s 
+countCheck32_X50e 
+count32_X50 
+countCheck32_X51s 
+countCheck32_X51e 
+count32_X51 
+countCheck32_X52s 
+countCheck32_X52e 
+count32_X52 
+countCheck32_X53s 
+countCheck32_X53e 
+count32_X53 
+countCheck32_X54s 
+countCheck32_X54e 
+count32_X54 
+countCheck32_X55s 
+countCheck32_X55e 
+count32_X55 
+countCheck32_X56s 
+countCheck32_X56e 
+count32_X56 
+countCheck32_X57s 
+countCheck32_X57e 
+count32_X57 
+countCheck32_X58s 
+countCheck32_X58e 
+count32_X58 
+countCheck32_X59s 
+countCheck32_X59e 
+count32_X59 
+countCheck32_X60s 
+countCheck32_X60e 
+count32_X60 
+countCheck32_X61s 
+countCheck32_X61e 
+count32_X61 
+countCheck32_X62s 
+countCheck32_X62e 
+count32_X62 
+countCheck32_X63s 
+countCheck32_X63e 
+count32_X63 
+countCheck32_X64s 
+countCheck32_X64e 
+count32_X64 
+countCheck32_X65s 
+countCheck32_X65e 
+count32_X65 
+countCheck32_X66s 
+countCheck32_X66e 
+count32_X66 
+countCheck32_X67s 
+countCheck32_X67e 
+count32_X67 
+countCheck33_X0s 
+countCheck33_X0e 
+count33_X0 
+countCheck33_X1s 
+countCheck33_X1e 
+count33_X1 
+countCheck33_X2s 
+countCheck33_X2e 
+count33_X2 
+countCheck33_X3s 
+countCheck33_X3e 
+count33_X3 
+countCheck33_X4s 
+countCheck33_X4e 
+count33_X4 
+countCheck33_X5s 
+countCheck33_X5e 
+count33_X5 
+countCheck33_X6s 
+countCheck33_X6e 
+count33_X6 
+countCheck33_X7s 
+countCheck33_X7e 
+count33_X7 
+countCheck33_X8s 
+countCheck33_X8e 
+count33_X8 
+countCheck33_X9s 
+countCheck33_X9e 
+count33_X9 
+countCheck33_X10s 
+countCheck33_X10e 
+count33_X10 
+countCheck33_X11s 
+countCheck33_X11e 
+count33_X11 
+countCheck33_X12s 
+countCheck33_X12e 
+count33_X12 
+countCheck33_X13s 
+countCheck33_X13e 
+count33_X13 
+countCheck33_X14s 
+countCheck33_X14e 
+count33_X14 
+countCheck33_X15s 
+countCheck33_X15e 
+count33_X15 
+countCheck33_X16s 
+countCheck33_X16e 
+count33_X16 
+countCheck33_X17s 
+countCheck33_X17e 
+count33_X17 
+countCheck33_X18s 
+countCheck33_X18e 
+count33_X18 
+countCheck33_X19s 
+countCheck33_X19e 
+count33_X19 
+countCheck33_X20s 
+countCheck33_X20e 
+count33_X20 
+countCheck33_X21s 
+countCheck33_X21e 
+count33_X21 
+countCheck33_X22s 
+countCheck33_X22e 
+count33_X22 
+countCheck33_X23s 
+countCheck33_X23e 
+count33_X23 
+countCheck33_X24s 
+countCheck33_X24e 
+count33_X24 
+countCheck33_X25s 
+countCheck33_X25e 
+count33_X25 
+countCheck33_X26s 
+countCheck33_X26e 
+count33_X26 
+countCheck33_X27s 
+countCheck33_X27e 
+count33_X27 
+countCheck33_X28s 
+countCheck33_X28e 
+count33_X28 
+countCheck33_X29s 
+countCheck33_X29e 
+count33_X29 
+countCheck33_X30s 
+countCheck33_X30e 
+count33_X30 
+countCheck33_X31s 
+countCheck33_X31e 
+count33_X31 
+countCheck33_X32s 
+countCheck33_X32e 
+count33_X32 
+countCheck33_X33s 
+countCheck33_X33e 
+count33_X33 
+countCheck33_X34s 
+countCheck33_X34e 
+count33_X34 
+countCheck33_X35s 
+countCheck33_X35e 
+count33_X35 
+countCheck33_X36s 
+countCheck33_X36e 
+count33_X36 
+countCheck33_X37s 
+countCheck33_X37e 
+count33_X37 
+countCheck33_X38s 
+countCheck33_X38e 
+count33_X38 
+countCheck33_X39s 
+countCheck33_X39e 
+count33_X39 
+countCheck33_X40s 
+countCheck33_X40e 
+count33_X40 
+countCheck33_X41s 
+countCheck33_X41e 
+count33_X41 
+countCheck33_X42s 
+countCheck33_X42e 
+count33_X42 
+countCheck33_X43s 
+countCheck33_X43e 
+count33_X43 
+countCheck33_X44s 
+countCheck33_X44e 
+count33_X44 
+countCheck33_X45s 
+countCheck33_X45e 
+count33_X45 
+countCheck33_X46s 
+countCheck33_X46e 
+count33_X46 
+countCheck33_X47s 
+countCheck33_X47e 
+count33_X47 
+countCheck33_X48s 
+countCheck33_X48e 
+count33_X48 
+countCheck33_X49s 
+countCheck33_X49e 
+count33_X49 
+countCheck33_X50s 
+countCheck33_X50e 
+count33_X50 
+countCheck33_X51s 
+countCheck33_X51e 
+count33_X51 
+countCheck33_X52s 
+countCheck33_X52e 
+count33_X52 
+countCheck33_X53s 
+countCheck33_X53e 
+count33_X53 
+countCheck33_X54s 
+countCheck33_X54e 
+count33_X54 
+countCheck33_X55s 
+countCheck33_X55e 
+count33_X55 
+countCheck33_X56s 
+countCheck33_X56e 
+count33_X56 
+countCheck33_X57s 
+countCheck33_X57e 
+count33_X57 
+countCheck33_X58s 
+countCheck33_X58e 
+count33_X58 
+countCheck33_X59s 
+countCheck33_X59e 
+count33_X59 
+countCheck33_X60s 
+countCheck33_X60e 
+count33_X60 
+countCheck33_X61s 
+countCheck33_X61e 
+count33_X61 
+countCheck33_X62s 
+countCheck33_X62e 
+count33_X62 
+countCheck33_X63s 
+countCheck33_X63e 
+count33_X63 
+countCheck33_X64s 
+countCheck33_X64e 
+count33_X64 
+countCheck33_X65s 
+countCheck33_X65e 
+count33_X65 
+countCheck33_X66s 
+countCheck33_X66e 
+count33_X66 
+countCheck33_X67s 
+countCheck33_X67e 
+count33_X67 
+countCheck34_X0s 
+countCheck34_X0e 
+count34_X0 
+countCheck34_X1s 
+countCheck34_X1e 
+count34_X1 
+countCheck34_X2s 
+countCheck34_X2e 
+count34_X2 
+countCheck34_X3s 
+countCheck34_X3e 
+count34_X3 
+countCheck34_X4s 
+countCheck34_X4e 
+count34_X4 
+countCheck34_X5s 
+countCheck34_X5e 
+count34_X5 
+countCheck34_X6s 
+countCheck34_X6e 
+count34_X6 
+countCheck34_X7s 
+countCheck34_X7e 
+count34_X7 
+countCheck34_X8s 
+countCheck34_X8e 
+count34_X8 
+countCheck34_X9s 
+countCheck34_X9e 
+count34_X9 
+countCheck34_X10s 
+countCheck34_X10e 
+count34_X10 
+countCheck34_X11s 
+countCheck34_X11e 
+count34_X11 
+countCheck34_X12s 
+countCheck34_X12e 
+count34_X12 
+countCheck34_X13s 
+countCheck34_X13e 
+count34_X13 
+countCheck34_X14s 
+countCheck34_X14e 
+count34_X14 
+countCheck34_X15s 
+countCheck34_X15e 
+count34_X15 
+countCheck34_X16s 
+countCheck34_X16e 
+count34_X16 
+countCheck34_X17s 
+countCheck34_X17e 
+count34_X17 
+countCheck34_X18s 
+countCheck34_X18e 
+count34_X18 
+countCheck34_X19s 
+countCheck34_X19e 
+count34_X19 
+countCheck34_X20s 
+countCheck34_X20e 
+count34_X20 
+countCheck34_X21s 
+countCheck34_X21e 
+count34_X21 
+countCheck34_X22s 
+countCheck34_X22e 
+count34_X22 
+countCheck34_X23s 
+countCheck34_X23e 
+count34_X23 
+countCheck34_X24s 
+countCheck34_X24e 
+count34_X24 
+countCheck34_X25s 
+countCheck34_X25e 
+count34_X25 
+countCheck34_X26s 
+countCheck34_X26e 
+count34_X26 
+countCheck34_X27s 
+countCheck34_X27e 
+count34_X27 
+countCheck34_X28s 
+countCheck34_X28e 
+count34_X28 
+countCheck34_X29s 
+countCheck34_X29e 
+count34_X29 
+countCheck34_X30s 
+countCheck34_X30e 
+count34_X30 
+countCheck34_X31s 
+countCheck34_X31e 
+count34_X31 
+countCheck34_X32s 
+countCheck34_X32e 
+count34_X32 
+countCheck34_X33s 
+countCheck34_X33e 
+count34_X33 
+countCheck34_X34s 
+countCheck34_X34e 
+count34_X34 
+countCheck34_X35s 
+countCheck34_X35e 
+count34_X35 
+countCheck34_X36s 
+countCheck34_X36e 
+count34_X36 
+countCheck34_X37s 
+countCheck34_X37e 
+count34_X37 
+countCheck34_X38s 
+countCheck34_X38e 
+count34_X38 
+countCheck34_X39s 
+countCheck34_X39e 
+count34_X39 
+countCheck34_X40s 
+countCheck34_X40e 
+count34_X40 
+countCheck34_X41s 
+countCheck34_X41e 
+count34_X41 
+countCheck34_X42s 
+countCheck34_X42e 
+count34_X42 
+countCheck34_X43s 
+countCheck34_X43e 
+count34_X43 
+countCheck34_X44s 
+countCheck34_X44e 
+count34_X44 
+countCheck34_X45s 
+countCheck34_X45e 
+count34_X45 
+countCheck34_X46s 
+countCheck34_X46e 
+count34_X46 
+countCheck34_X47s 
+countCheck34_X47e 
+count34_X47 
+countCheck34_X48s 
+countCheck34_X48e 
+count34_X48 
+countCheck34_X49s 
+countCheck34_X49e 
+count34_X49 
+countCheck34_X50s 
+countCheck34_X50e 
+count34_X50 
+countCheck34_X51s 
+countCheck34_X51e 
+count34_X51 
+countCheck34_X52s 
+countCheck34_X52e 
+count34_X52 
+countCheck34_X53s 
+countCheck34_X53e 
+count34_X53 
+countCheck34_X54s 
+countCheck34_X54e 
+count34_X54 
+countCheck34_X55s 
+countCheck34_X55e 
+count34_X55 
+countCheck34_X56s 
+countCheck34_X56e 
+count34_X56 
+countCheck34_X57s 
+countCheck34_X57e 
+count34_X57 
+countCheck34_X58s 
+countCheck34_X58e 
+count34_X58 
+countCheck34_X59s 
+countCheck34_X59e 
+count34_X59 
+countCheck34_X60s 
+countCheck34_X60e 
+count34_X60 
+countCheck34_X61s 
+countCheck34_X61e 
+count34_X61 
+countCheck34_X62s 
+countCheck34_X62e 
+count34_X62 
+countCheck34_X63s 
+countCheck34_X63e 
+count34_X63 
+countCheck34_X64s 
+countCheck34_X64e 
+count34_X64 
+countCheck34_X65s 
+countCheck34_X65e 
+count34_X65 
+countCheck34_X66s 
+countCheck34_X66e 
+count34_X66 
+countCheck34_X67s 
+countCheck34_X67e 
+count34_X67 
+countCheck35_X0s 
+countCheck35_X0e 
+count35_X0 
+countCheck35_X1s 
+countCheck35_X1e 
+count35_X1 
+countCheck35_X2s 
+countCheck35_X2e 
+count35_X2 
+countCheck35_X3s 
+countCheck35_X3e 
+count35_X3 
+countCheck35_X4s 
+countCheck35_X4e 
+count35_X4 
+countCheck35_X5s 
+countCheck35_X5e 
+count35_X5 
+countCheck35_X6s 
+countCheck35_X6e 
+count35_X6 
+countCheck35_X7s 
+countCheck35_X7e 
+count35_X7 
+countCheck35_X8s 
+countCheck35_X8e 
+count35_X8 
+countCheck35_X9s 
+countCheck35_X9e 
+count35_X9 
+countCheck35_X10s 
+countCheck35_X10e 
+count35_X10 
+countCheck35_X11s 
+countCheck35_X11e 
+count35_X11 
+countCheck35_X12s 
+countCheck35_X12e 
+count35_X12 
+countCheck35_X13s 
+countCheck35_X13e 
+count35_X13 
+countCheck35_X14s 
+countCheck35_X14e 
+count35_X14 
+countCheck35_X15s 
+countCheck35_X15e 
+count35_X15 
+countCheck35_X16s 
+countCheck35_X16e 
+count35_X16 
+countCheck35_X17s 
+countCheck35_X17e 
+count35_X17 
+countCheck35_X18s 
+countCheck35_X18e 
+count35_X18 
+countCheck35_X19s 
+countCheck35_X19e 
+count35_X19 
+countCheck35_X20s 
+countCheck35_X20e 
+count35_X20 
+countCheck35_X21s 
+countCheck35_X21e 
+count35_X21 
+countCheck35_X22s 
+countCheck35_X22e 
+count35_X22 
+countCheck35_X23s 
+countCheck35_X23e 
+count35_X23 
+countCheck35_X24s 
+countCheck35_X24e 
+count35_X24 
+countCheck35_X25s 
+countCheck35_X25e 
+count35_X25 
+countCheck35_X26s 
+countCheck35_X26e 
+count35_X26 
+countCheck35_X27s 
+countCheck35_X27e 
+count35_X27 
+countCheck35_X28s 
+countCheck35_X28e 
+count35_X28 
+countCheck35_X29s 
+countCheck35_X29e 
+count35_X29 
+countCheck35_X30s 
+countCheck35_X30e 
+count35_X30 
+countCheck35_X31s 
+countCheck35_X31e 
+count35_X31 
+countCheck35_X32s 
+countCheck35_X32e 
+count35_X32 
+countCheck35_X33s 
+countCheck35_X33e 
+count35_X33 
+countCheck35_X34s 
+countCheck35_X34e 
+count35_X34 
+countCheck35_X35s 
+countCheck35_X35e 
+count35_X35 
+countCheck35_X36s 
+countCheck35_X36e 
+count35_X36 
+countCheck35_X37s 
+countCheck35_X37e 
+count35_X37 
+countCheck35_X38s 
+countCheck35_X38e 
+count35_X38 
+countCheck35_X39s 
+countCheck35_X39e 
+count35_X39 
+countCheck35_X40s 
+countCheck35_X40e 
+count35_X40 
+countCheck35_X41s 
+countCheck35_X41e 
+count35_X41 
+countCheck35_X42s 
+countCheck35_X42e 
+count35_X42 
+countCheck35_X43s 
+countCheck35_X43e 
+count35_X43 
+countCheck35_X44s 
+countCheck35_X44e 
+count35_X44 
+countCheck35_X45s 
+countCheck35_X45e 
+count35_X45 
+countCheck35_X46s 
+countCheck35_X46e 
+count35_X46 
+countCheck35_X47s 
+countCheck35_X47e 
+count35_X47 
+countCheck35_X48s 
+countCheck35_X48e 
+count35_X48 
+countCheck35_X49s 
+countCheck35_X49e 
+count35_X49 
+countCheck35_X50s 
+countCheck35_X50e 
+count35_X50 
+countCheck35_X51s 
+countCheck35_X51e 
+count35_X51 
+countCheck35_X52s 
+countCheck35_X52e 
+count35_X52 
+countCheck35_X53s 
+countCheck35_X53e 
+count35_X53 
+countCheck35_X54s 
+countCheck35_X54e 
+count35_X54 
+countCheck35_X55s 
+countCheck35_X55e 
+count35_X55 
+countCheck35_X56s 
+countCheck35_X56e 
+count35_X56 
+countCheck35_X57s 
+countCheck35_X57e 
+count35_X57 
+countCheck35_X58s 
+countCheck35_X58e 
+count35_X58 
+countCheck35_X59s 
+countCheck35_X59e 
+count35_X59 
+countCheck35_X60s 
+countCheck35_X60e 
+count35_X60 
+countCheck35_X61s 
+countCheck35_X61e 
+count35_X61 
+countCheck35_X62s 
+countCheck35_X62e 
+count35_X62 
+countCheck35_X63s 
+countCheck35_X63e 
+count35_X63 
+countCheck35_X64s 
+countCheck35_X64e 
+count35_X64 
+countCheck35_X65s 
+countCheck35_X65e 
+count35_X65 
+countCheck35_X66s 
+countCheck35_X66e 
+count35_X66 
+countCheck35_X67s 
+countCheck35_X67e 
+count35_X67 
+countCheck36_X0s 
+countCheck36_X0e 
+count36_X0 
+countCheck36_X1s 
+countCheck36_X1e 
+count36_X1 
+countCheck36_X2s 
+countCheck36_X2e 
+count36_X2 
+countCheck36_X3s 
+countCheck36_X3e 
+count36_X3 
+countCheck36_X4s 
+countCheck36_X4e 
+count36_X4 
+countCheck36_X5s 
+countCheck36_X5e 
+count36_X5 
+countCheck36_X6s 
+countCheck36_X6e 
+count36_X6 
+countCheck36_X7s 
+countCheck36_X7e 
+count36_X7 
+countCheck36_X8s 
+countCheck36_X8e 
+count36_X8 
+countCheck36_X9s 
+countCheck36_X9e 
+count36_X9 
+countCheck36_X10s 
+countCheck36_X10e 
+count36_X10 
+countCheck36_X11s 
+countCheck36_X11e 
+count36_X11 
+countCheck36_X12s 
+countCheck36_X12e 
+count36_X12 
+countCheck36_X13s 
+countCheck36_X13e 
+count36_X13 
+countCheck36_X14s 
+countCheck36_X14e 
+count36_X14 
+countCheck36_X15s 
+countCheck36_X15e 
+count36_X15 
+countCheck36_X16s 
+countCheck36_X16e 
+count36_X16 
+countCheck36_X17s 
+countCheck36_X17e 
+count36_X17 
+countCheck36_X18s 
+countCheck36_X18e 
+count36_X18 
+countCheck36_X19s 
+countCheck36_X19e 
+count36_X19 
+countCheck36_X20s 
+countCheck36_X20e 
+count36_X20 
+countCheck36_X21s 
+countCheck36_X21e 
+count36_X21 
+countCheck36_X22s 
+countCheck36_X22e 
+count36_X22 
+countCheck36_X23s 
+countCheck36_X23e 
+count36_X23 
+countCheck36_X24s 
+countCheck36_X24e 
+count36_X24 
+countCheck36_X25s 
+countCheck36_X25e 
+count36_X25 
+countCheck36_X26s 
+countCheck36_X26e 
+count36_X26 
+countCheck36_X27s 
+countCheck36_X27e 
+count36_X27 
+countCheck36_X28s 
+countCheck36_X28e 
+count36_X28 
+countCheck36_X29s 
+countCheck36_X29e 
+count36_X29 
+countCheck36_X30s 
+countCheck36_X30e 
+count36_X30 
+countCheck36_X31s 
+countCheck36_X31e 
+count36_X31 
+countCheck36_X32s 
+countCheck36_X32e 
+count36_X32 
+countCheck36_X33s 
+countCheck36_X33e 
+count36_X33 
+countCheck36_X34s 
+countCheck36_X34e 
+count36_X34 
+countCheck36_X35s 
+countCheck36_X35e 
+count36_X35 
+countCheck36_X36s 
+countCheck36_X36e 
+count36_X36 
+countCheck36_X37s 
+countCheck36_X37e 
+count36_X37 
+countCheck36_X38s 
+countCheck36_X38e 
+count36_X38 
+countCheck36_X39s 
+countCheck36_X39e 
+count36_X39 
+countCheck36_X40s 
+countCheck36_X40e 
+count36_X40 
+countCheck36_X41s 
+countCheck36_X41e 
+count36_X41 
+countCheck36_X42s 
+countCheck36_X42e 
+count36_X42 
+countCheck36_X43s 
+countCheck36_X43e 
+count36_X43 
+countCheck36_X44s 
+countCheck36_X44e 
+count36_X44 
+countCheck36_X45s 
+countCheck36_X45e 
+count36_X45 
+countCheck36_X46s 
+countCheck36_X46e 
+count36_X46 
+countCheck36_X47s 
+countCheck36_X47e 
+count36_X47 
+countCheck36_X48s 
+countCheck36_X48e 
+count36_X48 
+countCheck36_X49s 
+countCheck36_X49e 
+count36_X49 
+countCheck36_X50s 
+countCheck36_X50e 
+count36_X50 
+countCheck36_X51s 
+countCheck36_X51e 
+count36_X51 
+countCheck36_X52s 
+countCheck36_X52e 
+count36_X52 
+countCheck36_X53s 
+countCheck36_X53e 
+count36_X53 
+countCheck36_X54s 
+countCheck36_X54e 
+count36_X54 
+countCheck36_X55s 
+countCheck36_X55e 
+count36_X55 
+countCheck36_X56s 
+countCheck36_X56e 
+count36_X56 
+countCheck36_X57s 
+countCheck36_X57e 
+count36_X57 
+countCheck36_X58s 
+countCheck36_X58e 
+count36_X58 
+countCheck36_X59s 
+countCheck36_X59e 
+count36_X59 
+countCheck36_X60s 
+countCheck36_X60e 
+count36_X60 
+countCheck36_X61s 
+countCheck36_X61e 
+count36_X61 
+countCheck36_X62s 
+countCheck36_X62e 
+count36_X62 
+countCheck36_X63s 
+countCheck36_X63e 
+count36_X63 
+countCheck36_X64s 
+countCheck36_X64e 
+count36_X64 
+countCheck36_X65s 
+countCheck36_X65e 
+count36_X65 
+countCheck36_X66s 
+countCheck36_X66e 
+count36_X66 
+countCheck36_X67s 
+countCheck36_X67e 
+count36_X67 
+countCheck37_X0s 
+countCheck37_X0e 
+count37_X0 
+countCheck37_X1s 
+countCheck37_X1e 
+count37_X1 
+countCheck37_X2s 
+countCheck37_X2e 
+count37_X2 
+countCheck37_X3s 
+countCheck37_X3e 
+count37_X3 
+countCheck37_X4s 
+countCheck37_X4e 
+count37_X4 
+countCheck37_X5s 
+countCheck37_X5e 
+count37_X5 
+countCheck37_X6s 
+countCheck37_X6e 
+count37_X6 
+countCheck37_X7s 
+countCheck37_X7e 
+count37_X7 
+countCheck37_X8s 
+countCheck37_X8e 
+count37_X8 
+countCheck37_X9s 
+countCheck37_X9e 
+count37_X9 
+countCheck37_X10s 
+countCheck37_X10e 
+count37_X10 
+countCheck37_X11s 
+countCheck37_X11e 
+count37_X11 
+countCheck37_X12s 
+countCheck37_X12e 
+count37_X12 
+countCheck37_X13s 
+countCheck37_X13e 
+count37_X13 
+countCheck37_X14s 
+countCheck37_X14e 
+count37_X14 
+countCheck37_X15s 
+countCheck37_X15e 
+count37_X15 
+countCheck37_X16s 
+countCheck37_X16e 
+count37_X16 
+countCheck37_X17s 
+countCheck37_X17e 
+count37_X17 
+countCheck37_X18s 
+countCheck37_X18e 
+count37_X18 
+countCheck37_X19s 
+countCheck37_X19e 
+count37_X19 
+countCheck37_X20s 
+countCheck37_X20e 
+count37_X20 
+countCheck37_X21s 
+countCheck37_X21e 
+count37_X21 
+countCheck37_X22s 
+countCheck37_X22e 
+count37_X22 
+countCheck37_X23s 
+countCheck37_X23e 
+count37_X23 
+countCheck37_X24s 
+countCheck37_X24e 
+count37_X24 
+countCheck37_X25s 
+countCheck37_X25e 
+count37_X25 
+countCheck37_X26s 
+countCheck37_X26e 
+count37_X26 
+countCheck37_X27s 
+countCheck37_X27e 
+count37_X27 
+countCheck37_X28s 
+countCheck37_X28e 
+count37_X28 
+countCheck37_X29s 
+countCheck37_X29e 
+count37_X29 
+countCheck37_X30s 
+countCheck37_X30e 
+count37_X30 
+countCheck37_X31s 
+countCheck37_X31e 
+count37_X31 
+countCheck37_X32s 
+countCheck37_X32e 
+count37_X32 
+countCheck37_X33s 
+countCheck37_X33e 
+count37_X33 
+countCheck37_X34s 
+countCheck37_X34e 
+count37_X34 
+countCheck37_X35s 
+countCheck37_X35e 
+count37_X35 
+countCheck37_X36s 
+countCheck37_X36e 
+count37_X36 
+countCheck37_X37s 
+countCheck37_X37e 
+count37_X37 
+countCheck37_X38s 
+countCheck37_X38e 
+count37_X38 
+countCheck37_X39s 
+countCheck37_X39e 
+count37_X39 
+countCheck37_X40s 
+countCheck37_X40e 
+count37_X40 
+countCheck37_X41s 
+countCheck37_X41e 
+count37_X41 
+countCheck37_X42s 
+countCheck37_X42e 
+count37_X42 
+countCheck37_X43s 
+countCheck37_X43e 
+count37_X43 
+countCheck37_X44s 
+countCheck37_X44e 
+count37_X44 
+countCheck37_X45s 
+countCheck37_X45e 
+count37_X45 
+countCheck37_X46s 
+countCheck37_X46e 
+count37_X46 
+countCheck37_X47s 
+countCheck37_X47e 
+count37_X47 
+countCheck37_X48s 
+countCheck37_X48e 
+count37_X48 
+countCheck37_X49s 
+countCheck37_X49e 
+count37_X49 
+countCheck37_X50s 
+countCheck37_X50e 
+count37_X50 
+countCheck37_X51s 
+countCheck37_X51e 
+count37_X51 
+countCheck37_X52s 
+countCheck37_X52e 
+count37_X52 
+countCheck37_X53s 
+countCheck37_X53e 
+count37_X53 
+countCheck37_X54s 
+countCheck37_X54e 
+count37_X54 
+countCheck37_X55s 
+countCheck37_X55e 
+count37_X55 
+countCheck37_X56s 
+countCheck37_X56e 
+count37_X56 
+countCheck37_X57s 
+countCheck37_X57e 
+count37_X57 
+countCheck37_X58s 
+countCheck37_X58e 
+count37_X58 
+countCheck37_X59s 
+countCheck37_X59e 
+count37_X59 
+countCheck37_X60s 
+countCheck37_X60e 
+count37_X60 
+countCheck37_X61s 
+countCheck37_X61e 
+count37_X61 
+countCheck37_X62s 
+countCheck37_X62e 
+count37_X62 
+countCheck37_X63s 
+countCheck37_X63e 
+count37_X63 
+countCheck37_X64s 
+countCheck37_X64e 
+count37_X64 
+countCheck37_X65s 
+countCheck37_X65e 
+count37_X65 
+countCheck37_X66s 
+countCheck37_X66e 
+count37_X66 
+countCheck37_X67s 
+countCheck37_X67e 
+count37_X67 
+countCheck38_X0s 
+countCheck38_X0e 
+count38_X0 
+countCheck38_X1s 
+countCheck38_X1e 
+count38_X1 
+countCheck38_X2s 
+countCheck38_X2e 
+count38_X2 
+countCheck38_X3s 
+countCheck38_X3e 
+count38_X3 
+countCheck38_X4s 
+countCheck38_X4e 
+count38_X4 
+countCheck38_X5s 
+countCheck38_X5e 
+count38_X5 
+countCheck38_X6s 
+countCheck38_X6e 
+count38_X6 
+countCheck38_X7s 
+countCheck38_X7e 
+count38_X7 
+countCheck38_X8s 
+countCheck38_X8e 
+count38_X8 
+countCheck38_X9s 
+countCheck38_X9e 
+count38_X9 
+countCheck38_X10s 
+countCheck38_X10e 
+count38_X10 
+countCheck38_X11s 
+countCheck38_X11e 
+count38_X11 
+countCheck38_X12s 
+countCheck38_X12e 
+count38_X12 
+countCheck38_X13s 
+countCheck38_X13e 
+count38_X13 
+countCheck38_X14s 
+countCheck38_X14e 
+count38_X14 
+countCheck38_X15s 
+countCheck38_X15e 
+count38_X15 
+countCheck38_X16s 
+countCheck38_X16e 
+count38_X16 
+countCheck38_X17s 
+countCheck38_X17e 
+count38_X17 
+countCheck38_X18s 
+countCheck38_X18e 
+count38_X18 
+countCheck38_X19s 
+countCheck38_X19e 
+count38_X19 
+countCheck38_X20s 
+countCheck38_X20e 
+count38_X20 
+countCheck38_X21s 
+countCheck38_X21e 
+count38_X21 
+countCheck38_X22s 
+countCheck38_X22e 
+count38_X22 
+countCheck38_X23s 
+countCheck38_X23e 
+count38_X23 
+countCheck38_X24s 
+countCheck38_X24e 
+count38_X24 
+countCheck38_X25s 
+countCheck38_X25e 
+count38_X25 
+countCheck38_X26s 
+countCheck38_X26e 
+count38_X26 
+countCheck38_X27s 
+countCheck38_X27e 
+count38_X27 
+countCheck38_X28s 
+countCheck38_X28e 
+count38_X28 
+countCheck38_X29s 
+countCheck38_X29e 
+count38_X29 
+countCheck38_X30s 
+countCheck38_X30e 
+count38_X30 
+countCheck38_X31s 
+countCheck38_X31e 
+count38_X31 
+countCheck38_X32s 
+countCheck38_X32e 
+count38_X32 
+countCheck38_X33s 
+countCheck38_X33e 
+count38_X33 
+countCheck38_X34s 
+countCheck38_X34e 
+count38_X34 
+countCheck38_X35s 
+countCheck38_X35e 
+count38_X35 
+countCheck38_X36s 
+countCheck38_X36e 
+count38_X36 
+countCheck38_X37s 
+countCheck38_X37e 
+count38_X37 
+countCheck38_X38s 
+countCheck38_X38e 
+count38_X38 
+countCheck38_X39s 
+countCheck38_X39e 
+count38_X39 
+countCheck38_X40s 
+countCheck38_X40e 
+count38_X40 
+countCheck38_X41s 
+countCheck38_X41e 
+count38_X41 
+countCheck38_X42s 
+countCheck38_X42e 
+count38_X42 
+countCheck38_X43s 
+countCheck38_X43e 
+count38_X43 
+countCheck38_X44s 
+countCheck38_X44e 
+count38_X44 
+countCheck38_X45s 
+countCheck38_X45e 
+count38_X45 
+countCheck38_X46s 
+countCheck38_X46e 
+count38_X46 
+countCheck38_X47s 
+countCheck38_X47e 
+count38_X47 
+countCheck38_X48s 
+countCheck38_X48e 
+count38_X48 
+countCheck38_X49s 
+countCheck38_X49e 
+count38_X49 
+countCheck38_X50s 
+countCheck38_X50e 
+count38_X50 
+countCheck38_X51s 
+countCheck38_X51e 
+count38_X51 
+countCheck38_X52s 
+countCheck38_X52e 
+count38_X52 
+countCheck38_X53s 
+countCheck38_X53e 
+count38_X53 
+countCheck38_X54s 
+countCheck38_X54e 
+count38_X54 
+countCheck38_X55s 
+countCheck38_X55e 
+count38_X55 
+countCheck38_X56s 
+countCheck38_X56e 
+count38_X56 
+countCheck38_X57s 
+countCheck38_X57e 
+count38_X57 
+countCheck38_X58s 
+countCheck38_X58e 
+count38_X58 
+countCheck38_X59s 
+countCheck38_X59e 
+count38_X59 
+countCheck38_X60s 
+countCheck38_X60e 
+count38_X60 
+countCheck38_X61s 
+countCheck38_X61e 
+count38_X61 
+countCheck38_X62s 
+countCheck38_X62e 
+count38_X62 
+countCheck38_X63s 
+countCheck38_X63e 
+count38_X63 
+countCheck38_X64s 
+countCheck38_X64e 
+count38_X64 
+countCheck38_X65s 
+countCheck38_X65e 
+count38_X65 
+countCheck38_X66s 
+countCheck38_X66e 
+count38_X66 
+countCheck38_X67s 
+countCheck38_X67e 
+count38_X67 
+countCheck39_X0s 
+countCheck39_X0e 
+count39_X0 
+countCheck39_X1s 
+countCheck39_X1e 
+count39_X1 
+countCheck39_X2s 
+countCheck39_X2e 
+count39_X2 
+countCheck39_X3s 
+countCheck39_X3e 
+count39_X3 
+countCheck39_X4s 
+countCheck39_X4e 
+count39_X4 
+countCheck39_X5s 
+countCheck39_X5e 
+count39_X5 
+countCheck39_X6s 
+countCheck39_X6e 
+count39_X6 
+countCheck39_X7s 
+countCheck39_X7e 
+count39_X7 
+countCheck39_X8s 
+countCheck39_X8e 
+count39_X8 
+countCheck39_X9s 
+countCheck39_X9e 
+count39_X9 
+countCheck39_X10s 
+countCheck39_X10e 
+count39_X10 
+countCheck39_X11s 
+countCheck39_X11e 
+count39_X11 
+countCheck39_X12s 
+countCheck39_X12e 
+count39_X12 
+countCheck39_X13s 
+countCheck39_X13e 
+count39_X13 
+countCheck39_X14s 
+countCheck39_X14e 
+count39_X14 
+countCheck39_X15s 
+countCheck39_X15e 
+count39_X15 
+countCheck39_X16s 
+countCheck39_X16e 
+count39_X16 
+countCheck39_X17s 
+countCheck39_X17e 
+count39_X17 
+countCheck39_X18s 
+countCheck39_X18e 
+count39_X18 
+countCheck39_X19s 
+countCheck39_X19e 
+count39_X19 
+countCheck39_X20s 
+countCheck39_X20e 
+count39_X20 
+countCheck39_X21s 
+countCheck39_X21e 
+count39_X21 
+countCheck39_X22s 
+countCheck39_X22e 
+count39_X22 
+countCheck39_X23s 
+countCheck39_X23e 
+count39_X23 
+countCheck39_X24s 
+countCheck39_X24e 
+count39_X24 
+countCheck39_X25s 
+countCheck39_X25e 
+count39_X25 
+countCheck39_X26s 
+countCheck39_X26e 
+count39_X26 
+countCheck39_X27s 
+countCheck39_X27e 
+count39_X27 
+countCheck39_X28s 
+countCheck39_X28e 
+count39_X28 
+countCheck39_X29s 
+countCheck39_X29e 
+count39_X29 
+countCheck39_X30s 
+countCheck39_X30e 
+count39_X30 
+countCheck39_X31s 
+countCheck39_X31e 
+count39_X31 
+countCheck39_X32s 
+countCheck39_X32e 
+count39_X32 
+countCheck39_X33s 
+countCheck39_X33e 
+count39_X33 
+countCheck39_X34s 
+countCheck39_X34e 
+count39_X34 
+countCheck39_X35s 
+countCheck39_X35e 
+count39_X35 
+countCheck39_X36s 
+countCheck39_X36e 
+count39_X36 
+countCheck39_X37s 
+countCheck39_X37e 
+count39_X37 
+countCheck39_X38s 
+countCheck39_X38e 
+count39_X38 
+countCheck39_X39s 
+countCheck39_X39e 
+count39_X39 
+countCheck39_X40s 
+countCheck39_X40e 
+count39_X40 
+countCheck39_X41s 
+countCheck39_X41e 
+count39_X41 
+countCheck39_X42s 
+countCheck39_X42e 
+count39_X42 
+countCheck39_X43s 
+countCheck39_X43e 
+count39_X43 
+countCheck39_X44s 
+countCheck39_X44e 
+count39_X44 
+countCheck39_X45s 
+countCheck39_X45e 
+count39_X45 
+countCheck39_X46s 
+countCheck39_X46e 
+count39_X46 
+countCheck39_X47s 
+countCheck39_X47e 
+count39_X47 
+countCheck39_X48s 
+countCheck39_X48e 
+count39_X48 
+countCheck39_X49s 
+countCheck39_X49e 
+count39_X49 
+countCheck39_X50s 
+countCheck39_X50e 
+count39_X50 
+countCheck39_X51s 
+countCheck39_X51e 
+count39_X51 
+countCheck39_X52s 
+countCheck39_X52e 
+count39_X52 
+countCheck39_X53s 
+countCheck39_X53e 
+count39_X53 
+countCheck39_X54s 
+countCheck39_X54e 
+count39_X54 
+countCheck39_X55s 
+countCheck39_X55e 
+count39_X55 
+countCheck39_X56s 
+countCheck39_X56e 
+count39_X56 
+countCheck39_X57s 
+countCheck39_X57e 
+count39_X57 
+countCheck39_X58s 
+countCheck39_X58e 
+count39_X58 
+countCheck39_X59s 
+countCheck39_X59e 
+count39_X59 
+countCheck39_X60s 
+countCheck39_X60e 
+count39_X60 
+countCheck39_X61s 
+countCheck39_X61e 
+count39_X61 
+countCheck39_X62s 
+countCheck39_X62e 
+count39_X62 
+countCheck39_X63s 
+countCheck39_X63e 
+count39_X63 
+countCheck39_X64s 
+countCheck39_X64e 
+count39_X64 
+countCheck39_X65s 
+countCheck39_X65e 
+count39_X65 
+countCheck39_X66s 
+countCheck39_X66e 
+count39_X66 
+countCheck39_X67s 
+countCheck39_X67e 
+count39_X67 
+countCheck40_X0s 
+countCheck40_X0e 
+count40_X0 
+countCheck40_X1s 
+countCheck40_X1e 
+count40_X1 
+countCheck40_X2s 
+countCheck40_X2e 
+count40_X2 
+countCheck40_X3s 
+countCheck40_X3e 
+count40_X3 
+countCheck40_X4s 
+countCheck40_X4e 
+count40_X4 
+countCheck40_X5s 
+countCheck40_X5e 
+count40_X5 
+countCheck40_X6s 
+countCheck40_X6e 
+count40_X6 
+countCheck40_X7s 
+countCheck40_X7e 
+count40_X7 
+countCheck40_X8s 
+countCheck40_X8e 
+count40_X8 
+countCheck40_X9s 
+countCheck40_X9e 
+count40_X9 
+countCheck40_X10s 
+countCheck40_X10e 
+count40_X10 
+countCheck40_X11s 
+countCheck40_X11e 
+count40_X11 
+countCheck40_X12s 
+countCheck40_X12e 
+count40_X12 
+countCheck40_X13s 
+countCheck40_X13e 
+count40_X13 
+countCheck40_X14s 
+countCheck40_X14e 
+count40_X14 
+countCheck40_X15s 
+countCheck40_X15e 
+count40_X15 
+countCheck40_X16s 
+countCheck40_X16e 
+count40_X16 
+countCheck40_X17s 
+countCheck40_X17e 
+count40_X17 
+countCheck40_X18s 
+countCheck40_X18e 
+count40_X18 
+countCheck40_X19s 
+countCheck40_X19e 
+count40_X19 
+countCheck40_X20s 
+countCheck40_X20e 
+count40_X20 
+countCheck40_X21s 
+countCheck40_X21e 
+count40_X21 
+countCheck40_X22s 
+countCheck40_X22e 
+count40_X22 
+countCheck40_X23s 
+countCheck40_X23e 
+count40_X23 
+countCheck40_X24s 
+countCheck40_X24e 
+count40_X24 
+countCheck40_X25s 
+countCheck40_X25e 
+count40_X25 
+countCheck40_X26s 
+countCheck40_X26e 
+count40_X26 
+countCheck40_X27s 
+countCheck40_X27e 
+count40_X27 
+countCheck40_X28s 
+countCheck40_X28e 
+count40_X28 
+countCheck40_X29s 
+countCheck40_X29e 
+count40_X29 
+countCheck40_X30s 
+countCheck40_X30e 
+count40_X30 
+countCheck40_X31s 
+countCheck40_X31e 
+count40_X31 
+countCheck40_X32s 
+countCheck40_X32e 
+count40_X32 
+countCheck40_X33s 
+countCheck40_X33e 
+count40_X33 
+countCheck40_X34s 
+countCheck40_X34e 
+count40_X34 
+countCheck40_X35s 
+countCheck40_X35e 
+count40_X35 
+countCheck40_X36s 
+countCheck40_X36e 
+count40_X36 
+countCheck40_X37s 
+countCheck40_X37e 
+count40_X37 
+countCheck40_X38s 
+countCheck40_X38e 
+count40_X38 
+countCheck40_X39s 
+countCheck40_X39e 
+count40_X39 
+countCheck40_X40s 
+countCheck40_X40e 
+count40_X40 
+countCheck40_X41s 
+countCheck40_X41e 
+count40_X41 
+countCheck40_X42s 
+countCheck40_X42e 
+count40_X42 
+countCheck40_X43s 
+countCheck40_X43e 
+count40_X43 
+countCheck40_X44s 
+countCheck40_X44e 
+count40_X44 
+countCheck40_X45s 
+countCheck40_X45e 
+count40_X45 
+countCheck40_X46s 
+countCheck40_X46e 
+count40_X46 
+countCheck40_X47s 
+countCheck40_X47e 
+count40_X47 
+countCheck40_X48s 
+countCheck40_X48e 
+count40_X48 
+countCheck40_X49s 
+countCheck40_X49e 
+count40_X49 
+countCheck40_X50s 
+countCheck40_X50e 
+count40_X50 
+countCheck40_X51s 
+countCheck40_X51e 
+count40_X51 
+countCheck40_X52s 
+countCheck40_X52e 
+count40_X52 
+countCheck40_X53s 
+countCheck40_X53e 
+count40_X53 
+countCheck40_X54s 
+countCheck40_X54e 
+count40_X54 
+countCheck40_X55s 
+countCheck40_X55e 
+count40_X55 
+countCheck40_X56s 
+countCheck40_X56e 
+count40_X56 
+countCheck40_X57s 
+countCheck40_X57e 
+count40_X57 
+countCheck40_X58s 
+countCheck40_X58e 
+count40_X58 
+countCheck40_X59s 
+countCheck40_X59e 
+count40_X59 
+countCheck40_X60s 
+countCheck40_X60e 
+count40_X60 
+countCheck40_X61s 
+countCheck40_X61e 
+count40_X61 
+countCheck40_X62s 
+countCheck40_X62e 
+count40_X62 
+countCheck40_X63s 
+countCheck40_X63e 
+count40_X63 
+countCheck40_X64s 
+countCheck40_X64e 
+count40_X64 
+countCheck40_X65s 
+countCheck40_X65e 
+count40_X65 
+countCheck40_X66s 
+countCheck40_X66e 
+count40_X66 
+countCheck40_X67s 
+countCheck40_X67e 
+count40_X67 
+countCheck41_X0s 
+countCheck41_X0e 
+count41_X0 
+countCheck41_X1s 
+countCheck41_X1e 
+count41_X1 
+countCheck41_X2s 
+countCheck41_X2e 
+count41_X2 
+countCheck41_X3s 
+countCheck41_X3e 
+count41_X3 
+countCheck41_X4s 
+countCheck41_X4e 
+count41_X4 
+countCheck41_X5s 
+countCheck41_X5e 
+count41_X5 
+countCheck41_X6s 
+countCheck41_X6e 
+count41_X6 
+countCheck41_X7s 
+countCheck41_X7e 
+count41_X7 
+countCheck41_X8s 
+countCheck41_X8e 
+count41_X8 
+countCheck41_X9s 
+countCheck41_X9e 
+count41_X9 
+countCheck41_X10s 
+countCheck41_X10e 
+count41_X10 
+countCheck41_X11s 
+countCheck41_X11e 
+count41_X11 
+countCheck41_X12s 
+countCheck41_X12e 
+count41_X12 
+countCheck41_X13s 
+countCheck41_X13e 
+count41_X13 
+countCheck41_X14s 
+countCheck41_X14e 
+count41_X14 
+countCheck41_X15s 
+countCheck41_X15e 
+count41_X15 
+countCheck41_X16s 
+countCheck41_X16e 
+count41_X16 
+countCheck41_X17s 
+countCheck41_X17e 
+count41_X17 
+countCheck41_X18s 
+countCheck41_X18e 
+count41_X18 
+countCheck41_X19s 
+countCheck41_X19e 
+count41_X19 
+countCheck41_X20s 
+countCheck41_X20e 
+count41_X20 
+countCheck41_X21s 
+countCheck41_X21e 
+count41_X21 
+countCheck41_X22s 
+countCheck41_X22e 
+count41_X22 
+countCheck41_X23s 
+countCheck41_X23e 
+count41_X23 
+countCheck41_X24s 
+countCheck41_X24e 
+count41_X24 
+countCheck41_X25s 
+countCheck41_X25e 
+count41_X25 
+countCheck41_X26s 
+countCheck41_X26e 
+count41_X26 
+countCheck41_X27s 
+countCheck41_X27e 
+count41_X27 
+countCheck41_X28s 
+countCheck41_X28e 
+count41_X28 
+countCheck41_X29s 
+countCheck41_X29e 
+count41_X29 
+countCheck41_X30s 
+countCheck41_X30e 
+count41_X30 
+countCheck41_X31s 
+countCheck41_X31e 
+count41_X31 
+countCheck41_X32s 
+countCheck41_X32e 
+count41_X32 
+countCheck41_X33s 
+countCheck41_X33e 
+count41_X33 
+countCheck41_X34s 
+countCheck41_X34e 
+count41_X34 
+countCheck41_X35s 
+countCheck41_X35e 
+count41_X35 
+countCheck41_X36s 
+countCheck41_X36e 
+count41_X36 
+countCheck41_X37s 
+countCheck41_X37e 
+count41_X37 
+countCheck41_X38s 
+countCheck41_X38e 
+count41_X38 
+countCheck41_X39s 
+countCheck41_X39e 
+count41_X39 
+countCheck41_X40s 
+countCheck41_X40e 
+count41_X40 
+countCheck41_X41s 
+countCheck41_X41e 
+count41_X41 
+countCheck41_X42s 
+countCheck41_X42e 
+count41_X42 
+countCheck41_X43s 
+countCheck41_X43e 
+count41_X43 
+countCheck41_X44s 
+countCheck41_X44e 
+count41_X44 
+countCheck41_X45s 
+countCheck41_X45e 
+count41_X45 
+countCheck41_X46s 
+countCheck41_X46e 
+count41_X46 
+countCheck41_X47s 
+countCheck41_X47e 
+count41_X47 
+countCheck41_X48s 
+countCheck41_X48e 
+count41_X48 
+countCheck41_X49s 
+countCheck41_X49e 
+count41_X49 
+countCheck41_X50s 
+countCheck41_X50e 
+count41_X50 
+countCheck41_X51s 
+countCheck41_X51e 
+count41_X51 
+countCheck41_X52s 
+countCheck41_X52e 
+count41_X52 
+countCheck41_X53s 
+countCheck41_X53e 
+count41_X53 
+countCheck41_X54s 
+countCheck41_X54e 
+count41_X54 
+countCheck41_X55s 
+countCheck41_X55e 
+count41_X55 
+countCheck41_X56s 
+countCheck41_X56e 
+count41_X56 
+countCheck41_X57s 
+countCheck41_X57e 
+count41_X57 
+countCheck41_X58s 
+countCheck41_X58e 
+count41_X58 
+countCheck41_X59s 
+countCheck41_X59e 
+count41_X59 
+countCheck41_X60s 
+countCheck41_X60e 
+count41_X60 
+countCheck41_X61s 
+countCheck41_X61e 
+count41_X61 
+countCheck41_X62s 
+countCheck41_X62e 
+count41_X62 
+countCheck41_X63s 
+countCheck41_X63e 
+count41_X63 
+countCheck41_X64s 
+countCheck41_X64e 
+count41_X64 
+countCheck41_X65s 
+countCheck41_X65e 
+count41_X65 
+countCheck41_X66s 
+countCheck41_X66e 
+count41_X66 
+countCheck41_X67s 
+countCheck41_X67e 
+count41_X67 
+countCheck42_X0s 
+countCheck42_X0e 
+count42_X0 
+countCheck42_X1s 
+countCheck42_X1e 
+count42_X1 
+countCheck42_X2s 
+countCheck42_X2e 
+count42_X2 
+countCheck42_X3s 
+countCheck42_X3e 
+count42_X3 
+countCheck42_X4s 
+countCheck42_X4e 
+count42_X4 
+countCheck42_X5s 
+countCheck42_X5e 
+count42_X5 
+countCheck42_X6s 
+countCheck42_X6e 
+count42_X6 
+countCheck42_X7s 
+countCheck42_X7e 
+count42_X7 
+countCheck42_X8s 
+countCheck42_X8e 
+count42_X8 
+countCheck42_X9s 
+countCheck42_X9e 
+count42_X9 
+countCheck42_X10s 
+countCheck42_X10e 
+count42_X10 
+countCheck42_X11s 
+countCheck42_X11e 
+count42_X11 
+countCheck42_X12s 
+countCheck42_X12e 
+count42_X12 
+countCheck42_X13s 
+countCheck42_X13e 
+count42_X13 
+countCheck42_X14s 
+countCheck42_X14e 
+count42_X14 
+countCheck42_X15s 
+countCheck42_X15e 
+count42_X15 
+countCheck42_X16s 
+countCheck42_X16e 
+count42_X16 
+countCheck42_X17s 
+countCheck42_X17e 
+count42_X17 
+countCheck42_X18s 
+countCheck42_X18e 
+count42_X18 
+countCheck42_X19s 
+countCheck42_X19e 
+count42_X19 
+countCheck42_X20s 
+countCheck42_X20e 
+count42_X20 
+countCheck42_X21s 
+countCheck42_X21e 
+count42_X21 
+countCheck42_X22s 
+countCheck42_X22e 
+count42_X22 
+countCheck42_X23s 
+countCheck42_X23e 
+count42_X23 
+countCheck42_X24s 
+countCheck42_X24e 
+count42_X24 
+countCheck42_X25s 
+countCheck42_X25e 
+count42_X25 
+countCheck42_X26s 
+countCheck42_X26e 
+count42_X26 
+countCheck42_X27s 
+countCheck42_X27e 
+count42_X27 
+countCheck42_X28s 
+countCheck42_X28e 
+count42_X28 
+countCheck42_X29s 
+countCheck42_X29e 
+count42_X29 
+countCheck42_X30s 
+countCheck42_X30e 
+count42_X30 
+countCheck42_X31s 
+countCheck42_X31e 
+count42_X31 
+countCheck42_X32s 
+countCheck42_X32e 
+count42_X32 
+countCheck42_X33s 
+countCheck42_X33e 
+count42_X33 
+countCheck42_X34s 
+countCheck42_X34e 
+count42_X34 
+countCheck42_X35s 
+countCheck42_X35e 
+count42_X35 
+countCheck42_X36s 
+countCheck42_X36e 
+count42_X36 
+countCheck42_X37s 
+countCheck42_X37e 
+count42_X37 
+countCheck42_X38s 
+countCheck42_X38e 
+count42_X38 
+countCheck42_X39s 
+countCheck42_X39e 
+count42_X39 
+countCheck42_X40s 
+countCheck42_X40e 
+count42_X40 
+countCheck42_X41s 
+countCheck42_X41e 
+count42_X41 
+countCheck42_X42s 
+countCheck42_X42e 
+count42_X42 
+countCheck42_X43s 
+countCheck42_X43e 
+count42_X43 
+countCheck42_X44s 
+countCheck42_X44e 
+count42_X44 
+countCheck42_X45s 
+countCheck42_X45e 
+count42_X45 
+countCheck42_X46s 
+countCheck42_X46e 
+count42_X46 
+countCheck42_X47s 
+countCheck42_X47e 
+count42_X47 
+countCheck42_X48s 
+countCheck42_X48e 
+count42_X48 
+countCheck42_X49s 
+countCheck42_X49e 
+count42_X49 
+countCheck42_X50s 
+countCheck42_X50e 
+count42_X50 
+countCheck42_X51s 
+countCheck42_X51e 
+count42_X51 
+countCheck42_X52s 
+countCheck42_X52e 
+count42_X52 
+countCheck42_X53s 
+countCheck42_X53e 
+count42_X53 
+countCheck42_X54s 
+countCheck42_X54e 
+count42_X54 
+countCheck42_X55s 
+countCheck42_X55e 
+count42_X55 
+countCheck42_X56s 
+countCheck42_X56e 
+count42_X56 
+countCheck42_X57s 
+countCheck42_X57e 
+count42_X57 
+countCheck42_X58s 
+countCheck42_X58e 
+count42_X58 
+countCheck42_X59s 
+countCheck42_X59e 
+count42_X59 
+countCheck42_X60s 
+countCheck42_X60e 
+count42_X60 
+countCheck42_X61s 
+countCheck42_X61e 
+count42_X61 
+countCheck42_X62s 
+countCheck42_X62e 
+count42_X62 
+countCheck42_X63s 
+countCheck42_X63e 
+count42_X63 
+countCheck42_X64s 
+countCheck42_X64e 
+count42_X64 
+countCheck42_X65s 
+countCheck42_X65e 
+count42_X65 
+countCheck42_X66s 
+countCheck42_X66e 
+count42_X66 
+countCheck42_X67s 
+countCheck42_X67e 
+count42_X67 
+countCheck43_X0s 
+countCheck43_X0e 
+count43_X0 
+countCheck43_X1s 
+countCheck43_X1e 
+count43_X1 
+countCheck43_X2s 
+countCheck43_X2e 
+count43_X2 
+countCheck43_X3s 
+countCheck43_X3e 
+count43_X3 
+countCheck43_X4s 
+countCheck43_X4e 
+count43_X4 
+countCheck43_X5s 
+countCheck43_X5e 
+count43_X5 
+countCheck43_X6s 
+countCheck43_X6e 
+count43_X6 
+countCheck43_X7s 
+countCheck43_X7e 
+count43_X7 
+countCheck43_X8s 
+countCheck43_X8e 
+count43_X8 
+countCheck43_X9s 
+countCheck43_X9e 
+count43_X9 
+countCheck43_X10s 
+countCheck43_X10e 
+count43_X10 
+countCheck43_X11s 
+countCheck43_X11e 
+count43_X11 
+countCheck43_X12s 
+countCheck43_X12e 
+count43_X12 
+countCheck43_X13s 
+countCheck43_X13e 
+count43_X13 
+countCheck43_X14s 
+countCheck43_X14e 
+count43_X14 
+countCheck43_X15s 
+countCheck43_X15e 
+count43_X15 
+countCheck43_X16s 
+countCheck43_X16e 
+count43_X16 
+countCheck43_X17s 
+countCheck43_X17e 
+count43_X17 
+countCheck43_X18s 
+countCheck43_X18e 
+count43_X18 
+countCheck43_X19s 
+countCheck43_X19e 
+count43_X19 
+countCheck43_X20s 
+countCheck43_X20e 
+count43_X20 
+countCheck43_X21s 
+countCheck43_X21e 
+count43_X21 
+countCheck43_X22s 
+countCheck43_X22e 
+count43_X22 
+countCheck43_X23s 
+countCheck43_X23e 
+count43_X23 
+countCheck43_X24s 
+countCheck43_X24e 
+count43_X24 
+countCheck43_X25s 
+countCheck43_X25e 
+count43_X25 
+countCheck43_X26s 
+countCheck43_X26e 
+count43_X26 
+countCheck43_X27s 
+countCheck43_X27e 
+count43_X27 
+countCheck43_X28s 
+countCheck43_X28e 
+count43_X28 
+countCheck43_X29s 
+countCheck43_X29e 
+count43_X29 
+countCheck43_X30s 
+countCheck43_X30e 
+count43_X30 
+countCheck43_X31s 
+countCheck43_X31e 
+count43_X31 
+countCheck43_X32s 
+countCheck43_X32e 
+count43_X32 
+countCheck43_X33s 
+countCheck43_X33e 
+count43_X33 
+countCheck43_X34s 
+countCheck43_X34e 
+count43_X34 
+countCheck43_X35s 
+countCheck43_X35e 
+count43_X35 
+countCheck43_X36s 
+countCheck43_X36e 
+count43_X36 
+countCheck43_X37s 
+countCheck43_X37e 
+count43_X37 
+countCheck43_X38s 
+countCheck43_X38e 
+count43_X38 
+countCheck43_X39s 
+countCheck43_X39e 
+count43_X39 
+countCheck43_X40s 
+countCheck43_X40e 
+count43_X40 
+countCheck43_X41s 
+countCheck43_X41e 
+count43_X41 
+countCheck43_X42s 
+countCheck43_X42e 
+count43_X42 
+countCheck43_X43s 
+countCheck43_X43e 
+count43_X43 
+countCheck43_X44s 
+countCheck43_X44e 
+count43_X44 
+countCheck43_X45s 
+countCheck43_X45e 
+count43_X45 
+countCheck43_X46s 
+countCheck43_X46e 
+count43_X46 
+countCheck43_X47s 
+countCheck43_X47e 
+count43_X47 
+countCheck43_X48s 
+countCheck43_X48e 
+count43_X48 
+countCheck43_X49s 
+countCheck43_X49e 
+count43_X49 
+countCheck43_X50s 
+countCheck43_X50e 
+count43_X50 
+countCheck43_X51s 
+countCheck43_X51e 
+count43_X51 
+countCheck43_X52s 
+countCheck43_X52e 
+count43_X52 
+countCheck43_X53s 
+countCheck43_X53e 
+count43_X53 
+countCheck43_X54s 
+countCheck43_X54e 
+count43_X54 
+countCheck43_X55s 
+countCheck43_X55e 
+count43_X55 
+countCheck43_X56s 
+countCheck43_X56e 
+count43_X56 
+countCheck43_X57s 
+countCheck43_X57e 
+count43_X57 
+countCheck43_X58s 
+countCheck43_X58e 
+count43_X58 
+countCheck43_X59s 
+countCheck43_X59e 
+count43_X59 
+countCheck43_X60s 
+countCheck43_X60e 
+count43_X60 
+countCheck43_X61s 
+countCheck43_X61e 
+count43_X61 
+countCheck43_X62s 
+countCheck43_X62e 
+count43_X62 
+countCheck43_X63s 
+countCheck43_X63e 
+count43_X63 
+countCheck43_X64s 
+countCheck43_X64e 
+count43_X64 
+countCheck43_X65s 
+countCheck43_X65e 
+count43_X65 
+countCheck43_X66s 
+countCheck43_X66e 
+count43_X66 
+countCheck43_X67s 
+countCheck43_X67e 
+count43_X67 
+countCheck44_X0s 
+countCheck44_X0e 
+count44_X0 
+countCheck44_X1s 
+countCheck44_X1e 
+count44_X1 
+countCheck44_X2s 
+countCheck44_X2e 
+count44_X2 
+countCheck44_X3s 
+countCheck44_X3e 
+count44_X3 
+countCheck44_X4s 
+countCheck44_X4e 
+count44_X4 
+countCheck44_X5s 
+countCheck44_X5e 
+count44_X5 
+countCheck44_X6s 
+countCheck44_X6e 
+count44_X6 
+countCheck44_X7s 
+countCheck44_X7e 
+count44_X7 
+countCheck44_X8s 
+countCheck44_X8e 
+count44_X8 
+countCheck44_X9s 
+countCheck44_X9e 
+count44_X9 
+countCheck44_X10s 
+countCheck44_X10e 
+count44_X10 
+countCheck44_X11s 
+countCheck44_X11e 
+count44_X11 
+countCheck44_X12s 
+countCheck44_X12e 
+count44_X12 
+countCheck44_X13s 
+countCheck44_X13e 
+count44_X13 
+countCheck44_X14s 
+countCheck44_X14e 
+count44_X14 
+countCheck44_X15s 
+countCheck44_X15e 
+count44_X15 
+countCheck44_X16s 
+countCheck44_X16e 
+count44_X16 
+countCheck44_X17s 
+countCheck44_X17e 
+count44_X17 
+countCheck44_X18s 
+countCheck44_X18e 
+count44_X18 
+countCheck44_X19s 
+countCheck44_X19e 
+count44_X19 
+countCheck44_X20s 
+countCheck44_X20e 
+count44_X20 
+countCheck44_X21s 
+countCheck44_X21e 
+count44_X21 
+countCheck44_X22s 
+countCheck44_X22e 
+count44_X22 
+countCheck44_X23s 
+countCheck44_X23e 
+count44_X23 
+countCheck44_X24s 
+countCheck44_X24e 
+count44_X24 
+countCheck44_X25s 
+countCheck44_X25e 
+count44_X25 
+countCheck44_X26s 
+countCheck44_X26e 
+count44_X26 
+countCheck44_X27s 
+countCheck44_X27e 
+count44_X27 
+countCheck44_X28s 
+countCheck44_X28e 
+count44_X28 
+countCheck44_X29s 
+countCheck44_X29e 
+count44_X29 
+countCheck44_X30s 
+countCheck44_X30e 
+count44_X30 
+countCheck44_X31s 
+countCheck44_X31e 
+count44_X31 
+countCheck44_X32s 
+countCheck44_X32e 
+count44_X32 
+countCheck44_X33s 
+countCheck44_X33e 
+count44_X33 
+countCheck44_X34s 
+countCheck44_X34e 
+count44_X34 
+countCheck44_X35s 
+countCheck44_X35e 
+count44_X35 
+countCheck44_X36s 
+countCheck44_X36e 
+count44_X36 
+countCheck44_X37s 
+countCheck44_X37e 
+count44_X37 
+countCheck44_X38s 
+countCheck44_X38e 
+count44_X38 
+countCheck44_X39s 
+countCheck44_X39e 
+count44_X39 
+countCheck44_X40s 
+countCheck44_X40e 
+count44_X40 
+countCheck44_X41s 
+countCheck44_X41e 
+count44_X41 
+countCheck44_X42s 
+countCheck44_X42e 
+count44_X42 
+countCheck44_X43s 
+countCheck44_X43e 
+count44_X43 
+countCheck44_X44s 
+countCheck44_X44e 
+count44_X44 
+countCheck44_X45s 
+countCheck44_X45e 
+count44_X45 
+countCheck44_X46s 
+countCheck44_X46e 
+count44_X46 
+countCheck44_X47s 
+countCheck44_X47e 
+count44_X47 
+countCheck44_X48s 
+countCheck44_X48e 
+count44_X48 
+countCheck44_X49s 
+countCheck44_X49e 
+count44_X49 
+countCheck44_X50s 
+countCheck44_X50e 
+count44_X50 
+countCheck44_X51s 
+countCheck44_X51e 
+count44_X51 
+countCheck44_X52s 
+countCheck44_X52e 
+count44_X52 
+countCheck44_X53s 
+countCheck44_X53e 
+count44_X53 
+countCheck44_X54s 
+countCheck44_X54e 
+count44_X54 
+countCheck44_X55s 
+countCheck44_X55e 
+count44_X55 
+countCheck44_X56s 
+countCheck44_X56e 
+count44_X56 
+countCheck44_X57s 
+countCheck44_X57e 
+count44_X57 
+countCheck44_X58s 
+countCheck44_X58e 
+count44_X58 
+countCheck44_X59s 
+countCheck44_X59e 
+count44_X59 
+countCheck44_X60s 
+countCheck44_X60e 
+count44_X60 
+countCheck44_X61s 
+countCheck44_X61e 
+count44_X61 
+countCheck44_X62s 
+countCheck44_X62e 
+count44_X62 
+countCheck44_X63s 
+countCheck44_X63e 
+count44_X63 
+countCheck44_X64s 
+countCheck44_X64e 
+count44_X64 
+countCheck44_X65s 
+countCheck44_X65e 
+count44_X65 
+countCheck44_X66s 
+countCheck44_X66e 
+count44_X66 
+countCheck44_X67s 
+countCheck44_X67e 
+count44_X67 
+countCheck45_X0s 
+countCheck45_X0e 
+count45_X0 
+countCheck45_X1s 
+countCheck45_X1e 
+count45_X1 
+countCheck45_X2s 
+countCheck45_X2e 
+count45_X2 
+countCheck45_X3s 
+countCheck45_X3e 
+count45_X3 
+countCheck45_X4s 
+countCheck45_X4e 
+count45_X4 
+countCheck45_X5s 
+countCheck45_X5e 
+count45_X5 
+countCheck45_X6s 
+countCheck45_X6e 
+count45_X6 
+countCheck45_X7s 
+countCheck45_X7e 
+count45_X7 
+countCheck45_X8s 
+countCheck45_X8e 
+count45_X8 
+countCheck45_X9s 
+countCheck45_X9e 
+count45_X9 
+countCheck45_X10s 
+countCheck45_X10e 
+count45_X10 
+countCheck45_X11s 
+countCheck45_X11e 
+count45_X11 
+countCheck45_X12s 
+countCheck45_X12e 
+count45_X12 
+countCheck45_X13s 
+countCheck45_X13e 
+count45_X13 
+countCheck45_X14s 
+countCheck45_X14e 
+count45_X14 
+countCheck45_X15s 
+countCheck45_X15e 
+count45_X15 
+countCheck45_X16s 
+countCheck45_X16e 
+count45_X16 
+countCheck45_X17s 
+countCheck45_X17e 
+count45_X17 
+countCheck45_X18s 
+countCheck45_X18e 
+count45_X18 
+countCheck45_X19s 
+countCheck45_X19e 
+count45_X19 
+countCheck45_X20s 
+countCheck45_X20e 
+count45_X20 
+countCheck45_X21s 
+countCheck45_X21e 
+count45_X21 
+countCheck45_X22s 
+countCheck45_X22e 
+count45_X22 
+countCheck45_X23s 
+countCheck45_X23e 
+count45_X23 
+countCheck45_X24s 
+countCheck45_X24e 
+count45_X24 
+countCheck45_X25s 
+countCheck45_X25e 
+count45_X25 
+countCheck45_X26s 
+countCheck45_X26e 
+count45_X26 
+countCheck45_X27s 
+countCheck45_X27e 
+count45_X27 
+countCheck45_X28s 
+countCheck45_X28e 
+count45_X28 
+countCheck45_X29s 
+countCheck45_X29e 
+count45_X29 
+countCheck45_X30s 
+countCheck45_X30e 
+count45_X30 
+countCheck45_X31s 
+countCheck45_X31e 
+count45_X31 
+countCheck45_X32s 
+countCheck45_X32e 
+count45_X32 
+countCheck45_X33s 
+countCheck45_X33e 
+count45_X33 
+countCheck45_X34s 
+countCheck45_X34e 
+count45_X34 
+countCheck45_X35s 
+countCheck45_X35e 
+count45_X35 
+countCheck45_X36s 
+countCheck45_X36e 
+count45_X36 
+countCheck45_X37s 
+countCheck45_X37e 
+count45_X37 
+countCheck45_X38s 
+countCheck45_X38e 
+count45_X38 
+countCheck45_X39s 
+countCheck45_X39e 
+count45_X39 
+countCheck45_X40s 
+countCheck45_X40e 
+count45_X40 
+countCheck45_X41s 
+countCheck45_X41e 
+count45_X41 
+countCheck45_X42s 
+countCheck45_X42e 
+count45_X42 
+countCheck45_X43s 
+countCheck45_X43e 
+count45_X43 
+countCheck45_X44s 
+countCheck45_X44e 
+count45_X44 
+countCheck45_X45s 
+countCheck45_X45e 
+count45_X45 
+countCheck45_X46s 
+countCheck45_X46e 
+count45_X46 
+countCheck45_X47s 
+countCheck45_X47e 
+count45_X47 
+countCheck45_X48s 
+countCheck45_X48e 
+count45_X48 
+countCheck45_X49s 
+countCheck45_X49e 
+count45_X49 
+countCheck45_X50s 
+countCheck45_X50e 
+count45_X50 
+countCheck45_X51s 
+countCheck45_X51e 
+count45_X51 
+countCheck45_X52s 
+countCheck45_X52e 
+count45_X52 
+countCheck45_X53s 
+countCheck45_X53e 
+count45_X53 
+countCheck45_X54s 
+countCheck45_X54e 
+count45_X54 
+countCheck45_X55s 
+countCheck45_X55e 
+count45_X55 
+countCheck45_X56s 
+countCheck45_X56e 
+count45_X56 
+countCheck45_X57s 
+countCheck45_X57e 
+count45_X57 
+countCheck45_X58s 
+countCheck45_X58e 
+count45_X58 
+countCheck45_X59s 
+countCheck45_X59e 
+count45_X59 
+countCheck45_X60s 
+countCheck45_X60e 
+count45_X60 
+countCheck45_X61s 
+countCheck45_X61e 
+count45_X61 
+countCheck45_X62s 
+countCheck45_X62e 
+count45_X62 
+countCheck45_X63s 
+countCheck45_X63e 
+count45_X63 
+countCheck45_X64s 
+countCheck45_X64e 
+count45_X64 
+countCheck45_X65s 
+countCheck45_X65e 
+count45_X65 
+countCheck45_X66s 
+countCheck45_X66e 
+count45_X66 
+countCheck45_X67s 
+countCheck45_X67e 
+count45_X67 
+countCheck46_X0s 
+countCheck46_X0e 
+count46_X0 
+countCheck46_X1s 
+countCheck46_X1e 
+count46_X1 
+countCheck46_X2s 
+countCheck46_X2e 
+count46_X2 
+countCheck46_X3s 
+countCheck46_X3e 
+count46_X3 
+countCheck46_X4s 
+countCheck46_X4e 
+count46_X4 
+countCheck46_X5s 
+countCheck46_X5e 
+count46_X5 
+countCheck46_X6s 
+countCheck46_X6e 
+count46_X6 
+countCheck46_X7s 
+countCheck46_X7e 
+count46_X7 
+countCheck46_X8s 
+countCheck46_X8e 
+count46_X8 
+countCheck46_X9s 
+countCheck46_X9e 
+count46_X9 
+countCheck46_X10s 
+countCheck46_X10e 
+count46_X10 
+countCheck46_X11s 
+countCheck46_X11e 
+count46_X11 
+countCheck46_X12s 
+countCheck46_X12e 
+count46_X12 
+countCheck46_X13s 
+countCheck46_X13e 
+count46_X13 
+countCheck46_X14s 
+countCheck46_X14e 
+count46_X14 
+countCheck46_X15s 
+countCheck46_X15e 
+count46_X15 
+countCheck46_X16s 
+countCheck46_X16e 
+count46_X16 
+countCheck46_X17s 
+countCheck46_X17e 
+count46_X17 
+countCheck46_X18s 
+countCheck46_X18e 
+count46_X18 
+countCheck46_X19s 
+countCheck46_X19e 
+count46_X19 
+countCheck46_X20s 
+countCheck46_X20e 
+count46_X20 
+countCheck46_X21s 
+countCheck46_X21e 
+count46_X21 
+countCheck46_X22s 
+countCheck46_X22e 
+count46_X22 
+countCheck46_X23s 
+countCheck46_X23e 
+count46_X23 
+countCheck46_X24s 
+countCheck46_X24e 
+count46_X24 
+countCheck46_X25s 
+countCheck46_X25e 
+count46_X25 
+countCheck46_X26s 
+countCheck46_X26e 
+count46_X26 
+countCheck46_X27s 
+countCheck46_X27e 
+count46_X27 
+countCheck46_X28s 
+countCheck46_X28e 
+count46_X28 
+countCheck46_X29s 
+countCheck46_X29e 
+count46_X29 
+countCheck46_X30s 
+countCheck46_X30e 
+count46_X30 
+countCheck46_X31s 
+countCheck46_X31e 
+count46_X31 
+countCheck46_X32s 
+countCheck46_X32e 
+count46_X32 
+countCheck46_X33s 
+countCheck46_X33e 
+count46_X33 
+countCheck46_X34s 
+countCheck46_X34e 
+count46_X34 
+countCheck46_X35s 
+countCheck46_X35e 
+count46_X35 
+countCheck46_X36s 
+countCheck46_X36e 
+count46_X36 
+countCheck46_X37s 
+countCheck46_X37e 
+count46_X37 
+countCheck46_X38s 
+countCheck46_X38e 
+count46_X38 
+countCheck46_X39s 
+countCheck46_X39e 
+count46_X39 
+countCheck46_X40s 
+countCheck46_X40e 
+count46_X40 
+countCheck46_X41s 
+countCheck46_X41e 
+count46_X41 
+countCheck46_X42s 
+countCheck46_X42e 
+count46_X42 
+countCheck46_X43s 
+countCheck46_X43e 
+count46_X43 
+countCheck46_X44s 
+countCheck46_X44e 
+count46_X44 
+countCheck46_X45s 
+countCheck46_X45e 
+count46_X45 
+countCheck46_X46s 
+countCheck46_X46e 
+count46_X46 
+countCheck46_X47s 
+countCheck46_X47e 
+count46_X47 
+countCheck46_X48s 
+countCheck46_X48e 
+count46_X48 
+countCheck46_X49s 
+countCheck46_X49e 
+count46_X49 
+countCheck46_X50s 
+countCheck46_X50e 
+count46_X50 
+countCheck46_X51s 
+countCheck46_X51e 
+count46_X51 
+countCheck46_X52s 
+countCheck46_X52e 
+count46_X52 
+countCheck46_X53s 
+countCheck46_X53e 
+count46_X53 
+countCheck46_X54s 
+countCheck46_X54e 
+count46_X54 
+countCheck46_X55s 
+countCheck46_X55e 
+count46_X55 
+countCheck46_X56s 
+countCheck46_X56e 
+count46_X56 
+countCheck46_X57s 
+countCheck46_X57e 
+count46_X57 
+countCheck46_X58s 
+countCheck46_X58e 
+count46_X58 
+countCheck46_X59s 
+countCheck46_X59e 
+count46_X59 
+countCheck46_X60s 
+countCheck46_X60e 
+count46_X60 
+countCheck46_X61s 
+countCheck46_X61e 
+count46_X61 
+countCheck46_X62s 
+countCheck46_X62e 
+count46_X62 
+countCheck46_X63s 
+countCheck46_X63e 
+count46_X63 
+countCheck46_X64s 
+countCheck46_X64e 
+count46_X64 
+countCheck46_X65s 
+countCheck46_X65e 
+count46_X65 
+countCheck46_X66s 
+countCheck46_X66e 
+count46_X66 
+countCheck46_X67s 
+countCheck46_X67e 
+count46_X67 
+countCheck47_X0s 
+countCheck47_X0e 
+count47_X0 
+countCheck47_X1s 
+countCheck47_X1e 
+count47_X1 
+countCheck47_X2s 
+countCheck47_X2e 
+count47_X2 
+countCheck47_X3s 
+countCheck47_X3e 
+count47_X3 
+countCheck47_X4s 
+countCheck47_X4e 
+count47_X4 
+countCheck47_X5s 
+countCheck47_X5e 
+count47_X5 
+countCheck47_X6s 
+countCheck47_X6e 
+count47_X6 
+countCheck47_X7s 
+countCheck47_X7e 
+count47_X7 
+countCheck47_X8s 
+countCheck47_X8e 
+count47_X8 
+countCheck47_X9s 
+countCheck47_X9e 
+count47_X9 
+countCheck47_X10s 
+countCheck47_X10e 
+count47_X10 
+countCheck47_X11s 
+countCheck47_X11e 
+count47_X11 
+countCheck47_X12s 
+countCheck47_X12e 
+count47_X12 
+countCheck47_X13s 
+countCheck47_X13e 
+count47_X13 
+countCheck47_X14s 
+countCheck47_X14e 
+count47_X14 
+countCheck47_X15s 
+countCheck47_X15e 
+count47_X15 
+countCheck47_X16s 
+countCheck47_X16e 
+count47_X16 
+countCheck47_X17s 
+countCheck47_X17e 
+count47_X17 
+countCheck47_X18s 
+countCheck47_X18e 
+count47_X18 
+countCheck47_X19s 
+countCheck47_X19e 
+count47_X19 
+countCheck47_X20s 
+countCheck47_X20e 
+count47_X20 
+countCheck47_X21s 
+countCheck47_X21e 
+count47_X21 
+countCheck47_X22s 
+countCheck47_X22e 
+count47_X22 
+countCheck47_X23s 
+countCheck47_X23e 
+count47_X23 
+countCheck47_X24s 
+countCheck47_X24e 
+count47_X24 
+countCheck47_X25s 
+countCheck47_X25e 
+count47_X25 
+countCheck47_X26s 
+countCheck47_X26e 
+count47_X26 
+countCheck47_X27s 
+countCheck47_X27e 
+count47_X27 
+countCheck47_X28s 
+countCheck47_X28e 
+count47_X28 
+countCheck47_X29s 
+countCheck47_X29e 
+count47_X29 
+countCheck47_X30s 
+countCheck47_X30e 
+count47_X30 
+countCheck47_X31s 
+countCheck47_X31e 
+count47_X31 
+countCheck47_X32s 
+countCheck47_X32e 
+count47_X32 
+countCheck47_X33s 
+countCheck47_X33e 
+count47_X33 
+countCheck47_X34s 
+countCheck47_X34e 
+count47_X34 
+countCheck47_X35s 
+countCheck47_X35e 
+count47_X35 
+countCheck47_X36s 
+countCheck47_X36e 
+count47_X36 
+countCheck47_X37s 
+countCheck47_X37e 
+count47_X37 
+countCheck47_X38s 
+countCheck47_X38e 
+count47_X38 
+countCheck47_X39s 
+countCheck47_X39e 
+count47_X39 
+countCheck47_X40s 
+countCheck47_X40e 
+count47_X40 
+countCheck47_X41s 
+countCheck47_X41e 
+count47_X41 
+countCheck47_X42s 
+countCheck47_X42e 
+count47_X42 
+countCheck47_X43s 
+countCheck47_X43e 
+count47_X43 
+countCheck47_X44s 
+countCheck47_X44e 
+count47_X44 
+countCheck47_X45s 
+countCheck47_X45e 
+count47_X45 
+countCheck47_X46s 
+countCheck47_X46e 
+count47_X46 
+countCheck47_X47s 
+countCheck47_X47e 
+count47_X47 
+countCheck47_X48s 
+countCheck47_X48e 
+count47_X48 
+countCheck47_X49s 
+countCheck47_X49e 
+count47_X49 
+countCheck47_X50s 
+countCheck47_X50e 
+count47_X50 
+countCheck47_X51s 
+countCheck47_X51e 
+count47_X51 
+countCheck47_X52s 
+countCheck47_X52e 
+count47_X52 
+countCheck47_X53s 
+countCheck47_X53e 
+count47_X53 
+countCheck47_X54s 
+countCheck47_X54e 
+count47_X54 
+countCheck47_X55s 
+countCheck47_X55e 
+count47_X55 
+countCheck47_X56s 
+countCheck47_X56e 
+count47_X56 
+countCheck47_X57s 
+countCheck47_X57e 
+count47_X57 
+countCheck47_X58s 
+countCheck47_X58e 
+count47_X58 
+countCheck47_X59s 
+countCheck47_X59e 
+count47_X59 
+countCheck47_X60s 
+countCheck47_X60e 
+count47_X60 
+countCheck47_X61s 
+countCheck47_X61e 
+count47_X61 
+countCheck47_X62s 
+countCheck47_X62e 
+count47_X62 
+countCheck47_X63s 
+countCheck47_X63e 
+count47_X63 
+countCheck47_X64s 
+countCheck47_X64e 
+count47_X64 
+countCheck47_X65s 
+countCheck47_X65e 
+count47_X65 
+countCheck47_X66s 
+countCheck47_X66e 
+count47_X66 
+countCheck47_X67s 
+countCheck47_X67e 
+count47_X67 
+countCheck48_X0s 
+countCheck48_X0e 
+count48_X0 
+countCheck48_X1s 
+countCheck48_X1e 
+count48_X1 
+countCheck48_X2s 
+countCheck48_X2e 
+count48_X2 
+countCheck48_X3s 
+countCheck48_X3e 
+count48_X3 
+countCheck48_X4s 
+countCheck48_X4e 
+count48_X4 
+countCheck48_X5s 
+countCheck48_X5e 
+count48_X5 
+countCheck48_X6s 
+countCheck48_X6e 
+count48_X6 
+countCheck48_X7s 
+countCheck48_X7e 
+count48_X7 
+countCheck48_X8s 
+countCheck48_X8e 
+count48_X8 
+countCheck48_X9s 
+countCheck48_X9e 
+count48_X9 
+countCheck48_X10s 
+countCheck48_X10e 
+count48_X10 
+countCheck48_X11s 
+countCheck48_X11e 
+count48_X11 
+countCheck48_X12s 
+countCheck48_X12e 
+count48_X12 
+countCheck48_X13s 
+countCheck48_X13e 
+count48_X13 
+countCheck48_X14s 
+countCheck48_X14e 
+count48_X14 
+countCheck48_X15s 
+countCheck48_X15e 
+count48_X15 
+countCheck48_X16s 
+countCheck48_X16e 
+count48_X16 
+countCheck48_X17s 
+countCheck48_X17e 
+count48_X17 
+countCheck48_X18s 
+countCheck48_X18e 
+count48_X18 
+countCheck48_X19s 
+countCheck48_X19e 
+count48_X19 
+countCheck48_X20s 
+countCheck48_X20e 
+count48_X20 
+countCheck48_X21s 
+countCheck48_X21e 
+count48_X21 
+countCheck48_X22s 
+countCheck48_X22e 
+count48_X22 
+countCheck48_X23s 
+countCheck48_X23e 
+count48_X23 
+countCheck48_X24s 
+countCheck48_X24e 
+count48_X24 
+countCheck48_X25s 
+countCheck48_X25e 
+count48_X25 
+countCheck48_X26s 
+countCheck48_X26e 
+count48_X26 
+countCheck48_X27s 
+countCheck48_X27e 
+count48_X27 
+countCheck48_X28s 
+countCheck48_X28e 
+count48_X28 
+countCheck48_X29s 
+countCheck48_X29e 
+count48_X29 
+countCheck48_X30s 
+countCheck48_X30e 
+count48_X30 
+countCheck48_X31s 
+countCheck48_X31e 
+count48_X31 
+countCheck48_X32s 
+countCheck48_X32e 
+count48_X32 
+countCheck48_X33s 
+countCheck48_X33e 
+count48_X33 
+countCheck48_X34s 
+countCheck48_X34e 
+count48_X34 
+countCheck48_X35s 
+countCheck48_X35e 
+count48_X35 
+countCheck48_X36s 
+countCheck48_X36e 
+count48_X36 
+countCheck48_X37s 
+countCheck48_X37e 
+count48_X37 
+countCheck48_X38s 
+countCheck48_X38e 
+count48_X38 
+countCheck48_X39s 
+countCheck48_X39e 
+count48_X39 
+countCheck48_X40s 
+countCheck48_X40e 
+count48_X40 
+countCheck48_X41s 
+countCheck48_X41e 
+count48_X41 
+countCheck48_X42s 
+countCheck48_X42e 
+count48_X42 
+countCheck48_X43s 
+countCheck48_X43e 
+count48_X43 
+countCheck48_X44s 
+countCheck48_X44e 
+count48_X44 
+countCheck48_X45s 
+countCheck48_X45e 
+count48_X45 
+countCheck48_X46s 
+countCheck48_X46e 
+count48_X46 
+countCheck48_X47s 
+countCheck48_X47e 
+count48_X47 
+countCheck48_X48s 
+countCheck48_X48e 
+count48_X48 
+countCheck48_X49s 
+countCheck48_X49e 
+count48_X49 
+countCheck48_X50s 
+countCheck48_X50e 
+count48_X50 
+countCheck48_X51s 
+countCheck48_X51e 
+count48_X51 
+countCheck48_X52s 
+countCheck48_X52e 
+count48_X52 
+countCheck48_X53s 
+countCheck48_X53e 
+count48_X53 
+countCheck48_X54s 
+countCheck48_X54e 
+count48_X54 
+countCheck48_X55s 
+countCheck48_X55e 
+count48_X55 
+countCheck48_X56s 
+countCheck48_X56e 
+count48_X56 
+countCheck48_X57s 
+countCheck48_X57e 
+count48_X57 
+countCheck48_X58s 
+countCheck48_X58e 
+count48_X58 
+countCheck48_X59s 
+countCheck48_X59e 
+count48_X59 
+countCheck48_X60s 
+countCheck48_X60e 
+count48_X60 
+countCheck48_X61s 
+countCheck48_X61e 
+count48_X61 
+countCheck48_X62s 
+countCheck48_X62e 
+count48_X62 
+countCheck48_X63s 
+countCheck48_X63e 
+count48_X63 
+countCheck48_X64s 
+countCheck48_X64e 
+count48_X64 
+countCheck48_X65s 
+countCheck48_X65e 
+count48_X65 
+countCheck48_X66s 
+countCheck48_X66e 
+count48_X66 
+countCheck48_X67s 
+countCheck48_X67e 
+count48_X67 
+countCheck49_X0s 
+countCheck49_X0e 
+count49_X0 
+countCheck49_X1s 
+countCheck49_X1e 
+count49_X1 
+countCheck49_X2s 
+countCheck49_X2e 
+count49_X2 
+countCheck49_X3s 
+countCheck49_X3e 
+count49_X3 
+countCheck49_X4s 
+countCheck49_X4e 
+count49_X4 
+countCheck49_X5s 
+countCheck49_X5e 
+count49_X5 
+countCheck49_X6s 
+countCheck49_X6e 
+count49_X6 
+countCheck49_X7s 
+countCheck49_X7e 
+count49_X7 
+countCheck49_X8s 
+countCheck49_X8e 
+count49_X8 
+countCheck49_X9s 
+countCheck49_X9e 
+count49_X9 
+countCheck49_X10s 
+countCheck49_X10e 
+count49_X10 
+countCheck49_X11s 
+countCheck49_X11e 
+count49_X11 
+countCheck49_X12s 
+countCheck49_X12e 
+count49_X12 
+countCheck49_X13s 
+countCheck49_X13e 
+count49_X13 
+countCheck49_X14s 
+countCheck49_X14e 
+count49_X14 
+countCheck49_X15s 
+countCheck49_X15e 
+count49_X15 
+countCheck49_X16s 
+countCheck49_X16e 
+count49_X16 
+countCheck49_X17s 
+countCheck49_X17e 
+count49_X17 
+countCheck49_X18s 
+countCheck49_X18e 
+count49_X18 
+countCheck49_X19s 
+countCheck49_X19e 
+count49_X19 
+countCheck49_X20s 
+countCheck49_X20e 
+count49_X20 
+countCheck49_X21s 
+countCheck49_X21e 
+count49_X21 
+countCheck49_X22s 
+countCheck49_X22e 
+count49_X22 
+countCheck49_X23s 
+countCheck49_X23e 
+count49_X23 
+countCheck49_X24s 
+countCheck49_X24e 
+count49_X24 
+countCheck49_X25s 
+countCheck49_X25e 
+count49_X25 
+countCheck49_X26s 
+countCheck49_X26e 
+count49_X26 
+countCheck49_X27s 
+countCheck49_X27e 
+count49_X27 
+countCheck49_X28s 
+countCheck49_X28e 
+count49_X28 
+countCheck49_X29s 
+countCheck49_X29e 
+count49_X29 
+countCheck49_X30s 
+countCheck49_X30e 
+count49_X30 
+countCheck49_X31s 
+countCheck49_X31e 
+count49_X31 
+countCheck49_X32s 
+countCheck49_X32e 
+count49_X32 
+countCheck49_X33s 
+countCheck49_X33e 
+count49_X33 
+countCheck49_X34s 
+countCheck49_X34e 
+count49_X34 
+countCheck49_X35s 
+countCheck49_X35e 
+count49_X35 
+countCheck49_X36s 
+countCheck49_X36e 
+count49_X36 
+countCheck49_X37s 
+countCheck49_X37e 
+count49_X37 
+countCheck49_X38s 
+countCheck49_X38e 
+count49_X38 
+countCheck49_X39s 
+countCheck49_X39e 
+count49_X39 
+countCheck49_X40s 
+countCheck49_X40e 
+count49_X40 
+countCheck49_X41s 
+countCheck49_X41e 
+count49_X41 
+countCheck49_X42s 
+countCheck49_X42e 
+count49_X42 
+countCheck49_X43s 
+countCheck49_X43e 
+count49_X43 
+countCheck49_X44s 
+countCheck49_X44e 
+count49_X44 
+countCheck49_X45s 
+countCheck49_X45e 
+count49_X45 
+countCheck49_X46s 
+countCheck49_X46e 
+count49_X46 
+countCheck49_X47s 
+countCheck49_X47e 
+count49_X47 
+countCheck49_X48s 
+countCheck49_X48e 
+count49_X48 
+countCheck49_X49s 
+countCheck49_X49e 
+count49_X49 
+countCheck49_X50s 
+countCheck49_X50e 
+count49_X50 
+countCheck49_X51s 
+countCheck49_X51e 
+count49_X51 
+countCheck49_X52s 
+countCheck49_X52e 
+count49_X52 
+countCheck49_X53s 
+countCheck49_X53e 
+count49_X53 
+countCheck49_X54s 
+countCheck49_X54e 
+count49_X54 
+countCheck49_X55s 
+countCheck49_X55e 
+count49_X55 
+countCheck49_X56s 
+countCheck49_X56e 
+count49_X56 
+countCheck49_X57s 
+countCheck49_X57e 
+count49_X57 
+countCheck49_X58s 
+countCheck49_X58e 
+count49_X58 
+countCheck49_X59s 
+countCheck49_X59e 
+count49_X59 
+countCheck49_X60s 
+countCheck49_X60e 
+count49_X60 
+countCheck49_X61s 
+countCheck49_X61e 
+count49_X61 
+countCheck49_X62s 
+countCheck49_X62e 
+count49_X62 
+countCheck49_X63s 
+countCheck49_X63e 
+count49_X63 
+countCheck49_X64s 
+countCheck49_X64e 
+count49_X64 
+countCheck49_X65s 
+countCheck49_X65e 
+count49_X65 
+countCheck49_X66s 
+countCheck49_X66e 
+count49_X66 
+countCheck49_X67s 
+countCheck49_X67e 
+count49_X67 
+countCheck50_X0s 
+countCheck50_X0e 
+count50_X0 
+countCheck50_X1s 
+countCheck50_X1e 
+count50_X1 
+countCheck50_X2s 
+countCheck50_X2e 
+count50_X2 
+countCheck50_X3s 
+countCheck50_X3e 
+count50_X3 
+countCheck50_X4s 
+countCheck50_X4e 
+count50_X4 
+countCheck50_X5s 
+countCheck50_X5e 
+count50_X5 
+countCheck50_X6s 
+countCheck50_X6e 
+count50_X6 
+countCheck50_X7s 
+countCheck50_X7e 
+count50_X7 
+countCheck50_X8s 
+countCheck50_X8e 
+count50_X8 
+countCheck50_X9s 
+countCheck50_X9e 
+count50_X9 
+countCheck50_X10s 
+countCheck50_X10e 
+count50_X10 
+countCheck50_X11s 
+countCheck50_X11e 
+count50_X11 
+countCheck50_X12s 
+countCheck50_X12e 
+count50_X12 
+countCheck50_X13s 
+countCheck50_X13e 
+count50_X13 
+countCheck50_X14s 
+countCheck50_X14e 
+count50_X14 
+countCheck50_X15s 
+countCheck50_X15e 
+count50_X15 
+countCheck50_X16s 
+countCheck50_X16e 
+count50_X16 
+countCheck50_X17s 
+countCheck50_X17e 
+count50_X17 
+countCheck50_X18s 
+countCheck50_X18e 
+count50_X18 
+countCheck50_X19s 
+countCheck50_X19e 
+count50_X19 
+countCheck50_X20s 
+countCheck50_X20e 
+count50_X20 
+countCheck50_X21s 
+countCheck50_X21e 
+count50_X21 
+countCheck50_X22s 
+countCheck50_X22e 
+count50_X22 
+countCheck50_X23s 
+countCheck50_X23e 
+count50_X23 
+countCheck50_X24s 
+countCheck50_X24e 
+count50_X24 
+countCheck50_X25s 
+countCheck50_X25e 
+count50_X25 
+countCheck50_X26s 
+countCheck50_X26e 
+count50_X26 
+countCheck50_X27s 
+countCheck50_X27e 
+count50_X27 
+countCheck50_X28s 
+countCheck50_X28e 
+count50_X28 
+countCheck50_X29s 
+countCheck50_X29e 
+count50_X29 
+countCheck50_X30s 
+countCheck50_X30e 
+count50_X30 
+countCheck50_X31s 
+countCheck50_X31e 
+count50_X31 
+countCheck50_X32s 
+countCheck50_X32e 
+count50_X32 
+countCheck50_X33s 
+countCheck50_X33e 
+count50_X33 
+countCheck50_X34s 
+countCheck50_X34e 
+count50_X34 
+countCheck50_X35s 
+countCheck50_X35e 
+count50_X35 
+countCheck50_X36s 
+countCheck50_X36e 
+count50_X36 
+countCheck50_X37s 
+countCheck50_X37e 
+count50_X37 
+countCheck50_X38s 
+countCheck50_X38e 
+count50_X38 
+countCheck50_X39s 
+countCheck50_X39e 
+count50_X39 
+countCheck50_X40s 
+countCheck50_X40e 
+count50_X40 
+countCheck50_X41s 
+countCheck50_X41e 
+count50_X41 
+countCheck50_X42s 
+countCheck50_X42e 
+count50_X42 
+countCheck50_X43s 
+countCheck50_X43e 
+count50_X43 
+countCheck50_X44s 
+countCheck50_X44e 
+count50_X44 
+countCheck50_X45s 
+countCheck50_X45e 
+count50_X45 
+countCheck50_X46s 
+countCheck50_X46e 
+count50_X46 
+countCheck50_X47s 
+countCheck50_X47e 
+count50_X47 
+countCheck50_X48s 
+countCheck50_X48e 
+count50_X48 
+countCheck50_X49s 
+countCheck50_X49e 
+count50_X49 
+countCheck50_X50s 
+countCheck50_X50e 
+count50_X50 
+countCheck50_X51s 
+countCheck50_X51e 
+count50_X51 
+countCheck50_X52s 
+countCheck50_X52e 
+count50_X52 
+countCheck50_X53s 
+countCheck50_X53e 
+count50_X53 
+countCheck50_X54s 
+countCheck50_X54e 
+count50_X54 
+countCheck50_X55s 
+countCheck50_X55e 
+count50_X55 
+countCheck50_X56s 
+countCheck50_X56e 
+count50_X56 
+countCheck50_X57s 
+countCheck50_X57e 
+count50_X57 
+countCheck50_X58s 
+countCheck50_X58e 
+count50_X58 
+countCheck50_X59s 
+countCheck50_X59e 
+count50_X59 
+countCheck50_X60s 
+countCheck50_X60e 
+count50_X60 
+countCheck50_X61s 
+countCheck50_X61e 
+count50_X61 
+countCheck50_X62s 
+countCheck50_X62e 
+count50_X62 
+countCheck50_X63s 
+countCheck50_X63e 
+count50_X63 
+countCheck50_X64s 
+countCheck50_X64e 
+count50_X64 
+countCheck50_X65s 
+countCheck50_X65e 
+count50_X65 
+countCheck50_X66s 
+countCheck50_X66e 
+count50_X66 
+countCheck50_X67s 
+countCheck50_X67e 
+count50_X67 
+countCheck51_X0s 
+countCheck51_X0e 
+count51_X0 
+countCheck51_X1s 
+countCheck51_X1e 
+count51_X1 
+countCheck51_X2s 
+countCheck51_X2e 
+count51_X2 
+countCheck51_X3s 
+countCheck51_X3e 
+count51_X3 
+countCheck51_X4s 
+countCheck51_X4e 
+count51_X4 
+countCheck51_X5s 
+countCheck51_X5e 
+count51_X5 
+countCheck51_X6s 
+countCheck51_X6e 
+count51_X6 
+countCheck51_X7s 
+countCheck51_X7e 
+count51_X7 
+countCheck51_X8s 
+countCheck51_X8e 
+count51_X8 
+countCheck51_X9s 
+countCheck51_X9e 
+count51_X9 
+countCheck51_X10s 
+countCheck51_X10e 
+count51_X10 
+countCheck51_X11s 
+countCheck51_X11e 
+count51_X11 
+countCheck51_X12s 
+countCheck51_X12e 
+count51_X12 
+countCheck51_X13s 
+countCheck51_X13e 
+count51_X13 
+countCheck51_X14s 
+countCheck51_X14e 
+count51_X14 
+countCheck51_X15s 
+countCheck51_X15e 
+count51_X15 
+countCheck51_X16s 
+countCheck51_X16e 
+count51_X16 
+countCheck51_X17s 
+countCheck51_X17e 
+count51_X17 
+countCheck51_X18s 
+countCheck51_X18e 
+count51_X18 
+countCheck51_X19s 
+countCheck51_X19e 
+count51_X19 
+countCheck51_X20s 
+countCheck51_X20e 
+count51_X20 
+countCheck51_X21s 
+countCheck51_X21e 
+count51_X21 
+countCheck51_X22s 
+countCheck51_X22e 
+count51_X22 
+countCheck51_X23s 
+countCheck51_X23e 
+count51_X23 
+countCheck51_X24s 
+countCheck51_X24e 
+count51_X24 
+countCheck51_X25s 
+countCheck51_X25e 
+count51_X25 
+countCheck51_X26s 
+countCheck51_X26e 
+count51_X26 
+countCheck51_X27s 
+countCheck51_X27e 
+count51_X27 
+countCheck51_X28s 
+countCheck51_X28e 
+count51_X28 
+countCheck51_X29s 
+countCheck51_X29e 
+count51_X29 
+countCheck51_X30s 
+countCheck51_X30e 
+count51_X30 
+countCheck51_X31s 
+countCheck51_X31e 
+count51_X31 
+countCheck51_X32s 
+countCheck51_X32e 
+count51_X32 
+countCheck51_X33s 
+countCheck51_X33e 
+count51_X33 
+countCheck51_X34s 
+countCheck51_X34e 
+count51_X34 
+countCheck51_X35s 
+countCheck51_X35e 
+count51_X35 
+countCheck51_X36s 
+countCheck51_X36e 
+count51_X36 
+countCheck51_X37s 
+countCheck51_X37e 
+count51_X37 
+countCheck51_X38s 
+countCheck51_X38e 
+count51_X38 
+countCheck51_X39s 
+countCheck51_X39e 
+count51_X39 
+countCheck51_X40s 
+countCheck51_X40e 
+count51_X40 
+countCheck51_X41s 
+countCheck51_X41e 
+count51_X41 
+countCheck51_X42s 
+countCheck51_X42e 
+count51_X42 
+countCheck51_X43s 
+countCheck51_X43e 
+count51_X43 
+countCheck51_X44s 
+countCheck51_X44e 
+count51_X44 
+countCheck51_X45s 
+countCheck51_X45e 
+count51_X45 
+countCheck51_X46s 
+countCheck51_X46e 
+count51_X46 
+countCheck51_X47s 
+countCheck51_X47e 
+count51_X47 
+countCheck51_X48s 
+countCheck51_X48e 
+count51_X48 
+countCheck51_X49s 
+countCheck51_X49e 
+count51_X49 
+countCheck51_X50s 
+countCheck51_X50e 
+count51_X50 
+countCheck51_X51s 
+countCheck51_X51e 
+count51_X51 
+countCheck51_X52s 
+countCheck51_X52e 
+count51_X52 
+countCheck51_X53s 
+countCheck51_X53e 
+count51_X53 
+countCheck51_X54s 
+countCheck51_X54e 
+count51_X54 
+countCheck51_X55s 
+countCheck51_X55e 
+count51_X55 
+countCheck51_X56s 
+countCheck51_X56e 
+count51_X56 
+countCheck51_X57s 
+countCheck51_X57e 
+count51_X57 
+countCheck51_X58s 
+countCheck51_X58e 
+count51_X58 
+countCheck51_X59s 
+countCheck51_X59e 
+count51_X59 
+countCheck51_X60s 
+countCheck51_X60e 
+count51_X60 
+countCheck51_X61s 
+countCheck51_X61e 
+count51_X61 
+countCheck51_X62s 
+countCheck51_X62e 
+count51_X62 
+countCheck51_X63s 
+countCheck51_X63e 
+count51_X63 
+countCheck51_X64s 
+countCheck51_X64e 
+count51_X64 
+countCheck51_X65s 
+countCheck51_X65e 
+count51_X65 
+countCheck51_X66s 
+countCheck51_X66e 
+count51_X66 
+countCheck51_X67s 
+countCheck51_X67e 
+count51_X67 
+countCheck52_X0s 
+countCheck52_X0e 
+count52_X0 
+countCheck52_X1s 
+countCheck52_X1e 
+count52_X1 
+countCheck52_X2s 
+countCheck52_X2e 
+count52_X2 
+countCheck52_X3s 
+countCheck52_X3e 
+count52_X3 
+countCheck52_X4s 
+countCheck52_X4e 
+count52_X4 
+countCheck52_X5s 
+countCheck52_X5e 
+count52_X5 
+countCheck52_X6s 
+countCheck52_X6e 
+count52_X6 
+countCheck52_X7s 
+countCheck52_X7e 
+count52_X7 
+countCheck52_X8s 
+countCheck52_X8e 
+count52_X8 
+countCheck52_X9s 
+countCheck52_X9e 
+count52_X9 
+countCheck52_X10s 
+countCheck52_X10e 
+count52_X10 
+countCheck52_X11s 
+countCheck52_X11e 
+count52_X11 
+countCheck52_X12s 
+countCheck52_X12e 
+count52_X12 
+countCheck52_X13s 
+countCheck52_X13e 
+count52_X13 
+countCheck52_X14s 
+countCheck52_X14e 
+count52_X14 
+countCheck52_X15s 
+countCheck52_X15e 
+count52_X15 
+countCheck52_X16s 
+countCheck52_X16e 
+count52_X16 
+countCheck52_X17s 
+countCheck52_X17e 
+count52_X17 
+countCheck52_X18s 
+countCheck52_X18e 
+count52_X18 
+countCheck52_X19s 
+countCheck52_X19e 
+count52_X19 
+countCheck52_X20s 
+countCheck52_X20e 
+count52_X20 
+countCheck52_X21s 
+countCheck52_X21e 
+count52_X21 
+countCheck52_X22s 
+countCheck52_X22e 
+count52_X22 
+countCheck52_X23s 
+countCheck52_X23e 
+count52_X23 
+countCheck52_X24s 
+countCheck52_X24e 
+count52_X24 
+countCheck52_X25s 
+countCheck52_X25e 
+count52_X25 
+countCheck52_X26s 
+countCheck52_X26e 
+count52_X26 
+countCheck52_X27s 
+countCheck52_X27e 
+count52_X27 
+countCheck52_X28s 
+countCheck52_X28e 
+count52_X28 
+countCheck52_X29s 
+countCheck52_X29e 
+count52_X29 
+countCheck52_X30s 
+countCheck52_X30e 
+count52_X30 
+countCheck52_X31s 
+countCheck52_X31e 
+count52_X31 
+countCheck52_X32s 
+countCheck52_X32e 
+count52_X32 
+countCheck52_X33s 
+countCheck52_X33e 
+count52_X33 
+countCheck52_X34s 
+countCheck52_X34e 
+count52_X34 
+countCheck52_X35s 
+countCheck52_X35e 
+count52_X35 
+countCheck52_X36s 
+countCheck52_X36e 
+count52_X36 
+countCheck52_X37s 
+countCheck52_X37e 
+count52_X37 
+countCheck52_X38s 
+countCheck52_X38e 
+count52_X38 
+countCheck52_X39s 
+countCheck52_X39e 
+count52_X39 
+countCheck52_X40s 
+countCheck52_X40e 
+count52_X40 
+countCheck52_X41s 
+countCheck52_X41e 
+count52_X41 
+countCheck52_X42s 
+countCheck52_X42e 
+count52_X42 
+countCheck52_X43s 
+countCheck52_X43e 
+count52_X43 
+countCheck52_X44s 
+countCheck52_X44e 
+count52_X44 
+countCheck52_X45s 
+countCheck52_X45e 
+count52_X45 
+countCheck52_X46s 
+countCheck52_X46e 
+count52_X46 
+countCheck52_X47s 
+countCheck52_X47e 
+count52_X47 
+countCheck52_X48s 
+countCheck52_X48e 
+count52_X48 
+countCheck52_X49s 
+countCheck52_X49e 
+count52_X49 
+countCheck52_X50s 
+countCheck52_X50e 
+count52_X50 
+countCheck52_X51s 
+countCheck52_X51e 
+count52_X51 
+countCheck52_X52s 
+countCheck52_X52e 
+count52_X52 
+countCheck52_X53s 
+countCheck52_X53e 
+count52_X53 
+countCheck52_X54s 
+countCheck52_X54e 
+count52_X54 
+countCheck52_X55s 
+countCheck52_X55e 
+count52_X55 
+countCheck52_X56s 
+countCheck52_X56e 
+count52_X56 
+countCheck52_X57s 
+countCheck52_X57e 
+count52_X57 
+countCheck52_X58s 
+countCheck52_X58e 
+count52_X58 
+countCheck52_X59s 
+countCheck52_X59e 
+count52_X59 
+countCheck52_X60s 
+countCheck52_X60e 
+count52_X60 
+countCheck52_X61s 
+countCheck52_X61e 
+count52_X61 
+countCheck52_X62s 
+countCheck52_X62e 
+count52_X62 
+countCheck52_X63s 
+countCheck52_X63e 
+count52_X63 
+countCheck52_X64s 
+countCheck52_X64e 
+count52_X64 
+countCheck52_X65s 
+countCheck52_X65e 
+count52_X65 
+countCheck52_X66s 
+countCheck52_X66e 
+count52_X66 
+countCheck52_X67s 
+countCheck52_X67e 
+count52_X67 
+countCheck53_X0s 
+countCheck53_X0e 
+count53_X0 
+countCheck53_X1s 
+countCheck53_X1e 
+count53_X1 
+countCheck53_X2s 
+countCheck53_X2e 
+count53_X2 
+countCheck53_X3s 
+countCheck53_X3e 
+count53_X3 
+countCheck53_X4s 
+countCheck53_X4e 
+count53_X4 
+countCheck53_X5s 
+countCheck53_X5e 
+count53_X5 
+countCheck53_X6s 
+countCheck53_X6e 
+count53_X6 
+countCheck53_X7s 
+countCheck53_X7e 
+count53_X7 
+countCheck53_X8s 
+countCheck53_X8e 
+count53_X8 
+countCheck53_X9s 
+countCheck53_X9e 
+count53_X9 
+countCheck53_X10s 
+countCheck53_X10e 
+count53_X10 
+countCheck53_X11s 
+countCheck53_X11e 
+count53_X11 
+countCheck53_X12s 
+countCheck53_X12e 
+count53_X12 
+countCheck53_X13s 
+countCheck53_X13e 
+count53_X13 
+countCheck53_X14s 
+countCheck53_X14e 
+count53_X14 
+countCheck53_X15s 
+countCheck53_X15e 
+count53_X15 
+countCheck53_X16s 
+countCheck53_X16e 
+count53_X16 
+countCheck53_X17s 
+countCheck53_X17e 
+count53_X17 
+countCheck53_X18s 
+countCheck53_X18e 
+count53_X18 
+countCheck53_X19s 
+countCheck53_X19e 
+count53_X19 
+countCheck53_X20s 
+countCheck53_X20e 
+count53_X20 
+countCheck53_X21s 
+countCheck53_X21e 
+count53_X21 
+countCheck53_X22s 
+countCheck53_X22e 
+count53_X22 
+countCheck53_X23s 
+countCheck53_X23e 
+count53_X23 
+countCheck53_X24s 
+countCheck53_X24e 
+count53_X24 
+countCheck53_X25s 
+countCheck53_X25e 
+count53_X25 
+countCheck53_X26s 
+countCheck53_X26e 
+count53_X26 
+countCheck53_X27s 
+countCheck53_X27e 
+count53_X27 
+countCheck53_X28s 
+countCheck53_X28e 
+count53_X28 
+countCheck53_X29s 
+countCheck53_X29e 
+count53_X29 
+countCheck53_X30s 
+countCheck53_X30e 
+count53_X30 
+countCheck53_X31s 
+countCheck53_X31e 
+count53_X31 
+countCheck53_X32s 
+countCheck53_X32e 
+count53_X32 
+countCheck53_X33s 
+countCheck53_X33e 
+count53_X33 
+countCheck53_X34s 
+countCheck53_X34e 
+count53_X34 
+countCheck53_X35s 
+countCheck53_X35e 
+count53_X35 
+countCheck53_X36s 
+countCheck53_X36e 
+count53_X36 
+countCheck53_X37s 
+countCheck53_X37e 
+count53_X37 
+countCheck53_X38s 
+countCheck53_X38e 
+count53_X38 
+countCheck53_X39s 
+countCheck53_X39e 
+count53_X39 
+countCheck53_X40s 
+countCheck53_X40e 
+count53_X40 
+countCheck53_X41s 
+countCheck53_X41e 
+count53_X41 
+countCheck53_X42s 
+countCheck53_X42e 
+count53_X42 
+countCheck53_X43s 
+countCheck53_X43e 
+count53_X43 
+countCheck53_X44s 
+countCheck53_X44e 
+count53_X44 
+countCheck53_X45s 
+countCheck53_X45e 
+count53_X45 
+countCheck53_X46s 
+countCheck53_X46e 
+count53_X46 
+countCheck53_X47s 
+countCheck53_X47e 
+count53_X47 
+countCheck53_X48s 
+countCheck53_X48e 
+count53_X48 
+countCheck53_X49s 
+countCheck53_X49e 
+count53_X49 
+countCheck53_X50s 
+countCheck53_X50e 
+count53_X50 
+countCheck53_X51s 
+countCheck53_X51e 
+count53_X51 
+countCheck53_X52s 
+countCheck53_X52e 
+count53_X52 
+countCheck53_X53s 
+countCheck53_X53e 
+count53_X53 
+countCheck53_X54s 
+countCheck53_X54e 
+count53_X54 
+countCheck53_X55s 
+countCheck53_X55e 
+count53_X55 
+countCheck53_X56s 
+countCheck53_X56e 
+count53_X56 
+countCheck53_X57s 
+countCheck53_X57e 
+count53_X57 
+countCheck53_X58s 
+countCheck53_X58e 
+count53_X58 
+countCheck53_X59s 
+countCheck53_X59e 
+count53_X59 
+countCheck53_X60s 
+countCheck53_X60e 
+count53_X60 
+countCheck53_X61s 
+countCheck53_X61e 
+count53_X61 
+countCheck53_X62s 
+countCheck53_X62e 
+count53_X62 
+countCheck53_X63s 
+countCheck53_X63e 
+count53_X63 
+countCheck53_X64s 
+countCheck53_X64e 
+count53_X64 
+countCheck53_X65s 
+countCheck53_X65e 
+count53_X65 
+countCheck53_X66s 
+countCheck53_X66e 
+count53_X66 
+countCheck53_X67s 
+countCheck53_X67e 
+count53_X67 
+countCheck54_X0s 
+countCheck54_X0e 
+count54_X0 
+countCheck54_X1s 
+countCheck54_X1e 
+count54_X1 
+countCheck54_X2s 
+countCheck54_X2e 
+count54_X2 
+countCheck54_X3s 
+countCheck54_X3e 
+count54_X3 
+countCheck54_X4s 
+countCheck54_X4e 
+count54_X4 
+countCheck54_X5s 
+countCheck54_X5e 
+count54_X5 
+countCheck54_X6s 
+countCheck54_X6e 
+count54_X6 
+countCheck54_X7s 
+countCheck54_X7e 
+count54_X7 
+countCheck54_X8s 
+countCheck54_X8e 
+count54_X8 
+countCheck54_X9s 
+countCheck54_X9e 
+count54_X9 
+countCheck54_X10s 
+countCheck54_X10e 
+count54_X10 
+countCheck54_X11s 
+countCheck54_X11e 
+count54_X11 
+countCheck54_X12s 
+countCheck54_X12e 
+count54_X12 
+countCheck54_X13s 
+countCheck54_X13e 
+count54_X13 
+countCheck54_X14s 
+countCheck54_X14e 
+count54_X14 
+countCheck54_X15s 
+countCheck54_X15e 
+count54_X15 
+countCheck54_X16s 
+countCheck54_X16e 
+count54_X16 
+countCheck54_X17s 
+countCheck54_X17e 
+count54_X17 
+countCheck54_X18s 
+countCheck54_X18e 
+count54_X18 
+countCheck54_X19s 
+countCheck54_X19e 
+count54_X19 
+countCheck54_X20s 
+countCheck54_X20e 
+count54_X20 
+countCheck54_X21s 
+countCheck54_X21e 
+count54_X21 
+countCheck54_X22s 
+countCheck54_X22e 
+count54_X22 
+countCheck54_X23s 
+countCheck54_X23e 
+count54_X23 
+countCheck54_X24s 
+countCheck54_X24e 
+count54_X24 
+countCheck54_X25s 
+countCheck54_X25e 
+count54_X25 
+countCheck54_X26s 
+countCheck54_X26e 
+count54_X26 
+countCheck54_X27s 
+countCheck54_X27e 
+count54_X27 
+countCheck54_X28s 
+countCheck54_X28e 
+count54_X28 
+countCheck54_X29s 
+countCheck54_X29e 
+count54_X29 
+countCheck54_X30s 
+countCheck54_X30e 
+count54_X30 
+countCheck54_X31s 
+countCheck54_X31e 
+count54_X31 
+countCheck54_X32s 
+countCheck54_X32e 
+count54_X32 
+countCheck54_X33s 
+countCheck54_X33e 
+count54_X33 
+countCheck54_X34s 
+countCheck54_X34e 
+count54_X34 
+countCheck54_X35s 
+countCheck54_X35e 
+count54_X35 
+countCheck54_X36s 
+countCheck54_X36e 
+count54_X36 
+countCheck54_X37s 
+countCheck54_X37e 
+count54_X37 
+countCheck54_X38s 
+countCheck54_X38e 
+count54_X38 
+countCheck54_X39s 
+countCheck54_X39e 
+count54_X39 
+countCheck54_X40s 
+countCheck54_X40e 
+count54_X40 
+countCheck54_X41s 
+countCheck54_X41e 
+count54_X41 
+countCheck54_X42s 
+countCheck54_X42e 
+count54_X42 
+countCheck54_X43s 
+countCheck54_X43e 
+count54_X43 
+countCheck54_X44s 
+countCheck54_X44e 
+count54_X44 
+countCheck54_X45s 
+countCheck54_X45e 
+count54_X45 
+countCheck54_X46s 
+countCheck54_X46e 
+count54_X46 
+countCheck54_X47s 
+countCheck54_X47e 
+count54_X47 
+countCheck54_X48s 
+countCheck54_X48e 
+count54_X48 
+countCheck54_X49s 
+countCheck54_X49e 
+count54_X49 
+countCheck54_X50s 
+countCheck54_X50e 
+count54_X50 
+countCheck54_X51s 
+countCheck54_X51e 
+count54_X51 
+countCheck54_X52s 
+countCheck54_X52e 
+count54_X52 
+countCheck54_X53s 
+countCheck54_X53e 
+count54_X53 
+countCheck54_X54s 
+countCheck54_X54e 
+count54_X54 
+countCheck54_X55s 
+countCheck54_X55e 
+count54_X55 
+countCheck54_X56s 
+countCheck54_X56e 
+count54_X56 
+countCheck54_X57s 
+countCheck54_X57e 
+count54_X57 
+countCheck54_X58s 
+countCheck54_X58e 
+count54_X58 
+countCheck54_X59s 
+countCheck54_X59e 
+count54_X59 
+countCheck54_X60s 
+countCheck54_X60e 
+count54_X60 
+countCheck54_X61s 
+countCheck54_X61e 
+count54_X61 
+countCheck54_X62s 
+countCheck54_X62e 
+count54_X62 
+countCheck54_X63s 
+countCheck54_X63e 
+count54_X63 
+countCheck54_X64s 
+countCheck54_X64e 
+count54_X64 
+countCheck54_X65s 
+countCheck54_X65e 
+count54_X65 
+countCheck54_X66s 
+countCheck54_X66e 
+count54_X66 
+countCheck54_X67s 
+countCheck54_X67e 
+count54_X67 
+countCheck55_X0s 
+countCheck55_X0e 
+count55_X0 
+countCheck55_X1s 
+countCheck55_X1e 
+count55_X1 
+countCheck55_X2s 
+countCheck55_X2e 
+count55_X2 
+countCheck55_X3s 
+countCheck55_X3e 
+count55_X3 
+countCheck55_X4s 
+countCheck55_X4e 
+count55_X4 
+countCheck55_X5s 
+countCheck55_X5e 
+count55_X5 
+countCheck55_X6s 
+countCheck55_X6e 
+count55_X6 
+countCheck55_X7s 
+countCheck55_X7e 
+count55_X7 
+countCheck55_X8s 
+countCheck55_X8e 
+count55_X8 
+countCheck55_X9s 
+countCheck55_X9e 
+count55_X9 
+countCheck55_X10s 
+countCheck55_X10e 
+count55_X10 
+countCheck55_X11s 
+countCheck55_X11e 
+count55_X11 
+countCheck55_X12s 
+countCheck55_X12e 
+count55_X12 
+countCheck55_X13s 
+countCheck55_X13e 
+count55_X13 
+countCheck55_X14s 
+countCheck55_X14e 
+count55_X14 
+countCheck55_X15s 
+countCheck55_X15e 
+count55_X15 
+countCheck55_X16s 
+countCheck55_X16e 
+count55_X16 
+countCheck55_X17s 
+countCheck55_X17e 
+count55_X17 
+countCheck55_X18s 
+countCheck55_X18e 
+count55_X18 
+countCheck55_X19s 
+countCheck55_X19e 
+count55_X19 
+countCheck55_X20s 
+countCheck55_X20e 
+count55_X20 
+countCheck55_X21s 
+countCheck55_X21e 
+count55_X21 
+countCheck55_X22s 
+countCheck55_X22e 
+count55_X22 
+countCheck55_X23s 
+countCheck55_X23e 
+count55_X23 
+countCheck55_X24s 
+countCheck55_X24e 
+count55_X24 
+countCheck55_X25s 
+countCheck55_X25e 
+count55_X25 
+countCheck55_X26s 
+countCheck55_X26e 
+count55_X26 
+countCheck55_X27s 
+countCheck55_X27e 
+count55_X27 
+countCheck55_X28s 
+countCheck55_X28e 
+count55_X28 
+countCheck55_X29s 
+countCheck55_X29e 
+count55_X29 
+countCheck55_X30s 
+countCheck55_X30e 
+count55_X30 
+countCheck55_X31s 
+countCheck55_X31e 
+count55_X31 
+countCheck55_X32s 
+countCheck55_X32e 
+count55_X32 
+countCheck55_X33s 
+countCheck55_X33e 
+count55_X33 
+countCheck55_X34s 
+countCheck55_X34e 
+count55_X34 
+countCheck55_X35s 
+countCheck55_X35e 
+count55_X35 
+countCheck55_X36s 
+countCheck55_X36e 
+count55_X36 
+countCheck55_X37s 
+countCheck55_X37e 
+count55_X37 
+countCheck55_X38s 
+countCheck55_X38e 
+count55_X38 
+countCheck55_X39s 
+countCheck55_X39e 
+count55_X39 
+countCheck55_X40s 
+countCheck55_X40e 
+count55_X40 
+countCheck55_X41s 
+countCheck55_X41e 
+count55_X41 
+countCheck55_X42s 
+countCheck55_X42e 
+count55_X42 
+countCheck55_X43s 
+countCheck55_X43e 
+count55_X43 
+countCheck55_X44s 
+countCheck55_X44e 
+count55_X44 
+countCheck55_X45s 
+countCheck55_X45e 
+count55_X45 
+countCheck55_X46s 
+countCheck55_X46e 
+count55_X46 
+countCheck55_X47s 
+countCheck55_X47e 
+count55_X47 
+countCheck55_X48s 
+countCheck55_X48e 
+count55_X48 
+countCheck55_X49s 
+countCheck55_X49e 
+count55_X49 
+countCheck55_X50s 
+countCheck55_X50e 
+count55_X50 
+countCheck55_X51s 
+countCheck55_X51e 
+count55_X51 
+countCheck55_X52s 
+countCheck55_X52e 
+count55_X52 
+countCheck55_X53s 
+countCheck55_X53e 
+count55_X53 
+countCheck55_X54s 
+countCheck55_X54e 
+count55_X54 
+countCheck55_X55s 
+countCheck55_X55e 
+count55_X55 
+countCheck55_X56s 
+countCheck55_X56e 
+count55_X56 
+countCheck55_X57s 
+countCheck55_X57e 
+count55_X57 
+countCheck55_X58s 
+countCheck55_X58e 
+count55_X58 
+countCheck55_X59s 
+countCheck55_X59e 
+count55_X59 
+countCheck55_X60s 
+countCheck55_X60e 
+count55_X60 
+countCheck55_X61s 
+countCheck55_X61e 
+count55_X61 
+countCheck55_X62s 
+countCheck55_X62e 
+count55_X62 
+countCheck55_X63s 
+countCheck55_X63e 
+count55_X63 
+countCheck55_X64s 
+countCheck55_X64e 
+count55_X64 
+countCheck55_X65s 
+countCheck55_X65e 
+count55_X65 
+countCheck55_X66s 
+countCheck55_X66e 
+count55_X66 
+countCheck55_X67s 
+countCheck55_X67e 
+count55_X67 
+countCheck56_X0s 
+countCheck56_X0e 
+count56_X0 
+countCheck56_X1s 
+countCheck56_X1e 
+count56_X1 
+countCheck56_X2s 
+countCheck56_X2e 
+count56_X2 
+countCheck56_X3s 
+countCheck56_X3e 
+count56_X3 
+countCheck56_X4s 
+countCheck56_X4e 
+count56_X4 
+countCheck56_X5s 
+countCheck56_X5e 
+count56_X5 
+countCheck56_X6s 
+countCheck56_X6e 
+count56_X6 
+countCheck56_X7s 
+countCheck56_X7e 
+count56_X7 
+countCheck56_X8s 
+countCheck56_X8e 
+count56_X8 
+countCheck56_X9s 
+countCheck56_X9e 
+count56_X9 
+countCheck56_X10s 
+countCheck56_X10e 
+count56_X10 
+countCheck56_X11s 
+countCheck56_X11e 
+count56_X11 
+countCheck56_X12s 
+countCheck56_X12e 
+count56_X12 
+countCheck56_X13s 
+countCheck56_X13e 
+count56_X13 
+countCheck56_X14s 
+countCheck56_X14e 
+count56_X14 
+countCheck56_X15s 
+countCheck56_X15e 
+count56_X15 
+countCheck56_X16s 
+countCheck56_X16e 
+count56_X16 
+countCheck56_X17s 
+countCheck56_X17e 
+count56_X17 
+countCheck56_X18s 
+countCheck56_X18e 
+count56_X18 
+countCheck56_X19s 
+countCheck56_X19e 
+count56_X19 
+countCheck56_X20s 
+countCheck56_X20e 
+count56_X20 
+countCheck56_X21s 
+countCheck56_X21e 
+count56_X21 
+countCheck56_X22s 
+countCheck56_X22e 
+count56_X22 
+countCheck56_X23s 
+countCheck56_X23e 
+count56_X23 
+countCheck56_X24s 
+countCheck56_X24e 
+count56_X24 
+countCheck56_X25s 
+countCheck56_X25e 
+count56_X25 
+countCheck56_X26s 
+countCheck56_X26e 
+count56_X26 
+countCheck56_X27s 
+countCheck56_X27e 
+count56_X27 
+countCheck56_X28s 
+countCheck56_X28e 
+count56_X28 
+countCheck56_X29s 
+countCheck56_X29e 
+count56_X29 
+countCheck56_X30s 
+countCheck56_X30e 
+count56_X30 
+countCheck56_X31s 
+countCheck56_X31e 
+count56_X31 
+countCheck56_X32s 
+countCheck56_X32e 
+count56_X32 
+countCheck56_X33s 
+countCheck56_X33e 
+count56_X33 
+countCheck56_X34s 
+countCheck56_X34e 
+count56_X34 
+countCheck56_X35s 
+countCheck56_X35e 
+count56_X35 
+countCheck56_X36s 
+countCheck56_X36e 
+count56_X36 
+countCheck56_X37s 
+countCheck56_X37e 
+count56_X37 
+countCheck56_X38s 
+countCheck56_X38e 
+count56_X38 
+countCheck56_X39s 
+countCheck56_X39e 
+count56_X39 
+countCheck56_X40s 
+countCheck56_X40e 
+count56_X40 
+countCheck56_X41s 
+countCheck56_X41e 
+count56_X41 
+countCheck56_X42s 
+countCheck56_X42e 
+count56_X42 
+countCheck56_X43s 
+countCheck56_X43e 
+count56_X43 
+countCheck56_X44s 
+countCheck56_X44e 
+count56_X44 
+countCheck56_X45s 
+countCheck56_X45e 
+count56_X45 
+countCheck56_X46s 
+countCheck56_X46e 
+count56_X46 
+countCheck56_X47s 
+countCheck56_X47e 
+count56_X47 
+countCheck56_X48s 
+countCheck56_X48e 
+count56_X48 
+countCheck56_X49s 
+countCheck56_X49e 
+count56_X49 
+countCheck56_X50s 
+countCheck56_X50e 
+count56_X50 
+countCheck56_X51s 
+countCheck56_X51e 
+count56_X51 
+countCheck56_X52s 
+countCheck56_X52e 
+count56_X52 
+countCheck56_X53s 
+countCheck56_X53e 
+count56_X53 
+countCheck56_X54s 
+countCheck56_X54e 
+count56_X54 
+countCheck56_X55s 
+countCheck56_X55e 
+count56_X55 
+countCheck56_X56s 
+countCheck56_X56e 
+count56_X56 
+countCheck56_X57s 
+countCheck56_X57e 
+count56_X57 
+countCheck56_X58s 
+countCheck56_X58e 
+count56_X58 
+countCheck56_X59s 
+countCheck56_X59e 
+count56_X59 
+countCheck56_X60s 
+countCheck56_X60e 
+count56_X60 
+countCheck56_X61s 
+countCheck56_X61e 
+count56_X61 
+countCheck56_X62s 
+countCheck56_X62e 
+count56_X62 
+countCheck56_X63s 
+countCheck56_X63e 
+count56_X63 
+countCheck56_X64s 
+countCheck56_X64e 
+count56_X64 
+countCheck56_X65s 
+countCheck56_X65e 
+count56_X65 
+countCheck56_X66s 
+countCheck56_X66e 
+count56_X66 
+countCheck56_X67s 
+countCheck56_X67e 
+count56_X67 
+countCheck57_X0s 
+countCheck57_X0e 
+count57_X0 
+countCheck57_X1s 
+countCheck57_X1e 
+count57_X1 
+countCheck57_X2s 
+countCheck57_X2e 
+count57_X2 
+countCheck57_X3s 
+countCheck57_X3e 
+count57_X3 
+countCheck57_X4s 
+countCheck57_X4e 
+count57_X4 
+countCheck57_X5s 
+countCheck57_X5e 
+count57_X5 
+countCheck57_X6s 
+countCheck57_X6e 
+count57_X6 
+countCheck57_X7s 
+countCheck57_X7e 
+count57_X7 
+countCheck57_X8s 
+countCheck57_X8e 
+count57_X8 
+countCheck57_X9s 
+countCheck57_X9e 
+count57_X9 
+countCheck57_X10s 
+countCheck57_X10e 
+count57_X10 
+countCheck57_X11s 
+countCheck57_X11e 
+count57_X11 
+countCheck57_X12s 
+countCheck57_X12e 
+count57_X12 
+countCheck57_X13s 
+countCheck57_X13e 
+count57_X13 
+countCheck57_X14s 
+countCheck57_X14e 
+count57_X14 
+countCheck57_X15s 
+countCheck57_X15e 
+count57_X15 
+countCheck57_X16s 
+countCheck57_X16e 
+count57_X16 
+countCheck57_X17s 
+countCheck57_X17e 
+count57_X17 
+countCheck57_X18s 
+countCheck57_X18e 
+count57_X18 
+countCheck57_X19s 
+countCheck57_X19e 
+count57_X19 
+countCheck57_X20s 
+countCheck57_X20e 
+count57_X20 
+countCheck57_X21s 
+countCheck57_X21e 
+count57_X21 
+countCheck57_X22s 
+countCheck57_X22e 
+count57_X22 
+countCheck57_X23s 
+countCheck57_X23e 
+count57_X23 
+countCheck57_X24s 
+countCheck57_X24e 
+count57_X24 
+countCheck57_X25s 
+countCheck57_X25e 
+count57_X25 
+countCheck57_X26s 
+countCheck57_X26e 
+count57_X26 
+countCheck57_X27s 
+countCheck57_X27e 
+count57_X27 
+countCheck57_X28s 
+countCheck57_X28e 
+count57_X28 
+countCheck57_X29s 
+countCheck57_X29e 
+count57_X29 
+countCheck57_X30s 
+countCheck57_X30e 
+count57_X30 
+countCheck57_X31s 
+countCheck57_X31e 
+count57_X31 
+countCheck57_X32s 
+countCheck57_X32e 
+count57_X32 
+countCheck57_X33s 
+countCheck57_X33e 
+count57_X33 
+countCheck57_X34s 
+countCheck57_X34e 
+count57_X34 
+countCheck57_X35s 
+countCheck57_X35e 
+count57_X35 
+countCheck57_X36s 
+countCheck57_X36e 
+count57_X36 
+countCheck57_X37s 
+countCheck57_X37e 
+count57_X37 
+countCheck57_X38s 
+countCheck57_X38e 
+count57_X38 
+countCheck57_X39s 
+countCheck57_X39e 
+count57_X39 
+countCheck57_X40s 
+countCheck57_X40e 
+count57_X40 
+countCheck57_X41s 
+countCheck57_X41e 
+count57_X41 
+countCheck57_X42s 
+countCheck57_X42e 
+count57_X42 
+countCheck57_X43s 
+countCheck57_X43e 
+count57_X43 
+countCheck57_X44s 
+countCheck57_X44e 
+count57_X44 
+countCheck57_X45s 
+countCheck57_X45e 
+count57_X45 
+countCheck57_X46s 
+countCheck57_X46e 
+count57_X46 
+countCheck57_X47s 
+countCheck57_X47e 
+count57_X47 
+countCheck57_X48s 
+countCheck57_X48e 
+count57_X48 
+countCheck57_X49s 
+countCheck57_X49e 
+count57_X49 
+countCheck57_X50s 
+countCheck57_X50e 
+count57_X50 
+countCheck57_X51s 
+countCheck57_X51e 
+count57_X51 
+countCheck57_X52s 
+countCheck57_X52e 
+count57_X52 
+countCheck57_X53s 
+countCheck57_X53e 
+count57_X53 
+countCheck57_X54s 
+countCheck57_X54e 
+count57_X54 
+countCheck57_X55s 
+countCheck57_X55e 
+count57_X55 
+countCheck57_X56s 
+countCheck57_X56e 
+count57_X56 
+countCheck57_X57s 
+countCheck57_X57e 
+count57_X57 
+countCheck57_X58s 
+countCheck57_X58e 
+count57_X58 
+countCheck57_X59s 
+countCheck57_X59e 
+count57_X59 
+countCheck57_X60s 
+countCheck57_X60e 
+count57_X60 
+countCheck57_X61s 
+countCheck57_X61e 
+count57_X61 
+countCheck57_X62s 
+countCheck57_X62e 
+count57_X62 
+countCheck57_X63s 
+countCheck57_X63e 
+count57_X63 
+countCheck57_X64s 
+countCheck57_X64e 
+count57_X64 
+countCheck57_X65s 
+countCheck57_X65e 
+count57_X65 
+countCheck57_X66s 
+countCheck57_X66e 
+count57_X66 
+countCheck57_X67s 
+countCheck57_X67e 
+count57_X67 
+countCheck58_X0s 
+countCheck58_X0e 
+count58_X0 
+countCheck58_X1s 
+countCheck58_X1e 
+count58_X1 
+countCheck58_X2s 
+countCheck58_X2e 
+count58_X2 
+countCheck58_X3s 
+countCheck58_X3e 
+count58_X3 
+countCheck58_X4s 
+countCheck58_X4e 
+count58_X4 
+countCheck58_X5s 
+countCheck58_X5e 
+count58_X5 
+countCheck58_X6s 
+countCheck58_X6e 
+count58_X6 
+countCheck58_X7s 
+countCheck58_X7e 
+count58_X7 
+countCheck58_X8s 
+countCheck58_X8e 
+count58_X8 
+countCheck58_X9s 
+countCheck58_X9e 
+count58_X9 
+countCheck58_X10s 
+countCheck58_X10e 
+count58_X10 
+countCheck58_X11s 
+countCheck58_X11e 
+count58_X11 
+countCheck58_X12s 
+countCheck58_X12e 
+count58_X12 
+countCheck58_X13s 
+countCheck58_X13e 
+count58_X13 
+countCheck58_X14s 
+countCheck58_X14e 
+count58_X14 
+countCheck58_X15s 
+countCheck58_X15e 
+count58_X15 
+countCheck58_X16s 
+countCheck58_X16e 
+count58_X16 
+countCheck58_X17s 
+countCheck58_X17e 
+count58_X17 
+countCheck58_X18s 
+countCheck58_X18e 
+count58_X18 
+countCheck58_X19s 
+countCheck58_X19e 
+count58_X19 
+countCheck58_X20s 
+countCheck58_X20e 
+count58_X20 
+countCheck58_X21s 
+countCheck58_X21e 
+count58_X21 
+countCheck58_X22s 
+countCheck58_X22e 
+count58_X22 
+countCheck58_X23s 
+countCheck58_X23e 
+count58_X23 
+countCheck58_X24s 
+countCheck58_X24e 
+count58_X24 
+countCheck58_X25s 
+countCheck58_X25e 
+count58_X25 
+countCheck58_X26s 
+countCheck58_X26e 
+count58_X26 
+countCheck58_X27s 
+countCheck58_X27e 
+count58_X27 
+countCheck58_X28s 
+countCheck58_X28e 
+count58_X28 
+countCheck58_X29s 
+countCheck58_X29e 
+count58_X29 
+countCheck58_X30s 
+countCheck58_X30e 
+count58_X30 
+countCheck58_X31s 
+countCheck58_X31e 
+count58_X31 
+countCheck58_X32s 
+countCheck58_X32e 
+count58_X32 
+countCheck58_X33s 
+countCheck58_X33e 
+count58_X33 
+countCheck58_X34s 
+countCheck58_X34e 
+count58_X34 
+countCheck58_X35s 
+countCheck58_X35e 
+count58_X35 
+countCheck58_X36s 
+countCheck58_X36e 
+count58_X36 
+countCheck58_X37s 
+countCheck58_X37e 
+count58_X37 
+countCheck58_X38s 
+countCheck58_X38e 
+count58_X38 
+countCheck58_X39s 
+countCheck58_X39e 
+count58_X39 
+countCheck58_X40s 
+countCheck58_X40e 
+count58_X40 
+countCheck58_X41s 
+countCheck58_X41e 
+count58_X41 
+countCheck58_X42s 
+countCheck58_X42e 
+count58_X42 
+countCheck58_X43s 
+countCheck58_X43e 
+count58_X43 
+countCheck58_X44s 
+countCheck58_X44e 
+count58_X44 
+countCheck58_X45s 
+countCheck58_X45e 
+count58_X45 
+countCheck58_X46s 
+countCheck58_X46e 
+count58_X46 
+countCheck58_X47s 
+countCheck58_X47e 
+count58_X47 
+countCheck58_X48s 
+countCheck58_X48e 
+count58_X48 
+countCheck58_X49s 
+countCheck58_X49e 
+count58_X49 
+countCheck58_X50s 
+countCheck58_X50e 
+count58_X50 
+countCheck58_X51s 
+countCheck58_X51e 
+count58_X51 
+countCheck58_X52s 
+countCheck58_X52e 
+count58_X52 
+countCheck58_X53s 
+countCheck58_X53e 
+count58_X53 
+countCheck58_X54s 
+countCheck58_X54e 
+count58_X54 
+countCheck58_X55s 
+countCheck58_X55e 
+count58_X55 
+countCheck58_X56s 
+countCheck58_X56e 
+count58_X56 
+countCheck58_X57s 
+countCheck58_X57e 
+count58_X57 
+countCheck58_X58s 
+countCheck58_X58e 
+count58_X58 
+countCheck58_X59s 
+countCheck58_X59e 
+count58_X59 
+countCheck58_X60s 
+countCheck58_X60e 
+count58_X60 
+countCheck58_X61s 
+countCheck58_X61e 
+count58_X61 
+countCheck58_X62s 
+countCheck58_X62e 
+count58_X62 
+countCheck58_X63s 
+countCheck58_X63e 
+count58_X63 
+countCheck58_X64s 
+countCheck58_X64e 
+count58_X64 
+countCheck58_X65s 
+countCheck58_X65e 
+count58_X65 
+countCheck58_X66s 
+countCheck58_X66e 
+count58_X66 
+countCheck58_X67s 
+countCheck58_X67e 
+count58_X67 
+countCheck59_X0s 
+countCheck59_X0e 
+count59_X0 
+countCheck59_X1s 
+countCheck59_X1e 
+count59_X1 
+countCheck59_X2s 
+countCheck59_X2e 
+count59_X2 
+countCheck59_X3s 
+countCheck59_X3e 
+count59_X3 
+countCheck59_X4s 
+countCheck59_X4e 
+count59_X4 
+countCheck59_X5s 
+countCheck59_X5e 
+count59_X5 
+countCheck59_X6s 
+countCheck59_X6e 
+count59_X6 
+countCheck59_X7s 
+countCheck59_X7e 
+count59_X7 
+countCheck59_X8s 
+countCheck59_X8e 
+count59_X8 
+countCheck59_X9s 
+countCheck59_X9e 
+count59_X9 
+countCheck59_X10s 
+countCheck59_X10e 
+count59_X10 
+countCheck59_X11s 
+countCheck59_X11e 
+count59_X11 
+countCheck59_X12s 
+countCheck59_X12e 
+count59_X12 
+countCheck59_X13s 
+countCheck59_X13e 
+count59_X13 
+countCheck59_X14s 
+countCheck59_X14e 
+count59_X14 
+countCheck59_X15s 
+countCheck59_X15e 
+count59_X15 
+countCheck59_X16s 
+countCheck59_X16e 
+count59_X16 
+countCheck59_X17s 
+countCheck59_X17e 
+count59_X17 
+countCheck59_X18s 
+countCheck59_X18e 
+count59_X18 
+countCheck59_X19s 
+countCheck59_X19e 
+count59_X19 
+countCheck59_X20s 
+countCheck59_X20e 
+count59_X20 
+countCheck59_X21s 
+countCheck59_X21e 
+count59_X21 
+countCheck59_X22s 
+countCheck59_X22e 
+count59_X22 
+countCheck59_X23s 
+countCheck59_X23e 
+count59_X23 
+countCheck59_X24s 
+countCheck59_X24e 
+count59_X24 
+countCheck59_X25s 
+countCheck59_X25e 
+count59_X25 
+countCheck59_X26s 
+countCheck59_X26e 
+count59_X26 
+countCheck59_X27s 
+countCheck59_X27e 
+count59_X27 
+countCheck59_X28s 
+countCheck59_X28e 
+count59_X28 
+countCheck59_X29s 
+countCheck59_X29e 
+count59_X29 
+countCheck59_X30s 
+countCheck59_X30e 
+count59_X30 
+countCheck59_X31s 
+countCheck59_X31e 
+count59_X31 
+countCheck59_X32s 
+countCheck59_X32e 
+count59_X32 
+countCheck59_X33s 
+countCheck59_X33e 
+count59_X33 
+countCheck59_X34s 
+countCheck59_X34e 
+count59_X34 
+countCheck59_X35s 
+countCheck59_X35e 
+count59_X35 
+countCheck59_X36s 
+countCheck59_X36e 
+count59_X36 
+countCheck59_X37s 
+countCheck59_X37e 
+count59_X37 
+countCheck59_X38s 
+countCheck59_X38e 
+count59_X38 
+countCheck59_X39s 
+countCheck59_X39e 
+count59_X39 
+countCheck59_X40s 
+countCheck59_X40e 
+count59_X40 
+countCheck59_X41s 
+countCheck59_X41e 
+count59_X41 
+countCheck59_X42s 
+countCheck59_X42e 
+count59_X42 
+countCheck59_X43s 
+countCheck59_X43e 
+count59_X43 
+countCheck59_X44s 
+countCheck59_X44e 
+count59_X44 
+countCheck59_X45s 
+countCheck59_X45e 
+count59_X45 
+countCheck59_X46s 
+countCheck59_X46e 
+count59_X46 
+countCheck59_X47s 
+countCheck59_X47e 
+count59_X47 
+countCheck59_X48s 
+countCheck59_X48e 
+count59_X48 
+countCheck59_X49s 
+countCheck59_X49e 
+count59_X49 
+countCheck59_X50s 
+countCheck59_X50e 
+count59_X50 
+countCheck59_X51s 
+countCheck59_X51e 
+count59_X51 
+countCheck59_X52s 
+countCheck59_X52e 
+count59_X52 
+countCheck59_X53s 
+countCheck59_X53e 
+count59_X53 
+countCheck59_X54s 
+countCheck59_X54e 
+count59_X54 
+countCheck59_X55s 
+countCheck59_X55e 
+count59_X55 
+countCheck59_X56s 
+countCheck59_X56e 
+count59_X56 
+countCheck59_X57s 
+countCheck59_X57e 
+count59_X57 
+countCheck59_X58s 
+countCheck59_X58e 
+count59_X58 
+countCheck59_X59s 
+countCheck59_X59e 
+count59_X59 
+countCheck59_X60s 
+countCheck59_X60e 
+count59_X60 
+countCheck59_X61s 
+countCheck59_X61e 
+count59_X61 
+countCheck59_X62s 
+countCheck59_X62e 
+count59_X62 
+countCheck59_X63s 
+countCheck59_X63e 
+count59_X63 
+countCheck59_X64s 
+countCheck59_X64e 
+count59_X64 
+countCheck59_X65s 
+countCheck59_X65e 
+count59_X65 
+countCheck59_X66s 
+countCheck59_X66e 
+count59_X66 
+countCheck59_X67s 
+countCheck59_X67e 
+count59_X67 
+countCheck60_X0s 
+countCheck60_X0e 
+count60_X0 
+countCheck60_X1s 
+countCheck60_X1e 
+count60_X1 
+countCheck60_X2s 
+countCheck60_X2e 
+count60_X2 
+countCheck60_X3s 
+countCheck60_X3e 
+count60_X3 
+countCheck60_X4s 
+countCheck60_X4e 
+count60_X4 
+countCheck60_X5s 
+countCheck60_X5e 
+count60_X5 
+countCheck60_X6s 
+countCheck60_X6e 
+count60_X6 
+countCheck60_X7s 
+countCheck60_X7e 
+count60_X7 
+countCheck60_X8s 
+countCheck60_X8e 
+count60_X8 
+countCheck60_X9s 
+countCheck60_X9e 
+count60_X9 
+countCheck60_X10s 
+countCheck60_X10e 
+count60_X10 
+countCheck60_X11s 
+countCheck60_X11e 
+count60_X11 
+countCheck60_X12s 
+countCheck60_X12e 
+count60_X12 
+countCheck60_X13s 
+countCheck60_X13e 
+count60_X13 
+countCheck60_X14s 
+countCheck60_X14e 
+count60_X14 
+countCheck60_X15s 
+countCheck60_X15e 
+count60_X15 
+countCheck60_X16s 
+countCheck60_X16e 
+count60_X16 
+countCheck60_X17s 
+countCheck60_X17e 
+count60_X17 
+countCheck60_X18s 
+countCheck60_X18e 
+count60_X18 
+countCheck60_X19s 
+countCheck60_X19e 
+count60_X19 
+countCheck60_X20s 
+countCheck60_X20e 
+count60_X20 
+countCheck60_X21s 
+countCheck60_X21e 
+count60_X21 
+countCheck60_X22s 
+countCheck60_X22e 
+count60_X22 
+countCheck60_X23s 
+countCheck60_X23e 
+count60_X23 
+countCheck60_X24s 
+countCheck60_X24e 
+count60_X24 
+countCheck60_X25s 
+countCheck60_X25e 
+count60_X25 
+countCheck60_X26s 
+countCheck60_X26e 
+count60_X26 
+countCheck60_X27s 
+countCheck60_X27e 
+count60_X27 
+countCheck60_X28s 
+countCheck60_X28e 
+count60_X28 
+countCheck60_X29s 
+countCheck60_X29e 
+count60_X29 
+countCheck60_X30s 
+countCheck60_X30e 
+count60_X30 
+countCheck60_X31s 
+countCheck60_X31e 
+count60_X31 
+countCheck60_X32s 
+countCheck60_X32e 
+count60_X32 
+countCheck60_X33s 
+countCheck60_X33e 
+count60_X33 
+countCheck60_X34s 
+countCheck60_X34e 
+count60_X34 
+countCheck60_X35s 
+countCheck60_X35e 
+count60_X35 
+countCheck60_X36s 
+countCheck60_X36e 
+count60_X36 
+countCheck60_X37s 
+countCheck60_X37e 
+count60_X37 
+countCheck60_X38s 
+countCheck60_X38e 
+count60_X38 
+countCheck60_X39s 
+countCheck60_X39e 
+count60_X39 
+countCheck60_X40s 
+countCheck60_X40e 
+count60_X40 
+countCheck60_X41s 
+countCheck60_X41e 
+count60_X41 
+countCheck60_X42s 
+countCheck60_X42e 
+count60_X42 
+countCheck60_X43s 
+countCheck60_X43e 
+count60_X43 
+countCheck60_X44s 
+countCheck60_X44e 
+count60_X44 
+countCheck60_X45s 
+countCheck60_X45e 
+count60_X45 
+countCheck60_X46s 
+countCheck60_X46e 
+count60_X46 
+countCheck60_X47s 
+countCheck60_X47e 
+count60_X47 
+countCheck60_X48s 
+countCheck60_X48e 
+count60_X48 
+countCheck60_X49s 
+countCheck60_X49e 
+count60_X49 
+countCheck60_X50s 
+countCheck60_X50e 
+count60_X50 
+countCheck60_X51s 
+countCheck60_X51e 
+count60_X51 
+countCheck60_X52s 
+countCheck60_X52e 
+count60_X52 
+countCheck60_X53s 
+countCheck60_X53e 
+count60_X53 
+countCheck60_X54s 
+countCheck60_X54e 
+count60_X54 
+countCheck60_X55s 
+countCheck60_X55e 
+count60_X55 
+countCheck60_X56s 
+countCheck60_X56e 
+count60_X56 
+countCheck60_X57s 
+countCheck60_X57e 
+count60_X57 
+countCheck60_X58s 
+countCheck60_X58e 
+count60_X58 
+countCheck60_X59s 
+countCheck60_X59e 
+count60_X59 
+countCheck60_X60s 
+countCheck60_X60e 
+count60_X60 
+countCheck60_X61s 
+countCheck60_X61e 
+count60_X61 
+countCheck60_X62s 
+countCheck60_X62e 
+count60_X62 
+countCheck60_X63s 
+countCheck60_X63e 
+count60_X63 
+countCheck60_X64s 
+countCheck60_X64e 
+count60_X64 
+countCheck60_X65s 
+countCheck60_X65e 
+count60_X65 
+countCheck60_X66s 
+countCheck60_X66e 
+count60_X66 
+countCheck60_X67s 
+countCheck60_X67e 
+count60_X67 
+countCheck61_X0s 
+countCheck61_X0e 
+count61_X0 
+countCheck61_X1s 
+countCheck61_X1e 
+count61_X1 
+countCheck61_X2s 
+countCheck61_X2e 
+count61_X2 
+countCheck61_X3s 
+countCheck61_X3e 
+count61_X3 
+countCheck61_X4s 
+countCheck61_X4e 
+count61_X4 
+countCheck61_X5s 
+countCheck61_X5e 
+count61_X5 
+countCheck61_X6s 
+countCheck61_X6e 
+count61_X6 
+countCheck61_X7s 
+countCheck61_X7e 
+count61_X7 
+countCheck61_X8s 
+countCheck61_X8e 
+count61_X8 
+countCheck61_X9s 
+countCheck61_X9e 
+count61_X9 
+countCheck61_X10s 
+countCheck61_X10e 
+count61_X10 
+countCheck61_X11s 
+countCheck61_X11e 
+count61_X11 
+countCheck61_X12s 
+countCheck61_X12e 
+count61_X12 
+countCheck61_X13s 
+countCheck61_X13e 
+count61_X13 
+countCheck61_X14s 
+countCheck61_X14e 
+count61_X14 
+countCheck61_X15s 
+countCheck61_X15e 
+count61_X15 
+countCheck61_X16s 
+countCheck61_X16e 
+count61_X16 
+countCheck61_X17s 
+countCheck61_X17e 
+count61_X17 
+countCheck61_X18s 
+countCheck61_X18e 
+count61_X18 
+countCheck61_X19s 
+countCheck61_X19e 
+count61_X19 
+countCheck61_X20s 
+countCheck61_X20e 
+count61_X20 
+countCheck61_X21s 
+countCheck61_X21e 
+count61_X21 
+countCheck61_X22s 
+countCheck61_X22e 
+count61_X22 
+countCheck61_X23s 
+countCheck61_X23e 
+count61_X23 
+countCheck61_X24s 
+countCheck61_X24e 
+count61_X24 
+countCheck61_X25s 
+countCheck61_X25e 
+count61_X25 
+countCheck61_X26s 
+countCheck61_X26e 
+count61_X26 
+countCheck61_X27s 
+countCheck61_X27e 
+count61_X27 
+countCheck61_X28s 
+countCheck61_X28e 
+count61_X28 
+countCheck61_X29s 
+countCheck61_X29e 
+count61_X29 
+countCheck61_X30s 
+countCheck61_X30e 
+count61_X30 
+countCheck61_X31s 
+countCheck61_X31e 
+count61_X31 
+countCheck61_X32s 
+countCheck61_X32e 
+count61_X32 
+countCheck61_X33s 
+countCheck61_X33e 
+count61_X33 
+countCheck61_X34s 
+countCheck61_X34e 
+count61_X34 
+countCheck61_X35s 
+countCheck61_X35e 
+count61_X35 
+countCheck61_X36s 
+countCheck61_X36e 
+count61_X36 
+countCheck61_X37s 
+countCheck61_X37e 
+count61_X37 
+countCheck61_X38s 
+countCheck61_X38e 
+count61_X38 
+countCheck61_X39s 
+countCheck61_X39e 
+count61_X39 
+countCheck61_X40s 
+countCheck61_X40e 
+count61_X40 
+countCheck61_X41s 
+countCheck61_X41e 
+count61_X41 
+countCheck61_X42s 
+countCheck61_X42e 
+count61_X42 
+countCheck61_X43s 
+countCheck61_X43e 
+count61_X43 
+countCheck61_X44s 
+countCheck61_X44e 
+count61_X44 
+countCheck61_X45s 
+countCheck61_X45e 
+count61_X45 
+countCheck61_X46s 
+countCheck61_X46e 
+count61_X46 
+countCheck61_X47s 
+countCheck61_X47e 
+count61_X47 
+countCheck61_X48s 
+countCheck61_X48e 
+count61_X48 
+countCheck61_X49s 
+countCheck61_X49e 
+count61_X49 
+countCheck61_X50s 
+countCheck61_X50e 
+count61_X50 
+countCheck61_X51s 
+countCheck61_X51e 
+count61_X51 
+countCheck61_X52s 
+countCheck61_X52e 
+count61_X52 
+countCheck61_X53s 
+countCheck61_X53e 
+count61_X53 
+countCheck61_X54s 
+countCheck61_X54e 
+count61_X54 
+countCheck61_X55s 
+countCheck61_X55e 
+count61_X55 
+countCheck61_X56s 
+countCheck61_X56e 
+count61_X56 
+countCheck61_X57s 
+countCheck61_X57e 
+count61_X57 
+countCheck61_X58s 
+countCheck61_X58e 
+count61_X58 
+countCheck61_X59s 
+countCheck61_X59e 
+count61_X59 
+countCheck61_X60s 
+countCheck61_X60e 
+count61_X60 
+countCheck61_X61s 
+countCheck61_X61e 
+count61_X61 
+countCheck61_X62s 
+countCheck61_X62e 
+count61_X62 
+countCheck61_X63s 
+countCheck61_X63e 
+count61_X63 
+countCheck61_X64s 
+countCheck61_X64e 
+count61_X64 
+countCheck61_X65s 
+countCheck61_X65e 
+count61_X65 
+countCheck61_X66s 
+countCheck61_X66e 
+count61_X66 
+countCheck61_X67s 
+countCheck61_X67e 
+count61_X67 
+countCheck62_X0s 
+countCheck62_X0e 
+count62_X0 
+countCheck62_X1s 
+countCheck62_X1e 
+count62_X1 
+countCheck62_X2s 
+countCheck62_X2e 
+count62_X2 
+countCheck62_X3s 
+countCheck62_X3e 
+count62_X3 
+countCheck62_X4s 
+countCheck62_X4e 
+count62_X4 
+countCheck62_X5s 
+countCheck62_X5e 
+count62_X5 
+countCheck62_X6s 
+countCheck62_X6e 
+count62_X6 
+countCheck62_X7s 
+countCheck62_X7e 
+count62_X7 
+countCheck62_X8s 
+countCheck62_X8e 
+count62_X8 
+countCheck62_X9s 
+countCheck62_X9e 
+count62_X9 
+countCheck62_X10s 
+countCheck62_X10e 
+count62_X10 
+countCheck62_X11s 
+countCheck62_X11e 
+count62_X11 
+countCheck62_X12s 
+countCheck62_X12e 
+count62_X12 
+countCheck62_X13s 
+countCheck62_X13e 
+count62_X13 
+countCheck62_X14s 
+countCheck62_X14e 
+count62_X14 
+countCheck62_X15s 
+countCheck62_X15e 
+count62_X15 
+countCheck62_X16s 
+countCheck62_X16e 
+count62_X16 
+countCheck62_X17s 
+countCheck62_X17e 
+count62_X17 
+countCheck62_X18s 
+countCheck62_X18e 
+count62_X18 
+countCheck62_X19s 
+countCheck62_X19e 
+count62_X19 
+countCheck62_X20s 
+countCheck62_X20e 
+count62_X20 
+countCheck62_X21s 
+countCheck62_X21e 
+count62_X21 
+countCheck62_X22s 
+countCheck62_X22e 
+count62_X22 
+countCheck62_X23s 
+countCheck62_X23e 
+count62_X23 
+countCheck62_X24s 
+countCheck62_X24e 
+count62_X24 
+countCheck62_X25s 
+countCheck62_X25e 
+count62_X25 
+countCheck62_X26s 
+countCheck62_X26e 
+count62_X26 
+countCheck62_X27s 
+countCheck62_X27e 
+count62_X27 
+countCheck62_X28s 
+countCheck62_X28e 
+count62_X28 
+countCheck62_X29s 
+countCheck62_X29e 
+count62_X29 
+countCheck62_X30s 
+countCheck62_X30e 
+count62_X30 
+countCheck62_X31s 
+countCheck62_X31e 
+count62_X31 
+countCheck62_X32s 
+countCheck62_X32e 
+count62_X32 
+countCheck62_X33s 
+countCheck62_X33e 
+count62_X33 
+countCheck62_X34s 
+countCheck62_X34e 
+count62_X34 
+countCheck62_X35s 
+countCheck62_X35e 
+count62_X35 
+countCheck62_X36s 
+countCheck62_X36e 
+count62_X36 
+countCheck62_X37s 
+countCheck62_X37e 
+count62_X37 
+countCheck62_X38s 
+countCheck62_X38e 
+count62_X38 
+countCheck62_X39s 
+countCheck62_X39e 
+count62_X39 
+countCheck62_X40s 
+countCheck62_X40e 
+count62_X40 
+countCheck62_X41s 
+countCheck62_X41e 
+count62_X41 
+countCheck62_X42s 
+countCheck62_X42e 
+count62_X42 
+countCheck62_X43s 
+countCheck62_X43e 
+count62_X43 
+countCheck62_X44s 
+countCheck62_X44e 
+count62_X44 
+countCheck62_X45s 
+countCheck62_X45e 
+count62_X45 
+countCheck62_X46s 
+countCheck62_X46e 
+count62_X46 
+countCheck62_X47s 
+countCheck62_X47e 
+count62_X47 
+countCheck62_X48s 
+countCheck62_X48e 
+count62_X48 
+countCheck62_X49s 
+countCheck62_X49e 
+count62_X49 
+countCheck62_X50s 
+countCheck62_X50e 
+count62_X50 
+countCheck62_X51s 
+countCheck62_X51e 
+count62_X51 
+countCheck62_X52s 
+countCheck62_X52e 
+count62_X52 
+countCheck62_X53s 
+countCheck62_X53e 
+count62_X53 
+countCheck62_X54s 
+countCheck62_X54e 
+count62_X54 
+countCheck62_X55s 
+countCheck62_X55e 
+count62_X55 
+countCheck62_X56s 
+countCheck62_X56e 
+count62_X56 
+countCheck62_X57s 
+countCheck62_X57e 
+count62_X57 
+countCheck62_X58s 
+countCheck62_X58e 
+count62_X58 
+countCheck62_X59s 
+countCheck62_X59e 
+count62_X59 
+countCheck62_X60s 
+countCheck62_X60e 
+count62_X60 
+countCheck62_X61s 
+countCheck62_X61e 
+count62_X61 
+countCheck62_X62s 
+countCheck62_X62e 
+count62_X62 
+countCheck62_X63s 
+countCheck62_X63e 
+count62_X63 
+countCheck62_X64s 
+countCheck62_X64e 
+count62_X64 
+countCheck62_X65s 
+countCheck62_X65e 
+count62_X65 
+countCheck62_X66s 
+countCheck62_X66e 
+count62_X66 
+countCheck62_X67s 
+countCheck62_X67e 
+count62_X67 
+countCheck63_X0s 
+countCheck63_X0e 
+count63_X0 
+countCheck63_X1s 
+countCheck63_X1e 
+count63_X1 
+countCheck63_X2s 
+countCheck63_X2e 
+count63_X2 
+countCheck63_X3s 
+countCheck63_X3e 
+count63_X3 
+countCheck63_X4s 
+countCheck63_X4e 
+count63_X4 
+countCheck63_X5s 
+countCheck63_X5e 
+count63_X5 
+countCheck63_X6s 
+countCheck63_X6e 
+count63_X6 
+countCheck63_X7s 
+countCheck63_X7e 
+count63_X7 
+countCheck63_X8s 
+countCheck63_X8e 
+count63_X8 
+countCheck63_X9s 
+countCheck63_X9e 
+count63_X9 
+countCheck63_X10s 
+countCheck63_X10e 
+count63_X10 
+countCheck63_X11s 
+countCheck63_X11e 
+count63_X11 
+countCheck63_X12s 
+countCheck63_X12e 
+count63_X12 
+countCheck63_X13s 
+countCheck63_X13e 
+count63_X13 
+countCheck63_X14s 
+countCheck63_X14e 
+count63_X14 
+countCheck63_X15s 
+countCheck63_X15e 
+count63_X15 
+countCheck63_X16s 
+countCheck63_X16e 
+count63_X16 
+countCheck63_X17s 
+countCheck63_X17e 
+count63_X17 
+countCheck63_X18s 
+countCheck63_X18e 
+count63_X18 
+countCheck63_X19s 
+countCheck63_X19e 
+count63_X19 
+countCheck63_X20s 
+countCheck63_X20e 
+count63_X20 
+countCheck63_X21s 
+countCheck63_X21e 
+count63_X21 
+countCheck63_X22s 
+countCheck63_X22e 
+count63_X22 
+countCheck63_X23s 
+countCheck63_X23e 
+count63_X23 
+countCheck63_X24s 
+countCheck63_X24e 
+count63_X24 
+countCheck63_X25s 
+countCheck63_X25e 
+count63_X25 
+countCheck63_X26s 
+countCheck63_X26e 
+count63_X26 
+countCheck63_X27s 
+countCheck63_X27e 
+count63_X27 
+countCheck63_X28s 
+countCheck63_X28e 
+count63_X28 
+countCheck63_X29s 
+countCheck63_X29e 
+count63_X29 
+countCheck63_X30s 
+countCheck63_X30e 
+count63_X30 
+countCheck63_X31s 
+countCheck63_X31e 
+count63_X31 
+countCheck63_X32s 
+countCheck63_X32e 
+count63_X32 
+countCheck63_X33s 
+countCheck63_X33e 
+count63_X33 
+countCheck63_X34s 
+countCheck63_X34e 
+count63_X34 
+countCheck63_X35s 
+countCheck63_X35e 
+count63_X35 
+countCheck63_X36s 
+countCheck63_X36e 
+count63_X36 
+countCheck63_X37s 
+countCheck63_X37e 
+count63_X37 
+countCheck63_X38s 
+countCheck63_X38e 
+count63_X38 
+countCheck63_X39s 
+countCheck63_X39e 
+count63_X39 
+countCheck63_X40s 
+countCheck63_X40e 
+count63_X40 
+countCheck63_X41s 
+countCheck63_X41e 
+count63_X41 
+countCheck63_X42s 
+countCheck63_X42e 
+count63_X42 
+countCheck63_X43s 
+countCheck63_X43e 
+count63_X43 
+countCheck63_X44s 
+countCheck63_X44e 
+count63_X44 
+countCheck63_X45s 
+countCheck63_X45e 
+count63_X45 
+countCheck63_X46s 
+countCheck63_X46e 
+count63_X46 
+countCheck63_X47s 
+countCheck63_X47e 
+count63_X47 
+countCheck63_X48s 
+countCheck63_X48e 
+count63_X48 
+countCheck63_X49s 
+countCheck63_X49e 
+count63_X49 
+countCheck63_X50s 
+countCheck63_X50e 
+count63_X50 
+countCheck63_X51s 
+countCheck63_X51e 
+count63_X51 
+countCheck63_X52s 
+countCheck63_X52e 
+count63_X52 
+countCheck63_X53s 
+countCheck63_X53e 
+count63_X53 
+countCheck63_X54s 
+countCheck63_X54e 
+count63_X54 
+countCheck63_X55s 
+countCheck63_X55e 
+count63_X55 
+countCheck63_X56s 
+countCheck63_X56e 
+count63_X56 
+countCheck63_X57s 
+countCheck63_X57e 
+count63_X57 
+countCheck63_X58s 
+countCheck63_X58e 
+count63_X58 
+countCheck63_X59s 
+countCheck63_X59e 
+count63_X59 
+countCheck63_X60s 
+countCheck63_X60e 
+count63_X60 
+countCheck63_X61s 
+countCheck63_X61e 
+count63_X61 
+countCheck63_X62s 
+countCheck63_X62e 
+count63_X62 
+countCheck63_X63s 
+countCheck63_X63e 
+count63_X63 
+countCheck63_X64s 
+countCheck63_X64e 
+count63_X64 
+countCheck63_X65s 
+countCheck63_X65e 
+count63_X65 
+countCheck63_X66s 
+countCheck63_X66e 
+count63_X66 
+countCheck63_X67s 
+countCheck63_X67e 
+count63_X67 
+countCheck64_X0s 
+countCheck64_X0e 
+count64_X0 
+countCheck64_X1s 
+countCheck64_X1e 
+count64_X1 
+countCheck64_X2s 
+countCheck64_X2e 
+count64_X2 
+countCheck64_X3s 
+countCheck64_X3e 
+count64_X3 
+countCheck64_X4s 
+countCheck64_X4e 
+count64_X4 
+countCheck64_X5s 
+countCheck64_X5e 
+count64_X5 
+countCheck64_X6s 
+countCheck64_X6e 
+count64_X6 
+countCheck64_X7s 
+countCheck64_X7e 
+count64_X7 
+countCheck64_X8s 
+countCheck64_X8e 
+count64_X8 
+countCheck64_X9s 
+countCheck64_X9e 
+count64_X9 
+countCheck64_X10s 
+countCheck64_X10e 
+count64_X10 
+countCheck64_X11s 
+countCheck64_X11e 
+count64_X11 
+countCheck64_X12s 
+countCheck64_X12e 
+count64_X12 
+countCheck64_X13s 
+countCheck64_X13e 
+count64_X13 
+countCheck64_X14s 
+countCheck64_X14e 
+count64_X14 
+countCheck64_X15s 
+countCheck64_X15e 
+count64_X15 
+countCheck64_X16s 
+countCheck64_X16e 
+count64_X16 
+countCheck64_X17s 
+countCheck64_X17e 
+count64_X17 
+countCheck64_X18s 
+countCheck64_X18e 
+count64_X18 
+countCheck64_X19s 
+countCheck64_X19e 
+count64_X19 
+countCheck64_X20s 
+countCheck64_X20e 
+count64_X20 
+countCheck64_X21s 
+countCheck64_X21e 
+count64_X21 
+countCheck64_X22s 
+countCheck64_X22e 
+count64_X22 
+countCheck64_X23s 
+countCheck64_X23e 
+count64_X23 
+countCheck64_X24s 
+countCheck64_X24e 
+count64_X24 
+countCheck64_X25s 
+countCheck64_X25e 
+count64_X25 
+countCheck64_X26s 
+countCheck64_X26e 
+count64_X26 
+countCheck64_X27s 
+countCheck64_X27e 
+count64_X27 
+countCheck64_X28s 
+countCheck64_X28e 
+count64_X28 
+countCheck64_X29s 
+countCheck64_X29e 
+count64_X29 
+countCheck64_X30s 
+countCheck64_X30e 
+count64_X30 
+countCheck64_X31s 
+countCheck64_X31e 
+count64_X31 
+countCheck64_X32s 
+countCheck64_X32e 
+count64_X32 
+countCheck64_X33s 
+countCheck64_X33e 
+count64_X33 
+countCheck64_X34s 
+countCheck64_X34e 
+count64_X34 
+countCheck64_X35s 
+countCheck64_X35e 
+count64_X35 
+countCheck64_X36s 
+countCheck64_X36e 
+count64_X36 
+countCheck64_X37s 
+countCheck64_X37e 
+count64_X37 
+countCheck64_X38s 
+countCheck64_X38e 
+count64_X38 
+countCheck64_X39s 
+countCheck64_X39e 
+count64_X39 
+countCheck64_X40s 
+countCheck64_X40e 
+count64_X40 
+countCheck64_X41s 
+countCheck64_X41e 
+count64_X41 
+countCheck64_X42s 
+countCheck64_X42e 
+count64_X42 
+countCheck64_X43s 
+countCheck64_X43e 
+count64_X43 
+countCheck64_X44s 
+countCheck64_X44e 
+count64_X44 
+countCheck64_X45s 
+countCheck64_X45e 
+count64_X45 
+countCheck64_X46s 
+countCheck64_X46e 
+count64_X46 
+countCheck64_X47s 
+countCheck64_X47e 
+count64_X47 
+countCheck64_X48s 
+countCheck64_X48e 
+count64_X48 
+countCheck64_X49s 
+countCheck64_X49e 
+count64_X49 
+countCheck64_X50s 
+countCheck64_X50e 
+count64_X50 
+countCheck64_X51s 
+countCheck64_X51e 
+count64_X51 
+countCheck64_X52s 
+countCheck64_X52e 
+count64_X52 
+countCheck64_X53s 
+countCheck64_X53e 
+count64_X53 
+countCheck64_X54s 
+countCheck64_X54e 
+count64_X54 
+countCheck64_X55s 
+countCheck64_X55e 
+count64_X55 
+countCheck64_X56s 
+countCheck64_X56e 
+count64_X56 
+countCheck64_X57s 
+countCheck64_X57e 
+count64_X57 
+countCheck64_X58s 
+countCheck64_X58e 
+count64_X58 
+countCheck64_X59s 
+countCheck64_X59e 
+count64_X59 
+countCheck64_X60s 
+countCheck64_X60e 
+count64_X60 
+countCheck64_X61s 
+countCheck64_X61e 
+count64_X61 
+countCheck64_X62s 
+countCheck64_X62e 
+count64_X62 
+countCheck64_X63s 
+countCheck64_X63e 
+count64_X63 
+countCheck64_X64s 
+countCheck64_X64e 
+count64_X64 
+countCheck64_X65s 
+countCheck64_X65e 
+count64_X65 
+countCheck64_X66s 
+countCheck64_X66e 
+count64_X66 
+countCheck64_X67s 
+countCheck64_X67e 
+count64_X67 
+countCheck65_X0s 
+countCheck65_X0e 
+count65_X0 
+countCheck65_X1s 
+countCheck65_X1e 
+count65_X1 
+countCheck65_X2s 
+countCheck65_X2e 
+count65_X2 
+countCheck65_X3s 
+countCheck65_X3e 
+count65_X3 
+countCheck65_X4s 
+countCheck65_X4e 
+count65_X4 
+countCheck65_X5s 
+countCheck65_X5e 
+count65_X5 
+countCheck65_X6s 
+countCheck65_X6e 
+count65_X6 
+countCheck65_X7s 
+countCheck65_X7e 
+count65_X7 
+countCheck65_X8s 
+countCheck65_X8e 
+count65_X8 
+countCheck65_X9s 
+countCheck65_X9e 
+count65_X9 
+countCheck65_X10s 
+countCheck65_X10e 
+count65_X10 
+countCheck65_X11s 
+countCheck65_X11e 
+count65_X11 
+countCheck65_X12s 
+countCheck65_X12e 
+count65_X12 
+countCheck65_X13s 
+countCheck65_X13e 
+count65_X13 
+countCheck65_X14s 
+countCheck65_X14e 
+count65_X14 
+countCheck65_X15s 
+countCheck65_X15e 
+count65_X15 
+countCheck65_X16s 
+countCheck65_X16e 
+count65_X16 
+countCheck65_X17s 
+countCheck65_X17e 
+count65_X17 
+countCheck65_X18s 
+countCheck65_X18e 
+count65_X18 
+countCheck65_X19s 
+countCheck65_X19e 
+count65_X19 
+countCheck65_X20s 
+countCheck65_X20e 
+count65_X20 
+countCheck65_X21s 
+countCheck65_X21e 
+count65_X21 
+countCheck65_X22s 
+countCheck65_X22e 
+count65_X22 
+countCheck65_X23s 
+countCheck65_X23e 
+count65_X23 
+countCheck65_X24s 
+countCheck65_X24e 
+count65_X24 
+countCheck65_X25s 
+countCheck65_X25e 
+count65_X25 
+countCheck65_X26s 
+countCheck65_X26e 
+count65_X26 
+countCheck65_X27s 
+countCheck65_X27e 
+count65_X27 
+countCheck65_X28s 
+countCheck65_X28e 
+count65_X28 
+countCheck65_X29s 
+countCheck65_X29e 
+count65_X29 
+countCheck65_X30s 
+countCheck65_X30e 
+count65_X30 
+countCheck65_X31s 
+countCheck65_X31e 
+count65_X31 
+countCheck65_X32s 
+countCheck65_X32e 
+count65_X32 
+countCheck65_X33s 
+countCheck65_X33e 
+count65_X33 
+countCheck65_X34s 
+countCheck65_X34e 
+count65_X34 
+countCheck65_X35s 
+countCheck65_X35e 
+count65_X35 
+countCheck65_X36s 
+countCheck65_X36e 
+count65_X36 
+countCheck65_X37s 
+countCheck65_X37e 
+count65_X37 
+countCheck65_X38s 
+countCheck65_X38e 
+count65_X38 
+countCheck65_X39s 
+countCheck65_X39e 
+count65_X39 
+countCheck65_X40s 
+countCheck65_X40e 
+count65_X40 
+countCheck65_X41s 
+countCheck65_X41e 
+count65_X41 
+countCheck65_X42s 
+countCheck65_X42e 
+count65_X42 
+countCheck65_X43s 
+countCheck65_X43e 
+count65_X43 
+countCheck65_X44s 
+countCheck65_X44e 
+count65_X44 
+countCheck65_X45s 
+countCheck65_X45e 
+count65_X45 
+countCheck65_X46s 
+countCheck65_X46e 
+count65_X46 
+countCheck65_X47s 
+countCheck65_X47e 
+count65_X47 
+countCheck65_X48s 
+countCheck65_X48e 
+count65_X48 
+countCheck65_X49s 
+countCheck65_X49e 
+count65_X49 
+countCheck65_X50s 
+countCheck65_X50e 
+count65_X50 
+countCheck65_X51s 
+countCheck65_X51e 
+count65_X51 
+countCheck65_X52s 
+countCheck65_X52e 
+count65_X52 
+countCheck65_X53s 
+countCheck65_X53e 
+count65_X53 
+countCheck65_X54s 
+countCheck65_X54e 
+count65_X54 
+countCheck65_X55s 
+countCheck65_X55e 
+count65_X55 
+countCheck65_X56s 
+countCheck65_X56e 
+count65_X56 
+countCheck65_X57s 
+countCheck65_X57e 
+count65_X57 
+countCheck65_X58s 
+countCheck65_X58e 
+count65_X58 
+countCheck65_X59s 
+countCheck65_X59e 
+count65_X59 
+countCheck65_X60s 
+countCheck65_X60e 
+count65_X60 
+countCheck65_X61s 
+countCheck65_X61e 
+count65_X61 
+countCheck65_X62s 
+countCheck65_X62e 
+count65_X62 
+countCheck65_X63s 
+countCheck65_X63e 
+count65_X63 
+countCheck65_X64s 
+countCheck65_X64e 
+count65_X64 
+countCheck65_X65s 
+countCheck65_X65e 
+count65_X65 
+countCheck65_X66s 
+countCheck65_X66e 
+count65_X66 
+countCheck65_X67s 
+countCheck65_X67e 
+count65_X67 
+countCheck66_X0s 
+countCheck66_X0e 
+count66_X0 
+countCheck66_X1s 
+countCheck66_X1e 
+count66_X1 
+countCheck66_X2s 
+countCheck66_X2e 
+count66_X2 
+countCheck66_X3s 
+countCheck66_X3e 
+count66_X3 
+countCheck66_X4s 
+countCheck66_X4e 
+count66_X4 
+countCheck66_X5s 
+countCheck66_X5e 
+count66_X5 
+countCheck66_X6s 
+countCheck66_X6e 
+count66_X6 
+countCheck66_X7s 
+countCheck66_X7e 
+count66_X7 
+countCheck66_X8s 
+countCheck66_X8e 
+count66_X8 
+countCheck66_X9s 
+countCheck66_X9e 
+count66_X9 
+countCheck66_X10s 
+countCheck66_X10e 
+count66_X10 
+countCheck66_X11s 
+countCheck66_X11e 
+count66_X11 
+countCheck66_X12s 
+countCheck66_X12e 
+count66_X12 
+countCheck66_X13s 
+countCheck66_X13e 
+count66_X13 
+countCheck66_X14s 
+countCheck66_X14e 
+count66_X14 
+countCheck66_X15s 
+countCheck66_X15e 
+count66_X15 
+countCheck66_X16s 
+countCheck66_X16e 
+count66_X16 
+countCheck66_X17s 
+countCheck66_X17e 
+count66_X17 
+countCheck66_X18s 
+countCheck66_X18e 
+count66_X18 
+countCheck66_X19s 
+countCheck66_X19e 
+count66_X19 
+countCheck66_X20s 
+countCheck66_X20e 
+count66_X20 
+countCheck66_X21s 
+countCheck66_X21e 
+count66_X21 
+countCheck66_X22s 
+countCheck66_X22e 
+count66_X22 
+countCheck66_X23s 
+countCheck66_X23e 
+count66_X23 
+countCheck66_X24s 
+countCheck66_X24e 
+count66_X24 
+countCheck66_X25s 
+countCheck66_X25e 
+count66_X25 
+countCheck66_X26s 
+countCheck66_X26e 
+count66_X26 
+countCheck66_X27s 
+countCheck66_X27e 
+count66_X27 
+countCheck66_X28s 
+countCheck66_X28e 
+count66_X28 
+countCheck66_X29s 
+countCheck66_X29e 
+count66_X29 
+countCheck66_X30s 
+countCheck66_X30e 
+count66_X30 
+countCheck66_X31s 
+countCheck66_X31e 
+count66_X31 
+countCheck66_X32s 
+countCheck66_X32e 
+count66_X32 
+countCheck66_X33s 
+countCheck66_X33e 
+count66_X33 
+countCheck66_X34s 
+countCheck66_X34e 
+count66_X34 
+countCheck66_X35s 
+countCheck66_X35e 
+count66_X35 
+countCheck66_X36s 
+countCheck66_X36e 
+count66_X36 
+countCheck66_X37s 
+countCheck66_X37e 
+count66_X37 
+countCheck66_X38s 
+countCheck66_X38e 
+count66_X38 
+countCheck66_X39s 
+countCheck66_X39e 
+count66_X39 
+countCheck66_X40s 
+countCheck66_X40e 
+count66_X40 
+countCheck66_X41s 
+countCheck66_X41e 
+count66_X41 
+countCheck66_X42s 
+countCheck66_X42e 
+count66_X42 
+countCheck66_X43s 
+countCheck66_X43e 
+count66_X43 
+countCheck66_X44s 
+countCheck66_X44e 
+count66_X44 
+countCheck66_X45s 
+countCheck66_X45e 
+count66_X45 
+countCheck66_X46s 
+countCheck66_X46e 
+count66_X46 
+countCheck66_X47s 
+countCheck66_X47e 
+count66_X47 
+countCheck66_X48s 
+countCheck66_X48e 
+count66_X48 
+countCheck66_X49s 
+countCheck66_X49e 
+count66_X49 
+countCheck66_X50s 
+countCheck66_X50e 
+count66_X50 
+countCheck66_X51s 
+countCheck66_X51e 
+count66_X51 
+countCheck66_X52s 
+countCheck66_X52e 
+count66_X52 
+countCheck66_X53s 
+countCheck66_X53e 
+count66_X53 
+countCheck66_X54s 
+countCheck66_X54e 
+count66_X54 
+countCheck66_X55s 
+countCheck66_X55e 
+count66_X55 
+countCheck66_X56s 
+countCheck66_X56e 
+count66_X56 
+countCheck66_X57s 
+countCheck66_X57e 
+count66_X57 
+countCheck66_X58s 
+countCheck66_X58e 
+count66_X58 
+countCheck66_X59s 
+countCheck66_X59e 
+count66_X59 
+countCheck66_X60s 
+countCheck66_X60e 
+count66_X60 
+countCheck66_X61s 
+countCheck66_X61e 
+count66_X61 
+countCheck66_X62s 
+countCheck66_X62e 
+count66_X62 
+countCheck66_X63s 
+countCheck66_X63e 
+count66_X63 
+countCheck66_X64s 
+countCheck66_X64e 
+count66_X64 
+countCheck66_X65s 
+countCheck66_X65e 
+count66_X65 
+countCheck66_X66s 
+countCheck66_X66e 
+count66_X66 
+countCheck66_X67s 
+countCheck66_X67e 
+count66_X67 
+
+End

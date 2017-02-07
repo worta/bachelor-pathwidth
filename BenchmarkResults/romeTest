@@ -1,0 +1,4 @@
+Report Gurobi:Fri Feb  3 20:28:41 2017
+Tested:romeSelection 
+Name                          Generation Time     Solve Time          Pathwidth           n+m                 
+romeSelection/grafo4855.7     0.23132586          300.28              1.60000000          183                      

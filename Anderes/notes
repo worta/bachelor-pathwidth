@@ -4,3 +4,6 @@ mit GT nr noch ~320 sek
 
 
 Versuchen: mit ILP chromatic number des Grpahen finden, zumidnest das Aufstellen sollte leocht sein
+
+
+cp -l $(ls|sort -R|tail -100|../.././SelectRomeGraphs.py 100) ../rome100/

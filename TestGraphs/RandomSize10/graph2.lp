@@ -457,68 +457,27 @@ X9e - 10 countCheck8_X9e <= 7
 -2 count8_X9 + countCheck8_X9s  + countCheck8_X9e  <= 1
 
 count8_X0 + count8_X1 + count8_X2 + count8_X3 + count8_X4 + count8_X5 + count8_X6 + count8_X7 + count8_X8 + count8_X9 - pathWidth <= 1
-X0s + 10 countCheck9_X0s >= 10
-X0e - 10 countCheck9_X0e <= 8
--2 count9_X0 + countCheck9_X0s  + countCheck9_X0e  <= 1
-
-X1s + 10 countCheck9_X1s >= 10
-X1e - 10 countCheck9_X1e <= 8
--2 count9_X1 + countCheck9_X1s  + countCheck9_X1e  <= 1
-
-X2s + 10 countCheck9_X2s >= 10
-X2e - 10 countCheck9_X2e <= 8
--2 count9_X2 + countCheck9_X2s  + countCheck9_X2e  <= 1
-
-X3s + 10 countCheck9_X3s >= 10
-X3e - 10 countCheck9_X3e <= 8
--2 count9_X3 + countCheck9_X3s  + countCheck9_X3e  <= 1
-
-X4s + 10 countCheck9_X4s >= 10
-X4e - 10 countCheck9_X4e <= 8
--2 count9_X4 + countCheck9_X4s  + countCheck9_X4e  <= 1
-
-X5s + 10 countCheck9_X5s >= 10
-X5e - 10 countCheck9_X5e <= 8
--2 count9_X5 + countCheck9_X5s  + countCheck9_X5e  <= 1
-
-X6s + 10 countCheck9_X6s >= 10
-X6e - 10 countCheck9_X6e <= 8
--2 count9_X6 + countCheck9_X6s  + countCheck9_X6e  <= 1
-
-X7s + 10 countCheck9_X7s >= 10
-X7e - 10 countCheck9_X7e <= 8
--2 count9_X7 + countCheck9_X7s  + countCheck9_X7e  <= 1
-
-X8s + 10 countCheck9_X8s >= 10
-X8e - 10 countCheck9_X8e <= 8
--2 count9_X8 + countCheck9_X8s  + countCheck9_X8e  <= 1
-
-X9s + 10 countCheck9_X9s >= 10
-X9e - 10 countCheck9_X9e <= 8
--2 count9_X9 + countCheck9_X9s  + countCheck9_X9e  <= 1
-
-count9_X0 + count9_X1 + count9_X2 + count9_X3 + count9_X4 + count9_X5 + count9_X6 + count9_X7 + count9_X8 + count9_X9 - pathWidth <= 1
 Bounds 
-0 <= X0s <= 9 
-0 <= X0e <= 9 
-0 <= X1s <= 9 
-0 <= X1e <= 9 
-0 <= X2s <= 9 
-0 <= X2e <= 9 
-0 <= X3s <= 9 
-0 <= X3e <= 9 
-0 <= X4s <= 9 
-0 <= X4e <= 9 
-0 <= X5s <= 9 
-0 <= X5e <= 9 
-0 <= X6s <= 9 
-0 <= X6e <= 9 
-0 <= X7s <= 9 
-0 <= X7e <= 9 
-0 <= X8s <= 9 
-0 <= X8e <= 9 
-0 <= X9s <= 9 
-0 <= X9e <= 9 
+0 <= X0s <= 8 
+0 <= X0e <= 8 
+0 <= X1s <= 8 
+0 <= X1e <= 8 
+0 <= X2s <= 8 
+0 <= X2e <= 8 
+0 <= X3s <= 8 
+0 <= X3e <= 8 
+0 <= X4s <= 8 
+0 <= X4e <= 8 
+0 <= X5s <= 8 
+0 <= X5e <= 8 
+0 <= X6s <= 8 
+0 <= X6e <= 8 
+0 <= X7s <= 8 
+0 <= X7e <= 8 
+0 <= X8s <= 8 
+0 <= X8e <= 8 
+0 <= X9s <= 8 
+0 <= X9e <= 8 
 
 General 
 X0s 
@@ -541,7 +500,6 @@ X8s
 X8e 
 X9s 
 X9e 
-pathWidth 
 pathWidth 
 pathWidth 
 pathWidth 
@@ -823,35 +781,5 @@ count8_X8
 countCheck8_X9s 
 countCheck8_X9e 
 count8_X9 
-countCheck9_X0s 
-countCheck9_X0e 
-count9_X0 
-countCheck9_X1s 
-countCheck9_X1e 
-count9_X1 
-countCheck9_X2s 
-countCheck9_X2e 
-count9_X2 
-countCheck9_X3s 
-countCheck9_X3e 
-count9_X3 
-countCheck9_X4s 
-countCheck9_X4e 
-count9_X4 
-countCheck9_X5s 
-countCheck9_X5e 
-count9_X5 
-countCheck9_X6s 
-countCheck9_X6e 
-count9_X6 
-countCheck9_X7s 
-countCheck9_X7e 
-count9_X7 
-countCheck9_X8s 
-countCheck9_X8e 
-count9_X8 
-countCheck9_X9s 
-countCheck9_X9e 
-count9_X9 
 
 End

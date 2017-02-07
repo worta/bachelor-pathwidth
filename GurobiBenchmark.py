@@ -1,9 +1,10 @@
 import subprocess
 from os import listdir
 from os.path import isdir
-import os
+import os.path
 import time
 import glob
+import loadGraph
 
 
 testFolder='./TestGraphs/'
@@ -18,7 +19,8 @@ index=0
 for name in fileList:
     if isdir(testFolder+name):
         graphList=glob.glob(testFolder+name+'/*.graph')
-        print('{0}: {1} |Elements : {2}'.format(index,name,len(graphList)))
+        graphList.extend(glob.glob(testFolder+name+'/*.graphml'))
+        print('{0:<4} {1:20} Elements : {2:10}'.format(index,name,len(graphList)))
         index+=1
     else:
         print('Ignored',name,':not in a subfolder')
@@ -33,21 +35,27 @@ print('')
 
 
 resultFile=input("Enter the name of the file the report will be saved in :")
-flags=input("Optional: Enter additional flags for glpsol:")
+flags=input("Optional: Enter additional flags for gurobi:")
 processes=[]
 for index in testList:
     print('Testing:',fileList[index],end=' ')
     graphList=glob.glob(testFolder+fileList[index]+'/*.graph')
+    graphList.extend(glob.glob(testFolder+fileList[index]+'/*.graphml'))
     print('0/',len(graphList))
     count=1
     for graph in graphList:
         print('Generating ILP for',graph)
         folderPath=testFolder+fileList[index]+'/'
         timer=time.time()
-        subprocess.run(['python',"GenerateLPIntCount.py",graph,graph[:-5]+'lp'],stdout=subprocess.PIPE)
+        baseName, extension=os.path.splitext(graph)
+
+        subprocess.run(['python',"GenerateLP.py",graph,baseName+'.lp'],stdout=subprocess.PIPE)
         generationTime=time.time()-timer
         print('Generated ILP:',count,'/',len(graphList),'\n','Took',generationTime)
-        processes.append((fileList[index]+'/'+ os.path.basename(graph)[:-6],generationTime,subprocess.run(['gurobi_cl',graph[:-5]+'lp'],stdout=subprocess.PIPE,universal_newlines=True)))
+        flagList=flags.split(' ')
+        #(fileList[index]+'/'+
+        processes.append((graph,generationTime,
+            subprocess.run(['gurobi_cl',*flagList,baseName+'.lp'],stdout=subprocess.PIPE,universal_newlines=True)))
         print('Finished solving of ilp:',count,'/',len(graphList))
         count=count+1
 
@@ -58,23 +66,28 @@ outputFile.write('Tested:')
 for test in testList:
     outputFile.write(fileList[test]+' ')
 outputFile.write('\n')
-outputFile.write('{:25}{:25}{:25}{:25}\n'.format('Name','Generation Time','Solve Time','Pathwidth') )
+outputFile.write('{:30}{:20}{:20}{:20}{:20}\n'.format('Name','Generation Time','Solve Time','Pathwidth','n+m') )
 for process in processes:
     fileName,genTime,proc=process
     processOut=proc.stdout
     print(processOut)
     solPosEnd=processOut.rfind(', best bound')
     solPosStart=processOut.rfind('Best objective ',0,solPosEnd)
-    print(solPosEnd)
-    print(solPosStart)
+    #print(solPosEnd)
+    #print(solPosStart)
     solString=processOut[solPosStart+len('Best objective '):solPosEnd]
+
     timePosEnd=processOut.rfind('seconds',0)
     timePosStart=processOut.rfind(') in ',0,timePosEnd)
     timeStr=processOut[timePosStart+len(') in '):timePosEnd]
 
     pathWidth=solString.strip(' >=')
     timeStr=timeStr.strip()
-    outputFile.write('{:25.25}{:25.10}{:25.10}{:25.10}\n'.format(fileName,str(genTime),timeStr,pathWidth))
+
+    graph,edges=loadGraph.readTrivialGraph(fileName)
+    shortenedName=os.path.relpath(fileName,'./TestGraphs/')
+    outputFile.write('{:30.25}{:20.10}{:20.10}{:20.10}{:<25d}\n'.format(shortenedName,str(genTime),timeStr,
+                    pathWidth,len(graph)+len(edges)))
 
 
 
