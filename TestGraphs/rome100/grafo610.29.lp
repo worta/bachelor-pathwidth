@@ -148,7 +148,6 @@ x26x7_N2: X7s - X26e <= 0
 x27x6_N1: X27s - X6e <= 0 
 x27x6_N2: X6s - X27e <= 0 
 
-\Limit occurence of single connected nodes:
 X0s + 29 countCheck0_X0s >= 1
 X0e - 29 countCheck0_X0e <= -1
 -2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1

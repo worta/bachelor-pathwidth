@@ -182,7 +182,6 @@ x10x14_N2: X14s - X10e <= 0
 x12x13_N1: X12s - X13e <= 0 
 x12x13_N2: X13s - X12e <= 0 
 
-\Limit occurence of single connected nodes:
 X0s + 15 countCheck0_X0s >= 1
 X0e - 15 countCheck0_X0e <= -1
 -2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1
@@ -1070,6 +1069,7 @@ Bounds
 0 <= X14e <= 13 
 
 General 
+pathWidth 
 X0s 
 X0e 
 X1s 
@@ -1100,20 +1100,6 @@ X13s
 X13e 
 X14s 
 X14e 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
 
 Binary 
 countCheck0_X0s 

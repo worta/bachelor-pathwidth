@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml">
+<graph edgedefault="undirected">
+<node id="32"/>
+<node id="33"/>
+<node id="34"/>
+<node id="28"/>
+<node id="29"/>
+<node id="30"/>
+<node id="31"/>
+<edge source="29" target="34"/>
+<edge source="33" target="28"/>
+<edge source="34" target="30"/>
+<edge source="28" target="29"/>
+<edge source="32" target="28"/>
+<edge source="32" target="33"/>
+<edge source="28" target="34"/>
+<edge source="29" target="30"/>
+<edge source="34" target="32"/>
+<edge source="31" target="28"/>
+<edge source="32" target="29"/>
+<edge source="29" target="33"/>
+<edge source="32" target="30"/>
+<edge source="28" target="30"/>
+</graph>
+</graphml>

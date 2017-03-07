@@ -1,0 +1,8 @@
+Report Gurobi:Wed Feb  8 22:23:47 2017
+Tested:RandomSize13 
+Name                          Generation Time     Solve Time          Pathwidth           n+m                 
+RandomSize13/graph5.graph     0.07528257          3.69                7.00000000          51                       
+RandomSize13/graph2.graph     0.04571628          3.49                6.00000000          49                       
+RandomSize13/graph1.graph     0.04182815          4.91                7.00000000          52                       
+RandomSize13/graph4.graph     0.04887008          3.37                6.00000000          48                       
+RandomSize13/graph3.graph     0.05452370          1.00                6.00000000          56                       

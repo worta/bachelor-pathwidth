@@ -1,12 +1,14 @@
 import os
 import pygraphml
+
+#this function returns a tuple, consistin of the adjancy matrix of the graph and a list of the edges
 def readTrivialGraph(fname):#TODO rename
     #print("Read from ", fname)
     _, file_extension = os.path.splitext(fname)
 
     necessaryPairs=[]
-    graphSize=-1
-    graph=None
+    graphSize = -1
+    graph= None 
     if file_extension=='.graphml':
         parser=pygraphml.GraphMLParser()
         g = parser.parse(fname)
@@ -32,8 +34,8 @@ def readTrivialGraph(fname):#TODO rename
     #            print('Ids: {}:{}'.format(nodeID,otherNodeID))
                 #graph[node.id][otherNodeID]=1
                 graph[int(nodeID)][int(otherNodeID)]=1
-                if nodeID <= otherNodeID :
-                    necessaryPairs.append((nodeID,otherNodeID))
+                if nodeID <= otherNodeID : 
+                    necessaryPairs.append((int(nodeID),int(otherNodeID)))
                 #print(edge.node(node).id)
     else:
         with open(fname) as f:

@@ -104,7 +104,6 @@ x19x8_N2: X8s - X19e <= 0
 x19x4_N1: X19s - X4e <= 0 
 x19x4_N2: X4s - X19e <= 0 
 
-\Limit occurence of single connected nodes:
 X0s + 21 countCheck0_X0s >= 1
 X0e - 21 countCheck0_X0e <= -1
 -2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1

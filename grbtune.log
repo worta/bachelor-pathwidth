@@ -1,0 +1,940 @@
+
+Gurobi 7.0.1 (linux64) logging started Wed Feb  8 16:12:47 2017
+
+
+Gurobi 7.0.1 (linux64) logging started Wed Feb  8 16:13:39 2017
+
+Set parameter TuneTimeLimit to value 3600
+
+grbtune version 7.0.1 build v7.0.1rc0 (linux64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file ./TestGraphs/RandomSize15/graph2.lp at line 1027
+Malformed term in expression
+Neighboring tokens: " + count0_X0+ count0_X1+ count0_X2+ count0_X3+ "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 7.0.1 (linux64) logging started Wed Feb  8 16:15:08 2017
+
+Set parameter TuneTimeLimit to value 3600
+
+grbtune version 7.0.1 build v7.0.1rc0 (linux64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file ./TestGraphs/RandomSize15/graph2.lp
+Reading time = 0.01 seconds
+obj: 759 rows, 661 columns, 1924 nonzeros
+
+Solving model using baseline parameter set with TimeLimit=360s
+
+Solving with random seed #1 ...
+Optimize a model with 759 rows, 661 columns and 1924 nonzeros
+Variable types: 0 continuous, 661 integer (630 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 14
+Presolve removed 60 rows and 60 columns
+Presolve time: 0.01s
+Presolved: 699 rows, 601 columns, 1774 nonzeros
+Variable types: 0 continuous, 601 integer (570 binary)
+
+Root relaxation: objective 0.000000e+00, 269 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   30   14.00000    0.00000   100%     -    0s
+H    0     0                      13.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   30   13.00000    0.00000   100%     -    0s
+H    0     0                      12.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  193   12.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   28   12.00000    0.00000   100%     -    0s
+H    0     0                      11.0000000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   28   10.00000    0.00000   100%     -    0s
+*  157    93              61       9.0000000    0.00000   100%  48.1    0s
+*  710   340              30       8.0000000    0.00000   100%  23.6    0s
+  1633   334    4.00000   30  285    8.00000    1.00000  87.5%  53.0    5s
+  3011   537    3.72287   26  219    8.00000    2.00000  75.0%  78.5   10s
+  4382   788    3.00000   37   89    8.00000    3.00000  62.5%  89.4   15s
+  5624  1015    4.00000   23  235    8.00000    3.00000  62.5%  95.7   20s
+  7002  1102 infeasible   27         8.00000    4.00000  50.0%  98.8   25s
+  8373  1216    5.00228   36  241    8.00000    4.00000  50.0%   103   30s
+ 10054  1231    7.00000   35  102    8.00000    4.00000  50.0%   108   36s
+ 10999  1178    6.00000   35  137    8.00000    4.00000  50.0%   111   40s
+ 12484  1021    5.00000   29  183    8.00000    5.00000  37.5%   112   45s
+ 13859   872 infeasible   35         8.00000    5.00000  37.5%   114   50s
+ 15693   554    6.00000   47   22    8.00000    6.00000  25.0%   114   55s
+ 17819   183    6.00000   28   36    8.00000    6.00000  25.0%   112   60s
+
+Cutting planes:
+  Gomory: 11
+  Cover: 355
+  Implied bound: 2
+  Clique: 489
+  Flow cover: 24
+  Zero half: 6
+
+Explored 19628 nodes (2076701 simplex iterations) in 61.67 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 8 9 10 ... 14
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+Solving with random seed #2 ...
+Optimize a model with 759 rows, 661 columns and 1924 nonzeros
+Variable types: 0 continuous, 661 integer (630 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 14
+Presolve removed 60 rows and 60 columns
+Presolve time: 0.01s
+Presolved: 699 rows, 601 columns, 1774 nonzeros
+Variable types: 0 continuous, 601 integer (570 binary)
+
+Root relaxation: objective 0.000000e+00, 268 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   31   14.00000    0.00000   100%     -    0s
+H    0     0                      13.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   30   13.00000    0.00000   100%     -    0s
+H    0     0                      12.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  182   12.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   30   12.00000    0.00000   100%     -    0s
+H    0     0                      11.0000000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   30   10.00000    0.00000   100%     -    0s
+*  102    70              42       9.0000000    0.00000   100%  50.1    0s
+*  678   239              29       8.0000000    0.00000   100%  23.7    0s
+  4773  1256    1.00000   34  107    8.00000    0.60000  92.5%  45.9    5s
+ 10026  2593    4.00000   44   46    8.00000    1.00000  87.5%  54.8   10s
+ 14702  3096 infeasible   53         8.00000    2.00000  75.0%  61.1   15s
+ 19561  3242 infeasible   55         8.00000    3.00000  62.5%  64.4   20s
+ 20859  3315    5.00000   46   30    8.00000    3.00000  62.5%  64.9   41s
+ 20878  3328    7.00000   55  303    8.00000    3.00000  62.5%  64.9   45s
+ 21122  3354    4.00000   44  156    8.00000    3.00000  62.5%  66.8   50s
+ 22062  3336    5.00000   45  136    8.00000    3.00000  62.5%  70.9   55s
+ 23181  3242    4.91223   43  156    8.00000    3.00000  62.5%  75.0   60s
+ 24248  3065    3.00000   44  202    8.00000    3.00000  62.5%  78.3   65s
+ 25354  2911    3.35934   45  245    8.00000    3.00000  62.5%  81.7   70s
+ 26374  2806    3.18769   43  240    8.00000    3.00000  62.5%  84.4   75s
+ 27438  2468    5.84911   61  202    8.00000    4.00000  50.0%  87.3   80s
+ 28554  2035 infeasible   40         8.00000    4.00000  50.0%  89.8   85s
+ 29834  1632 infeasible   53         8.00000    4.00000  50.0%  92.5   90s
+ 31107  1339 infeasible   44         8.00000    4.00000  50.0%  95.3   96s
+ 32009  1453    5.00000   54  159    8.00000    4.00000  50.0%  97.1  100s
+ 33139  1264    5.00000   54  112    8.00000    5.00000  37.5%  99.4  105s
+ 34478   960 infeasible   65         8.00000    5.00000  37.5%   102  111s
+ 35311   807    5.00000   61  119    8.00000    5.00000  37.5%   103  115s
+ 36546   795 infeasible   54         8.00000    5.00000  37.5%   105  121s
+ 37802   534     cutoff   68         8.00000    6.00000  25.0%   106  125s
+ 39278   258 infeasible   51         8.00000    6.00000  25.0%   106  130s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 394
+  Implied bound: 7
+  Clique: 510
+  Flow cover: 9
+  Zero half: 11
+
+Explored 40550 nodes (4339039 simplex iterations) in 133.52 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 8 9 10 ... 14
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+Solving with random seed #3 ...
+Optimize a model with 759 rows, 661 columns and 1924 nonzeros
+Variable types: 0 continuous, 661 integer (630 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 14
+Presolve removed 60 rows and 60 columns
+Presolve time: 0.01s
+Presolved: 699 rows, 601 columns, 1774 nonzeros
+Variable types: 0 continuous, 601 integer (570 binary)
+
+Root relaxation: objective 0.000000e+00, 273 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   28   14.00000    0.00000   100%     -    0s
+H    0     0                      13.0000000    0.00000   100%     -    0s
+H    0     0                      11.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   31   11.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  192   11.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   30   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   30   10.00000    0.00000   100%     -    0s
+*  464   239              35       9.0000000    0.00000   100%  25.1    0s
+H  548   268                       8.0000000    0.00000   100%  24.7    1s
+  1068   362    2.00000   19  275    8.00000    0.00000   100%  37.4    5s
+  2930   580    5.00000   30   42    8.00000    2.00000  75.0%  83.1   10s
+  4776   924    2.05827   32  203    8.00000    2.00000  75.0%  93.4   15s
+  6722  1048    7.00000   29  113    8.00000    3.00000  62.5%   100   20s
+  8428  1100 infeasible   30         8.00000    3.00000  62.5%   104   25s
+ 10071   976    5.00000   42  150    8.00000    4.00000  50.0%   105   30s
+ 12270   817 infeasible   47         8.00000    5.00000  37.5%   105   35s
+ 13861   573    5.00000   40  122    8.00000    5.00000  37.5%   106   40s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 266
+  Implied bound: 1
+  Clique: 441
+  Flow cover: 54
+  Zero half: 1
+
+Explored 17183 nodes (1718037 simplex iterations) in 44.75 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 6: 8 9 10 ... 14
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+
+-------------------------------------------------------------------------------
+Begin tuning (baseline mean runtime 79.98s)...
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 2...
+
+	Presolve 2
+
+Solving with random seed #1 ... runtime 93.55s
+Solving with random seed #2 ... runtime 166.91s+
+
+Total elapsed tuning time 500s (3100s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 3...
+
+	AggFill 10
+
+Solving with random seed #1 ... runtime 60.96s
+Solving with random seed #2 ... runtime 135.71s
+Solving with random seed #3 ... runtime 43.15s
+
+Improvement found:
+  baseline: mean runtime 79.98s
+  improved: mean runtime 79.94s
+Total elapsed tuning time 740s (2860s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 4...
+
+	GomoryPasses 0
+
+Solving with random seed #1 ... runtime 169.64s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 79.94s
+Total elapsed tuning time 910s (2690s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 5...
+
+	MIPFocus 2
+
+Solving with random seed #1 ... runtime 169.64s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 79.94s
+Total elapsed tuning time 1080s (2520s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 6...
+
+	BranchDir 1
+
+Solving with random seed #1 ... runtime 65.33s
+Solving with random seed #2 ... runtime 132.63s
+Solving with random seed #3 ... runtime 76.28s
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 79.94s
+Total elapsed tuning time 1354s (2246s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 7...
+
+	Heuristics 0.5
+
+Solving with random seed #1 ... runtime 88.95s
+Solving with random seed #2 ... runtime 169.64s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 79.94s
+Total elapsed tuning time 1612s (1988s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 8...
+
+	MIPFocus 2
+	VarBranch 1
+
+Solving with random seed #1 ... runtime 65.79s
+Solving with random seed #2 ... runtime 49.25s
+Solving with random seed #3 ... runtime 71.35s
+
+Improvement found:
+  baseline: mean runtime 79.98s
+  improved: mean runtime 62.13s
+Total elapsed tuning time 1799s (1801s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 9...
+
+	MIPFocus 2
+	VarBranch 1
+	GomoryPasses 1
+
+Solving with random seed #1 ... runtime 52.00s
+Solving with random seed #2 ... runtime 82.71s
+Solving with random seed #3 ... runtime 83.76s
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 62.13s
+Total elapsed tuning time 2017s (1583s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 10...
+
+	VarBranch 1
+
+Solving with random seed #1 ... runtime 36.57s
+Solving with random seed #2 ... runtime 56.27s
+Solving with random seed #3 ... runtime 20.70s
+
+Improvement found:
+  baseline: mean runtime 79.98s
+  improved: mean runtime 37.85s
+Total elapsed tuning time 2131s (1469s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 11...
+
+	VarBranch 1
+	Cuts 1
+
+Solving with random seed #1 ... runtime 27.28s
+Solving with random seed #2 ... runtime 25.24s
+Solving with random seed #3 ... runtime 70.34s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 37.85s
+Total elapsed tuning time 2254s (1346s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 12...
+
+	Heuristics 0.001
+	VarBranch 1
+
+Solving with random seed #1 ... runtime 22.35s
+Solving with random seed #2 ... runtime 40.38s
+Solving with random seed #3 ... runtime 22.92s
+
+Improvement found:
+  baseline: mean runtime 79.98s
+  improved: mean runtime 28.55s
+Total elapsed tuning time 2339s (1261s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 13...
+
+	Heuristics 0.001
+	VarBranch 1
+	Aggregate 0
+
+Solving with random seed #1 ... runtime 36.09s
+Solving with random seed #2 ... runtime 25.01s
+Solving with random seed #3 ... runtime 25.74s
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 28.55s
+Total elapsed tuning time 2426s (1174s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 14...
+
+	Method 0
+
+Solving with random seed #1 ... runtime 50.48s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 28.55s
+Total elapsed tuning time 2477s (1123s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 15...
+
+	Heuristics 0.001
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 20.50s
+Solving with random seed #2 ... runtime 14.17s
+Solving with random seed #3 ... runtime 16.24s
+
+Improvement found:
+  baseline: mean runtime 79.98s
+  improved: mean runtime 16.97s
+Total elapsed tuning time 2528s (1072s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 16...
+
+	Heuristics 0.001
+	VarBranch 1
+	Presolve 2
+	PreSparsify 1
+
+Solving with random seed #1 ... runtime 20.77s
+Solving with random seed #2 ... runtime 12.46s
+Solving with random seed #3 ... runtime 15.90s
+
+Improvement found:
+  baseline: mean runtime 79.98s
+  improved: mean runtime 16.38s
+Total elapsed tuning time 2577s (1023s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 17...
+
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 17.15s
+Solving with random seed #2 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2620s (980s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 18...
+
+	Heuristics 0.001
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2646s (954s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 19...
+
+	DegenMoves 9
+	Heuristics 0.001
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2672s (928s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 20...
+
+	DegenMoves 8
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 15.93s
+Solving with random seed #2 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2714s (886s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 21...
+
+	Heuristics 0.001
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2740s (860s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 22...
+
+	GomoryPasses 5
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2766s (834s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 23...
+
+	Heuristics 0.001
+	VarBranch 1
+	GomoryPasses 5
+	Presolve 2
+
+Solving with random seed #1 ... runtime 13.39s
+Solving with random seed #2 ... runtime 26.01s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2805s (795s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 24...
+
+	Heuristics 0.001
+	RINS 2500
+	VarBranch 1
+
+Solving with random seed #1 ... runtime 18.69s
+Solving with random seed #2 ... runtime 26.32s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2850s (750s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 25...
+
+	BranchDir -1
+	Heuristics 0.001
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.98s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2876s (724s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 26...
+
+	Heuristics 0.001
+	MIPFocus 2
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2902s (698s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 27...
+
+	NumericFocus 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2928s (672s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 28...
+
+	Heuristics 0.001
+	VarBranch 1
+	GomoryPasses 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 21.20s
+Solving with random seed #2 ... runtime 26.01s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 2975s (625s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 29...
+
+	Heuristics 0.001
+	MIPFocus 1
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3001s (599s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 30...
+
+	Heuristics 0
+	VarBranch 1
+
+Solving with random seed #1 ... runtime 22.65s
+Solving with random seed #2 ... runtime 18.70s
+Solving with random seed #3 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3068s (532s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 31...
+
+	Heuristics 0.001
+	VarBranch 1
+	CutPasses 3
+	Presolve 2
+
+Solving with random seed #1 ... runtime 17.31s
+Solving with random seed #2 ... runtime 24.70s
+Solving with random seed #3 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3136s (464s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 32...
+
+	DegenMoves 5
+	Heuristics 0.001
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 22.18s
+Solving with random seed #2 ... runtime 12.47s
+Solving with random seed #3 ... runtime 17.43s
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3189s (411s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 33...
+
+	Heuristics 0.001
+	MIPFocus 3
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3215s (385s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 34...
+
+	VarBranch 1
+	PrePasses 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3240s (360s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 35...
+
+	Heuristics 0.001
+	AggFill 10
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3266s (334s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 36...
+
+	Heuristics 0
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3292s (308s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 37...
+
+	ScaleFlag 0
+	Heuristics 0.001
+	VarBranch 1
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3318s (282s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 38...
+
+	RINS 100
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3344s (256s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 39...
+
+	Heuristics 0.001
+	MIPFocus 2
+	VarBranch 0
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3370s (230s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 40...
+
+	Method 0
+	Heuristics 0.001
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3396s (204s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 41...
+
+	BranchDir -1
+	Heuristics 0.001
+	MIPFocus 1
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3422s (178s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 42...
+
+	Method 0
+	Heuristics 0.001
+	VarBranch 1
+	GomoryPasses 5
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3448s (152s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 43...
+
+	Method 2
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3474s (126s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 44...
+
+	Heuristics 0
+	VarBranch 1
+	CoverCuts 0
+
+Solving with random seed #1 ... runtime 23.57s
+Solving with random seed #2 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3524s (76s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 45...
+
+	MIPFocus 2
+	VarBranch 1
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3550s (50s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 46...
+
+	Heuristics 0.001
+	VarBranch 1
+	Cuts 2
+	Presolve 2
+
+Solving with random seed #1 ... runtime 25.97s+
+
+Progress so far:
+  baseline: mean runtime 79.98s
+  best:     mean runtime 16.38s
+Total elapsed tuning time 3576s (24s remaining)
+
+-------------------------------------------------------------------------------
+
+Tested 46 parameter sets in 3575.72s
+
+Baseline parameter set: mean runtime 79.98s
+
+Improved parameter set 1 (mean runtime 16.38s):
+
+	Heuristics 0.001
+	VarBranch 1
+	Presolve 2
+	PreSparsify 1
+
+Improved parameter set 2 (mean runtime 16.97s):
+
+	Heuristics 0.001
+	VarBranch 1
+	Presolve 2
+
+Improved parameter set 3 (mean runtime 28.55s):
+
+	Heuristics 0.001
+	VarBranch 1
+
+Improved parameter set 4 (mean runtime 37.85s):
+
+	VarBranch 1
+

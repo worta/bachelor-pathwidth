@@ -1,0 +1,33 @@
+Report Gurobi:Thu Mar  2 15:01:48 2017
+Tested:EppsteinSize6 
+Name                          Generation Time     Solve Time          Pathwidth           n+m                 
+EppsteinSize6/graph25.gra     0.09970307          0.02                3.00000000          18                       
+EppsteinSize6/graph8.grap     0.05088210          0.01                4.00000000          18                       
+EppsteinSize6/graph0.grap     0.05056738          0.01                4.00000000          18                       
+EppsteinSize6/graph26.gra     0.04013895          0.01                3.00000000          18                       
+EppsteinSize6/graph9.grap     0.04024958          0.03                4.00000000          18                       
+EppsteinSize6/graph6.grap     0.03871154          0.01                3.00000000          18                       
+EppsteinSize6/graph28.gra     0.04544377          0.03                4.00000000          18                       
+EppsteinSize6/graph21.gra     0.04073882          0.01                4.00000000          18                       
+EppsteinSize6/graph5.grap     0.04227852          0.01                3.00000000          18                       
+EppsteinSize6/graph1.grap     0.03976368          0.01                4.00000000          18                       
+EppsteinSize6/graph3.grap     0.04381823          0.03                4.00000000          18                       
+EppsteinSize6/graph29.gra     0.04022431          0.02                4.00000000          18                       
+EppsteinSize6/graph19.gra     0.04931497          0.01                4.00000000          18                       
+EppsteinSize6/graph16.gra     0.04308605          0.02                3.00000000          18                       
+EppsteinSize6/graph27.gra     0.04644703          0.01                4.00000000          18                       
+EppsteinSize6/graph12.gra     0.04161953          0.02                4.00000000          18                       
+EppsteinSize6/graph17.gra     0.04444169          0.02                4.00000000          18                       
+EppsteinSize6/graph15.gra     0.04030466          0.01                3.00000000          18                       
+EppsteinSize6/graph23.gra     0.04429125          0.02                3.00000000          18                       
+EppsteinSize6/graph10.gra     0.04181623          0.01                4.00000000          18                       
+EppsteinSize6/graph20.gra     0.04388499          0.01                4.00000000          18                       
+EppsteinSize6/graph7.grap     0.04037380          0.02                3.00000000          18                       
+EppsteinSize6/graph2.grap     0.04922795          0.01                4.00000000          18                       
+EppsteinSize6/graph11.gra     0.04190611          0.01                4.00000000          18                       
+EppsteinSize6/graph18.gra     0.04615402          0.01                3.00000000          18                       
+EppsteinSize6/graph14.gra     0.04178857          0.01                3.00000000          18                       
+EppsteinSize6/graph13.gra     0.03980088          0.02                4.00000000          18                       
+EppsteinSize6/graph22.gra     0.04148960          0.01                4.00000000          18                       
+EppsteinSize6/graph24.gra     0.04180550          0.03                4.00000000          18                       
+EppsteinSize6/graph4.grap     0.04044556          0.01                4.00000000          18                       

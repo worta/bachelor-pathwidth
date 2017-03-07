@@ -19,6 +19,8 @@ generalVars=[]
 binaryVars=[]
 
 graph,necessaryPairs=readTrivialGraph(fname)
+#printMatrix(graph)
+#print(necessaryPairs)
 graphSize=len(graph)
 
 with open(outputF, 'w') as ilpFile:
@@ -44,7 +46,7 @@ with open(outputF, 'w') as ilpFile:
             ilpFile.write('x{0}x{1}_N2: X{1}s - X{0}e <= 0 \n'.format(xi,xj))
             ilpFile.write('\n')
 
-        ilpFile.write('\Limit occurence of single connected nodes:\n')
+        #ilpFile.write('\Limit occurence of single connected nodes:\n')
         #Hier könnte daran gedacht werden, warum nicht bei jedem Knoten auf die Anzahl der Edges limitieren,
         #aber das ist nicht ügltig bei kreisförmigen Graphen
         #for i in range(graphSize):
@@ -84,4 +86,5 @@ with open(outputF, 'w') as ilpFile:
         for var in binaryVars:
             ilpFile.write('{} \n'.format(var))
 
-    ilpFile.write('\nEnd') #all done
+        ilpFile.write('\nEnd') #all done
+        ilpFile.close()

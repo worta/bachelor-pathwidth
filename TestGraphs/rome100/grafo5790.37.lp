@@ -180,7 +180,6 @@ x32x4_N2: X4s - X32e <= 0
 x35x9_N1: X35s - X9e <= 0 
 x35x9_N2: X9s - X35e <= 0 
 
-\Limit occurence of single connected nodes:
 X0s + 37 countCheck0_X0s >= 1
 X0e - 37 countCheck0_X0e <= -1
 -2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1

@@ -1,0 +1,2654 @@
+
+Gurobi 7.0.1 (linux64) logging started Tue Feb  7 14:32:02 2017
+
+Set parameter TuneTimeLimit to value 3600
+
+grbtune version 7.0.1 build v7.0.1rc0 (linux64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file norm1.lp
+Reading time = 0.00 seconds
+obj: 499 rows, 421 columns, 1251 nonzeros
+Read LP format model from file norm2.lp
+Reading time = 0.00 seconds
+obj: 463 rows, 421 columns, 1179 nonzeros
+Read LP format model from file norm3.lp
+Reading time = 0.00 seconds
+obj: 481 rows, 421 columns, 1215 nonzeros
+Read LP format model from file sparse1.lp
+Reading time = 0.00 seconds
+obj: 445 rows, 421 columns, 1143 nonzeros
+Read LP format model from file sparse2.lp
+Reading time = 0.00 seconds
+obj: 455 rows, 421 columns, 1163 nonzeros
+Read LP format model from file sparse3.lp
+Reading time = 0.00 seconds
+obj: 457 rows, 421 columns, 1167 nonzeros
+Read LP format model from file dense1.lp
+Reading time = 0.00 seconds
+obj: 523 rows, 421 columns, 1299 nonzeros
+Read LP format model from file dense2.lp
+Reading time = 0.00 seconds
+obj: 531 rows, 421 columns, 1315 nonzeros
+Read LP format model from file dense3.lp
+Reading time = 0.00 seconds
+obj: 523 rows, 421 columns, 1299 nonzeros
+
+Solving models using baseline parameter set with TimeLimit=40s
+
+Solving obj with random seed #1 ...
+Optimize a model with 499 rows, 421 columns and 1251 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 451 rows, 373 columns, 1131 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 171 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   23   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  122    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  160    8.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   46    8.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   46    8.00000    0.00000   100%     -    0s
+*  185    66              24       7.0000000    0.00000   100%  23.0    0s
+
+Cutting planes:
+  Gomory: 5
+  Cover: 667
+  Implied bound: 16
+  Clique: 143
+  MIR: 33
+  Flow cover: 17
+  Inf proof: 2
+
+Explored 4040 nodes (93158 simplex iterations) in 2.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: 7 8 9 ... 11
+Pool objective bound 7
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 499 rows, 421 columns and 1251 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 451 rows, 373 columns, 1131 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 184 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   24   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   24   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  157    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   30    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   30    8.00000    0.00000   100%     -    0s
+*   83    35              29       7.0000000    0.00000   100%  34.5    0s
+
+Explored 1674 nodes (49699 simplex iterations) in 1.64 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: 7 8 9 ... 11
+Pool objective bound 7
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 499 rows, 421 columns and 1251 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 451 rows, 373 columns, 1131 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 181 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   37   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  125   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  158    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   48    9.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   48    9.00000    0.00000   100%     -    0s
+*   79    52              32       8.0000000    0.00000   100%  35.6    0s
+*  221    84              25       7.0000000    0.00000   100%  26.4    0s
+
+Explored 3293 nodes (101473 simplex iterations) in 2.36 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: 7 8 9 ... 11
+Pool objective bound 7
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #1 ...
+Optimize a model with 463 rows, 421 columns and 1179 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 415 rows, 373 columns, 1059 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 182 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   23   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  128   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  159    8.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   30    8.00000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+H    0     0                       5.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   30    5.00000    0.00000   100%     -    0s
+*   68    36              24       4.0000000    0.00000   100%  35.9    0s
+
+Cutting planes:
+  Gomory: 4
+  Cover: 457
+  Implied bound: 38
+  Clique: 66
+  MIR: 33
+  Flow cover: 16
+  Inf proof: 2
+  Zero half: 5
+
+Explored 2105 nodes (58330 simplex iterations) in 1.81 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 4 5 7 ... 11
+Pool objective bound 4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 463 rows, 421 columns and 1179 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 415 rows, 373 columns, 1059 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 187 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   22   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  111    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  143    7.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   35    7.00000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   32    6.00000    0.00000   100%     -    0s
+H   73    51                       5.0000000    0.00000   100%  22.2    0s
+H  151    42                       4.0000000    0.00000   100%  17.3    0s
+
+Cutting planes:
+  Cover: 276
+  Implied bound: 12
+  Clique: 71
+  MIR: 37
+  Inf proof: 3
+  Zero half: 2
+
+Explored 1154 nodes (28106 simplex iterations) in 0.63 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 8: 4 5 6 ... 11
+Pool objective bound 4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 463 rows, 421 columns and 1179 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 415 rows, 373 columns, 1059 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 174 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   23   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  128    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  127    7.00000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  159    6.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  162    6.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   72    6.00000    0.00000   100%     -    0s
+H    0     0                       5.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   72    5.00000    0.00000   100%     -    0s
+*  104    32              13       4.0000000    0.00000   100%  24.2    0s
+
+Cutting planes:
+  Gomory: 5
+  Cover: 434
+  Implied bound: 20
+  Clique: 120
+  MIR: 70
+  StrongCG: 1
+  Flow cover: 5
+  Inf proof: 6
+  Zero half: 3
+
+Explored 1601 nodes (54361 simplex iterations) in 1.31 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 8: 4 5 6 ... 11
+Pool objective bound 4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #1 ...
+Optimize a model with 481 rows, 421 columns and 1215 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 433 rows, 373 columns, 1095 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 176 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   24   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  128    8.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  128    8.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  155    8.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   24    8.00000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   24    7.00000    0.00000   100%     -    0s
+*   95    56              22       6.0000000    0.00000   100%  30.4    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 700
+  Implied bound: 28
+  Clique: 128
+  MIR: 66
+  Flow cover: 54
+  Inf proof: 10
+  Zero half: 5
+
+Explored 5665 nodes (167531 simplex iterations) in 4.14 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: 6 7 8 ... 11
+Pool objective bound 6
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 481 rows, 421 columns and 1215 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 433 rows, 373 columns, 1095 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 181 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   22   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   35   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  154    8.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   24    8.00000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   22    7.00000    0.00000   100%     -    0s
+*  146    75              36       6.0000000    0.00000   100%  24.9    0s
+
+Explored 4082 nodes (164063 simplex iterations) in 2.63 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 6: 6 7 8 ... 11
+Pool objective bound 6
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 481 rows, 421 columns and 1215 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 433 rows, 373 columns, 1095 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 185 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   30   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  119    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  160    7.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   27    7.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   22    7.00000    0.00000   100%     -    0s
+H  200    82                       6.0000000    0.00000   100%  29.5    0s
+
+Explored 2144 nodes (85790 simplex iterations) in 1.79 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 6: 6 7 8 ... 11
+Pool objective bound 6
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #1 ...
+Optimize a model with 445 rows, 421 columns and 1143 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 10
+Presolve removed 49 rows and 49 columns
+Presolve time: 0.00s
+Presolved: 396 rows, 372 columns, 1021 nonzeros
+Variable types: 0 continuous, 372 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 179 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   30   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   70    8.00000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+H    0     0                       5.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   66    5.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  113    5.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   34    5.00000    0.00000   100%     -    0s
+H    0     0                       4.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   34    4.00000    0.00000   100%     -    0s
+*  109    51              19       3.0000000    0.00000   100%  16.0    0s
+*  282    46              18       2.0000000    0.00000   100%  15.0    0s
+
+Cutting planes:
+  Learned: 4
+  Gomory: 1
+  Cover: 135
+  Implied bound: 4
+  Clique: 54
+  MIR: 9
+  Flow cover: 2
+  Inf proof: 1
+  Network: 1
+
+Explored 426 nodes (7526 simplex iterations) in 0.16 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 8: 2 3 4 ... 10
+Pool objective bound 2
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 445 rows, 421 columns and 1143 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 10
+Presolve removed 49 rows and 49 columns
+Presolve time: 0.00s
+Presolved: 396 rows, 372 columns, 1021 nonzeros
+Variable types: 0 continuous, 372 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 174 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   24   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   88    7.00000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   52    6.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   61    6.00000    0.00000   100%     -    0s
+H    0     0                       5.0000000    0.00000   100%     -    0s
+H    0     0                       3.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   61    3.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  114    3.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   65    3.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   65    3.00000    0.00000   100%     -    0s
+H   68    36                       2.0000000    0.00000   100%  26.9    0s
+
+Cutting planes:
+  Learned: 4
+  Gomory: 4
+  Cover: 221
+  Implied bound: 20
+  Clique: 90
+  MIR: 16
+  StrongCG: 1
+  Flow cover: 7
+  Zero half: 4
+
+Explored 407 nodes (12565 simplex iterations) in 0.30 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 8: 2 3 5 ... 10
+Pool objective bound 2
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 445 rows, 421 columns and 1143 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 10
+Presolve removed 49 rows and 49 columns
+Presolve time: 0.00s
+Presolved: 396 rows, 372 columns, 1021 nonzeros
+Variable types: 0 continuous, 372 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 179 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   22   10.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  101    6.00000    0.00000   100%     -    0s
+H    0     0                       5.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   48    5.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   98    5.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   78    5.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  187    5.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   40    5.00000    0.00000   100%     -    0s
+H    0     0                       4.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   26    4.00000    0.00000   100%     -    0s
+H   30    20                       3.0000000    0.00000   100%  29.8    0s
+H  123    25                       2.0000000    0.00000   100%  20.4    0s
+
+Cutting planes:
+  Learned: 7
+  Gomory: 3
+  Cover: 137
+  Implied bound: 9
+  Clique: 91
+  MIR: 26
+  Flow cover: 22
+  Inf proof: 2
+  Zero half: 2
+
+Explored 310 nodes (9752 simplex iterations) in 0.24 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 2 3 4 ... 10
+Pool objective bound 2
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #1 ...
+Optimize a model with 455 rows, 421 columns and 1163 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 407 rows, 373 columns, 1043 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 189 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   26   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  109    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  158    7.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   48    7.00000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+H    0     0                       5.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   30    5.00000    0.00000   100%     -    0s
+*  173    59              13       4.0000000    0.00000   100%  22.3    0s
+* 1547   123              30       3.0000000    2.00000  33.3%  20.8    0s
+
+Cutting planes:
+  Cover: 298
+  Implied bound: 13
+  Clique: 102
+  MIR: 46
+  StrongCG: 2
+  Flow cover: 8
+  Inf proof: 1
+  Zero half: 1
+
+Explored 1727 nodes (40268 simplex iterations) in 0.98 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 9: 3 4 5 ... 11
+Pool objective bound 3
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 455 rows, 421 columns and 1163 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 407 rows, 373 columns, 1043 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 179 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   26   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       4.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  109    4.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  159    4.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   50    4.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   50    4.00000    0.00000   100%     -    0s
+*   67    23              17       3.0000000    0.00000   100%  22.7    0s
+
+Cutting planes:
+  Cover: 236
+  Implied bound: 17
+  Clique: 98
+  MIR: 47
+  Flow cover: 3
+  Zero half: 2
+
+Explored 748 nodes (20421 simplex iterations) in 0.39 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 3 4 10 11 
+Pool objective bound 3
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 455 rows, 421 columns and 1163 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 407 rows, 373 columns, 1043 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 188 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   22   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  117    6.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  159    6.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   24    6.00000    0.00000   100%     -    0s
+H    0     0                       4.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   24    4.00000    0.00000   100%     -    0s
+*  107    48              26       3.0000000    0.00000   100%  19.7    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 220
+  Implied bound: 9
+  Clique: 87
+  MIR: 37
+  StrongCG: 1
+  Flow cover: 6
+  Inf proof: 2
+  Zero half: 1
+
+Explored 564 nodes (13552 simplex iterations) in 0.29 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: 3 4 6 ... 11
+Pool objective bound 3
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #1 ...
+Optimize a model with 457 rows, 421 columns and 1167 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 409 rows, 373 columns, 1047 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 181 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   28   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  111    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  152    7.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   36    7.00000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+H    0     0                       5.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   26    5.00000    0.00000   100%     -    0s
+H   65    49                       4.0000000    0.00000   100%  38.5    0s
+ 18752   640    3.00000   35    8    4.00000    3.00000  25.0%  18.7    5s
+ 21867   701    3.00000   33   36    4.00000    3.00000  25.0%  18.9   12s
+ 21892   721    3.00000   30   40    4.00000    3.00000  25.0%  19.0   15s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 58
+  Implied bound: 10
+  Clique: 200
+  MIR: 1
+  Flow cover: 14
+  Zero half: 5
+
+Explored 23265 nodes (553289 simplex iterations) in 18.17 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 8: 4 5 6 ... 11
+Pool objective bound 4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 457 rows, 421 columns and 1167 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 409 rows, 373 columns, 1047 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 186 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   26   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  117    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+H    0     0                       7.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  146    7.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   33    7.00000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   33    6.00000    0.00000   100%     -    0s
+H   97    66                       4.0000000    0.00000   100%  21.3    0s
+ 20985   131 infeasible   40         4.00000    3.00000  25.0%  16.4    5s
+ 22861   399    3.00000   39    6    4.00000    3.00000  25.0%  15.8   12s
+
+Cutting planes:
+  Cover: 27
+  Implied bound: 6
+  Clique: 21
+  MIR: 1
+  Flow cover: 23
+  Zero half: 1
+
+Explored 23908 nodes (430593 simplex iterations) in 13.40 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 4 6 7 ... 11
+Pool objective bound 4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 457 rows, 421 columns and 1167 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.00s
+Presolved: 409 rows, 373 columns, 1047 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 171 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   26   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  105   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  157    8.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   30    8.00000    0.00000   100%     -    0s
+H    0     0                       6.0000000    0.00000   100%     -    0s
+H    0     0                       5.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   26    5.00000    0.00000   100%     -    0s
+*   76    44              37       4.0000000    0.00000   100%  20.9    0s
+ 13484   948    3.00000   38    6    4.00000    3.00000  25.0%  19.1    5s
+ 23290   716    3.00000   36   30    4.00000    3.00000  25.0%  18.9   14s
+ 23296   720    3.00000   32  186    4.00000    3.00000  25.0%  18.9   15s
+ 23354   748    3.00000   39  182    4.00000    3.00000  25.0%  19.4   20s
+ 24895   421 infeasible   43         4.00000    3.00000  25.0%  24.5   25s
+
+Cutting planes:
+  Gomory: 5
+  Cover: 84
+  Implied bound: 13
+  Clique: 210
+  MIR: 1
+  Flow cover: 16
+  Zero half: 13
+
+Explored 28528 nodes (793309 simplex iterations) in 27.99 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 4 5 6 ... 11
+Pool objective bound 4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #1 ...
+Optimize a model with 523 rows, 421 columns and 1299 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 475 rows, 373 columns, 1179 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 198 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   24   11.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   24   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  155   10.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   22   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   22    9.00000    0.00000   100%     -    0s
+H   35    28                       8.0000000    0.00000   100%  31.6    0s
+
+Explored 1555 nodes (34515 simplex iterations) in 1.05 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 8 9 10 11 
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 523 rows, 421 columns and 1299 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 475 rows, 373 columns, 1179 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 184 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   23   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  123   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  121    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  139    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   42    9.00000    0.00000   100%     -    0s
+H    0     0                       8.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   40    8.00000    0.00000   100%     -    0s
+
+Cutting planes:
+  Gomory: 4
+  Cover: 617
+  Implied bound: 12
+  Clique: 133
+  MIR: 14
+  Flow cover: 7
+  Inf proof: 9
+  Zero half: 3
+
+Explored 2721 nodes (46717 simplex iterations) in 1.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 8 9 10 11 
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 523 rows, 421 columns and 1299 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 475 rows, 373 columns, 1179 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 184 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   24   11.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   24   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  149   10.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   44   10.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   44   10.00000    0.00000   100%     -    0s
+H   52    29                       9.0000000    0.00000   100%  33.1    0s
+*   80    32               4       8.0000000    0.00000   100%  25.9    0s
+
+Explored 2355 nodes (50580 simplex iterations) in 1.45 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 8 9 10 11 
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #1 ...
+Optimize a model with 531 rows, 421 columns and 1315 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 483 rows, 373 columns, 1195 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 187 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   22   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0   94   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  117    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   22    9.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   22    9.00000    0.00000   100%     -    0s
+
+Explored 2251 nodes (43863 simplex iterations) in 1.27 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9 10 11 
+Pool objective bound 9
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 531 rows, 421 columns and 1315 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 483 rows, 373 columns, 1195 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 177 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   22   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  106    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  130    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   28    9.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   28    9.00000    0.00000   100%     -    0s
+
+Explored 1560 nodes (34663 simplex iterations) in 1.58 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9 10 11 
+Pool objective bound 9
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 531 rows, 421 columns and 1315 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 483 rows, 373 columns, 1195 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 182 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   22   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  130   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  120    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  134    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   34    9.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   32    9.00000    0.00000   100%     -    0s
+
+Explored 2317 nodes (48355 simplex iterations) in 1.97 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 9 10 11 
+Pool objective bound 9
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #1 ...
+Optimize a model with 523 rows, 421 columns and 1299 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 475 rows, 373 columns, 1179 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 180 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   22   11.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  118   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  153   10.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   46   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     2    0.00000    0   46    9.00000    0.00000   100%     -    0s
+*  144    68              20       8.0000000    0.00000   100%  24.4    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 674
+  Implied bound: 5
+  Clique: 190
+  MIR: 5
+  Flow cover: 5
+  Inf proof: 7
+  Zero half: 1
+
+Explored 3305 nodes (53419 simplex iterations) in 1.82 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 8 9 10 11 
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #2 ...
+Optimize a model with 523 rows, 421 columns and 1299 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 475 rows, 373 columns, 1179 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 173 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   23   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  124    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  124    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0  154    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   50    9.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   50    9.00000    0.00000   100%     -    0s
+*  157    61              25       8.0000000    0.00000   100%  32.5    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 651
+  Implied bound: 6
+  Clique: 186
+  MIR: 13
+  Flow cover: 17
+  Inf proof: 7
+
+Explored 3137 nodes (60945 simplex iterations) in 1.38 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 8 9 10 11 
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+Solving obj with random seed #3 ...
+Optimize a model with 523 rows, 421 columns and 1299 nonzeros
+Variable types: 0 continuous, 421 integer (396 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+01]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 11
+Presolve removed 48 rows and 48 columns
+Presolve time: 0.01s
+Presolved: 475 rows, 373 columns, 1179 nonzeros
+Variable types: 0 continuous, 373 integer (348 binary)
+
+Root relaxation: objective 0.000000e+00, 186 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   25   11.00000    0.00000   100%     -    0s
+H    0     0                      10.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  104   10.00000    0.00000   100%     -    0s
+H    0     0                       9.0000000    0.00000   100%     -    0s
+     0     0    0.00000    0  134    9.00000    0.00000   100%     -    0s
+     0     0    0.00000    0   28    9.00000    0.00000   100%     -    0s
+     0     2    0.00000    0   28    9.00000    0.00000   100%     -    0s
+*  131    56              13       8.0000000    0.00000   100%  25.9    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 628
+  Implied bound: 6
+  Clique: 140
+  MIR: 15
+  StrongCG: 6
+  Flow cover: 12
+  Inf proof: 4
+
+Explored 2875 nodes (46671 simplex iterations) in 1.58 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 8 9 10 11 
+Pool objective bound 8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.000000000000e+00, best bound 8.000000000000e+00, gap 0.0000%
+
+
+-------------------------------------------------------------------------------
+Begin tuning (baseline mean runtime 3.46s)...
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 2...
+
+	Presolve 2
+
+Solving obj with random seed #1 ... runtime 2.54s
+Solving obj with random seed #2 ... runtime 1.40s
+Solving obj with random seed #3 ... runtime 2.80s
+Solving obj with random seed #1 ... runtime 1.29s
+Solving obj with random seed #2 ... runtime 0.50s
+Solving obj with random seed #3 ... runtime 1.47s
+Solving obj with random seed #1 ... runtime 4.87s
+Solving obj with random seed #2 ... runtime 3.58s
+Solving obj with random seed #3 ... runtime 2.24s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.31s
+Solving obj with random seed #3 ... runtime 0.26s
+Solving obj with random seed #1 ... runtime 0.89s
+Solving obj with random seed #2 ... runtime 0.55s
+Solving obj with random seed #3 ... runtime 0.37s
+Solving obj with random seed #1 ... runtime 22.39s
+Solving obj with random seed #2 ... runtime 15.18s
+Solving obj with random seed #3 ... runtime 27.00s
+Solving obj with random seed #1 ... runtime 1.03s
+Solving obj with random seed #2 ... runtime 1.06s
+Solving obj with random seed #3 ... runtime 1.43s
+Solving obj with random seed #1 ... runtime 1.31s
+Solving obj with random seed #2 ... runtime 1.07s
+Solving obj with random seed #3 ... runtime 1.74s
+Solving obj with random seed #1 ... runtime 1.36s
+Solving obj with random seed #2 ... runtime 1.45s
+Solving obj with random seed #3 ... runtime 1.32s
+
+Total elapsed tuning time 193s (3407s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 3...
+
+	AggFill 10
+
+Solving obj with random seed #1 ... runtime 2.62s
+Solving obj with random seed #2 ... runtime 1.51s
+Solving obj with random seed #3 ... runtime 2.63s
+Solving obj with random seed #1 ... runtime 1.28s
+Solving obj with random seed #2 ... runtime 0.52s
+Solving obj with random seed #3 ... runtime 1.34s
+Solving obj with random seed #1 ... runtime 5.27s
+Solving obj with random seed #2 ... runtime 2.88s
+Solving obj with random seed #3 ... runtime 2.04s
+Solving obj with random seed #1 ... runtime 0.18s
+Solving obj with random seed #2 ... runtime 0.35s
+Solving obj with random seed #3 ... runtime 0.28s
+Solving obj with random seed #1 ... runtime 0.93s
+Solving obj with random seed #2 ... runtime 0.39s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 20.50s
+Solving obj with random seed #2 ... runtime 15.99s
+Solving obj with random seed #3 ... runtime 30.01s
+Solving obj with random seed #1 ... runtime 1.23s
+Solving obj with random seed #2 ... runtime 1.36s
+Solving obj with random seed #3 ... runtime 1.80s
+Solving obj with random seed #1 ... runtime 1.31s
+Solving obj with random seed #2 ... runtime 1.32s
+Solving obj with random seed #3 ... runtime 1.87s
+Solving obj with random seed #1 ... runtime 1.40s
+Solving obj with random seed #2 ... runtime 1.55s
+Solving obj with random seed #3 ... runtime 1.98s
+
+Total elapsed tuning time 296s (3304s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 4...
+
+	GomoryPasses 0
+
+Solving obj with random seed #1 ... runtime 2.07s
+Solving obj with random seed #2 ... runtime 1.28s
+Solving obj with random seed #3 ... runtime 2.79s
+Solving obj with random seed #1 ... runtime 1.59s
+Solving obj with random seed #2 ... runtime 0.54s
+Solving obj with random seed #3 ... runtime 1.47s
+Solving obj with random seed #1 ... runtime 4.74s
+Solving obj with random seed #2 ... runtime 4.32s
+Solving obj with random seed #3 ... runtime 2.23s
+Solving obj with random seed #1 ... runtime 0.22s
+Solving obj with random seed #2 ... runtime 0.38s
+Solving obj with random seed #3 ... runtime 0.28s
+Solving obj with random seed #1 ... runtime 1.02s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.32s
+Solving obj with random seed #1 ... runtime 22.79s
+Solving obj with random seed #2 ... runtime 17.90s
+Solving obj with random seed #3 ... runtime 29.17s
+Solving obj with random seed #1 ... runtime 1.04s
+Solving obj with random seed #2 ... runtime 1.10s
+Solving obj with random seed #3 ... runtime 1.44s
+Solving obj with random seed #1 ... runtime 1.29s
+Solving obj with random seed #2 ... runtime 1.15s
+Solving obj with random seed #3 ... runtime 1.75s
+Solving obj with random seed #1 ... runtime 1.36s
+Solving obj with random seed #2 ... runtime 1.76s
+Solving obj with random seed #3 ... runtime 1.16s
+
+Total elapsed tuning time 401s (3199s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 5...
+
+	MIPFocus 2
+
+Solving obj with random seed #1 ... runtime 2.36s
+Solving obj with random seed #2 ... runtime 1.37s
+Solving obj with random seed #3 ... runtime 2.70s
+Solving obj with random seed #1 ... runtime 1.23s
+Solving obj with random seed #2 ... runtime 0.52s
+Solving obj with random seed #3 ... runtime 1.63s
+Solving obj with random seed #1 ... runtime 4.83s
+Solving obj with random seed #2 ... runtime 2.94s
+Solving obj with random seed #3 ... runtime 2.21s
+Solving obj with random seed #1 ... runtime 0.19s
+Solving obj with random seed #2 ... runtime 0.33s
+Solving obj with random seed #3 ... runtime 0.28s
+Solving obj with random seed #1 ... runtime 0.91s
+Solving obj with random seed #2 ... runtime 0.44s
+Solving obj with random seed #3 ... runtime 0.35s
+Solving obj with random seed #1 ... runtime 22.22s
+Solving obj with random seed #2 ... runtime 16.32s
+Solving obj with random seed #3 ... runtime 29.71s
+Solving obj with random seed #1 ... runtime 1.22s
+Solving obj with random seed #2 ... runtime 1.23s
+Solving obj with random seed #3 ... runtime 1.49s
+Solving obj with random seed #1 ... runtime 1.46s
+Solving obj with random seed #2 ... runtime 1.20s
+Solving obj with random seed #3 ... runtime 1.68s
+Solving obj with random seed #1 ... runtime 1.41s
+Solving obj with random seed #2 ... runtime 1.47s
+Solving obj with random seed #3 ... runtime 1.22s
+
+Total elapsed tuning time 504s (3096s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 6...
+
+	BranchDir 1
+
+Solving obj with random seed #1 ... runtime 2.22s
+Solving obj with random seed #2 ... runtime 1.45s
+Solving obj with random seed #3 ... runtime 2.43s
+Solving obj with random seed #1 ... runtime 1.21s
+Solving obj with random seed #2 ... runtime 0.49s
+Solving obj with random seed #3 ... runtime 1.31s
+Solving obj with random seed #1 ... runtime 4.81s
+Solving obj with random seed #2 ... runtime 2.81s
+Solving obj with random seed #3 ... runtime 1.82s
+Solving obj with random seed #1 ... runtime 0.18s
+Solving obj with random seed #2 ... runtime 0.42s
+Solving obj with random seed #3 ... runtime 0.23s
+Solving obj with random seed #1 ... runtime 1.06s
+Solving obj with random seed #2 ... runtime 0.39s
+Solving obj with random seed #3 ... runtime 0.40s
+Solving obj with random seed #1 ... runtime 18.85s
+Solving obj with random seed #2 ... runtime 15.40s
+Solving obj with random seed #3 ... runtime 28.78s
+Solving obj with random seed #1 ... runtime 1.29s
+Solving obj with random seed #2 ... runtime 1.04s
+Solving obj with random seed #3 ... runtime 1.54s
+Solving obj with random seed #1 ... runtime 1.29s
+Solving obj with random seed #2 ... runtime 1.39s
+Solving obj with random seed #3 ... runtime 1.79s
+Solving obj with random seed #1 ... runtime 1.56s
+Solving obj with random seed #2 ... runtime 1.44s
+Solving obj with random seed #3 ... runtime 1.16s
+
+Total elapsed tuning time 601s (2999s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 7...
+
+	Symmetry 2
+
+Solving obj with random seed #1 ... runtime 2.39s
+Solving obj with random seed #2 ... runtime 1.59s
+Solving obj with random seed #3 ... runtime 2.37s
+Solving obj with random seed #1 ... runtime 1.26s
+Solving obj with random seed #2 ... runtime 0.56s
+Solving obj with random seed #3 ... runtime 1.43s
+Solving obj with random seed #1 ... runtime 4.47s
+Solving obj with random seed #2 ... runtime 3.92s
+Solving obj with random seed #3 ... runtime 2.15s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.32s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.91s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.30s
+Solving obj with random seed #1 ... runtime 21.13s
+Solving obj with random seed #2 ... runtime 18.16s
+Solving obj with random seed #3 ... runtime 26.50s
+Solving obj with random seed #1 ... runtime 1.06s
+Solving obj with random seed #2 ... runtime 1.19s
+Solving obj with random seed #3 ... runtime 1.60s
+Solving obj with random seed #1 ... runtime 1.26s
+Solving obj with random seed #2 ... runtime 1.59s
+Solving obj with random seed #3 ... runtime 2.21s
+Solving obj with random seed #1 ... runtime 1.53s
+Solving obj with random seed #2 ... runtime 1.61s
+Solving obj with random seed #3 ... runtime 1.44s
+
+Total elapsed tuning time 703s (2897s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 8...
+
+	PreSparsify 0
+
+Solving obj with random seed #1 ... runtime 2.36s
+Solving obj with random seed #2 ... runtime 1.65s
+Solving obj with random seed #3 ... runtime 3.20s
+Solving obj with random seed #1 ... runtime 1.38s
+Solving obj with random seed #2 ... runtime 0.53s
+Solving obj with random seed #3 ... runtime 1.37s
+Solving obj with random seed #1 ... runtime 4.16s
+Solving obj with random seed #2 ... runtime 3.71s
+Solving obj with random seed #3 ... runtime 1.79s
+Solving obj with random seed #1 ... runtime 0.18s
+Solving obj with random seed #2 ... runtime 0.29s
+Solving obj with random seed #3 ... runtime 0.31s
+Solving obj with random seed #1 ... runtime 0.88s
+Solving obj with random seed #2 ... runtime 0.68s
+Solving obj with random seed #3 ... runtime 0.38s
+Solving obj with random seed #1 ... runtime 21.16s
+Solving obj with random seed #2 ... runtime 15.64s
+Solving obj with random seed #3 ... runtime 28.61s
+Solving obj with random seed #1 ... runtime 1.05s
+Solving obj with random seed #2 ... runtime 1.20s
+Solving obj with random seed #3 ... runtime 1.48s
+Solving obj with random seed #1 ... runtime 1.31s
+Solving obj with random seed #2 ... runtime 1.20s
+Solving obj with random seed #3 ... runtime 2.53s
+Solving obj with random seed #1 ... runtime 1.38s
+Solving obj with random seed #2 ... runtime 1.37s
+Solving obj with random seed #3 ... runtime 1.09s
+
+Total elapsed tuning time 804s (2796s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 9...
+
+	MIPFocus 2
+	PrePasses 8
+
+Solving obj with random seed #1 ... runtime 2.88s
+Solving obj with random seed #2 ... runtime 1.37s
+Solving obj with random seed #3 ... runtime 2.56s
+Solving obj with random seed #1 ... runtime 1.45s
+Solving obj with random seed #2 ... runtime 0.51s
+Solving obj with random seed #3 ... runtime 1.40s
+Solving obj with random seed #1 ... runtime 5.42s
+Solving obj with random seed #2 ... runtime 2.78s
+Solving obj with random seed #3 ... runtime 2.09s
+Solving obj with random seed #1 ... runtime 0.17s
+Solving obj with random seed #2 ... runtime 0.29s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.89s
+Solving obj with random seed #2 ... runtime 0.54s
+Solving obj with random seed #3 ... runtime 0.33s
+Solving obj with random seed #1 ... runtime 21.65s
+Solving obj with random seed #2 ... runtime 17.01s
+Solving obj with random seed #3 ... runtime 28.96s
+Solving obj with random seed #1 ... runtime 1.14s
+Solving obj with random seed #2 ... runtime 1.39s
+Solving obj with random seed #3 ... runtime 1.99s
+Solving obj with random seed #1 ... runtime 1.47s
+Solving obj with random seed #2 ... runtime 1.35s
+Solving obj with random seed #3 ... runtime 2.10s
+Solving obj with random seed #1 ... runtime 1.56s
+Solving obj with random seed #2 ... runtime 1.82s
+Solving obj with random seed #3 ... runtime 1.51s
+
+Total elapsed tuning time 909s (2691s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 10...
+
+	MIPFocus 2
+	Symmetry 2
+
+Solving obj with random seed #1 ... runtime 2.40s
+Solving obj with random seed #2 ... runtime 1.38s
+Solving obj with random seed #3 ... runtime 2.92s
+Solving obj with random seed #1 ... runtime 1.62s
+Solving obj with random seed #2 ... runtime 0.80s
+Solving obj with random seed #3 ... runtime 1.43s
+Solving obj with random seed #1 ... runtime 4.76s
+Solving obj with random seed #2 ... runtime 3.18s
+Solving obj with random seed #3 ... runtime 1.94s
+Solving obj with random seed #1 ... runtime 0.17s
+Solving obj with random seed #2 ... runtime 0.34s
+Solving obj with random seed #3 ... runtime 0.28s
+Solving obj with random seed #1 ... runtime 0.91s
+Solving obj with random seed #2 ... runtime 0.42s
+Solving obj with random seed #3 ... runtime 0.30s
+Solving obj with random seed #1 ... runtime 19.67s
+Solving obj with random seed #2 ... runtime 14.91s
+Solving obj with random seed #3 ... runtime 26.87s
+Solving obj with random seed #1 ... runtime 1.05s
+Solving obj with random seed #2 ... runtime 1.08s
+Solving obj with random seed #3 ... runtime 1.44s
+Solving obj with random seed #1 ... runtime 1.22s
+Solving obj with random seed #2 ... runtime 1.07s
+Solving obj with random seed #3 ... runtime 1.69s
+Solving obj with random seed #1 ... runtime 1.34s
+Solving obj with random seed #2 ... runtime 1.63s
+Solving obj with random seed #3 ... runtime 1.43s
+
+Total elapsed tuning time 1005s (2595s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 11...
+
+	CutPasses 3
+
+Solving obj with random seed #1 ... runtime 3.21s
+Solving obj with random seed #2 ... runtime 1.44s
+Solving obj with random seed #3 ... runtime 2.42s
+Solving obj with random seed #1 ... runtime 1.31s
+Solving obj with random seed #2 ... runtime 0.51s
+Solving obj with random seed #3 ... runtime 1.47s
+Solving obj with random seed #1 ... runtime 5.14s
+Solving obj with random seed #2 ... runtime 3.27s
+Solving obj with random seed #3 ... runtime 1.90s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.30s
+Solving obj with random seed #3 ... runtime 0.27s
+Solving obj with random seed #1 ... runtime 0.87s
+Solving obj with random seed #2 ... runtime 0.39s
+Solving obj with random seed #3 ... runtime 0.34s
+Solving obj with random seed #1 ... runtime 18.39s
+Solving obj with random seed #2 ... runtime 13.76s
+Solving obj with random seed #3 ... runtime 24.91s
+Solving obj with random seed #1 ... runtime 1.05s
+Solving obj with random seed #2 ... runtime 1.02s
+Solving obj with random seed #3 ... runtime 1.43s
+Solving obj with random seed #1 ... runtime 1.25s
+Solving obj with random seed #2 ... runtime 1.07s
+Solving obj with random seed #3 ... runtime 2.63s
+Solving obj with random seed #1 ... runtime 1.36s
+Solving obj with random seed #2 ... runtime 1.38s
+Solving obj with random seed #3 ... runtime 1.14s
+
+Improvement found:
+  baseline: mean runtime 3.46s
+  improved: mean runtime 3.42s
+Total elapsed tuning time 1098s (2502s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 12...
+
+	Heuristics 0.5
+
+Solving obj with random seed #1 ... runtime 2.12s
+Solving obj with random seed #2 ... runtime 1.35s
+Solving obj with random seed #3 ... runtime 2.56s
+Solving obj with random seed #1 ... runtime 1.25s
+Solving obj with random seed #2 ... runtime 0.49s
+Solving obj with random seed #3 ... runtime 1.63s
+Solving obj with random seed #1 ... runtime 4.13s
+Solving obj with random seed #2 ... runtime 2.71s
+Solving obj with random seed #3 ... runtime 1.81s
+Solving obj with random seed #1 ... runtime 0.19s
+Solving obj with random seed #2 ... runtime 0.36s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.87s
+Solving obj with random seed #2 ... runtime 0.40s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 23.73s
+Solving obj with random seed #2 ... runtime 20.03s
+Solving obj with random seed #3 ... runtime 24.96s
+Solving obj with random seed #1 ... runtime 1.98s
+Solving obj with random seed #2 ... runtime 1.52s
+Solving obj with random seed #3 ... runtime 1.66s
+Solving obj with random seed #1 ... runtime 1.64s
+Solving obj with random seed #2 ... runtime 1.77s
+Solving obj with random seed #3 ... runtime 5.78s
+Solving obj with random seed #1 ... runtime 4.45s
+Solving obj with random seed #2 ... runtime 4.47s
+Solving obj with random seed #3 ... runtime 3.28s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 1213s (2387s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 13...
+
+	GomoryPasses 1
+
+Solving obj with random seed #1 ... runtime 4.79s
+Solving obj with random seed #2 ... runtime 1.61s
+Solving obj with random seed #3 ... runtime 7.80s
+Solving obj with random seed #1 ... runtime 1.64s
+Solving obj with random seed #2 ... runtime 1.25s
+Solving obj with random seed #3 ... runtime 1.77s
+Solving obj with random seed #1 ... runtime 5.33s
+Solving obj with random seed #2 ... runtime 3.38s
+Solving obj with random seed #3 ... runtime 2.26s
+Solving obj with random seed #1 ... runtime 0.15s
+Solving obj with random seed #2 ... runtime 0.31s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 1.03s
+Solving obj with random seed #2 ... runtime 0.47s
+Solving obj with random seed #3 ... runtime 0.32s
+Solving obj with random seed #1 ... runtime 18.27s
+Solving obj with random seed #2 ... runtime 14.04s
+Solving obj with random seed #3 ... runtime 29.73s
+Solving obj with random seed #1 ... runtime 1.39s
+Solving obj with random seed #2 ... runtime 1.41s
+Solving obj with random seed #3 ... runtime 1.97s
+Solving obj with random seed #1 ... runtime 1.77s
+Solving obj with random seed #2 ... runtime 1.40s
+Solving obj with random seed #3 ... runtime 2.35s
+Solving obj with random seed #1 ... runtime 1.42s
+Solving obj with random seed #2 ... runtime 1.56s
+Solving obj with random seed #3 ... runtime 1.19s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 1322s (2278s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 14...
+
+	Heuristics 0.001
+
+Solving obj with random seed #1 ... runtime 2.24s
+Solving obj with random seed #2 ... runtime 1.42s
+Solving obj with random seed #3 ... runtime 2.68s
+Solving obj with random seed #1 ... runtime 1.36s
+Solving obj with random seed #2 ... runtime 0.51s
+Solving obj with random seed #3 ... runtime 1.61s
+Solving obj with random seed #1 ... runtime 4.47s
+Solving obj with random seed #2 ... runtime 2.98s
+Solving obj with random seed #3 ... runtime 2.28s
+Solving obj with random seed #1 ... runtime 0.18s
+Solving obj with random seed #2 ... runtime 0.30s
+Solving obj with random seed #3 ... runtime 0.25s
+Solving obj with random seed #1 ... runtime 0.88s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.30s
+Solving obj with random seed #1 ... runtime 22.85s
+Solving obj with random seed #2 ... runtime 14.74s
+Solving obj with random seed #3 ... runtime 25.08s
+Solving obj with random seed #1 ... runtime 1.04s
+Solving obj with random seed #2 ... runtime 1.14s
+Solving obj with random seed #3 ... runtime 1.88s
+Solving obj with random seed #1 ... runtime 1.27s
+Solving obj with random seed #2 ... runtime 1.09s
+Solving obj with random seed #3 ... runtime 1.71s
+Solving obj with random seed #1 ... runtime 1.34s
+Solving obj with random seed #2 ... runtime 1.39s
+Solving obj with random seed #3 ... runtime 1.12s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 1419s (2181s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 15...
+
+	PreDual 0
+
+Solving obj with random seed #1 ... runtime 2.14s
+Solving obj with random seed #2 ... runtime 1.32s
+Solving obj with random seed #3 ... runtime 2.59s
+Solving obj with random seed #1 ... runtime 1.22s
+Solving obj with random seed #2 ... runtime 0.53s
+Solving obj with random seed #3 ... runtime 1.64s
+Solving obj with random seed #1 ... runtime 4.75s
+Solving obj with random seed #2 ... runtime 3.30s
+Solving obj with random seed #3 ... runtime 1.78s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.29s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 1.55s
+Solving obj with random seed #2 ... runtime 0.48s
+Solving obj with random seed #3 ... runtime 0.34s
+Solving obj with random seed #1 ... runtime 18.47s
+Solving obj with random seed #2 ... runtime 14.36s
+Solving obj with random seed #3 ... runtime 25.25s
+Solving obj with random seed #1 ... runtime 1.16s
+Solving obj with random seed #2 ... runtime 1.18s
+Solving obj with random seed #3 ... runtime 1.56s
+Solving obj with random seed #1 ... runtime 1.28s
+Solving obj with random seed #2 ... runtime 1.13s
+Solving obj with random seed #3 ... runtime 1.72s
+Solving obj with random seed #1 ... runtime 1.67s
+Solving obj with random seed #2 ... runtime 1.42s
+Solving obj with random seed #3 ... runtime 1.11s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 1511s (2089s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 16...
+
+	Cuts 1
+
+Solving obj with random seed #1 ... runtime 2.19s
+Solving obj with random seed #2 ... runtime 1.66s
+Solving obj with random seed #3 ... runtime 2.60s
+Solving obj with random seed #1 ... runtime 1.59s
+Solving obj with random seed #2 ... runtime 0.65s
+Solving obj with random seed #3 ... runtime 1.47s
+Solving obj with random seed #1 ... runtime 4.19s
+Solving obj with random seed #2 ... runtime 2.86s
+Solving obj with random seed #3 ... runtime 1.84s
+Solving obj with random seed #1 ... runtime 0.21s
+Solving obj with random seed #2 ... runtime 0.38s
+Solving obj with random seed #3 ... runtime 0.36s
+Solving obj with random seed #1 ... runtime 0.89s
+Solving obj with random seed #2 ... runtime 0.46s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 19.58s
+Solving obj with random seed #2 ... runtime 15.35s
+Solving obj with random seed #3 ... runtime 31.14s+
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 1599s (2001s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 17...
+
+	Heuristics 0.001
+	Symmetry 2
+
+Solving obj with random seed #1 ... runtime 2.14s
+Solving obj with random seed #2 ... runtime 1.40s
+Solving obj with random seed #3 ... runtime 2.75s
+Solving obj with random seed #1 ... runtime 1.31s
+Solving obj with random seed #2 ... runtime 0.51s
+Solving obj with random seed #3 ... runtime 1.37s
+Solving obj with random seed #1 ... runtime 4.22s
+Solving obj with random seed #2 ... runtime 2.74s
+Solving obj with random seed #3 ... runtime 2.37s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.29s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.87s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 18.43s
+Solving obj with random seed #2 ... runtime 13.77s
+Solving obj with random seed #3 ... runtime 25.10s
+Solving obj with random seed #1 ... runtime 1.21s
+Solving obj with random seed #2 ... runtime 1.19s
+Solving obj with random seed #3 ... runtime 3.50s
+Solving obj with random seed #1 ... runtime 1.27s
+Solving obj with random seed #2 ... runtime 1.17s
+Solving obj with random seed #3 ... runtime 1.70s
+Solving obj with random seed #1 ... runtime 1.34s
+Solving obj with random seed #2 ... runtime 1.53s
+Solving obj with random seed #3 ... runtime 1.11s
+
+Improvement found:
+  baseline: mean runtime 3.46s
+  improved: mean runtime 3.42s
+Total elapsed tuning time 1692s (1908s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 18...
+
+	ZeroHalfCuts 1
+
+Solving obj with random seed #1 ... runtime 2.17s
+Solving obj with random seed #2 ... runtime 1.29s
+Solving obj with random seed #3 ... runtime 3.33s
+Solving obj with random seed #1 ... runtime 1.21s
+Solving obj with random seed #2 ... runtime 0.50s
+Solving obj with random seed #3 ... runtime 1.62s
+Solving obj with random seed #1 ... runtime 4.86s
+Solving obj with random seed #2 ... runtime 2.65s
+Solving obj with random seed #3 ... runtime 1.78s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.30s
+Solving obj with random seed #3 ... runtime 0.30s
+Solving obj with random seed #1 ... runtime 1.42s
+Solving obj with random seed #2 ... runtime 0.40s
+Solving obj with random seed #3 ... runtime 0.31s
+Solving obj with random seed #1 ... runtime 19.13s
+Solving obj with random seed #2 ... runtime 14.20s
+Solving obj with random seed #3 ... runtime 25.25s
+Solving obj with random seed #1 ... runtime 1.12s
+Solving obj with random seed #2 ... runtime 1.60s
+Solving obj with random seed #3 ... runtime 1.60s
+Solving obj with random seed #1 ... runtime 1.32s
+Solving obj with random seed #2 ... runtime 1.10s
+Solving obj with random seed #3 ... runtime 1.97s
+Solving obj with random seed #1 ... runtime 1.40s
+Solving obj with random seed #2 ... runtime 1.43s
+Solving obj with random seed #3 ... runtime 1.21s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 1785s (1815s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 19...
+
+	CutPasses 10
+
+Solving obj with random seed #1 ... runtime 4.95s
+Solving obj with random seed #2 ... runtime 1.39s
+Solving obj with random seed #3 ... runtime 2.56s
+Solving obj with random seed #1 ... runtime 1.52s
+Solving obj with random seed #2 ... runtime 1.29s
+Solving obj with random seed #3 ... runtime 1.61s
+Solving obj with random seed #1 ... runtime 4.25s
+Solving obj with random seed #2 ... runtime 2.72s
+Solving obj with random seed #3 ... runtime 1.77s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.30s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.88s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.30s
+Solving obj with random seed #1 ... runtime 18.60s
+Solving obj with random seed #2 ... runtime 13.96s
+Solving obj with random seed #3 ... runtime 25.35s
+Solving obj with random seed #1 ... runtime 1.07s
+Solving obj with random seed #2 ... runtime 1.11s
+Solving obj with random seed #3 ... runtime 1.74s
+Solving obj with random seed #1 ... runtime 1.46s
+Solving obj with random seed #2 ... runtime 1.20s
+Solving obj with random seed #3 ... runtime 1.75s
+Solving obj with random seed #1 ... runtime 1.37s
+Solving obj with random seed #2 ... runtime 1.48s
+Solving obj with random seed #3 ... runtime 1.37s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 1880s (1720s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 20...
+
+	DegenMoves 8
+
+Solving obj with random seed #1 ... runtime 2.18s
+Solving obj with random seed #2 ... runtime 1.41s
+Solving obj with random seed #3 ... runtime 2.73s
+Solving obj with random seed #1 ... runtime 1.36s
+Solving obj with random seed #2 ... runtime 0.68s
+Solving obj with random seed #3 ... runtime 1.52s
+Solving obj with random seed #1 ... runtime 4.69s
+Solving obj with random seed #2 ... runtime 3.17s
+Solving obj with random seed #3 ... runtime 1.82s
+Solving obj with random seed #1 ... runtime 0.15s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.26s
+Solving obj with random seed #1 ... runtime 0.89s
+Solving obj with random seed #2 ... runtime 0.43s
+Solving obj with random seed #3 ... runtime 0.45s
+Solving obj with random seed #1 ... runtime 19.60s
+Solving obj with random seed #2 ... runtime 14.87s
+Solving obj with random seed #3 ... runtime 25.65s
+Solving obj with random seed #1 ... runtime 1.05s
+Solving obj with random seed #2 ... runtime 1.16s
+Solving obj with random seed #3 ... runtime 1.49s
+Solving obj with random seed #1 ... runtime 1.33s
+Solving obj with random seed #2 ... runtime 1.11s
+Solving obj with random seed #3 ... runtime 1.86s
+Solving obj with random seed #1 ... runtime 1.39s
+Solving obj with random seed #2 ... runtime 1.50s
+Solving obj with random seed #3 ... runtime 1.11s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 1974s (1626s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 21...
+
+	CutPasses 5
+	AggFill 10
+
+Solving obj with random seed #1 ... runtime 2.15s
+Solving obj with random seed #2 ... runtime 1.36s
+Solving obj with random seed #3 ... runtime 2.38s
+Solving obj with random seed #1 ... runtime 1.28s
+Solving obj with random seed #2 ... runtime 0.50s
+Solving obj with random seed #3 ... runtime 1.67s
+Solving obj with random seed #1 ... runtime 4.39s
+Solving obj with random seed #2 ... runtime 2.89s
+Solving obj with random seed #3 ... runtime 1.85s
+Solving obj with random seed #1 ... runtime 0.17s
+Solving obj with random seed #2 ... runtime 0.30s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.90s
+Solving obj with random seed #2 ... runtime 0.52s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 19.40s
+Solving obj with random seed #2 ... runtime 15.01s
+Solving obj with random seed #3 ... runtime 25.15s
+Solving obj with random seed #1 ... runtime 1.04s
+Solving obj with random seed #2 ... runtime 1.06s
+Solving obj with random seed #3 ... runtime 1.43s
+Solving obj with random seed #1 ... runtime 1.21s
+Solving obj with random seed #2 ... runtime 1.12s
+Solving obj with random seed #3 ... runtime 1.70s
+Solving obj with random seed #1 ... runtime 1.53s
+Solving obj with random seed #2 ... runtime 2.06s
+Solving obj with random seed #3 ... runtime 1.24s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2067s (1533s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 22...
+
+	GomoryPasses 5
+
+Solving obj with random seed #1 ... runtime 2.08s
+Solving obj with random seed #2 ... runtime 1.88s
+Solving obj with random seed #3 ... runtime 2.40s
+Solving obj with random seed #1 ... runtime 1.20s
+Solving obj with random seed #2 ... runtime 0.50s
+Solving obj with random seed #3 ... runtime 2.37s
+Solving obj with random seed #1 ... runtime 4.22s
+Solving obj with random seed #2 ... runtime 2.71s
+Solving obj with random seed #3 ... runtime 1.80s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.33s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.97s
+Solving obj with random seed #2 ... runtime 0.40s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 18.79s
+Solving obj with random seed #2 ... runtime 16.38s
+Solving obj with random seed #3 ... runtime 27.15s
+Solving obj with random seed #1 ... runtime 1.13s
+Solving obj with random seed #2 ... runtime 1.12s
+Solving obj with random seed #3 ... runtime 1.57s
+Solving obj with random seed #1 ... runtime 1.32s
+Solving obj with random seed #2 ... runtime 1.18s
+Solving obj with random seed #3 ... runtime 1.84s
+Solving obj with random seed #1 ... runtime 1.74s
+Solving obj with random seed #2 ... runtime 1.51s
+Solving obj with random seed #3 ... runtime 1.27s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2164s (1436s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 23...
+
+	BranchDir -1
+	GomoryPasses 5
+
+Solving obj with random seed #1 ... runtime 2.41s
+Solving obj with random seed #2 ... runtime 1.38s
+Solving obj with random seed #3 ... runtime 2.65s
+Solving obj with random seed #1 ... runtime 1.22s
+Solving obj with random seed #2 ... runtime 0.51s
+Solving obj with random seed #3 ... runtime 1.41s
+Solving obj with random seed #1 ... runtime 4.25s
+Solving obj with random seed #2 ... runtime 2.79s
+Solving obj with random seed #3 ... runtime 1.87s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.30s
+Solving obj with random seed #3 ... runtime 0.25s
+Solving obj with random seed #1 ... runtime 0.90s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.30s
+Solving obj with random seed #1 ... runtime 19.18s
+Solving obj with random seed #2 ... runtime 14.42s
+Solving obj with random seed #3 ... runtime 26.04s
+Solving obj with random seed #1 ... runtime 1.08s
+Solving obj with random seed #2 ... runtime 1.12s
+Solving obj with random seed #3 ... runtime 1.60s
+Solving obj with random seed #1 ... runtime 1.29s
+Solving obj with random seed #2 ... runtime 1.23s
+Solving obj with random seed #3 ... runtime 1.77s
+Solving obj with random seed #1 ... runtime 1.40s
+Solving obj with random seed #2 ... runtime 1.44s
+Solving obj with random seed #3 ... runtime 1.18s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2256s (1344s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 24...
+
+	PrePasses 3
+
+Solving obj with random seed #1 ... runtime 2.15s
+Solving obj with random seed #2 ... runtime 1.35s
+Solving obj with random seed #3 ... runtime 2.54s
+Solving obj with random seed #1 ... runtime 1.26s
+Solving obj with random seed #2 ... runtime 0.51s
+Solving obj with random seed #3 ... runtime 1.74s
+Solving obj with random seed #1 ... runtime 4.25s
+Solving obj with random seed #2 ... runtime 2.82s
+Solving obj with random seed #3 ... runtime 1.92s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.30s
+Solving obj with random seed #3 ... runtime 0.25s
+Solving obj with random seed #1 ... runtime 0.90s
+Solving obj with random seed #2 ... runtime 0.40s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 19.99s
+Solving obj with random seed #2 ... runtime 14.41s
+Solving obj with random seed #3 ... runtime 25.54s
+Solving obj with random seed #1 ... runtime 1.06s
+Solving obj with random seed #2 ... runtime 1.04s
+Solving obj with random seed #3 ... runtime 1.51s
+Solving obj with random seed #1 ... runtime 1.60s
+Solving obj with random seed #2 ... runtime 1.10s
+Solving obj with random seed #3 ... runtime 1.74s
+Solving obj with random seed #1 ... runtime 1.78s
+Solving obj with random seed #2 ... runtime 1.59s
+Solving obj with random seed #3 ... runtime 1.37s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2350s (1250s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 25...
+
+	ScaleFlag 2
+
+Solving obj with random seed #1 ... runtime 2.27s
+Solving obj with random seed #2 ... runtime 1.50s
+Solving obj with random seed #3 ... runtime 2.70s
+Solving obj with random seed #1 ... runtime 1.52s
+Solving obj with random seed #2 ... runtime 0.53s
+Solving obj with random seed #3 ... runtime 1.53s
+Solving obj with random seed #1 ... runtime 4.68s
+Solving obj with random seed #2 ... runtime 4.11s
+Solving obj with random seed #3 ... runtime 2.93s
+Solving obj with random seed #1 ... runtime 0.22s
+Solving obj with random seed #2 ... runtime 0.43s
+Solving obj with random seed #3 ... runtime 0.34s
+Solving obj with random seed #1 ... runtime 1.16s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.35s
+Solving obj with random seed #1 ... runtime 27.99s
+Solving obj with random seed #2 ... runtime 18.87s
+Solving obj with random seed #3 ... runtime 25.86s
+Solving obj with random seed #1 ... runtime 1.24s
+Solving obj with random seed #2 ... runtime 1.19s
+Solving obj with random seed #3 ... runtime 1.69s
+Solving obj with random seed #1 ... runtime 1.54s
+Solving obj with random seed #2 ... runtime 1.37s
+Solving obj with random seed #3 ... runtime 2.30s
+Solving obj with random seed #1 ... runtime 1.64s
+Solving obj with random seed #2 ... runtime 1.79s
+Solving obj with random seed #3 ... runtime 1.44s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2462s (1138s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 26...
+
+	MIRCuts 0
+
+Solving obj with random seed #1 ... runtime 2.18s
+Solving obj with random seed #2 ... runtime 1.43s
+Solving obj with random seed #3 ... runtime 3.04s
+Solving obj with random seed #1 ... runtime 1.58s
+Solving obj with random seed #2 ... runtime 0.62s
+Solving obj with random seed #3 ... runtime 1.59s
+Solving obj with random seed #1 ... runtime 5.11s
+Solving obj with random seed #2 ... runtime 2.82s
+Solving obj with random seed #3 ... runtime 2.08s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.31s
+Solving obj with random seed #3 ... runtime 0.27s
+Solving obj with random seed #1 ... runtime 0.90s
+Solving obj with random seed #2 ... runtime 0.42s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 18.85s
+Solving obj with random seed #2 ... runtime 13.96s
+Solving obj with random seed #3 ... runtime 25.11s
+Solving obj with random seed #1 ... runtime 1.29s
+Solving obj with random seed #2 ... runtime 1.08s
+Solving obj with random seed #3 ... runtime 1.50s
+Solving obj with random seed #1 ... runtime 1.69s
+Solving obj with random seed #2 ... runtime 1.26s
+Solving obj with random seed #3 ... runtime 1.95s
+Solving obj with random seed #1 ... runtime 1.39s
+Solving obj with random seed #2 ... runtime 1.61s
+Solving obj with random seed #3 ... runtime 1.20s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2555s (1045s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 27...
+
+	Heuristics 0
+
+Solving obj with random seed #1 ... runtime 2.12s
+Solving obj with random seed #2 ... runtime 1.29s
+Solving obj with random seed #3 ... runtime 2.34s
+Solving obj with random seed #1 ... runtime 1.20s
+Solving obj with random seed #2 ... runtime 0.51s
+Solving obj with random seed #3 ... runtime 1.35s
+Solving obj with random seed #1 ... runtime 4.59s
+Solving obj with random seed #2 ... runtime 2.85s
+Solving obj with random seed #3 ... runtime 2.13s
+Solving obj with random seed #1 ... runtime 0.18s
+Solving obj with random seed #2 ... runtime 0.30s
+Solving obj with random seed #3 ... runtime 0.27s
+Solving obj with random seed #1 ... runtime 0.95s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 20.06s
+Solving obj with random seed #2 ... runtime 14.14s
+Solving obj with random seed #3 ... runtime 25.35s
+Solving obj with random seed #1 ... runtime 1.08s
+Solving obj with random seed #2 ... runtime 1.20s
+Solving obj with random seed #3 ... runtime 1.61s
+Solving obj with random seed #1 ... runtime 1.23s
+Solving obj with random seed #2 ... runtime 1.14s
+Solving obj with random seed #3 ... runtime 1.73s
+Solving obj with random seed #1 ... runtime 1.39s
+Solving obj with random seed #2 ... runtime 1.68s
+Solving obj with random seed #3 ... runtime 1.32s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2648s (952s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 28...
+
+	Method 0
+
+Solving obj with random seed #1 ... runtime 2.63s
+Solving obj with random seed #2 ... runtime 1.86s
+Solving obj with random seed #3 ... runtime 3.25s
+Solving obj with random seed #1 ... runtime 1.43s
+Solving obj with random seed #2 ... runtime 0.55s
+Solving obj with random seed #3 ... runtime 1.36s
+Solving obj with random seed #1 ... runtime 4.61s
+Solving obj with random seed #2 ... runtime 4.05s
+Solving obj with random seed #3 ... runtime 2.19s
+Solving obj with random seed #1 ... runtime 0.19s
+Solving obj with random seed #2 ... runtime 0.36s
+Solving obj with random seed #3 ... runtime 0.32s
+Solving obj with random seed #1 ... runtime 1.14s
+Solving obj with random seed #2 ... runtime 0.54s
+Solving obj with random seed #3 ... runtime 0.37s
+Solving obj with random seed #1 ... runtime 23.96s
+Solving obj with random seed #2 ... runtime 14.29s
+Solving obj with random seed #3 ... runtime 29.11s
+Solving obj with random seed #1 ... runtime 1.25s
+Solving obj with random seed #2 ... runtime 1.17s
+Solving obj with random seed #3 ... runtime 1.68s
+Solving obj with random seed #1 ... runtime 1.36s
+Solving obj with random seed #2 ... runtime 1.30s
+Solving obj with random seed #3 ... runtime 2.02s
+Solving obj with random seed #1 ... runtime 1.64s
+Solving obj with random seed #2 ... runtime 1.83s
+Solving obj with random seed #3 ... runtime 1.42s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2754s (846s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 29...
+
+	NormAdjust 1
+
+Solving obj with random seed #1 ... runtime 2.84s
+Solving obj with random seed #2 ... runtime 1.36s
+Solving obj with random seed #3 ... runtime 2.80s
+Solving obj with random seed #1 ... runtime 1.20s
+Solving obj with random seed #2 ... runtime 0.63s
+Solving obj with random seed #3 ... runtime 1.54s
+Solving obj with random seed #1 ... runtime 4.17s
+Solving obj with random seed #2 ... runtime 2.86s
+Solving obj with random seed #3 ... runtime 1.78s
+Solving obj with random seed #1 ... runtime 0.20s
+Solving obj with random seed #2 ... runtime 0.31s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.88s
+Solving obj with random seed #2 ... runtime 0.42s
+Solving obj with random seed #3 ... runtime 0.42s
+Solving obj with random seed #1 ... runtime 19.30s
+Solving obj with random seed #2 ... runtime 13.91s
+Solving obj with random seed #3 ... runtime 25.95s
+Solving obj with random seed #1 ... runtime 1.09s
+Solving obj with random seed #2 ... runtime 1.04s
+Solving obj with random seed #3 ... runtime 1.55s
+Solving obj with random seed #1 ... runtime 1.27s
+Solving obj with random seed #2 ... runtime 1.20s
+Solving obj with random seed #3 ... runtime 2.21s
+Solving obj with random seed #1 ... runtime 1.64s
+Solving obj with random seed #2 ... runtime 1.52s
+Solving obj with random seed #3 ... runtime 1.16s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2848s (752s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 30...
+
+	RINS 2500
+
+Solving obj with random seed #1 ... runtime 2.12s
+Solving obj with random seed #2 ... runtime 1.41s
+Solving obj with random seed #3 ... runtime 2.36s
+Solving obj with random seed #1 ... runtime 1.24s
+Solving obj with random seed #2 ... runtime 0.54s
+Solving obj with random seed #3 ... runtime 1.49s
+Solving obj with random seed #1 ... runtime 4.62s
+Solving obj with random seed #2 ... runtime 2.64s
+Solving obj with random seed #3 ... runtime 3.16s
+Solving obj with random seed #1 ... runtime 0.17s
+Solving obj with random seed #2 ... runtime 0.37s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.87s
+Solving obj with random seed #2 ... runtime 0.40s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 18.78s
+Solving obj with random seed #2 ... runtime 14.20s
+Solving obj with random seed #3 ... runtime 27.25s
+Solving obj with random seed #1 ... runtime 1.06s
+Solving obj with random seed #2 ... runtime 1.12s
+Solving obj with random seed #3 ... runtime 1.51s
+Solving obj with random seed #1 ... runtime 1.34s
+Solving obj with random seed #2 ... runtime 1.35s
+Solving obj with random seed #3 ... runtime 2.01s
+Solving obj with random seed #1 ... runtime 1.37s
+Solving obj with random seed #2 ... runtime 1.82s
+Solving obj with random seed #3 ... runtime 1.19s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 2942s (658s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 31...
+
+	MIPFocus 3
+
+Solving obj with random seed #1 ... runtime 2.16s
+Solving obj with random seed #2 ... runtime 1.49s
+Solving obj with random seed #3 ... runtime 2.45s
+Solving obj with random seed #1 ... runtime 1.30s
+Solving obj with random seed #2 ... runtime 0.51s
+Solving obj with random seed #3 ... runtime 1.41s
+Solving obj with random seed #1 ... runtime 4.39s
+Solving obj with random seed #2 ... runtime 2.93s
+Solving obj with random seed #3 ... runtime 2.01s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.34s
+Solving obj with random seed #3 ... runtime 0.32s
+Solving obj with random seed #1 ... runtime 0.89s
+Solving obj with random seed #2 ... runtime 0.40s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 18.49s
+Solving obj with random seed #2 ... runtime 14.17s
+Solving obj with random seed #3 ... runtime 29.51s
+Solving obj with random seed #1 ... runtime 1.20s
+Solving obj with random seed #2 ... runtime 1.03s
+Solving obj with random seed #3 ... runtime 1.44s
+Solving obj with random seed #1 ... runtime 1.22s
+Solving obj with random seed #2 ... runtime 1.10s
+Solving obj with random seed #3 ... runtime 1.70s
+Solving obj with random seed #1 ... runtime 1.36s
+Solving obj with random seed #2 ... runtime 1.50s
+Solving obj with random seed #3 ... runtime 1.24s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 3038s (562s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 32...
+
+	VarBranch 1
+	Presolve 2
+
+Solving obj with random seed #1 ... runtime 2.08s
+Solving obj with random seed #2 ... runtime 1.33s
+Solving obj with random seed #3 ... runtime 2.50s
+Solving obj with random seed #1 ... runtime 1.23s
+Solving obj with random seed #2 ... runtime 0.55s
+Solving obj with random seed #3 ... runtime 1.34s
+Solving obj with random seed #1 ... runtime 4.14s
+Solving obj with random seed #2 ... runtime 2.94s
+Solving obj with random seed #3 ... runtime 1.99s
+Solving obj with random seed #1 ... runtime 0.19s
+Solving obj with random seed #2 ... runtime 0.29s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.89s
+Solving obj with random seed #2 ... runtime 0.41s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 19.70s
+Solving obj with random seed #2 ... runtime 14.24s
+Solving obj with random seed #3 ... runtime 25.66s
+Solving obj with random seed #1 ... runtime 1.03s
+Solving obj with random seed #2 ... runtime 1.03s
+Solving obj with random seed #3 ... runtime 1.83s
+Solving obj with random seed #1 ... runtime 1.41s
+Solving obj with random seed #2 ... runtime 1.30s
+Solving obj with random seed #3 ... runtime 1.80s
+Solving obj with random seed #1 ... runtime 1.38s
+Solving obj with random seed #2 ... runtime 1.50s
+Solving obj with random seed #3 ... runtime 1.15s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 3130s (470s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 33...
+
+	DegenMoves 0
+
+Solving obj with random seed #1 ... runtime 2.43s
+Solving obj with random seed #2 ... runtime 1.54s
+Solving obj with random seed #3 ... runtime 2.39s
+Solving obj with random seed #1 ... runtime 1.57s
+Solving obj with random seed #2 ... runtime 0.67s
+Solving obj with random seed #3 ... runtime 1.35s
+Solving obj with random seed #1 ... runtime 4.73s
+Solving obj with random seed #2 ... runtime 3.13s
+Solving obj with random seed #3 ... runtime 2.02s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.29s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.91s
+Solving obj with random seed #2 ... runtime 0.40s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 21.47s
+Solving obj with random seed #2 ... runtime 14.38s
+Solving obj with random seed #3 ... runtime 25.64s
+Solving obj with random seed #1 ... runtime 1.13s
+Solving obj with random seed #2 ... runtime 1.26s
+Solving obj with random seed #3 ... runtime 1.50s
+Solving obj with random seed #1 ... runtime 1.44s
+Solving obj with random seed #2 ... runtime 1.30s
+Solving obj with random seed #3 ... runtime 2.48s
+Solving obj with random seed #1 ... runtime 3.34s
+Solving obj with random seed #2 ... runtime 1.73s
+Solving obj with random seed #3 ... runtime 1.43s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 3229s (371s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 34...
+
+	BranchDir -1
+
+Solving obj with random seed #1 ... runtime 2.60s
+Solving obj with random seed #2 ... runtime 1.60s
+Solving obj with random seed #3 ... runtime 3.25s
+Solving obj with random seed #1 ... runtime 1.56s
+Solving obj with random seed #2 ... runtime 0.68s
+Solving obj with random seed #3 ... runtime 1.72s
+Solving obj with random seed #1 ... runtime 5.15s
+Solving obj with random seed #2 ... runtime 2.79s
+Solving obj with random seed #3 ... runtime 2.11s
+Solving obj with random seed #1 ... runtime 0.16s
+Solving obj with random seed #2 ... runtime 0.32s
+Solving obj with random seed #3 ... runtime 0.27s
+Solving obj with random seed #1 ... runtime 1.02s
+Solving obj with random seed #2 ... runtime 0.48s
+Solving obj with random seed #3 ... runtime 0.39s
+Solving obj with random seed #1 ... runtime 23.49s
+Solving obj with random seed #2 ... runtime 14.18s
+Solving obj with random seed #3 ... runtime 31.38s+
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 3322s (278s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 35...
+
+	Aggregate 0
+
+Solving obj with random seed #1 ... runtime 2.32s
+Solving obj with random seed #2 ... runtime 1.41s
+Solving obj with random seed #3 ... runtime 2.72s
+Solving obj with random seed #1 ... runtime 1.38s
+Solving obj with random seed #2 ... runtime 0.49s
+Solving obj with random seed #3 ... runtime 1.88s
+Solving obj with random seed #1 ... runtime 5.19s
+Solving obj with random seed #2 ... runtime 2.96s
+Solving obj with random seed #3 ... runtime 1.83s
+Solving obj with random seed #1 ... runtime 0.15s
+Solving obj with random seed #2 ... runtime 0.29s
+Solving obj with random seed #3 ... runtime 0.23s
+Solving obj with random seed #1 ... runtime 0.86s
+Solving obj with random seed #2 ... runtime 0.40s
+Solving obj with random seed #3 ... runtime 0.29s
+Solving obj with random seed #1 ... runtime 20.23s
+Solving obj with random seed #2 ... runtime 14.58s
+Solving obj with random seed #3 ... runtime 28.73s
+Solving obj with random seed #1 ... runtime 1.03s
+Solving obj with random seed #2 ... runtime 1.29s
+Solving obj with random seed #3 ... runtime 1.64s
+Solving obj with random seed #1 ... runtime 1.27s
+Solving obj with random seed #2 ... runtime 1.23s
+Solving obj with random seed #3 ... runtime 1.69s
+Solving obj with random seed #1 ... runtime 1.44s
+Solving obj with random seed #2 ... runtime 1.38s
+Solving obj with random seed #3 ... runtime 1.11s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 3420s (180s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 36...
+
+	DegenMoves 2
+
+Solving obj with random seed #1 ... runtime 2.05s
+Solving obj with random seed #2 ... runtime 2.35s
+Solving obj with random seed #3 ... runtime 2.42s
+Solving obj with random seed #1 ... runtime 1.30s
+Solving obj with random seed #2 ... runtime 0.54s
+Solving obj with random seed #3 ... runtime 2.38s
+Solving obj with random seed #1 ... runtime 4.17s
+Solving obj with random seed #2 ... runtime 2.61s
+Solving obj with random seed #3 ... runtime 1.81s
+Solving obj with random seed #1 ... runtime 0.23s
+Solving obj with random seed #2 ... runtime 0.35s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.94s
+Solving obj with random seed #2 ... runtime 0.52s
+Solving obj with random seed #3 ... runtime 0.34s
+Solving obj with random seed #1 ... runtime 19.70s
+Solving obj with random seed #2 ... runtime 14.70s
+Solving obj with random seed #3 ... runtime 24.86s
+Solving obj with random seed #1 ... runtime 2.36s
+Solving obj with random seed #2 ... runtime 1.44s
+Solving obj with random seed #3 ... runtime 1.80s
+Solving obj with random seed #1 ... runtime 1.21s
+Solving obj with random seed #2 ... runtime 1.08s
+Solving obj with random seed #3 ... runtime 1.89s
+Solving obj with random seed #1 ... runtime 1.48s
+Solving obj with random seed #2 ... runtime 1.39s
+Solving obj with random seed #3 ... runtime 1.11s
+
+Progress so far:
+  baseline: mean runtime 3.46s
+  best:     mean runtime 3.42s
+Total elapsed tuning time 3516s (84s remaining)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 37...
+
+	Heuristics 0
+	Aggregate 0
+
+Solving obj with random seed #1 ... runtime 2.12s
+Solving obj with random seed #2 ... runtime 1.50s
+Solving obj with random seed #3 ... runtime 2.53s
+Solving obj with random seed #1 ... runtime 1.29s
+Solving obj with random seed #2 ... runtime 0.57s
+Solving obj with random seed #3 ... runtime 1.35s
+Solving obj with random seed #1 ... runtime 4.27s
+Solving obj with random seed #2 ... runtime 2.87s
+Solving obj with random seed #3 ... runtime 2.11s
+Solving obj with random seed #1 ... runtime 0.19s
+Solving obj with random seed #2 ... runtime 0.31s
+Solving obj with random seed #3 ... runtime 0.24s
+Solving obj with random seed #1 ... runtime 0.87s
+Solving obj with random seed #2 ... runtime 0.48s
+Solving obj with random seed #3 ... runtime 0.53s
+Solving obj with random seed #1 ... runtime 19.47s
+Solving obj with random seed #2 ... runtime 14.15s
+Solving obj with random seed #3 ... runtime 25.17s
+Solving obj with random seed #1 ... runtime 1.04s
+Solving obj with random seed #2 ... runtime 1.16s
+Solving obj with random seed #3 ... runtime 1.47s
+Solving obj with random seed #1 ... 
+
+Tune time limit reached.
+
+-------------------------------------------------------------------------------
+
+Tested 36 parameter sets in 3600.00s
+
+Baseline parameter set: mean runtime 3.46s
+
+Improved parameter set 1 (mean runtime 3.42s):
+
+	Heuristics 0.001
+	Symmetry 2
+
+Improved parameter set 2 (mean runtime 3.42s):
+
+	CutPasses 3
+

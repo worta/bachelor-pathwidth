@@ -75,7 +75,6 @@ x12x6_N2: X6s - X12e <= 0
 x12x5_N1: X12s - X5e <= 0 
 x12x5_N2: X5s - X12e <= 0 
 
-\Limit occurence of single connected nodes:
 X0s + 13 countCheck0_X0s >= 1
 X0e - 13 countCheck0_X0e <= -1
 -2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1

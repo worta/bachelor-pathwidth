@@ -97,7 +97,6 @@ x15x4_N2: X4s - X15e <= 0
 x16x5_N1: X16s - X5e <= 0 
 x16x5_N2: X5s - X16e <= 0 
 
-\Limit occurence of single connected nodes:
 X0s + 17 countCheck0_X0s >= 1
 X0e - 17 countCheck0_X0e <= -1
 -2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1

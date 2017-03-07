@@ -1,0 +1,8 @@
+Report Gurobi:Tue Feb  7 15:43:06 2017
+Tested:RandomSize15 
+Name                          Generation Time     Solve Time          Pathwidth           n+m                 
+RandomSize15/graph5.graph     0.06016612          obi Optimi          zer versio          69                       
+RandomSize15/graph2.graph     0.04537534          obi Optimi          zer versio          65                       
+RandomSize15/graph1.graph     0.04393053          obi Optimi          zer versio          68                       
+RandomSize15/graph4.graph     0.04606294          obi Optimi          zer versio          74                       
+RandomSize15/graph3.graph     0.04107642          obi Optimi          zer versio          70                       

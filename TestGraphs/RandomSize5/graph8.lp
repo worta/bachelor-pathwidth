@@ -28,7 +28,6 @@ x1x3_N2: X3s - X1e <= 0
 x2x4_N1: X2s - X4e <= 0 
 x2x4_N2: X4s - X2e <= 0 
 
-\Limit occurence of single connected nodes:
 X0s + 5 countCheck0_X0s >= 1
 X0e - 5 countCheck0_X0e <= -1
 -2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1
@@ -126,6 +125,7 @@ Bounds
 0 <= X4e <= 3 
 
 General 
+pathWidth 
 X0s 
 X0e 
 X1s 
@@ -136,10 +136,6 @@ X3s
 X3e 
 X4s 
 X4e 
-pathWidth 
-pathWidth 
-pathWidth 
-pathWidth 
 
 Binary 
 countCheck0_X0s 

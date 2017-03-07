@@ -80,7 +80,6 @@ x17x2_N2: X2s - X17e <= 0
 x17x5_N1: X17s - X5e <= 0 
 x17x5_N2: X5s - X17e <= 0 
 
-\Limit occurence of single connected nodes:
 X0s + 18 countCheck0_X0s >= 1
 X0e - 18 countCheck0_X0e <= -1
 -2 count0_X0 + countCheck0_X0s  + countCheck0_X0e  <= 1

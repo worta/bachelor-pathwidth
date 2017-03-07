@@ -1,0 +1,28 @@
+Report Gurobi:Mon Mar  6 23:50:58 2017
+Tested:RandomSize8 
+Name                          Generation Time     Solve Time          Pathwidth           n+m                 
+RandomSize8/graph25.graph     0.08392930          1.77                4.00000000          23                       
+RandomSize8/graph5.graph      0.04765295          1.73                4.00000000          23                       
+RandomSize8/graph2.graph      0.05178880          4.06                5.00000000          29                       
+RandomSize8/graph7.graph      0.04865837          0.75                3.00000000          18                       
+RandomSize8/graph12.graph     0.05194401          1.78                4.00000000          26                       
+RandomSize8/graph10.graph     0.04388189          0.89                3.00000000          22                       
+RandomSize8/graph24.graph     0.04382562          0.57                3.00000000          18                       
+RandomSize8/graph1.graph      0.04594326          2.32                4.00000000          24                       
+RandomSize8/graph17.graph     0.04435944          1.13                3.00000000          20                       
+RandomSize8/graph14.graph     0.04515719          1.91                4.00000000          24                       
+RandomSize8/graph4.graph      0.04950094          0.85                3.00000000          19                       
+RandomSize8/graph23.graph     0.06227135          0.92                3.00000000          20                       
+RandomSize8/graph3.graph      0.04962944          1.71                4.00000000          26                       
+RandomSize8/graph11.graph     0.04280066          0.85                3.00000000          20                       
+RandomSize8/graph13.graph     0.04409217          1.25                4.00000000          23                       
+RandomSize8/graph18.graph     0.04417061          1.65                4.00000000          23                       
+RandomSize8/graph21.graph     0.05169725          1.16                3.00000000          20                       
+RandomSize8/graph15.graph     0.06060218          2.26                4.00000000          26                       
+RandomSize8/graph9.graph      0.06168985          1.61                4.00000000          21                       
+RandomSize8/graph19.graph     0.04330468          1.59                4.00000000          24                       
+RandomSize8/graph16.graph     0.04338765          1.89                4.00000000          25                       
+RandomSize8/graph20.graph     0.04375791          1.84                4.00000000          22                       
+RandomSize8/graph6.graph      0.04566168          1.32                3.00000000          24                       
+RandomSize8/graph22.graph     0.05019497          3.76                5.00000000          28                       
+RandomSize8/graph8.graph      0.04314303          2.02                4.00000000          23                       

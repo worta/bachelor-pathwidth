@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml">
+<graph edgedefault="undirected">
+<node id="192"/>
+<node id="193"/>
+<node id="194"/>
+<node id="195"/>
+<node id="196"/>
+<node id="197"/>
+<node id="189"/>
+<node id="190"/>
+<node id="191"/>
+<edge source="192" target="197"/>
+<edge source="196" target="194"/>
+<edge source="192" target="194"/>
+<edge source="195" target="190"/>
+<edge source="192" target="189"/>
+<edge source="192" target="190"/>
+<edge source="191" target="194"/>
+<edge source="193" target="197"/>
+<edge source="192" target="193"/>
+<edge source="194" target="195"/>
+<edge source="194" target="193"/>
+<edge source="195" target="197"/>
+<edge source="193" target="195"/>
+<edge source="197" target="190"/>
+<edge source="195" target="191"/>
+<edge source="190" target="193"/>
+<edge source="195" target="192"/>
+<edge source="197" target="191"/>
+</graph>
+</graphml>
